@@ -1,3 +1,7 @@
+# MES-056 ER上下版面
+
+所有ER介紹採上總圖／下關聯與教學，選主詞自動放大置中；全圖按鈕保留介紹，回目前主詞恢復聚焦。手機不倒序。沿線點選也同步下圖。觸控pointerup時不可立即捲頁，避免相容click誤觸工具列。讀workitems/mes-056/REVIEW.md；check.py共343項通過，證據tests/evidence/mes-056。原SVG/JSON不變；implement.py與sync_walk.py為一次性工具，不重跑。使用者審閱pending。
+
 # MES-055 指定頁面視覺與解說補強
 
 已重整 index#foup/#slot/#lot/#explore、topic load，補 flowkey/available/eqpstatus/eqpkey/location/lotstep/contents 專屬圖文。參考 material；10張新圖在 assets/mes-055。lesson-refresh 與 topic-refresh 為本輪入口，後者須在 er-teaching-base 後、topic/er-atlas 前載入。load 互動需先展開 refresh-lab。讀 workitems/mes-055/REVIEW.md；檢查 check.py、audit.py、regression.py。149項功能檢查通過，26視圖證據位於 tests/evidence/mes-055。使用者審閱 pending，不宣稱品質分數。

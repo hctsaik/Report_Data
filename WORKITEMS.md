@@ -286,3 +286,6 @@ fhwlths改依使用者定義說明時間、Wafer及Split／Merge進FOUP的更新
 # MES-055｜指定頁面圖文補強
 
 12個指定頁面已調整，material為參考對照。10張新圖、7個主題案例解說、基礎四頁寬單欄、裝載互動可展開。驗證與限制見 workitems/mes-055/REVIEW.md；使用者審閱 pending。
+# MES-056｜ER上下排列
+
+共用ER上下版面、當前Table自動放大置中、全圖與回主詞切換、沿線與下圖同步已實作。343項檢查通過，見workitems/mes-056/REVIEW.md；使用者審閱pending。

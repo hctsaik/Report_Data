@@ -12,7 +12,7 @@
     detailsWereOpen=document.getElementById('selection-details').open;
     document.getElementById('selection-details').open=true;
     dialog.append(panel);
-    button.textContent='收回右側 ↙';
+    button.textContent='收回介紹 ↙';
     button.setAttribute('aria-expanded','true');
     dialog.showModal();
     dialog.scrollTop=0;
@@ -21,7 +21,7 @@
   dialog.addEventListener('close',()=>{
     anchor.after(panel);
     document.getElementById('selection-details').open=detailsWereOpen;
-    button.textContent='展開右側 ↗';
+    button.textContent='放大介紹 ↗';
     button.setAttribute('aria-expanded','false');
     window.ER_FOCUS.refresh();
     window.scrollTo(0,previousScroll);

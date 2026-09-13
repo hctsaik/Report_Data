@@ -20,8 +20,19 @@
 #focus-dialog{width:min(1040px,96vw);max-height:94vh;border:1px solid #b4cadd;border-radius:12px;padding:18px;overflow:auto}
 #focus-dialog::backdrop{background:#102b42bb}
 #focus-dialog form{text-align:right;position:sticky;top:0;background:#fff;z-index:1;padding:6px}
-.workspace{grid-template-columns:minmax(0,1fr) minmax(0,1fr)}
+.workspace{display:grid;grid-template-columns:minmax(0,1fr);gap:24px}
 .focus-takeaway{background:#FFF4CC;border:1px solid #e5bd59;border-radius:7px;padding:10px;font-size:14px}
 #selection-details{margin:12px 0}
-@media(max-width:950px){.workspace{display:flex;flex-direction:column}.workspace> *{width:100%}#inspector{order:-1}}
+@media(max-width:950px){.workspace> *{width:100%}#inspector{order:initial}}
 @media(max-width:600px){#inspector{padding:10px}#focus-panel{padding:8px}#focus-title{font-size:21px}#focus-dialog{padding:8px}}
+
+/* MES056: one shared vertical presentation for every ER subject. */
+#map-subject{padding:18px 20px 0;margin:0;font-size:21px;overflow-wrap:anywhere;scroll-margin-top:20px}
+#canvas,.walk-tools[hidden]+#canvas{height:clamp(360px,55vh,640px)}
+#inspector{scroll-margin-top:20px;padding:24px}
+#inspector .teaching-figure{max-width:1100px;margin-inline:auto}
+#inspector .inspector-toolbar{position:static;flex-wrap:wrap}
+#selection-details{font-size:18px;line-height:1.85}
+#selection-details h3{font-size:22px}
+#meaning{font-size:18px}
+@media(max-width:600px){#canvas,.walk-tools[hidden]+#canvas{height:360px}#map-subject{font-size:18px;padding:14px 12px 0}#inspector{padding:12px}#selection-details{padding:12px;font-size:16px}#meaning{font-size:16px}}

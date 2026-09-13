@@ -3029,3 +3029,6 @@ BMIR、Port UP／LOST、Lot RQHBE、KER_WIP_Y_BTH 每日07:20快照，已補專�
 # MES-055｜實物與主題解說
 
 使用者指出指定頁面不好看且缺少解說，指定material為參考。已依實物→概念→查詢分層重製，詳見workitems/mes-055/REVIEW.md。初稿加工誤入FOUP、門體與槽序錯誤均已修正；不能因為生成成功就使用。26視圖與149操作檢查不代表真人學習成效，使用者審閱pending。
+# MES-056｜總圖上、介紹下
+
+使用者指定取代左右各半；已統一ER為上下區，聚焦Table時保留整張SVG。全圖保留當前介紹、提供上下跳轉。手機真實觸控發現pointerup捲頁引起相容click誤觸，已修正。343項功能檢查通過，代表截圖已看，無自動美感評分。詳workitems/mes-056/REVIEW.md。
