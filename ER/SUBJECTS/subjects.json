@@ -1,0 +1,1650 @@
+{
+  "version": 1,
+  "model": "ER/INTEGRATED/er-model-v2.json",
+  "model_sha256": "59a297b01b3df40776eb7f37a80044351e30c8256404c3b25fa915c6c851a0e7",
+  "subjects": [
+    {
+      "key": "lot",
+      "title": "以 Lot 看裝載、設備安排與流程",
+      "description": "Lot 是生產批次。圖中同時保留 FOUP、EQP 與 Flow，從 Lot 的裝載、帶到（本站可用機台）及流程定義理解資料。帶到（本站可用機台）設備與 FOUP 所在設備可能是不同設備 ID，不能因共用 EQP 實體框便認定同台。",
+      "subject": "t_cfc81de70314",
+      "core": {
+        "nodes": [
+          "n_2671_cast-link",
+          "n_2671_location",
+          "n_2671_lot-eqp",
+          "n_2673_flow-link",
+          "t_55072ef91a15",
+          "t_7f282520afb8",
+          "t_cfc81de70314",
+          "t_d4d030ed08a4"
+        ],
+        "edges": [
+          "e_n_2671_cast-link_t_55072ef91a15",
+          "e_n_2671_cast-link_t_cfc81de70314",
+          "e_n_2671_location_t_55072ef91a15",
+          "e_n_2671_location_t_7f282520afb8",
+          "e_n_2671_lot-eqp_t_7f282520afb8",
+          "e_n_2671_lot-eqp_t_cfc81de70314",
+          "e_n_2673_flow-link_t_cfc81de70314",
+          "e_n_2673_flow-link_t_d4d030ed08a4"
+        ],
+        "relations": [
+          "n_2671_cast-link",
+          "n_2671_location",
+          "n_2671_lot-eqp",
+          "n_2673_flow-link"
+        ]
+      },
+      "branches": [
+        {
+          "key": "loading",
+          "title": "裝載、Slot 與容器",
+          "description": "Lot 是批次、FOUP 是實體容器；裝載與 Slot 對應是不同關係。兩種容器資料表保持各自身分。",
+          "nodes": [
+            "n_2671_cast-link",
+            "n_2671_material-link",
+            "n_2671_slot",
+            "t_55072ef91a15",
+            "t_b293b57a5ae2",
+            "t_cfc81de70314"
+          ],
+          "edges": [
+            "e_n_2671_cast-link_t_55072ef91a15",
+            "e_n_2671_cast-link_t_cfc81de70314",
+            "e_n_2671_material-link_t_b293b57a5ae2",
+            "e_n_2671_material-link_t_cfc81de70314",
+            "e_n_2671_slot_t_55072ef91a15",
+            "e_n_2671_slot_t_cfc81de70314"
+          ],
+          "relations": [
+            "n_2671_cast-link",
+            "n_2671_material-link",
+            "n_2671_slot"
+          ]
+        },
+        {
+          "key": "handoff",
+          "title": "Port 與設備交接",
+          "description": "Lot 與 Port 的 EI 在關係、Port 所屬設備與 Lot 帶到（本站可用機台）設備分別保留。不能直接解讀為 Lot 正在加工。",
+          "nodes": [
+            "n_2671_has",
+            "n_2671_lot-eqp",
+            "n_2671_port-link",
+            "t_7f282520afb8",
+            "t_a43ff774d728",
+            "t_cfc81de70314"
+          ],
+          "edges": [
+            "e_n_2671_has_t_7f282520afb8",
+            "e_n_2671_has_t_a43ff774d728",
+            "e_n_2671_lot-eqp_t_7f282520afb8",
+            "e_n_2671_lot-eqp_t_cfc81de70314",
+            "e_n_2671_port-link_t_a43ff774d728",
+            "e_n_2671_port-link_t_cfc81de70314"
+          ],
+          "relations": [
+            "n_2671_has",
+            "n_2671_lot-eqp",
+            "n_2671_port-link"
+          ]
+        },
+        {
+          "key": "dispatch",
+          "title": "Lot 預派記錄",
+          "description": "預派記錄是安排的紀錄；它不是設備實際加工紀錄。",
+          "nodes": [
+            "n_2672_pre-link",
+            "t_cfc81de70314",
+            "t_d7f7aa94ad34"
+          ],
+          "edges": [
+            "e_n_2672_pre-link_t_cfc81de70314",
+            "e_n_2672_pre-link_t_d7f7aa94ad34"
+          ],
+          "relations": [
+            "n_2672_pre-link"
+          ]
+        },
+        {
+          "key": "control",
+          "title": "Product Hold 與 Future Hold",
+          "description": "Product Hold 與 Future Hold 是不同資料關係；Future Hold 不能直接當成已生效的當前 Hold。",
+          "nodes": [
+            "n_2673_future-link",
+            "n_2673_hold-link",
+            "t_52a86ba40707",
+            "t_604a111deb74",
+            "t_cfc81de70314"
+          ],
+          "edges": [
+            "e_n_2673_future-link_t_604a111deb74",
+            "e_n_2673_future-link_t_cfc81de70314",
+            "e_n_2673_hold-link_t_52a86ba40707",
+            "e_n_2673_hold-link_t_cfc81de70314"
+          ],
+          "relations": [
+            "n_2673_future-link",
+            "n_2673_hold-link"
+          ]
+        },
+        {
+          "key": "history",
+          "title": "過站、站點與批貨歷史",
+          "description": "Move 是 Lot 過站事件，重工計入；不是 FOUP 搬送。MOVE 菱形原有三個端點，全部保留。",
+          "nodes": [
+            "n_2672_all-actions",
+            "n_2672_move-link",
+            "n_2672_summary",
+            "t_178593e830a1",
+            "t_a24726d7a0b3",
+            "t_b474e516b8d5",
+            "t_cfc81de70314"
+          ],
+          "edges": [
+            "e_n_2672_all-actions_t_a24726d7a0b3",
+            "e_n_2672_all-actions_t_cfc81de70314",
+            "e_n_2672_move-link_t_178593e830a1",
+            "e_n_2672_move-link_t_a24726d7a0b3",
+            "e_n_2672_move-link_t_cfc81de70314",
+            "e_n_2672_summary_t_b474e516b8d5",
+            "e_n_2672_summary_t_cfc81de70314"
+          ],
+          "relations": [
+            "n_2672_all-actions",
+            "n_2672_move-link",
+            "n_2672_summary"
+          ]
+        },
+        {
+          "key": "forecast",
+          "title": "未來 Flow 與到站預測",
+          "description": "預測未來站點與到站時間，不代表現在位置。來源未列 schema 的資料不與其他表合併。",
+          "nodes": [
+            "n_2673_forecast-link",
+            "n_2673_stream",
+            "n_2673_stream-link",
+            "t_2a2c1cb80c6c",
+            "t_cfc81de70314"
+          ],
+          "edges": [
+            "e_n_2673_forecast-link_t_2a2c1cb80c6c",
+            "e_n_2673_forecast-link_t_cfc81de70314",
+            "e_n_2673_stream-link_t_cfc81de70314",
+            "e_n_2673_stream_n_2673_stream-link"
+          ],
+          "relations": [
+            "n_2673_forecast-link",
+            "n_2673_stream-link"
+          ]
+        },
+        {
+          "key": "flow",
+          "title": "Lot 的流程與 Stage 定義",
+          "description": "沿 Lot 的 Part／Mainpd_id 找 Flow 定義，再沿原 Stage 定義關係看 Stage 與 Module 資料。",
+          "nodes": [
+            "n_2673_flow-link",
+            "n_2673_stage-link",
+            "t_27f08dfbff23",
+            "t_cfc81de70314",
+            "t_d4d030ed08a4"
+          ],
+          "edges": [
+            "e_n_2673_flow-link_t_cfc81de70314",
+            "e_n_2673_flow-link_t_d4d030ed08a4",
+            "e_n_2673_stage-link_t_27f08dfbff23",
+            "e_n_2673_stage-link_t_d4d030ed08a4"
+          ],
+          "relations": [
+            "n_2673_flow-link",
+            "n_2673_stage-link"
+          ]
+        }
+      ],
+      "direct_relationship_count": 14
+    },
+    {
+      "key": "carrier",
+      "title": "以 FOUP 看裝載、位置與搬送",
+      "description": "FOUP 是承載晶圓的實體容器。Lot 裝載、Slot 對應、所在設備及預派設備是不同關係；所在與預派也不保證是同一台設備。",
+      "subject": "t_55072ef91a15",
+      "core": {
+        "nodes": [
+          "n_2671_cast-link",
+          "n_2671_location",
+          "n_2671_predispatch",
+          "n_2671_slot",
+          "t_55072ef91a15",
+          "t_7f282520afb8",
+          "t_cfc81de70314"
+        ],
+        "edges": [
+          "e_n_2671_cast-link_t_55072ef91a15",
+          "e_n_2671_cast-link_t_cfc81de70314",
+          "e_n_2671_location_t_55072ef91a15",
+          "e_n_2671_location_t_7f282520afb8",
+          "e_n_2671_predispatch_t_55072ef91a15",
+          "e_n_2671_predispatch_t_7f282520afb8",
+          "e_n_2671_slot_t_55072ef91a15",
+          "e_n_2671_slot_t_cfc81de70314"
+        ],
+        "relations": [
+          "n_2671_cast-link",
+          "n_2671_location",
+          "n_2671_predispatch",
+          "n_2671_slot"
+        ]
+      },
+      "branches": [
+        {
+          "key": "loading",
+          "title": "Lot 裝載與 Slot",
+          "description": "同一 FOUP 可沿裝載與 Slot 兩種關係對應 Lot；保留兩個不同關係菱形。",
+          "nodes": [
+            "n_2671_cast-link",
+            "n_2671_slot",
+            "t_55072ef91a15",
+            "t_cfc81de70314"
+          ],
+          "edges": [
+            "e_n_2671_cast-link_t_55072ef91a15",
+            "e_n_2671_cast-link_t_cfc81de70314",
+            "e_n_2671_slot_t_55072ef91a15",
+            "e_n_2671_slot_t_cfc81de70314"
+          ],
+          "relations": [
+            "n_2671_cast-link",
+            "n_2671_slot"
+          ]
+        },
+        {
+          "key": "location",
+          "title": "所在設備與預派設備",
+          "description": "FOUP 位於設備的資料與預派機台資料用途不同；設備 ID 需要分別確認。",
+          "nodes": [
+            "n_2671_location",
+            "n_2671_predispatch",
+            "t_55072ef91a15",
+            "t_7f282520afb8"
+          ],
+          "edges": [
+            "e_n_2671_location_t_55072ef91a15",
+            "e_n_2671_location_t_7f282520afb8",
+            "e_n_2671_predispatch_t_55072ef91a15",
+            "e_n_2671_predispatch_t_7f282520afb8"
+          ],
+          "relations": [
+            "n_2671_location",
+            "n_2671_predispatch"
+          ]
+        },
+        {
+          "key": "transfer",
+          "title": "MES 與 MCS 搬送歷史",
+          "description": "搬送追蹤以 Carrier_id 等鍵連接；它是載具搬送歷史，不是 Lot Move 過站事件。",
+          "nodes": [
+            "n_2672_mcs-history",
+            "n_2672_mcs-transfer",
+            "n_2672_mes-transfer",
+            "n_2672_transfer",
+            "t_55072ef91a15"
+          ],
+          "edges": [
+            "e_n_2672_mcs-history_n_2672_mcs-transfer",
+            "e_n_2672_mcs-transfer_t_55072ef91a15",
+            "e_n_2672_mes-transfer_n_2672_transfer",
+            "e_n_2672_mes-transfer_t_55072ef91a15"
+          ],
+          "relations": [
+            "n_2672_mcs-transfer",
+            "n_2672_mes-transfer"
+          ]
+        },
+        {
+          "key": "step-history",
+          "title": "FOUP 與 Lot 站點歷史",
+          "description": "依原圖的 Lot 在 Foup 內關係連接站點歷史；歷史紀錄不等同於當前裝載狀態。",
+          "nodes": [
+            "n_2672_cast-link",
+            "t_55072ef91a15",
+            "t_b474e516b8d5"
+          ],
+          "edges": [
+            "e_n_2672_cast-link_t_55072ef91a15",
+            "e_n_2672_cast-link_t_b474e516b8d5"
+          ],
+          "relations": [
+            "n_2672_cast-link"
+          ]
+        },
+        {
+          "key": "qtime",
+          "title": "站點歷史與 Qtime",
+          "description": "從 FOUP 關聯的站點歷史，再沿 Lot_ID／Ope_no 看 Qtime 歷史；不能把此鏈當作即時管制判定。",
+          "nodes": [
+            "n_2672_cast-link",
+            "n_2672_qtime-link",
+            "t_55072ef91a15",
+            "t_b474e516b8d5",
+            "t_f1dc5d6bcd1f"
+          ],
+          "edges": [
+            "e_n_2672_cast-link_t_55072ef91a15",
+            "e_n_2672_cast-link_t_b474e516b8d5",
+            "e_n_2672_qtime-link_t_b474e516b8d5",
+            "e_n_2672_qtime-link_t_f1dc5d6bcd1f"
+          ],
+          "relations": [
+            "n_2672_cast-link",
+            "n_2672_qtime-link"
+          ]
+        }
+      ],
+      "direct_relationship_count": 7
+    },
+    {
+      "key": "equipment",
+      "title": "以 EQP 看交接位置與設備結構",
+      "description": "EQP 是設備主詞，連到 FOUP 位置、Lot 帶到（本站可用機台）、Port 與 Chamber。不同關係可能指向不同设备實例；本圖的設備框代表資料實體類型。",
+      "subject": "t_7f282520afb8",
+      "core": {
+        "nodes": [
+          "n_2671_location",
+          "n_2671_lot-eqp",
+          "n_2674_chamber",
+          "n_2674_chamber-link",
+          "n_2674_port-link",
+          "t_0ab0fee39360",
+          "t_55072ef91a15",
+          "t_7f282520afb8",
+          "t_cfc81de70314"
+        ],
+        "edges": [
+          "e_n_2671_location_t_55072ef91a15",
+          "e_n_2671_location_t_7f282520afb8",
+          "e_n_2671_lot-eqp_t_7f282520afb8",
+          "e_n_2671_lot-eqp_t_cfc81de70314",
+          "e_n_2674_chamber-link_t_7f282520afb8",
+          "e_n_2674_chamber_n_2674_chamber-link",
+          "e_n_2674_port-link_t_0ab0fee39360",
+          "e_n_2674_port-link_t_7f282520afb8"
+        ],
+        "relations": [
+          "n_2671_location",
+          "n_2671_lot-eqp",
+          "n_2674_chamber-link",
+          "n_2674_port-link"
+        ]
+      },
+      "branches": [
+        {
+          "key": "handoff",
+          "title": "Lot、Port 與設備交接",
+          "description": "Siview.Port 與 SIVIEW.FRPORT 是不同表，不合併。Lot 的 EI 在與帶到（本站可用機台）關係也分別保留。",
+          "nodes": [
+            "n_2671_has",
+            "n_2671_lot-eqp",
+            "n_2671_port-link",
+            "t_7f282520afb8",
+            "t_a43ff774d728",
+            "t_cfc81de70314"
+          ],
+          "edges": [
+            "e_n_2671_has_t_7f282520afb8",
+            "e_n_2671_has_t_a43ff774d728",
+            "e_n_2671_lot-eqp_t_7f282520afb8",
+            "e_n_2671_lot-eqp_t_cfc81de70314",
+            "e_n_2671_port-link_t_a43ff774d728",
+            "e_n_2671_port-link_t_cfc81de70314"
+          ],
+          "relations": [
+            "n_2671_has",
+            "n_2671_lot-eqp",
+            "n_2671_port-link"
+          ]
+        },
+        {
+          "key": "carrier",
+          "title": "FOUP 位置與 Lot 預派",
+          "description": "設備可以是 FOUP 所在位置或 Lot 被派工系統預派的目標；兩種關係不表示同一設備 ID。",
+          "nodes": [
+            "n_2671_location",
+            "n_2671_predispatch",
+            "t_55072ef91a15",
+            "t_7f282520afb8"
+          ],
+          "edges": [
+            "e_n_2671_location_t_55072ef91a15",
+            "e_n_2671_location_t_7f282520afb8",
+            "e_n_2671_predispatch_t_55072ef91a15",
+            "e_n_2671_predispatch_t_7f282520afb8"
+          ],
+          "relations": [
+            "n_2671_location",
+            "n_2671_predispatch"
+          ]
+        },
+        {
+          "key": "ports",
+          "title": "Load Port、細部與模式",
+          "description": "從 EQP 連到 FRPORT，再查看細部及模式；保留原鍵與關係端點。",
+          "nodes": [
+            "n_2674_mode",
+            "n_2674_mode-link",
+            "n_2674_port-link",
+            "n_2674_udata-link",
+            "t_0ab0fee39360",
+            "t_44bf52fb10be",
+            "t_7f282520afb8"
+          ],
+          "edges": [
+            "e_n_2674_mode-link_t_0ab0fee39360",
+            "e_n_2674_mode_n_2674_mode-link",
+            "e_n_2674_port-link_t_0ab0fee39360",
+            "e_n_2674_port-link_t_7f282520afb8",
+            "e_n_2674_udata-link_t_0ab0fee39360",
+            "e_n_2674_udata-link_t_44bf52fb10be"
+          ],
+          "relations": [
+            "n_2674_mode-link",
+            "n_2674_port-link",
+            "n_2674_udata-link"
+          ]
+        },
+        {
+          "key": "chamber",
+          "title": "Chamber 與細部狀況",
+          "description": "Chamber 是設備內加工腔體；沿 eqp_id、procrsc_id 等原關係查看狀況及細部。",
+          "nodes": [
+            "n_2674_chamber",
+            "n_2674_chamber-link",
+            "n_2674_detail-link",
+            "t_215407951b90",
+            "t_7f282520afb8"
+          ],
+          "edges": [
+            "e_n_2674_chamber-link_t_7f282520afb8",
+            "e_n_2674_chamber_n_2674_chamber-link",
+            "e_n_2674_chamber_n_2674_detail-link",
+            "e_n_2674_detail-link_t_215407951b90"
+          ],
+          "relations": [
+            "n_2674_chamber-link",
+            "n_2674_detail-link"
+          ]
+        },
+        {
+          "key": "ownership",
+          "title": "機台位置、機群與課別",
+          "description": "機台位置菱形有三個原端點，包含機群與課別；不能改成只有 EQP 與位置的兩端關係。",
+          "nodes": [
+            "n_2674_bay",
+            "n_2674_bay-link",
+            "n_2674_owner",
+            "n_2674_owner-link",
+            "t_7f282520afb8"
+          ],
+          "edges": [
+            "e_n_2674_bay-link_n_2674_owner",
+            "e_n_2674_bay-link_t_7f282520afb8",
+            "e_n_2674_bay_n_2674_bay-link",
+            "e_n_2674_owner-link_t_7f282520afb8",
+            "e_n_2674_owner_n_2674_owner-link"
+          ],
+          "relations": [
+            "n_2674_bay-link",
+            "n_2674_owner-link"
+          ]
+        },
+        {
+          "key": "state-history",
+          "title": "機況歷史",
+          "description": "機況歷史可用於追蹤過去狀態；原圖未提供每表刷新契約，不能自行保證即時。",
+          "nodes": [
+            "n_2674_history-link",
+            "t_7f282520afb8",
+            "t_aad27c7244d2"
+          ],
+          "edges": [
+            "e_n_2674_history-link_t_7f282520afb8",
+            "e_n_2674_history-link_t_aad27c7244d2"
+          ],
+          "relations": [
+            "n_2674_history-link"
+          ]
+        },
+        {
+          "key": "storage",
+          "title": "Default STK、OHB 與 BMIR",
+          "description": "沿原 EQPSTKID、OHB_ID 關係查看設備儲位設定與 OHB 狀況；不連接身分未確認的其他設備來源。",
+          "nodes": [
+            "n_2674_bmir-link",
+            "n_2674_default-link",
+            "n_2674_ohb-link",
+            "n_2674_ohb-status-link",
+            "t_0445f3f5ca10",
+            "t_19992c01e42e",
+            "t_2544d0d5063d",
+            "t_7f282520afb8",
+            "t_99f36f7325f2"
+          ],
+          "edges": [
+            "e_n_2674_bmir-link_t_19992c01e42e",
+            "e_n_2674_bmir-link_t_99f36f7325f2",
+            "e_n_2674_default-link_t_2544d0d5063d",
+            "e_n_2674_default-link_t_7f282520afb8",
+            "e_n_2674_ohb-link_t_0445f3f5ca10",
+            "e_n_2674_ohb-link_t_7f282520afb8",
+            "e_n_2674_ohb-status-link_t_0445f3f5ca10",
+            "e_n_2674_ohb-status-link_t_19992c01e42e"
+          ],
+          "relations": [
+            "n_2674_bmir-link",
+            "n_2674_default-link",
+            "n_2674_ohb-link",
+            "n_2674_ohb-status-link"
+          ]
+        }
+      ],
+      "direct_relationship_count": 11
+    },
+    {
+      "key": "flow",
+      "title": "以 Flow 看 Lot、Stage 與製程對應",
+      "description": "此 Flow 表是步驟流程定義資料。Lot 經 Part／Mainpd_id 關聯流程，Stage／Module 與 LR 對應各有原關係；LR 與設備對應表不等同實際加工 Recipe 執行紀錄。",
+      "subject": "t_d4d030ed08a4",
+      "core": {
+        "nodes": [
+          "n_2673_flow-link",
+          "n_2673_lr-eqp-link",
+          "n_2673_stage-link",
+          "t_27f08dfbff23",
+          "t_cfc81de70314",
+          "t_d4d030ed08a4",
+          "t_e9c0addd1e0c"
+        ],
+        "edges": [
+          "e_n_2673_flow-link_t_cfc81de70314",
+          "e_n_2673_flow-link_t_d4d030ed08a4",
+          "e_n_2673_lr-eqp-link_t_d4d030ed08a4",
+          "e_n_2673_lr-eqp-link_t_e9c0addd1e0c",
+          "e_n_2673_stage-link_t_27f08dfbff23",
+          "e_n_2673_stage-link_t_d4d030ed08a4"
+        ],
+        "relations": [
+          "n_2673_flow-link",
+          "n_2673_lr-eqp-link",
+          "n_2673_stage-link"
+        ]
+      },
+      "branches": [
+        {
+          "key": "lot-part",
+          "title": "Lot 與 Part 定義",
+          "description": "Lot 關聯 Flow 與 Part 的 Mainpd_id 對映是不同原關係；不能憑教學概念新增捷徑。",
+          "nodes": [
+            "n_2673_flow-link",
+            "n_2673_part-link",
+            "t_1dff83e775cf",
+            "t_cfc81de70314",
+            "t_d4d030ed08a4"
+          ],
+          "edges": [
+            "e_n_2673_flow-link_t_cfc81de70314",
+            "e_n_2673_flow-link_t_d4d030ed08a4",
+            "e_n_2673_part-link_t_1dff83e775cf",
+            "e_n_2673_part-link_t_d4d030ed08a4"
+          ],
+          "relations": [
+            "n_2673_flow-link",
+            "n_2673_part-link"
+          ]
+        },
+        {
+          "key": "stage",
+          "title": "Stage、Module 與抽測設定",
+          "description": "Stage／Module 分組和 SRTS 抽測跳站設定各有資料來源。Flow 表包含步驟定義，但原圖沒有獨立 Step 實體，不能額外造節點。",
+          "nodes": [
+            "n_2673_srts-link",
+            "n_2673_stage-link",
+            "t_27f08dfbff23",
+            "t_7aff1af02bfd",
+            "t_d4d030ed08a4"
+          ],
+          "edges": [
+            "e_n_2673_srts-link_t_7aff1af02bfd",
+            "e_n_2673_srts-link_t_d4d030ed08a4",
+            "e_n_2673_stage-link_t_27f08dfbff23",
+            "e_n_2673_stage-link_t_d4d030ed08a4"
+          ],
+          "relations": [
+            "n_2673_srts-link",
+            "n_2673_stage-link"
+          ]
+        },
+        {
+          "key": "logical-recipe",
+          "title": "LR 對映与 Recipe Group",
+          "description": "兩個 LCRECIPE_ID 關係原本分開，均保留。LR 對映設備、Recipe Group 與 WPH 定義都不是實際加工使用的 Physical Recipe 證據。",
+          "nodes": [
+            "n_2673_lr-eqp-link",
+            "n_2673_lr-link",
+            "n_2673_recipe-link",
+            "n_2673_wph-link",
+            "t_1c25059c913b",
+            "t_c2ca3a20806b",
+            "t_d4d030ed08a4",
+            "t_e9c0addd1e0c"
+          ],
+          "edges": [
+            "e_n_2673_lr-eqp-link_t_d4d030ed08a4",
+            "e_n_2673_lr-eqp-link_t_e9c0addd1e0c",
+            "e_n_2673_lr-link_t_d4d030ed08a4",
+            "e_n_2673_lr-link_t_e9c0addd1e0c",
+            "e_n_2673_recipe-link_t_c2ca3a20806b",
+            "e_n_2673_recipe-link_t_d4d030ed08a4",
+            "e_n_2673_wph-link_t_1c25059c913b",
+            "e_n_2673_wph-link_t_e9c0addd1e0c"
+          ],
+          "relations": [
+            "n_2673_lr-eqp-link",
+            "n_2673_lr-link",
+            "n_2673_recipe-link",
+            "n_2673_wph-link"
+          ]
+        },
+        {
+          "key": "pd",
+          "title": "PD 與設備對應",
+          "description": "沿站點 PD_ID 查看 Flow PD 與 PD_ID 對映機台資料；不與未列 schema 的 FRPD／FRPD_EQP 合併。",
+          "nodes": [
+            "n_2673_pd-eqp-link",
+            "n_2673_pd-link",
+            "t_1bc56644c54f",
+            "t_755ca3b22919",
+            "t_d4d030ed08a4"
+          ],
+          "edges": [
+            "e_n_2673_pd-eqp-link_t_1bc56644c54f",
+            "e_n_2673_pd-eqp-link_t_755ca3b22919",
+            "e_n_2673_pd-link_t_1bc56644c54f",
+            "e_n_2673_pd-link_t_d4d030ed08a4"
+          ],
+          "relations": [
+            "n_2673_pd-eqp-link",
+            "n_2673_pd-link"
+          ]
+        }
+      ],
+      "direct_relationship_count": 8
+    }
+  ],
+  "coverage": {
+    "total_nodes": 121,
+    "total_edges": 128,
+    "covered_nodes": [
+      "n_2671_cast-link",
+      "n_2671_has",
+      "n_2671_location",
+      "n_2671_lot-eqp",
+      "n_2671_material-link",
+      "n_2671_port-link",
+      "n_2671_predispatch",
+      "n_2671_slot",
+      "n_2672_all-actions",
+      "n_2672_cast-link",
+      "n_2672_mcs-history",
+      "n_2672_mcs-transfer",
+      "n_2672_mes-transfer",
+      "n_2672_move-link",
+      "n_2672_pre-link",
+      "n_2672_qtime-link",
+      "n_2672_summary",
+      "n_2672_transfer",
+      "n_2673_flow-link",
+      "n_2673_forecast-link",
+      "n_2673_future-link",
+      "n_2673_hold-link",
+      "n_2673_lr-eqp-link",
+      "n_2673_lr-link",
+      "n_2673_part-link",
+      "n_2673_pd-eqp-link",
+      "n_2673_pd-link",
+      "n_2673_recipe-link",
+      "n_2673_srts-link",
+      "n_2673_stage-link",
+      "n_2673_stream",
+      "n_2673_stream-link",
+      "n_2673_wph-link",
+      "n_2674_bay",
+      "n_2674_bay-link",
+      "n_2674_bmir-link",
+      "n_2674_chamber",
+      "n_2674_chamber-link",
+      "n_2674_default-link",
+      "n_2674_detail-link",
+      "n_2674_history-link",
+      "n_2674_mode",
+      "n_2674_mode-link",
+      "n_2674_ohb-link",
+      "n_2674_ohb-status-link",
+      "n_2674_owner",
+      "n_2674_owner-link",
+      "n_2674_port-link",
+      "n_2674_udata-link",
+      "t_0445f3f5ca10",
+      "t_0ab0fee39360",
+      "t_178593e830a1",
+      "t_19992c01e42e",
+      "t_1bc56644c54f",
+      "t_1c25059c913b",
+      "t_1dff83e775cf",
+      "t_215407951b90",
+      "t_2544d0d5063d",
+      "t_27f08dfbff23",
+      "t_2a2c1cb80c6c",
+      "t_44bf52fb10be",
+      "t_52a86ba40707",
+      "t_55072ef91a15",
+      "t_604a111deb74",
+      "t_755ca3b22919",
+      "t_7aff1af02bfd",
+      "t_7f282520afb8",
+      "t_99f36f7325f2",
+      "t_a24726d7a0b3",
+      "t_a43ff774d728",
+      "t_aad27c7244d2",
+      "t_b293b57a5ae2",
+      "t_b474e516b8d5",
+      "t_c2ca3a20806b",
+      "t_cfc81de70314",
+      "t_d4d030ed08a4",
+      "t_d7f7aa94ad34",
+      "t_e9c0addd1e0c",
+      "t_f1dc5d6bcd1f"
+    ],
+    "covered_edges": [
+      "e_n_2671_cast-link_t_55072ef91a15",
+      "e_n_2671_cast-link_t_cfc81de70314",
+      "e_n_2671_has_t_7f282520afb8",
+      "e_n_2671_has_t_a43ff774d728",
+      "e_n_2671_location_t_55072ef91a15",
+      "e_n_2671_location_t_7f282520afb8",
+      "e_n_2671_lot-eqp_t_7f282520afb8",
+      "e_n_2671_lot-eqp_t_cfc81de70314",
+      "e_n_2671_material-link_t_b293b57a5ae2",
+      "e_n_2671_material-link_t_cfc81de70314",
+      "e_n_2671_port-link_t_a43ff774d728",
+      "e_n_2671_port-link_t_cfc81de70314",
+      "e_n_2671_predispatch_t_55072ef91a15",
+      "e_n_2671_predispatch_t_7f282520afb8",
+      "e_n_2671_slot_t_55072ef91a15",
+      "e_n_2671_slot_t_cfc81de70314",
+      "e_n_2672_all-actions_t_a24726d7a0b3",
+      "e_n_2672_all-actions_t_cfc81de70314",
+      "e_n_2672_cast-link_t_55072ef91a15",
+      "e_n_2672_cast-link_t_b474e516b8d5",
+      "e_n_2672_mcs-history_n_2672_mcs-transfer",
+      "e_n_2672_mcs-transfer_t_55072ef91a15",
+      "e_n_2672_mes-transfer_n_2672_transfer",
+      "e_n_2672_mes-transfer_t_55072ef91a15",
+      "e_n_2672_move-link_t_178593e830a1",
+      "e_n_2672_move-link_t_a24726d7a0b3",
+      "e_n_2672_move-link_t_cfc81de70314",
+      "e_n_2672_pre-link_t_cfc81de70314",
+      "e_n_2672_pre-link_t_d7f7aa94ad34",
+      "e_n_2672_qtime-link_t_b474e516b8d5",
+      "e_n_2672_qtime-link_t_f1dc5d6bcd1f",
+      "e_n_2672_summary_t_b474e516b8d5",
+      "e_n_2672_summary_t_cfc81de70314",
+      "e_n_2673_flow-link_t_cfc81de70314",
+      "e_n_2673_flow-link_t_d4d030ed08a4",
+      "e_n_2673_forecast-link_t_2a2c1cb80c6c",
+      "e_n_2673_forecast-link_t_cfc81de70314",
+      "e_n_2673_future-link_t_604a111deb74",
+      "e_n_2673_future-link_t_cfc81de70314",
+      "e_n_2673_hold-link_t_52a86ba40707",
+      "e_n_2673_hold-link_t_cfc81de70314",
+      "e_n_2673_lr-eqp-link_t_d4d030ed08a4",
+      "e_n_2673_lr-eqp-link_t_e9c0addd1e0c",
+      "e_n_2673_lr-link_t_d4d030ed08a4",
+      "e_n_2673_lr-link_t_e9c0addd1e0c",
+      "e_n_2673_part-link_t_1dff83e775cf",
+      "e_n_2673_part-link_t_d4d030ed08a4",
+      "e_n_2673_pd-eqp-link_t_1bc56644c54f",
+      "e_n_2673_pd-eqp-link_t_755ca3b22919",
+      "e_n_2673_pd-link_t_1bc56644c54f",
+      "e_n_2673_pd-link_t_d4d030ed08a4",
+      "e_n_2673_recipe-link_t_c2ca3a20806b",
+      "e_n_2673_recipe-link_t_d4d030ed08a4",
+      "e_n_2673_srts-link_t_7aff1af02bfd",
+      "e_n_2673_srts-link_t_d4d030ed08a4",
+      "e_n_2673_stage-link_t_27f08dfbff23",
+      "e_n_2673_stage-link_t_d4d030ed08a4",
+      "e_n_2673_stream-link_t_cfc81de70314",
+      "e_n_2673_stream_n_2673_stream-link",
+      "e_n_2673_wph-link_t_1c25059c913b",
+      "e_n_2673_wph-link_t_e9c0addd1e0c",
+      "e_n_2674_bay-link_n_2674_owner",
+      "e_n_2674_bay-link_t_7f282520afb8",
+      "e_n_2674_bay_n_2674_bay-link",
+      "e_n_2674_bmir-link_t_19992c01e42e",
+      "e_n_2674_bmir-link_t_99f36f7325f2",
+      "e_n_2674_chamber-link_t_7f282520afb8",
+      "e_n_2674_chamber_n_2674_chamber-link",
+      "e_n_2674_chamber_n_2674_detail-link",
+      "e_n_2674_default-link_t_2544d0d5063d",
+      "e_n_2674_default-link_t_7f282520afb8",
+      "e_n_2674_detail-link_t_215407951b90",
+      "e_n_2674_history-link_t_7f282520afb8",
+      "e_n_2674_history-link_t_aad27c7244d2",
+      "e_n_2674_mode-link_t_0ab0fee39360",
+      "e_n_2674_mode_n_2674_mode-link",
+      "e_n_2674_ohb-link_t_0445f3f5ca10",
+      "e_n_2674_ohb-link_t_7f282520afb8",
+      "e_n_2674_ohb-status-link_t_0445f3f5ca10",
+      "e_n_2674_ohb-status-link_t_19992c01e42e",
+      "e_n_2674_owner-link_t_7f282520afb8",
+      "e_n_2674_owner_n_2674_owner-link",
+      "e_n_2674_port-link_t_0ab0fee39360",
+      "e_n_2674_port-link_t_7f282520afb8",
+      "e_n_2674_udata-link_t_0ab0fee39360",
+      "e_n_2674_udata-link_t_44bf52fb10be"
+    ],
+    "uncovered_nodes": [
+      "n_2675_all-actions",
+      "n_2675_chamber",
+      "n_2675_chamber-link",
+      "n_2675_eqp",
+      "n_2675_eqp-oee",
+      "n_2675_eqp-oee-link",
+      "n_2675_group-history",
+      "n_2675_group-history-link",
+      "n_2675_group-link",
+      "n_2675_group-oee",
+      "n_2675_group-oee-link",
+      "n_2675_lot",
+      "n_2675_move-link",
+      "n_2675_status",
+      "n_2675_status-link",
+      "n_2675_virtual",
+      "n_2675_virtual-link",
+      "n_2675_wip-history",
+      "n_2675_wip-link",
+      "n_2676_cast",
+      "n_2676_cast-lot",
+      "n_2676_chamber",
+      "n_2676_eqp",
+      "n_2676_eqp-id",
+      "n_2676_lot",
+      "n_2676_port",
+      "n_2676_port-id",
+      "n_2676_status",
+      "n_2676_udata",
+      "n_2677_bay",
+      "n_2677_eqp",
+      "n_2677_eqp-id",
+      "n_2677_er",
+      "n_2677_location",
+      "n_2677_lr",
+      "n_2677_pd",
+      "n_2677_pd-eqp",
+      "n_2677_pd-key",
+      "n_2677_recipe",
+      "n_2677_recipe-eqp",
+      "n_2677_recipe-key",
+      "n_2677_status"
+    ],
+    "uncovered_edges": [
+      "e_n_2675_all-actions_n_2675_lot",
+      "e_n_2675_all-actions_t_a24726d7a0b3",
+      "e_n_2675_chamber-link_n_2675_lot",
+      "e_n_2675_chamber_n_2675_chamber-link",
+      "e_n_2675_eqp-oee_n_2675_eqp-oee-link",
+      "e_n_2675_eqp_n_2675_eqp-oee-link",
+      "e_n_2675_eqp_n_2675_group-history-link",
+      "e_n_2675_eqp_n_2675_group-link",
+      "e_n_2675_eqp_n_2675_group-oee-link",
+      "e_n_2675_eqp_n_2675_status-link",
+      "e_n_2675_eqp_n_2675_virtual-link",
+      "e_n_2675_group-history_n_2675_group-history-link",
+      "e_n_2675_group-link_n_2675_lot",
+      "e_n_2675_group-oee_n_2675_group-oee-link",
+      "e_n_2675_lot_n_2675_move-link",
+      "e_n_2675_lot_n_2675_wip-link",
+      "e_n_2675_move-link_t_178593e830a1",
+      "e_n_2675_move-link_t_a24726d7a0b3",
+      "e_n_2675_status_n_2675_status-link",
+      "e_n_2675_virtual_n_2675_virtual-link",
+      "e_n_2675_wip-history_n_2675_wip-link",
+      "e_n_2676_cast-lot_n_2676_lot",
+      "e_n_2676_cast_n_2676_cast-lot",
+      "e_n_2676_cast_n_2676_eqp-id",
+      "e_n_2676_chamber_n_2676_eqp-id",
+      "e_n_2676_eqp-id_n_2676_port",
+      "e_n_2676_eqp_n_2676_eqp-id",
+      "e_n_2676_lot_n_2676_status",
+      "e_n_2676_port-id_n_2676_udata",
+      "e_n_2676_port_n_2676_port-id",
+      "e_n_2677_bay_n_2677_eqp-id",
+      "e_n_2677_bay_n_2677_location",
+      "e_n_2677_eqp-id_n_2677_pd-eqp",
+      "e_n_2677_eqp-id_n_2677_recipe-eqp",
+      "e_n_2677_eqp_n_2677_eqp-id",
+      "e_n_2677_eqp_n_2677_status",
+      "e_n_2677_er_n_2677_lr",
+      "e_n_2677_er_n_2677_recipe",
+      "e_n_2677_pd-eqp_n_2677_pd-key",
+      "e_n_2677_pd_n_2677_pd-key",
+      "e_n_2677_recipe-eqp_n_2677_recipe-key",
+      "e_n_2677_recipe_n_2677_recipe-key"
+    ],
+    "node_views": {
+      "t_b293b57a5ae2": [
+        "lot/loading"
+      ],
+      "n_2671_material-link": [
+        "lot/loading"
+      ],
+      "t_cfc81de70314": [
+        "lot/core",
+        "lot/loading",
+        "lot/handoff",
+        "lot/dispatch",
+        "lot/control",
+        "lot/history",
+        "lot/forecast",
+        "lot/flow",
+        "carrier/core",
+        "carrier/loading",
+        "equipment/core",
+        "equipment/handoff",
+        "flow/core",
+        "flow/lot-part"
+      ],
+      "n_2671_port-link": [
+        "lot/handoff",
+        "equipment/handoff"
+      ],
+      "t_a43ff774d728": [
+        "lot/handoff",
+        "equipment/handoff"
+      ],
+      "n_2671_slot": [
+        "lot/loading",
+        "carrier/core",
+        "carrier/loading"
+      ],
+      "n_2671_cast-link": [
+        "lot/core",
+        "lot/loading",
+        "carrier/core",
+        "carrier/loading"
+      ],
+      "n_2671_lot-eqp": [
+        "lot/core",
+        "lot/handoff",
+        "equipment/core",
+        "equipment/handoff"
+      ],
+      "n_2671_has": [
+        "lot/handoff",
+        "equipment/handoff"
+      ],
+      "t_55072ef91a15": [
+        "lot/core",
+        "lot/loading",
+        "carrier/core",
+        "carrier/loading",
+        "carrier/location",
+        "carrier/transfer",
+        "carrier/step-history",
+        "carrier/qtime",
+        "equipment/core",
+        "equipment/carrier"
+      ],
+      "n_2671_location": [
+        "lot/core",
+        "carrier/core",
+        "carrier/location",
+        "equipment/core",
+        "equipment/carrier"
+      ],
+      "t_7f282520afb8": [
+        "lot/core",
+        "lot/handoff",
+        "carrier/core",
+        "carrier/location",
+        "equipment/core",
+        "equipment/handoff",
+        "equipment/carrier",
+        "equipment/ports",
+        "equipment/chamber",
+        "equipment/ownership",
+        "equipment/state-history",
+        "equipment/storage"
+      ],
+      "n_2671_predispatch": [
+        "carrier/core",
+        "carrier/location",
+        "equipment/carrier"
+      ],
+      "t_d7f7aa94ad34": [
+        "lot/dispatch"
+      ],
+      "n_2672_pre-link": [
+        "lot/dispatch"
+      ],
+      "t_178593e830a1": [
+        "lot/history"
+      ],
+      "n_2672_move-link": [
+        "lot/history"
+      ],
+      "n_2672_summary": [
+        "lot/history"
+      ],
+      "t_b474e516b8d5": [
+        "lot/history",
+        "carrier/step-history",
+        "carrier/qtime"
+      ],
+      "n_2672_all-actions": [
+        "lot/history"
+      ],
+      "t_a24726d7a0b3": [
+        "lot/history"
+      ],
+      "n_2672_cast-link": [
+        "carrier/step-history",
+        "carrier/qtime"
+      ],
+      "n_2672_mes-transfer": [
+        "carrier/transfer"
+      ],
+      "n_2672_transfer": [
+        "carrier/transfer"
+      ],
+      "n_2672_mcs-transfer": [
+        "carrier/transfer"
+      ],
+      "n_2672_mcs-history": [
+        "carrier/transfer"
+      ],
+      "n_2672_qtime-link": [
+        "carrier/qtime"
+      ],
+      "t_f1dc5d6bcd1f": [
+        "carrier/qtime"
+      ],
+      "t_1c25059c913b": [
+        "flow/logical-recipe"
+      ],
+      "n_2673_wph-link": [
+        "flow/logical-recipe"
+      ],
+      "t_e9c0addd1e0c": [
+        "flow/core",
+        "flow/logical-recipe"
+      ],
+      "t_755ca3b22919": [
+        "flow/pd"
+      ],
+      "n_2673_pd-eqp-link": [
+        "flow/pd"
+      ],
+      "t_1bc56644c54f": [
+        "flow/pd"
+      ],
+      "t_1dff83e775cf": [
+        "flow/lot-part"
+      ],
+      "t_c2ca3a20806b": [
+        "flow/logical-recipe"
+      ],
+      "n_2673_lr-link": [
+        "flow/logical-recipe"
+      ],
+      "n_2673_pd-link": [
+        "flow/pd"
+      ],
+      "n_2673_part-link": [
+        "flow/lot-part"
+      ],
+      "n_2673_recipe-link": [
+        "flow/logical-recipe"
+      ],
+      "t_604a111deb74": [
+        "lot/control"
+      ],
+      "n_2673_future-link": [
+        "lot/control"
+      ],
+      "t_52a86ba40707": [
+        "lot/control"
+      ],
+      "n_2673_hold-link": [
+        "lot/control"
+      ],
+      "n_2673_flow-link": [
+        "lot/core",
+        "lot/flow",
+        "flow/core",
+        "flow/lot-part"
+      ],
+      "t_d4d030ed08a4": [
+        "lot/core",
+        "lot/flow",
+        "flow/core",
+        "flow/lot-part",
+        "flow/stage",
+        "flow/logical-recipe",
+        "flow/pd"
+      ],
+      "n_2673_lr-eqp-link": [
+        "flow/core",
+        "flow/logical-recipe"
+      ],
+      "n_2673_forecast-link": [
+        "lot/forecast"
+      ],
+      "n_2673_stream-link": [
+        "lot/forecast"
+      ],
+      "t_2a2c1cb80c6c": [
+        "lot/forecast"
+      ],
+      "n_2673_stream": [
+        "lot/forecast"
+      ],
+      "n_2673_stage-link": [
+        "lot/flow",
+        "flow/core",
+        "flow/stage"
+      ],
+      "n_2673_srts-link": [
+        "flow/stage"
+      ],
+      "t_27f08dfbff23": [
+        "lot/flow",
+        "flow/core",
+        "flow/stage"
+      ],
+      "t_7aff1af02bfd": [
+        "flow/stage"
+      ],
+      "t_44bf52fb10be": [
+        "equipment/ports"
+      ],
+      "n_2674_udata-link": [
+        "equipment/ports"
+      ],
+      "t_0ab0fee39360": [
+        "equipment/core",
+        "equipment/ports"
+      ],
+      "n_2674_mode": [
+        "equipment/ports"
+      ],
+      "n_2674_mode-link": [
+        "equipment/ports"
+      ],
+      "t_2544d0d5063d": [
+        "equipment/storage"
+      ],
+      "t_aad27c7244d2": [
+        "equipment/state-history"
+      ],
+      "n_2674_history-link": [
+        "equipment/state-history"
+      ],
+      "n_2674_port-link": [
+        "equipment/core",
+        "equipment/ports"
+      ],
+      "n_2674_default-link": [
+        "equipment/storage"
+      ],
+      "n_2674_bay": [
+        "equipment/ownership"
+      ],
+      "n_2674_bay-link": [
+        "equipment/ownership"
+      ],
+      "n_2674_chamber-link": [
+        "equipment/core",
+        "equipment/chamber"
+      ],
+      "n_2674_chamber": [
+        "equipment/core",
+        "equipment/chamber"
+      ],
+      "n_2674_owner-link": [
+        "equipment/ownership"
+      ],
+      "n_2674_ohb-link": [
+        "equipment/storage"
+      ],
+      "n_2674_detail-link": [
+        "equipment/chamber"
+      ],
+      "n_2674_owner": [
+        "equipment/ownership"
+      ],
+      "t_0445f3f5ca10": [
+        "equipment/storage"
+      ],
+      "t_215407951b90": [
+        "equipment/chamber"
+      ],
+      "n_2674_ohb-status-link": [
+        "equipment/storage"
+      ],
+      "t_19992c01e42e": [
+        "equipment/storage"
+      ],
+      "n_2674_bmir-link": [
+        "equipment/storage"
+      ],
+      "t_99f36f7325f2": [
+        "equipment/storage"
+      ],
+      "n_2675_wip-history": [],
+      "n_2675_wip-link": [],
+      "n_2675_move-link": [],
+      "n_2675_lot": [],
+      "n_2675_chamber-link": [],
+      "n_2675_chamber": [],
+      "n_2675_group-link": [],
+      "n_2675_eqp": [],
+      "n_2675_virtual-link": [],
+      "n_2675_virtual": [],
+      "n_2675_all-actions": [],
+      "n_2675_status-link": [],
+      "n_2675_status": [],
+      "n_2675_eqp-oee-link": [],
+      "n_2675_eqp-oee": [],
+      "n_2675_group-oee-link": [],
+      "n_2675_group-oee": [],
+      "n_2675_group-history-link": [],
+      "n_2675_group-history": [],
+      "n_2676_eqp": [],
+      "n_2676_eqp-id": [],
+      "n_2676_port": [],
+      "n_2676_cast": [],
+      "n_2676_chamber": [],
+      "n_2676_port-id": [],
+      "n_2676_cast-lot": [],
+      "n_2676_udata": [],
+      "n_2676_lot": [],
+      "n_2676_status": [],
+      "n_2677_pd": [],
+      "n_2677_pd-key": [],
+      "n_2677_pd-eqp": [],
+      "n_2677_eqp-id": [],
+      "n_2677_bay": [],
+      "n_2677_location": [],
+      "n_2677_recipe": [],
+      "n_2677_recipe-key": [],
+      "n_2677_recipe-eqp": [],
+      "n_2677_eqp": [],
+      "n_2677_status": [],
+      "n_2677_er": [],
+      "n_2677_lr": []
+    },
+    "edge_views": {
+      "e_n_2671_material-link_t_b293b57a5ae2": [
+        "lot/loading"
+      ],
+      "e_n_2671_material-link_t_cfc81de70314": [
+        "lot/loading"
+      ],
+      "e_n_2671_port-link_t_cfc81de70314": [
+        "lot/handoff",
+        "equipment/handoff"
+      ],
+      "e_n_2671_port-link_t_a43ff774d728": [
+        "lot/handoff",
+        "equipment/handoff"
+      ],
+      "e_n_2671_slot_t_cfc81de70314": [
+        "lot/loading",
+        "carrier/core",
+        "carrier/loading"
+      ],
+      "e_n_2671_slot_t_55072ef91a15": [
+        "lot/loading",
+        "carrier/core",
+        "carrier/loading"
+      ],
+      "e_n_2671_cast-link_t_cfc81de70314": [
+        "lot/core",
+        "lot/loading",
+        "carrier/core",
+        "carrier/loading"
+      ],
+      "e_n_2671_cast-link_t_55072ef91a15": [
+        "lot/core",
+        "lot/loading",
+        "carrier/core",
+        "carrier/loading"
+      ],
+      "e_n_2671_lot-eqp_t_cfc81de70314": [
+        "lot/core",
+        "lot/handoff",
+        "equipment/core",
+        "equipment/handoff"
+      ],
+      "e_n_2671_has_t_a43ff774d728": [
+        "lot/handoff",
+        "equipment/handoff"
+      ],
+      "e_n_2671_has_t_7f282520afb8": [
+        "lot/handoff",
+        "equipment/handoff"
+      ],
+      "e_n_2671_lot-eqp_t_7f282520afb8": [
+        "lot/core",
+        "lot/handoff",
+        "equipment/core",
+        "equipment/handoff"
+      ],
+      "e_n_2671_location_t_55072ef91a15": [
+        "lot/core",
+        "carrier/core",
+        "carrier/location",
+        "equipment/core",
+        "equipment/carrier"
+      ],
+      "e_n_2671_location_t_7f282520afb8": [
+        "lot/core",
+        "carrier/core",
+        "carrier/location",
+        "equipment/core",
+        "equipment/carrier"
+      ],
+      "e_n_2671_predispatch_t_55072ef91a15": [
+        "carrier/core",
+        "carrier/location",
+        "equipment/carrier"
+      ],
+      "e_n_2671_predispatch_t_7f282520afb8": [
+        "carrier/core",
+        "carrier/location",
+        "equipment/carrier"
+      ],
+      "e_n_2672_pre-link_t_d7f7aa94ad34": [
+        "lot/dispatch"
+      ],
+      "e_n_2672_pre-link_t_cfc81de70314": [
+        "lot/dispatch"
+      ],
+      "e_n_2672_all-actions_t_cfc81de70314": [
+        "lot/history"
+      ],
+      "e_n_2672_all-actions_t_a24726d7a0b3": [
+        "lot/history"
+      ],
+      "e_n_2672_cast-link_t_55072ef91a15": [
+        "carrier/step-history",
+        "carrier/qtime"
+      ],
+      "e_n_2672_cast-link_t_b474e516b8d5": [
+        "carrier/step-history",
+        "carrier/qtime"
+      ],
+      "e_n_2672_qtime-link_t_b474e516b8d5": [
+        "carrier/qtime"
+      ],
+      "e_n_2672_qtime-link_t_f1dc5d6bcd1f": [
+        "carrier/qtime"
+      ],
+      "e_n_2672_move-link_t_178593e830a1": [
+        "lot/history"
+      ],
+      "e_n_2672_move-link_t_cfc81de70314": [
+        "lot/history"
+      ],
+      "e_n_2672_summary_t_cfc81de70314": [
+        "lot/history"
+      ],
+      "e_n_2672_summary_t_b474e516b8d5": [
+        "lot/history"
+      ],
+      "e_n_2672_mes-transfer_t_55072ef91a15": [
+        "carrier/transfer"
+      ],
+      "e_n_2672_mes-transfer_n_2672_transfer": [
+        "carrier/transfer"
+      ],
+      "e_n_2672_mcs-history_n_2672_mcs-transfer": [
+        "carrier/transfer"
+      ],
+      "e_n_2672_move-link_t_a24726d7a0b3": [
+        "lot/history"
+      ],
+      "e_n_2672_mcs-transfer_t_55072ef91a15": [
+        "carrier/transfer"
+      ],
+      "e_n_2673_wph-link_t_1c25059c913b": [
+        "flow/logical-recipe"
+      ],
+      "e_n_2673_wph-link_t_e9c0addd1e0c": [
+        "flow/logical-recipe"
+      ],
+      "e_n_2673_pd-eqp-link_t_755ca3b22919": [
+        "flow/pd"
+      ],
+      "e_n_2673_pd-eqp-link_t_1bc56644c54f": [
+        "flow/pd"
+      ],
+      "e_n_2673_lr-link_t_e9c0addd1e0c": [
+        "flow/logical-recipe"
+      ],
+      "e_n_2673_pd-link_t_1bc56644c54f": [
+        "flow/pd"
+      ],
+      "e_n_2673_part-link_t_1dff83e775cf": [
+        "flow/lot-part"
+      ],
+      "e_n_2673_recipe-link_t_c2ca3a20806b": [
+        "flow/logical-recipe"
+      ],
+      "e_n_2673_forecast-link_t_2a2c1cb80c6c": [
+        "lot/forecast"
+      ],
+      "e_n_2673_stream_n_2673_stream-link": [
+        "lot/forecast"
+      ],
+      "e_n_2673_stage-link_t_27f08dfbff23": [
+        "lot/flow",
+        "flow/core",
+        "flow/stage"
+      ],
+      "e_n_2673_srts-link_t_7aff1af02bfd": [
+        "flow/stage"
+      ],
+      "e_n_2673_future-link_t_604a111deb74": [
+        "lot/control"
+      ],
+      "e_n_2673_hold-link_t_52a86ba40707": [
+        "lot/control"
+      ],
+      "e_n_2673_hold-link_t_cfc81de70314": [
+        "lot/control"
+      ],
+      "e_n_2673_flow-link_t_cfc81de70314": [
+        "lot/core",
+        "lot/flow",
+        "flow/core",
+        "flow/lot-part"
+      ],
+      "e_n_2673_flow-link_t_d4d030ed08a4": [
+        "lot/core",
+        "lot/flow",
+        "flow/core",
+        "flow/lot-part"
+      ],
+      "e_n_2673_lr-eqp-link_t_d4d030ed08a4": [
+        "flow/core",
+        "flow/logical-recipe"
+      ],
+      "e_n_2673_lr-eqp-link_t_e9c0addd1e0c": [
+        "flow/core",
+        "flow/logical-recipe"
+      ],
+      "e_n_2673_future-link_t_cfc81de70314": [
+        "lot/control"
+      ],
+      "e_n_2673_lr-link_t_d4d030ed08a4": [
+        "flow/logical-recipe"
+      ],
+      "e_n_2673_pd-link_t_d4d030ed08a4": [
+        "flow/pd"
+      ],
+      "e_n_2673_part-link_t_d4d030ed08a4": [
+        "flow/lot-part"
+      ],
+      "e_n_2673_recipe-link_t_d4d030ed08a4": [
+        "flow/logical-recipe"
+      ],
+      "e_n_2673_stream-link_t_cfc81de70314": [
+        "lot/forecast"
+      ],
+      "e_n_2673_forecast-link_t_cfc81de70314": [
+        "lot/forecast"
+      ],
+      "e_n_2673_stage-link_t_d4d030ed08a4": [
+        "lot/flow",
+        "flow/core",
+        "flow/stage"
+      ],
+      "e_n_2673_srts-link_t_d4d030ed08a4": [
+        "flow/stage"
+      ],
+      "e_n_2674_udata-link_t_44bf52fb10be": [
+        "equipment/ports"
+      ],
+      "e_n_2674_udata-link_t_0ab0fee39360": [
+        "equipment/ports"
+      ],
+      "e_n_2674_port-link_t_0ab0fee39360": [
+        "equipment/core",
+        "equipment/ports"
+      ],
+      "e_n_2674_port-link_t_7f282520afb8": [
+        "equipment/core",
+        "equipment/ports"
+      ],
+      "e_n_2674_default-link_t_2544d0d5063d": [
+        "equipment/storage"
+      ],
+      "e_n_2674_owner-link_t_7f282520afb8": [
+        "equipment/ownership"
+      ],
+      "e_n_2674_owner_n_2674_owner-link": [
+        "equipment/ownership"
+      ],
+      "e_n_2674_ohb-link_t_0445f3f5ca10": [
+        "equipment/storage"
+      ],
+      "e_n_2674_chamber_n_2674_detail-link": [
+        "equipment/chamber"
+      ],
+      "e_n_2674_detail-link_t_215407951b90": [
+        "equipment/chamber"
+      ],
+      "e_n_2674_ohb-status-link_t_0445f3f5ca10": [
+        "equipment/storage"
+      ],
+      "e_n_2674_ohb-status-link_t_19992c01e42e": [
+        "equipment/storage"
+      ],
+      "e_n_2674_mode_n_2674_mode-link": [
+        "equipment/ports"
+      ],
+      "e_n_2674_mode-link_t_0ab0fee39360": [
+        "equipment/ports"
+      ],
+      "e_n_2674_history-link_t_aad27c7244d2": [
+        "equipment/state-history"
+      ],
+      "e_n_2674_bay_n_2674_bay-link": [
+        "equipment/ownership"
+      ],
+      "e_n_2674_bay-link_t_7f282520afb8": [
+        "equipment/ownership"
+      ],
+      "e_n_2674_chamber-link_t_7f282520afb8": [
+        "equipment/core",
+        "equipment/chamber"
+      ],
+      "e_n_2674_chamber_n_2674_chamber-link": [
+        "equipment/core",
+        "equipment/chamber"
+      ],
+      "e_n_2674_bmir-link_t_19992c01e42e": [
+        "equipment/storage"
+      ],
+      "e_n_2674_bmir-link_t_99f36f7325f2": [
+        "equipment/storage"
+      ],
+      "e_n_2674_history-link_t_7f282520afb8": [
+        "equipment/state-history"
+      ],
+      "e_n_2674_default-link_t_7f282520afb8": [
+        "equipment/storage"
+      ],
+      "e_n_2674_ohb-link_t_7f282520afb8": [
+        "equipment/storage"
+      ],
+      "e_n_2674_bay-link_n_2674_owner": [
+        "equipment/ownership"
+      ],
+      "e_n_2675_wip-history_n_2675_wip-link": [],
+      "e_n_2675_lot_n_2675_wip-link": [],
+      "e_n_2675_all-actions_n_2675_lot": [],
+      "e_n_2675_all-actions_t_a24726d7a0b3": [],
+      "e_n_2675_status_n_2675_status-link": [],
+      "e_n_2675_eqp-oee_n_2675_eqp-oee-link": [],
+      "e_n_2675_group-oee_n_2675_group-oee-link": [],
+      "e_n_2675_group-history_n_2675_group-history-link": [],
+      "e_n_2675_move-link_t_178593e830a1": [],
+      "e_n_2675_lot_n_2675_move-link": [],
+      "e_n_2675_group-link_n_2675_lot": [],
+      "e_n_2675_eqp_n_2675_group-link": [],
+      "e_n_2675_chamber_n_2675_chamber-link": [],
+      "e_n_2675_eqp_n_2675_virtual-link": [],
+      "e_n_2675_virtual_n_2675_virtual-link": [],
+      "e_n_2675_chamber-link_n_2675_lot": [],
+      "e_n_2675_move-link_t_a24726d7a0b3": [],
+      "e_n_2675_eqp_n_2675_status-link": [],
+      "e_n_2675_eqp_n_2675_eqp-oee-link": [],
+      "e_n_2675_eqp_n_2675_group-oee-link": [],
+      "e_n_2675_eqp_n_2675_group-history-link": [],
+      "e_n_2676_eqp_n_2676_eqp-id": [],
+      "e_n_2676_eqp-id_n_2676_port": [],
+      "e_n_2676_cast_n_2676_eqp-id": [],
+      "e_n_2676_chamber_n_2676_eqp-id": [],
+      "e_n_2676_port_n_2676_port-id": [],
+      "e_n_2676_port-id_n_2676_udata": [],
+      "e_n_2676_cast_n_2676_cast-lot": [],
+      "e_n_2676_cast-lot_n_2676_lot": [],
+      "e_n_2676_lot_n_2676_status": [],
+      "e_n_2677_pd_n_2677_pd-key": [],
+      "e_n_2677_pd-eqp_n_2677_pd-key": [],
+      "e_n_2677_recipe_n_2677_recipe-key": [],
+      "e_n_2677_recipe-eqp_n_2677_recipe-key": [],
+      "e_n_2677_bay_n_2677_location": [],
+      "e_n_2677_eqp_n_2677_status": [],
+      "e_n_2677_eqp-id_n_2677_pd-eqp": [],
+      "e_n_2677_eqp-id_n_2677_recipe-eqp": [],
+      "e_n_2677_er_n_2677_recipe": [],
+      "e_n_2677_er_n_2677_lr": [],
+      "e_n_2677_bay_n_2677_eqp-id": [],
+      "e_n_2677_eqp_n_2677_eqp-id": []
+    },
+    "uncovered_access": "er-atlas.html?view=original",
+    "note": "主題核心與分支不是全模型。未納入項目保留於完整 ER；未知 schema 的同名物件未合併、未假接。"
+  }
+}

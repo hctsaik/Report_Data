@@ -1,0 +1,5 @@
+Recompose assets/mes-019/group-wph-v1.png into a portrait 9:16 MOBILE version. Preserve meaning and Traditional Chinese wording, detailed photorealistic semiconductor equipment, white/pale-blue background. Three large full-width scenes from top to bottom: production management holding a machine-group WPH standard; three tools bounded as one group; clock 1 小時 and wafer stack 預期晶圓片數, labeled 預期標準. Thick downward blue arrows; first caption 訂定 WPH.
+Title: 機群 WPH / 生管訂定的預期產出. Subtitle: WPH = wafer per hour / 每小時晶圓產出量.
+Headers: 生產管理部門, 指定機群, 預期每小時產出. Group plaque: 同一機群. Paper: 機群 WPH 標準 / 定義預期產出.
+Line: 實際產出需另查生產紀錄. Single pale-yellow lightbulb banner: 機群 WPH 是生管訂定的 / 預期產出標準.
+Make text legible at 340 CSS pixels wide. Remove tiny decorative binder/background text. No individual-tool WPH, numerical production values, percentages, fabricated measured output or fields, IE or LR label, logo or watermark. Keep all main story pieces and balanced vertical composition. Built-in imagegen edit from the approved-for-iteration desktop prototype, not final user acceptance.

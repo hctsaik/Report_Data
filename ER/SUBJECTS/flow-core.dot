@@ -1,0 +1,18 @@
+graph ER {
+graph [rankdir=LR, nodesep=.4, ranksep=.65, splines=polyline, outputorder=edgesfirst, pad=.3, bgcolor="white"];
+node [fontname="Microsoft JhengHei",fontsize=18,margin=".16,.12"];
+edge [color="#70869a",penwidth=1.8];
+"n_2673_flow-link" [id="n_2673_flow-link",label="Flow 定義\nPart\nMainpd_id",shape=diamond,color="#6a7d8e",fillcolor="#ffffff",style=filled,penwidth=2];
+"n_2673_lr-eqp-link" [id="n_2673_lr-eqp-link",label="LR 與 EQP_ID 對應\nLCRECIPE_ID",shape=diamond,color="#6a7d8e",fillcolor="#ffffff",style=filled,penwidth=2];
+"n_2673_stage-link" [id="n_2673_stage-link",label="Stage 定義",shape=diamond,color="#6a7d8e",fillcolor="#ffffff",style=filled,penwidth=2];
+"t_27f08dfbff23" [id="t_27f08dfbff23",label="Stage 與 Module 定義\nF12dm.dm_tbl_info_stage",shape=box,color="#7756af",fillcolor="#f7f1ff",style=filled,penwidth=2];
+"t_cfc81de70314" [id="t_cfc81de70314",label="LOT\nSiview.Frlot",shape=box,color="#176ac2",fillcolor="#eef5ff",style=filled,penwidth=2];
+"t_d4d030ed08a4" [id="t_d4d030ed08a4",label="本圖主詞\nFlow\nF12DM.DM_Flow_step_Bt",shape=box,color="#7756af",fillcolor="#f7f1ff",style=filled,penwidth=4];
+"t_e9c0addd1e0c" [id="t_e9c0addd1e0c",label="LR 對映的機台\nF12DM.DM_Flow_LR_EQP_BT\nLR 與機台對應關係",shape=box,color="#7756af",fillcolor="#f7f1ff",style=filled,penwidth=2];
+"n_2673_flow-link" -- "t_cfc81de70314" [id="e_n_2673_flow-link_t_cfc81de70314"];
+"t_d4d030ed08a4" -- "n_2673_flow-link" [id="e_n_2673_flow-link_t_d4d030ed08a4"];
+"t_d4d030ed08a4" -- "n_2673_lr-eqp-link" [id="e_n_2673_lr-eqp-link_t_d4d030ed08a4"];
+"n_2673_lr-eqp-link" -- "t_e9c0addd1e0c" [id="e_n_2673_lr-eqp-link_t_e9c0addd1e0c"];
+"n_2673_stage-link" -- "t_27f08dfbff23" [id="e_n_2673_stage-link_t_27f08dfbff23"];
+"t_d4d030ed08a4" -- "n_2673_stage-link" [id="e_n_2673_stage-link_t_d4d030ed08a4"];
+}

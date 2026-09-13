@@ -1,0 +1,23 @@
+{
+  "checks": [
+    "1440/where: cross-source content and diagram highlighting",
+    "1440/ready: cross-source content and diagram highlighting",
+    "1440/move: cross-source content and diagram highlighting",
+    "1440/recipe: cross-source content and diagram highlighting",
+    "1440/time: cross-source content and diagram highlighting",
+    "1440/operations.html#port: actual sidebar navigation",
+    "1440/flow.html#stage: actual sidebar navigation",
+    "360/where: cross-source content and diagram highlighting",
+    "360/ready: cross-source content and diagram highlighting",
+    "360/move: cross-source content and diagram highlighting",
+    "360/recipe: cross-source content and diagram highlighting",
+    "360/time: cross-source content and diagram highlighting",
+    "360/operations.html#port: actual sidebar navigation",
+    "360/flow.html#stage: actual sidebar navigation"
+  ],
+  "source_nodes": 128,
+  "source_edges": 128,
+  "groups": 20,
+  "original_svg_unchanged": 7,
+  "errors": []
+}

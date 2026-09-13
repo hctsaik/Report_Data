@@ -1,0 +1,62 @@
+{
+  "diagrams": [
+    {
+      "file": "2671.svg",
+      "nodes": 13,
+      "text_overflow": [],
+      "font_fits": [],
+      "sha256": "64f6181a99f9ba4f7414041169fb78a664aac49a806506193e5f54d8dfe0e365",
+      "source_sha256": "31f5d37345b429933f6cda97ab17d6c6709fa252505da72c968ec16090b7137e"
+    },
+    {
+      "file": "2672.svg",
+      "nodes": 17,
+      "text_overflow": [],
+      "font_fits": [],
+      "sha256": "7bdaccf2f9a39211b2da47478d53a4d9745f29e2682b1d40d24d23fb6ac879fd",
+      "source_sha256": "148343f2acb3851e3ab7ae5ca1b5f52402965c549ab46a0e4cae20a458a75229"
+    },
+    {
+      "file": "2673.svg",
+      "nodes": 29,
+      "text_overflow": [],
+      "font_fits": [],
+      "sha256": "67363a6ec2ad8ecbd9eebff6d779dbafbc4457a6121503801c553cb27552bf12",
+      "source_sha256": "b86987c18e76dfaae31881ecd7069cb1edd1893be6f504e7343b3124fa9ad174"
+    },
+    {
+      "file": "2674.svg",
+      "nodes": 25,
+      "text_overflow": [],
+      "font_fits": [],
+      "sha256": "a9424f1f283dab7c3ffea002868b28fac1076b9121ad0760f47de2ebc6635fb7",
+      "source_sha256": "b4838ed9e983a1393f51d5f0aa043905e84f2399ec3f77541ae2c78632f7b0cc"
+    },
+    {
+      "file": "2675.svg",
+      "nodes": 21,
+      "text_overflow": [],
+      "font_fits": [],
+      "sha256": "146a40e4e289158c10dbe54d7fd43eb05ffc24200084dad480340c3966549175",
+      "source_sha256": "ef3180cc7a50f611efe65fb06c63f22d98dfefb03850d7bad9fa42b733586b2d"
+    },
+    {
+      "file": "2676.svg",
+      "nodes": 10,
+      "text_overflow": [],
+      "font_fits": [],
+      "sha256": "7b6e0d41b815eca36cf8efd9f764ef72f2956f3b6abaf87bc6c4131136e4fca5",
+      "source_sha256": "d2c9cee0df1b2226472aafe343a10650e3cdf76303f856a1d9248208b0089632"
+    },
+    {
+      "file": "2677.svg",
+      "nodes": 13,
+      "text_overflow": [],
+      "font_fits": [],
+      "sha256": "ae35a8d7183789554705ffe4b237a0f31fd667fd762ac9258ea89bac674760ee",
+      "source_sha256": "1ddb67ef9f096e998e182eb71d26223fa32cda5487ed650323abd68b5dfec4af"
+    }
+  ],
+  "viewer_controls": "passed",
+  "status": "SVG redraw complete; all 13 unclear-text items confirmed by user"
+}

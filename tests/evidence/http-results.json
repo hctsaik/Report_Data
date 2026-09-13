@@ -1,0 +1,10 @@
+{
+  "url": "http://127.0.0.1:4175/",
+  "asset_hash_matches": {
+    "index.html": true,
+    "styles.css": true,
+    "app.js": true,
+    "examples/fab-physical-data-v01.png": true
+  },
+  "http_interaction": "PASS"
+}

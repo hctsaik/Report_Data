@@ -1,0 +1,80 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" width="814pt" height="503pt" viewBox="0.00 0.00 814.00 503.00" role="img" aria-label="以 Lot 看裝載、設備安排與流程 ER 主題圖">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(21.6 481.16)">
+<title>ER</title>
+<polygon fill="white" stroke="none" points="-21.6,21.6 -21.6,-481.16 792.76,-481.16 792.76,21.6 -21.6,21.6" />
+
+<g id="e_n_2671_cast-link_t_55072ef91a15" class="edge" data-edge="e_n_2671_cast-link_t_55072ef91a15">
+<title>n_2671_cast-link--t_55072ef91a15</title>
+<path fill="none" stroke="#70869a" stroke-width="1.8" d="M427.01,-367.4C478.93,-354.27 540.78,-338.64 586.33,-327.13" />
+</g>
+
+<g id="e_n_2671_material-link_t_b293b57a5ae2" class="edge" data-edge="e_n_2671_material-link_t_b293b57a5ae2">
+<title>n_2671_material-link--t_b293b57a5ae2</title>
+<path fill="none" stroke="#70869a" stroke-width="1.8" d="M481.2,-66.78C498.33,-66.78 515.58,-66.78 532.18,-66.78" />
+</g>
+
+<g id="e_n_2671_slot_t_55072ef91a15" class="edge" data-edge="e_n_2671_slot_t_55072ef91a15">
+<title>n_2671_slot--t_55072ef91a15</title>
+<path fill="none" stroke="#70869a" stroke-width="1.8" d="M419.98,-253.1C473.24,-266.4 538.65,-282.73 586.25,-294.61" />
+</g>
+
+<g id="e_n_2671_cast-link_t_cfc81de70314" class="edge" data-edge="e_n_2671_cast-link_t_cfc81de70314">
+<title>t_cfc81de70314--n_2671_cast-link</title>
+<path fill="none" stroke="#70869a" stroke-width="1.8" d="M120.09,-275.96C143.7,-294.15 165.29,-310.78 165.29,-310.78 165.29,-310.78 210.25,-333.92 252.39,-355.62" />
+</g>
+
+<g id="e_n_2671_material-link_t_cfc81de70314" class="edge" data-edge="e_n_2671_material-link_t_cfc81de70314">
+<title>t_cfc81de70314--n_2671_material-link</title>
+<path fill="none" stroke="#70869a" stroke-width="1.8" d="M120.09,-183.6C143.7,-165.41 165.29,-148.78 165.29,-148.78 165.29,-148.78 211.24,-125.12 253.79,-103.22" />
+</g>
+
+<g id="e_n_2671_slot_t_cfc81de70314" class="edge" data-edge="e_n_2671_slot_t_cfc81de70314">
+<title>t_cfc81de70314--n_2671_slot</title>
+<path fill="none" stroke="#70869a" stroke-width="1.8" d="M120.15,-229.78C138.74,-229.78 160.08,-229.78 181.8,-229.78" />
+</g>
+
+<g id="n_2671_cast-link" class="node" data-node="n_2671_cast-link" role="button" tabindex="0" aria-label="放在 / Siview.Frcast_lot">
+<title>n_2671_cast-link</title>
+<polygon fill="#ffffff" stroke="#6a7d8e" stroke-width="2" points="325.58,-459.56 165.29,-392.78 325.58,-326 485.87,-392.78 325.58,-459.56" />
+<text xml:space="preserve" text-anchor="middle" x="325.58" y="-400.43" font-family="Microsoft JhengHei" font-size="18.00">放在</text>
+<text xml:space="preserve" text-anchor="middle" x="325.58" y="-375.68" font-family="Microsoft JhengHei" font-size="18.00">Siview.Frcast_lot</text>
+</g>
+
+<g id="n_2671_material-link" class="node" data-node="n_2671_material-link" role="button" tabindex="0" aria-label="放在 / Siview.FrlotMtrl">
+<title>n_2671_material-link</title>
+<polygon fill="#ffffff" stroke="#6a7d8e" stroke-width="2" points="325.58,-133.56 172.04,-66.78 325.58,0 479.12,-66.78 325.58,-133.56" />
+<text xml:space="preserve" text-anchor="middle" x="325.58" y="-74.43" font-family="Microsoft JhengHei" font-size="18.00">放在</text>
+<text xml:space="preserve" text-anchor="middle" x="325.58" y="-49.68" font-family="Microsoft JhengHei" font-size="18.00">Siview.FrlotMtrl</text>
+</g>
+
+<g id="n_2671_slot" class="node" data-node="n_2671_slot" role="button" tabindex="0" aria-label="內容物歷史 / Siview.fhwlths">
+<title>n_2671_slot</title>
+<polygon fill="#ffffff" stroke="#6a7d8e" stroke-width="2" points="325.58,-296.56 184.04,-229.78 325.58,-163 467.12,-229.78 325.58,-296.56" />
+<text xml:space="preserve" text-anchor="middle" x="325.58" y="-237.43" font-family="Microsoft JhengHei" font-size="18.00">內容物歷史</text>
+<text xml:space="preserve" text-anchor="middle" x="325.58" y="-212.68" font-family="Microsoft JhengHei" font-size="18.00">Siview.fhwlths</text>
+</g>
+
+<g id="t_55072ef91a15" class="node" data-node="t_55072ef91a15" role="button" tabindex="0" aria-label="Foup / Siview.Frcast">
+<title>t_55072ef91a15</title>
+<polygon fill="#edf9f5" stroke="#008775" stroke-width="2" points="716.78,-344.17 587.25,-344.17 587.25,-277.39 716.78,-277.39 716.78,-344.17" />
+<text xml:space="preserve" text-anchor="middle" x="652.01" y="-318.43" font-family="Microsoft JhengHei" font-size="18.00">Foup</text>
+<text xml:space="preserve" text-anchor="middle" x="652.01" y="-293.68" font-family="Microsoft JhengHei" font-size="18.00">Siview.Frcast</text>
+</g>
+
+<g id="t_b293b57a5ae2" class="node" data-node="t_b293b57a5ae2" role="button" tabindex="0" aria-label="Foup / Siview.FRLot_MtrlContnrs">
+<title>t_b293b57a5ae2</title>
+<polygon fill="#edf9f5" stroke="#008775" stroke-width="2" points="771.16,-100.17 532.87,-100.17 532.87,-33.39 771.16,-33.39 771.16,-100.17" />
+<text xml:space="preserve" text-anchor="middle" x="652.01" y="-74.43" font-family="Microsoft JhengHei" font-size="18.00">Foup</text>
+<text xml:space="preserve" text-anchor="middle" x="652.01" y="-49.68" font-family="Microsoft JhengHei" font-size="18.00">Siview.FRLot_MtrlContnrs</text>
+</g>
+
+<g id="t_cfc81de70314" class="node" data-node="t_cfc81de70314" role="button" tabindex="0" aria-label="LOT / Siview.Frlot">
+<title>t_cfc81de70314</title>
+<polygon fill="#eef5ff" stroke="#176ac2" stroke-width="4" points="118.29,-275.55 0,-275.55 0,-184.01 118.29,-184.01 118.29,-275.55" />
+<text xml:space="preserve" text-anchor="middle" x="59.14" y="-249.8" font-family="Microsoft JhengHei" font-size="18.00">本圖主詞</text>
+<text xml:space="preserve" text-anchor="middle" x="59.14" y="-225.05" font-family="Microsoft JhengHei" font-size="18.00">LOT</text>
+<text xml:space="preserve" text-anchor="middle" x="59.14" y="-200.3" font-family="Microsoft JhengHei" font-size="18.00">Siview.Frlot</text>
+</g>
+</g>
+</svg>

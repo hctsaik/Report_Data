@@ -1,0 +1,1292 @@
+{
+  "pages": [
+    {
+      "id": "operations/port",
+      "width": 1440,
+      "page": {
+        "path": "tests/evidence/mes-007/operations-port-1440.png",
+        "sha256": "1875c99ada57c6cdc7b58f5f8633425b3e11c61b5af446c79bc2288a49a34699"
+      },
+      "art": {
+        "path": "tests/evidence/mes-007/operations-port-1440-art.png",
+        "sha256": "211b5454aa26b4b09f68298e3651d68210f80ca86d177e0b7406848e28bf6e6f"
+      }
+    },
+    {
+      "id": "operations/recipe",
+      "width": 1440,
+      "page": {
+        "path": "tests/evidence/mes-007/operations-recipe-1440.png",
+        "sha256": "2a2caed9e4a5bf73927b2cadb438bbffdd774e317df944a6f56f9711182201a9"
+      },
+      "art": {
+        "path": "tests/evidence/mes-007/operations-recipe-1440-art.png",
+        "sha256": "a1e90a619f96b4e26e1cc284c741d3283cece3a72c4364eb38167216fe768513"
+      }
+    },
+    {
+      "id": "operations/chamber",
+      "width": 1440,
+      "page": {
+        "path": "tests/evidence/mes-007/operations-chamber-1440.png",
+        "sha256": "e6a40e94cd8a2f8c67b1db5d787fab5dbc12783066b87d0e146cf8334bf5021e"
+      },
+      "art": {
+        "path": "tests/evidence/mes-007/operations-chamber-1440-art.png",
+        "sha256": "5b19eaaefafb0e8784a78c3a17a21ef8629ec3e7b0a3a1813a34e92beac216b7"
+      }
+    },
+    {
+      "id": "operations/state",
+      "width": 1440,
+      "page": {
+        "path": "tests/evidence/mes-007/operations-state-1440.png",
+        "sha256": "2e3c4095301f4a6acf667e672f0b0da5c005a44b81403f03e95ef35195d1bfb9"
+      },
+      "art": {
+        "path": "tests/evidence/mes-007/operations-state-1440-art.png",
+        "sha256": "3bfc5a42d5eb95ee118ce6080c554c1310fe553da3dfc08503130394c1271485"
+      }
+    },
+    {
+      "id": "operations/handoff",
+      "width": 1440,
+      "page": {
+        "path": "tests/evidence/mes-007/operations-handoff-1440.png",
+        "sha256": "5b4bc21924157427eb446359fa1087caca03359e333df53d84ec7af164eed62f"
+      },
+      "art": {
+        "path": "tests/evidence/mes-007/operations-handoff-1440-art.png",
+        "sha256": "95ba02ea3a31c60c8554d8f6c66d33a4f59b1bf33cfae0c9f93970cd0017e575"
+      }
+    },
+    {
+      "id": "operations/lab",
+      "width": 1440,
+      "page": {
+        "path": "tests/evidence/mes-007/operations-lab-1440.png",
+        "sha256": "f82c474050e58fc948aa390b938a59ff35e2d0e3d882bbf3242c1e992e3ab1c2"
+      },
+      "art": {
+        "path": "tests/evidence/mes-007/operations-lab-1440-art.png",
+        "sha256": "58598c3343565af875b0b07d799a05afb1c719355d7ca9a963d9cc951636ec9c"
+      }
+    },
+    {
+      "id": "flow/stage",
+      "width": 1440,
+      "page": {
+        "path": "tests/evidence/mes-007/flow-stage-1440.png",
+        "sha256": "728297bac6d2fcb1f327575fd5731f862516bf3c3ab9714c9afc4fcbb6c9aa1f"
+      },
+      "art": {
+        "path": "tests/evidence/mes-007/flow-stage-1440-art.png",
+        "sha256": "0c036e2424c9d2362fbc06453928cac856287f53938613839bcefc69f3fc88cf"
+      }
+    },
+    {
+      "id": "flow/step",
+      "width": 1440,
+      "page": {
+        "path": "tests/evidence/mes-007/flow-step-1440.png",
+        "sha256": "fffaac4117ceefbd5743029852698d771a71e72a7900bc4f321890db979ad837"
+      },
+      "art": {
+        "path": "tests/evidence/mes-007/flow-step-1440-art.png",
+        "sha256": "0ec264878f0e383393f333ff028f0b8662be7ddadefae0b09e3593452cb731d7"
+      }
+    },
+    {
+      "id": "flow/lot-flow",
+      "width": 1440,
+      "page": {
+        "path": "tests/evidence/mes-007/flow-lot-flow-1440.png",
+        "sha256": "cd8b6c509d5a756c3fa2275e855609d9e6aecd322647493736f3385054a42b4a"
+      },
+      "art": {
+        "path": "tests/evidence/mes-007/flow-lot-flow-1440-art.png",
+        "sha256": "50ad8d9fed8f8659246eb763fdb3ece1b9da9c2f5c00843d653ec2658b60154e"
+      }
+    },
+    {
+      "id": "flow/execution",
+      "width": 1440,
+      "page": {
+        "path": "tests/evidence/mes-007/flow-execution-1440.png",
+        "sha256": "f7ea9d2bb4f58aec5a26224fe3de793469a595198e2c2edcd6954a13fe1d1bbf"
+      },
+      "art": {
+        "path": "tests/evidence/mes-007/flow-execution-1440-art.png",
+        "sha256": "37bde58714217c4d57bce659eb93b55a380fd96ea88ce1cbc5fae00e23dfa995"
+      }
+    },
+    {
+      "id": "flow/branching",
+      "width": 1440,
+      "page": {
+        "path": "tests/evidence/mes-007/flow-branching-1440.png",
+        "sha256": "2150d9c27d823f58bb8e6c201e6861d9814bf86fb37d00a6d6c8bff15ffd5b31"
+      },
+      "art": {
+        "path": "tests/evidence/mes-007/flow-branching-1440-art.png",
+        "sha256": "17ec7db6379723388ce3675cbc5e3430faec29517e65148f4dbc589eb9e13dba"
+      }
+    },
+    {
+      "id": "flow/rework",
+      "width": 1440,
+      "page": {
+        "path": "tests/evidence/mes-007/flow-rework-1440.png",
+        "sha256": "aec0f3236ff1b0166bbb9aa4c825ff584c2bc647c6b6292b3bfbc56dd3a86189"
+      },
+      "art": {
+        "path": "tests/evidence/mes-007/flow-rework-1440-art.png",
+        "sha256": "3d2845d1c8fafefedee8d3e8728c92f73f3dda0d2729ebcb96002d1028d48c1a"
+      }
+    },
+    {
+      "id": "flow/split-merge",
+      "width": 1440,
+      "page": {
+        "path": "tests/evidence/mes-007/flow-split-merge-1440.png",
+        "sha256": "dd1068ebf651b25063015bd60680bf906718c79edb3f7c7d6f31975e18b529b9"
+      },
+      "art": {
+        "path": "tests/evidence/mes-007/flow-split-merge-1440-art.png",
+        "sha256": "7e7136d889ff99fead8537b52d28c21d8155673827d84aa44c2001956def899f"
+      }
+    },
+    {
+      "id": "flow/versions",
+      "width": 1440,
+      "page": {
+        "path": "tests/evidence/mes-007/flow-versions-1440.png",
+        "sha256": "dd6c71c653600786ea4565e1687aea0d2cb32aef9068052d6614433f054cac46"
+      },
+      "art": {
+        "path": "tests/evidence/mes-007/flow-versions-1440-art.png",
+        "sha256": "9eb72d65b34901d9ba3ea0d4b2ee1d220b345bdf6f96e4ce79a8713868db0b19"
+      }
+    },
+    {
+      "id": "flow/lab",
+      "width": 1440,
+      "page": {
+        "path": "tests/evidence/mes-007/flow-lab-1440.png",
+        "sha256": "462df8ee9ac137884ea414b0eeaaf3cbbed67c03742db34e4cc271068483be3f"
+      },
+      "art": {
+        "path": "tests/evidence/mes-007/flow-lab-1440-art.png",
+        "sha256": "78d73a6a4e347d0776dac7153a1506b85cf00e8b9e267745e45271c429ed1459"
+      }
+    },
+    {
+      "id": "freshness/architecture",
+      "width": 1440,
+      "page": {
+        "path": "tests/evidence/mes-007/freshness-architecture-1440.png",
+        "sha256": "20ae8e57e794a436dbbaec58e50ab8138b918d0d0ed62c6dd8f790c4bb191598"
+      },
+      "art": {
+        "path": "tests/evidence/mes-007/freshness-architecture-1440-art.png",
+        "sha256": "117b2500337c6f71c8c01d668beb62468f43bbab9d92cb8eaa5333806a95acbd"
+      }
+    },
+    {
+      "id": "freshness/decision",
+      "width": 1440,
+      "page": {
+        "path": "tests/evidence/mes-007/freshness-decision-1440.png",
+        "sha256": "556bdd8e900bfed18fe8aa5257ff98ad3dfc441b14745f867b844fe81ac6cd15"
+      },
+      "art": {
+        "path": "tests/evidence/mes-007/freshness-decision-1440-art.png",
+        "sha256": "63a6183e6073d4241cc2602c319d95d214148cee0d007266651d52152c32cb94"
+      }
+    },
+    {
+      "id": "freshness/ai",
+      "width": 1440,
+      "page": {
+        "path": "tests/evidence/mes-007/freshness-ai-1440.png",
+        "sha256": "66c4c42b8597844ab94681222b9bd8e44cdad4963f2e73123e524c1617caa716"
+      },
+      "art": {
+        "path": "tests/evidence/mes-007/freshness-ai-1440-art.png",
+        "sha256": "b5ae5e6b8a22b7cc03f4da623c0e1600177f1d94dfbf159c08686f135e2e73b5"
+      }
+    },
+    {
+      "id": "freshness/history",
+      "width": 1440,
+      "page": {
+        "path": "tests/evidence/mes-007/freshness-history-1440.png",
+        "sha256": "ac371c136d25ac46d5a7e5787ee09c56f1eec7249ac619fecb47af4c1c67e31b"
+      },
+      "art": {
+        "path": "tests/evidence/mes-007/freshness-history-1440-art.png",
+        "sha256": "88acc98a9a5b15b7178092d61bdcdb65de4ffef33cc606356600748cb3f3ac42"
+      }
+    },
+    {
+      "id": "freshness/join",
+      "width": 1440,
+      "page": {
+        "path": "tests/evidence/mes-007/freshness-join-1440.png",
+        "sha256": "6b6c0f93e5dfe98bba50343796db0c403ccb717b17de2436f8c61657a6df4e7c"
+      },
+      "art": {
+        "path": "tests/evidence/mes-007/freshness-join-1440-art.png",
+        "sha256": "47fc398fe31bc21207aa35278b726798ea01dfa928d88686e9cb7047b465af66"
+      }
+    },
+    {
+      "id": "freshness/contract",
+      "width": 1440,
+      "page": {
+        "path": "tests/evidence/mes-007/freshness-contract-1440.png",
+        "sha256": "e59082565e78d0a9bb88b6ac4e0841d1522a25d387dd0c74912bcb0d8a303699"
+      }
+    },
+    {
+      "id": "operations/port",
+      "width": 360,
+      "page": {
+        "path": "tests/evidence/mes-007/operations-port-360.png",
+        "sha256": "dafc48e3d4520e9de97724e801166570687c641b8c0aeb0c8b24b282af4a6bc8"
+      },
+      "art": {
+        "path": "tests/evidence/mes-007/operations-port-360-art.png",
+        "sha256": "960dcdd415aaf643fc6769921af0e549c55eed1975c6c42ad45df88926571dd2"
+      },
+      "panels": [
+        "tests/evidence/mes-007/operations-port-mobile-panel0.png",
+        "tests/evidence/mes-007/operations-port-mobile-panel1.png",
+        "tests/evidence/mes-007/operations-port-mobile-panel2.png"
+      ]
+    },
+    {
+      "id": "operations/recipe",
+      "width": 360,
+      "page": {
+        "path": "tests/evidence/mes-007/operations-recipe-360.png",
+        "sha256": "567e6b2bf849f52c5d062f09a4eb5843fe481834ea87ae0e933b531d9b7df044"
+      },
+      "art": {
+        "path": "tests/evidence/mes-007/operations-recipe-360-art.png",
+        "sha256": "84546299a07d9b435abbbfcd13d767eefa7d424ebefe6b3e27db03640b24d411"
+      },
+      "panels": [
+        "tests/evidence/mes-007/operations-recipe-mobile-panel0.png",
+        "tests/evidence/mes-007/operations-recipe-mobile-panel1.png",
+        "tests/evidence/mes-007/operations-recipe-mobile-panel2.png"
+      ]
+    },
+    {
+      "id": "operations/chamber",
+      "width": 360,
+      "page": {
+        "path": "tests/evidence/mes-007/operations-chamber-360.png",
+        "sha256": "703ec3d90452e4391bc10939a84488d6937ca31ee32de392631df55f06fed235"
+      },
+      "art": {
+        "path": "tests/evidence/mes-007/operations-chamber-360-art.png",
+        "sha256": "b150f84f20e3b9a02ee89e713007e0b3cda22a3b00c9d4319fab745f99f1a46a"
+      },
+      "panels": [
+        "tests/evidence/mes-007/operations-chamber-mobile-panel0.png",
+        "tests/evidence/mes-007/operations-chamber-mobile-panel1.png",
+        "tests/evidence/mes-007/operations-chamber-mobile-panel2.png"
+      ]
+    },
+    {
+      "id": "operations/state",
+      "width": 360,
+      "page": {
+        "path": "tests/evidence/mes-007/operations-state-360.png",
+        "sha256": "d9f320c2cf845d38a62e0a2ef7b7bb3a0edfb86b7b14cbbf297722652cd0ea21"
+      },
+      "art": {
+        "path": "tests/evidence/mes-007/operations-state-360-art.png",
+        "sha256": "7d82001d55813e9a50b2d307e639f0c0166f3bcfbf9682c1ab9f95c3cd7ade41"
+      },
+      "panels": [
+        "tests/evidence/mes-007/operations-state-mobile-panel0.png",
+        "tests/evidence/mes-007/operations-state-mobile-panel1.png",
+        "tests/evidence/mes-007/operations-state-mobile-panel2.png"
+      ]
+    },
+    {
+      "id": "operations/handoff",
+      "width": 360,
+      "page": {
+        "path": "tests/evidence/mes-007/operations-handoff-360.png",
+        "sha256": "8c7dcb8fefc93ba582330d3b3caefd9450164603952331f6fbcf088adbdf97ca"
+      },
+      "art": {
+        "path": "tests/evidence/mes-007/operations-handoff-360-art.png",
+        "sha256": "a5069e5e011b00ce6593212e0b6dd26444d212580335a0d33d410b08a7146a67"
+      },
+      "panels": [
+        "tests/evidence/mes-007/operations-handoff-mobile-panel0.png",
+        "tests/evidence/mes-007/operations-handoff-mobile-panel1.png",
+        "tests/evidence/mes-007/operations-handoff-mobile-panel2.png"
+      ]
+    },
+    {
+      "id": "operations/lab",
+      "width": 360,
+      "page": {
+        "path": "tests/evidence/mes-007/operations-lab-360.png",
+        "sha256": "254659e57429cdfc4949a2f6c3da0dadac7762846035159fcf98422bb22431a7"
+      },
+      "art": {
+        "path": "tests/evidence/mes-007/operations-lab-360-art.png",
+        "sha256": "c4c3965809ec73466368610cac28ef1f850b3878ed04272ddbb2f395c42d6066"
+      },
+      "panels": [
+        "tests/evidence/mes-007/operations-lab-mobile-panel0.png",
+        "tests/evidence/mes-007/operations-lab-mobile-panel1.png",
+        "tests/evidence/mes-007/operations-lab-mobile-panel2.png"
+      ]
+    },
+    {
+      "id": "flow/stage",
+      "width": 360,
+      "page": {
+        "path": "tests/evidence/mes-007/flow-stage-360.png",
+        "sha256": "3afdb077c2ee2b578ff3d07ab847f5d12b55e7bbc63ea5407e5afb4fc851354f"
+      },
+      "art": {
+        "path": "tests/evidence/mes-007/flow-stage-360-art.png",
+        "sha256": "b0b8e8806da802578f817294a85561db81910076f1c9406c796ca3a526c52301"
+      },
+      "panels": [
+        "tests/evidence/mes-007/flow-stage-mobile-panel0.png",
+        "tests/evidence/mes-007/flow-stage-mobile-panel1.png",
+        "tests/evidence/mes-007/flow-stage-mobile-panel2.png"
+      ]
+    },
+    {
+      "id": "flow/step",
+      "width": 360,
+      "page": {
+        "path": "tests/evidence/mes-007/flow-step-360.png",
+        "sha256": "a7a25fd77b4741f308b669222ab9e4d43c7b9a61cdbeb67b63307026b03c0801"
+      },
+      "art": {
+        "path": "tests/evidence/mes-007/flow-step-360-art.png",
+        "sha256": "553255a8202a0b625bb004f4a0c563e16cadaa47c33105cc71b827a296d9e197"
+      },
+      "panels": [
+        "tests/evidence/mes-007/flow-step-mobile-panel0.png",
+        "tests/evidence/mes-007/flow-step-mobile-panel1.png",
+        "tests/evidence/mes-007/flow-step-mobile-panel2.png"
+      ]
+    },
+    {
+      "id": "flow/lot-flow",
+      "width": 360,
+      "page": {
+        "path": "tests/evidence/mes-007/flow-lot-flow-360.png",
+        "sha256": "68ff760099703c90c7b3ea09615dd3878169bbff46e7cabd6845dcd033755200"
+      },
+      "art": {
+        "path": "tests/evidence/mes-007/flow-lot-flow-360-art.png",
+        "sha256": "f3f879a1a6a571fed7d9b8a068ca1e17e225ae172d6254cee91807a117bc7f7a"
+      },
+      "panels": [
+        "tests/evidence/mes-007/flow-lot-flow-mobile-panel0.png",
+        "tests/evidence/mes-007/flow-lot-flow-mobile-panel1.png",
+        "tests/evidence/mes-007/flow-lot-flow-mobile-panel2.png"
+      ]
+    },
+    {
+      "id": "flow/execution",
+      "width": 360,
+      "page": {
+        "path": "tests/evidence/mes-007/flow-execution-360.png",
+        "sha256": "9b6cf627ee5d4edf6cade9d832aa849064ebaff4de452a83e2356c751373a958"
+      },
+      "art": {
+        "path": "tests/evidence/mes-007/flow-execution-360-art.png",
+        "sha256": "802e23dff6c61dad5ef6eac64ece4d93f5347aa00588c9977ca1854a283edd6a"
+      },
+      "panels": [
+        "tests/evidence/mes-007/flow-execution-mobile-panel0.png",
+        "tests/evidence/mes-007/flow-execution-mobile-panel1.png",
+        "tests/evidence/mes-007/flow-execution-mobile-panel2.png",
+        "tests/evidence/mes-007/flow-execution-mobile-panel3.png"
+      ]
+    },
+    {
+      "id": "flow/branching",
+      "width": 360,
+      "page": {
+        "path": "tests/evidence/mes-007/flow-branching-360.png",
+        "sha256": "f9883795db4d8d3c0e4fc25c973b0b4ad546cc8502860c1d4e784c23c2d1e067"
+      },
+      "art": {
+        "path": "tests/evidence/mes-007/flow-branching-360-art.png",
+        "sha256": "0434019eddcfe61cf7bd94f793edeaffe087620fda94123c762fa8905ce4ff5f"
+      },
+      "panels": [
+        "tests/evidence/mes-007/flow-branching-mobile-panel0.png",
+        "tests/evidence/mes-007/flow-branching-mobile-panel1.png",
+        "tests/evidence/mes-007/flow-branching-mobile-panel2.png"
+      ]
+    },
+    {
+      "id": "flow/rework",
+      "width": 360,
+      "page": {
+        "path": "tests/evidence/mes-007/flow-rework-360.png",
+        "sha256": "22f60287d8390c56e3d95738b027869ef3ea97efda7c1ac678bd69d4bc44363f"
+      },
+      "art": {
+        "path": "tests/evidence/mes-007/flow-rework-360-art.png",
+        "sha256": "42aaf56175db448daa05cd2debe106b7e7c33819837be8049595cc533d9a6d06"
+      },
+      "panels": [
+        "tests/evidence/mes-007/flow-rework-mobile-panel0.png",
+        "tests/evidence/mes-007/flow-rework-mobile-panel1.png",
+        "tests/evidence/mes-007/flow-rework-mobile-panel2.png"
+      ]
+    },
+    {
+      "id": "flow/split-merge",
+      "width": 360,
+      "page": {
+        "path": "tests/evidence/mes-007/flow-split-merge-360.png",
+        "sha256": "ead164faa8cb2adac23156bc03bb79daf76edcee87891302c24d17995c7af348"
+      },
+      "art": {
+        "path": "tests/evidence/mes-007/flow-split-merge-360-art.png",
+        "sha256": "01ab9045f78ab9bea843064b3548071ecca0cd13a133b93a5afb20f92a14d7c1"
+      },
+      "panels": [
+        "tests/evidence/mes-007/flow-split-merge-mobile-panel0.png",
+        "tests/evidence/mes-007/flow-split-merge-mobile-panel1.png",
+        "tests/evidence/mes-007/flow-split-merge-mobile-panel2.png"
+      ]
+    },
+    {
+      "id": "flow/versions",
+      "width": 360,
+      "page": {
+        "path": "tests/evidence/mes-007/flow-versions-360.png",
+        "sha256": "8b90c1db902f86bd17a3aa3fbc22be6a971c83ac674ccb895028ae5219bd54b4"
+      },
+      "art": {
+        "path": "tests/evidence/mes-007/flow-versions-360-art.png",
+        "sha256": "3c91d7c54f8aa5381a9cc4d730c2c9bccbca2343fb663154d4db23a6df32045a"
+      },
+      "panels": [
+        "tests/evidence/mes-007/flow-versions-mobile-panel0.png",
+        "tests/evidence/mes-007/flow-versions-mobile-panel1.png",
+        "tests/evidence/mes-007/flow-versions-mobile-panel2.png"
+      ]
+    },
+    {
+      "id": "flow/lab",
+      "width": 360,
+      "page": {
+        "path": "tests/evidence/mes-007/flow-lab-360.png",
+        "sha256": "5e2de80ca6068df82d8ceb05b42a39f1e73057e7333b099825c9d31d45dbcc19"
+      },
+      "art": {
+        "path": "tests/evidence/mes-007/flow-lab-360-art.png",
+        "sha256": "41028f8fde767685861bce70e74a977899d5359b6c506f2053db00d34d66ed06"
+      },
+      "panels": [
+        "tests/evidence/mes-007/flow-lab-mobile-panel0.png",
+        "tests/evidence/mes-007/flow-lab-mobile-panel1.png",
+        "tests/evidence/mes-007/flow-lab-mobile-panel2.png"
+      ]
+    },
+    {
+      "id": "freshness/architecture",
+      "width": 360,
+      "page": {
+        "path": "tests/evidence/mes-007/freshness-architecture-360.png",
+        "sha256": "a577dcf337772abae15f6b62fa7a859d4564516344c6b72bddfe732cd942c072"
+      },
+      "art": {
+        "path": "tests/evidence/mes-007/freshness-architecture-360-art.png",
+        "sha256": "4cfb2436be7a9cd463abb231fb54bedd66f09eba366385765d748ab7f9134c8f"
+      }
+    },
+    {
+      "id": "freshness/decision",
+      "width": 360,
+      "page": {
+        "path": "tests/evidence/mes-007/freshness-decision-360.png",
+        "sha256": "5e809462836d202988c64cade491f3721b022250ed3c6bc491d5c141ed5fea7c"
+      },
+      "art": {
+        "path": "tests/evidence/mes-007/freshness-decision-360-art.png",
+        "sha256": "bb0a657d78f95c58654b904911dd8027967310a07d10fa9433b01fa59c8a6b80"
+      }
+    },
+    {
+      "id": "freshness/ai",
+      "width": 360,
+      "page": {
+        "path": "tests/evidence/mes-007/freshness-ai-360.png",
+        "sha256": "3174f96e30e176ad5db74bd25e28c746a977b3a522529e658a89ac555abea8ae"
+      },
+      "art": {
+        "path": "tests/evidence/mes-007/freshness-ai-360-art.png",
+        "sha256": "386d50adcc108c7032dae538256cdf09734009604248a2239bfc15424984de38"
+      }
+    },
+    {
+      "id": "freshness/history",
+      "width": 360,
+      "page": {
+        "path": "tests/evidence/mes-007/freshness-history-360.png",
+        "sha256": "f6a9df752e41a7815b9639e96d9e78138347f572de6bb9e3d93854bbde9d4c6f"
+      },
+      "art": {
+        "path": "tests/evidence/mes-007/freshness-history-360-art.png",
+        "sha256": "453aa0d2216450db569022ad31e38b52fc28975511246df0c8e652ba8ca62e9f"
+      }
+    },
+    {
+      "id": "freshness/join",
+      "width": 360,
+      "page": {
+        "path": "tests/evidence/mes-007/freshness-join-360.png",
+        "sha256": "d7539008b8fdffda9d271571cde9a0f9e90bee7c5f00cf2423456e7bea539330"
+      },
+      "art": {
+        "path": "tests/evidence/mes-007/freshness-join-360-art.png",
+        "sha256": "3b6ca99a8b4cd0cea0fa71ecf747688a610cf1c6bf05a54122ea2f30ae4c6711"
+      }
+    },
+    {
+      "id": "freshness/contract",
+      "width": 360,
+      "page": {
+        "path": "tests/evidence/mes-007/freshness-contract-360.png",
+        "sha256": "0804ebc64f927d3983bf7bb9da587b5fa75dd348bc740a9304415d281e20af56"
+      }
+    }
+  ],
+  "interactions": [
+    [
+      "operations",
+      "chamber",
+      1440,
+      "frame",
+      "① W06 加工中"
+    ],
+    [
+      "operations",
+      "chamber",
+      1440,
+      "frame",
+      "② 片間等待"
+    ],
+    [
+      "operations",
+      "chamber",
+      1440,
+      "frame",
+      "③ W07 加工中"
+    ],
+    [
+      "operations",
+      "chamber",
+      1440,
+      "frame",
+      "④ 全片返回"
+    ],
+    [
+      "operations",
+      "state",
+      1440,
+      "frame",
+      "① 兩項 Hold"
+    ],
+    [
+      "operations",
+      "state",
+      1440,
+      "frame",
+      "② 品質解除"
+    ],
+    [
+      "operations",
+      "state",
+      1440,
+      "frame",
+      "③ 工程也解除"
+    ],
+    [
+      "operations",
+      1440,
+      "scenario",
+      "arrival"
+    ],
+    [
+      "operations",
+      1440,
+      "scenario",
+      "reconcile"
+    ],
+    [
+      "operations",
+      1440,
+      "scenario",
+      "recipe"
+    ],
+    [
+      "operations",
+      1440,
+      "scenario",
+      "run"
+    ],
+    [
+      "operations",
+      1440,
+      "scenario",
+      "fault"
+    ],
+    [
+      "operations",
+      1440,
+      "scenario",
+      "hold"
+    ],
+    [
+      "flow",
+      "execution",
+      1440,
+      "frame",
+      "① 等待開工"
+    ],
+    [
+      "flow",
+      "execution",
+      1440,
+      "frame",
+      "② 開工"
+    ],
+    [
+      "flow",
+      "execution",
+      1440,
+      "frame",
+      "③ 機台完成"
+    ],
+    [
+      "flow",
+      "execution",
+      1440,
+      "frame",
+      "④ 完成交易"
+    ],
+    [
+      "flow",
+      "split-merge",
+      1440,
+      "frame",
+      "① 進度不同"
+    ],
+    [
+      "flow",
+      "split-merge",
+      1440,
+      "frame",
+      "② B 返回 S50"
+    ],
+    [
+      "flow",
+      1440,
+      "scenario",
+      "bind"
+    ],
+    [
+      "flow",
+      1440,
+      "scenario",
+      "normal"
+    ],
+    [
+      "flow",
+      1440,
+      "scenario",
+      "branch"
+    ],
+    [
+      "flow",
+      1440,
+      "scenario",
+      "rework"
+    ],
+    [
+      "flow",
+      1440,
+      "scenario",
+      "split"
+    ],
+    [
+      "flow",
+      1440,
+      "scenario",
+      "version"
+    ],
+    [
+      "flow",
+      1440,
+      "scenario",
+      "qtime"
+    ],
+    [
+      "flow",
+      1440,
+      "scenario",
+      "skip"
+    ],
+    [
+      "flow",
+      1440,
+      "scenario",
+      "revisit"
+    ],
+    [
+      "flow",
+      1440,
+      "scenario",
+      "dispatch"
+    ],
+    [
+      "decision",
+      1440,
+      "analysis",
+      {
+        "path": "tests/evidence/mes-007/freshness-decision-analysis-1440.png",
+        "sha256": "556bdd8e900bfed18fe8aa5257ff98ad3dfc441b14745f867b844fe81ac6cd15"
+      }
+    ],
+    [
+      "decision",
+      1440,
+      "monitor",
+      {
+        "path": "tests/evidence/mes-007/freshness-decision-monitor-1440.png",
+        "sha256": "0e6aa1e05ab19e341fb5f558e90273a7ad5258d1253c7f2a2bce5bc003eb6d7e"
+      }
+    ],
+    [
+      "decision",
+      1440,
+      "control",
+      {
+        "path": "tests/evidence/mes-007/freshness-decision-control-1440.png",
+        "sha256": "4f5e2ec6958f07243da2a4a91bab825ab2f942b078e3869df76cd9a9419c5d43"
+      }
+    ],
+    [
+      "ai",
+      1440,
+      "native",
+      "monitor",
+      {
+        "path": "tests/evidence/mes-007/freshness-ai-native-monitor-1440.png",
+        "sha256": "66c4c42b8597844ab94681222b9bd8e44cdad4963f2e73123e524c1617caa716"
+      }
+    ],
+    [
+      "ai",
+      1440,
+      "native",
+      "control",
+      {
+        "path": "tests/evidence/mes-007/freshness-ai-native-control-1440.png",
+        "sha256": "61271a13e4ce9bdd94a52417db49c1330f833cba8d0d7cc950521ff3117af544"
+      }
+    ],
+    [
+      "ai",
+      1440,
+      "mart",
+      "monitor",
+      {
+        "path": "tests/evidence/mes-007/freshness-ai-mart-monitor-1440.png",
+        "sha256": "0803dabf4ba9c9e381a76af088421554a062c2d2ef78e5efcba49dffdd9f54e8"
+      }
+    ],
+    [
+      "ai",
+      1440,
+      "mart",
+      "control",
+      {
+        "path": "tests/evidence/mes-007/freshness-ai-mart-control-1440.png",
+        "sha256": "97a1e7c2b9d288569bdd8d29472d3dc9d21e53d81677ef732425e390a9b894d1"
+      }
+    ],
+    [
+      "ai",
+      1440,
+      "tx",
+      "monitor",
+      {
+        "path": "tests/evidence/mes-007/freshness-ai-tx-monitor-1440.png",
+        "sha256": "175be5e4046d12062ddbd12d280b7a37ab6ec38edcfa0ad81cc3fb9ae414da96"
+      }
+    ],
+    [
+      "ai",
+      1440,
+      "tx",
+      "control",
+      {
+        "path": "tests/evidence/mes-007/freshness-ai-tx-control-1440.png",
+        "sha256": "2efe1474749a2cf84b5318d63dd91c192e20d39c4161bd455cf3587270749023"
+      }
+    ],
+    [
+      "history",
+      1440,
+      "event",
+      "yes",
+      {
+        "path": "tests/evidence/mes-007/freshness-history-event-yes-1440.png",
+        "sha256": "ac371c136d25ac46d5a7e5787ee09c56f1eec7249ac619fecb47af4c1c67e31b"
+      }
+    ],
+    [
+      "history",
+      1440,
+      "event",
+      "no",
+      {
+        "path": "tests/evidence/mes-007/freshness-history-event-no-1440.png",
+        "sha256": "282db1699b79773e9ed663cfc0c83b552e1b58012dc10431c2704e61260f2725"
+      }
+    ],
+    [
+      "history",
+      1440,
+      "current",
+      "yes",
+      {
+        "path": "tests/evidence/mes-007/freshness-history-current-yes-1440.png",
+        "sha256": "22b95a9d41e3669b5c85c679ec3da184cca86071792135560a20cbe6ae4fc115"
+      }
+    ],
+    [
+      "history",
+      1440,
+      "current",
+      "no",
+      {
+        "path": "tests/evidence/mes-007/freshness-history-current-no-1440.png",
+        "sha256": "a770db08b669acd9e46dda913bec3f12314e4351ec733786c5d3ae6e0f8e8a57"
+      }
+    ],
+    [
+      "join",
+      1440,
+      "refresh",
+      {
+        "path": "tests/evidence/mes-007/freshness-join-refreshed-1440.png",
+        "sha256": "1e7fe99a157446b5cd69863a5b030711a5678e3550a928ab139d76c70af2f41a"
+      }
+    ],
+    [
+      "contract",
+      1440,
+      "quiz",
+      "0"
+    ],
+    [
+      "contract",
+      1440,
+      "quiz",
+      "1"
+    ],
+    [
+      "contract",
+      1440,
+      "quiz",
+      "2"
+    ],
+    [
+      "operations",
+      "chamber",
+      360,
+      "frame",
+      "① W06 加工中"
+    ],
+    [
+      "operations",
+      "chamber",
+      360,
+      "frame",
+      "② 片間等待"
+    ],
+    [
+      "operations",
+      "chamber",
+      360,
+      "frame",
+      "③ W07 加工中"
+    ],
+    [
+      "operations",
+      "chamber",
+      360,
+      "frame",
+      "④ 全片返回"
+    ],
+    [
+      "operations",
+      "state",
+      360,
+      "frame",
+      "① 兩項 Hold"
+    ],
+    [
+      "operations",
+      "state",
+      360,
+      "frame",
+      "② 品質解除"
+    ],
+    [
+      "operations",
+      "state",
+      360,
+      "frame",
+      "③ 工程也解除"
+    ],
+    [
+      "operations",
+      360,
+      "scenario",
+      "arrival"
+    ],
+    [
+      "operations",
+      360,
+      "scenario",
+      "reconcile"
+    ],
+    [
+      "operations",
+      360,
+      "scenario",
+      "recipe"
+    ],
+    [
+      "operations",
+      360,
+      "scenario",
+      "run"
+    ],
+    [
+      "operations",
+      360,
+      "scenario",
+      "fault"
+    ],
+    [
+      "operations",
+      360,
+      "scenario",
+      "hold"
+    ],
+    [
+      "flow",
+      "execution",
+      360,
+      "frame",
+      "① 等待開工"
+    ],
+    [
+      "flow",
+      "execution",
+      360,
+      "frame",
+      "② 開工"
+    ],
+    [
+      "flow",
+      "execution",
+      360,
+      "frame",
+      "③ 機台完成"
+    ],
+    [
+      "flow",
+      "execution",
+      360,
+      "frame",
+      "④ 完成交易"
+    ],
+    [
+      "flow",
+      "split-merge",
+      360,
+      "frame",
+      "① 進度不同"
+    ],
+    [
+      "flow",
+      "split-merge",
+      360,
+      "frame",
+      "② B 返回 S50"
+    ],
+    [
+      "flow",
+      360,
+      "scenario",
+      "bind"
+    ],
+    [
+      "flow",
+      360,
+      "scenario",
+      "normal"
+    ],
+    [
+      "flow",
+      360,
+      "scenario",
+      "branch"
+    ],
+    [
+      "flow",
+      360,
+      "scenario",
+      "rework"
+    ],
+    [
+      "flow",
+      360,
+      "scenario",
+      "split"
+    ],
+    [
+      "flow",
+      360,
+      "scenario",
+      "version"
+    ],
+    [
+      "flow",
+      360,
+      "scenario",
+      "qtime"
+    ],
+    [
+      "flow",
+      360,
+      "scenario",
+      "skip"
+    ],
+    [
+      "flow",
+      360,
+      "scenario",
+      "revisit"
+    ],
+    [
+      "flow",
+      360,
+      "scenario",
+      "dispatch"
+    ],
+    [
+      "decision",
+      360,
+      "analysis",
+      {
+        "path": "tests/evidence/mes-007/freshness-decision-analysis-360.png",
+        "sha256": "5e809462836d202988c64cade491f3721b022250ed3c6bc491d5c141ed5fea7c"
+      }
+    ],
+    [
+      "decision",
+      360,
+      "monitor",
+      {
+        "path": "tests/evidence/mes-007/freshness-decision-monitor-360.png",
+        "sha256": "e9950d5a3d287029c4c56b4c46522186652546a4572ef1dbbf3f8f4ef42adf67"
+      }
+    ],
+    [
+      "decision",
+      360,
+      "control",
+      {
+        "path": "tests/evidence/mes-007/freshness-decision-control-360.png",
+        "sha256": "ae528c2aa554641c2aa24c9ff93d731efb55eb8b2b588c9fa09e4cad452510b4"
+      }
+    ],
+    [
+      "ai",
+      360,
+      "native",
+      "monitor",
+      {
+        "path": "tests/evidence/mes-007/freshness-ai-native-monitor-360.png",
+        "sha256": "3174f96e30e176ad5db74bd25e28c746a977b3a522529e658a89ac555abea8ae"
+      }
+    ],
+    [
+      "ai",
+      360,
+      "native",
+      "control",
+      {
+        "path": "tests/evidence/mes-007/freshness-ai-native-control-360.png",
+        "sha256": "82ee26ac1272fbdaed9d836b60251532b1db3c66c219f80120da84b54583a93c"
+      }
+    ],
+    [
+      "ai",
+      360,
+      "mart",
+      "monitor",
+      {
+        "path": "tests/evidence/mes-007/freshness-ai-mart-monitor-360.png",
+        "sha256": "6835d75e37a23c36f2ad10ffc129a33d14538d35a1f94b3810dc5a0c245b3f53"
+      }
+    ],
+    [
+      "ai",
+      360,
+      "mart",
+      "control",
+      {
+        "path": "tests/evidence/mes-007/freshness-ai-mart-control-360.png",
+        "sha256": "d69678666bb525bc1dff23b869f04881f3f030f0fe9fc5f053f8fc8fa1369a9f"
+      }
+    ],
+    [
+      "ai",
+      360,
+      "tx",
+      "monitor",
+      {
+        "path": "tests/evidence/mes-007/freshness-ai-tx-monitor-360.png",
+        "sha256": "5a9a8ffde9cd6c2efdb6e6ce042a90ce1e206e68e178c0fbf7fc98c19ee0c75b"
+      }
+    ],
+    [
+      "ai",
+      360,
+      "tx",
+      "control",
+      {
+        "path": "tests/evidence/mes-007/freshness-ai-tx-control-360.png",
+        "sha256": "174844e8caf08b0aae8fa4310a21b16c86754ac48f6e867286a3f66b9328f2de"
+      }
+    ],
+    [
+      "history",
+      360,
+      "event",
+      "yes",
+      {
+        "path": "tests/evidence/mes-007/freshness-history-event-yes-360.png",
+        "sha256": "f6a9df752e41a7815b9639e96d9e78138347f572de6bb9e3d93854bbde9d4c6f"
+      }
+    ],
+    [
+      "history",
+      360,
+      "event",
+      "no",
+      {
+        "path": "tests/evidence/mes-007/freshness-history-event-no-360.png",
+        "sha256": "3b43295834ad2b285e476e63fcd71411794bd2c379a9d05b77a0560e56d87a2e"
+      }
+    ],
+    [
+      "history",
+      360,
+      "current",
+      "yes",
+      {
+        "path": "tests/evidence/mes-007/freshness-history-current-yes-360.png",
+        "sha256": "e5676563b80237037432578e3e23f270b47ecdb1008198c74ead851d9d08138c"
+      }
+    ],
+    [
+      "history",
+      360,
+      "current",
+      "no",
+      {
+        "path": "tests/evidence/mes-007/freshness-history-current-no-360.png",
+        "sha256": "b09476783ac2bc07643f8cea2eb8b1857d8aaee66cb3855039e2fc954985bdb9"
+      }
+    ],
+    [
+      "join",
+      360,
+      "refresh",
+      {
+        "path": "tests/evidence/mes-007/freshness-join-refreshed-360.png",
+        "sha256": "f515d855002e035ab62ca24a10b8e7d3ae43cb0b6edcb0606efe730f96ac0c3d"
+      }
+    ],
+    [
+      "contract",
+      360,
+      "quiz",
+      "0"
+    ],
+    [
+      "contract",
+      360,
+      "quiz",
+      "1"
+    ],
+    [
+      "contract",
+      360,
+      "quiz",
+      "2"
+    ]
+  ],
+  "errors": [],
+  "assets": {
+    "assets/mes-v3/port-v2.png": "2fcb37819503928b84072d0ba4e74d2bf57c126ba61ef575a8a392536abc0185",
+    "assets/mes-v3/recipe-v1.png": "bb694794bbfa0d5c30fc278c07f5f75a2c87577e0b84ab1ab11564cfed121fe4",
+    "assets/mes-v3/chamber-v1.png": "56706fe542ebdbbdd16adf8e7037e04f3aac1cbc1d153fd2f9591af22b15f19e",
+    "assets/mes-v3/state-v2.png": "218bcfd833608c6f310983779e517af3160b30cf05f992c2c79887e2bb1267cd",
+    "assets/mes-v3/handoff-v1.png": "63392e4f55fe069cd3e4b1a9037c44a9f08cff6382d0cd5af137d5facd34988f",
+    "assets/mes-v3/operations-lab-v1.png": "fdd0afafcc8f00e43dc3dcf9f34a0d1f6cc45376e127b0a47854a33c9b59ffbf",
+    "assets/mes-v3/stage-v2.png": "42830ac48255e18facc79f4d1090b6f811c32ca570736e9096fa2e50f2debdb0",
+    "assets/mes-v3/step-v1.png": "c38a83d31ad9da6d78385bf76b5d6bdbc9cca47d80ff907b0b5b7bbb3c3c7901",
+    "assets/mes-v3/lot-flow-v3.png": "de38dec2954b4fe5cd29f8415fb172be7f3eb1b35a2787891c9b1f149c3a0d59",
+    "assets/mes-v3/execution-v2.png": "9bc86e472e263497f2787c3bfa5fb72729e837d9163b43e7563d6461cc04e7a9",
+    "assets/mes-v3/branching-v2.png": "b4d1c7c8a6c3e6c8174c60bb77a1b707cfebc019da70f3cb1c1d0dd104f0428f",
+    "assets/mes-v3/rework-v2.png": "e33b4fe22c9a2a1ece0c6299461bfdbff65012f254bc63f9a9b7905a1087a804",
+    "assets/mes-v3/split-merge-v1.png": "1c9f4839688e82b9b83bac99f05b5fe866ac1d51304f4295caee6e05a4419d4a",
+    "assets/mes-v3/versions-v1.png": "992c0d603ec7bd238688aa1be6dd7d30c27b6675519d9e4f45d1ddeb8fc3d4f9",
+    "assets/mes-v3/flow-lab-v2.png": "3e8ad4b299a9342a59e5b58b727f2371a4f477a24bbfe1694092da83bd35f4f2",
+    "course-illustrated.js": "64a570352fe1db35cf6d75e2f2060abe25d8281b50a78d518e3f2a408d07b33b",
+    "course-illustrated.css": "c05f651c3d07f96d21c6ddde0d3f9e930fdcded5053bed1d62eecd5c366cf75b",
+    "course.js": "d86cb37919e89e7f831ec95f0cc2924c7531cc8c51bafb52a073210635ff5e6b",
+    "course-remake.js": "f6c40e59b82f8e958dd6127e595cf27be572bf6e35559752c36094a888206a7f",
+    "course-remake.css": "5ba0dcd69df174bb94a1d92609a2b407b68ec4358609c2c8b027b8180ec1f615",
+    "course-content.js": "8bd7ebf305263f3cfae0fc22e2ce5dd4a5d44d97afecc5a7e3331e049a28c862",
+    "course.css": "98f7b7782225961b00b0eff1deb64c29d36fdac197c8399713d9c5d9019ac8c2",
+    "scenarios.js": "6e06819417dbc304dce62ffa8feb299fde1fab07a90221e0ffb9a8663f023706",
+    "operations.html": "26ba5d1197a7417d51cf5344201c1f8255a11df62b23ddbca97c92e12ea453a9",
+    "flow.html": "e7787aaa1f211ef5b0cd2ce31b51fb8cc4d6f740ed02cf1028d0f4d16f20c222",
+    "freshness.html": "ced59e06ba1675e7240a85c99a5bffbafb67e9fff57b028d79cd53053156e7e9",
+    "freshness.js": "06943d808228af46ec23ee22d0f3cae0c234fc55117c2d65c684c2188ad45ad3",
+    "freshness.css": "03719e7a578b03918bd64f0d2e52da6e8cb5d593b64bc0b7e4fadcf0601d87b1",
+    "index.html": "475e3dc9c7fe163dd356cea67c5472197e73da17ad0b563a00a829846bda5ceb"
+  }
+}

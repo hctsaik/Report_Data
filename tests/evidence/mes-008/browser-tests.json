@@ -1,0 +1,1318 @@
+{
+  "pages": [
+    {
+      "id": "architecture",
+      "width": 1440,
+      "image": "assets/freshness-v2/architecture-desktop-v3.png",
+      "box": {
+        "x": 304.1875,
+        "y": 433.15625,
+        "width": 1091.625,
+        "height": 614.359375
+      },
+      "page": {
+        "path": "tests/evidence/mes-008/architecture-1440.png",
+        "sha256": "8f8293b4b45cee467e0adaf16f44a00c1eef40706fc81632d6e88d5e2170b041"
+      },
+      "art": {
+        "path": "tests/evidence/mes-008/architecture-1440-art.png",
+        "sha256": "06ccc8d2101e065140ff1432fef58fa5c8c40ca6655cdae32cdc9ff81c711d4b"
+      }
+    },
+    {
+      "id": "decision",
+      "width": 1440,
+      "image": "assets/freshness-v2/decision-desktop-v2.png",
+      "box": {
+        "x": 304.1875,
+        "y": 433.15625,
+        "width": 1091.625,
+        "height": 614.359375
+      },
+      "page": {
+        "path": "tests/evidence/mes-008/decision-1440.png",
+        "sha256": "c20e413ec0f055889f86433576d9db1b8bd4ecd56bf6e76d16b98e635f463c02"
+      },
+      "art": {
+        "path": "tests/evidence/mes-008/decision-1440-art.png",
+        "sha256": "fa53b18e77b8093fa888270df9aee85bc0eab48136cef3ae46b2ac168143ed1d"
+      }
+    },
+    {
+      "id": "ai",
+      "width": 1440,
+      "image": "assets/freshness-v2/ai-desktop-v2.png",
+      "box": {
+        "x": 304.1875,
+        "y": 433.15625,
+        "width": 1091.625,
+        "height": 614.359375
+      },
+      "page": {
+        "path": "tests/evidence/mes-008/ai-1440.png",
+        "sha256": "95f9c2c0700423b54083caaa8f428060bd6e3fa38bea5fbb2a81e25623a2a484"
+      },
+      "art": {
+        "path": "tests/evidence/mes-008/ai-1440-art.png",
+        "sha256": "f2fbf6d1ff55284c4cd6cb66a20a1c3f689d2c389cacbabd1bb330dbb0af4a9a"
+      }
+    },
+    {
+      "id": "history",
+      "width": 1440,
+      "image": "assets/freshness-v2/history-desktop-v3.png",
+      "box": {
+        "x": 304.1875,
+        "y": 433.15625,
+        "width": 1091.625,
+        "height": 614.359375
+      },
+      "page": {
+        "path": "tests/evidence/mes-008/history-1440.png",
+        "sha256": "70b622c494df0fc4c9f19c528983a1741d6c291ffe86f03cd20b3e539a83a97b"
+      },
+      "art": {
+        "path": "tests/evidence/mes-008/history-1440-art.png",
+        "sha256": "7049d15fd01fde2ed15eb144e786955a36fc20c26b483ef85384e4e7039a1657"
+      }
+    },
+    {
+      "id": "join",
+      "width": 1440,
+      "image": "assets/freshness-v2/join-desktop-v2.png",
+      "box": {
+        "x": 304.1875,
+        "y": 433.15625,
+        "width": 1091.625,
+        "height": 614.359375
+      },
+      "page": {
+        "path": "tests/evidence/mes-008/join-1440.png",
+        "sha256": "86d27f816385d9b548a5229f058e5f3c5a14a3d8d9f3d5eb2c3506470a63905e"
+      },
+      "art": {
+        "path": "tests/evidence/mes-008/join-1440-art.png",
+        "sha256": "753ae52727d4c21c89739103b91582b12f601f5421ac67962707c3e1e8a5c606"
+      }
+    },
+    {
+      "id": "contract",
+      "width": 1440,
+      "image": "assets/freshness-v2/contract-desktop-v1.png",
+      "box": {
+        "x": 304.1875,
+        "y": 433.15625,
+        "width": 1091.625,
+        "height": 614.359375
+      },
+      "page": {
+        "path": "tests/evidence/mes-008/contract-1440.png",
+        "sha256": "51f03f8185378ade2c700ca8880488c5cc778a78a085a577379fd4efecc8354f"
+      },
+      "art": {
+        "path": "tests/evidence/mes-008/contract-1440-art.png",
+        "sha256": "6e6cf7a73f7fed63374e91b15b2081f8e03740d7e2286d2337c925e1e4749de2"
+      }
+    },
+    {
+      "id": "architecture",
+      "width": 800,
+      "image": "assets/freshness-v2/architecture-desktop-v3.png",
+      "box": {
+        "x": 22,
+        "y": 377.09375,
+        "width": 756,
+        "height": 425.46875
+      },
+      "page": {
+        "path": "tests/evidence/mes-008/architecture-800.png",
+        "sha256": "ad6d19c63486b8f0400083f5b2748fa2cbfeb14c33b3ba4f9cf66288d35bbc35"
+      },
+      "art": {
+        "path": "tests/evidence/mes-008/architecture-800-art.png",
+        "sha256": "a32c80670de4c81833eaff2a7b5c46ad90af13695030f529a6f7633eb2e57a3a"
+      }
+    },
+    {
+      "id": "decision",
+      "width": 800,
+      "image": "assets/freshness-v2/decision-desktop-v2.png",
+      "box": {
+        "x": 22,
+        "y": 377.09375,
+        "width": 756,
+        "height": 425.46875
+      },
+      "page": {
+        "path": "tests/evidence/mes-008/decision-800.png",
+        "sha256": "eb12f5e6518cdfbe3ad24dce9ab1e36b56daeace8dd6c10e56f481cd18e5961c"
+      },
+      "art": {
+        "path": "tests/evidence/mes-008/decision-800-art.png",
+        "sha256": "896b7300417f5235ef181986b096488fd3d5488e27b238bed1b5256d299e2721"
+      }
+    },
+    {
+      "id": "ai",
+      "width": 800,
+      "image": "assets/freshness-v2/ai-desktop-v2.png",
+      "box": {
+        "x": 22,
+        "y": 377.09375,
+        "width": 756,
+        "height": 425.46875
+      },
+      "page": {
+        "path": "tests/evidence/mes-008/ai-800.png",
+        "sha256": "504198805a8f66434099ba4e74387d3282ca488caa83b6ba7032171981b66190"
+      },
+      "art": {
+        "path": "tests/evidence/mes-008/ai-800-art.png",
+        "sha256": "83942c5dee70c276c0c8c1e28da9ad99eca529f6cc0619a8c738076cdadf2a87"
+      }
+    },
+    {
+      "id": "history",
+      "width": 800,
+      "image": "assets/freshness-v2/history-desktop-v3.png",
+      "box": {
+        "x": 22,
+        "y": 377.09375,
+        "width": 756,
+        "height": 425.46875
+      },
+      "page": {
+        "path": "tests/evidence/mes-008/history-800.png",
+        "sha256": "13cbc324194725c5856139c1c047d33fb57cd4d17704a3c295171c4c3d256caa"
+      },
+      "art": {
+        "path": "tests/evidence/mes-008/history-800-art.png",
+        "sha256": "6737b6fa3ef47fbe80c822906c235d91e77cc78f4625754861df2bae82aa34d9"
+      }
+    },
+    {
+      "id": "join",
+      "width": 800,
+      "image": "assets/freshness-v2/join-desktop-v2.png",
+      "box": {
+        "x": 22,
+        "y": 377.09375,
+        "width": 756,
+        "height": 425.46875
+      },
+      "page": {
+        "path": "tests/evidence/mes-008/join-800.png",
+        "sha256": "60a9ad8564f50d3f95cb3b38d689387e96d196de563cf25b60f76548ae3b953c"
+      },
+      "art": {
+        "path": "tests/evidence/mes-008/join-800-art.png",
+        "sha256": "b371a4016e3edc8feceddfdaa55f4a146ac25cd4cf6b4a6711a65667d14ed33f"
+      }
+    },
+    {
+      "id": "contract",
+      "width": 800,
+      "image": "assets/freshness-v2/contract-desktop-v1.png",
+      "box": {
+        "x": 22,
+        "y": 377.09375,
+        "width": 756,
+        "height": 425.46875
+      },
+      "page": {
+        "path": "tests/evidence/mes-008/contract-800.png",
+        "sha256": "c68a90cc2e2c3566636dace94206712b12813167141c2c9fef871c98ebdf9fd7"
+      },
+      "art": {
+        "path": "tests/evidence/mes-008/contract-800-art.png",
+        "sha256": "5d6b9a824e5190c6000e9c2a1859a6d25697d0cb2ee167a19424ab17cb3f8ccc"
+      }
+    },
+    {
+      "id": "architecture",
+      "width": 360,
+      "image": "assets/freshness-v2/architecture-mobile-v3.png",
+      "box": {
+        "x": 17,
+        "y": 376.84375,
+        "width": 326,
+        "height": 652
+      },
+      "page": {
+        "path": "tests/evidence/mes-008/architecture-360.png",
+        "sha256": "f217f6b80212ecf035a5cc76197699ece2f3d101abdf9b18313cb6187e84ad01"
+      },
+      "art": {
+        "path": "tests/evidence/mes-008/architecture-360-art.png",
+        "sha256": "a87e96f27d4035d91c166c692cb826a6a681c52abb5da1bcc4e03865698ff7a2"
+      }
+    },
+    {
+      "id": "decision",
+      "width": 360,
+      "image": "assets/freshness-v2/decision-mobile-v2.png",
+      "box": {
+        "x": 17,
+        "y": 376.84375,
+        "width": 326,
+        "height": 652
+      },
+      "page": {
+        "path": "tests/evidence/mes-008/decision-360.png",
+        "sha256": "da505eb0ba9231a6a3b6993c4944f2baf2158712a6434794e9e7458735471411"
+      },
+      "art": {
+        "path": "tests/evidence/mes-008/decision-360-art.png",
+        "sha256": "aec6ae87a0706d3db3e14e023266a0c8ddf6d97b33efb179ca3f6146ea73aca3"
+      }
+    },
+    {
+      "id": "ai",
+      "width": 360,
+      "image": "assets/freshness-v2/ai-mobile-v2.png",
+      "box": {
+        "x": 17,
+        "y": 376.84375,
+        "width": 326,
+        "height": 489
+      },
+      "page": {
+        "path": "tests/evidence/mes-008/ai-360.png",
+        "sha256": "311b0b7f850bd02d1d3850f3b0b2c5655c1d5492c312fadd8c9a27b22a13cb49"
+      },
+      "art": {
+        "path": "tests/evidence/mes-008/ai-360-art.png",
+        "sha256": "b379ce1d3b29423e3f5830fcbe007f865d444baf0962dc2d52b02e80549765fc"
+      }
+    },
+    {
+      "id": "history",
+      "width": 360,
+      "image": "assets/freshness-v2/history-mobile-v1.png",
+      "box": {
+        "x": 17,
+        "y": 376.84375,
+        "width": 326,
+        "height": 489
+      },
+      "page": {
+        "path": "tests/evidence/mes-008/history-360.png",
+        "sha256": "a10b47e5ab41f9d2e2dc4eb0381376e1a32a08b39e35afb8b414cbfdc9d55d82"
+      },
+      "art": {
+        "path": "tests/evidence/mes-008/history-360-art.png",
+        "sha256": "07737d44067553f3f751feaeb4b6992ff06fa31a32f00351976f9f43f2614bdc"
+      }
+    },
+    {
+      "id": "join",
+      "width": 360,
+      "image": "assets/freshness-v2/join-mobile-v1.png",
+      "box": {
+        "x": 17,
+        "y": 376.84375,
+        "width": 326,
+        "height": 489
+      },
+      "page": {
+        "path": "tests/evidence/mes-008/join-360.png",
+        "sha256": "31bdd84e5b288e72226bec43ee4fd1fd005a4aae4c42de147bfa2e73ce4a4566"
+      },
+      "art": {
+        "path": "tests/evidence/mes-008/join-360-art.png",
+        "sha256": "be5a3c4b2d91f1a24e547e7d6acd7693c021b2b265b2b331daba8af66c210f09"
+      }
+    },
+    {
+      "id": "contract",
+      "width": 360,
+      "image": "assets/freshness-v2/contract-mobile-v1.png",
+      "box": {
+        "x": 17,
+        "y": 403.84375,
+        "width": 326,
+        "height": 489
+      },
+      "page": {
+        "path": "tests/evidence/mes-008/contract-360.png",
+        "sha256": "954ffb12af09b4464ee6eeaec60127bbc0f4a6a6051962567dd31902ea44539c"
+      },
+      "art": {
+        "path": "tests/evidence/mes-008/contract-360-art.png",
+        "sha256": "44f703aa1b8d50d3fd6710eb00f44c0ddf9799a2810a19715aa4c55b09402a1d"
+      }
+    }
+  ],
+  "interactions": [
+    [
+      "architecture",
+      1440,
+      "default"
+    ],
+    [
+      "architecture",
+      1440,
+      "zoom and Escape restore focus"
+    ],
+    [
+      "architecture",
+      1440,
+      "transfer choice 0"
+    ],
+    [
+      "architecture",
+      1440,
+      "transfer choice 1"
+    ],
+    [
+      "architecture",
+      1440,
+      "transfer choice 2"
+    ],
+    [
+      "architecture",
+      1440,
+      "expanded reference"
+    ],
+    [
+      "architecture",
+      1440,
+      "route native"
+    ],
+    [
+      "architecture",
+      1440,
+      "route mart"
+    ],
+    [
+      "architecture",
+      1440,
+      "route tx"
+    ],
+    [
+      "architecture",
+      1440,
+      "next lesson"
+    ],
+    [
+      "decision",
+      1440,
+      "default"
+    ],
+    [
+      "decision",
+      1440,
+      "zoom and Escape restore focus"
+    ],
+    [
+      "decision",
+      1440,
+      "transfer choice 0"
+    ],
+    [
+      "decision",
+      1440,
+      "transfer choice 1"
+    ],
+    [
+      "decision",
+      1440,
+      "transfer choice 2"
+    ],
+    [
+      "decision",
+      1440,
+      "expanded reference"
+    ],
+    [
+      "decision",
+      1440,
+      "purpose analysis"
+    ],
+    [
+      "decision",
+      1440,
+      "purpose monitor"
+    ],
+    [
+      "decision",
+      1440,
+      "purpose control"
+    ],
+    [
+      "decision",
+      1440,
+      "next lesson"
+    ],
+    [
+      "ai",
+      1440,
+      "default"
+    ],
+    [
+      "ai",
+      1440,
+      "zoom and Escape restore focus"
+    ],
+    [
+      "ai",
+      1440,
+      "transfer choice 0"
+    ],
+    [
+      "ai",
+      1440,
+      "transfer choice 1"
+    ],
+    [
+      "ai",
+      1440,
+      "transfer choice 2"
+    ],
+    [
+      "ai",
+      1440,
+      "expanded reference"
+    ],
+    [
+      "ai",
+      1440,
+      "native monitor"
+    ],
+    [
+      "ai",
+      1440,
+      "native control"
+    ],
+    [
+      "ai",
+      1440,
+      "mart monitor"
+    ],
+    [
+      "ai",
+      1440,
+      "mart control"
+    ],
+    [
+      "ai",
+      1440,
+      "tx monitor"
+    ],
+    [
+      "ai",
+      1440,
+      "tx control"
+    ],
+    [
+      "ai",
+      1440,
+      "next lesson"
+    ],
+    [
+      "history",
+      1440,
+      "default"
+    ],
+    [
+      "history",
+      1440,
+      "zoom and Escape restore focus"
+    ],
+    [
+      "history",
+      1440,
+      "transfer choice 0"
+    ],
+    [
+      "history",
+      1440,
+      "transfer choice 1"
+    ],
+    [
+      "history",
+      1440,
+      "transfer choice 2"
+    ],
+    [
+      "history",
+      1440,
+      "expanded reference"
+    ],
+    [
+      "history",
+      1440,
+      "event yes"
+    ],
+    [
+      "history",
+      1440,
+      "event no"
+    ],
+    [
+      "history",
+      1440,
+      "current yes"
+    ],
+    [
+      "history",
+      1440,
+      "current no"
+    ],
+    [
+      "history",
+      1440,
+      "next lesson"
+    ],
+    [
+      "join",
+      1440,
+      "default"
+    ],
+    [
+      "join",
+      1440,
+      "zoom and Escape restore focus"
+    ],
+    [
+      "join",
+      1440,
+      "transfer choice 0"
+    ],
+    [
+      "join",
+      1440,
+      "transfer choice 1"
+    ],
+    [
+      "join",
+      1440,
+      "transfer choice 2"
+    ],
+    [
+      "join",
+      1440,
+      "expanded reference"
+    ],
+    [
+      "join",
+      1440,
+      "refresh keeps source age"
+    ],
+    [
+      "join",
+      1440,
+      "reset"
+    ],
+    [
+      "join",
+      1440,
+      "next lesson"
+    ],
+    [
+      "contract",
+      1440,
+      "default"
+    ],
+    [
+      "contract",
+      1440,
+      "zoom and Escape restore focus"
+    ],
+    [
+      "contract",
+      1440,
+      "transfer choice 0"
+    ],
+    [
+      "contract",
+      1440,
+      "transfer choice 1"
+    ],
+    [
+      "contract",
+      1440,
+      "transfer choice 2"
+    ],
+    [
+      "contract",
+      1440,
+      "expanded reference"
+    ],
+    [
+      "contract",
+      1440,
+      "column step"
+    ],
+    [
+      "contract",
+      1440,
+      "column hold"
+    ],
+    [
+      "contract",
+      1440,
+      "contract download"
+    ],
+    [
+      "contract",
+      1440,
+      "next lesson"
+    ],
+    [
+      "architecture",
+      800,
+      "default"
+    ],
+    [
+      "architecture",
+      800,
+      "zoom and Escape restore focus"
+    ],
+    [
+      "architecture",
+      800,
+      "transfer choice 0"
+    ],
+    [
+      "architecture",
+      800,
+      "transfer choice 1"
+    ],
+    [
+      "architecture",
+      800,
+      "transfer choice 2"
+    ],
+    [
+      "architecture",
+      800,
+      "expanded reference"
+    ],
+    [
+      "architecture",
+      800,
+      "route native"
+    ],
+    [
+      "architecture",
+      800,
+      "route mart"
+    ],
+    [
+      "architecture",
+      800,
+      "route tx"
+    ],
+    [
+      "architecture",
+      800,
+      "next lesson"
+    ],
+    [
+      "decision",
+      800,
+      "default"
+    ],
+    [
+      "decision",
+      800,
+      "zoom and Escape restore focus"
+    ],
+    [
+      "decision",
+      800,
+      "transfer choice 0"
+    ],
+    [
+      "decision",
+      800,
+      "transfer choice 1"
+    ],
+    [
+      "decision",
+      800,
+      "transfer choice 2"
+    ],
+    [
+      "decision",
+      800,
+      "expanded reference"
+    ],
+    [
+      "decision",
+      800,
+      "purpose analysis"
+    ],
+    [
+      "decision",
+      800,
+      "purpose monitor"
+    ],
+    [
+      "decision",
+      800,
+      "purpose control"
+    ],
+    [
+      "decision",
+      800,
+      "next lesson"
+    ],
+    [
+      "ai",
+      800,
+      "default"
+    ],
+    [
+      "ai",
+      800,
+      "zoom and Escape restore focus"
+    ],
+    [
+      "ai",
+      800,
+      "transfer choice 0"
+    ],
+    [
+      "ai",
+      800,
+      "transfer choice 1"
+    ],
+    [
+      "ai",
+      800,
+      "transfer choice 2"
+    ],
+    [
+      "ai",
+      800,
+      "expanded reference"
+    ],
+    [
+      "ai",
+      800,
+      "native monitor"
+    ],
+    [
+      "ai",
+      800,
+      "native control"
+    ],
+    [
+      "ai",
+      800,
+      "mart monitor"
+    ],
+    [
+      "ai",
+      800,
+      "mart control"
+    ],
+    [
+      "ai",
+      800,
+      "tx monitor"
+    ],
+    [
+      "ai",
+      800,
+      "tx control"
+    ],
+    [
+      "ai",
+      800,
+      "next lesson"
+    ],
+    [
+      "history",
+      800,
+      "default"
+    ],
+    [
+      "history",
+      800,
+      "zoom and Escape restore focus"
+    ],
+    [
+      "history",
+      800,
+      "transfer choice 0"
+    ],
+    [
+      "history",
+      800,
+      "transfer choice 1"
+    ],
+    [
+      "history",
+      800,
+      "transfer choice 2"
+    ],
+    [
+      "history",
+      800,
+      "expanded reference"
+    ],
+    [
+      "history",
+      800,
+      "event yes"
+    ],
+    [
+      "history",
+      800,
+      "event no"
+    ],
+    [
+      "history",
+      800,
+      "current yes"
+    ],
+    [
+      "history",
+      800,
+      "current no"
+    ],
+    [
+      "history",
+      800,
+      "next lesson"
+    ],
+    [
+      "join",
+      800,
+      "default"
+    ],
+    [
+      "join",
+      800,
+      "zoom and Escape restore focus"
+    ],
+    [
+      "join",
+      800,
+      "transfer choice 0"
+    ],
+    [
+      "join",
+      800,
+      "transfer choice 1"
+    ],
+    [
+      "join",
+      800,
+      "transfer choice 2"
+    ],
+    [
+      "join",
+      800,
+      "expanded reference"
+    ],
+    [
+      "join",
+      800,
+      "refresh keeps source age"
+    ],
+    [
+      "join",
+      800,
+      "reset"
+    ],
+    [
+      "join",
+      800,
+      "next lesson"
+    ],
+    [
+      "contract",
+      800,
+      "default"
+    ],
+    [
+      "contract",
+      800,
+      "zoom and Escape restore focus"
+    ],
+    [
+      "contract",
+      800,
+      "transfer choice 0"
+    ],
+    [
+      "contract",
+      800,
+      "transfer choice 1"
+    ],
+    [
+      "contract",
+      800,
+      "transfer choice 2"
+    ],
+    [
+      "contract",
+      800,
+      "expanded reference"
+    ],
+    [
+      "contract",
+      800,
+      "column step"
+    ],
+    [
+      "contract",
+      800,
+      "column hold"
+    ],
+    [
+      "contract",
+      800,
+      "contract download"
+    ],
+    [
+      "contract",
+      800,
+      "next lesson"
+    ],
+    [
+      "architecture",
+      360,
+      "default"
+    ],
+    [
+      "architecture",
+      360,
+      "zoom and Escape restore focus"
+    ],
+    [
+      "architecture",
+      360,
+      "transfer choice 0"
+    ],
+    [
+      "architecture",
+      360,
+      "transfer choice 1"
+    ],
+    [
+      "architecture",
+      360,
+      "transfer choice 2"
+    ],
+    [
+      "architecture",
+      360,
+      "expanded reference"
+    ],
+    [
+      "architecture",
+      360,
+      "route native"
+    ],
+    [
+      "architecture",
+      360,
+      "route mart"
+    ],
+    [
+      "architecture",
+      360,
+      "route tx"
+    ],
+    [
+      "architecture",
+      360,
+      "next lesson"
+    ],
+    [
+      "decision",
+      360,
+      "default"
+    ],
+    [
+      "decision",
+      360,
+      "zoom and Escape restore focus"
+    ],
+    [
+      "decision",
+      360,
+      "transfer choice 0"
+    ],
+    [
+      "decision",
+      360,
+      "transfer choice 1"
+    ],
+    [
+      "decision",
+      360,
+      "transfer choice 2"
+    ],
+    [
+      "decision",
+      360,
+      "expanded reference"
+    ],
+    [
+      "decision",
+      360,
+      "purpose analysis"
+    ],
+    [
+      "decision",
+      360,
+      "purpose monitor"
+    ],
+    [
+      "decision",
+      360,
+      "purpose control"
+    ],
+    [
+      "decision",
+      360,
+      "next lesson"
+    ],
+    [
+      "ai",
+      360,
+      "default"
+    ],
+    [
+      "ai",
+      360,
+      "zoom and Escape restore focus"
+    ],
+    [
+      "ai",
+      360,
+      "transfer choice 0"
+    ],
+    [
+      "ai",
+      360,
+      "transfer choice 1"
+    ],
+    [
+      "ai",
+      360,
+      "transfer choice 2"
+    ],
+    [
+      "ai",
+      360,
+      "expanded reference"
+    ],
+    [
+      "ai",
+      360,
+      "native monitor"
+    ],
+    [
+      "ai",
+      360,
+      "native control"
+    ],
+    [
+      "ai",
+      360,
+      "mart monitor"
+    ],
+    [
+      "ai",
+      360,
+      "mart control"
+    ],
+    [
+      "ai",
+      360,
+      "tx monitor"
+    ],
+    [
+      "ai",
+      360,
+      "tx control"
+    ],
+    [
+      "ai",
+      360,
+      "next lesson"
+    ],
+    [
+      "history",
+      360,
+      "default"
+    ],
+    [
+      "history",
+      360,
+      "zoom and Escape restore focus"
+    ],
+    [
+      "history",
+      360,
+      "transfer choice 0"
+    ],
+    [
+      "history",
+      360,
+      "transfer choice 1"
+    ],
+    [
+      "history",
+      360,
+      "transfer choice 2"
+    ],
+    [
+      "history",
+      360,
+      "expanded reference"
+    ],
+    [
+      "history",
+      360,
+      "event yes"
+    ],
+    [
+      "history",
+      360,
+      "event no"
+    ],
+    [
+      "history",
+      360,
+      "current yes"
+    ],
+    [
+      "history",
+      360,
+      "current no"
+    ],
+    [
+      "history",
+      360,
+      "next lesson"
+    ],
+    [
+      "join",
+      360,
+      "default"
+    ],
+    [
+      "join",
+      360,
+      "zoom and Escape restore focus"
+    ],
+    [
+      "join",
+      360,
+      "transfer choice 0"
+    ],
+    [
+      "join",
+      360,
+      "transfer choice 1"
+    ],
+    [
+      "join",
+      360,
+      "transfer choice 2"
+    ],
+    [
+      "join",
+      360,
+      "expanded reference"
+    ],
+    [
+      "join",
+      360,
+      "refresh keeps source age"
+    ],
+    [
+      "join",
+      360,
+      "reset"
+    ],
+    [
+      "join",
+      360,
+      "next lesson"
+    ],
+    [
+      "contract",
+      360,
+      "default"
+    ],
+    [
+      "contract",
+      360,
+      "zoom and Escape restore focus"
+    ],
+    [
+      "contract",
+      360,
+      "transfer choice 0"
+    ],
+    [
+      "contract",
+      360,
+      "transfer choice 1"
+    ],
+    [
+      "contract",
+      360,
+      "transfer choice 2"
+    ],
+    [
+      "contract",
+      360,
+      "expanded reference"
+    ],
+    [
+      "contract",
+      360,
+      "column step"
+    ],
+    [
+      "contract",
+      360,
+      "column hold"
+    ],
+    [
+      "contract",
+      360,
+      "contract download"
+    ],
+    [
+      "contract",
+      360,
+      "next lesson"
+    ],
+    [
+      "navigation",
+      360,
+      "mobile menu"
+    ]
+  ],
+  "errors": [],
+  "assets": {
+    "assets/freshness-v2/architecture-desktop-v3.png": "83bbb1f39b727016363075e7b14c605fca020a1040d43c5bba32ab14d3ef7de2",
+    "assets/freshness-v2/decision-desktop-v2.png": "84465d6e5145ac8ba3b7e73461520e0317e5a80f483c9edcdfa4a5e6ded31be7",
+    "assets/freshness-v2/ai-desktop-v2.png": "05542f53f157b0618308f8a5dc4c08bcc0cb186f1506f421a9c9d8ef7900acb5",
+    "assets/freshness-v2/history-desktop-v3.png": "8323b6444eb4d86a73f59c0be2bb2277a89f14730d2759c2004e80bec1213932",
+    "assets/freshness-v2/join-desktop-v2.png": "64eff3116e57e3c1c44f8e737d091c499d16c1c294c7d5ddb8352f6ad4387854",
+    "assets/freshness-v2/contract-desktop-v1.png": "19806e06c8da228744392560435d81240c20b5ccf9ee642274396e353d3b4eac",
+    "assets/freshness-v2/architecture-mobile-v3.png": "d4f7564cc9486da6e76cbd890b1f5b3bc13514e8a289c47f602c62598ea66ce6",
+    "assets/freshness-v2/decision-mobile-v2.png": "f855559f12ffd6e270a24b1c8a91523c641bc7ffb4a27abf766cca02076de81e",
+    "assets/freshness-v2/ai-mobile-v2.png": "731d5b4303d77004d8a96b8fd044e58c5a59086c3792d3780a2d09b01ba8f00a",
+    "assets/freshness-v2/history-mobile-v1.png": "5e284b637cce699a6b234feafff056349212e76db36d728a1e29ece8da255d99",
+    "assets/freshness-v2/join-mobile-v1.png": "ee1da75352b23f8b2f5c8877ce44e26736da34eb5da4d53bd0c0eb55659f9ef1",
+    "assets/freshness-v2/contract-mobile-v1.png": "8dd30d9785135ac6224712042c35c7f100d7eabb99be0c1a648a5a8cc4224412",
+    "freshness.html": "bd698f4559aea2fb1ea69545c75529bbee29f4c00c733d44bf9f1a7cc865a0a0",
+    "freshness.js": "b2e46ab09edbdb527fc5bf4e355a37971152460dddc774542945f315a94c1533",
+    "freshness.css": "8d095e631bf8ef916491034814890cd7d4c9831d79954568d6b782b5c72120f4",
+    "freshness-v2.js": "6044610896c04c4d0d6c7d820ac4fcbe9c072efc73933d67f1e3df71f06a591a",
+    "freshness-v2.css": "9810d01e3290b47a4529c2ae549ea2c1b130afa15b35946915c8fd4df1475f81"
+  }
+}

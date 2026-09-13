@@ -1,0 +1,10 @@
+from pathlib import Path
+p=Path('er-atlas.js')
+s=p.read_text(encoding='utf-8')
+a=s.index('const teaching={')
+b=s.index('function teachingForNode',a)
+Path('er-teaching-base.js').write_text('/* Shared confirmed teaching content for ER and standalone topics. */\nwindow.ER_TEACHING = (() => {\n'+s[a:b]+'return teaching;\n})();\n',encoding='utf-8')
+p.write_text(s[:a]+'const teaching=window.ER_TEACHING;\n'+s[b:],encoding='utf-8')
+p=Path('er-atlas.html')
+s=p.read_text(encoding='utf-8').replace('<script defer src="er-atlas.js?v=52">','<script defer src="er-teaching-base.js?v=54"></script><script defer src="er-atlas.js?v=54">')
+p.write_text(s,encoding='utf-8')

@@ -1,0 +1,366 @@
+[
+  {
+    "url": "index.html#slot",
+    "width": 1440,
+    "overflow": false,
+    "images": [
+      {
+        "src": "http://127.0.0.1:4175/assets/mes-055/slot.png",
+        "w": 988,
+        "h": 988,
+        "loaded": true
+      }
+    ],
+    "text": "MES 入門 / Fab 的四個基本角色\n從零開始\n看實物 → 認角色 → 對資料\n04 / 07\nSlot：盒子裡的哪個位置。\n\n一個 FOUP 裡有多個分隔的放置位置，每個位置叫 Slot（槽位）。一個槽位通常放一片晶圓，也可以是空的。\n\n局部槽位示例：先找到 F012，再找到 Slot 07；W07 是晶圓身分。 放大教學圖 ↗\n☀\n\n找晶圓的位置，要一起看「哪個 FOUP ＋ 哪個 Slot」。\n\nMES LEARNING LAB · Fab 基礎 Example v01 · 示意資料"
+  },
+  {
+    "url": "index.html#foup",
+    "width": 1440,
+    "overflow": false,
+    "images": [
+      {
+        "src": "http://127.0.0.1:4175/assets/mes-055/foup.png",
+        "w": 988,
+        "h": 988,
+        "loaded": true
+      }
+    ],
+    "text": "MES 入門 / Fab 的四個基本角色\n從零開始\n看實物 → 認角色 → 對資料\n03 / 07\nFOUP：裝載晶圓的保護盒。\n\n晶圓需要在不同設備之間搬運。FOUP 是常見於 300 mm 晶圓廠的專用載具，用來保護與運送晶圓。\n\nFOUP 是容器，晶圓是內容物。圖為開門概念示意，僅呈現部分晶圓；實際門體由設備交接機構處理。 放大教學圖 ↗\nFOUP 的全名與容量\n☀\n\nFOUP 是裝載晶圓的實體盒子，有自己的身分編號。\n\nMES LEARNING LAB · Fab 基礎 Example v01 · 示意資料"
+  },
+  {
+    "url": "index.html#lot",
+    "width": 1440,
+    "overflow": false,
+    "images": [
+      {
+        "src": "http://127.0.0.1:4175/assets/mes-055/lot.png",
+        "w": 988,
+        "h": 988,
+        "loaded": true
+      }
+    ],
+    "text": "MES 入門 / Fab 的四個基本角色\n從零開始\n看實物 → 認角色 → 對資料\n05 / 07\nLot：一起管理的生產批次。\n\n工廠把一組晶圓編成一個 Lot，方便追蹤生產進度與安排作業。Lot 的重點是「哪些晶圓屬於這一批」。\n\n此圖僅示三片晶圓。同一 Lot 也可以有 25 片，每片有不同 Wafer ID；一個 FOUP 也可以裝多個 Lot。 放大教學圖 ↗\n用同一片 W07，把四個角色串起來\n角色\t回答什麼？\t目前範例\nWafer\t是哪一片？\tW07\nFOUP\t裝在哪個盒子？\tF012\nSlot\t在盒子的哪個位置？\t07\nLot\t屬於哪一批？\tL023\n一個 Lot 一定永遠對應同一個 FOUP 嗎？\n☀\n\nLot 回答生產歸屬；FOUP 與 Slot 回答晶圓當下的位置。\n\nMES LEARNING LAB · Fab 基礎 Example v01 · 示意資料"
+  },
+  {
+    "url": "index.html#explore",
+    "width": 1440,
+    "overflow": false,
+    "images": [
+      {
+        "src": "http://127.0.0.1:4175/assets/mes-055/slot.png",
+        "w": 988,
+        "h": 988,
+        "loaded": true
+      }
+    ],
+    "text": "MES 入門 / Fab 的四個基本角色\n從零開始\n看實物 → 認角色 → 對資料\n06 / 07\n點一片晶圓，\n看看資料如何對上它。\n\n點選載具裡的 W06 或 W08，觀察位置紀錄；再試試空槽位。所有編號與操作都是教學假設。\n\n先看實物中的身分與位置，再用下方控制面板練習。放大教學圖 ↗\n動手找 W07，再移動它\n\n先選有晶圓的槽位，讀取 Wafer、FOUP、Slot 與 Lot。再按移動，觀察位置改變後，哪些身分仍相同。\n\n先看 FOUP 與 Lot 的實物對照 →\n① 選擇實物或槽位\nFOUP F012\nSlot 09\n空槽位\nSlot 08\nW08\nSlot 07\nW07\n已選\nSlot 06\nW06\nSlot 05\n空槽位\n\nW07 · F012／Slot 07 · Lot L023\n\n只顯示 5 個局部槽位，非完整容量。\n藍框與「已選」表示目前選取。\n\n② 對照這一筆紀錄\nWafer W07\n\nW07 現在位於 F012 的 Slot 07。\n\n晶圓身分\nwafer_id\nW07\n所在載具\nfoup_id\nF012\n所在槽位\nslot_no\n07\n批次歸屬\nlot_id\nL023\n\n藍底兩列描述位置；Wafer 是晶圓身分，Lot 是批次歸屬。\n\n再觀察一次變化\n把 L023 整批換個盒子。\n\n將 W06／W07／W08 從 F012 的 06／07／08，移到 F018 的 02／03／04。這次只換位置，沒有改批次。\n\n模擬整批換到 F018 →\n重設範例\n\n目前是搬動前的位置快照。\n\n看懂這筆資料的範圍\n☀\n\n位置改變時，重新查 FOUP 與 Slot；Wafer 的身分與 Lot 的歸屬可以保持不變。\n\nMES LEARNING LAB · Fab 基礎 Example v01 · 示意資料"
+  },
+  {
+    "url": "topic.html?topic=load",
+    "width": 1440,
+    "overflow": false,
+    "images": [
+      {
+        "src": "http://127.0.0.1:4175/assets/mes-036/foup-query-lot-v1.png",
+        "w": 1036,
+        "h": 583.046875,
+        "loaded": true
+      }
+    ],
+    "text": "回單元 1\n\n主題教學\n\n裝載關係：Lot、Wafer 與 FOUP\n\nLot 是晶圓的生產批次歸屬，Wafer 是每一片晶圓。同一個 FOUP 可以裝不同 Lot ID 的晶圓，也可以只裝一個 Lot 的 25 片晶圓；每片都有不同的 Wafer ID，放在不同的 Slot。FOUP 是容器，Slot 是容器內的位置，不能把一個 FOUP 當成一個 Lot。\n\n放大教學圖 ↗\nFOUP 可以放一個或多個 Lot；每片晶圓有自己的 Wafer ID。下方互動可切換裝載情境。\n先分清楚四種身分\n\nLot ID 回答晶圓屬於哪一批；Wafer ID 辨識是哪一片；FOUP ID 辨識容器；Slot No. 表示它在這個容器內的位置。\n\n動手練習：單一 Lot 25 片／多個 Lot 共用 FOUP\n\n同一個 FOUP，可以有多個 Lot；同一個 Lot，可以有多片不同 Wafer。批次歸屬與槽位位置要分開看。\n\n對照 ER 關係\n\nFRCAST_LOT 連接 FOUP 與 Lot 的裝載關係。這條線本身沒有列出每片 Wafer ID 和 Slot，不能把它當成完整的晶圓位置清單。互動圖是教學用的內容物示例，原圖未獨立畫出的 Wafer 不冒充新增的資料表。\n\n查過去某個時間 FOUP 裡有哪些 Wafer，則要看內容物歷史；Split／Merge 進 FOUP 時會更新。25 片是這裡的單一 Lot 示例，不代表所有 Lot 都固定有 25 片。\n\n對照 ER 與原始來源\n\n選擇下方關係，回到 ER 看這個主題連到哪些資料；來源編號保留供追溯。\n\n在 ER 查看：放在／Siview.Frcast_lot\n來源 2671:cast-link · 開啟原圖\n在 ER 查看：FRCAST_LOT\n來源 2676:cast-lot · 開啟原圖\n回單元 1，繼續學習\n所有學習單元"
+  },
+  {
+    "url": "topic.html?topic=flowkey",
+    "width": 1440,
+    "overflow": false,
+    "images": [
+      {
+        "src": "http://127.0.0.1:4175/assets/mes-055/flowkey.png",
+        "w": 1036,
+        "h": 1036,
+        "loaded": true
+      }
+    ],
+    "text": "回單元 2\n\n主題教學\n\n這批 Lot 使用哪一條 Flow？\n\n先讀 Lot 的產品歸屬，再找產品所對應的流程與版本。\n\n放大教學圖 ↗\nAI 教學示意；設備、ID、站點與時間為假設案例。圖示欄位不代表資料表實際 schema。\n從批次找到路徑\n\n示例：Lot L023 屬於 Part P100，P100 對應 Flow F-A v2。沿 Part／mainpd_id 找到流程後，才能讀取這個版本的站點順序。\n\n流程版本也要一致\n\n產品的 Flow 進版時，PART 會記錄對應進版資訊。查資料時要核對適用版本，不能把不同版本的站點混成一條路徑。\n\n路徑與足跡分開查\n\nFlow 定義「應該怎麼走」。要回答 L023 已經走過 S10 或 S20，請查 Lot Step 或批貨歷史；流程定義本身不能證明已加工。\n\n閱讀延伸教學 →\n\n對照 ER 與原始來源\n\n選擇下方關係，回到 ER 看這個主題連到哪些資料；來源編號保留供追溯。\n\n在 ER 查看：Flow 定義／Part／Mainpd_id\n來源 2673:flow-link · 開啟原圖\n回單元 2，繼續學習\n所有學習單元"
+  },
+  {
+    "url": "topic.html?topic=available",
+    "width": 1440,
+    "overflow": false,
+    "images": [
+      {
+        "src": "http://127.0.0.1:4175/assets/mes-055/available.png",
+        "w": 1036,
+        "h": 1036,
+        "loaded": true
+      }
+    ],
+    "text": "回單元 3\n\n主題教學\n\n本站有哪些可用機台？\n\n以 Lot 與目前站點為主詞，查詢可用的設備關係。\n\n放大教學圖 ↗\nAI 教學示意；設備、ID、站點與時間為假設案例。圖示欄位不代表資料表實際 schema。\n先列出候選設備\n\n示例：L023 在 S40 對應可用機台 EQP-A 與 EQP-B。Siview.Frlot_EQP 的關係用來理解本站可用機台，這兩個候選不代表兩台都會加工這批。\n\n預派是下一個問題\n\n如果要知道派工系統安排哪一台，應再看預派資料。要確認是否到達或開始加工，則再查位置或實際執行事件。\n\n讀圖練習\n\n看到 A、B 都可用，能否回答 L023 已在 A 加工？不能。可用關係、預派安排與加工事實是不同資料。\n\n對照 ER 與原始來源\n\n選擇下方關係，回到 ER 看這個主題連到哪些資料；來源編號保留供追溯。\n\n在 ER 查看：預到／Siview.Frlot_EQP\n來源 2671:lot-eqp · 開啟原圖\n回單元 3，繼續學習\n所有學習單元"
+  },
+  {
+    "url": "topic.html?topic=eqpstatus",
+    "width": 1440,
+    "overflow": false,
+    "images": [
+      {
+        "src": "http://127.0.0.1:4175/assets/mes-055/eqpstatus.png",
+        "w": 1036,
+        "h": 1036,
+        "loaded": true
+      }
+    ],
+    "text": "回單元 3\n\n主題教學\n\n機台狀態，要一起看時間\n\n用設備身分與資料時間，理解機台在當時的狀況。\n\n放大教學圖 ↗\nAI 教學示意；設備、ID、站點與時間為假設案例。圖示欄位不代表資料表實際 schema。\n同一台設備，兩個時間\n\n教學示例：EQP-A 在 09:00 為 UP（加工中），09:30 為 LOST（閒置）。這是兩個時點的狀態，不是同時成立。\n\n先確認狀態屬於誰\n\n依廠內定義，機台 UP 表示正在加工、LOST 表示閒置；Port 的 UP／LOST 則是有貨／沒有貨。相同字樣不能跨對象直接解讀。\n\n查詢時保留時間與層級\n\n核對來源的更新時間，才能判斷狀態的新鮮度。整台機台狀態也不能代替每一個 Chamber 的狀態；要看腔體，需查 Chamber 資料。\n\n對照 ER 與原始來源\n\n選擇下方關係，回到 ER 看這個主題連到哪些資料；來源編號保留供追溯。\n\n在 ER 查看：機況歷史／SIVIEW.FHESCHS\n來源 2674:eqp-history · 開啟原圖\n在 ER 查看：機況歷史／EQP_ID\n來源 2674:history-link · 開啟原圖\n在 ER 查看：機台機況／KER_EQP_STATUS_BT\n來源 2675:status · 開啟原圖\n在 ER 查看：目前機況／EQP_ID\n來源 2675:status-link · 開啟原圖\n在 ER 查看：EQP／STATUS\n來源 2677:status · 開啟原圖\n回單元 3，繼續學習\n所有學習單元"
+  },
+  {
+    "url": "topic.html?topic=eqpkey",
+    "width": 1440,
+    "overflow": false,
+    "images": [
+      {
+        "src": "http://127.0.0.1:4175/assets/mes-055/eqpkey.png",
+        "w": 1036,
+        "h": 1036,
+        "loaded": true
+      }
+    ],
+    "text": "回單元 3\n\n主題教學\n\nEQP_ID：辨認同一台設備\n\n沿著設備識別欄位，對照不同資料中的設備關係。\n\n放大教學圖 ↗\nAI 教學示意；設備、ID、站點與時間為假設案例。圖示欄位不代表資料表實際 schema。\n從身分開始對照\n\n示例：設備資料與關係資料都出現 EQP-A。先確認它們指向同一台設備，再閱讀它所屬的機群或 PD／Recipe 配置。\n\n同名欄位不等於完整 Join 條件\n\nEQP_ID 提供設備線索。實際串接仍需核對資料來源、廠區、版本或時間範圍，以及一台設備是否對應多筆配置。\n\n避免把關係筆數當設備數\n\n同一台機台可以屬於多個機群，也可能有多個 Recipe 關係。展開後有多列，不表示多了幾台實體設備。\n\n對照 ER 與原始來源\n\n選擇下方關係，回到 ER 看這個主題連到哪些資料；來源編號保留供追溯。\n\n在 ER 查看：EQP_ID\n來源 2676:eqp-id · 開啟原圖\n在 ER 查看：EQP_ID\n來源 2677:eqp-id · 開啟原圖\n回單元 3，繼續學習\n所有學習單元"
+  },
+  {
+    "url": "topic.html?topic=location",
+    "width": 1440,
+    "overflow": false,
+    "images": [
+      {
+        "src": "http://127.0.0.1:4175/assets/mes-055/location.png",
+        "w": 1036,
+        "h": 1036,
+        "loaded": true
+      }
+    ],
+    "text": "回單元 4\n\n主題教學\n\nFOUP 在哪裡，與晶圓是否加工\n\n位置資料回答「在何處」，加工事件回答「做了什麼」。\n\n放大教學圖 ↗\nAI 教學示意；設備、ID、站點與時間為假設案例。圖示欄位不代表資料表實際 schema。\n讀取當時位置\n\n示例：FOUP F012 在 EQP-A 的 Load Port LP1。先確認載具、設備、Port 與時間，才能描述這一筆位置紀錄。\n\nFOUP 與 Chamber 分清楚\n\nFOUP 在 Port 等待交接；晶圓送入機台內的 Chamber 才可能進行加工。插圖的腔體剖面是位置概念補充，不是由 Port 紀錄推導的加工結果。\n\n追蹤移動要查歷史\n\n若問題是 F012 幾點由哪裡移到哪裡，應查傳送歷史。若問題是 L023 是否進機，應查對應 Lot 執行事件，並核對相同時間。\n\n對照 ER 與原始來源\n\n選擇下方關係，回到 ER 看這個主題連到哪些資料；來源編號保留供追溯。\n\n在 ER 查看：位於／eqp_id／Siview.CSFHDOPHS\n來源 2671:location · 開啟原圖\n回單元 4，繼續學習\n所有學習單元"
+  },
+  {
+    "url": "topic.html?topic=lotstep",
+    "width": 1440,
+    "overflow": false,
+    "images": [
+      {
+        "src": "http://127.0.0.1:4175/assets/mes-055/lotstep.png",
+        "w": 1036,
+        "h": 1036,
+        "loaded": true
+      }
+    ],
+    "text": "回單元 6\n\n主題教學\n\nLot Step：這批貨走過哪些站點？\n\n以 Lot 為主詞，保留站點與時間，閱讀批次的站點歷程。\n\n放大教學圖 ↗\nAI 教學示意；設備、ID、站點與時間為假設案例。圖示欄位不代表資料表實際 schema。\n三筆紀錄，兩個不同站點\n\n示例：L023 在 09:00 記錄 S40、10:00 記錄 S50、11:00 再記錄 S40。第二次 S40 是另一筆歷程，不能只因站點相同就刪掉。\n\n查詢順序\n\n先選 Lot，再讀站點及時間順序，對照 F12DM.DM_Lot_step_st 的來源定義。重複經過的原因與事件類型，要再核對批貨歷史。\n\nFOUP 不是站點歷史的主詞\n\nFOUP 說明裝載位置，Lot 說明生產批次。查 Lot Step 要保留 Lot；若只看 FOUP，可能把內容物變更前後的不同批次混在一起。\n\n對照 ER 與原始來源\n\n選擇下方關係，回到 ER 看這個主題連到哪些資料；來源編號保留供追溯。\n\n在 ER 查看：站點 Summary／Lot_id\n來源 2672:summary · 開啟原圖\n在 ER 查看：Step 歷史／F12DM.DM_Lot_step_st\n來源 2672:step · 開啟原圖\n回單元 6，繼續學習\n所有學習單元"
+  },
+  {
+    "url": "topic.html?topic=contents",
+    "width": 1440,
+    "overflow": false,
+    "images": [
+      {
+        "src": "http://127.0.0.1:4175/assets/mes-055/contents.png",
+        "w": 1036,
+        "h": 1036,
+        "loaded": true
+      }
+    ],
+    "text": "回單元 6\n\n主題教學\n\nFOUP 內容物歷史：當時裝了哪些 Wafer？\n\n同一個 FOUP 的內容物會改變，歷史查詢必須指定時間。\n\n放大教學圖 ↗\nAI 教學示意；設備、ID、站點與時間為假設案例。圖示欄位不代表資料表實際 schema。\n兩個時間，兩份內容物\n\n教學示例：09:00 的 F012 裝 W06、W07、W08；10:00 更新後裝 W06、W07、W09。W08 與 W09 不同，不能拿後一份名單回答前一個時間。\n\nSplit／Merge 時更新\n\nSiview.fhwlths 記錄 FOUP 內容物的歷史；每次 Split／Merge 進 FOUP 時會更新。它用來追溯當時有哪些 Wafer，與搬運整個 FOUP 的傳送歷史不同。\n\nSlot 與批次歸屬另外核對\n\n圖上的 W06 等是 Wafer ID，不是 Slot 編號。若要回答槽位或 Lot 歸屬，須核對相應來源及時間；本例不假設歷史表具有所有槽位欄位。\n\n對照 ER 與原始來源\n\n選擇下方關係，回到 ER 看這個主題連到哪些資料；來源編號保留供追溯。\n\n在 ER 查看：在 Slot／Siview.fhwlths\n來源 2671:slot · 開啟原圖\n回單元 6，繼續學習\n所有學習單元"
+  },
+  {
+    "url": "topic.html?topic=material",
+    "width": 1440,
+    "overflow": false,
+    "images": [
+      {
+        "src": "http://127.0.0.1:4175/assets/mes-036/foup-query-lot-v1.png",
+        "w": 1036,
+        "h": 583.046875,
+        "loaded": true
+      }
+    ],
+    "text": "回單元 1\n\n主題教學\n\n以 FOUP 為主詞：查詢裝載的 Lot\n\n這裡也是 Lot 與 FOUP 的裝載關係，只是查詢主詞是 FOUP：先選一個 FOUP，再找出其中晶圓所屬的 Lot。FRLot_MtrlContnrs、FrlotMtrl、Frlot 這條路徑，與 FRCAST、FRCAST_LOT、FRLOT 表達相同的裝載概念。\n\n放大教學圖 ↗\n查詢示例：FOUP F012 → 裝載關係 → Lot L023／L024。箭頭表示查詢閱讀方向，不是搬運或 Split／Merge 事件；可查到一個或多個 Lot。\n從 FOUP 出發怎麼讀？\n先選要查的 FOUP，例如 F012。\n沿「放在」的裝載關係，找出與這個 FOUP 關聯的 Lot。\n讀取 Lot ID；同一個 FOUP 可裝一個 Lot，也可以有不同 Lot 的晶圓。\n兩條路徑，相同裝載概念\n\n本圖：Siview.FRLot_MtrlContnrs → Siview.FrlotMtrl → Siview.Frlot。\n\n另一組：FRCAST → FRCAST_LOT → FRLOT。\n\n兩者都是連接 FOUP 與 Lot；這裡特別從 FOUP 查詢。概念相同不代表資料表、欄位或查詢條件可以直接互換，仍保留各自來源。\n\nLot 是晶圓的歸屬，不是另一個容器\n\n示例中，F012 內的部分晶圓屬於 L023，另一部分屬於 L024，所以查到兩個 Lot。圖中顏色只區分批次歸屬，不表示品質或加工狀態；並不是在 FOUP 裡放兩個叫 Lot 的盒子。\n\n如果要逐片確認，還要對照 Wafer ID 與所在 Slot。查歷史裝載時也要帶時間，不能把某次結果當成所有時間都不變的關係。\n\n從 FOUP 出發，找出其中晶圓所屬的 Lot。\n\n對照 ER 與原始來源\n\n選擇下方關係，回到 ER 看這個主題連到哪些資料；來源編號保留供追溯。\n\n在 ER 查看：Foup／Siview.FRLot_MtrlContnrs\n來源 2671:material · 開啟原圖\n在 ER 查看：放在／Siview.FrlotMtrl\n來源 2671:material-link · 開啟原圖\n回單元 1，繼續學習\n所有學習單元"
+  },
+  {
+    "url": "index.html#slot",
+    "width": 390,
+    "overflow": false,
+    "images": [
+      {
+        "src": "http://127.0.0.1:4175/assets/mes-055/slot.png",
+        "w": 334,
+        "h": 334,
+        "loaded": true
+      }
+    ],
+    "text": "MES 入門 / Fab 的四個基本角色\n從零開始\n看實物 → 認角色 → 對資料\n04 / 07\nSlot：盒子裡的哪個位置。\n\n一個 FOUP 裡有多個分隔的放置位置，每個位置叫 Slot（槽位）。一個槽位通常放一片晶圓，也可以是空的。\n\n局部槽位示例：先找到 F012，再找到 Slot 07；W07 是晶圓身分。 放大教學圖 ↗\n☀\n\n找晶圓的位置，要一起看「哪個 FOUP ＋ 哪個 Slot」。\n\nMES LEARNING LAB · Fab 基礎 Example v01 · 示意資料"
+  },
+  {
+    "url": "index.html#foup",
+    "width": 390,
+    "overflow": false,
+    "images": [
+      {
+        "src": "http://127.0.0.1:4175/assets/mes-055/foup.png",
+        "w": 334,
+        "h": 334,
+        "loaded": true
+      }
+    ],
+    "text": "MES 入門 / Fab 的四個基本角色\n從零開始\n看實物 → 認角色 → 對資料\n03 / 07\nFOUP：裝載晶圓的保護盒。\n\n晶圓需要在不同設備之間搬運。FOUP 是常見於 300 mm 晶圓廠的專用載具，用來保護與運送晶圓。\n\nFOUP 是容器，晶圓是內容物。圖為開門概念示意，僅呈現部分晶圓；實際門體由設備交接機構處理。 放大教學圖 ↗\nFOUP 的全名與容量\n☀\n\nFOUP 是裝載晶圓的實體盒子，有自己的身分編號。\n\nMES LEARNING LAB · Fab 基礎 Example v01 · 示意資料"
+  },
+  {
+    "url": "index.html#lot",
+    "width": 390,
+    "overflow": false,
+    "images": [
+      {
+        "src": "http://127.0.0.1:4175/assets/mes-055/lot.png",
+        "w": 334,
+        "h": 334,
+        "loaded": true
+      }
+    ],
+    "text": "MES 入門 / Fab 的四個基本角色\n從零開始\n看實物 → 認角色 → 對資料\n05 / 07\nLot：一起管理的生產批次。\n\n工廠把一組晶圓編成一個 Lot，方便追蹤生產進度與安排作業。Lot 的重點是「哪些晶圓屬於這一批」。\n\n此圖僅示三片晶圓。同一 Lot 也可以有 25 片，每片有不同 Wafer ID；一個 FOUP 也可以裝多個 Lot。 放大教學圖 ↗\n用同一片 W07，把四個角色串起來\n角色\t回答什麼？\t目前範例\nWafer\t是哪一片？\tW07\nFOUP\t裝在哪個盒子？\tF012\nSlot\t在盒子的哪個位置？\t07\nLot\t屬於哪一批？\tL023\n一個 Lot 一定永遠對應同一個 FOUP 嗎？\n☀\n\nLot 回答生產歸屬；FOUP 與 Slot 回答晶圓當下的位置。\n\nMES LEARNING LAB · Fab 基礎 Example v01 · 示意資料"
+  },
+  {
+    "url": "index.html#explore",
+    "width": 390,
+    "overflow": false,
+    "images": [
+      {
+        "src": "http://127.0.0.1:4175/assets/mes-055/slot.png",
+        "w": 334,
+        "h": 334,
+        "loaded": true
+      }
+    ],
+    "text": "MES 入門 / Fab 的四個基本角色\n從零開始\n看實物 → 認角色 → 對資料\n06 / 07\n點一片晶圓，\n看看資料如何對上它。\n\n點選載具裡的 W06 或 W08，觀察位置紀錄；再試試空槽位。所有編號與操作都是教學假設。\n\n先看實物中的身分與位置，再用下方控制面板練習。放大教學圖 ↗\n動手找 W07，再移動它\n\n先選有晶圓的槽位，讀取 Wafer、FOUP、Slot 與 Lot。再按移動，觀察位置改變後，哪些身分仍相同。\n\n先看 FOUP 與 Lot 的實物對照 →\n① 選擇實物或槽位\nFOUP F012\nSlot 09\n空槽位\nSlot 08\nW08\nSlot 07\nW07\n已選\nSlot 06\nW06\nSlot 05\n空槽位\n\nW07 · F012／Slot 07 · Lot L023\n\n只顯示 5 個局部槽位，非完整容量。\n藍框與「已選」表示目前選取。\n\n② 對照這一筆紀錄\nWafer W07\n\nW07 現在位於 F012 的 Slot 07。\n\n晶圓身分\nwafer_id\nW07\n所在載具\nfoup_id\nF012\n所在槽位\nslot_no\n07\n批次歸屬\nlot_id\nL023\n\n藍底兩列描述位置；Wafer 是晶圓身分，Lot 是批次歸屬。\n\n再觀察一次變化\n把 L023 整批換個盒子。\n\n將 W06／W07／W08 從 F012 的 06／07／08，移到 F018 的 02／03／04。這次只換位置，沒有改批次。\n\n模擬整批換到 F018 →\n重設範例\n\n目前是搬動前的位置快照。\n\n看懂這筆資料的範圍\n☀\n\n位置改變時，重新查 FOUP 與 Slot；Wafer 的身分與 Lot 的歸屬可以保持不變。\n\nMES LEARNING LAB · Fab 基礎 Example v01 · 示意資料"
+  },
+  {
+    "url": "topic.html?topic=load",
+    "width": 390,
+    "overflow": false,
+    "images": [
+      {
+        "src": "http://127.0.0.1:4175/assets/mes-036/foup-query-lot-mobile-v1.png",
+        "w": 338,
+        "h": 591.5,
+        "loaded": true
+      }
+    ],
+    "text": "回單元 1\n\n主題教學\n\n裝載關係：Lot、Wafer 與 FOUP\n\nLot 是晶圓的生產批次歸屬，Wafer 是每一片晶圓。同一個 FOUP 可以裝不同 Lot ID 的晶圓，也可以只裝一個 Lot 的 25 片晶圓；每片都有不同的 Wafer ID，放在不同的 Slot。FOUP 是容器，Slot 是容器內的位置，不能把一個 FOUP 當成一個 Lot。\n\n放大教學圖 ↗\nFOUP 可以放一個或多個 Lot；每片晶圓有自己的 Wafer ID。下方互動可切換裝載情境。\n先分清楚四種身分\n\nLot ID 回答晶圓屬於哪一批；Wafer ID 辨識是哪一片；FOUP ID 辨識容器；Slot No. 表示它在這個容器內的位置。\n\n動手練習：單一 Lot 25 片／多個 Lot 共用 FOUP\n\n同一個 FOUP，可以有多個 Lot；同一個 Lot，可以有多片不同 Wafer。批次歸屬與槽位位置要分開看。\n\n對照 ER 關係\n\nFRCAST_LOT 連接 FOUP 與 Lot 的裝載關係。這條線本身沒有列出每片 Wafer ID 和 Slot，不能把它當成完整的晶圓位置清單。互動圖是教學用的內容物示例，原圖未獨立畫出的 Wafer 不冒充新增的資料表。\n\n查過去某個時間 FOUP 裡有哪些 Wafer，則要看內容物歷史；Split／Merge 進 FOUP 時會更新。25 片是這裡的單一 Lot 示例，不代表所有 Lot 都固定有 25 片。\n\n對照 ER 與原始來源\n\n選擇下方關係，回到 ER 看這個主題連到哪些資料；來源編號保留供追溯。\n\n在 ER 查看：放在／Siview.Frcast_lot\n來源 2671:cast-link · 開啟原圖\n在 ER 查看：FRCAST_LOT\n來源 2676:cast-lot · 開啟原圖\n回單元 1，繼續學習\n所有學習單元"
+  },
+  {
+    "url": "topic.html?topic=flowkey",
+    "width": 390,
+    "overflow": false,
+    "images": [
+      {
+        "src": "http://127.0.0.1:4175/assets/mes-055/flowkey.png",
+        "w": 338,
+        "h": 338,
+        "loaded": true
+      }
+    ],
+    "text": "回單元 2\n\n主題教學\n\n這批 Lot 使用哪一條 Flow？\n\n先讀 Lot 的產品歸屬，再找產品所對應的流程與版本。\n\n放大教學圖 ↗\nAI 教學示意；設備、ID、站點與時間為假設案例。圖示欄位不代表資料表實際 schema。\n從批次找到路徑\n\n示例：Lot L023 屬於 Part P100，P100 對應 Flow F-A v2。沿 Part／mainpd_id 找到流程後，才能讀取這個版本的站點順序。\n\n流程版本也要一致\n\n產品的 Flow 進版時，PART 會記錄對應進版資訊。查資料時要核對適用版本，不能把不同版本的站點混成一條路徑。\n\n路徑與足跡分開查\n\nFlow 定義「應該怎麼走」。要回答 L023 已經走過 S10 或 S20，請查 Lot Step 或批貨歷史；流程定義本身不能證明已加工。\n\n閱讀延伸教學 →\n\n對照 ER 與原始來源\n\n選擇下方關係，回到 ER 看這個主題連到哪些資料；來源編號保留供追溯。\n\n在 ER 查看：Flow 定義／Part／Mainpd_id\n來源 2673:flow-link · 開啟原圖\n回單元 2，繼續學習\n所有學習單元"
+  },
+  {
+    "url": "topic.html?topic=available",
+    "width": 390,
+    "overflow": false,
+    "images": [
+      {
+        "src": "http://127.0.0.1:4175/assets/mes-055/available.png",
+        "w": 338,
+        "h": 338,
+        "loaded": true
+      }
+    ],
+    "text": "回單元 3\n\n主題教學\n\n本站有哪些可用機台？\n\n以 Lot 與目前站點為主詞，查詢可用的設備關係。\n\n放大教學圖 ↗\nAI 教學示意；設備、ID、站點與時間為假設案例。圖示欄位不代表資料表實際 schema。\n先列出候選設備\n\n示例：L023 在 S40 對應可用機台 EQP-A 與 EQP-B。Siview.Frlot_EQP 的關係用來理解本站可用機台，這兩個候選不代表兩台都會加工這批。\n\n預派是下一個問題\n\n如果要知道派工系統安排哪一台，應再看預派資料。要確認是否到達或開始加工，則再查位置或實際執行事件。\n\n讀圖練習\n\n看到 A、B 都可用，能否回答 L023 已在 A 加工？不能。可用關係、預派安排與加工事實是不同資料。\n\n對照 ER 與原始來源\n\n選擇下方關係，回到 ER 看這個主題連到哪些資料；來源編號保留供追溯。\n\n在 ER 查看：預到／Siview.Frlot_EQP\n來源 2671:lot-eqp · 開啟原圖\n回單元 3，繼續學習\n所有學習單元"
+  },
+  {
+    "url": "topic.html?topic=eqpstatus",
+    "width": 390,
+    "overflow": false,
+    "images": [
+      {
+        "src": "http://127.0.0.1:4175/assets/mes-055/eqpstatus.png",
+        "w": 338,
+        "h": 338,
+        "loaded": true
+      }
+    ],
+    "text": "回單元 3\n\n主題教學\n\n機台狀態，要一起看時間\n\n用設備身分與資料時間，理解機台在當時的狀況。\n\n放大教學圖 ↗\nAI 教學示意；設備、ID、站點與時間為假設案例。圖示欄位不代表資料表實際 schema。\n同一台設備，兩個時間\n\n教學示例：EQP-A 在 09:00 為 UP（加工中），09:30 為 LOST（閒置）。這是兩個時點的狀態，不是同時成立。\n\n先確認狀態屬於誰\n\n依廠內定義，機台 UP 表示正在加工、LOST 表示閒置；Port 的 UP／LOST 則是有貨／沒有貨。相同字樣不能跨對象直接解讀。\n\n查詢時保留時間與層級\n\n核對來源的更新時間，才能判斷狀態的新鮮度。整台機台狀態也不能代替每一個 Chamber 的狀態；要看腔體，需查 Chamber 資料。\n\n對照 ER 與原始來源\n\n選擇下方關係，回到 ER 看這個主題連到哪些資料；來源編號保留供追溯。\n\n在 ER 查看：機況歷史／SIVIEW.FHESCHS\n來源 2674:eqp-history · 開啟原圖\n在 ER 查看：機況歷史／EQP_ID\n來源 2674:history-link · 開啟原圖\n在 ER 查看：機台機況／KER_EQP_STATUS_BT\n來源 2675:status · 開啟原圖\n在 ER 查看：目前機況／EQP_ID\n來源 2675:status-link · 開啟原圖\n在 ER 查看：EQP／STATUS\n來源 2677:status · 開啟原圖\n回單元 3，繼續學習\n所有學習單元"
+  },
+  {
+    "url": "topic.html?topic=eqpkey",
+    "width": 390,
+    "overflow": false,
+    "images": [
+      {
+        "src": "http://127.0.0.1:4175/assets/mes-055/eqpkey.png",
+        "w": 338,
+        "h": 338,
+        "loaded": true
+      }
+    ],
+    "text": "回單元 3\n\n主題教學\n\nEQP_ID：辨認同一台設備\n\n沿著設備識別欄位，對照不同資料中的設備關係。\n\n放大教學圖 ↗\nAI 教學示意；設備、ID、站點與時間為假設案例。圖示欄位不代表資料表實際 schema。\n從身分開始對照\n\n示例：設備資料與關係資料都出現 EQP-A。先確認它們指向同一台設備，再閱讀它所屬的機群或 PD／Recipe 配置。\n\n同名欄位不等於完整 Join 條件\n\nEQP_ID 提供設備線索。實際串接仍需核對資料來源、廠區、版本或時間範圍，以及一台設備是否對應多筆配置。\n\n避免把關係筆數當設備數\n\n同一台機台可以屬於多個機群，也可能有多個 Recipe 關係。展開後有多列，不表示多了幾台實體設備。\n\n對照 ER 與原始來源\n\n選擇下方關係，回到 ER 看這個主題連到哪些資料；來源編號保留供追溯。\n\n在 ER 查看：EQP_ID\n來源 2676:eqp-id · 開啟原圖\n在 ER 查看：EQP_ID\n來源 2677:eqp-id · 開啟原圖\n回單元 3，繼續學習\n所有學習單元"
+  },
+  {
+    "url": "topic.html?topic=location",
+    "width": 390,
+    "overflow": false,
+    "images": [
+      {
+        "src": "http://127.0.0.1:4175/assets/mes-055/location.png",
+        "w": 338,
+        "h": 338,
+        "loaded": true
+      }
+    ],
+    "text": "回單元 4\n\n主題教學\n\nFOUP 在哪裡，與晶圓是否加工\n\n位置資料回答「在何處」，加工事件回答「做了什麼」。\n\n放大教學圖 ↗\nAI 教學示意；設備、ID、站點與時間為假設案例。圖示欄位不代表資料表實際 schema。\n讀取當時位置\n\n示例：FOUP F012 在 EQP-A 的 Load Port LP1。先確認載具、設備、Port 與時間，才能描述這一筆位置紀錄。\n\nFOUP 與 Chamber 分清楚\n\nFOUP 在 Port 等待交接；晶圓送入機台內的 Chamber 才可能進行加工。插圖的腔體剖面是位置概念補充，不是由 Port 紀錄推導的加工結果。\n\n追蹤移動要查歷史\n\n若問題是 F012 幾點由哪裡移到哪裡，應查傳送歷史。若問題是 L023 是否進機，應查對應 Lot 執行事件，並核對相同時間。\n\n對照 ER 與原始來源\n\n選擇下方關係，回到 ER 看這個主題連到哪些資料；來源編號保留供追溯。\n\n在 ER 查看：位於／eqp_id／Siview.CSFHDOPHS\n來源 2671:location · 開啟原圖\n回單元 4，繼續學習\n所有學習單元"
+  },
+  {
+    "url": "topic.html?topic=lotstep",
+    "width": 390,
+    "overflow": false,
+    "images": [
+      {
+        "src": "http://127.0.0.1:4175/assets/mes-055/lotstep.png",
+        "w": 338,
+        "h": 338,
+        "loaded": true
+      }
+    ],
+    "text": "回單元 6\n\n主題教學\n\nLot Step：這批貨走過哪些站點？\n\n以 Lot 為主詞，保留站點與時間，閱讀批次的站點歷程。\n\n放大教學圖 ↗\nAI 教學示意；設備、ID、站點與時間為假設案例。圖示欄位不代表資料表實際 schema。\n三筆紀錄，兩個不同站點\n\n示例：L023 在 09:00 記錄 S40、10:00 記錄 S50、11:00 再記錄 S40。第二次 S40 是另一筆歷程，不能只因站點相同就刪掉。\n\n查詢順序\n\n先選 Lot，再讀站點及時間順序，對照 F12DM.DM_Lot_step_st 的來源定義。重複經過的原因與事件類型，要再核對批貨歷史。\n\nFOUP 不是站點歷史的主詞\n\nFOUP 說明裝載位置，Lot 說明生產批次。查 Lot Step 要保留 Lot；若只看 FOUP，可能把內容物變更前後的不同批次混在一起。\n\n對照 ER 與原始來源\n\n選擇下方關係，回到 ER 看這個主題連到哪些資料；來源編號保留供追溯。\n\n在 ER 查看：站點 Summary／Lot_id\n來源 2672:summary · 開啟原圖\n在 ER 查看：Step 歷史／F12DM.DM_Lot_step_st\n來源 2672:step · 開啟原圖\n回單元 6，繼續學習\n所有學習單元"
+  },
+  {
+    "url": "topic.html?topic=contents",
+    "width": 390,
+    "overflow": false,
+    "images": [
+      {
+        "src": "http://127.0.0.1:4175/assets/mes-055/contents.png",
+        "w": 338,
+        "h": 338,
+        "loaded": true
+      }
+    ],
+    "text": "回單元 6\n\n主題教學\n\nFOUP 內容物歷史：當時裝了哪些 Wafer？\n\n同一個 FOUP 的內容物會改變，歷史查詢必須指定時間。\n\n放大教學圖 ↗\nAI 教學示意；設備、ID、站點與時間為假設案例。圖示欄位不代表資料表實際 schema。\n兩個時間，兩份內容物\n\n教學示例：09:00 的 F012 裝 W06、W07、W08；10:00 更新後裝 W06、W07、W09。W08 與 W09 不同，不能拿後一份名單回答前一個時間。\n\nSplit／Merge 時更新\n\nSiview.fhwlths 記錄 FOUP 內容物的歷史；每次 Split／Merge 進 FOUP 時會更新。它用來追溯當時有哪些 Wafer，與搬運整個 FOUP 的傳送歷史不同。\n\nSlot 與批次歸屬另外核對\n\n圖上的 W06 等是 Wafer ID，不是 Slot 編號。若要回答槽位或 Lot 歸屬，須核對相應來源及時間；本例不假設歷史表具有所有槽位欄位。\n\n對照 ER 與原始來源\n\n選擇下方關係，回到 ER 看這個主題連到哪些資料；來源編號保留供追溯。\n\n在 ER 查看：在 Slot／Siview.fhwlths\n來源 2671:slot · 開啟原圖\n回單元 6，繼續學習\n所有學習單元"
+  },
+  {
+    "url": "topic.html?topic=material",
+    "width": 390,
+    "overflow": false,
+    "images": [
+      {
+        "src": "http://127.0.0.1:4175/assets/mes-036/foup-query-lot-mobile-v1.png",
+        "w": 338,
+        "h": 591.5,
+        "loaded": true
+      }
+    ],
+    "text": "回單元 1\n\n主題教學\n\n以 FOUP 為主詞：查詢裝載的 Lot\n\n這裡也是 Lot 與 FOUP 的裝載關係，只是查詢主詞是 FOUP：先選一個 FOUP，再找出其中晶圓所屬的 Lot。FRLot_MtrlContnrs、FrlotMtrl、Frlot 這條路徑，與 FRCAST、FRCAST_LOT、FRLOT 表達相同的裝載概念。\n\n放大教學圖 ↗\n查詢示例：FOUP F012 → 裝載關係 → Lot L023／L024。箭頭表示查詢閱讀方向，不是搬運或 Split／Merge 事件；可查到一個或多個 Lot。\n從 FOUP 出發怎麼讀？\n先選要查的 FOUP，例如 F012。\n沿「放在」的裝載關係，找出與這個 FOUP 關聯的 Lot。\n讀取 Lot ID；同一個 FOUP 可裝一個 Lot，也可以有不同 Lot 的晶圓。\n兩條路徑，相同裝載概念\n\n本圖：Siview.FRLot_MtrlContnrs → Siview.FrlotMtrl → Siview.Frlot。\n\n另一組：FRCAST → FRCAST_LOT → FRLOT。\n\n兩者都是連接 FOUP 與 Lot；這裡特別從 FOUP 查詢。概念相同不代表資料表、欄位或查詢條件可以直接互換，仍保留各自來源。\n\nLot 是晶圓的歸屬，不是另一個容器\n\n示例中，F012 內的部分晶圓屬於 L023，另一部分屬於 L024，所以查到兩個 Lot。圖中顏色只區分批次歸屬，不表示品質或加工狀態；並不是在 FOUP 裡放兩個叫 Lot 的盒子。\n\n如果要逐片確認，還要對照 Wafer ID 與所在 Slot。查歷史裝載時也要帶時間，不能把某次結果當成所有時間都不變的關係。\n\n從 FOUP 出發，找出其中晶圓所屬的 Lot。\n\n對照 ER 與原始來源\n\n選擇下方關係，回到 ER 看這個主題連到哪些資料；來源編號保留供追溯。\n\n在 ER 查看：Foup／Siview.FRLot_MtrlContnrs\n來源 2671:material · 開啟原圖\n在 ER 查看：放在／Siview.FrlotMtrl\n來源 2671:material-link · 開啟原圖\n回單元 1，繼續學習\n所有學習單元"
+  }
+]

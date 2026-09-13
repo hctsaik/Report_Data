@@ -1,0 +1,181 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2800" height="1830" viewBox="0 0 2800 1830" role="img" aria-labelledby="title desc">
+<title id="title">LOT、Flow、Part、LR 與站點定義</title>
+<desc id="desc">依照片 2673.jpg 重畫；矩形、菱形、圓形及無向連線保留。原先不清楚的文字已由使用者確認。</desc>
+<style>text{font-family:"Microsoft JhengHei","Noto Sans TC",Arial,sans-serif;fill:#182635}.label{font-size:21px;font-weight:600}.detail{font-size:19px}.issue{fill:#a34c00;font-size:16px;font-weight:700}.edge{fill:none;stroke:#34485c;stroke-width:3;stroke-linejoin:round;stroke-linecap:round}.shape{stroke:#63798d;stroke-width:2;fill:white}</style>
+<rect width="2800" height="1830" fill="white"/>
+<text x="48" y="48" font-size="28" font-weight="700">2673 · LOT、Flow、Part、LR 與站點定義</text>
+<text x="48" y="82" font-size="17" fill="#52657a">原圖結構重繪 · 文字與線條均可編輯 · 原圖疑義文字已確認</text>
+<g id="connections">
+<polyline id="edge-1" class="edge" data-from="wph" data-to="wph-link" points="1010,246.0 1010,335.0"/>
+<polyline id="edge-2" class="edge" data-from="wph-link" data-to="lr" points="1010,505.0 1010,594.0"/>
+<polyline id="edge-3" class="edge" data-from="pd-eqp" data-to="pd-eqp-link" points="1430,246.0 1430,335.0"/>
+<polyline id="edge-4" class="edge" data-from="pd-eqp-link" data-to="pd" points="1430,505.0 1430,594.0"/>
+<polyline id="edge-5" class="edge" data-from="lr" data-to="lr-link" points="1010,706.0 1010,815.0"/>
+<polyline id="edge-6" class="edge" data-from="pd" data-to="pd-link" points="1430,706.0 1430,815.0"/>
+<polyline id="edge-7" class="edge" data-from="part" data-to="part-link" points="1850,706.0 1850,815.0"/>
+<polyline id="edge-8" class="edge" data-from="recipe" data-to="recipe-link" points="2270,706.0 2270,815.0"/>
+<polyline id="edge-9" class="edge" data-from="forecast-link" data-to="forecast" points="620,1555.0 620,1664.0"/>
+<polyline id="edge-10" class="edge" data-from="stream-link" data-to="stream" points="1020,1555.0 1020,1664.0"/>
+<polyline id="edge-11" class="edge" data-from="stage-link" data-to="stage" points="1850,1545.0 1850,1664.0"/>
+<polyline id="edge-12" class="edge" data-from="srts-link" data-to="srts" points="2270,1545.0 2270,1664.0"/>
+<polyline id="edge-13" class="edge" data-from="future" data-to="future-link" points="390.0,900 470.0,900"/>
+<polyline id="edge-14" class="edge" data-from="product-hold" data-to="hold-link" points="390.0,1190 470.0,1190"/>
+<polyline id="edge-15" class="edge" data-from="hold-link" data-to="lot" points="770.0,1190 870.0,1190"/>
+<polyline id="edge-16" class="edge" data-from="lot" data-to="flow-link" points="1170.0,1190 1260.0,1190"/>
+<polyline id="edge-17" class="edge" data-from="flow-link" data-to="flow" points="1600.0,1190 1675.0,1190"/>
+<polyline id="edge-18" class="edge" data-from="flow" data-to="lr-eqp-link" points="2025.0,1190 2085.0,1190"/>
+<polyline id="edge-19" class="edge" data-from="lr-eqp-link" data-to="lr-eqp" points="2455.0,1190 2485.0,1190"/>
+<polyline id="edge-20" class="edge" data-from="future-link" data-to="lot" points="770.0,900 805,900 805,1080 1020,1080 1020,1134.0"/>
+<polyline id="edge-21" class="edge" data-from="lr-link" data-to="flow" points="1010,985.0 1010,1050 1850,1050 1850,1134.0"/>
+<polyline id="edge-22" class="edge" data-from="pd-link" data-to="flow" points="1430,985.0 1430,1050 1850,1050 1850,1134.0"/>
+<polyline id="edge-23" class="edge" data-from="part-link" data-to="flow" points="1850,985.0 1850,1050 1850,1050 1850,1134.0"/>
+<polyline id="edge-24" class="edge" data-from="recipe-link" data-to="flow" points="2270,985.0 2270,1050 1850,1050 1850,1134.0"/>
+<polyline id="edge-25" class="edge" data-from="lot" data-to="stream-link" points="1020,1246.0 1020,1365.0"/>
+<polyline id="edge-26" class="edge" data-from="lot" data-to="forecast-link" points="1020,1246.0 1020,1320 620,1320 620,1365.0"/>
+<polyline id="edge-27" class="edge" data-from="flow" data-to="stage-link" points="1850,1246.0 1850,1375.0"/>
+<polyline id="edge-28" class="edge" data-from="flow" data-to="srts-link" points="1850,1246.0 1850,1320 2270,1320 2270,1375.0"/>
+</g><g id="nodes">
+<g id="wph" data-kind="rect" data-x="1010" data-y="190" data-w="350" data-h="112">
+<rect class="shape" x="835.0" y="134.0" width="350" height="112"/>
+<text class="label" x="1010" y="176" text-anchor="middle" dominant-baseline="central">IE 的 WPH 定義</text>
+<text class="detail" x="1010" y="204" text-anchor="middle" dominant-baseline="central">F12DM.DM_TBL_IE_CTWPH</text>
+</g>
+<g id="wph-link" data-kind="diamond" data-x="1010" data-y="420" data-w="300" data-h="170">
+<polygon class="shape" points="1010,335.0 1160.0,420 1010,505.0 860.0,420"/>
+<text class="label" x="1010" y="420" text-anchor="middle" dominant-baseline="central">IE 的 WPH</text>
+</g>
+<g id="lr" data-kind="rect" data-x="1010" data-y="650" data-w="360" data-h="112">
+<rect class="shape" x="830.0" y="594.0" width="360" height="112"/>
+<text class="label" x="1010" y="636" text-anchor="middle" dominant-baseline="central">LR 對映的機台</text>
+<text class="detail" x="1010" y="664" text-anchor="middle" dominant-baseline="central">F12DM.DM_Flow_LR_EQP_BT</text>
+</g>
+<g id="pd-eqp" data-kind="rect" data-x="1430" data-y="190" data-w="300" data-h="112">
+<rect class="shape" x="1280.0" y="134.0" width="300" height="112"/>
+<text class="label" x="1430" y="176" text-anchor="middle" dominant-baseline="central">PD_ID 與機台</text>
+<text class="detail" x="1430" y="204" text-anchor="middle" dominant-baseline="central">Siview.frpd_eqp</text>
+</g>
+<g id="pd-eqp-link" data-kind="diamond" data-x="1430" data-y="420" data-w="370" data-h="170">
+<polygon class="shape" points="1430,335.0 1615.0,420 1430,505.0 1245.0,420"/>
+<text class="label" x="1430" y="420" text-anchor="middle" dominant-baseline="central">PD_ID 對映的機台</text>
+</g>
+<g id="pd" data-kind="rect" data-x="1430" data-y="650" data-w="300" data-h="112">
+<rect class="shape" x="1280.0" y="594.0" width="300" height="112"/>
+<text class="label" x="1430" y="636" text-anchor="middle" dominant-baseline="central">Flow PD</text>
+<text class="detail" x="1430" y="664" text-anchor="middle" dominant-baseline="central">Siview.frpd</text>
+</g>
+<g id="part" data-kind="rect" data-x="1850" data-y="650" data-w="300" data-h="112">
+<rect class="shape" x="1700.0" y="594.0" width="300" height="112"/>
+<text class="label" x="1850" y="636" text-anchor="middle" dominant-baseline="central">PART 定義</text>
+<text class="detail" x="1850" y="664" text-anchor="middle" dominant-baseline="central">Siview.frprodspec</text>
+</g>
+<g id="recipe" data-kind="rect" data-x="2270" data-y="650" data-w="360" data-h="112">
+<rect class="shape" x="2090.0" y="594.0" width="360" height="112"/>
+<text class="label" x="2270" y="636" text-anchor="middle" dominant-baseline="central">Recipe Group</text>
+<text class="detail" x="2270" y="664" text-anchor="middle" dominant-baseline="central">Siview.CSFRRCPGRPST</text>
+</g>
+<g id="lr-link" data-kind="diamond" data-x="1010" data-y="900" data-w="360" data-h="170">
+<polygon class="shape" points="1010,815.0 1190.0,900 1010,985.0 830.0,900"/>
+<text class="label" x="1010" y="886" text-anchor="middle" dominant-baseline="central">LR 與機台</text>
+<text class="detail" x="1010" y="914" text-anchor="middle" dominant-baseline="central">LCRECIPE_ID</text>
+</g>
+<g id="pd-link" data-kind="diamond" data-x="1430" data-y="900" data-w="340" data-h="170">
+<polygon class="shape" points="1430,815.0 1600.0,900 1430,985.0 1260.0,900"/>
+<text class="label" x="1430" y="900" text-anchor="middle" dominant-baseline="central">站點的 PD_ID</text>
+</g>
+<g id="part-link" data-kind="diamond" data-x="1850" data-y="900" data-w="340" data-h="170">
+<polygon class="shape" points="1850,815.0 2020.0,900 1850,985.0 1680.0,900"/>
+<text class="label" x="1850" y="886" text-anchor="middle" dominant-baseline="central">PART 對映</text>
+<text class="detail" x="1850" y="914" text-anchor="middle" dominant-baseline="central">Mainpd_id</text>
+</g>
+<g id="recipe-link" data-kind="diamond" data-x="2270" data-y="900" data-w="360" data-h="170">
+<polygon class="shape" points="2270,815.0 2450.0,900 2270,985.0 2090.0,900"/>
+<text class="label" x="2270" y="900" text-anchor="middle" dominant-baseline="central">製程程式群組對照</text>
+</g>
+<g id="future" data-kind="rect" data-x="220" data-y="900" data-w="340" data-h="112">
+<rect class="shape" x="50.0" y="844.0" width="340" height="112"/>
+<text class="label" x="220" y="886" text-anchor="middle" dominant-baseline="central">未來的 Future Hold</text>
+<text class="detail" x="220" y="914" text-anchor="middle" dominant-baseline="central">Siview.frlot_futurehold</text>
+</g>
+<g id="future-link" data-kind="diamond" data-x="620" data-y="900" data-w="300" data-h="170">
+<polygon class="shape" points="620,815.0 770.0,900 620,985.0 470.0,900"/>
+<text class="label" x="620" y="886" text-anchor="middle" dominant-baseline="central">Future Hold</text>
+<text class="detail" x="620" y="914" text-anchor="middle" dominant-baseline="central">Lot_ID</text>
+</g>
+<g id="product-hold" data-kind="rect" data-x="220" data-y="1190" data-w="340" data-h="112">
+<rect class="shape" x="50.0" y="1134.0" width="340" height="112"/>
+<text class="label" x="220" y="1176" text-anchor="middle" dominant-baseline="central">Product Hold</text>
+<text class="detail" x="220" y="1204" text-anchor="middle" dominant-baseline="central">Siview.CSFRPRHold</text>
+</g>
+<g id="hold-link" data-kind="diamond" data-x="620" data-y="1190" data-w="300" data-h="170">
+<polygon class="shape" points="620,1105.0 770.0,1190 620,1275.0 470.0,1190"/>
+<text class="label" x="620" y="1176" text-anchor="middle" dominant-baseline="central">有 Prod Hold</text>
+<text class="detail" x="620" y="1204" text-anchor="middle" dominant-baseline="central">Lot_ID</text>
+</g>
+<g id="lot" data-kind="rect" data-x="1020" data-y="1190" data-w="300" data-h="112">
+<rect class="shape" x="870.0" y="1134.0" width="300" height="112" style="fill:#d4ebff;stroke:#2585c6;stroke-width:3"/>
+<text class="label" x="1020" y="1176" text-anchor="middle" dominant-baseline="central">LOT</text>
+<text class="detail" x="1020" y="1204" text-anchor="middle" dominant-baseline="central">Siview.frlot</text>
+</g>
+<g id="flow-link" data-kind="diamond" data-x="1430" data-y="1190" data-w="340" data-h="190">
+<polygon class="shape" points="1430,1095.0 1600.0,1190 1430,1285.0 1260.0,1190"/>
+<text class="label" x="1430" y="1162" text-anchor="middle" dominant-baseline="central">Flow 定義</text>
+<text class="detail" x="1430" y="1190" text-anchor="middle" dominant-baseline="central">Part</text>
+<text class="detail" x="1430" y="1218" text-anchor="middle" dominant-baseline="central">Mainpd_id</text>
+</g>
+<g id="flow" data-kind="rect" data-x="1850" data-y="1190" data-w="350" data-h="112">
+<rect class="shape" x="1675.0" y="1134.0" width="350" height="112"/>
+<text class="label" x="1850" y="1176" text-anchor="middle" dominant-baseline="central">Flow</text>
+<text class="detail" x="1850" y="1204" text-anchor="middle" dominant-baseline="central">F12DM.DM_Flow_step_Bt</text>
+</g>
+<g id="lr-eqp-link" data-kind="diamond" data-x="2270" data-y="1190" data-w="370" data-h="170">
+<polygon class="shape" points="2270,1105.0 2455.0,1190 2270,1275.0 2085.0,1190"/>
+<text class="label" x="2270" y="1176" text-anchor="middle" dominant-baseline="central">LR 與 EQP_ID 對應</text>
+<text class="detail" x="2270" y="1204" text-anchor="middle" dominant-baseline="central">LCRECIPE_ID</text>
+</g>
+<g id="lr-eqp" data-kind="rect" data-x="2640" data-y="1190" data-w="310" data-h="130">
+<rect class="shape" x="2485.0" y="1125.0" width="310" height="130"/>
+<text class="label" x="2640" y="1176" text-anchor="middle" dominant-baseline="central">LR 與機台對應關係</text>
+<text class="detail" x="2640" y="1204" text-anchor="middle" dominant-baseline="central">F12DM.DM_Flow_LR_EQP_BT</text>
+</g>
+<g id="forecast-link" data-kind="diamond" data-x="620" data-y="1460" data-w="300" data-h="190">
+<polygon class="shape" points="620,1365.0 770.0,1460 620,1555.0 470.0,1460"/>
+<text class="label" x="620" y="1432" text-anchor="middle" dominant-baseline="central">未來的 Flow</text>
+<text class="detail" x="620" y="1460" text-anchor="middle" dominant-baseline="central">Lot_ID</text>
+<text class="detail" x="620" y="1488" text-anchor="middle" dominant-baseline="central">OPE_NO</text>
+</g>
+<g id="stream-link" data-kind="diamond" data-x="1020" data-y="1460" data-w="300" data-h="190">
+<polygon class="shape" points="1020,1365.0 1170.0,1460 1020,1555.0 870.0,1460"/>
+<text class="label" x="1020" y="1432" text-anchor="middle" dominant-baseline="central">未來的各站</text>
+<text class="detail" x="1020" y="1460" text-anchor="middle" dominant-baseline="central">Lot_ID</text>
+<text class="detail" x="1020" y="1488" text-anchor="middle" dominant-baseline="central">OPE_NO</text>
+</g>
+<g id="forecast" data-kind="rect" data-x="620" data-y="1720" data-w="350" data-h="112">
+<rect class="shape" x="445.0" y="1664.0" width="350" height="112"/>
+<text class="label" x="620" y="1706" text-anchor="middle" dominant-baseline="central">未來的 Flow</text>
+<text class="detail" x="620" y="1734" text-anchor="middle" dominant-baseline="central">F12dm.dm_tbl_lot_forecast</text>
+</g>
+<g id="stream" data-kind="rect" data-x="1020" data-y="1720" data-w="340" data-h="112">
+<rect class="shape" x="850.0" y="1664.0" width="340" height="112"/>
+<text class="label" x="1020" y="1706" text-anchor="middle" dominant-baseline="central">Stream 到站時間</text>
+<text class="detail" x="1020" y="1734" text-anchor="middle" dominant-baseline="central">Stream_fcst_lot_st</text>
+</g>
+<g id="stage-link" data-kind="diamond" data-x="1850" data-y="1460" data-w="300" data-h="170">
+<polygon class="shape" points="1850,1375.0 2000.0,1460 1850,1545.0 1700.0,1460"/>
+<text class="label" x="1850" y="1460" text-anchor="middle" dominant-baseline="central">Stage 定義</text>
+</g>
+<g id="srts-link" data-kind="diamond" data-x="2270" data-y="1460" data-w="340" data-h="170">
+<polygon class="shape" points="2270,1375.0 2440.0,1460 2270,1545.0 2100.0,1460"/>
+<text class="label" x="2270" y="1460" text-anchor="middle" dominant-baseline="central">抽測跳站設定</text>
+</g>
+<g id="stage" data-kind="rect" data-x="1850" data-y="1720" data-w="350" data-h="112">
+<rect class="shape" x="1675.0" y="1664.0" width="350" height="112"/>
+<text class="label" x="1850" y="1706" text-anchor="middle" dominant-baseline="central">Stage 與 Module 定義</text>
+<text class="detail" x="1850" y="1734" text-anchor="middle" dominant-baseline="central">F12dm.dm_tbl_info_stage</text>
+</g>
+<g id="srts" data-kind="rect" data-x="2270" data-y="1720" data-w="340" data-h="112">
+<rect class="shape" x="2100.0" y="1664.0" width="340" height="112"/>
+<text class="label" x="2270" y="1706" text-anchor="middle" dominant-baseline="central">SRTS 設定</text>
+<text class="detail" x="2270" y="1734" text-anchor="middle" dominant-baseline="central">Siview.csfrsrts</text>
+</g>
+</g>
+</svg>

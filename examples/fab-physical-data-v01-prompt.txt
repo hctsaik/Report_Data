@@ -1,0 +1,18 @@
+Create one polished Traditional Chinese semiconductor teaching slide, wide 16:9, high resolution. A visual prototype for software engineers who have never visited a fab. Style: premium editorial technical education, large realistic industrial product renderings with precise clean vector annotations, bright white background, pale blue thin rounded frames, black bold very readable Chinese typography, restrained blue/teal. NOT a dense dashboard, no decorative people, robots, icons, no page numbers, no logos. This is an AI-generated educational illustration, not a real photograph.
+Exact main headline:「這片晶圓在哪裡？把實物對上資料」
+Subtitle:「從設備全景放大到槽位，再看系統如何記錄」
+Small legible source label near top:「AI 生成教學示意｜資料為假設範例」
+
+Exactly THREE major visual nodes in one left-to-right reading path, with image space dominating (65 percent images).
+LEFT 30%: header「現場全景」. Realistic compact semiconductor processing tool front, pale gray metal enclosure, front load port clearly visible. A SINGLE translucent slightly amber / off-white FOUP F012 docked on this port. Physical plausible front-opening unified pod with carry handle, open front shown schematically so horizontal parallel wafer stack visible. A blue callout on tool says「Tool  ETCH-03」. A callout precisely on load platform says「Port  LP1」. A teal callout on the carrier says「FOUP  F012」. Caption「載具停靠在設備的交接位置」. Highlight FOUP with fine blue outlined source region and two fine blue zoom leader lines to middle node, NOT an arrow meaning transport.
+MIDDLE 38%: header「打開 FOUP，看見槽位」. Much larger detail of THE SAME FOUP F012 with its front open / cutaway, a rack of horizontal thin silver silicon wafers, not upright wafers, not books, not a cassette of hard drives. Label the view「同一載具的局部放大」. Emphasize one particular horizontal wafer at Slot 07 with a restrained teal rim and a clear large leader label「Slot 07 → Wafer W07」. Neighboring slots near it marked 06 / 07 / 08 in geometrically matching positions. The wafer remains inside its slot; no extra extracted wafer. Caption「Slot 是位置；Wafer 是放在裡面的晶圓」. Thin correspondence lines lead from the highlighted wafer / slot into matching values on right, no confusing process arrows.
+RIGHT 32%: header「系統對應資料」. A single clean large readable data record, not nested tiny cards. Top record title「W07 的位置紀錄」. Precisely render aligned field and value rows:
+wafer_id     W07
+foup_id      F012
+slot_no      07
+tool_id      ETCH-03
+port_id      LP1
+Rows W07, F012, 07 visually connected / color keyed with physical image labels. Under divider, a separate simple light-blue line says「生產歸屬  lot_id = L023」 and sentence「Lot 是生產分組，不是實體容器」. This is an illustrative joined location view, not a claim that all these columns belong in wafer master. Label beneath record「關聯查詢示例」.
+
+Bottom a SINGLE full-width pale-yellow #FFF4CC takeaway banner with orange-yellow thin border and small lightbulb, exact sentence「位置告訴你晶圓在哪裡；批次告訴你它屬於哪一組生產工作。」
+Aim for a compelling real-world-to-data explanation with generous whitespace, huge tangible FOUP detail, no dense ER diagram. All Traditional Chinese text must be accurate, large and unclipped. No invented operational status, chamber connection or claim of real fab photography.

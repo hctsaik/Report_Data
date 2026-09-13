@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2080" height="1440" viewBox="0 0 2080 1440" role="img" aria-labelledby="title desc">
+<title id="title">PD、ER、機台位置與狀態</title>
+<desc id="desc">依照片 2677.jpg 重畫；矩形、菱形、圓形及無向連線保留。原先不清楚的文字已由使用者確認。</desc>
+<style>text{font-family:"Microsoft JhengHei","Noto Sans TC",Arial,sans-serif;fill:#182635}.label{font-size:21px;font-weight:600}.detail{font-size:19px}.issue{fill:#a34c00;font-size:16px;font-weight:700}.edge{fill:none;stroke:#34485c;stroke-width:3;stroke-linejoin:round;stroke-linecap:round}.shape{stroke:#63798d;stroke-width:2;fill:white}</style>
+<rect width="2080" height="1440" fill="white"/>
+<text x="48" y="48" font-size="28" font-weight="700">2677 · PD、ER、機台位置與狀態</text>
+<text x="48" y="82" font-size="17" fill="#52657a">原圖結構重繪 · 文字與線條均可編輯 · 原圖疑義文字已確認</text>
+<g id="connections">
+<polyline id="edge-1" class="edge" data-from="pd" data-to="pd-key" points="390.0,220 520.0,220"/>
+<polyline id="edge-2" class="edge" data-from="pd-key" data-to="pd-eqp" points="820.0,220 935.0,220"/>
+<polyline id="edge-3" class="edge" data-from="recipe" data-to="recipe-key" points="390.0,940 520.0,940"/>
+<polyline id="edge-4" class="edge" data-from="recipe-key" data-to="recipe-eqp" points="820.0,940 935.0,940"/>
+<polyline id="edge-5" class="edge" data-from="bay" data-to="location" points="1705.0,460 1800.0,460"/>
+<polyline id="edge-6" class="edge" data-from="eqp" data-to="status" points="1705.0,810 1815.0,810"/>
+<polyline id="edge-7" class="edge" data-from="pd-eqp" data-to="eqp-id" points="1100,276.0 1100,525.0"/>
+<polyline id="edge-8" class="edge" data-from="eqp-id" data-to="recipe-eqp" points="1100,695.0 1100,884.0"/>
+<polyline id="edge-9" class="edge" data-from="recipe" data-to="er" points="240,996.0 240,1070.0"/>
+<polyline id="edge-10" class="edge" data-from="er" data-to="lr" points="240,1210.0 240,1284.0"/>
+<polyline id="edge-11" class="edge" data-from="eqp-id" data-to="bay" points="1250.0,610 1320,610 1320,460 1375.0,460"/>
+<polyline id="edge-12" class="edge" data-from="eqp-id" data-to="eqp" points="1250.0,610 1320,610 1320,810 1375.0,810"/>
+</g><g id="nodes">
+<g id="pd" data-kind="rect" data-x="240" data-y="220" data-w="300" data-h="112">
+<rect class="shape" x="90.0" y="164.0" width="300" height="112"/>
+<text class="label" x="240" y="220" text-anchor="middle" dominant-baseline="central">FRPD</text>
+</g>
+<g id="pd-key" data-kind="diamond" data-x="670" data-y="220" data-w="300" data-h="170">
+<polygon class="shape" points="670,135.0 820.0,220 670,305.0 520.0,220"/>
+<text class="label" x="670" y="220" text-anchor="middle" dominant-baseline="central">systemkey</text>
+</g>
+<g id="pd-eqp" data-kind="rect" data-x="1100" data-y="220" data-w="330" data-h="112">
+<rect class="shape" x="935.0" y="164.0" width="330" height="112"/>
+<text class="label" x="1100" y="206" text-anchor="middle" dominant-baseline="central">MODULEPD_ID</text>
+<text class="detail" x="1100" y="234" text-anchor="middle" dominant-baseline="central">FRPD_EQP</text>
+</g>
+<g id="eqp-id" data-kind="diamond" data-x="1100" data-y="610" data-w="300" data-h="170">
+<polygon class="shape" points="1100,525.0 1250.0,610 1100,695.0 950.0,610"/>
+<text class="label" x="1100" y="610" text-anchor="middle" dominant-baseline="central">EQP_ID</text>
+</g>
+<g id="bay" data-kind="rect" data-x="1540" data-y="460" data-w="330" data-h="112">
+<rect class="shape" x="1375.0" y="404.0" width="330" height="112"/>
+<text class="label" x="1540" y="460" text-anchor="middle" dominant-baseline="central">MFG_EQP_BAY_BT</text>
+</g>
+<g id="location" data-kind="circle" data-x="1920" data-y="460" data-w="240" data-h="200">
+<ellipse class="shape" cx="1920" cy="460" rx="120.0" ry="100.0"/>
+<text class="label" x="1920" y="432" text-anchor="middle" dominant-baseline="central">EQP</text>
+<text class="detail" x="1920" y="460" text-anchor="middle" dominant-baseline="central">LOCATION</text>
+<text class="detail" x="1920" y="488" text-anchor="middle" dominant-baseline="central">PHASE</text>
+</g>
+<g id="recipe" data-kind="rect" data-x="240" data-y="940" data-w="300" data-h="112">
+<rect class="shape" x="90.0" y="884.0" width="300" height="112"/>
+<text class="label" x="240" y="940" text-anchor="middle" dominant-baseline="central">FRMRCP</text>
+</g>
+<g id="recipe-key" data-kind="diamond" data-x="670" data-y="940" data-w="300" data-h="170">
+<polygon class="shape" points="670,855.0 820.0,940 670,1025.0 520.0,940"/>
+<text class="label" x="670" y="940" text-anchor="middle" dominant-baseline="central">SYSTEMKEY</text>
+</g>
+<g id="recipe-eqp" data-kind="rect" data-x="1100" data-y="940" data-w="330" data-h="112">
+<rect class="shape" x="935.0" y="884.0" width="330" height="112"/>
+<text class="label" x="1100" y="940" text-anchor="middle" dominant-baseline="central">FRMRCP_EQP</text>
+</g>
+<g id="eqp" data-kind="rect" data-x="1540" data-y="810" data-w="330" data-h="112">
+<rect class="shape" x="1375.0" y="754.0" width="330" height="112"/>
+<text class="label" x="1540" y="810" text-anchor="middle" dominant-baseline="central">FREQP</text>
+</g>
+<g id="status" data-kind="circle" data-x="1920" data-y="810" data-w="210" data-h="180">
+<ellipse class="shape" cx="1920" cy="810" rx="105.0" ry="90.0"/>
+<text class="label" x="1920" y="796" text-anchor="middle" dominant-baseline="central">EQP</text>
+<text class="detail" x="1920" y="824" text-anchor="middle" dominant-baseline="central">STATUS</text>
+</g>
+<g id="er" data-kind="circle" data-x="240" data-y="1140" data-w="150" data-h="140">
+<ellipse class="shape" cx="240" cy="1140" rx="75.0" ry="70.0"/>
+<text class="label" x="240" y="1140" text-anchor="middle" dominant-baseline="central">ER</text>
+</g>
+<g id="lr" data-kind="rect" data-x="240" data-y="1340" data-w="370" data-h="112">
+<rect class="shape" x="55.0" y="1284.0" width="370" height="112"/>
+<text class="label" x="240" y="1340" text-anchor="middle" dominant-baseline="central">DM_FLOW_LR_EQP_BT</text>
+</g>
+</g>
+</svg>

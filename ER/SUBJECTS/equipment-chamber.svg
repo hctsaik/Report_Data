@@ -1,0 +1,66 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1133pt" height="226pt" viewBox="0.00 0.00 1133.00 226.00" role="img" aria-label="以 EQP 看交接位置與設備結構 ER 主題圖">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(21.6 204.66)">
+<title>ER</title>
+<polygon fill="white" stroke="none" points="-21.6,21.6 -21.6,-204.66 1111.13,-204.66 1111.13,21.6 -21.6,21.6" />
+
+<g id="e_n_2674_chamber_n_2674_detail-link" class="edge" data-edge="e_n_2674_chamber_n_2674_detail-link">
+<title>n_2674_chamber--n_2674_detail-link</title>
+<path fill="none" stroke="#70869a" stroke-width="1.8" d="M634.75,-91.53C649.24,-91.53 664.48,-91.53 679.53,-91.53" />
+</g>
+
+<g id="e_n_2674_chamber_n_2674_chamber-link" class="edge" data-edge="e_n_2674_chamber_n_2674_chamber-link">
+<title>n_2674_chamber-link--n_2674_chamber</title>
+<path fill="none" stroke="#70869a" stroke-width="1.8" d="M420.38,-91.53C435.34,-91.53 450.33,-91.53 464.52,-91.53" />
+</g>
+
+<g id="e_n_2674_detail-link_t_215407951b90" class="edge" data-edge="e_n_2674_detail-link_t_215407951b90">
+<title>n_2674_detail-link--t_215407951b90</title>
+<path fill="none" stroke="#70869a" stroke-width="1.8" d="M900.8,-91.53C916.08,-91.53 931.44,-91.53 945.77,-91.53" />
+</g>
+
+<g id="e_n_2674_chamber-link_t_7f282520afb8" class="edge" data-edge="e_n_2674_chamber-link_t_7f282520afb8">
+<title>t_7f282520afb8--n_2674_chamber-link</title>
+<path fill="none" stroke="#70869a" stroke-width="1.8" d="M126.18,-91.53C139.65,-91.53 154.34,-91.53 169.22,-91.53" />
+</g>
+
+<g id="n_2674_chamber" class="node" data-node="n_2674_chamber" role="button" tabindex="0" aria-label="Chamber 狀況 / Siview.csfrprcrsc / SIVIEW.FHCSCHS">
+<title>n_2674_chamber</title>
+<polygon fill="#fff6eb" stroke="#b26018" stroke-width="2" points="633.91,-137.3 465.37,-137.3 465.37,-45.77 633.91,-45.77 633.91,-137.3" />
+<text xml:space="preserve" text-anchor="middle" x="549.64" y="-111.56" font-family="Microsoft JhengHei" font-size="18.00">Chamber 狀況</text>
+<text xml:space="preserve" text-anchor="middle" x="549.64" y="-86.81" font-family="Microsoft JhengHei" font-size="18.00">Siview.csfrprcrsc</text>
+<text xml:space="preserve" text-anchor="middle" x="549.64" y="-62.05" font-family="Microsoft JhengHei" font-size="18.00">SIVIEW.FHCSCHS</text>
+</g>
+
+<g id="n_2674_chamber-link" class="node" data-node="n_2674_chamber-link" role="button" tabindex="0" aria-label="有 Chamber / eqp_id">
+<title>n_2674_chamber-link</title>
+<polygon fill="#ffffff" stroke="#6a7d8e" stroke-width="2" points="294.83,-158.31 171.29,-91.53 294.83,-24.75 418.37,-91.53 294.83,-158.31" />
+<text xml:space="preserve" text-anchor="middle" x="294.83" y="-99.18" font-family="Microsoft JhengHei" font-size="18.00">有 Chamber</text>
+<text xml:space="preserve" text-anchor="middle" x="294.83" y="-74.43" font-family="Microsoft JhengHei" font-size="18.00">eqp_id</text>
+</g>
+
+<g id="n_2674_detail-link" class="node" data-node="n_2674_detail-link" role="button" tabindex="0" aria-label="細部狀況 / eqp_id / procrsc_id">
+<title>n_2674_detail-link</title>
+<polygon fill="#ffffff" stroke="#6a7d8e" stroke-width="2" points="790.2,-183.06 680.91,-91.53 790.2,0 899.49,-91.53 790.2,-183.06" />
+<text xml:space="preserve" text-anchor="middle" x="790.2" y="-111.56" font-family="Microsoft JhengHei" font-size="18.00">細部狀況</text>
+<text xml:space="preserve" text-anchor="middle" x="790.2" y="-86.81" font-family="Microsoft JhengHei" font-size="18.00">eqp_id</text>
+<text xml:space="preserve" text-anchor="middle" x="790.2" y="-62.05" font-family="Microsoft JhengHei" font-size="18.00">procrsc_id</text>
+</g>
+
+<g id="t_215407951b90" class="node" data-node="t_215407951b90" role="button" tabindex="0" aria-label="Chamber 細部 / Siview.frprcrsc">
+<title>t_215407951b90</title>
+<polygon fill="#fff6eb" stroke="#b26018" stroke-width="2" points="1089.53,-124.92 946.49,-124.92 946.49,-58.14 1089.53,-58.14 1089.53,-124.92" />
+<text xml:space="preserve" text-anchor="middle" x="1018.01" y="-99.18" font-family="Microsoft JhengHei" font-size="18.00">Chamber 細部</text>
+<text xml:space="preserve" text-anchor="middle" x="1018.01" y="-74.43" font-family="Microsoft JhengHei" font-size="18.00">Siview.frprcrsc</text>
+</g>
+
+<g id="t_7f282520afb8" class="node" data-node="t_7f282520afb8" role="button" tabindex="0" aria-label="機台 / Siview.freqp / EQP">
+<title>t_7f282520afb8</title>
+<polygon fill="#fff6eb" stroke="#b26018" stroke-width="4" points="124.29,-149.67 0,-149.67 0,-33.39 124.29,-33.39 124.29,-149.67" />
+<text xml:space="preserve" text-anchor="middle" x="62.14" y="-123.93" font-family="Microsoft JhengHei" font-size="18.00">本圖主詞</text>
+<text xml:space="preserve" text-anchor="middle" x="62.14" y="-99.18" font-family="Microsoft JhengHei" font-size="18.00">機台</text>
+<text xml:space="preserve" text-anchor="middle" x="62.14" y="-74.43" font-family="Microsoft JhengHei" font-size="18.00">Siview.freqp</text>
+<text xml:space="preserve" text-anchor="middle" x="62.14" y="-49.68" font-family="Microsoft JhengHei" font-size="18.00">EQP</text>
+</g>
+</g>
+</svg>

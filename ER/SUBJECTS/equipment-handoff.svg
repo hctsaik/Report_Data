@@ -1,0 +1,81 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1077pt" height="340pt" viewBox="0.00 0.00 1077.00 340.00" role="img" aria-label="以 EQP 看交接位置與設備結構 ER 主題圖">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(21.6 318.16)">
+<title>ER</title>
+<polygon fill="white" stroke="none" points="-21.6,21.6 -21.6,-318.16 1055.34,-318.16 1055.34,21.6 -21.6,21.6" />
+
+<g id="e_n_2671_has_t_a43ff774d728" class="edge" data-edge="e_n_2671_has_t_a43ff774d728">
+<title>n_2671_has--t_a43ff774d728</title>
+<path fill="none" stroke="#70869a" stroke-width="1.8" d="M408.87,-225C451.42,-222.28 503.88,-218.93 543.07,-216.42" />
+</g>
+
+<g id="e_n_2671_lot-eqp_t_cfc81de70314" class="edge" data-edge="e_n_2671_lot-eqp_t_cfc81de70314">
+<title>n_2671_lot-eqp--t_cfc81de70314</title>
+<path fill="none" stroke="#70869a" stroke-width="1.8" d="M459.65,-82.36C488.03,-85.88 516.85,-89.46 540.94,-92.45" />
+</g>
+
+<g id="e_n_2671_has_t_7f282520afb8" class="edge" data-edge="e_n_2671_has_t_7f282520afb8">
+<title>t_7f282520afb8--n_2671_has</title>
+<path fill="none" stroke="#70869a" stroke-width="1.8" d="M126.2,-167.01C170.6,-180.54 229.64,-198.54 273.11,-211.8" />
+</g>
+
+<g id="e_n_2671_lot-eqp_t_7f282520afb8" class="edge" data-edge="e_n_2671_lot-eqp_t_7f282520afb8">
+<title>t_7f282520afb8--n_2671_lot-eqp</title>
+<path fill="none" stroke="#70869a" stroke-width="1.8" d="M126.2,-128.79C159.42,-118.78 200.84,-106.31 237.8,-95.18" />
+</g>
+
+<g id="e_n_2671_port-link_t_a43ff774d728" class="edge" data-edge="e_n_2671_port-link_t_a43ff774d728">
+<title>t_a43ff774d728--n_2671_port-link</title>
+<path fill="none" stroke="#70869a" stroke-width="1.8" d="M659.06,-198.92C690.2,-191.35 729.72,-181.74 766.08,-172.9" />
+</g>
+
+<g id="e_n_2671_port-link_t_cfc81de70314" class="edge" data-edge="e_n_2671_port-link_t_cfc81de70314">
+<title>t_cfc81de70314--n_2671_port-link</title>
+<path fill="none" stroke="#70869a" stroke-width="1.8" d="M661.04,-110.37C688.65,-115.33 722.51,-121.41 754.86,-127.21" />
+</g>
+
+<g id="n_2671_has" class="node" data-node="n_2671_has" role="button" tabindex="0" aria-label="有 / eqp_id">
+<title>n_2671_has</title>
+<polygon fill="#ffffff" stroke="#6a7d8e" stroke-width="2" points="333.08,-296.56 253.04,-229.78 333.08,-163 413.12,-229.78 333.08,-296.56" />
+<text xml:space="preserve" text-anchor="middle" x="333.08" y="-237.43" font-family="Microsoft JhengHei" font-size="18.00">有</text>
+<text xml:space="preserve" text-anchor="middle" x="333.08" y="-212.68" font-family="Microsoft JhengHei" font-size="18.00">eqp_id</text>
+</g>
+
+<g id="n_2671_lot-eqp" class="node" data-node="n_2671_lot-eqp" role="button" tabindex="0" aria-label="帶到 / Siview.Frlot_EQP">
+<title>n_2671_lot-eqp</title>
+<polygon fill="#ffffff" stroke="#6a7d8e" stroke-width="2" points="333.08,-133.56 171.29,-66.78 333.08,0 494.87,-66.78 333.08,-133.56" />
+<text xml:space="preserve" text-anchor="middle" x="333.08" y="-74.43" font-family="Microsoft JhengHei" font-size="18.00">帶到</text>
+<text xml:space="preserve" text-anchor="middle" x="333.08" y="-49.68" font-family="Microsoft JhengHei" font-size="18.00">Siview.Frlot_EQP</text>
+</g>
+
+<g id="n_2671_port-link" class="node" data-node="n_2671_port-link" role="button" tabindex="0" aria-label="EI 在 / Siview.Freqp_Lot">
+<title>n_2671_port-link</title>
+<polygon fill="#ffffff" stroke="#6a7d8e" stroke-width="2" points="870.45,-214.56 707.16,-147.78 870.45,-81 1033.74,-147.78 870.45,-214.56" />
+<text xml:space="preserve" text-anchor="middle" x="870.45" y="-155.43" font-family="Microsoft JhengHei" font-size="18.00">EI 在</text>
+<text xml:space="preserve" text-anchor="middle" x="870.45" y="-130.68" font-family="Microsoft JhengHei" font-size="18.00">Siview.Freqp_Lot</text>
+</g>
+
+<g id="t_7f282520afb8" class="node" data-node="t_7f282520afb8" role="button" tabindex="0" aria-label="機台 / Siview.freqp / EQP">
+<title>t_7f282520afb8</title>
+<polygon fill="#fff6eb" stroke="#b26018" stroke-width="4" points="124.29,-205.92 0,-205.92 0,-89.64 124.29,-89.64 124.29,-205.92" />
+<text xml:space="preserve" text-anchor="middle" x="62.14" y="-180.18" font-family="Microsoft JhengHei" font-size="18.00">本圖主詞</text>
+<text xml:space="preserve" text-anchor="middle" x="62.14" y="-155.43" font-family="Microsoft JhengHei" font-size="18.00">機台</text>
+<text xml:space="preserve" text-anchor="middle" x="62.14" y="-130.68" font-family="Microsoft JhengHei" font-size="18.00">Siview.freqp</text>
+<text xml:space="preserve" text-anchor="middle" x="62.14" y="-105.93" font-family="Microsoft JhengHei" font-size="18.00">EQP</text>
+</g>
+
+<g id="t_a43ff774d728" class="node" data-node="t_a43ff774d728" role="button" tabindex="0" aria-label="Port / Siview.Port">
+<title>t_a43ff774d728</title>
+<polygon fill="#fff6eb" stroke="#b26018" stroke-width="2" points="658.28,-246.17 543.74,-246.17 543.74,-179.39 658.28,-179.39 658.28,-246.17" />
+<text xml:space="preserve" text-anchor="middle" x="601.01" y="-220.43" font-family="Microsoft JhengHei" font-size="18.00">Port</text>
+<text xml:space="preserve" text-anchor="middle" x="601.01" y="-195.68" font-family="Microsoft JhengHei" font-size="18.00">Siview.Port</text>
+</g>
+
+<g id="t_cfc81de70314" class="node" data-node="t_cfc81de70314" role="button" tabindex="0" aria-label="LOT / Siview.Frlot">
+<title>t_cfc81de70314</title>
+<polygon fill="#eef5ff" stroke="#176ac2" stroke-width="2" points="660.16,-133.17 541.87,-133.17 541.87,-66.39 660.16,-66.39 660.16,-133.17" />
+<text xml:space="preserve" text-anchor="middle" x="601.01" y="-107.43" font-family="Microsoft JhengHei" font-size="18.00">LOT</text>
+<text xml:space="preserve" text-anchor="middle" x="601.01" y="-82.68" font-family="Microsoft JhengHei" font-size="18.00">Siview.Frlot</text>
+</g>
+</g>
+</svg>

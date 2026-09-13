@@ -1,0 +1,22 @@
+graph ER {
+graph [rankdir=LR, nodesep=.4, ranksep=.65, splines=polyline, outputorder=edgesfirst, pad=.3, bgcolor="white"];
+node [fontname="Microsoft JhengHei",fontsize=18,margin=".16,.12"];
+edge [color="#70869a",penwidth=1.8];
+"n_2674_bmir-link" [id="n_2674_bmir-link",label="設定 BMIR\nOHB_ID",shape=diamond,color="#6a7d8e",fillcolor="#ffffff",style=filled,penwidth=2];
+"n_2674_default-link" [id="n_2674_default-link",label="Default STK\neqp_id",shape=diamond,color="#6a7d8e",fillcolor="#ffffff",style=filled,penwidth=2];
+"n_2674_ohb-link" [id="n_2674_ohb-link",label="設定 OHB\nEQPSTKID",shape=diamond,color="#6a7d8e",fillcolor="#ffffff",style=filled,penwidth=2];
+"n_2674_ohb-status-link" [id="n_2674_ohb-status-link",label="OHB 狀況\nOHB_ID",shape=diamond,color="#6a7d8e",fillcolor="#ffffff",style=filled,penwidth=2];
+"t_0445f3f5ca10" [id="t_0445f3f5ca10",label="機群 OHB\nSiview.csfrohb_eqp",shape=box,color="#b26018",fillcolor="#fff6eb",style=filled,penwidth=2];
+"t_19992c01e42e" [id="t_19992c01e42e",label="OHB 狀況\nSiview.csfrohb",shape=box,color="#b26018",fillcolor="#fff6eb",style=filled,penwidth=2];
+"t_2544d0d5063d" [id="t_2544d0d5063d",label="機台的 Default STK\nSiview.csfreqp_stk",shape=box,color="#b26018",fillcolor="#fff6eb",style=filled,penwidth=2];
+"t_7f282520afb8" [id="t_7f282520afb8",label="本圖主詞\n機台\nSiview.freqp\nEQP",shape=box,color="#b26018",fillcolor="#fff6eb",style=filled,penwidth=4];
+"t_99f36f7325f2" [id="t_99f36f7325f2",label="BMIR\nSIVIEW.CSFROHB_CFG",shape=box,color="#b26018",fillcolor="#fff6eb",style=filled,penwidth=2];
+"t_19992c01e42e" -- "n_2674_bmir-link" [id="e_n_2674_bmir-link_t_19992c01e42e"];
+"n_2674_bmir-link" -- "t_99f36f7325f2" [id="e_n_2674_bmir-link_t_99f36f7325f2"];
+"n_2674_default-link" -- "t_2544d0d5063d" [id="e_n_2674_default-link_t_2544d0d5063d"];
+"t_7f282520afb8" -- "n_2674_default-link" [id="e_n_2674_default-link_t_7f282520afb8"];
+"n_2674_ohb-link" -- "t_0445f3f5ca10" [id="e_n_2674_ohb-link_t_0445f3f5ca10"];
+"t_7f282520afb8" -- "n_2674_ohb-link" [id="e_n_2674_ohb-link_t_7f282520afb8"];
+"t_0445f3f5ca10" -- "n_2674_ohb-status-link" [id="e_n_2674_ohb-status-link_t_0445f3f5ca10"];
+"n_2674_ohb-status-link" -- "t_19992c01e42e" [id="e_n_2674_ohb-status-link_t_19992c01e42e"];
+}

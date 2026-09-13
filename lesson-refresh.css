@@ -1,0 +1,23 @@
+.refresh-basic .layout{display:block;max-width:1120px;margin:24px auto;padding:0 24px}
+.refresh-basic #sidebar,.refresh-basic .lesson-footer{display:none!important}
+.refresh-basic #content{padding:36px 40px;background:white;border:1px solid #d8e4ee;border-radius:20px;min-width:0}
+.refresh-basic .skip-link:not(:focus){position:absolute;left:-10000px}
+.refresh-basic h1{font-size:clamp(28px,3vw,42px);line-height:1.4;letter-spacing:0}
+.refresh-basic .lead{max-width:none;font-size:20px;line-height:1.85}
+.refresh-figure{margin:28px 0;border:1px solid #cadceb;border-radius:16px;overflow:hidden;background:#fff}
+.refresh-figure img{display:block;width:100%;height:auto}
+.refresh-figure figcaption{padding:18px 24px;background:#f1f7fc;line-height:1.8}
+.refresh-figure figcaption a{display:inline-block;margin-left:12px}
+.refresh-basic .explorer{margin:24px 0;box-shadow:none;border:1px solid #cadceb;background:#f5f9fd;gap:24px;padding:24px;align-items:start}
+.refresh-basic .record-panel{box-shadow:none;border-radius:12px;background:white;padding:24px}
+.refresh-basic .explorer-scene{padding:12px}
+.refresh-exercise-intro{padding:20px 24px;background:#eef6fc;border-left:4px solid #2576b8;line-height:1.8}
+body[data-topic=load] .wafer-slots{max-height:440px;overflow-y:auto;overscroll-behavior:contain}
+.explain-step{padding:22px 0;border-bottom:1px solid #dce7ef}
+.explain-step h3{margin:0 0 12px;font-size:24px}
+.explain-step p{margin:0;line-height:1.9}
+.refresh-lab{margin:24px 0;border:1px solid #bdd5e9;border-radius:12px;padding:18px;background:#f5f9fe}
+.refresh-lab summary{cursor:pointer;font-weight:700;line-height:1.8}
+.refresh-lab button{padding:10px;border:1px solid #abc9e1;border-radius:8px;cursor:pointer}
+body[data-topic=load] .wafer-record{position:static}
+@media(max-width:650px){.refresh-basic .layout{padding:0 10px;margin:12px auto}.refresh-basic #content{padding:24px 16px}.refresh-basic .lead{font-size:18px}.refresh-basic .explorer{display:block;padding:12px}.refresh-basic .record-panel{padding:16px;margin-top:20px}.refresh-figure figcaption{padding:14px;font-size:15px}.refresh-basic .lesson-meta{flex-wrap:wrap}.explain-step h3{font-size:22px}}

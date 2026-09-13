@@ -1,0 +1,65 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" width="749pt" height="438pt" viewBox="0.00 0.00 749.00 438.00" role="img" aria-label="以 Lot 看裝載、設備安排與流程 ER 主題圖">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(21.6 416.66)">
+<title>ER</title>
+<polygon fill="white" stroke="none" points="-21.6,21.6 -21.6,-416.66 727.51,-416.66 727.51,21.6 -21.6,21.6" />
+
+<g id="e_n_2673_forecast-link_t_2a2c1cb80c6c" class="edge" data-edge="e_n_2673_forecast-link_t_2a2c1cb80c6c">
+<title>n_2673_forecast-link--t_2a2c1cb80c6c</title>
+<path fill="none" stroke="#70869a" stroke-width="1.8" d="M409.22,-303.53C424.08,-303.53 439.28,-303.53 454.19,-303.53" />
+</g>
+
+<g id="e_n_2673_stream_n_2673_stream-link" class="edge" data-edge="e_n_2673_stream_n_2673_stream-link">
+<title>n_2673_stream-link--n_2673_stream</title>
+<path fill="none" stroke="#70869a" stroke-width="1.8" d="M400.82,-91.53C431.42,-91.53 464.04,-91.53 492.91,-91.53" />
+</g>
+
+<g id="e_n_2673_forecast-link_t_cfc81de70314" class="edge" data-edge="e_n_2673_forecast-link_t_cfc81de70314">
+<title>t_cfc81de70314--n_2673_forecast-link</title>
+<path fill="none" stroke="#70869a" stroke-width="1.8" d="M120.26,-225.8C148.04,-238.86 181.32,-254.51 210.71,-268.33" />
+</g>
+
+<g id="e_n_2673_stream-link_t_cfc81de70314" class="edge" data-edge="e_n_2673_stream-link_t_cfc81de70314">
+<title>t_cfc81de70314--n_2673_stream-link</title>
+<path fill="none" stroke="#70869a" stroke-width="1.8" d="M120.26,-169.26C149.09,-155.71 183.83,-139.37 214.01,-125.18" />
+</g>
+
+<g id="n_2673_forecast-link" class="node" data-node="n_2673_forecast-link" role="button" tabindex="0" aria-label="未來的 Flow / Lot_ID / OPE_NO">
+<title>n_2673_forecast-link</title>
+<polygon fill="#ffffff" stroke="#6a7d8e" stroke-width="2" points="286.58,-395.06 165.29,-303.53 286.58,-212 407.87,-303.53 286.58,-395.06" />
+<text xml:space="preserve" text-anchor="middle" x="286.58" y="-323.55" font-family="Microsoft JhengHei" font-size="18.00">未來的 Flow</text>
+<text xml:space="preserve" text-anchor="middle" x="286.58" y="-298.8" font-family="Microsoft JhengHei" font-size="18.00">Lot_ID</text>
+<text xml:space="preserve" text-anchor="middle" x="286.58" y="-274.05" font-family="Microsoft JhengHei" font-size="18.00">OPE_NO</text>
+</g>
+
+<g id="n_2673_stream" class="node" data-node="n_2673_stream" role="button" tabindex="0" aria-label="Stream 到站時間 / Stream_fcst_lot_st">
+<title>n_2673_stream</title>
+<polygon fill="#f5f7fa" stroke="#61748b" stroke-width="2" points="667.28,-124.92 493.49,-124.92 493.49,-58.14 667.28,-58.14 667.28,-124.92" />
+<text xml:space="preserve" text-anchor="middle" x="580.39" y="-99.18" font-family="Microsoft JhengHei" font-size="18.00">Stream 到站時間</text>
+<text xml:space="preserve" text-anchor="middle" x="580.39" y="-74.43" font-family="Microsoft JhengHei" font-size="18.00">Stream_fcst_lot_st</text>
+</g>
+
+<g id="n_2673_stream-link" class="node" data-node="n_2673_stream-link" role="button" tabindex="0" aria-label="未來的各站 / Lot_ID / OPE_NO">
+<title>n_2673_stream-link</title>
+<polygon fill="#ffffff" stroke="#6a7d8e" stroke-width="2" points="286.58,-183.06 173.54,-91.53 286.58,0 399.62,-91.53 286.58,-183.06" />
+<text xml:space="preserve" text-anchor="middle" x="286.58" y="-111.56" font-family="Microsoft JhengHei" font-size="18.00">未來的各站</text>
+<text xml:space="preserve" text-anchor="middle" x="286.58" y="-86.81" font-family="Microsoft JhengHei" font-size="18.00">Lot_ID</text>
+<text xml:space="preserve" text-anchor="middle" x="286.58" y="-62.05" font-family="Microsoft JhengHei" font-size="18.00">OPE_NO</text>
+</g>
+
+<g id="t_2a2c1cb80c6c" class="node" data-node="t_2a2c1cb80c6c" role="button" tabindex="0" aria-label="未來的 Flow / F12dm.dm_tbl_lot_forecast">
+<title>t_2a2c1cb80c6c</title>
+<polygon fill="#f5f7fa" stroke="#61748b" stroke-width="2" points="705.91,-336.92 454.87,-336.92 454.87,-270.14 705.91,-270.14 705.91,-336.92" />
+<text xml:space="preserve" text-anchor="middle" x="580.39" y="-311.18" font-family="Microsoft JhengHei" font-size="18.00">未來的 Flow</text>
+<text xml:space="preserve" text-anchor="middle" x="580.39" y="-286.43" font-family="Microsoft JhengHei" font-size="18.00">F12dm.dm_tbl_lot_forecast</text>
+</g>
+
+<g id="t_cfc81de70314" class="node" data-node="t_cfc81de70314" role="button" tabindex="0" aria-label="LOT / Siview.Frlot">
+<title>t_cfc81de70314</title>
+<polygon fill="#eef5ff" stroke="#176ac2" stroke-width="4" points="118.29,-243.3 0,-243.3 0,-151.76 118.29,-151.76 118.29,-243.3" />
+<text xml:space="preserve" text-anchor="middle" x="59.14" y="-217.56" font-family="Microsoft JhengHei" font-size="18.00">本圖主詞</text>
+<text xml:space="preserve" text-anchor="middle" x="59.14" y="-192.81" font-family="Microsoft JhengHei" font-size="18.00">LOT</text>
+<text xml:space="preserve" text-anchor="middle" x="59.14" y="-168.06" font-family="Microsoft JhengHei" font-size="18.00">Siview.Frlot</text>
+</g>
+</g>
+</svg>

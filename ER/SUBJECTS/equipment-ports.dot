@@ -1,0 +1,18 @@
+graph ER {
+graph [rankdir=LR, nodesep=.4, ranksep=.65, splines=polyline, outputorder=edgesfirst, pad=.3, bgcolor="white"];
+node [fontname="Microsoft JhengHei",fontsize=18,margin=".16,.12"];
+edge [color="#70869a",penwidth=1.8];
+"n_2674_mode" [id="n_2674_mode",label="機台模式\nSIVIEW.CSFRPORT_SUBMODE\nSIVIEW.FHEMCHS",shape=box,color="#b26018",fillcolor="#fff6eb",style=filled,penwidth=2];
+"n_2674_mode-link" [id="n_2674_mode-link",label="機台模式\nEQP_ID\nPORT_ID",shape=diamond,color="#6a7d8e",fillcolor="#ffffff",style=filled,penwidth=2];
+"n_2674_port-link" [id="n_2674_port-link",label="有 L/P\nEQP_ID",shape=diamond,color="#6a7d8e",fillcolor="#ffffff",style=filled,penwidth=2];
+"n_2674_udata-link" [id="n_2674_udata-link",label="有 L/P\nD_THESYSTEMKEY",shape=diamond,color="#6a7d8e",fillcolor="#ffffff",style=filled,penwidth=2];
+"t_0ab0fee39360" [id="t_0ab0fee39360",label="機台 L/P\nSIVIEW.FRPORT",shape=box,color="#b26018",fillcolor="#fff6eb",style=filled,penwidth=2];
+"t_44bf52fb10be" [id="t_44bf52fb10be",label="細部資料\nSIVIEW.FRPORT_UDATA",shape=box,color="#b26018",fillcolor="#fff6eb",style=filled,penwidth=2];
+"t_7f282520afb8" [id="t_7f282520afb8",label="本圖主詞\n機台\nSiview.freqp\nEQP",shape=box,color="#b26018",fillcolor="#fff6eb",style=filled,penwidth=4];
+"t_0ab0fee39360" -- "n_2674_mode-link" [id="e_n_2674_mode-link_t_0ab0fee39360"];
+"n_2674_mode-link" -- "n_2674_mode" [id="e_n_2674_mode_n_2674_mode-link"];
+"n_2674_port-link" -- "t_0ab0fee39360" [id="e_n_2674_port-link_t_0ab0fee39360"];
+"t_7f282520afb8" -- "n_2674_port-link" [id="e_n_2674_port-link_t_7f282520afb8"];
+"t_0ab0fee39360" -- "n_2674_udata-link" [id="e_n_2674_udata-link_t_0ab0fee39360"];
+"n_2674_udata-link" -- "t_44bf52fb10be" [id="e_n_2674_udata-link_t_44bf52fb10be"];
+}

@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" width="775pt" height="177pt" viewBox="0.00 0.00 775.00 177.00" role="img" aria-label="以 FOUP 看裝載、位置與搬送 ER 主題圖">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(21.6 155.16)">
+<title>ER</title>
+<polygon fill="white" stroke="none" points="-21.6,21.6 -21.6,-155.16 753.76,-155.16 753.76,21.6 -21.6,21.6" />
+
+<g id="e_n_2672_cast-link_t_b474e516b8d5" class="edge" data-edge="e_n_2672_cast-link_t_b474e516b8d5">
+<title>n_2672_cast-link--t_b474e516b8d5</title>
+<path fill="none" stroke="#70869a" stroke-width="1.8" d="M464.97,-66.78C479.77,-66.78 494.64,-66.78 509,-66.78" />
+</g>
+
+<g id="e_n_2672_cast-link_t_55072ef91a15" class="edge" data-edge="e_n_2672_cast-link_t_55072ef91a15">
+<title>t_55072ef91a15--n_2672_cast-link</title>
+<path fill="none" stroke="#70869a" stroke-width="1.8" d="M131.53,-66.78C144.99,-66.78 159.65,-66.78 174.65,-66.78" />
+</g>
+
+<g id="n_2672_cast-link" class="node" data-node="n_2672_cast-link" role="button" tabindex="0" aria-label="Lot 在 Foup 內 / Siview.frcast">
+<title>n_2672_cast-link</title>
+<polygon fill="#ffffff" stroke="#6a7d8e" stroke-width="2" points="319.58,-133.56 176.54,-66.78 319.58,0 462.62,-66.78 319.58,-133.56" />
+<text xml:space="preserve" text-anchor="middle" x="319.58" y="-74.43" font-family="Microsoft JhengHei" font-size="18.00">Lot 在 Foup 內</text>
+<text xml:space="preserve" text-anchor="middle" x="319.58" y="-49.68" font-family="Microsoft JhengHei" font-size="18.00">Siview.frcast</text>
+</g>
+
+<g id="t_55072ef91a15" class="node" data-node="t_55072ef91a15" role="button" tabindex="0" aria-label="Foup / Siview.Frcast">
+<title>t_55072ef91a15</title>
+<polygon fill="#edf9f5" stroke="#008775" stroke-width="4" points="129.54,-112.55 0,-112.55 0,-21.02 129.54,-21.02 129.54,-112.55" />
+<text xml:space="preserve" text-anchor="middle" x="64.77" y="-86.81" font-family="Microsoft JhengHei" font-size="18.00">本圖主詞</text>
+<text xml:space="preserve" text-anchor="middle" x="64.77" y="-62.05" font-family="Microsoft JhengHei" font-size="18.00">Foup</text>
+<text xml:space="preserve" text-anchor="middle" x="64.77" y="-37.3" font-family="Microsoft JhengHei" font-size="18.00">Siview.Frcast</text>
+</g>
+
+<g id="t_b474e516b8d5" class="node" data-node="t_b474e516b8d5" role="button" tabindex="0" aria-label="Step 歷史 / F12DM.DM_Lot_step_st">
+<title>t_b474e516b8d5</title>
+<polygon fill="#f5f7fa" stroke="#61748b" stroke-width="2" points="732.16,-100.17 509.62,-100.17 509.62,-33.39 732.16,-33.39 732.16,-100.17" />
+<text xml:space="preserve" text-anchor="middle" x="620.89" y="-74.43" font-family="Microsoft JhengHei" font-size="18.00">Step 歷史</text>
+<text xml:space="preserve" text-anchor="middle" x="620.89" y="-49.68" font-family="Microsoft JhengHei" font-size="18.00">F12DM.DM_Lot_step_st</text>
+</g>
+</g>
+</svg>

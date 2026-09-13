@@ -1,0 +1,12 @@
+{
+  "er-atlas.html": "4340ec1f2701d4076f160f637f3ae2019ecab8d958a151913fe089533fde4596",
+  "er-atlas.js": "90e9365dc66dbf8a165852ebb59c167ead29b1b425b39e9fb4380f3ff4c08cb2",
+  "er-atlas.css": "e6eb3a7ec82880f33211c49a5ea92e1de3595b970307a6299fdfd63a8129aed7",
+  "integrated-map.html": "84d160248e8b32d6a42e94fed6e3eba55ff732e0c32263497a1bee4a57b74b24",
+  "ER/INTEGRATED/fab-er-v2.svg": "f0f422a53282d4520b93086a6b54f76564de304cdd68b7cfdf6d4c400833f0a7",
+  "ER/INTEGRATED/er-model-v2.json": "59a297b01b3df40776eb7f37a80044351e30c8256404c3b25fa915c6c851a0e7",
+  "workitems/mes-014/AGENT_COMPLETENESS.md": "5c7db5b6f2c5fb8cba37d79346b8d100656c5d6d0efbe5dffd25f1d0533843f9",
+  "workitems/mes-014/AGENT_VISUAL.md": "fd8a270d6c046a65456942930d354be9e3200e8595852f9f5eb5d4ab3d0937dd",
+  "workitems/mes-014/AGENT_SEMANTICS.md": "171f47173cc386b43b0ccf0f08432eb8dd831aa25222775fdfe57c217e7600bd",
+  "tests/evidence/mes-014/v2/verification.json": "e2591e6abbbc97b9c583eba9fcc77a9741cf5b10a116d41cc8c153d549b179f9"
+}

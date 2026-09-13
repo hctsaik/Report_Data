@@ -1,0 +1,3178 @@
+{
+  "pages": [
+    {
+      "title": "先走進 Fab｜Fab 的四個基本角色",
+      "url": "http://127.0.0.1:4175/index.html",
+      "headings": [
+        "晶圓在哪裡？又屬於哪一批？",
+        "先走進 Fab：這裡在製造晶片。",
+        "Wafer：被加工的那一片。",
+        "晶圓上有許多小格，但它仍是一整片。",
+        "FOUP：裝載晶圓的保護盒。",
+        "F012 是盒子的編號；W07 是晶圓的編號。",
+        "Slot：盒子裡的哪個位置。",
+        "先找 F012，再找它的 Slot 07。",
+        "Lot：一起管理的生產批次。",
+        "一張批次成員紀錄，說明哪些晶圓是一組。",
+        "點一片晶圓，看看資料如何對上它。",
+        "Wafer W07",
+        "把 L023 整批換個盒子。",
+        "換個情境，你能找到這片晶圓嗎？",
+        "同事只說「在 Slot 03」。你還需要什麼，才能找到正確位置？",
+        "W07 從 F012／07 換到 F018／03，仍屬於 L023。哪些資料改變了？",
+        "Slot 05 沒有晶圓。這個 Slot 還存在嗎？"
+      ],
+      "links": [
+        {
+          "text": "跳到教學內容",
+          "href": "#content"
+        },
+        {
+          "text": "MMES LEARNING LAB從現場認識資料",
+          "href": "#fab"
+        },
+        {
+          "text": "第二部分：設備與現場作業 →",
+          "href": "operations.html"
+        },
+        {
+          "text": "第三部分：Flow、Stage、Step 與 Lot →",
+          "href": "flow.html"
+        },
+        {
+          "text": "第四部分：資料新鮮度與來源選擇 →",
+          "href": "freshness.html"
+        },
+        {
+          "text": "資料與物理意義：ER 圖導讀 →",
+          "href": "data-map.html#2676"
+        },
+        {
+          "text": "01先走進 Fab我們在什麼地方？",
+          "href": "#fab"
+        },
+        {
+          "text": "02Wafer 晶圓被加工的那一片",
+          "href": "#wafer"
+        },
+        {
+          "text": "03FOUP 晶圓載具保護與搬運的盒子",
+          "href": "#foup"
+        },
+        {
+          "text": "04Slot 槽位盒子裡的哪個位置",
+          "href": "#slot"
+        },
+        {
+          "text": "05Lot 生產批次一起管理的晶圓",
+          "href": "#lot"
+        },
+        {
+          "text": "06動手把實物對上資料點選晶圓，看欄位變化",
+          "href": "#explore"
+        },
+        {
+          "text": "07換個情境，試著判斷確認你已分清四個角色",
+          "href": "#check"
+        },
+        {
+          "text": "直接進入互動範例 ↗",
+          "href": "#explore"
+        },
+        {
+          "text": "ER 圖與資料意義 →整合大圖與跨圖題目：Lot、Flow、設備、配方與 WIP",
+          "href": "integrated-map.html?view=original"
+        },
+        {
+          "text": "查看 Entegris 的 FOUP 產品資料",
+          "href": "https://www.entegris.com/content/dam/product-assets/a300foups/datasheet-a300foups-A4.pdf"
+        },
+        {
+          "text": "Intel：晶圓工廠如何運作",
+          "href": "https://newsroom.intel.com/tech101/how-a-semiconductor-factory-works"
+        },
+        {
+          "text": "Intel：認識半導體",
+          "href": "https://newsroom.intel.com/tech101/what-are-semiconductors"
+        },
+        {
+          "text": "Entegris：A300 FOUP 產品資料",
+          "href": "https://www.entegris.com/content/dam/product-assets/a300foups/datasheet-a300foups-A4.pdf"
+        },
+        {
+          "text": "IBM SiView：半導體製造管理",
+          "href": "https://www.ibm.com/products/siview"
+        },
+        {
+          "text": "Vision AI DefectFill 教學頁",
+          "href": "https://hctsaik.github.io/visionAI_Model_Introduce/#view=lesson&lesson=defectfill&slide=1"
+        },
+        {
+          "text": "接著讀第二部分：設備與六個現場情境 →",
+          "href": "operations.html"
+        },
+        {
+          "text": "第三部分：Flow 與十個流程情境 →",
+          "href": "flow.html"
+        }
+      ],
+      "buttons": [
+        {
+          "text": "＋ 放大看實物",
+          "disabled": false
+        },
+        {
+          "text": "← 上一段",
+          "disabled": true
+        },
+        {
+          "text": "下一段：Wafer →",
+          "disabled": false
+        }
+      ],
+      "overflow": false,
+      "file": "index.html",
+      "width": 1440,
+      "status": 200,
+      "errors": []
+    },
+    {
+      "title": "從載具到腔體｜第二部分 MES 教學",
+      "url": "http://127.0.0.1:4175/operations.html",
+      "headings": [
+        "設備與現場作業",
+        "同一片晶圓，怎麼進入設備？",
+        "沿著晶圓走，辨認三個角色"
+      ],
+      "links": [
+        {
+          "text": "跳到教學內容",
+          "href": "#content"
+        },
+        {
+          "text": "MMES LEARNING LAB從現場認識資料",
+          "href": "index.html"
+        },
+        {
+          "text": "01 基本物件",
+          "href": "index.html"
+        },
+        {
+          "text": "02 設備與現場",
+          "href": "operations.html"
+        },
+        {
+          "text": "03 Flow 與 Lot",
+          "href": "flow.html"
+        },
+        {
+          "text": "04 資料新鮮度",
+          "href": "freshness.html"
+        },
+        {
+          "text": "時間與配方",
+          "href": "advanced.html#qtime"
+        },
+        {
+          "text": "ER 圖導讀",
+          "href": "data-map.html"
+        },
+        {
+          "text": "01從載具到腔體先看懂實體交接",
+          "href": "#tool"
+        },
+        {
+          "text": "02搬送與暫存位置變了，流程未必變",
+          "href": "#transport"
+        },
+        {
+          "text": "03到站與身分核對數量相同也可能錯片",
+          "href": "#port"
+        },
+        {
+          "text": "04設備與配方資格閒置不代表能做這站",
+          "href": "#recipe"
+        },
+        {
+          "text": "05逐片加工與整批完成一片完成不等於一批完成",
+          "href": "#chamber"
+        },
+        {
+          "text": "06加工狀態與 Hold誰被擋住？為什麼？",
+          "href": "#state"
+        },
+        {
+          "text": "07從機台完成到 MES 過站資料確認是交接的一部分",
+          "href": "#handoff"
+        },
+        {
+          "text": "08六個現場情境搬送、錯片、配方、加工、故障、Hold",
+          "href": "#lab"
+        },
+        {
+          "text": "第一部分 · 基本物件",
+          "href": "index.html"
+        },
+        {
+          "text": "第二部分 · 設備現場",
+          "href": "operations.html"
+        },
+        {
+          "text": "第三部分 · Flow 深入",
+          "href": "flow.html"
+        },
+        {
+          "text": "第四部分 · 資料新鮮度",
+          "href": "freshness.html"
+        },
+        {
+          "text": "ER 整合大圖",
+          "href": "integrated-map.html?view=original"
+        },
+        {
+          "text": "跨圖聚焦題目",
+          "href": "integrated-map.html?view=questions"
+        },
+        {
+          "text": "ER 圖 · 原圖",
+          "href": "data-map.html?view=original#2676"
+        },
+        {
+          "text": "ER 圖 · 聚焦題目",
+          "href": "data-map.html?view=questions#2676"
+        },
+        {
+          "text": "新增：LR、ER 與 Physical Recipe 的分層說明 →",
+          "href": "advanced.html#recipes"
+        },
+        {
+          "text": "接著看第三部分：Flow 與 Lot →",
+          "href": "flow.html"
+        },
+        {
+          "text": "Critical Manufacturing：物料路徑、配方及例外交易",
+          "href": "https://www.criticalmanufacturing.com/industries/semiconductor-manufacturing/"
+        },
+        {
+          "text": "IBM SiView：Lot、Wafer、FOUP 與設備管理",
+          "href": "https://www.ibm.com/products/siview"
+        },
+        {
+          "text": "Brooks：晶圓搬送與設備自動化",
+          "href": "https://www.brooks.com/solutions/"
+        },
+        {
+          "text": "Daifuku：潔淨室搬送與暫存",
+          "href": "https://www.daifuku.com/pro/cr/"
+        }
+      ],
+      "buttons": [
+        {
+          "text": "",
+          "disabled": false
+        },
+        {
+          "text": "← 上一段",
+          "disabled": true
+        },
+        {
+          "text": "下一段 →",
+          "disabled": false
+        }
+      ],
+      "overflow": false,
+      "file": "operations.html",
+      "width": 1440,
+      "status": 200,
+      "errors": []
+    },
+    {
+      "title": "Flow：整條製造路徑｜第三部分 MES 教學",
+      "url": "http://127.0.0.1:4175/flow.html",
+      "headings": [
+        "Flow 與 Lot 的旅程",
+        "Flow 是一份有規則的製造路徑",
+        "這堂課追蹤哪一段旅程？"
+      ],
+      "links": [
+        {
+          "text": "跳到教學內容",
+          "href": "#content"
+        },
+        {
+          "text": "MMES LEARNING LAB從現場認識資料",
+          "href": "index.html"
+        },
+        {
+          "text": "01 基本物件",
+          "href": "index.html"
+        },
+        {
+          "text": "02 設備與現場",
+          "href": "operations.html"
+        },
+        {
+          "text": "03 Flow 與 Lot",
+          "href": "flow.html"
+        },
+        {
+          "text": "04 資料新鮮度",
+          "href": "freshness.html"
+        },
+        {
+          "text": "時間與配方",
+          "href": "advanced.html#qtime"
+        },
+        {
+          "text": "ER 圖導讀",
+          "href": "data-map.html"
+        },
+        {
+          "text": "01Flow：整條製造路徑先看全局，再放大一站",
+          "href": "#flow"
+        },
+        {
+          "text": "02Stage：有目的的分組分組不等於一次加工",
+          "href": "#stage"
+        },
+        {
+          "text": "03Step：精確的流程位置Operation、Recipe、Tool 分開看",
+          "href": "#step"
+        },
+        {
+          "text": "04Lot 如何套用 Flow定義與執行實例的連結",
+          "href": "#lot-flow"
+        },
+        {
+          "text": "05過站與歷程指標移動要有完成證據",
+          "href": "#execution"
+        },
+        {
+          "text": "06條件分流與 Hold結果決定下一步",
+          "href": "#branching"
+        },
+        {
+          "text": "07Rework：核准的返回路徑回去做，不抹掉前次失敗",
+          "href": "#rework"
+        },
+        {
+          "text": "08拆批與合批成員改變，追溯不能斷",
+          "href": "#split-merge"
+        },
+        {
+          "text": "09版本、跳站與等待時間流程變更也要有契約",
+          "href": "#versions"
+        },
+        {
+          "text": "10十個 Flow 情境從套用一路走到例外",
+          "href": "#lab"
+        },
+        {
+          "text": "第一部分 · 基本物件",
+          "href": "index.html"
+        },
+        {
+          "text": "第二部分 · 設備現場",
+          "href": "operations.html"
+        },
+        {
+          "text": "第三部分 · Flow 深入",
+          "href": "flow.html"
+        },
+        {
+          "text": "第四部分 · 資料新鮮度",
+          "href": "freshness.html"
+        },
+        {
+          "text": "ER 整合大圖",
+          "href": "integrated-map.html?view=original"
+        },
+        {
+          "text": "跨圖聚焦題目",
+          "href": "integrated-map.html?view=questions"
+        },
+        {
+          "text": "ER 圖 · 原圖",
+          "href": "data-map.html?view=original#2676"
+        },
+        {
+          "text": "ER 圖 · 聚焦題目",
+          "href": "data-map.html?view=questions#2676"
+        },
+        {
+          "text": "新增：比較 Stage／Step／Flow 的另外三種教法 →",
+          "href": "advanced.html#flow-versions"
+        },
+        {
+          "text": "回到第一部分：基本物件 →",
+          "href": "index.html"
+        },
+        {
+          "text": "Critical Manufacturing：物料路徑、配方及例外交易",
+          "href": "https://www.criticalmanufacturing.com/industries/semiconductor-manufacturing/"
+        },
+        {
+          "text": "IBM SiView：Lot、Wafer、FOUP 與設備管理",
+          "href": "https://www.ibm.com/products/siview"
+        },
+        {
+          "text": "Brooks：晶圓搬送與設備自動化",
+          "href": "https://www.brooks.com/solutions/"
+        },
+        {
+          "text": "Daifuku：潔淨室搬送與暫存",
+          "href": "https://www.daifuku.com/pro/cr/"
+        }
+      ],
+      "buttons": [
+        {
+          "text": "",
+          "disabled": false
+        },
+        {
+          "text": "← 上一段",
+          "disabled": true
+        },
+        {
+          "text": "下一段 →",
+          "disabled": false
+        }
+      ],
+      "overflow": false,
+      "file": "flow.html",
+      "width": 1440,
+      "status": 200,
+      "errors": []
+    },
+    {
+      "title": "同一個 Giga，不同的新鮮度｜資料新鮮度",
+      "url": "http://127.0.0.1:4175/freshness.html",
+      "headings": [
+        "你查到的是哪個時刻？",
+        "同一個 Giga，也有不同的新鮮度。",
+        "沿著一個來源，走到查詢結果",
+        "另一張 Giga 表也有 CURRENT_STEP 欄位，但沒有說明來源。能直接當成 Native 嗎？"
+      ],
+      "links": [
+        {
+          "text": "跳到教學內容",
+          "href": "#content"
+        },
+        {
+          "text": "MMES LEARNING LAB從現場認識資料",
+          "href": "index.html"
+        },
+        {
+          "text": "01 基本物件",
+          "href": "index.html"
+        },
+        {
+          "text": "02 設備與現場",
+          "href": "operations.html"
+        },
+        {
+          "text": "03 Flow 與 Lot",
+          "href": "flow.html"
+        },
+        {
+          "text": "04 資料新鮮度",
+          "href": "freshness.html"
+        },
+        {
+          "text": "ER 圖導讀",
+          "href": "data-map.html#2675"
+        },
+        {
+          "text": "01同一個 Giga，不同的新鮮度先看來源與查詢入口",
+          "href": "#architecture"
+        },
+        {
+          "text": "02晚十分鐘，會做錯事嗎？用工作需求選來源",
+          "href": "#decision"
+        },
+        {
+          "text": "03案例一：AI 發現異常之後舊 Step 會導向錯誤決策",
+          "href": "#ai"
+        },
+        {
+          "text": "04案例二：經過，不等於現在History 與 Current State",
+          "href": "#history"
+        },
+        {
+          "text": "05案例三：表剛刷新，欄位仍舊追到 Column 的來源時間",
+          "href": "#join"
+        },
+        {
+          "text": "06把判斷寫進 Data Contract四句話與查詢前檢查",
+          "href": "#contract"
+        }
+      ],
+      "buttons": [
+        {
+          "text": "檢視完整圖 ↗",
+          "disabled": false
+        },
+        {
+          "text": "SiView Native",
+          "disabled": false
+        },
+        {
+          "text": "Data Mart",
+          "disabled": false
+        },
+        {
+          "text": "TX",
+          "disabled": false
+        },
+        {
+          "text": "A先查這個欄位的 lineage 與來源時間",
+          "disabled": false
+        },
+        {
+          "text": "B查得到 CURRENT_STEP，就先拿來監看",
+          "disabled": false
+        },
+        {
+          "text": "C先按約十分鐘使用，之後再補契約",
+          "disabled": false
+        },
+        {
+          "text": "← 上一段",
+          "disabled": true
+        },
+        {
+          "text": "下一段 →",
+          "disabled": false
+        }
+      ],
+      "overflow": false,
+      "file": "freshness.html",
+      "width": 1440,
+      "status": 200,
+      "errors": []
+    },
+    {
+      "title": "QTime｜時間限制｜MES 教學",
+      "url": "http://127.0.0.1:4175/advanced.html",
+      "headings": [
+        "時間、路徑與配方",
+        "QTime：這段時間，最多能等多久？",
+        "10:00 清洗完成，何時必須進入下一站？",
+        "為什麼要限制這段時間？"
+      ],
+      "links": [
+        {
+          "text": "MESFAB CONCEPTS從現場物件，理解資料與控制",
+          "href": "index.html#fab"
+        },
+        {
+          "text": "基礎物件",
+          "href": "index.html#fab"
+        },
+        {
+          "text": "現場操作",
+          "href": "operations.html#port"
+        },
+        {
+          "text": "Flow",
+          "href": "flow.html#stage"
+        },
+        {
+          "text": "資料新鮮度",
+          "href": "freshness.html"
+        },
+        {
+          "text": "CW 與設備監控",
+          "href": "support.html#cw"
+        },
+        {
+          "text": "ER 圖導讀",
+          "href": "data-map.html"
+        },
+        {
+          "text": "QTime｜時間限制",
+          "href": "#qtime"
+        },
+        {
+          "text": "Future Hold｜預約攔截",
+          "href": "#future-hold"
+        },
+        {
+          "text": "Part 與 RouteId",
+          "href": "#part-route"
+        },
+        {
+          "text": "LR、ER、Physical Recipe",
+          "href": "#recipes"
+        },
+        {
+          "text": "Flow｜四種教法比較",
+          "href": "#flow-versions"
+        },
+        {
+          "text": "半導體製造的 Queue Time 間隔限制",
+          "href": "https://patents.google.com/patent/US9748088B2/en"
+        },
+        {
+          "text": "← 回到 Flow 課程",
+          "href": "flow.html#stage"
+        },
+        {
+          "text": "Future Hold｜預約攔截 →",
+          "href": "#future-hold"
+        }
+      ],
+      "buttons": [
+        {
+          "text": "放大完整圖",
+          "disabled": false
+        },
+        {
+          "text": "10:20",
+          "disabled": false
+        },
+        {
+          "text": "10:30",
+          "disabled": false
+        },
+        {
+          "text": "10:45",
+          "disabled": false
+        },
+        {
+          "text": "只看 10:20 已經進站",
+          "disabled": false
+        },
+        {
+          "text": "確認 QTime 的停止事件是進站還是出站",
+          "disabled": false
+        }
+      ],
+      "overflow": false,
+      "file": "advanced.html",
+      "width": 1440,
+      "status": 200,
+      "errors": []
+    },
+    {
+      "title": "CW｜三種晶圓用途｜MES 教學",
+      "url": "http://127.0.0.1:4175/support.html",
+      "headings": [
+        "CW、過站與設備監控",
+        "CW：同屬控制晶圓，用途不一樣",
+        "這次需要晶圓幫忙做什麼？",
+        "三種用途，不一定是三種互斥的物料"
+      ],
+      "links": [
+        {
+          "text": "MESFAB CONCEPTS晶圓用途・路徑事件・加工條件",
+          "href": "index.html#fab"
+        },
+        {
+          "text": "基礎物件",
+          "href": "index.html#fab"
+        },
+        {
+          "text": "Flow",
+          "href": "flow.html#stage"
+        },
+        {
+          "text": "時間與配方",
+          "href": "advanced.html#qtime"
+        },
+        {
+          "text": "資料新鮮度",
+          "href": "freshness.html"
+        },
+        {
+          "text": "ER 圖導讀",
+          "href": "data-map.html"
+        },
+        {
+          "text": "CW｜三種晶圓用途",
+          "href": "#cw"
+        },
+        {
+          "text": "Sub Route｜加量與返回",
+          "href": "#subroute"
+        },
+        {
+          "text": "Move｜Lot 過站事件",
+          "href": "#move"
+        },
+        {
+          "text": "MON、PM 與 EMS",
+          "href": "#monitor"
+        },
+        {
+          "text": "使用 Dummy Wafer 進行 seasoning，並檢查加工結果的技術示例",
+          "href": "https://patents.google.com/patent/WO2003077303A1/en"
+        },
+        {
+          "text": "← 時間與配方",
+          "href": "advanced.html#qtime"
+        },
+        {
+          "text": "Sub Route｜加量與返回 →",
+          "href": "#subroute"
+        }
+      ],
+      "buttons": [
+        {
+          "text": "放大完整圖",
+          "disabled": false
+        },
+        {
+          "text": "Monitor Wafer取得監控結果",
+          "disabled": false
+        },
+        {
+          "text": "Dummy Wafer補位／提供負載",
+          "disabled": false
+        },
+        {
+          "text": "Seasoning Wafer調整腔體條件",
+          "disabled": false
+        },
+        {
+          "text": "直接以 seasoning 完成視為合格",
+          "disabled": false
+        },
+        {
+          "text": "依規範執行監控並檢查結果",
+          "disabled": false
+        }
+      ],
+      "overflow": false,
+      "file": "support.html",
+      "width": 1440,
+      "status": 200,
+      "errors": []
+    },
+    {
+      "title": "Fab 整合 ER｜實體與關係",
+      "url": "http://127.0.0.1:4175/er-atlas.html",
+      "headings": [
+        "從同一個 Lot，沿著關係找資料",
+        "沿著真正的 ER 關係判讀",
+        "選一個主詞，展開關聯",
+        "完整 ER × 主詞關聯",
+        "選擇一段完整關係"
+      ],
+      "links": [
+        {
+          "text": "MES 資料與現場",
+          "href": "index.html#fab"
+        },
+        {
+          "text": "七張原圖",
+          "href": "data-map.html?view=original#2676"
+        },
+        {
+          "text": "設備作業",
+          "href": "operations.html#port"
+        },
+        {
+          "text": "Flow 教學",
+          "href": "flow.html#lot-flow"
+        },
+        {
+          "text": "01 整合 ER 原圖",
+          "href": "?view=original"
+        },
+        {
+          "text": "02 沿圖聚焦題目",
+          "href": "?view=questions"
+        },
+        {
+          "text": "另開 SVG",
+          "href": "ER/INTEGRATED/fab-er-v2.svg"
+        },
+        {
+          "text": "下載",
+          "href": "ER/INTEGRATED/fab-er-v2.svg"
+        },
+        {
+          "text": "閱讀完整教學 →",
+          "href": "index.html#fab"
+        },
+        {
+          "text": "下載檢查",
+          "href": "ER/INTEGRATED/er-model-v2.json"
+        }
+      ],
+      "buttons": [
+        {
+          "text": "框選 Lot",
+          "disabled": false
+        },
+        {
+          "text": "框選 FOUP",
+          "disabled": false
+        },
+        {
+          "text": "框選 EQP",
+          "disabled": false
+        },
+        {
+          "text": "框選 Flow",
+          "disabled": false
+        },
+        {
+          "text": "框選 Recipe",
+          "disabled": false
+        },
+        {
+          "text": "清除框選／全圖",
+          "disabled": false
+        },
+        {
+          "text": "全圖總覽",
+          "disabled": false
+        },
+        {
+          "text": "Lot 裝載關係",
+          "disabled": false
+        },
+        {
+          "text": "−",
+          "disabled": false
+        },
+        {
+          "text": "＋",
+          "disabled": false
+        },
+        {
+          "text": "展開右側 ↗",
+          "disabled": false
+        },
+        {
+          "text": "← 返回上一個檢視",
+          "disabled": true
+        },
+        {
+          "text": "回到 ER 全圖",
+          "disabled": false
+        },
+        {
+          "text": "完整 ER × 主詞關聯",
+          "disabled": true
+        },
+        {
+          "text": "放大關聯圖 ↗",
+          "disabled": true
+        },
+        {
+          "text": "放大教學插圖 ↗",
+          "disabled": false
+        },
+        {
+          "text": "這個 Lot 的 Step 歷史",
+          "disabled": false
+        },
+        {
+          "text": "Lot 裝在哪個 FOUP？",
+          "disabled": false
+        },
+        {
+          "text": "FOUP 在某個時間點放了哪些 Wafer？",
+          "disabled": false
+        },
+        {
+          "text": "FOUP 位於哪台設備？",
+          "disabled": false
+        },
+        {
+          "text": "派工系統預先把 Lot 派到哪台機台？",
+          "disabled": false
+        },
+        {
+          "text": "Lot 在這個站點有哪些可用機台？",
+          "disabled": false
+        },
+        {
+          "text": "Lot 與 Port 的交接關係",
+          "disabled": false
+        },
+        {
+          "text": "Lot 如何接到 Flow？",
+          "disabled": false
+        },
+        {
+          "text": "Flow 與 LR 的關係",
+          "disabled": false
+        },
+        {
+          "text": "PD 與設備配對",
+          "disabled": false
+        },
+        {
+          "text": "ER 配置與機台",
+          "disabled": false
+        },
+        {
+          "text": "EQP 與 Chamber",
+          "disabled": false
+        },
+        {
+          "text": "Lot 的 Future Hold",
+          "disabled": false
+        },
+        {
+          "text": "Lot Move 與 WIP 的共同歷史",
+          "disabled": false
+        },
+        {
+          "text": "FOUP 的搬送歷史",
+          "disabled": false
+        },
+        {
+          "text": "這個 Lot 的 Qtime 與站點歷史",
+          "disabled": false
+        },
+        {
+          "text": "WIP 與固定時間快照",
+          "disabled": false
+        },
+        {
+          "text": "機台與期間 OEE",
+          "disabled": false
+        }
+      ],
+      "overflow": false,
+      "file": "er-atlas.html",
+      "width": 1440,
+      "status": 200,
+      "errors": []
+    },
+    {
+      "title": "MES｜從現場讀懂資料關係",
+      "url": "http://127.0.0.1:4175/data-map.html",
+      "headings": [
+        "資料描述的，是哪一件事？",
+        "Lot 在哪裡？先分清批次、盒子與設備",
+        "L023 現在裝在哪個 FOUP？",
+        "把現場問題對到資料",
+        "沿著原圖找證據",
+        "Lot 已被派工系統預派 ETCH-03，能否直接告訴同事「正在加工」？"
+      ],
+      "links": [
+        {
+          "text": "MESFAB × DATA實體、作業與資料的對照",
+          "href": "index.html#fab"
+        },
+        {
+          "text": "基礎物件",
+          "href": "index.html#fab"
+        },
+        {
+          "text": "Flow",
+          "href": "flow.html"
+        },
+        {
+          "text": "配方",
+          "href": "advanced.html#recipes"
+        },
+        {
+          "text": "過站與監控",
+          "href": "support.html#move"
+        },
+        {
+          "text": "資料新鮮度",
+          "href": "freshness.html"
+        },
+        {
+          "text": "看整合大圖 →",
+          "href": "integrated-map.html?view=original"
+        },
+        {
+          "text": "跨圖聚焦題目 →",
+          "href": "integrated-map.html?view=questions"
+        },
+        {
+          "text": "01 原圖瀏覽完整關係、放大與照片對照",
+          "href": "?view=original#2671"
+        },
+        {
+          "text": "02 聚焦題目從情境理解資料與現場意義",
+          "href": "?view=questions#2671"
+        },
+        {
+          "text": "Lot 與載具",
+          "href": "#2671"
+        },
+        {
+          "text": "歷史與 Move",
+          "href": "#2672"
+        },
+        {
+          "text": "Flow 與 Part",
+          "href": "#2673"
+        },
+        {
+          "text": "EQP 與 Chamber",
+          "href": "#2674"
+        },
+        {
+          "text": "WIP 與 OEE",
+          "href": "#2675"
+        },
+        {
+          "text": "設備到 Lot",
+          "href": "#2676"
+        },
+        {
+          "text": "PD、ER 與設備",
+          "href": "#2677"
+        },
+        {
+          "text": "另開 SVG",
+          "href": "ER/NEW/2671.svg"
+        },
+        {
+          "text": "下載",
+          "href": "ER/NEW/2671.svg"
+        },
+        {
+          "text": "對照原照片",
+          "href": "ER/NEW/index.html#2671"
+        },
+        {
+          "text": "開啟原圖",
+          "href": "ER/NEW/2671.svg"
+        },
+        {
+          "text": "回到教學：Lot 與 FOUP →",
+          "href": "index.html#lot"
+        },
+        {
+          "text": "回到教學：Port 交接 →",
+          "href": "operations.html#port"
+        },
+        {
+          "text": "回看資料新鮮度 →",
+          "href": "freshness.html"
+        }
+      ],
+      "buttons": [
+        {
+          "text": "L023 現在裝在哪個 FOUP？",
+          "disabled": false
+        },
+        {
+          "text": "預派到機台，就代表已到站嗎？",
+          "disabled": false
+        },
+        {
+          "text": "聚焦這個問題",
+          "disabled": false
+        },
+        {
+          "text": "看完整圖",
+          "disabled": false
+        },
+        {
+          "text": "−",
+          "disabled": false
+        },
+        {
+          "text": "＋",
+          "disabled": false
+        },
+        {
+          "text": "LOT",
+          "disabled": false
+        },
+        {
+          "text": "放在",
+          "disabled": false
+        },
+        {
+          "text": "Foup",
+          "disabled": false
+        },
+        {
+          "text": "在 Slot",
+          "disabled": false
+        },
+        {
+          "text": "可以，預派就是開始",
+          "disabled": false
+        },
+        {
+          "text": "不能，還要確認位置與加工事件",
+          "disabled": false
+        }
+      ],
+      "overflow": false,
+      "file": "data-map.html",
+      "width": 1440,
+      "status": 200,
+      "errors": []
+    },
+    {
+      "title": "主詞 ER｜MES 資料與現場",
+      "url": "http://127.0.0.1:4175/subject-er.html",
+      "headings": [
+        "以 Lot 看裝載、設備安排與流程",
+        "LOT"
+      ],
+      "links": [
+        {
+          "text": "MES · 資料與現場",
+          "href": "index.html#fab"
+        },
+        {
+          "text": "完整 ER 大圖",
+          "href": "er-atlas.html?view=original"
+        },
+        {
+          "text": "七張原圖",
+          "href": "data-map.html?view=original"
+        },
+        {
+          "text": "下載 SVG",
+          "href": "ER/SUBJECTS/lot-core.svg"
+        },
+        {
+          "text": "閱讀完整教學 →",
+          "href": "index.html#lot"
+        },
+        {
+          "text": "查看來源",
+          "href": "data-map.html?view=original#2671"
+        },
+        {
+          "text": "查看來源",
+          "href": "data-map.html?view=original#2672"
+        },
+        {
+          "text": "查看來源",
+          "href": "data-map.html?view=original#2673"
+        },
+        {
+          "text": "檢視主題與覆蓋清單",
+          "href": "ER/SUBJECTS/subjects.json"
+        }
+      ],
+      "buttons": [
+        {
+          "text": "Lot",
+          "disabled": false
+        },
+        {
+          "text": "FOUP",
+          "disabled": false
+        },
+        {
+          "text": "EQP",
+          "disabled": false
+        },
+        {
+          "text": "Flow",
+          "disabled": false
+        },
+        {
+          "text": "核心關係",
+          "disabled": false
+        },
+        {
+          "text": "裝載、Slot 與容器",
+          "disabled": false
+        },
+        {
+          "text": "Port 與設備交接",
+          "disabled": false
+        },
+        {
+          "text": "Lot 預派記錄",
+          "disabled": false
+        },
+        {
+          "text": "Product Hold 與 Future Hold",
+          "disabled": false
+        },
+        {
+          "text": "過站、站點與批貨歷史",
+          "disabled": false
+        },
+        {
+          "text": "未來 Flow 與到站預測",
+          "disabled": false
+        },
+        {
+          "text": "Lot 的流程與 Stage 定義",
+          "disabled": false
+        },
+        {
+          "text": "可讀大小",
+          "disabled": false
+        },
+        {
+          "text": "本圖全貌",
+          "disabled": false
+        },
+        {
+          "text": "−",
+          "disabled": false
+        },
+        {
+          "text": "＋",
+          "disabled": false
+        },
+        {
+          "text": "放大教學圖 ↗",
+          "disabled": false
+        }
+      ],
+      "overflow": false,
+      "file": "subject-er.html",
+      "width": 1440,
+      "status": 200,
+      "errors": []
+    },
+    {
+      "title": "ER 原圖與 SVG 重畫",
+      "url": "http://127.0.0.1:4175/ER/NEW/index.html",
+      "headings": [
+        "ER 原圖 → SVG 重畫",
+        "2671 · LOT、FOUP、Port 與機台",
+        "原始照片（未修改）"
+      ],
+      "links": [
+        {
+          "text": "← 回到資料與物理意義教學",
+          "href": "../../data-map.html"
+        },
+        {
+          "text": "下載 SVG",
+          "href": "2671.svg"
+        },
+        {
+          "text": "文字確認紀錄",
+          "href": "UNCLEAR_TEXT.md"
+        }
+      ],
+      "buttons": [
+        {
+          "text": "2671",
+          "disabled": false
+        },
+        {
+          "text": "2672",
+          "disabled": false
+        },
+        {
+          "text": "2673",
+          "disabled": false
+        },
+        {
+          "text": "2674",
+          "disabled": false
+        },
+        {
+          "text": "2675",
+          "disabled": false
+        },
+        {
+          "text": "2676",
+          "disabled": false
+        },
+        {
+          "text": "2677",
+          "disabled": false
+        },
+        {
+          "text": "符合寬度",
+          "disabled": false
+        },
+        {
+          "text": "−",
+          "disabled": false
+        },
+        {
+          "text": "＋",
+          "disabled": false
+        },
+        {
+          "text": "對照原照片",
+          "disabled": false
+        }
+      ],
+      "overflow": false,
+      "file": "ER/NEW/index.html",
+      "width": 1440,
+      "status": 200,
+      "errors": []
+    },
+    {
+      "title": "先走進 Fab｜Fab 的四個基本角色",
+      "url": "http://127.0.0.1:4175/index.html",
+      "headings": [
+        "晶圓在哪裡？又屬於哪一批？",
+        "先走進 Fab：這裡在製造晶片。",
+        "Wafer：被加工的那一片。",
+        "晶圓上有許多小格，但它仍是一整片。",
+        "FOUP：裝載晶圓的保護盒。",
+        "F012 是盒子的編號；W07 是晶圓的編號。",
+        "Slot：盒子裡的哪個位置。",
+        "先找 F012，再找它的 Slot 07。",
+        "Lot：一起管理的生產批次。",
+        "一張批次成員紀錄，說明哪些晶圓是一組。",
+        "點一片晶圓，看看資料如何對上它。",
+        "Wafer W07",
+        "把 L023 整批換個盒子。",
+        "換個情境，你能找到這片晶圓嗎？",
+        "同事只說「在 Slot 03」。你還需要什麼，才能找到正確位置？",
+        "W07 從 F012／07 換到 F018／03，仍屬於 L023。哪些資料改變了？",
+        "Slot 05 沒有晶圓。這個 Slot 還存在嗎？"
+      ],
+      "links": [
+        {
+          "text": "跳到教學內容",
+          "href": "#content"
+        },
+        {
+          "text": "MMES LEARNING LAB從現場認識資料",
+          "href": "#fab"
+        },
+        {
+          "text": "第二部分：設備與現場作業 →",
+          "href": "operations.html"
+        },
+        {
+          "text": "第三部分：Flow、Stage、Step 與 Lot →",
+          "href": "flow.html"
+        },
+        {
+          "text": "第四部分：資料新鮮度與來源選擇 →",
+          "href": "freshness.html"
+        },
+        {
+          "text": "資料與物理意義：ER 圖導讀 →",
+          "href": "data-map.html#2676"
+        },
+        {
+          "text": "01先走進 Fab我們在什麼地方？",
+          "href": "#fab"
+        },
+        {
+          "text": "02Wafer 晶圓被加工的那一片",
+          "href": "#wafer"
+        },
+        {
+          "text": "03FOUP 晶圓載具保護與搬運的盒子",
+          "href": "#foup"
+        },
+        {
+          "text": "04Slot 槽位盒子裡的哪個位置",
+          "href": "#slot"
+        },
+        {
+          "text": "05Lot 生產批次一起管理的晶圓",
+          "href": "#lot"
+        },
+        {
+          "text": "06動手把實物對上資料點選晶圓，看欄位變化",
+          "href": "#explore"
+        },
+        {
+          "text": "07換個情境，試著判斷確認你已分清四個角色",
+          "href": "#check"
+        },
+        {
+          "text": "直接進入互動範例 ↗",
+          "href": "#explore"
+        },
+        {
+          "text": "ER 圖與資料意義 →整合大圖與跨圖題目：Lot、Flow、設備、配方與 WIP",
+          "href": "integrated-map.html?view=original"
+        },
+        {
+          "text": "查看 Entegris 的 FOUP 產品資料",
+          "href": "https://www.entegris.com/content/dam/product-assets/a300foups/datasheet-a300foups-A4.pdf"
+        },
+        {
+          "text": "Intel：晶圓工廠如何運作",
+          "href": "https://newsroom.intel.com/tech101/how-a-semiconductor-factory-works"
+        },
+        {
+          "text": "Intel：認識半導體",
+          "href": "https://newsroom.intel.com/tech101/what-are-semiconductors"
+        },
+        {
+          "text": "Entegris：A300 FOUP 產品資料",
+          "href": "https://www.entegris.com/content/dam/product-assets/a300foups/datasheet-a300foups-A4.pdf"
+        },
+        {
+          "text": "IBM SiView：半導體製造管理",
+          "href": "https://www.ibm.com/products/siview"
+        },
+        {
+          "text": "Vision AI DefectFill 教學頁",
+          "href": "https://hctsaik.github.io/visionAI_Model_Introduce/#view=lesson&lesson=defectfill&slide=1"
+        },
+        {
+          "text": "接著讀第二部分：設備與六個現場情境 →",
+          "href": "operations.html"
+        },
+        {
+          "text": "第三部分：Flow 與十個流程情境 →",
+          "href": "flow.html"
+        }
+      ],
+      "buttons": [
+        {
+          "text": "課程目錄",
+          "disabled": false
+        },
+        {
+          "text": "＋ 放大看實物",
+          "disabled": false
+        },
+        {
+          "text": "← 上一段",
+          "disabled": true
+        },
+        {
+          "text": "下一段：Wafer →",
+          "disabled": false
+        }
+      ],
+      "overflow": false,
+      "file": "index.html",
+      "width": 390,
+      "status": 200,
+      "errors": []
+    },
+    {
+      "title": "從載具到腔體｜第二部分 MES 教學",
+      "url": "http://127.0.0.1:4175/operations.html",
+      "headings": [
+        "設備與現場作業",
+        "同一片晶圓，怎麼進入設備？",
+        "沿著晶圓走，辨認三個角色"
+      ],
+      "links": [
+        {
+          "text": "跳到教學內容",
+          "href": "#content"
+        },
+        {
+          "text": "MMES LEARNING LAB從現場認識資料",
+          "href": "index.html"
+        },
+        {
+          "text": "01 基本物件",
+          "href": "index.html"
+        },
+        {
+          "text": "02 設備與現場",
+          "href": "operations.html"
+        },
+        {
+          "text": "03 Flow 與 Lot",
+          "href": "flow.html"
+        },
+        {
+          "text": "04 資料新鮮度",
+          "href": "freshness.html"
+        },
+        {
+          "text": "時間與配方",
+          "href": "advanced.html#qtime"
+        },
+        {
+          "text": "ER 圖導讀",
+          "href": "data-map.html"
+        },
+        {
+          "text": "01從載具到腔體先看懂實體交接",
+          "href": "#tool"
+        },
+        {
+          "text": "02搬送與暫存位置變了，流程未必變",
+          "href": "#transport"
+        },
+        {
+          "text": "03到站與身分核對數量相同也可能錯片",
+          "href": "#port"
+        },
+        {
+          "text": "04設備與配方資格閒置不代表能做這站",
+          "href": "#recipe"
+        },
+        {
+          "text": "05逐片加工與整批完成一片完成不等於一批完成",
+          "href": "#chamber"
+        },
+        {
+          "text": "06加工狀態與 Hold誰被擋住？為什麼？",
+          "href": "#state"
+        },
+        {
+          "text": "07從機台完成到 MES 過站資料確認是交接的一部分",
+          "href": "#handoff"
+        },
+        {
+          "text": "08六個現場情境搬送、錯片、配方、加工、故障、Hold",
+          "href": "#lab"
+        },
+        {
+          "text": "第一部分 · 基本物件",
+          "href": "index.html"
+        },
+        {
+          "text": "第二部分 · 設備現場",
+          "href": "operations.html"
+        },
+        {
+          "text": "第三部分 · Flow 深入",
+          "href": "flow.html"
+        },
+        {
+          "text": "第四部分 · 資料新鮮度",
+          "href": "freshness.html"
+        },
+        {
+          "text": "ER 整合大圖",
+          "href": "integrated-map.html?view=original"
+        },
+        {
+          "text": "跨圖聚焦題目",
+          "href": "integrated-map.html?view=questions"
+        },
+        {
+          "text": "ER 圖 · 原圖",
+          "href": "data-map.html?view=original#2676"
+        },
+        {
+          "text": "ER 圖 · 聚焦題目",
+          "href": "data-map.html?view=questions#2676"
+        },
+        {
+          "text": "新增：LR、ER 與 Physical Recipe 的分層說明 →",
+          "href": "advanced.html#recipes"
+        },
+        {
+          "text": "接著看第三部分：Flow 與 Lot →",
+          "href": "flow.html"
+        },
+        {
+          "text": "Critical Manufacturing：物料路徑、配方及例外交易",
+          "href": "https://www.criticalmanufacturing.com/industries/semiconductor-manufacturing/"
+        },
+        {
+          "text": "IBM SiView：Lot、Wafer、FOUP 與設備管理",
+          "href": "https://www.ibm.com/products/siview"
+        },
+        {
+          "text": "Brooks：晶圓搬送與設備自動化",
+          "href": "https://www.brooks.com/solutions/"
+        },
+        {
+          "text": "Daifuku：潔淨室搬送與暫存",
+          "href": "https://www.daifuku.com/pro/cr/"
+        }
+      ],
+      "buttons": [
+        {
+          "text": "課程目錄",
+          "disabled": false
+        },
+        {
+          "text": "",
+          "disabled": false
+        },
+        {
+          "text": "← 上一段",
+          "disabled": true
+        },
+        {
+          "text": "下一段 →",
+          "disabled": false
+        }
+      ],
+      "overflow": false,
+      "file": "operations.html",
+      "width": 390,
+      "status": 200,
+      "errors": []
+    },
+    {
+      "title": "Flow：整條製造路徑｜第三部分 MES 教學",
+      "url": "http://127.0.0.1:4175/flow.html",
+      "headings": [
+        "Flow 與 Lot 的旅程",
+        "Flow 是一份有規則的製造路徑",
+        "這堂課追蹤哪一段旅程？"
+      ],
+      "links": [
+        {
+          "text": "跳到教學內容",
+          "href": "#content"
+        },
+        {
+          "text": "MMES LEARNING LAB從現場認識資料",
+          "href": "index.html"
+        },
+        {
+          "text": "01 基本物件",
+          "href": "index.html"
+        },
+        {
+          "text": "02 設備與現場",
+          "href": "operations.html"
+        },
+        {
+          "text": "03 Flow 與 Lot",
+          "href": "flow.html"
+        },
+        {
+          "text": "04 資料新鮮度",
+          "href": "freshness.html"
+        },
+        {
+          "text": "時間與配方",
+          "href": "advanced.html#qtime"
+        },
+        {
+          "text": "ER 圖導讀",
+          "href": "data-map.html"
+        },
+        {
+          "text": "01Flow：整條製造路徑先看全局，再放大一站",
+          "href": "#flow"
+        },
+        {
+          "text": "02Stage：有目的的分組分組不等於一次加工",
+          "href": "#stage"
+        },
+        {
+          "text": "03Step：精確的流程位置Operation、Recipe、Tool 分開看",
+          "href": "#step"
+        },
+        {
+          "text": "04Lot 如何套用 Flow定義與執行實例的連結",
+          "href": "#lot-flow"
+        },
+        {
+          "text": "05過站與歷程指標移動要有完成證據",
+          "href": "#execution"
+        },
+        {
+          "text": "06條件分流與 Hold結果決定下一步",
+          "href": "#branching"
+        },
+        {
+          "text": "07Rework：核准的返回路徑回去做，不抹掉前次失敗",
+          "href": "#rework"
+        },
+        {
+          "text": "08拆批與合批成員改變，追溯不能斷",
+          "href": "#split-merge"
+        },
+        {
+          "text": "09版本、跳站與等待時間流程變更也要有契約",
+          "href": "#versions"
+        },
+        {
+          "text": "10十個 Flow 情境從套用一路走到例外",
+          "href": "#lab"
+        },
+        {
+          "text": "第一部分 · 基本物件",
+          "href": "index.html"
+        },
+        {
+          "text": "第二部分 · 設備現場",
+          "href": "operations.html"
+        },
+        {
+          "text": "第三部分 · Flow 深入",
+          "href": "flow.html"
+        },
+        {
+          "text": "第四部分 · 資料新鮮度",
+          "href": "freshness.html"
+        },
+        {
+          "text": "ER 整合大圖",
+          "href": "integrated-map.html?view=original"
+        },
+        {
+          "text": "跨圖聚焦題目",
+          "href": "integrated-map.html?view=questions"
+        },
+        {
+          "text": "ER 圖 · 原圖",
+          "href": "data-map.html?view=original#2676"
+        },
+        {
+          "text": "ER 圖 · 聚焦題目",
+          "href": "data-map.html?view=questions#2676"
+        },
+        {
+          "text": "新增：比較 Stage／Step／Flow 的另外三種教法 →",
+          "href": "advanced.html#flow-versions"
+        },
+        {
+          "text": "回到第一部分：基本物件 →",
+          "href": "index.html"
+        },
+        {
+          "text": "Critical Manufacturing：物料路徑、配方及例外交易",
+          "href": "https://www.criticalmanufacturing.com/industries/semiconductor-manufacturing/"
+        },
+        {
+          "text": "IBM SiView：Lot、Wafer、FOUP 與設備管理",
+          "href": "https://www.ibm.com/products/siview"
+        },
+        {
+          "text": "Brooks：晶圓搬送與設備自動化",
+          "href": "https://www.brooks.com/solutions/"
+        },
+        {
+          "text": "Daifuku：潔淨室搬送與暫存",
+          "href": "https://www.daifuku.com/pro/cr/"
+        }
+      ],
+      "buttons": [
+        {
+          "text": "課程目錄",
+          "disabled": false
+        },
+        {
+          "text": "",
+          "disabled": false
+        },
+        {
+          "text": "← 上一段",
+          "disabled": true
+        },
+        {
+          "text": "下一段 →",
+          "disabled": false
+        }
+      ],
+      "overflow": false,
+      "file": "flow.html",
+      "width": 390,
+      "status": 200,
+      "errors": []
+    },
+    {
+      "title": "同一個 Giga，不同的新鮮度｜資料新鮮度",
+      "url": "http://127.0.0.1:4175/freshness.html",
+      "headings": [
+        "你查到的是哪個時刻？",
+        "同一個 Giga，也有不同的新鮮度。",
+        "沿著一個來源，走到查詢結果",
+        "另一張 Giga 表也有 CURRENT_STEP 欄位，但沒有說明來源。能直接當成 Native 嗎？"
+      ],
+      "links": [
+        {
+          "text": "跳到教學內容",
+          "href": "#content"
+        },
+        {
+          "text": "MMES LEARNING LAB從現場認識資料",
+          "href": "index.html"
+        },
+        {
+          "text": "01 基本物件",
+          "href": "index.html"
+        },
+        {
+          "text": "02 設備與現場",
+          "href": "operations.html"
+        },
+        {
+          "text": "03 Flow 與 Lot",
+          "href": "flow.html"
+        },
+        {
+          "text": "04 資料新鮮度",
+          "href": "freshness.html"
+        },
+        {
+          "text": "ER 圖導讀",
+          "href": "data-map.html#2675"
+        },
+        {
+          "text": "01同一個 Giga，不同的新鮮度先看來源與查詢入口",
+          "href": "#architecture"
+        },
+        {
+          "text": "02晚十分鐘，會做錯事嗎？用工作需求選來源",
+          "href": "#decision"
+        },
+        {
+          "text": "03案例一：AI 發現異常之後舊 Step 會導向錯誤決策",
+          "href": "#ai"
+        },
+        {
+          "text": "04案例二：經過，不等於現在History 與 Current State",
+          "href": "#history"
+        },
+        {
+          "text": "05案例三：表剛刷新，欄位仍舊追到 Column 的來源時間",
+          "href": "#join"
+        },
+        {
+          "text": "06把判斷寫進 Data Contract四句話與查詢前檢查",
+          "href": "#contract"
+        }
+      ],
+      "buttons": [
+        {
+          "text": "課程目錄",
+          "disabled": false
+        },
+        {
+          "text": "檢視完整圖 ↗",
+          "disabled": false
+        },
+        {
+          "text": "SiView Native",
+          "disabled": false
+        },
+        {
+          "text": "Data Mart",
+          "disabled": false
+        },
+        {
+          "text": "TX",
+          "disabled": false
+        },
+        {
+          "text": "A先查這個欄位的 lineage 與來源時間",
+          "disabled": false
+        },
+        {
+          "text": "B查得到 CURRENT_STEP，就先拿來監看",
+          "disabled": false
+        },
+        {
+          "text": "C先按約十分鐘使用，之後再補契約",
+          "disabled": false
+        },
+        {
+          "text": "← 上一段",
+          "disabled": true
+        },
+        {
+          "text": "下一段 →",
+          "disabled": false
+        }
+      ],
+      "overflow": false,
+      "file": "freshness.html",
+      "width": 390,
+      "status": 200,
+      "errors": []
+    },
+    {
+      "title": "QTime｜時間限制｜MES 教學",
+      "url": "http://127.0.0.1:4175/advanced.html",
+      "headings": [
+        "時間、路徑與配方",
+        "QTime：這段時間，最多能等多久？",
+        "10:00 清洗完成，何時必須進入下一站？",
+        "為什麼要限制這段時間？"
+      ],
+      "links": [
+        {
+          "text": "MESFAB CONCEPTS從現場物件，理解資料與控制",
+          "href": "index.html#fab"
+        },
+        {
+          "text": "基礎物件",
+          "href": "index.html#fab"
+        },
+        {
+          "text": "現場操作",
+          "href": "operations.html#port"
+        },
+        {
+          "text": "Flow",
+          "href": "flow.html#stage"
+        },
+        {
+          "text": "資料新鮮度",
+          "href": "freshness.html"
+        },
+        {
+          "text": "CW 與設備監控",
+          "href": "support.html#cw"
+        },
+        {
+          "text": "ER 圖導讀",
+          "href": "data-map.html"
+        },
+        {
+          "text": "QTime｜時間限制",
+          "href": "#qtime"
+        },
+        {
+          "text": "Future Hold｜預約攔截",
+          "href": "#future-hold"
+        },
+        {
+          "text": "Part 與 RouteId",
+          "href": "#part-route"
+        },
+        {
+          "text": "LR、ER、Physical Recipe",
+          "href": "#recipes"
+        },
+        {
+          "text": "Flow｜四種教法比較",
+          "href": "#flow-versions"
+        },
+        {
+          "text": "半導體製造的 Queue Time 間隔限制",
+          "href": "https://patents.google.com/patent/US9748088B2/en"
+        },
+        {
+          "text": "← 回到 Flow 課程",
+          "href": "flow.html#stage"
+        },
+        {
+          "text": "Future Hold｜預約攔截 →",
+          "href": "#future-hold"
+        }
+      ],
+      "buttons": [
+        {
+          "text": "放大完整圖",
+          "disabled": false
+        },
+        {
+          "text": "10:20",
+          "disabled": false
+        },
+        {
+          "text": "10:30",
+          "disabled": false
+        },
+        {
+          "text": "10:45",
+          "disabled": false
+        },
+        {
+          "text": "只看 10:20 已經進站",
+          "disabled": false
+        },
+        {
+          "text": "確認 QTime 的停止事件是進站還是出站",
+          "disabled": false
+        }
+      ],
+      "overflow": false,
+      "file": "advanced.html",
+      "width": 390,
+      "status": 200,
+      "errors": []
+    },
+    {
+      "title": "CW｜三種晶圓用途｜MES 教學",
+      "url": "http://127.0.0.1:4175/support.html",
+      "headings": [
+        "CW、過站與設備監控",
+        "CW：同屬控制晶圓，用途不一樣",
+        "這次需要晶圓幫忙做什麼？",
+        "三種用途，不一定是三種互斥的物料"
+      ],
+      "links": [
+        {
+          "text": "MESFAB CONCEPTS晶圓用途・路徑事件・加工條件",
+          "href": "index.html#fab"
+        },
+        {
+          "text": "基礎物件",
+          "href": "index.html#fab"
+        },
+        {
+          "text": "Flow",
+          "href": "flow.html#stage"
+        },
+        {
+          "text": "時間與配方",
+          "href": "advanced.html#qtime"
+        },
+        {
+          "text": "資料新鮮度",
+          "href": "freshness.html"
+        },
+        {
+          "text": "ER 圖導讀",
+          "href": "data-map.html"
+        },
+        {
+          "text": "CW｜三種晶圓用途",
+          "href": "#cw"
+        },
+        {
+          "text": "Sub Route｜加量與返回",
+          "href": "#subroute"
+        },
+        {
+          "text": "Move｜Lot 過站事件",
+          "href": "#move"
+        },
+        {
+          "text": "MON、PM 與 EMS",
+          "href": "#monitor"
+        },
+        {
+          "text": "使用 Dummy Wafer 進行 seasoning，並檢查加工結果的技術示例",
+          "href": "https://patents.google.com/patent/WO2003077303A1/en"
+        },
+        {
+          "text": "← 時間與配方",
+          "href": "advanced.html#qtime"
+        },
+        {
+          "text": "Sub Route｜加量與返回 →",
+          "href": "#subroute"
+        }
+      ],
+      "buttons": [
+        {
+          "text": "放大完整圖",
+          "disabled": false
+        },
+        {
+          "text": "Monitor Wafer取得監控結果",
+          "disabled": false
+        },
+        {
+          "text": "Dummy Wafer補位／提供負載",
+          "disabled": false
+        },
+        {
+          "text": "Seasoning Wafer調整腔體條件",
+          "disabled": false
+        },
+        {
+          "text": "直接以 seasoning 完成視為合格",
+          "disabled": false
+        },
+        {
+          "text": "依規範執行監控並檢查結果",
+          "disabled": false
+        }
+      ],
+      "overflow": false,
+      "file": "support.html",
+      "width": 390,
+      "status": 200,
+      "errors": []
+    },
+    {
+      "title": "Fab 整合 ER｜實體與關係",
+      "url": "http://127.0.0.1:4175/er-atlas.html",
+      "headings": [
+        "從同一個 Lot，沿著關係找資料",
+        "沿著真正的 ER 關係判讀",
+        "選一個主詞，展開關聯",
+        "完整 ER × 主詞關聯",
+        "選擇一段完整關係"
+      ],
+      "links": [
+        {
+          "text": "MES 資料與現場",
+          "href": "index.html#fab"
+        },
+        {
+          "text": "七張原圖",
+          "href": "data-map.html?view=original#2676"
+        },
+        {
+          "text": "設備作業",
+          "href": "operations.html#port"
+        },
+        {
+          "text": "Flow 教學",
+          "href": "flow.html#lot-flow"
+        },
+        {
+          "text": "01 整合 ER 原圖",
+          "href": "?view=original"
+        },
+        {
+          "text": "02 沿圖聚焦題目",
+          "href": "?view=questions"
+        },
+        {
+          "text": "另開 SVG",
+          "href": "ER/INTEGRATED/fab-er-v2.svg"
+        },
+        {
+          "text": "下載",
+          "href": "ER/INTEGRATED/fab-er-v2.svg"
+        },
+        {
+          "text": "閱讀完整教學 →",
+          "href": "index.html#fab"
+        },
+        {
+          "text": "下載檢查",
+          "href": "ER/INTEGRATED/er-model-v2.json"
+        }
+      ],
+      "buttons": [
+        {
+          "text": "框選 Lot",
+          "disabled": false
+        },
+        {
+          "text": "框選 FOUP",
+          "disabled": false
+        },
+        {
+          "text": "框選 EQP",
+          "disabled": false
+        },
+        {
+          "text": "框選 Flow",
+          "disabled": false
+        },
+        {
+          "text": "框選 Recipe",
+          "disabled": false
+        },
+        {
+          "text": "清除框選／全圖",
+          "disabled": false
+        },
+        {
+          "text": "全圖總覽",
+          "disabled": false
+        },
+        {
+          "text": "Lot 裝載關係",
+          "disabled": false
+        },
+        {
+          "text": "−",
+          "disabled": false
+        },
+        {
+          "text": "＋",
+          "disabled": false
+        },
+        {
+          "text": "展開右側 ↗",
+          "disabled": false
+        },
+        {
+          "text": "← 返回上一個檢視",
+          "disabled": true
+        },
+        {
+          "text": "回到 ER 全圖",
+          "disabled": false
+        },
+        {
+          "text": "完整 ER × 主詞關聯",
+          "disabled": true
+        },
+        {
+          "text": "放大關聯圖 ↗",
+          "disabled": true
+        },
+        {
+          "text": "放大教學插圖 ↗",
+          "disabled": false
+        },
+        {
+          "text": "這個 Lot 的 Step 歷史",
+          "disabled": false
+        },
+        {
+          "text": "Lot 裝在哪個 FOUP？",
+          "disabled": false
+        },
+        {
+          "text": "FOUP 在某個時間點放了哪些 Wafer？",
+          "disabled": false
+        },
+        {
+          "text": "FOUP 位於哪台設備？",
+          "disabled": false
+        },
+        {
+          "text": "派工系統預先把 Lot 派到哪台機台？",
+          "disabled": false
+        },
+        {
+          "text": "Lot 在這個站點有哪些可用機台？",
+          "disabled": false
+        },
+        {
+          "text": "Lot 與 Port 的交接關係",
+          "disabled": false
+        },
+        {
+          "text": "Lot 如何接到 Flow？",
+          "disabled": false
+        },
+        {
+          "text": "Flow 與 LR 的關係",
+          "disabled": false
+        },
+        {
+          "text": "PD 與設備配對",
+          "disabled": false
+        },
+        {
+          "text": "ER 配置與機台",
+          "disabled": false
+        },
+        {
+          "text": "EQP 與 Chamber",
+          "disabled": false
+        },
+        {
+          "text": "Lot 的 Future Hold",
+          "disabled": false
+        },
+        {
+          "text": "Lot Move 與 WIP 的共同歷史",
+          "disabled": false
+        },
+        {
+          "text": "FOUP 的搬送歷史",
+          "disabled": false
+        },
+        {
+          "text": "這個 Lot 的 Qtime 與站點歷史",
+          "disabled": false
+        },
+        {
+          "text": "WIP 與固定時間快照",
+          "disabled": false
+        },
+        {
+          "text": "機台與期間 OEE",
+          "disabled": false
+        }
+      ],
+      "overflow": false,
+      "file": "er-atlas.html",
+      "width": 390,
+      "status": 200,
+      "errors": []
+    },
+    {
+      "title": "MES｜從現場讀懂資料關係",
+      "url": "http://127.0.0.1:4175/data-map.html",
+      "headings": [
+        "資料描述的，是哪一件事？",
+        "Lot 在哪裡？先分清批次、盒子與設備",
+        "L023 現在裝在哪個 FOUP？",
+        "把現場問題對到資料",
+        "沿著原圖找證據",
+        "Lot 已被派工系統預派 ETCH-03，能否直接告訴同事「正在加工」？"
+      ],
+      "links": [
+        {
+          "text": "MESFAB × DATA實體、作業與資料的對照",
+          "href": "index.html#fab"
+        },
+        {
+          "text": "基礎物件",
+          "href": "index.html#fab"
+        },
+        {
+          "text": "Flow",
+          "href": "flow.html"
+        },
+        {
+          "text": "配方",
+          "href": "advanced.html#recipes"
+        },
+        {
+          "text": "過站與監控",
+          "href": "support.html#move"
+        },
+        {
+          "text": "資料新鮮度",
+          "href": "freshness.html"
+        },
+        {
+          "text": "看整合大圖 →",
+          "href": "integrated-map.html?view=original"
+        },
+        {
+          "text": "跨圖聚焦題目 →",
+          "href": "integrated-map.html?view=questions"
+        },
+        {
+          "text": "01 原圖瀏覽完整關係、放大與照片對照",
+          "href": "?view=original#2671"
+        },
+        {
+          "text": "02 聚焦題目從情境理解資料與現場意義",
+          "href": "?view=questions#2671"
+        },
+        {
+          "text": "Lot 與載具",
+          "href": "#2671"
+        },
+        {
+          "text": "歷史與 Move",
+          "href": "#2672"
+        },
+        {
+          "text": "Flow 與 Part",
+          "href": "#2673"
+        },
+        {
+          "text": "EQP 與 Chamber",
+          "href": "#2674"
+        },
+        {
+          "text": "WIP 與 OEE",
+          "href": "#2675"
+        },
+        {
+          "text": "設備到 Lot",
+          "href": "#2676"
+        },
+        {
+          "text": "PD、ER 與設備",
+          "href": "#2677"
+        },
+        {
+          "text": "另開 SVG",
+          "href": "ER/NEW/2671.svg"
+        },
+        {
+          "text": "下載",
+          "href": "ER/NEW/2671.svg"
+        },
+        {
+          "text": "對照原照片",
+          "href": "ER/NEW/index.html#2671"
+        },
+        {
+          "text": "開啟原圖",
+          "href": "ER/NEW/2671.svg"
+        },
+        {
+          "text": "回到教學：Lot 與 FOUP →",
+          "href": "index.html#lot"
+        },
+        {
+          "text": "回到教學：Port 交接 →",
+          "href": "operations.html#port"
+        },
+        {
+          "text": "回看資料新鮮度 →",
+          "href": "freshness.html"
+        }
+      ],
+      "buttons": [
+        {
+          "text": "L023 現在裝在哪個 FOUP？",
+          "disabled": false
+        },
+        {
+          "text": "預派到機台，就代表已到站嗎？",
+          "disabled": false
+        },
+        {
+          "text": "聚焦這個問題",
+          "disabled": false
+        },
+        {
+          "text": "看完整圖",
+          "disabled": false
+        },
+        {
+          "text": "−",
+          "disabled": false
+        },
+        {
+          "text": "＋",
+          "disabled": false
+        },
+        {
+          "text": "LOT",
+          "disabled": false
+        },
+        {
+          "text": "放在",
+          "disabled": false
+        },
+        {
+          "text": "Foup",
+          "disabled": false
+        },
+        {
+          "text": "在 Slot",
+          "disabled": false
+        },
+        {
+          "text": "可以，預派就是開始",
+          "disabled": false
+        },
+        {
+          "text": "不能，還要確認位置與加工事件",
+          "disabled": false
+        }
+      ],
+      "overflow": false,
+      "file": "data-map.html",
+      "width": 390,
+      "status": 200,
+      "errors": []
+    },
+    {
+      "title": "主詞 ER｜MES 資料與現場",
+      "url": "http://127.0.0.1:4175/subject-er.html",
+      "headings": [
+        "以 Lot 看裝載、設備安排與流程",
+        "LOT"
+      ],
+      "links": [
+        {
+          "text": "MES · 資料與現場",
+          "href": "index.html#fab"
+        },
+        {
+          "text": "完整 ER 大圖",
+          "href": "er-atlas.html?view=original"
+        },
+        {
+          "text": "七張原圖",
+          "href": "data-map.html?view=original"
+        },
+        {
+          "text": "下載 SVG",
+          "href": "ER/SUBJECTS/lot-core.svg"
+        },
+        {
+          "text": "閱讀完整教學 →",
+          "href": "index.html#lot"
+        },
+        {
+          "text": "查看來源",
+          "href": "data-map.html?view=original#2671"
+        },
+        {
+          "text": "查看來源",
+          "href": "data-map.html?view=original#2672"
+        },
+        {
+          "text": "查看來源",
+          "href": "data-map.html?view=original#2673"
+        },
+        {
+          "text": "檢視主題與覆蓋清單",
+          "href": "ER/SUBJECTS/subjects.json"
+        }
+      ],
+      "buttons": [
+        {
+          "text": "Lot",
+          "disabled": false
+        },
+        {
+          "text": "FOUP",
+          "disabled": false
+        },
+        {
+          "text": "EQP",
+          "disabled": false
+        },
+        {
+          "text": "Flow",
+          "disabled": false
+        },
+        {
+          "text": "核心關係",
+          "disabled": false
+        },
+        {
+          "text": "裝載、Slot 與容器",
+          "disabled": false
+        },
+        {
+          "text": "Port 與設備交接",
+          "disabled": false
+        },
+        {
+          "text": "Lot 預派記錄",
+          "disabled": false
+        },
+        {
+          "text": "Product Hold 與 Future Hold",
+          "disabled": false
+        },
+        {
+          "text": "過站、站點與批貨歷史",
+          "disabled": false
+        },
+        {
+          "text": "未來 Flow 與到站預測",
+          "disabled": false
+        },
+        {
+          "text": "Lot 的流程與 Stage 定義",
+          "disabled": false
+        },
+        {
+          "text": "可讀大小",
+          "disabled": false
+        },
+        {
+          "text": "本圖全貌",
+          "disabled": false
+        },
+        {
+          "text": "−",
+          "disabled": false
+        },
+        {
+          "text": "＋",
+          "disabled": false
+        },
+        {
+          "text": "放大教學圖 ↗",
+          "disabled": false
+        }
+      ],
+      "overflow": false,
+      "file": "subject-er.html",
+      "width": 390,
+      "status": 200,
+      "errors": []
+    },
+    {
+      "title": "ER 原圖與 SVG 重畫",
+      "url": "http://127.0.0.1:4175/ER/NEW/index.html",
+      "headings": [
+        "ER 原圖 → SVG 重畫",
+        "2671 · LOT、FOUP、Port 與機台",
+        "原始照片（未修改）"
+      ],
+      "links": [
+        {
+          "text": "← 回到資料與物理意義教學",
+          "href": "../../data-map.html"
+        },
+        {
+          "text": "下載 SVG",
+          "href": "2671.svg"
+        },
+        {
+          "text": "文字確認紀錄",
+          "href": "UNCLEAR_TEXT.md"
+        }
+      ],
+      "buttons": [
+        {
+          "text": "2671",
+          "disabled": false
+        },
+        {
+          "text": "2672",
+          "disabled": false
+        },
+        {
+          "text": "2673",
+          "disabled": false
+        },
+        {
+          "text": "2674",
+          "disabled": false
+        },
+        {
+          "text": "2675",
+          "disabled": false
+        },
+        {
+          "text": "2676",
+          "disabled": false
+        },
+        {
+          "text": "2677",
+          "disabled": false
+        },
+        {
+          "text": "符合寬度",
+          "disabled": false
+        },
+        {
+          "text": "−",
+          "disabled": false
+        },
+        {
+          "text": "＋",
+          "disabled": false
+        },
+        {
+          "text": "對照原照片",
+          "disabled": false
+        }
+      ],
+      "overflow": false,
+      "file": "ER/NEW/index.html",
+      "width": 390,
+      "status": 200,
+      "errors": []
+    }
+  ],
+  "curriculum": {
+    "operations": {
+      "title": "設備與現場作業",
+      "next": "flow.html",
+      "lessons": [
+        {
+          "id": "tool",
+          "title": "同一片晶圓，怎麼進入設備？",
+          "nav": "從載具到腔體"
+        },
+        {
+          "id": "transport",
+          "title": "FOUP 到站，Lot 就完成過站了嗎？",
+          "nav": "搬送與暫存"
+        },
+        {
+          "id": "port",
+          "title": "眼前這個 FOUP，真的是這批料嗎？",
+          "nav": "到站與身分核對"
+        },
+        {
+          "id": "recipe",
+          "title": "Step 決定要做什麼，Recipe 決定怎麼做",
+          "nav": "設備與配方資格"
+        },
+        {
+          "id": "chamber",
+          "title": "W06 做完時，L023 還沒做完",
+          "nav": "逐片加工與整批完成"
+        },
+        {
+          "id": "state",
+          "title": "設備可用，Lot 仍可能不能開工",
+          "nav": "加工狀態與 Hold"
+        },
+        {
+          "id": "handoff",
+          "title": "機台報 Done，MES 為什麼還不往下走？",
+          "nav": "從機台完成到 MES 過站"
+        },
+        {
+          "id": "lab",
+          "title": "把設備現場的判斷，實際做一次",
+          "nav": "六個現場情境"
+        }
+      ]
+    },
+    "flow": {
+      "title": "Flow 與 Lot 的旅程",
+      "next": "index.html",
+      "lessons": [
+        {
+          "id": "flow",
+          "title": "Flow 是一份有規則的製造路徑",
+          "nav": "Flow：整條製造路徑"
+        },
+        {
+          "id": "stage",
+          "title": "Stage 把相關 Step 組成一段工作",
+          "nav": "Stage：有目的的分組"
+        },
+        {
+          "id": "step",
+          "title": "Step 是「這條路上的這一次作業」",
+          "nav": "Step：精確的流程位置"
+        },
+        {
+          "id": "lot-flow",
+          "title": "套用 Flow，是替 Lot 建立一條可追蹤的旅程",
+          "nav": "Lot 如何套用 Flow"
+        },
+        {
+          "id": "execution",
+          "title": "從 S40 到 S50，中間不是只改一個欄位",
+          "nav": "過站與歷程"
+        },
+        {
+          "id": "branching",
+          "title": "Flow 可以有分支，但要有明確判斷依據",
+          "nav": "條件分流與 Hold"
+        },
+        {
+          "id": "rework",
+          "title": "重工不是把 Current Step 隨便往回改",
+          "nav": "Rework：核准的返回路徑"
+        },
+        {
+          "id": "split-merge",
+          "title": "只有 W08 需要處理，整批一定要一起走嗎？",
+          "nav": "拆批與合批"
+        },
+        {
+          "id": "versions",
+          "title": "發布新版，不代表所有在製 Lot 立刻換路線",
+          "nav": "版本、跳站與等待時間"
+        },
+        {
+          "id": "lab",
+          "title": "讓 Lot 真正沿著 Flow 走一次",
+          "nav": "十個 Flow 情境"
+        }
+      ]
+    }
+  },
+  "topics": [
+    {
+      "id": "future",
+      "title": "Future Hold：先登記，到指定事件才攔截",
+      "refs": [
+        "2673:future",
+        "2673:future-link"
+      ],
+      "link": "advanced.html#future-hold",
+      "image": true,
+      "mobile": true
+    },
+    {
+      "id": "lotstep",
+      "title": "Lot Step：查這一批的站點歷史",
+      "refs": [
+        "2672:summary",
+        "2672:step"
+      ],
+      "link": null,
+      "image": false,
+      "mobile": false
+    },
+    {
+      "id": "contents",
+      "title": "FOUP 內容物歷史：那個時間裝了哪些 Wafer",
+      "refs": [
+        "2671:slot"
+      ],
+      "link": null,
+      "image": false,
+      "mobile": false
+    },
+    {
+      "id": "available",
+      "title": "帶到：Lot 在這個站點有可用機台",
+      "refs": [
+        "2671:lot-eqp"
+      ],
+      "link": null,
+      "image": false,
+      "mobile": false
+    },
+    {
+      "id": "load",
+      "title": "裝載關係：Lot、Wafer 與 FOUP",
+      "refs": [
+        "2671:cast-link",
+        "2676:cast-lot"
+      ],
+      "link": null,
+      "image": false,
+      "mobile": false
+    },
+    {
+      "id": "move",
+      "title": "Move：每次進機一筆，按日看表現、按 Lot 查站點",
+      "refs": [
+        "2672:move",
+        "2672:move-link",
+        "2675:move-link"
+      ],
+      "link": "support.html#move",
+      "image": true,
+      "mobile": true
+    },
+    {
+      "id": "transfer",
+      "title": "傳送歷史：presum 後的 FOUP 搬運資料",
+      "refs": [
+        "2672:mes-transfer",
+        "2672:transfer"
+      ],
+      "link": null,
+      "image": true,
+      "mobile": true
+    },
+    {
+      "id": "prehistory",
+      "title": "預派歷史：讓機台預先知道接下來的 Lot",
+      "refs": [
+        "2672:predispatch",
+        "2672:pre-link"
+      ],
+      "link": null,
+      "image": true,
+      "mobile": true
+    },
+    {
+      "id": "actions",
+      "title": "批貨歷史：記錄每個 Lot 的各種動作",
+      "refs": [
+        "2672:all-actions",
+        "2672:history",
+        "2675:all-actions"
+      ],
+      "link": null,
+      "image": true,
+      "mobile": true
+    },
+    {
+      "id": "wip",
+      "title": "WIP 快照：每天早上 07:20 的機群與 KPI",
+      "refs": [
+        "2675:lot",
+        "2675:wip-link",
+        "2675:wip-history"
+      ],
+      "link": null,
+      "image": true,
+      "mobile": true
+    },
+    {
+      "id": "oee",
+      "title": "KER：最近一次更新與每小時歷史指標",
+      "refs": [
+        "2675:eqp-oee-link",
+        "2675:eqp-oee",
+        "2675:group-oee-link",
+        "2675:group-oee",
+        "2675:group-history-link",
+        "2675:group-history"
+      ],
+      "link": null,
+      "image": true,
+      "mobile": true
+    },
+    {
+      "id": "chamber",
+      "title": "Chamber：機台內的加工腔體",
+      "refs": [
+        "2674:chamber-link",
+        "2674:chamber",
+        "2674:detail-link",
+        "2674:chamber-detail",
+        "2676:chamber"
+      ],
+      "link": "operations.html#chamber",
+      "image": true,
+      "mobile": true
+    },
+    {
+      "id": "port",
+      "title": "Load Port：等待加工與完成後的暫置位置",
+      "refs": [
+        "2671:port-link",
+        "2671:port",
+        "2671:has",
+        "2674:port",
+        "2674:port-link",
+        "2676:port",
+        "2676:port-id"
+      ],
+      "link": "operations.html#port",
+      "image": true,
+      "mobile": true
+    },
+    {
+      "id": "portdata",
+      "title": "Port 衍生設定（已撤下教學）",
+      "refs": [
+        "2674:udata",
+        "2674:udata-link",
+        "2676:udata"
+      ],
+      "link": null,
+      "image": false,
+      "mobile": false
+    },
+    {
+      "id": "portmode",
+      "title": "Port 模式：UP 有貨，LOST 沒有貨",
+      "refs": [
+        "2674:mode",
+        "2674:mode-link"
+      ],
+      "link": null,
+      "image": true,
+      "mobile": true
+    },
+    {
+      "id": "location",
+      "title": "載具與機台的位置關係",
+      "refs": [
+        "2671:location"
+      ],
+      "link": null,
+      "image": false,
+      "mobile": false
+    },
+    {
+      "id": "bay",
+      "title": "EQP Bay：機台所在的 Fab 走道與管理單位",
+      "refs": [
+        "2674:bay",
+        "2674:bay-link",
+        "2677:bay",
+        "2677:location"
+      ],
+      "link": null,
+      "image": true,
+      "mobile": true
+    },
+    {
+      "id": "eqpstatus",
+      "title": "設備狀態：讀取機台與狀態時間",
+      "refs": [
+        "2674:eqp-history",
+        "2674:history-link",
+        "2675:status",
+        "2675:status-link",
+        "2677:status"
+      ],
+      "link": null,
+      "image": false,
+      "mobile": false
+    },
+    {
+      "id": "group",
+      "title": "KER：機台與 Chamber 的分群對應",
+      "refs": [
+        "2675:eqp",
+        "2675:group-link",
+        "2675:chamber",
+        "2675:chamber-link"
+      ],
+      "link": null,
+      "image": true,
+      "mobile": true
+    },
+    {
+      "id": "virtual",
+      "title": "KER：User 用 SQL 自訂虛擬 Tool Group",
+      "refs": [
+        "2675:virtual",
+        "2675:virtual-link"
+      ],
+      "link": null,
+      "image": true,
+      "mobile": true
+    },
+    {
+      "id": "stock",
+      "title": "Default STK：機台的預設 FOUP 倉儲",
+      "refs": [
+        "2674:default",
+        "2674:default-link"
+      ],
+      "link": null,
+      "image": true,
+      "mobile": true
+    },
+    {
+      "id": "ohb",
+      "title": "OHB：機台附近的 FOUP 暫置架",
+      "refs": [
+        "2674:ohb-link",
+        "2674:ohb-eqp",
+        "2674:ohb-status-link",
+        "2674:ohb-status"
+      ],
+      "link": null,
+      "image": true,
+      "mobile": true
+    },
+    {
+      "id": "part",
+      "title": "PART：產品對應 Flow，進版同步記錄",
+      "refs": [
+        "2673:part",
+        "2673:part-link"
+      ],
+      "link": "advanced.html#part",
+      "image": true,
+      "mobile": true
+    },
+    {
+      "id": "pd",
+      "title": "PD：Process Definition，站點的細部加工定義",
+      "refs": [
+        "2673:pd",
+        "2673:pd-eqp",
+        "2673:pd-eqp-link",
+        "2673:pd-link",
+        "2677:pd",
+        "2677:pd-key",
+        "2677:pd-eqp"
+      ],
+      "link": "#selection-details",
+      "image": true,
+      "mobile": true
+    },
+    {
+      "id": "recipegroup",
+      "title": "Recipe Group：彈性控制多台或單台機台的加工許可",
+      "refs": [
+        "2673:recipe",
+        "2673:recipe-link"
+      ],
+      "link": null,
+      "image": true,
+      "mobile": true
+    },
+    {
+      "id": "producthold",
+      "title": "Product Hold：同產品的 Lot，到指定站點暫置",
+      "refs": [
+        "2673:product-hold",
+        "2673:hold-link"
+      ],
+      "link": null,
+      "image": true,
+      "mobile": true
+    },
+    {
+      "id": "forecast",
+      "title": "未來的 Flow：用 Flow 與 IE WPH 預估各站到站時間",
+      "refs": [
+        "2673:forecast",
+        "2673:forecast-link"
+      ],
+      "link": null,
+      "image": true,
+      "mobile": true
+    },
+    {
+      "id": "stage",
+      "title": "Module → Stage → Step：從加工模組看到細部步驟",
+      "refs": [
+        "2673:stage",
+        "2673:stage-link"
+      ],
+      "link": "flow.html#stage",
+      "image": true,
+      "mobile": true
+    },
+    {
+      "id": "srts",
+      "title": "SRTS：Flow 站點的 Sampling rule 與抽測比例",
+      "refs": [
+        "2673:srts",
+        "2673:srts-link"
+      ],
+      "link": null,
+      "image": true,
+      "mobile": true
+    },
+    {
+      "id": "material",
+      "title": "以 FOUP 為主詞：查詢裝載的 Lot",
+      "refs": [
+        "2671:material",
+        "2671:material-link"
+      ],
+      "link": null,
+      "image": true,
+      "mobile": true
+    },
+    {
+      "id": "lotstatus",
+      "title": "Lot Process／Status：RQHBE 五種狀態",
+      "refs": [
+        "2676:status"
+      ],
+      "link": null,
+      "image": true,
+      "mobile": true
+    },
+    {
+      "id": "mcs",
+      "title": "MCS 傳送歷史：Macro 與 Micro command",
+      "refs": [
+        "2672:mcs-transfer",
+        "2672:mcs-history"
+      ],
+      "link": null,
+      "image": true,
+      "mobile": true
+    },
+    {
+      "id": "stream",
+      "title": "Stream：Flow × IE WPH 預估到站",
+      "refs": [
+        "2673:stream",
+        "2673:stream-link"
+      ],
+      "link": null,
+      "image": true,
+      "mobile": true
+    },
+    {
+      "id": "owner",
+      "title": "機群與課別：由機台查管理歸屬",
+      "refs": [
+        "2674:owner",
+        "2674:owner-link"
+      ],
+      "link": null,
+      "image": true,
+      "mobile": true
+    },
+    {
+      "id": "bmir",
+      "title": "BMIR：OHB 空位時，呼叫 RTD 計算下一批貨",
+      "refs": [
+        "2674:bmir-link",
+        "2674:bmir"
+      ],
+      "link": null,
+      "image": true,
+      "mobile": true
+    },
+    {
+      "id": "flowkey",
+      "title": "Lot 與 Flow：沿 Part／Mainpd_id 找流程",
+      "refs": [
+        "2673:flow-link"
+      ],
+      "link": "flow.html#stage",
+      "image": false,
+      "mobile": false
+    },
+    {
+      "id": "eqpkey",
+      "title": "EQP_ID：在這条資料路徑中識別機台",
+      "refs": [
+        "2676:eqp-id",
+        "2677:eqp-id"
+      ],
+      "link": null,
+      "image": false,
+      "mobile": false
+    },
+    {
+      "id": "retired",
+      "title": "原圖待校正關係：Lot 裝載與 Step 歷史須分清",
+      "refs": [
+        "2672:cast-link"
+      ],
+      "link": null,
+      "image": false,
+      "mobile": false
+    }
+  ]
+}

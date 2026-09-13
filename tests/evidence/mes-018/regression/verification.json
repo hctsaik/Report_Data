@@ -1,0 +1,22 @@
+[
+  "1440/lot: subject button, actual ER pointer, dialog, screenshot",
+  "1440/carrier: subject button, actual ER pointer, dialog, screenshot",
+  "1440/equipment: subject button, actual ER pointer, dialog, screenshot",
+  "1440/flow: subject button, actual ER pointer, dialog, screenshot",
+  "1440/recipe: subject button, actual ER pointer, dialog, screenshot",
+  {
+    "width": 1440,
+    "all_node_paths": 277,
+    "errors": []
+  },
+  "390/lot: subject button, actual ER pointer, dialog, screenshot",
+  "390/carrier: subject button, actual ER pointer, dialog, screenshot",
+  "390/equipment: subject button, actual ER pointer, dialog, screenshot",
+  "390/flow: subject button, actual ER pointer, dialog, screenshot",
+  "390/recipe: subject button, actual ER pointer, dialog, screenshot",
+  {
+    "width": 390,
+    "all_node_paths": 277,
+    "errors": []
+  }
+]

@@ -1,0 +1,13 @@
+{
+  "files": {
+    "er-atlas.html": "30e562e11279ce44a458a4724ffd2f30364d80d10793b593edfa59a2fa5efda4",
+    "er-atlas.js": "17f089b8dd0564e505664994aaec2fa1e0a1c1a11c36505a3329a751145aa65b",
+    "er-atlas.css": "51a855555e568bba9ed3c33ae49120783b26fd050584468780b5c3db1a8f5d00",
+    "er-focus.js": "53a9ebbd457f1fb1552fbee9bba6a61d526f414041224880bccfb8b97214109b",
+    "er-focus.css": "8ee55debfc404c83d0883252968cbd3abef99c81c0116d8672a4152a50fbb3ff",
+    "ER/INTEGRATED/fab-er-v2.svg": "f0f422a53282d4520b93086a6b54f76564de304cdd68b7cfdf6d4c400833f0a7",
+    "ER/INTEGRATED/er-model-v2.json": "59a297b01b3df40776eb7f37a80044351e30c8256404c3b25fa915c6c851a0e7"
+  },
+  "tests": "focused, regression, final_checks passed",
+  "user_acceptance": "pending"
+}

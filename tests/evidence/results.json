@@ -1,0 +1,121 @@
+{
+  "checks": [
+    "Offline file loading and forward/backward chapter navigation",
+    "Three wafer selections and empty slot have coherent records",
+    "Whole-lot transfer preserves identities, maps all slots, handles empty selection, resets",
+    "Keyboard wafer selection retains focus",
+    "Image zoom, native-size scrolling, Escape and focus restoration",
+    "Every quiz wrong/right explanation and recomputed summary",
+    "21 chapter/viewport screenshots, no overflow, images loaded, mobile navigation and expanded content",
+    "Vision-AI-style deep link and invalid hash fallback"
+  ],
+  "viewports": [
+    {
+      "width": 1440,
+      "section": "fab",
+      "overflow": false
+    },
+    {
+      "width": 1440,
+      "section": "wafer",
+      "overflow": false
+    },
+    {
+      "width": 1440,
+      "section": "foup",
+      "overflow": false
+    },
+    {
+      "width": 1440,
+      "section": "slot",
+      "overflow": false
+    },
+    {
+      "width": 1440,
+      "section": "lot",
+      "overflow": false
+    },
+    {
+      "width": 1440,
+      "section": "explore",
+      "overflow": false
+    },
+    {
+      "width": 1440,
+      "section": "check",
+      "overflow": false
+    },
+    {
+      "width": 390,
+      "section": "fab",
+      "overflow": false
+    },
+    {
+      "width": 390,
+      "section": "wafer",
+      "overflow": false
+    },
+    {
+      "width": 390,
+      "section": "foup",
+      "overflow": false
+    },
+    {
+      "width": 390,
+      "section": "slot",
+      "overflow": false
+    },
+    {
+      "width": 390,
+      "section": "lot",
+      "overflow": false
+    },
+    {
+      "width": 390,
+      "section": "explore",
+      "overflow": false
+    },
+    {
+      "width": 390,
+      "section": "check",
+      "overflow": false
+    },
+    {
+      "width": 360,
+      "section": "fab",
+      "overflow": false
+    },
+    {
+      "width": 360,
+      "section": "wafer",
+      "overflow": false
+    },
+    {
+      "width": 360,
+      "section": "foup",
+      "overflow": false
+    },
+    {
+      "width": 360,
+      "section": "slot",
+      "overflow": false
+    },
+    {
+      "width": 360,
+      "section": "lot",
+      "overflow": false
+    },
+    {
+      "width": 360,
+      "section": "explore",
+      "overflow": false
+    },
+    {
+      "width": 360,
+      "section": "check",
+      "overflow": false
+    }
+  ],
+  "errors": [],
+  "result": "PASS"
+}

@@ -1,0 +1,21 @@
+# Local Python and editor caches
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.DS_Store
+Thumbs.db
+
+# Reproducible browser screenshots; retain audit JSON and review documents
+tests/evidence/**/*.png
+tests/evidence/**/*.jpg
+tests/evidence/**/*.jpeg
+tests/evidence/**/*.webp
+tests/evidence/**/*.mp4
+tests/evidence/**/*.webm
+tests/evidence/**/*.zip
+
+# Local credentials and environment overrides
+.env
+.env.*
+!.env.example

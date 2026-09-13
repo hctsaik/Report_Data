@@ -1,0 +1,95 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="1530" viewBox="0 0 1800 1530" role="img" aria-labelledby="title desc">
+<title id="title">LOT、FOUP、Port 與機台</title>
+<desc id="desc">依照片 2671.jpg 重畫；矩形、菱形、圓形及無向連線保留。原先不清楚的文字已由使用者確認。</desc>
+<style>text{font-family:"Microsoft JhengHei","Noto Sans TC",Arial,sans-serif;fill:#182635}.label{font-size:21px;font-weight:600}.detail{font-size:19px}.issue{fill:#a34c00;font-size:16px;font-weight:700}.edge{fill:none;stroke:#34485c;stroke-width:3;stroke-linejoin:round;stroke-linecap:round}.shape{stroke:#63798d;stroke-width:2;fill:white}</style>
+<rect width="1800" height="1530" fill="white"/>
+<text x="48" y="48" font-size="28" font-weight="700">2671 · LOT、FOUP、Port 與機台</text>
+<text x="48" y="82" font-size="17" fill="#52657a">原圖結構重繪 · 文字與線條均可編輯 · 原圖疑義文字已確認</text>
+<g id="connections">
+<polyline id="edge-1" class="edge" data-from="material" data-to="material-link" points="600,236.0 600,305.0"/>
+<polyline id="edge-2" class="edge" data-from="material-link" data-to="lot" points="600,475.0 600,554.0"/>
+<polyline id="edge-3" class="edge" data-from="lot" data-to="port-link" points="750.0,610 875.0,610"/>
+<polyline id="edge-4" class="edge" data-from="port-link" data-to="port" points="1225.0,610 1360.0,610"/>
+<polyline id="edge-5" class="edge" data-from="lot" data-to="slot" points="450.0,610 220,610 220,775.0"/>
+<polyline id="edge-6" class="edge" data-from="slot" data-to="cast" points="220,945.0 220,1120 450.0,1120"/>
+<polyline id="edge-7" class="edge" data-from="lot" data-to="cast-link" points="600,666.0 600,775.0"/>
+<polyline id="edge-8" class="edge" data-from="cast-link" data-to="cast" points="600,945.0 600,1064.0"/>
+<polyline id="edge-9" class="edge" data-from="lot" data-to="lot-eqp" points="600,666.0 600,720 1050,720 1050,775.0"/>
+<polyline id="edge-10" class="edge" data-from="port" data-to="has" points="1510,666.0 1510,775.0"/>
+<polyline id="edge-11" class="edge" data-from="has" data-to="eqp" points="1510,945.0 1510,1064.0"/>
+<polyline id="edge-12" class="edge" data-from="lot-eqp" data-to="eqp" points="1050,945.0 1050,1010 1510,1010 1510,1064.0"/>
+<polyline id="edge-13" class="edge" data-from="cast" data-to="location" points="750.0,1120 855.0,1120"/>
+<polyline id="edge-14" class="edge" data-from="location" data-to="eqp" points="1245.0,1120 1360.0,1120"/>
+<polyline id="edge-15" class="edge" data-from="cast" data-to="predispatch" points="750.0,1120 790,1120 790,1380 800.0,1380"/>
+<polyline id="edge-16" class="edge" data-from="predispatch" data-to="eqp" points="1300.0,1380 1320,1380 1320,1120 1360.0,1120"/>
+</g><g id="nodes">
+<g id="material" data-kind="rect" data-x="600" data-y="180" data-w="360" data-h="112">
+<rect class="shape" x="420.0" y="124.0" width="360" height="112"/>
+<text class="label" x="600" y="166" text-anchor="middle" dominant-baseline="central">Foup</text>
+<text class="detail" x="600" y="194" text-anchor="middle" dominant-baseline="central">Siview.FRLot_MtrlContnrs</text>
+</g>
+<g id="material-link" data-kind="diamond" data-x="600" data-y="390" data-w="360" data-h="170">
+<polygon class="shape" points="600,305.0 780.0,390 600,475.0 420.0,390"/>
+<text class="label" x="600" y="376" text-anchor="middle" dominant-baseline="central">放在</text>
+<text class="detail" x="600" y="404" text-anchor="middle" dominant-baseline="central">Siview.FrlotMtrl</text>
+</g>
+<g id="lot" data-kind="rect" data-x="600" data-y="610" data-w="300" data-h="112">
+<rect class="shape" x="450.0" y="554.0" width="300" height="112" style="fill:#d4ebff;stroke:#2585c6;stroke-width:3"/>
+<text class="label" x="600" y="596" text-anchor="middle" dominant-baseline="central">LOT</text>
+<text class="detail" x="600" y="624" text-anchor="middle" dominant-baseline="central">Siview.Frlot</text>
+</g>
+<g id="port-link" data-kind="diamond" data-x="1050" data-y="610" data-w="350" data-h="170">
+<polygon class="shape" points="1050,525.0 1225.0,610 1050,695.0 875.0,610"/>
+<text class="label" x="1050" y="596" text-anchor="middle" dominant-baseline="central">EI 在</text>
+<text class="detail" x="1050" y="624" text-anchor="middle" dominant-baseline="central">Siview.Freqp_Lot</text>
+</g>
+<g id="port" data-kind="rect" data-x="1510" data-y="610" data-w="300" data-h="112">
+<rect class="shape" x="1360.0" y="554.0" width="300" height="112"/>
+<text class="label" x="1510" y="596" text-anchor="middle" dominant-baseline="central">Port</text>
+<text class="detail" x="1510" y="624" text-anchor="middle" dominant-baseline="central">Siview.Port</text>
+</g>
+<g id="slot" data-kind="diamond" data-x="220" data-y="860" data-w="340" data-h="170">
+<polygon class="shape" points="220,775.0 390.0,860 220,945.0 50.0,860"/>
+<text class="label" x="220" y="846" text-anchor="middle" dominant-baseline="central">在 Slot</text>
+<text class="detail" x="220" y="874" text-anchor="middle" dominant-baseline="central">Siview.fhwlths</text>
+</g>
+<g id="cast-link" data-kind="diamond" data-x="600" data-y="860" data-w="340" data-h="170">
+<polygon class="shape" points="600,775.0 770.0,860 600,945.0 430.0,860"/>
+<text class="label" x="600" y="846" text-anchor="middle" dominant-baseline="central">放在</text>
+<text class="detail" x="600" y="874" text-anchor="middle" dominant-baseline="central">Siview.Frcast_lot</text>
+</g>
+<g id="lot-eqp" data-kind="diamond" data-x="1050" data-y="860" data-w="350" data-h="170">
+<polygon class="shape" points="1050,775.0 1225.0,860 1050,945.0 875.0,860"/>
+<text class="label" x="1050" y="846" text-anchor="middle" dominant-baseline="central">預到</text>
+<text class="detail" x="1050" y="874" text-anchor="middle" dominant-baseline="central">Siview.Frlot_EQP</text>
+</g>
+<g id="has" data-kind="diamond" data-x="1510" data-y="860" data-w="300" data-h="170">
+<polygon class="shape" points="1510,775.0 1660.0,860 1510,945.0 1360.0,860"/>
+<text class="label" x="1510" y="846" text-anchor="middle" dominant-baseline="central">有</text>
+<text class="detail" x="1510" y="874" text-anchor="middle" dominant-baseline="central">eqp_id</text>
+</g>
+<g id="cast" data-kind="rect" data-x="600" data-y="1120" data-w="300" data-h="112">
+<rect class="shape" x="450.0" y="1064.0" width="300" height="112"/>
+<text class="label" x="600" y="1106" text-anchor="middle" dominant-baseline="central">Foup</text>
+<text class="detail" x="600" y="1134" text-anchor="middle" dominant-baseline="central">Siview.Frcast</text>
+</g>
+<g id="location" data-kind="diamond" data-x="1050" data-y="1120" data-w="390" data-h="190">
+<polygon class="shape" points="1050,1025.0 1245.0,1120 1050,1215.0 855.0,1120"/>
+<text class="label" x="1050" y="1092" text-anchor="middle" dominant-baseline="central">位於</text>
+<text class="detail" x="1050" y="1120" text-anchor="middle" dominant-baseline="central">eqp_id</text>
+<text class="detail" x="1050" y="1148" text-anchor="middle" dominant-baseline="central">Siview.CSFHDOPHS</text>
+</g>
+<g id="eqp" data-kind="rect" data-x="1510" data-y="1120" data-w="300" data-h="112">
+<rect class="shape" x="1360.0" y="1064.0" width="300" height="112"/>
+<text class="label" x="1510" y="1106" text-anchor="middle" dominant-baseline="central">機台</text>
+<text class="detail" x="1510" y="1134" text-anchor="middle" dominant-baseline="central">Siview.freqp</text>
+</g>
+<g id="predispatch" data-kind="diamond" data-x="1050" data-y="1380" data-w="500" data-h="210">
+<polygon class="shape" points="1050,1275.0 1300.0,1380 1050,1485.0 800.0,1380"/>
+<text class="label" x="1050" y="1352" text-anchor="middle" dominant-baseline="central">預派機台</text>
+<text class="detail" x="1050" y="1380" text-anchor="middle" dominant-baseline="central">eqp_id</text>
+<text class="detail" x="1050" y="1408" text-anchor="middle" dominant-baseline="central">SIVIEW.CSFRPREDISPATCH</text>
+</g>
+</g>
+<text x="60" y="1500" font-size="17" fill="#68788a">原圖獨立小字：siview.fhwlths（未另接線）</text>
+</svg>

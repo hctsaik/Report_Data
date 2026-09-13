@@ -1,0 +1,35 @@
+[
+  {
+    "task": "course-end",
+    "file": "operations.html",
+    "before": "http://127.0.0.1:4175/operations.html#lab",
+    "primary": "回到本課開頭 ↺",
+    "courseNext": "flow.html",
+    "after": "http://127.0.0.1:4175/operations.html#tool"
+  },
+  {
+    "task": "course-end",
+    "file": "flow.html",
+    "before": "http://127.0.0.1:4175/flow.html#lab",
+    "primary": "回到本課開頭 ↺",
+    "courseNext": "index.html",
+    "after": "http://127.0.0.1:4175/flow.html#flow"
+  },
+  {
+    "task": "ER UI back",
+    "first": "Lot 與 Wafer：同一批中的不同晶圓",
+    "second": "EQP：執行作業的設備",
+    "restored": "Lot 與 Wafer：同一批中的不同晶圓"
+  },
+  {
+    "task": "ER to lesson",
+    "url": "http://127.0.0.1:4175/operations.html?erReturn=mtzp6ikq-les0r8#port",
+    "returnLinks": 1,
+    "returnText": "← 返回 ER：EQP：執行作業的設備"
+  },
+  {
+    "task": "lesson back to ER",
+    "url": "http://127.0.0.1:4175/er-atlas.html?erEntity=equipment",
+    "selection": "EQP：執行作業的設備"
+  }
+]

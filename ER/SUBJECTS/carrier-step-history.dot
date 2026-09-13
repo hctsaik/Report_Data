@@ -1,0 +1,10 @@
+graph ER {
+graph [rankdir=LR, nodesep=.4, ranksep=.65, splines=polyline, outputorder=edgesfirst, pad=.3, bgcolor="white"];
+node [fontname="Microsoft JhengHei",fontsize=18,margin=".16,.12"];
+edge [color="#70869a",penwidth=1.8];
+"n_2672_cast-link" [id="n_2672_cast-link",label="Lot 在 Foup 內\nSiview.frcast",shape=diamond,color="#6a7d8e",fillcolor="#ffffff",style=filled,penwidth=2];
+"t_55072ef91a15" [id="t_55072ef91a15",label="本圖主詞\nFoup\nSiview.Frcast",shape=box,color="#008775",fillcolor="#edf9f5",style=filled,penwidth=4];
+"t_b474e516b8d5" [id="t_b474e516b8d5",label="Step 歷史\nF12DM.DM_Lot_step_st",shape=box,color="#61748b",fillcolor="#f5f7fa",style=filled,penwidth=2];
+"t_55072ef91a15" -- "n_2672_cast-link" [id="e_n_2672_cast-link_t_55072ef91a15"];
+"n_2672_cast-link" -- "t_b474e516b8d5" [id="e_n_2672_cast-link_t_b474e516b8d5"];
+}

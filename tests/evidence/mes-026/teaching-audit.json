@@ -1,0 +1,1416 @@
+{
+  "nodes": [
+    {
+      "id": "t_b293b57a5ae2",
+      "refs": [
+        "2671:material"
+      ],
+      "topic": "material",
+      "title": "Foup",
+      "meaning": "來源以 Siview.FrlotMtrl 關係連接 Lot 與 Siview.FRLot_MtrlContnrs；此容器資料與 FRCAST 分開保留。",
+      "image": null,
+      "visibleImage": false
+    },
+    {
+      "id": "n_2671_material-link",
+      "refs": [
+        "2671:material-link"
+      ],
+      "topic": "material",
+      "title": "放在",
+      "meaning": "來源以 Siview.FrlotMtrl 關係連接 Lot 與 Siview.FRLot_MtrlContnrs；此容器資料與 FRCAST 分開保留。",
+      "image": null,
+      "visibleImage": false
+    },
+    {
+      "id": "t_cfc81de70314",
+      "refs": [
+        "2671:lot",
+        "2672:lot",
+        "2673:lot"
+      ],
+      "topic": "lot",
+      "title": "LOT",
+      "meaning": "藍框標出 Lot 資料實體。Lot 本身不是盒子；沿著「放在」關係，才會找到承載它的 FOUP。不同 schema 證據的節點仍各自保留。",
+      "image": "examples/fab-physical-data-v01.png",
+      "visibleImage": true
+    },
+    {
+      "id": "n_2671_port-link",
+      "refs": [
+        "2671:port-link"
+      ],
+      "topic": "port",
+      "title": "EI 在",
+      "meaning": "Port 是設備的交接位置。先以 EQP 識別機台，再辨認 Port；Lot 與 Port 的來源關係列出 FREQP_LOT。",
+      "image": null,
+      "visibleImage": false
+    },
+    {
+      "id": "t_a43ff774d728",
+      "refs": [
+        "2671:port"
+      ],
+      "topic": "port",
+      "title": "Port",
+      "meaning": "Port 是設備的交接位置。先以 EQP 識別機台，再辨認 Port；Lot 與 Port 的來源關係列出 FREQP_LOT。",
+      "image": null,
+      "visibleImage": false
+    },
+    {
+      "id": "n_2671_slot",
+      "refs": [
+        "2671:slot"
+      ],
+      "topic": "contents",
+      "title": "FOUP 內容物（Wafer）歷史",
+      "meaning": "Siview.fhwlths 記錄 FOUP 內容物（Wafer）的歷史：在什麼時間點，這個 FOUP 放了哪些 Wafer。每次 Split／Merge 進 FOUP 時更新。",
+      "image": null,
+      "visibleImage": false
+    },
+    {
+      "id": "n_2671_cast-link",
+      "refs": [
+        "2671:cast-link"
+      ],
+      "topic": "load",
+      "title": "放在",
+      "meaning": "FRCAST_LOT 連接 Lot 與 FOUP。Lot 表示生產批次，FOUP 是承載晶圓的實體容器。",
+      "image": null,
+      "visibleImage": false
+    },
+    {
+      "id": "n_2671_lot-eqp",
+      "refs": [
+        "2671:lot-eqp"
+      ],
+      "topic": "available",
+      "title": "帶到",
+      "meaning": "Siview.Frlot_EQP 表示這個 Lot 在目前站點有可用機台的關係。",
+      "image": null,
+      "visibleImage": false
+    },
+    {
+      "id": "n_2671_has",
+      "refs": [
+        "2671:has"
+      ],
+      "topic": "port",
+      "title": "有",
+      "meaning": "Port 是設備的交接位置。先以 EQP 識別機台，再辨認 Port；Lot 與 Port 的來源關係列出 FREQP_LOT。",
+      "image": null,
+      "visibleImage": false
+    },
+    {
+      "id": "t_55072ef91a15",
+      "refs": [
+        "2671:cast",
+        "2672:cast"
+      ],
+      "topic": "carrier",
+      "title": "Foup",
+      "meaning": "綠框標出 FOUP 資料實體。FRCAST 描述載具，FRCAST_LOT 表達與 Lot 的裝載關係；兩者不是同一個物件。",
+      "image": "examples/fab-physical-data-v01.png",
+      "visibleImage": true
+    },
+    {
+      "id": "n_2671_location",
+      "refs": [
+        "2671:location"
+      ],
+      "topic": "location",
+      "title": "位於",
+      "meaning": "Siview.CSFHDOPHS 以 eqp_id 表達 FOUP 與設備的位置關聯。",
+      "image": null,
+      "visibleImage": false
+    },
+    {
+      "id": "t_7f282520afb8",
+      "refs": [
+        "2671:eqp",
+        "2674:eqp"
+      ],
+      "topic": "equipment",
+      "title": "機台",
+      "meaning": "橘框標出 EQP 資料實體。設備可與 Port、Chamber、派工及 Recipe 配置相連；「預派」不能直接證明載具已經到達。",
+      "image": "examples/fab-physical-data-v01.png",
+      "visibleImage": true
+    },
+    {
+      "id": "n_2671_predispatch",
+      "refs": [
+        "2671:predispatch"
+      ],
+      "topic": "predispatch",
+      "title": "預派機台",
+      "meaning": "「預派機台／SIVIEW.CSFRPREDISPATCH」表示派工系統預先安排這個 Lot 將被派到的目標機台。Lot 是主要對象，FOUP 是輔助關聯。這和「帶到／FRLOT_EQP」表示本站可用機台不同，也不表示已到機台或已開始加工。",
+      "image": "assets/mes-023/lot-predispatch-v1.png",
+      "visibleImage": true
+    },
+    {
+      "id": "t_d7f7aa94ad34",
+      "refs": [
+        "2672:predispatch"
+      ],
+      "topic": "prehistory",
+      "title": "預派記錄",
+      "meaning": "Siview.CSFHPREDISP 保存預派歷史，來源以 Lot_ID 關係連接 Lot。它描述派工安排的歷程。",
+      "image": null,
+      "visibleImage": false
+    },
+    {
+      "id": "n_2672_pre-link",
+      "refs": [
+        "2672:pre-link"
+      ],
+      "topic": "prehistory",
+      "title": "預派機台",
+      "meaning": "Siview.CSFHPREDISP 保存預派歷史，來源以 Lot_ID 關係連接 Lot。它描述派工安排的歷程。",
+      "image": null,
+      "visibleImage": false
+    },
+    {
+      "id": "t_178593e830a1",
+      "refs": [
+        "2672:move",
+        "2675:move"
+      ],
+      "topic": "move",
+      "title": "MOVE 歷史",
+      "meaning": "F12DM.DM_Move_Step_bth 是 Lot 的 Move 歷史。Move 計算 Lot 過站事件，重工過站也計入；FOUP 搬運次數不能代替 Move 次數。",
+      "image": null,
+      "visibleImage": false
+    },
+    {
+      "id": "n_2672_move-link",
+      "refs": [
+        "2672:move-link"
+      ],
+      "topic": "move",
+      "title": "機台 MOVE",
+      "meaning": "F12DM.DM_Move_Step_bth 是 Lot 的 Move 歷史。Move 計算 Lot 過站事件，重工過站也計入；FOUP 搬運次數不能代替 Move 次數。",
+      "image": null,
+      "visibleImage": false
+    },
+    {
+      "id": "n_2672_summary",
+      "refs": [
+        "2672:summary"
+      ],
+      "topic": "lotstep",
+      "title": "Lot Step 歷史",
+      "meaning": "Lot Step 歷史以 Lot 為主詞。先確認是哪一批，再對照它的站點紀錄；來源以站點 Summary／Lot_id 連接 LOT 與 F12DM.DM_Lot_step_st。",
+      "image": null,
+      "visibleImage": false
+    },
+    {
+      "id": "t_b474e516b8d5",
+      "refs": [
+        "2672:step"
+      ],
+      "topic": "lotstep",
+      "title": "Lot Step 歷史",
+      "meaning": "Lot Step 歷史以 Lot 為主詞。先確認是哪一批，再對照它的站點紀錄；來源以站點 Summary／Lot_id 連接 LOT 與 F12DM.DM_Lot_step_st。",
+      "image": null,
+      "visibleImage": false
+    },
+    {
+      "id": "n_2672_all-actions",
+      "refs": [
+        "2672:all-actions"
+      ],
+      "topic": "actions",
+      "title": "Lot 所有動作",
+      "meaning": "Siview.FHOPEHS_S 由 Lot_ID 關係連回批次，提供 Lot 動作／過貨歷史的查詢上下文。",
+      "image": null,
+      "visibleImage": false
+    },
+    {
+      "id": "t_a24726d7a0b3",
+      "refs": [
+        "2672:history",
+        "2675:history"
+      ],
+      "topic": "actions",
+      "title": "批貨歷史",
+      "meaning": "Siview.FHOPEHS_S 由 Lot_ID 關係連回批次，提供 Lot 動作／過貨歷史的查詢上下文。",
+      "image": null,
+      "visibleImage": false
+    },
+    {
+      "id": "n_2672_cast-link",
+      "refs": [
+        "2672:cast-link"
+      ],
+      "topic": "retired",
+      "title": "Lot 在 Foup 內",
+      "meaning": "這個原圖節點以 FRCAST 標示「Lot 在 Foup 內」並連到 Step，已由使用者指出語意不正確；右側教學關聯已撤下這條支線。",
+      "image": null,
+      "visibleImage": false
+    },
+    {
+      "id": "n_2672_mes-transfer",
+      "refs": [
+        "2672:mes-transfer"
+      ],
+      "topic": "transfer",
+      "title": "MES 傳送歷史",
+      "meaning": "傳送歷史以 Carrier 為主詞。MES 傳送紀錄與 MCS 工作歷史是不同資料來源；MCS 關係列出 Carrier_id 與 transfer_job_id。",
+      "image": null,
+      "visibleImage": false
+    },
+    {
+      "id": "n_2672_transfer",
+      "refs": [
+        "2672:transfer"
+      ],
+      "topic": "transfer",
+      "title": "傳送歷史",
+      "meaning": "傳送歷史以 Carrier 為主詞。MES 傳送紀錄與 MCS 工作歷史是不同資料來源；MCS 關係列出 Carrier_id 與 transfer_job_id。",
+      "image": null,
+      "visibleImage": false
+    },
+    {
+      "id": "n_2672_mcs-transfer",
+      "refs": [
+        "2672:mcs-transfer"
+      ],
+      "topic": "transfer",
+      "title": "MCS 傳送歷史",
+      "meaning": "傳送歷史以 Carrier 為主詞。MES 傳送紀錄與 MCS 工作歷史是不同資料來源；MCS 關係列出 Carrier_id 與 transfer_job_id。",
+      "image": null,
+      "visibleImage": false
+    },
+    {
+      "id": "n_2672_mcs-history",
+      "refs": [
+        "2672:mcs-history"
+      ],
+      "topic": "transfer",
+      "title": "MCS 傳送歷史",
+      "meaning": "傳送歷史以 Carrier 為主詞。MES 傳送紀錄與 MCS 工作歷史是不同資料來源；MCS 關係列出 Carrier_id 與 transfer_job_id。",
+      "image": null,
+      "visibleImage": false
+    },
+    {
+      "id": "n_2672_qtime-link",
+      "refs": [
+        "2672:qtime-link"
+      ],
+      "topic": "qtime",
+      "title": "Qtime 站點",
+      "meaning": "QTime 是同一 Lot 在指定起算事件與停止事件之間的時間限制，用來管控製程間隔。起訖可能是某站出站到指定站進站，也可能跨站或以出站停止；不能一律當成排隊時間，也不是整個 Lot 的總製造時間。",
+      "image": "assets/mes-009/qtime.png",
+      "visibleImage": true
+    },
+    {
+      "id": "t_f1dc5d6bcd1f",
+      "refs": [
+        "2672:qtime"
+      ],
+      "topic": "qtime",
+      "title": "Qtime 歷史",
+      "meaning": "QTime 是同一 Lot 在指定起算事件與停止事件之間的時間限制，用來管控製程間隔。起訖可能是某站出站到指定站進站，也可能跨站或以出站停止；不能一律當成排隊時間，也不是整個 Lot 的總製造時間。",
+      "image": "assets/mes-009/qtime.png",
+      "visibleImage": true
+    },
+    {
+      "id": "t_1c25059c913b",
+      "refs": [
+        "2673:wph"
+      ],
+      "topic": "wph",
+      "title": "機群 WPH：生管訂定的預期產出",
+      "meaning": "依廠內定義：生產管理部門為每個機群訂定 WPH（wafer per hour），也就是預期每小時晶圓產出量。這是機群的預期產出標準，不是個別機台的實測值，也不是百分比。",
+      "image": "assets/mes-019/group-wph-v1.png",
+      "visibleImage": true
+    },
+    {
+      "id": "n_2673_wph-link",
+      "refs": [
+        "2673:wph-link"
+      ],
+      "topic": "wph",
+      "title": "機群 WPH：生管訂定的預期產出",
+      "meaning": "依廠內定義：生產管理部門為每個機群訂定 WPH（wafer per hour），也就是預期每小時晶圓產出量。這是機群的預期產出標準，不是個別機台的實測值，也不是百分比。",
+      "image": "assets/mes-019/group-wph-v1.png",
+      "visibleImage": true
+    },
+    {
+      "id": "t_e9c0addd1e0c",
+      "refs": [
+        "2673:lr",
+        "2673:lr-eqp"
+      ],
+      "topic": "recipe",
+      "title": "LR 對映的機台",
+      "meaning": "紫框分別指出 LR 與 ER 相關資料。ER 連線呈現配置關係；要知道某批實際用了哪個 Physical Recipe，還需要該次執行紀錄及版本證據。",
+      "image": "assets/mes-009/recipes.png",
+      "visibleImage": true
+    },
+    {
+      "id": "t_755ca3b22919",
+      "refs": [
+        "2673:pd-eqp"
+      ],
+      "topic": "pd",
+      "title": "PD_ID 與機台",
+      "meaning": "來源保留 Flow PD、站點 PD_ID 與 PD 對應機台資料；另一來源以 SYSTEMKEY 串接 FRPD 和 FRPD_EQP。",
+      "image": null,
+      "visibleImage": false
+    },
+    {
+      "id": "n_2673_pd-eqp-link",
+      "refs": [
+        "2673:pd-eqp-link"
+      ],
+      "topic": "pd",
+      "title": "PD_ID 對映的機台",
+      "meaning": "來源保留 Flow PD、站點 PD_ID 與 PD 對應機台資料；另一來源以 SYSTEMKEY 串接 FRPD 和 FRPD_EQP。",
+      "image": null,
+      "visibleImage": false
+    },
+    {
+      "id": "t_1bc56644c54f",
+      "refs": [
+        "2673:pd"
+      ],
+      "topic": "pd",
+      "title": "Flow PD",
+      "meaning": "來源保留 Flow PD、站點 PD_ID 與 PD 對應機台資料；另一來源以 SYSTEMKEY 串接 FRPD 和 FRPD_EQP。",
+      "image": null,
+      "visibleImage": false
+    },
+    {
+      "id": "t_1dff83e775cf",
+      "refs": [
+        "2673:part"
+      ],
+      "topic": "part",
+      "title": "PART 定義",
+      "meaning": "Siview.frprodspec 保存 PART 定義；來源以 Mainpd_id 對應 Flow 相關資料。",
+      "image": null,
+      "visibleImage": false
+    },
+    {
+      "id": "t_c2ca3a20806b",
+      "refs": [
+        "2673:recipe"
+      ],
+      "topic": "recipegroup",
+      "title": "Recipe Group",
+      "meaning": "Siview.CSFRRCPGRPST 是來源中的 Recipe Group 資料，連接群組對應的上下文。",
+      "image": null,
+      "visibleImage": false
+    },
+    {
+      "id": "n_2673_lr-link",
+      "refs": [
+        "2673:lr-link"
+      ],
+      "topic": "recipe",
+      "title": "LR 與機台",
+      "meaning": "紫框分別指出 LR 與 ER 相關資料。ER 連線呈現配置關係；要知道某批實際用了哪個 Physical Recipe，還需要該次執行紀錄及版本證據。",
+      "image": "assets/mes-009/recipes.png",
+      "visibleImage": true
+    },
+    {
+      "id": "n_2673_pd-link",
+      "refs": [
+        "2673:pd-link"
+      ],
+      "topic": "pd",
+      "title": "站點的 PD_ID",
+      "meaning": "來源保留 Flow PD、站點 PD_ID 與 PD 對應機台資料；另一來源以 SYSTEMKEY 串接 FRPD 和 FRPD_EQP。",
+      "image": null,
+      "visibleImage": false
+    },
+    {
+      "id": "n_2673_part-link",
+      "refs": [
+        "2673:part-link"
+      ],
+      "topic": "part",
+      "title": "PART 對映",
+      "meaning": "Siview.frprodspec 保存 PART 定義；來源以 Mainpd_id 對應 Flow 相關資料。",
+      "image": null,
+      "visibleImage": false
+    },
+    {
+      "id": "n_2673_recipe-link",
+      "refs": [
+        "2673:recipe-link"
+      ],
+      "topic": "recipegroup",
+      "title": "製程程式群組對照",
+      "meaning": "Siview.CSFRRCPGRPST 是來源中的 Recipe Group 資料，連接群組對應的上下文。",
+      "image": null,
+      "visibleImage": false
+    },
+    {
+      "id": "t_604a111deb74",
+      "refs": [
+        "2673:future"
+      ],
+      "topic": "future",
+      "title": "未來的 Future Hold",
+      "meaning": "Future Hold 是對 Lot 預先登記的管制條件。當這個 Lot 到達指定站點與觸發事件時，才依規則形成有效 Hold；登記存在不代表現在已被 Hold。",
+      "image": "assets/mes-009/future.png",
+      "visibleImage": true
+    },
+    {
+      "id": "n_2673_future-link",
+      "refs": [
+        "2673:future-link"
+      ],
+      "topic": "future",
+      "title": "Future Hold",
+      "meaning": "Future Hold 是對 Lot 預先登記的管制條件。當這個 Lot 到達指定站點與觸發事件時，才依規則形成有效 Hold；登記存在不代表現在已被 Hold。",
+      "image": "assets/mes-009/future.png",
+      "visibleImage": true
+    },
+    {
+      "id": "t_52a86ba40707",
+      "refs": [
+        "2673:product-hold"
+      ],
+      "topic": "producthold",
+      "title": "Product Hold",
+      "meaning": "Siview.CSFRPRHold 是 Product Hold 資料，來源以 Lot_ID 關係連回 Lot。它與 Future Hold 分列為不同管制資料。",
+      "image": null,
+      "visibleImage": false
+    },
+    {
+      "id": "n_2673_hold-link",
+      "refs": [
+        "2673:hold-link"
+      ],
+      "topic": "producthold",
+      "title": "有 Prod Hold",
+      "meaning": "Siview.CSFRPRHold 是 Product Hold 資料，來源以 Lot_ID 關係連回 Lot。它與 Future Hold 分列為不同管制資料。",
+      "image": null,
+      "visibleImage": false
+    },
+    {
+      "id": "n_2673_flow-link",
+      "refs": [
+        "2673:flow-link"
+      ],
+      "topic": "flowkey",
+      "title": "Flow 定義",
+      "meaning": "這個關係把 Lot 連到 Flow 定義，原圖列出的對應是 Part／Mainpd_id。",
+      "image": null,
+      "visibleImage": false
+    },
+    {
+      "id": "t_d4d030ed08a4",
+      "refs": [
+        "2673:flow"
+      ],
+      "topic": "flow",
+      "title": "Flow",
+      "meaning": "紫框標出 Flow 資料對象。從 Lot 的 Part／Mainpd_id 關係找到流程定義，再區分「路徑如何定義」與「這批目前走到哪裡」。",
+      "image": "assets/mes-v3/stage-v2.png",
+      "visibleImage": true
+    },
+    {
+      "id": "n_2673_lr-eqp-link",
+      "refs": [
+        "2673:lr-eqp-link"
+      ],
+      "topic": "recipe",
+      "title": "LR 與 EQP_ID 對應",
+      "meaning": "紫框分別指出 LR 與 ER 相關資料。ER 連線呈現配置關係；要知道某批實際用了哪個 Physical Recipe，還需要該次執行紀錄及版本證據。",
+      "image": "assets/mes-009/recipes.png",
+      "visibleImage": true
+    },
+    {
+      "id": "n_2673_forecast-link",
+      "refs": [
+        "2673:forecast-link"
+      ],
+      "topic": "forecast",
+      "title": "未來的 Flow",
+      "meaning": "Lot forecast 與 Stream 到站時間透過 Lot_ID／OPE_NO 關係串接 Lot 和站點，提供未來流程的預估上下文。",
+      "image": null,
+      "visibleImage": false
+    },
+    {
+      "id": "n_2673_stream-link",
+      "refs": [
+        "2673:stream-link"
+      ],
+      "topic": "forecast",
+      "title": "未來的各站",
+      "meaning": "Lot forecast 與 Stream 到站時間透過 Lot_ID／OPE_NO 關係串接 Lot 和站點，提供未來流程的預估上下文。",
+      "image": null,
+      "visibleImage": false
+    },
+    {
+      "id": "t_2a2c1cb80c6c",
+      "refs": [
+        "2673:forecast"
+      ],
+      "topic": "forecast",
+      "title": "未來的 Flow",
+      "meaning": "Lot forecast 與 Stream 到站時間透過 Lot_ID／OPE_NO 關係串接 Lot 和站點，提供未來流程的預估上下文。",
+      "image": null,
+      "visibleImage": false
+    },
+    {
+      "id": "n_2673_stream",
+      "refs": [
+        "2673:stream"
+      ],
+      "topic": "forecast",
+      "title": "Stream 到站時間",
+      "meaning": "Lot forecast 與 Stream 到站時間透過 Lot_ID／OPE_NO 關係串接 Lot 和站點，提供未來流程的預估上下文。",
+      "image": null,
+      "visibleImage": false
+    },
+    {
+      "id": "n_2673_stage-link",
+      "refs": [
+        "2673:stage-link"
+      ],
+      "topic": "stage",
+      "title": "Stage 定義",
+      "meaning": "F12dm.dm_tbl_info_stage 保存 Stage 與 Module 定義；來源將其與 Flow 連接。",
+      "image": null,
+      "visibleImage": false
+    },
+    {
+      "id": "n_2673_srts-link",
+      "refs": [
+        "2673:srts-link"
+      ],
+      "topic": "srts",
+      "title": "抽測跳站設定",
+      "meaning": "Siview.csfrsrts 是來源中與 Flow 相連的 SRTS 設定資料；圖上標註設定關係。",
+      "image": null,
+      "visibleImage": false
+    },
+    {
+      "id": "t_27f08dfbff23",
+      "refs": [
+        "2673:stage"
+      ],
+      "topic": "stage",
+      "title": "Stage 與 Module 定義",
+      "meaning": "F12dm.dm_tbl_info_stage 保存 Stage 與 Module 定義；來源將其與 Flow 連接。",
+      "image": null,
+      "visibleImage": false
+    },
+    {
+      "id": "t_7aff1af02bfd",
+      "refs": [
+        "2673:srts"
+      ],
+      "topic": "srts",
+      "title": "SRTS 設定",
+      "meaning": "Siview.csfrsrts 是來源中與 Flow 相連的 SRTS 設定資料；圖上標註設定關係。",
+      "image": null,
+      "visibleImage": false
+    },
+    {
+      "id": "t_44bf52fb10be",
+      "refs": [
+        "2674:udata"
+      ],
+      "topic": "portdata",
+      "title": "細部資料",
+      "meaning": "FRPORT_UDATA 是 Port 的細部資料；已列 schema 的來源透過 D_THESYSTEMKEY 連接 Port。",
+      "image": null,
+      "visibleImage": false
+    },
+    {
+      "id": "n_2674_udata-link",
+      "refs": [
+        "2674:udata-link"
+      ],
+      "topic": "portdata",
+      "title": "有 L/P",
+      "meaning": "FRPORT_UDATA 是 Port 的細部資料；已列 schema 的來源透過 D_THESYSTEMKEY 連接 Port。",
+      "image": null,
+      "visibleImage": false
+    },
+    {
+      "id": "t_0ab0fee39360",
+      "refs": [
+        "2674:port"
+      ],
+      "topic": "port",
+      "title": "機台 L/P",
+      "meaning": "Port 是設備的交接位置。先以 EQP 識別機台，再辨認 Port；Lot 與 Port 的來源關係列出 FREQP_LOT。",
+      "image": null,
+      "visibleImage": false
+    },
+    {
+      "id": "n_2674_mode",
+      "refs": [
+        "2674:mode"
+      ],
+      "topic": "portmode",
+      "title": "機台模式",
+      "meaning": "來源以 EQP_ID／PORT_ID 連到機台模式，並列出 CSFRPORT_SUBMODE 與 FHEMCHS。",
+      "image": null,
+      "visibleImage": false
+    },
+    {
+      "id": "n_2674_mode-link",
+      "refs": [
+        "2674:mode-link"
+      ],
+      "topic": "portmode",
+      "title": "機台模式",
+      "meaning": "來源以 EQP_ID／PORT_ID 連到機台模式，並列出 CSFRPORT_SUBMODE 與 FHEMCHS。",
+      "image": null,
+      "visibleImage": false
+    },
+    {
+      "id": "t_2544d0d5063d",
+      "refs": [
+        "2674:default"
+      ],
+      "topic": "stock",
+      "title": "機台的 Default STK",
+      "meaning": "Siview.csfreqp_stk 透過 eqp_id 連接設備與 Default STK 設定。",
+      "image": null,
+      "visibleImage": false
+    },
+    {
+      "id": "t_aad27c7244d2",
+      "refs": [
+        "2674:eqp-history"
+      ],
+      "topic": "eqpstatus",
+      "title": "機況歷史",
+      "meaning": "來源分別包含設備狀況歷史與目前狀況資料。閱讀狀態必須帶上設備識別及紀錄時間。",
+      "image": null,
+      "visibleImage": false
+    },
+    {
+      "id": "n_2674_history-link",
+      "refs": [
+        "2674:history-link"
+      ],
+      "topic": "eqpstatus",
+      "title": "機況歷史",
+      "meaning": "來源分別包含設備狀況歷史與目前狀況資料。閱讀狀態必須帶上設備識別及紀錄時間。",
+      "image": null,
+      "visibleImage": false
+    },
+    {
+      "id": "n_2674_port-link",
+      "refs": [
+        "2674:port-link"
+      ],
+      "topic": "port",
+      "title": "有 L/P",
+      "meaning": "Port 是設備的交接位置。先以 EQP 識別機台，再辨認 Port；Lot 與 Port 的來源關係列出 FREQP_LOT。",
+      "image": null,
+      "visibleImage": false
+    },
+    {
+      "id": "n_2674_default-link",
+      "refs": [
+        "2674:default-link"
+      ],
+      "topic": "stock",
+      "title": "Default STK",
+      "meaning": "Siview.csfreqp_stk 透過 eqp_id 連接設備與 Default STK 設定。",
+      "image": null,
+      "visibleImage": false
+    },
+    {
+      "id": "n_2674_bay",
+      "refs": [
+        "2674:bay"
+      ],
+      "topic": "bay",
+      "title": "機台位置",
+      "meaning": "MFG_EQP_BAY_BT 提供設備位置的對照上下文；來源包含 EQP／LOCATION／PHASE 註記。",
+      "image": null,
+      "visibleImage": false
+    },
+    {
+      "id": "n_2674_bay-link",
+      "refs": [
+        "2674:bay-link"
+      ],
+      "topic": "bay",
+      "title": "機台位置",
+      "meaning": "MFG_EQP_BAY_BT 提供設備位置的對照上下文；來源包含 EQP／LOCATION／PHASE 註記。",
+      "image": null,
+      "visibleImage": false
+    },
+    {
+      "id": "n_2674_chamber-link",
+      "refs": [
+        "2674:chamber-link"
+      ],
+      "topic": "chamber",
+      "title": "有 Chamber",
+      "meaning": "Chamber 是設備內的加工資源。來源將機台、Chamber 狀況與 Chamber 細部資料分開，不能只由整台機台的狀態推定每個腔體都可用。",
+      "image": null,
+      "visibleImage": false
+    },
+    {
+      "id": "n_2674_chamber",
+      "refs": [
+        "2674:chamber"
+      ],
+      "topic": "chamber",
+      "title": "Chamber 狀況",
+      "meaning": "Chamber 是設備內的加工資源。來源將機台、Chamber 狀況與 Chamber 細部資料分開，不能只由整台機台的狀態推定每個腔體都可用。",
+      "image": null,
+      "visibleImage": false
+    },
+    {
+      "id": "n_2674_owner-link",
+      "refs": [
+        "2674:owner-link"
+      ],
+      "topic": "group",
+      "title": "機群與課別",
+      "meaning": "來源保留機群／課別、機群與機台、機群與 Chamber 等不同對應資料。EQP_GRP 表達群組層級。",
+      "image": null,
+      "visibleImage": false
+    },
+    {
+      "id": "n_2674_ohb-link",
+      "refs": [
+        "2674:ohb-link"
+      ],
+      "topic": "ohb",
+      "title": "設定 OHB",
+      "meaning": "此來源將 OHB 的設備對應、OHB 狀況及 BMIR 設定分開，以 EQPSTKID／OHB_ID 等關係串接。",
+      "image": null,
+      "visibleImage": false
+    },
+    {
+      "id": "n_2674_detail-link",
+      "refs": [
+        "2674:detail-link"
+      ],
+      "topic": "chamber",
+      "title": "細部狀況",
+      "meaning": "Chamber 是設備內的加工資源。來源將機台、Chamber 狀況與 Chamber 細部資料分開，不能只由整台機台的狀態推定每個腔體都可用。",
+      "image": null,
+      "visibleImage": false
+    },
+    {
+      "id": "n_2674_owner",
+      "refs": [
+        "2674:owner"
+      ],
+      "topic": "group",
+      "title": "機群與課別",
+      "meaning": "來源保留機群／課別、機群與機台、機群與 Chamber 等不同對應資料。EQP_GRP 表達群組層級。",
+      "image": null,
+      "visibleImage": false
+    },
+    {
+      "id": "t_0445f3f5ca10",
+      "refs": [
+        "2674:ohb-eqp"
+      ],
+      "topic": "ohb",
+      "title": "機群 OHB",
+      "meaning": "此來源將 OHB 的設備對應、OHB 狀況及 BMIR 設定分開，以 EQPSTKID／OHB_ID 等關係串接。",
+      "image": null,
+      "visibleImage": false
+    },
+    {
+      "id": "t_215407951b90",
+      "refs": [
+        "2674:chamber-detail"
+      ],
+      "topic": "chamber",
+      "title": "Chamber 細部",
+      "meaning": "Chamber 是設備內的加工資源。來源將機台、Chamber 狀況與 Chamber 細部資料分開，不能只由整台機台的狀態推定每個腔體都可用。",
+      "image": null,
+      "visibleImage": false
+    },
+    {
+      "id": "n_2674_ohb-status-link",
+      "refs": [
+        "2674:ohb-status-link"
+      ],
+      "topic": "ohb",
+      "title": "OHB 狀況",
+      "meaning": "此來源將 OHB 的設備對應、OHB 狀況及 BMIR 設定分開，以 EQPSTKID／OHB_ID 等關係串接。",
+      "image": null,
+      "visibleImage": false
+    },
+    {
+      "id": "t_19992c01e42e",
+      "refs": [
+        "2674:ohb-status"
+      ],
+      "topic": "ohb",
+      "title": "OHB 狀況",
+      "meaning": "此來源將 OHB 的設備對應、OHB 狀況及 BMIR 設定分開，以 EQPSTKID／OHB_ID 等關係串接。",
+      "image": null,
+      "visibleImage": false
+    },
+    {
+      "id": "n_2674_bmir-link",
+      "refs": [
+        "2674:bmir-link"
+      ],
+      "topic": "ohb",
+      "title": "設定 BMIR",
+      "meaning": "此來源將 OHB 的設備對應、OHB 狀況及 BMIR 設定分開，以 EQPSTKID／OHB_ID 等關係串接。",
+      "image": null,
+      "visibleImage": false
+    },
+    {
+      "id": "t_99f36f7325f2",
+      "refs": [
+        "2674:bmir"
+      ],
+      "topic": "ohb",
+      "title": "BMIR",
+      "meaning": "此來源將 OHB 的設備對應、OHB 狀況及 BMIR 設定分開，以 EQPSTKID／OHB_ID 等關係串接。",
+      "image": null,
+      "visibleImage": false
+    },
+    {
+      "id": "n_2675_wip-history",
+      "refs": [
+        "2675:wip-history"
+      ],
+      "topic": "wip",
+      "title": "星期一的七點二十分的 WIP",
+      "meaning": "KER_WIP_BT 是此來源的 Lot／WIP 資料；KER_WIP_Y_BTH 標示為每週一 07:20 的歷史 WIP 快照，以 Lot_ID 對應。",
+      "image": null,
+      "visibleImage": false
+    },
+    {
+      "id": "n_2675_wip-link",
+      "refs": [
+        "2675:wip-link"
+      ],
+      "topic": "wip",
+      "title": "歷史 WIP",
+      "meaning": "KER_WIP_BT 是此來源的 Lot／WIP 資料；KER_WIP_Y_BTH 標示為每週一 07:20 的歷史 WIP 快照，以 Lot_ID 對應。",
+      "image": null,
+      "visibleImage": false
+    },
+    {
+      "id": "n_2675_move-link",
+      "refs": [
+        "2675:move-link"
+      ],
+      "topic": "move",
+      "title": "機台 MOVE",
+      "meaning": "F12DM.DM_Move_Step_bth 是 Lot 的 Move 歷史。Move 計算 Lot 過站事件，重工過站也計入；FOUP 搬運次數不能代替 Move 次數。",
+      "image": null,
+      "visibleImage": false
+    },
+    {
+      "id": "n_2675_lot",
+      "refs": [
+        "2675:lot"
+      ],
+      "topic": "wip",
+      "title": "LOT",
+      "meaning": "KER_WIP_BT 是此來源的 Lot／WIP 資料；KER_WIP_Y_BTH 標示為每週一 07:20 的歷史 WIP 快照，以 Lot_ID 對應。",
+      "image": null,
+      "visibleImage": false
+    },
+    {
+      "id": "n_2675_chamber-link",
+      "refs": [
+        "2675:chamber-link"
+      ],
+      "topic": "group",
+      "title": "機群與機台 Ch",
+      "meaning": "來源保留機群／課別、機群與機台、機群與 Chamber 等不同對應資料。EQP_GRP 表達群組層級。",
+      "image": null,
+      "visibleImage": false
+    },
+    {
+      "id": "n_2675_chamber",
+      "refs": [
+        "2675:chamber"
+      ],
+      "topic": "group",
+      "title": "Chamber",
+      "meaning": "來源保留機群／課別、機群與機台、機群與 Chamber 等不同對應資料。EQP_GRP 表達群組層級。",
+      "image": null,
+      "visibleImage": false
+    },
+    {
+      "id": "n_2675_group-link",
+      "refs": [
+        "2675:group-link"
+      ],
+      "topic": "group",
+      "title": "機群與機台",
+      "meaning": "來源保留機群／課別、機群與機台、機群與 Chamber 等不同對應資料。EQP_GRP 表達群組層級。",
+      "image": null,
+      "visibleImage": false
+    },
+    {
+      "id": "n_2675_eqp",
+      "refs": [
+        "2675:eqp"
+      ],
+      "topic": "group",
+      "title": "機台",
+      "meaning": "來源保留機群／課別、機群與機台、機群與 Chamber 等不同對應資料。EQP_GRP 表達群組層級。",
+      "image": null,
+      "visibleImage": false
+    },
+    {
+      "id": "n_2675_virtual-link",
+      "refs": [
+        "2675:virtual-link"
+      ],
+      "topic": "virtual",
+      "title": "屬於哪個虛擬群組",
+      "meaning": "KER_VR_EQP_GRP_DETAIL_BT 是虛擬 Group 明細，來源以 DYNAMIC_SQL 標示成員判定關係。",
+      "image": null,
+      "visibleImage": false
+    },
+    {
+      "id": "n_2675_virtual",
+      "refs": [
+        "2675:virtual"
+      ],
+      "topic": "virtual",
+      "title": "虛擬 Group (*ALL)",
+      "meaning": "KER_VR_EQP_GRP_DETAIL_BT 是虛擬 Group 明細，來源以 DYNAMIC_SQL 標示成員判定關係。",
+      "image": null,
+      "visibleImage": false
+    },
+    {
+      "id": "n_2675_all-actions",
+      "refs": [
+        "2675:all-actions"
+      ],
+      "topic": "actions",
+      "title": "Lot 所有動作",
+      "meaning": "Siview.FHOPEHS_S 由 Lot_ID 關係連回批次，提供 Lot 動作／過貨歷史的查詢上下文。",
+      "image": null,
+      "visibleImage": false
+    },
+    {
+      "id": "n_2675_status-link",
+      "refs": [
+        "2675:status-link"
+      ],
+      "topic": "eqpstatus",
+      "title": "目前機況",
+      "meaning": "來源分別包含設備狀況歷史與目前狀況資料。閱讀狀態必須帶上設備識別及紀錄時間。",
+      "image": null,
+      "visibleImage": false
+    },
+    {
+      "id": "n_2675_status",
+      "refs": [
+        "2675:status"
+      ],
+      "topic": "eqpstatus",
+      "title": "機台機況",
+      "meaning": "來源分別包含設備狀況歷史與目前狀況資料。閱讀狀態必須帶上設備識別及紀錄時間。",
+      "image": null,
+      "visibleImage": false
+    },
+    {
+      "id": "n_2675_eqp-oee-link",
+      "refs": [
+        "2675:eqp-oee-link"
+      ],
+      "topic": "oee",
+      "title": "機台歷史 OEE",
+      "meaning": "此來源分別列出機台 OEE 歷史、機群目前 OEE 與機群歷史資料。必須配合各自的關聯鍵與統計期間閱讀。",
+      "image": null,
+      "visibleImage": false
+    },
+    {
+      "id": "n_2675_eqp-oee",
+      "refs": [
+        "2675:eqp-oee"
+      ],
+      "topic": "oee",
+      "title": "機台 OEE 歷史",
+      "meaning": "此來源分別列出機台 OEE 歷史、機群目前 OEE 與機群歷史資料。必須配合各自的關聯鍵與統計期間閱讀。",
+      "image": null,
+      "visibleImage": false
+    },
+    {
+      "id": "n_2675_group-oee-link",
+      "refs": [
+        "2675:group-oee-link"
+      ],
+      "topic": "oee",
+      "title": "機群目前 OEE",
+      "meaning": "此來源分別列出機台 OEE 歷史、機群目前 OEE 與機群歷史資料。必須配合各自的關聯鍵與統計期間閱讀。",
+      "image": null,
+      "visibleImage": false
+    },
+    {
+      "id": "n_2675_group-oee",
+      "refs": [
+        "2675:group-oee"
+      ],
+      "topic": "oee",
+      "title": "機群目前 OEE",
+      "meaning": "此來源分別列出機台 OEE 歷史、機群目前 OEE 與機群歷史資料。必須配合各自的關聯鍵與統計期間閱讀。",
+      "image": null,
+      "visibleImage": false
+    },
+    {
+      "id": "n_2675_group-history-link",
+      "refs": [
+        "2675:group-history-link"
+      ],
+      "topic": "oee",
+      "title": "機群歷史 OEE",
+      "meaning": "此來源分別列出機台 OEE 歷史、機群目前 OEE 與機群歷史資料。必須配合各自的關聯鍵與統計期間閱讀。",
+      "image": null,
+      "visibleImage": false
+    },
+    {
+      "id": "n_2675_group-history",
+      "refs": [
+        "2675:group-history"
+      ],
+      "topic": "oee",
+      "title": "機群 OEE 歷史",
+      "meaning": "此來源分別列出機台 OEE 歷史、機群目前 OEE 與機群歷史資料。必須配合各自的關聯鍵與統計期間閱讀。",
+      "image": null,
+      "visibleImage": false
+    },
+    {
+      "id": "n_2676_eqp",
+      "refs": [
+        "2676:eqp"
+      ],
+      "topic": "equipment",
+      "title": "EQP",
+      "meaning": "橘框標出 EQP 資料實體。設備可與 Port、Chamber、派工及 Recipe 配置相連；「預派」不能直接證明載具已經到達。",
+      "image": "examples/fab-physical-data-v01.png",
+      "visibleImage": true
+    },
+    {
+      "id": "n_2676_eqp-id",
+      "refs": [
+        "2676:eqp-id"
+      ],
+      "topic": "eqpkey",
+      "title": "EQP_ID",
+      "meaning": "EQP_ID 是設備識別的關係註記。來源 2676 用於設備組成關係；來源 2677 用於 PD／Recipe 到設備的對應。",
+      "image": null,
+      "visibleImage": false
+    },
+    {
+      "id": "n_2676_port",
+      "refs": [
+        "2676:port"
+      ],
+      "topic": "port",
+      "title": "PORT_ID",
+      "meaning": "Port 是設備的交接位置。先以 EQP 識別機台，再辨認 Port；Lot 與 Port 的來源關係列出 FREQP_LOT。",
+      "image": null,
+      "visibleImage": false
+    },
+    {
+      "id": "n_2676_cast",
+      "refs": [
+        "2676:cast"
+      ],
+      "topic": "carrier",
+      "title": "CAST_ID",
+      "meaning": "綠框標出 FOUP 資料實體。FRCAST 描述載具，FRCAST_LOT 表達與 Lot 的裝載關係；兩者不是同一個物件。",
+      "image": "examples/fab-physical-data-v01.png",
+      "visibleImage": true
+    },
+    {
+      "id": "n_2676_chamber",
+      "refs": [
+        "2676:chamber"
+      ],
+      "topic": "chamber",
+      "title": "CHAMBER ID",
+      "meaning": "Chamber 是設備內的加工資源。來源將機台、Chamber 狀況與 Chamber 細部資料分開，不能只由整台機台的狀態推定每個腔體都可用。",
+      "image": null,
+      "visibleImage": false
+    },
+    {
+      "id": "n_2676_port-id",
+      "refs": [
+        "2676:port-id"
+      ],
+      "topic": "port",
+      "title": "EQP_ID",
+      "meaning": "Port 是設備的交接位置。先以 EQP 識別機台，再辨認 Port；Lot 與 Port 的來源關係列出 FREQP_LOT。",
+      "image": null,
+      "visibleImage": false
+    },
+    {
+      "id": "n_2676_cast-lot",
+      "refs": [
+        "2676:cast-lot"
+      ],
+      "topic": "load",
+      "title": "FRCAST_LOT",
+      "meaning": "FRCAST_LOT 連接 Lot 與 FOUP。Lot 表示生產批次，FOUP 是承載晶圓的實體容器。",
+      "image": null,
+      "visibleImage": false
+    },
+    {
+      "id": "n_2676_udata",
+      "refs": [
+        "2676:udata"
+      ],
+      "topic": "portdata",
+      "title": "FRPORT_UDATA",
+      "meaning": "FRPORT_UDATA 是 Port 的細部資料；已列 schema 的來源透過 D_THESYSTEMKEY 連接 Port。",
+      "image": null,
+      "visibleImage": false
+    },
+    {
+      "id": "n_2676_lot",
+      "refs": [
+        "2676:lot"
+      ],
+      "topic": "lot",
+      "title": "FRLOT",
+      "meaning": "藍框標出 Lot 資料實體。Lot 本身不是盒子；沿著「放在」關係，才會找到承載它的 FOUP。不同 schema 證據的節點仍各自保留。",
+      "image": "examples/fab-physical-data-v01.png",
+      "visibleImage": true
+    },
+    {
+      "id": "n_2676_status",
+      "refs": [
+        "2676:status"
+      ],
+      "topic": "lotstatus",
+      "title": "LOT Process",
+      "meaning": "此節點是 Lot Process／Status 的概念註記，用來區分批次的作業狀態與裝載位置。",
+      "image": null,
+      "visibleImage": false
+    },
+    {
+      "id": "n_2677_pd",
+      "refs": [
+        "2677:pd"
+      ],
+      "topic": "pd",
+      "title": "FRPD",
+      "meaning": "來源保留 Flow PD、站點 PD_ID 與 PD 對應機台資料；另一來源以 SYSTEMKEY 串接 FRPD 和 FRPD_EQP。",
+      "image": null,
+      "visibleImage": false
+    },
+    {
+      "id": "n_2677_pd-key",
+      "refs": [
+        "2677:pd-key"
+      ],
+      "topic": "pd",
+      "title": "systemkey",
+      "meaning": "來源保留 Flow PD、站點 PD_ID 與 PD 對應機台資料；另一來源以 SYSTEMKEY 串接 FRPD 和 FRPD_EQP。",
+      "image": null,
+      "visibleImage": false
+    },
+    {
+      "id": "n_2677_pd-eqp",
+      "refs": [
+        "2677:pd-eqp"
+      ],
+      "topic": "pd",
+      "title": "MODULEPD_ID",
+      "meaning": "來源保留 Flow PD、站點 PD_ID 與 PD 對應機台資料；另一來源以 SYSTEMKEY 串接 FRPD 和 FRPD_EQP。",
+      "image": null,
+      "visibleImage": false
+    },
+    {
+      "id": "n_2677_eqp-id",
+      "refs": [
+        "2677:eqp-id"
+      ],
+      "topic": "eqpkey",
+      "title": "EQP_ID",
+      "meaning": "EQP_ID 是設備識別的關係註記。來源 2676 用於設備組成關係；來源 2677 用於 PD／Recipe 到設備的對應。",
+      "image": null,
+      "visibleImage": false
+    },
+    {
+      "id": "n_2677_bay",
+      "refs": [
+        "2677:bay"
+      ],
+      "topic": "bay",
+      "title": "MFG_EQP_BAY_BT",
+      "meaning": "MFG_EQP_BAY_BT 提供設備位置的對照上下文；來源包含 EQP／LOCATION／PHASE 註記。",
+      "image": null,
+      "visibleImage": false
+    },
+    {
+      "id": "n_2677_location",
+      "refs": [
+        "2677:location"
+      ],
+      "topic": "bay",
+      "title": "EQP",
+      "meaning": "MFG_EQP_BAY_BT 提供設備位置的對照上下文；來源包含 EQP／LOCATION／PHASE 註記。",
+      "image": null,
+      "visibleImage": false
+    },
+    {
+      "id": "n_2677_recipe",
+      "refs": [
+        "2677:recipe"
+      ],
+      "topic": "recipe",
+      "title": "FRMRCP",
+      "meaning": "紫框分別指出 LR 與 ER 相關資料。ER 連線呈現配置關係；要知道某批實際用了哪個 Physical Recipe，還需要該次執行紀錄及版本證據。",
+      "image": "assets/mes-009/recipes.png",
+      "visibleImage": true
+    },
+    {
+      "id": "n_2677_recipe-key",
+      "refs": [
+        "2677:recipe-key"
+      ],
+      "topic": "recipe",
+      "title": "SYSTEMKEY",
+      "meaning": "紫框分別指出 LR 與 ER 相關資料。ER 連線呈現配置關係；要知道某批實際用了哪個 Physical Recipe，還需要該次執行紀錄及版本證據。",
+      "image": "assets/mes-009/recipes.png",
+      "visibleImage": true
+    },
+    {
+      "id": "n_2677_recipe-eqp",
+      "refs": [
+        "2677:recipe-eqp"
+      ],
+      "topic": "recipe",
+      "title": "FRMRCP_EQP",
+      "meaning": "紫框分別指出 LR 與 ER 相關資料。ER 連線呈現配置關係；要知道某批實際用了哪個 Physical Recipe，還需要該次執行紀錄及版本證據。",
+      "image": "assets/mes-009/recipes.png",
+      "visibleImage": true
+    },
+    {
+      "id": "n_2677_eqp",
+      "refs": [
+        "2677:eqp"
+      ],
+      "topic": "equipment",
+      "title": "FREQP",
+      "meaning": "橘框標出 EQP 資料實體。設備可與 Port、Chamber、派工及 Recipe 配置相連；「預派」不能直接證明載具已經到達。",
+      "image": "examples/fab-physical-data-v01.png",
+      "visibleImage": true
+    },
+    {
+      "id": "n_2677_status",
+      "refs": [
+        "2677:status"
+      ],
+      "topic": "eqpstatus",
+      "title": "EQP",
+      "meaning": "來源分別包含設備狀況歷史與目前狀況資料。閱讀狀態必須帶上設備識別及紀錄時間。",
+      "image": null,
+      "visibleImage": false
+    },
+    {
+      "id": "n_2677_er",
+      "refs": [
+        "2677:er"
+      ],
+      "topic": "recipe",
+      "title": "ER",
+      "meaning": "紫框分別指出 LR 與 ER 相關資料。ER 連線呈現配置關係；要知道某批實際用了哪個 Physical Recipe，還需要該次執行紀錄及版本證據。",
+      "image": "assets/mes-009/recipes.png",
+      "visibleImage": true
+    },
+    {
+      "id": "n_2677_lr",
+      "refs": [
+        "2677:lr"
+      ],
+      "topic": "recipe",
+      "title": "DM_FLOW_LR_EQP_BT",
+      "meaning": "紫框分別指出 LR 與 ER 相關資料。ER 連線呈現配置關係；要知道某批實際用了哪個 Physical Recipe，還需要該次執行紀錄及版本證據。",
+      "image": "assets/mes-009/recipes.png",
+      "visibleImage": true
+    }
+  ],
+  "routes": [
+    {
+      "route": "lot-step",
+      "topic": "lotstep"
+    },
+    {
+      "route": "load",
+      "topic": "load"
+    },
+    {
+      "route": "slot",
+      "topic": "contents"
+    },
+    {
+      "route": "location",
+      "topic": "location"
+    },
+    {
+      "route": "predispatch",
+      "topic": "predispatch"
+    },
+    {
+      "route": "lot-pre",
+      "topic": "available"
+    },
+    {
+      "route": "port",
+      "topic": "port"
+    },
+    {
+      "route": "flow",
+      "topic": "flow"
+    },
+    {
+      "route": "lr",
+      "topic": "recipe"
+    },
+    {
+      "route": "pd",
+      "topic": "pd"
+    },
+    {
+      "route": "recipe",
+      "topic": "recipe"
+    },
+    {
+      "route": "chamber",
+      "topic": "chamber"
+    },
+    {
+      "route": "hold",
+      "topic": "future"
+    },
+    {
+      "route": "move",
+      "topic": "move"
+    },
+    {
+      "route": "transfer",
+      "topic": "transfer"
+    },
+    {
+      "route": "qtime",
+      "topic": "qtime"
+    },
+    {
+      "route": "wip",
+      "topic": "wip"
+    },
+    {
+      "route": "oee",
+      "topic": "oee"
+    }
+  ]
+}

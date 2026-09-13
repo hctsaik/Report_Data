@@ -1,0 +1,68 @@
+[
+  {
+    "width": 1440,
+    "check": "reading-does-not-auto-answer; answer-persist",
+    "pass": true
+  },
+  {
+    "width": 1440,
+    "check": "search-topic-image-ER-return-topic-return-search",
+    "pass": true
+  },
+  {
+    "width": 1440,
+    "check": "task-topic-return-keeps-object-time",
+    "pass": true
+  },
+  {
+    "width": 1440,
+    "check": "catalog-next:operations.html#lab",
+    "destination": "http://127.0.0.1:4175/flow.html?mesFrom=mtzqucysdwf5c3#lab",
+    "pass": true
+  },
+  {
+    "width": 1440,
+    "check": "catalog-next:flow.html#lab",
+    "destination": "http://127.0.0.1:4175/learning.html?unit=7&mesFrom=mtzqudvi5vzxgj",
+    "pass": true
+  },
+  {
+    "width": 1440,
+    "check": "catalog-next:freshness.html#join",
+    "destination": "http://127.0.0.1:4175/freshness.html?mesFrom=mtzquer1d5968w#contract",
+    "pass": true
+  },
+  {
+    "width": 390,
+    "check": "reading-does-not-auto-answer; answer-persist",
+    "pass": true
+  },
+  {
+    "width": 390,
+    "check": "search-topic-image-ER-return-topic-return-search",
+    "pass": true
+  },
+  {
+    "width": 390,
+    "check": "task-topic-return-keeps-object-time",
+    "pass": true
+  },
+  {
+    "width": 390,
+    "check": "catalog-next:operations.html#lab",
+    "destination": "http://127.0.0.1:4175/flow.html?mesFrom=mtzquhh6cdqmew#lab",
+    "pass": true
+  },
+  {
+    "width": 390,
+    "check": "catalog-next:flow.html#lab",
+    "destination": "http://127.0.0.1:4175/learning.html?unit=7&mesFrom=mtzquid46t7qkj",
+    "pass": true
+  },
+  {
+    "width": 390,
+    "check": "catalog-next:freshness.html#join",
+    "destination": "http://127.0.0.1:4175/freshness.html?mesFrom=mtzquj83gnjwa2#contract",
+    "pass": true
+  }
+]

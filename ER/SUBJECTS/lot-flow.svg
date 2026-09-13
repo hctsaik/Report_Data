@@ -1,0 +1,63 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1274pt" height="226pt" viewBox="0.00 0.00 1274.00 226.00" role="img" aria-label="以 Lot 看裝載、設備安排與流程 ER 主題圖">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(21.6 204.66)">
+<title>ER</title>
+<polygon fill="white" stroke="none" points="-21.6,21.6 -21.6,-204.66 1252.88,-204.66 1252.88,21.6 -21.6,21.6" />
+
+<g id="e_n_2673_flow-link_t_d4d030ed08a4" class="edge" data-edge="e_n_2673_flow-link_t_d4d030ed08a4">
+<title>n_2673_flow-link--t_d4d030ed08a4</title>
+<path fill="none" stroke="#70869a" stroke-width="1.8" d="M391.42,-91.53C406.2,-91.53 421.38,-91.53 436.25,-91.53" />
+</g>
+
+<g id="e_n_2673_stage-link_t_27f08dfbff23" class="edge" data-edge="e_n_2673_stage-link_t_27f08dfbff23">
+<title>n_2673_stage-link--t_27f08dfbff23</title>
+<path fill="none" stroke="#70869a" stroke-width="1.8" d="M946.23,-91.53C960.71,-91.53 975.59,-91.53 990.18,-91.53" />
+</g>
+
+<g id="e_n_2673_flow-link_t_cfc81de70314" class="edge" data-edge="e_n_2673_flow-link_t_cfc81de70314">
+<title>t_cfc81de70314--n_2673_flow-link</title>
+<path fill="none" stroke="#70869a" stroke-width="1.8" d="M120.15,-91.53C133.78,-91.53 148.7,-91.53 163.74,-91.53" />
+</g>
+
+<g id="e_n_2673_stage-link_t_d4d030ed08a4" class="edge" data-edge="e_n_2673_stage-link_t_d4d030ed08a4">
+<title>t_d4d030ed08a4--n_2673_stage-link</title>
+<path fill="none" stroke="#70869a" stroke-width="1.8" d="M676.01,-91.53C690.52,-91.53 705.31,-91.53 719.72,-91.53" />
+</g>
+
+<g id="n_2673_flow-link" class="node" data-node="n_2673_flow-link" role="button" tabindex="0" aria-label="Flow 定義 / Part / Mainpd_id">
+<title>n_2673_flow-link</title>
+<polygon fill="#ffffff" stroke="#6a7d8e" stroke-width="2" points="277.58,-183.06 165.29,-91.53 277.58,0 389.87,-91.53 277.58,-183.06" />
+<text xml:space="preserve" text-anchor="middle" x="277.58" y="-111.56" font-family="Microsoft JhengHei" font-size="18.00">Flow 定義</text>
+<text xml:space="preserve" text-anchor="middle" x="277.58" y="-86.81" font-family="Microsoft JhengHei" font-size="18.00">Part</text>
+<text xml:space="preserve" text-anchor="middle" x="277.58" y="-62.05" font-family="Microsoft JhengHei" font-size="18.00">Mainpd_id</text>
+</g>
+
+<g id="n_2673_stage-link" class="node" data-node="n_2673_stage-link" role="button" tabindex="0" aria-label="Stage 定義">
+<title>n_2673_stage-link</title>
+<polygon fill="#ffffff" stroke="#6a7d8e" stroke-width="2" points="832.95,-133.56 722.16,-91.53 832.95,-49.5 943.74,-91.53 832.95,-133.56" />
+<text xml:space="preserve" text-anchor="middle" x="832.95" y="-86.81" font-family="Microsoft JhengHei" font-size="18.00">Stage 定義</text>
+</g>
+
+<g id="t_27f08dfbff23" class="node" data-node="t_27f08dfbff23" role="button" tabindex="0" aria-label="Stage 與 Module 定義 / F12dm.dm_tbl_info_stage">
+<title>t_27f08dfbff23</title>
+<polygon fill="#f7f1ff" stroke="#7756af" stroke-width="2" points="1231.28,-124.92 990.74,-124.92 990.74,-58.14 1231.28,-58.14 1231.28,-124.92" />
+<text xml:space="preserve" text-anchor="middle" x="1111.01" y="-99.18" font-family="Microsoft JhengHei" font-size="18.00">Stage 與 Module 定義</text>
+<text xml:space="preserve" text-anchor="middle" x="1111.01" y="-74.43" font-family="Microsoft JhengHei" font-size="18.00">F12dm.dm_tbl_info_stage</text>
+</g>
+
+<g id="t_cfc81de70314" class="node" data-node="t_cfc81de70314" role="button" tabindex="0" aria-label="LOT / Siview.Frlot">
+<title>t_cfc81de70314</title>
+<polygon fill="#eef5ff" stroke="#176ac2" stroke-width="4" points="118.29,-137.3 0,-137.3 0,-45.77 118.29,-45.77 118.29,-137.3" />
+<text xml:space="preserve" text-anchor="middle" x="59.14" y="-111.56" font-family="Microsoft JhengHei" font-size="18.00">本圖主詞</text>
+<text xml:space="preserve" text-anchor="middle" x="59.14" y="-86.81" font-family="Microsoft JhengHei" font-size="18.00">LOT</text>
+<text xml:space="preserve" text-anchor="middle" x="59.14" y="-62.05" font-family="Microsoft JhengHei" font-size="18.00">Siview.Frlot</text>
+</g>
+
+<g id="t_d4d030ed08a4" class="node" data-node="t_d4d030ed08a4" role="button" tabindex="0" aria-label="Flow / F12DM.DM_Flow_step_Bt">
+<title>t_d4d030ed08a4</title>
+<polygon fill="#f7f1ff" stroke="#7756af" stroke-width="2" points="675.16,-124.92 436.87,-124.92 436.87,-58.14 675.16,-58.14 675.16,-124.92" />
+<text xml:space="preserve" text-anchor="middle" x="556.01" y="-99.18" font-family="Microsoft JhengHei" font-size="18.00">Flow</text>
+<text xml:space="preserve" text-anchor="middle" x="556.01" y="-74.43" font-family="Microsoft JhengHei" font-size="18.00">F12DM.DM_Flow_step_Bt</text>
+</g>
+</g>
+</svg>

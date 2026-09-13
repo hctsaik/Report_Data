@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" width="642pt" height="177pt" viewBox="0.00 0.00 642.00 177.00" role="img" aria-label="以 Lot 看裝載、設備安排與流程 ER 主題圖">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(21.6 155.16)">
+<title>ER</title>
+<polygon fill="white" stroke="none" points="-21.6,21.6 -21.6,-155.16 620.26,-155.16 620.26,21.6 -21.6,21.6" />
+
+<g id="e_n_2672_pre-link_t_d7f7aa94ad34" class="edge" data-edge="e_n_2672_pre-link_t_d7f7aa94ad34">
+<title>n_2672_pre-link--t_d7f7aa94ad34</title>
+<path fill="none" stroke="#70869a" stroke-width="1.8" d="M356.84,-66.78C371.59,-66.78 386.85,-66.78 401.65,-66.78" />
+</g>
+
+<g id="e_n_2672_pre-link_t_cfc81de70314" class="edge" data-edge="e_n_2672_pre-link_t_cfc81de70314">
+<title>t_cfc81de70314--n_2672_pre-link</title>
+<path fill="none" stroke="#70869a" stroke-width="1.8" d="M120.18,-66.78C133.92,-66.78 148.87,-66.78 163.7,-66.78" />
+</g>
+
+<g id="n_2672_pre-link" class="node" data-node="n_2672_pre-link" role="button" tabindex="0" aria-label="預派機台 / Lot_ID">
+<title>n_2672_pre-link</title>
+<polygon fill="#ffffff" stroke="#6a7d8e" stroke-width="2" points="260.33,-133.56 165.29,-66.78 260.33,0 355.37,-66.78 260.33,-133.56" />
+<text xml:space="preserve" text-anchor="middle" x="260.33" y="-74.43" font-family="Microsoft JhengHei" font-size="18.00">預派機台</text>
+<text xml:space="preserve" text-anchor="middle" x="260.33" y="-49.68" font-family="Microsoft JhengHei" font-size="18.00">Lot_ID</text>
+</g>
+
+<g id="t_cfc81de70314" class="node" data-node="t_cfc81de70314" role="button" tabindex="0" aria-label="LOT / Siview.Frlot">
+<title>t_cfc81de70314</title>
+<polygon fill="#eef5ff" stroke="#176ac2" stroke-width="4" points="118.29,-112.55 0,-112.55 0,-21.02 118.29,-21.02 118.29,-112.55" />
+<text xml:space="preserve" text-anchor="middle" x="59.14" y="-86.81" font-family="Microsoft JhengHei" font-size="18.00">本圖主詞</text>
+<text xml:space="preserve" text-anchor="middle" x="59.14" y="-62.05" font-family="Microsoft JhengHei" font-size="18.00">LOT</text>
+<text xml:space="preserve" text-anchor="middle" x="59.14" y="-37.3" font-family="Microsoft JhengHei" font-size="18.00">Siview.Frlot</text>
+</g>
+
+<g id="t_d7f7aa94ad34" class="node" data-node="t_d7f7aa94ad34" role="button" tabindex="0" aria-label="預派記錄 / Siview.CSFHPREDISP">
+<title>t_d7f7aa94ad34</title>
+<polygon fill="#f5f7fa" stroke="#61748b" stroke-width="2" points="598.66,-100.17 402.37,-100.17 402.37,-33.39 598.66,-33.39 598.66,-100.17" />
+<text xml:space="preserve" text-anchor="middle" x="500.51" y="-74.43" font-family="Microsoft JhengHei" font-size="18.00">預派記錄</text>
+<text xml:space="preserve" text-anchor="middle" x="500.51" y="-49.68" font-family="Microsoft JhengHei" font-size="18.00">Siview.CSFHPREDISP</text>
+</g>
+</g>
+</svg>

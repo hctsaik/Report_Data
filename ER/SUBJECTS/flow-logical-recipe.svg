@@ -1,0 +1,103 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1552pt" height="453pt" viewBox="0.00 0.00 1552.00 453.00" role="img" aria-label="以 Flow 看 Lot、Stage 與製程對應 ER 主題圖">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(21.6 431.41)">
+<title>ER</title>
+<polygon fill="white" stroke="none" points="-21.6,21.6 -21.6,-431.41 1530.38,-431.41 1530.38,21.6 -21.6,21.6" />
+
+<g id="e_n_2673_lr-eqp-link_t_e9c0addd1e0c" class="edge" data-edge="e_n_2673_lr-eqp-link_t_e9c0addd1e0c">
+<title>n_2673_lr-eqp-link--t_e9c0addd1e0c</title>
+<path fill="none" stroke="#70869a" stroke-width="1.8" d="M568.35,-317.65C602.9,-309.6 641.49,-300.62 677.58,-292.22" />
+</g>
+
+<g id="e_n_2673_lr-link_t_e9c0addd1e0c" class="edge" data-edge="e_n_2673_lr-link_t_e9c0addd1e0c">
+<title>n_2673_lr-link--t_e9c0addd1e0c</title>
+<path fill="none" stroke="#70869a" stroke-width="1.8" d="M549.57,-200.78C588.5,-209.74 634.83,-220.39 677.63,-230.24" />
+</g>
+
+<g id="e_n_2673_recipe-link_t_c2ca3a20806b" class="edge" data-edge="e_n_2673_recipe-link_t_c2ca3a20806b">
+<title>n_2673_recipe-link--t_c2ca3a20806b</title>
+<path fill="none" stroke="#70869a" stroke-width="1.8" d="M629.23,-42.03C655.27,-42.03 681.48,-42.03 705.59,-42.03" />
+</g>
+
+<g id="e_n_2673_wph-link_t_1c25059c913b" class="edge" data-edge="e_n_2673_wph-link_t_1c25059c913b">
+<title>n_2673_wph-link--t_1c25059c913b</title>
+<path fill="none" stroke="#70869a" stroke-width="1.8" d="M1210.39,-261.03C1224.62,-261.03 1239.31,-261.03 1253.81,-261.03" />
+</g>
+
+<g id="e_n_2673_lr-eqp-link_t_d4d030ed08a4" class="edge" data-edge="e_n_2673_lr-eqp-link_t_d4d030ed08a4">
+<title>t_d4d030ed08a4--n_2673_lr-eqp-link</title>
+<path fill="none" stroke="#70869a" stroke-width="1.8" d="M217.17,-227.62C253.11,-245.25 285.29,-261.03 285.29,-261.03 285.29,-261.03 333.84,-284.17 379.36,-305.87" />
+</g>
+
+<g id="e_n_2673_lr-link_t_d4d030ed08a4" class="edge" data-edge="e_n_2673_lr-link_t_d4d030ed08a4">
+<title>t_d4d030ed08a4--n_2673_lr-link</title>
+<path fill="none" stroke="#70869a" stroke-width="1.8" d="M239.97,-180.03C268.08,-180.03 298.17,-180.03 326.73,-180.03" />
+</g>
+
+<g id="e_n_2673_recipe-link_t_d4d030ed08a4" class="edge" data-edge="e_n_2673_recipe-link_t_d4d030ed08a4">
+<title>t_d4d030ed08a4--n_2673_recipe-link</title>
+<path fill="none" stroke="#70869a" stroke-width="1.8" d="M217.17,-132.44C253.11,-114.81 285.29,-99.03 285.29,-99.03 285.29,-99.03 337.48,-81.74 384.37,-66.2" />
+</g>
+
+<g id="e_n_2673_wph-link_t_e9c0addd1e0c" class="edge" data-edge="e_n_2673_wph-link_t_e9c0addd1e0c">
+<title>t_e9c0addd1e0c--n_2673_wph-link</title>
+<path fill="none" stroke="#70869a" stroke-width="1.8" d="M947.39,-261.03C962.08,-261.03 976.91,-261.03 991.24,-261.03" />
+</g>
+
+<g id="n_2673_lr-eqp-link" class="node" data-node="n_2673_lr-eqp-link" role="button" tabindex="0" aria-label="LR 與 EQP_ID 對應 / LCRECIPE_ID">
+<title>n_2673_lr-eqp-link</title>
+<polygon fill="#ffffff" stroke="#6a7d8e" stroke-width="2" points="458.33,-409.81 285.29,-343.03 458.33,-276.25 631.37,-343.03 458.33,-409.81" />
+<text xml:space="preserve" text-anchor="middle" x="458.33" y="-350.68" font-family="Microsoft JhengHei" font-size="18.00">LR 與 EQP_ID 對應</text>
+<text xml:space="preserve" text-anchor="middle" x="458.33" y="-325.93" font-family="Microsoft JhengHei" font-size="18.00">LCRECIPE_ID</text>
+</g>
+
+<g id="n_2673_lr-link" class="node" data-node="n_2673_lr-link" role="button" tabindex="0" aria-label="LR 與機台 / LCRECIPE_ID">
+<title>n_2673_lr-link</title>
+<polygon fill="#ffffff" stroke="#6a7d8e" stroke-width="2" points="458.33,-246.81 328.79,-180.03 458.33,-113.25 587.87,-180.03 458.33,-246.81" />
+<text xml:space="preserve" text-anchor="middle" x="458.33" y="-187.68" font-family="Microsoft JhengHei" font-size="18.00">LR 與機台</text>
+<text xml:space="preserve" text-anchor="middle" x="458.33" y="-162.93" font-family="Microsoft JhengHei" font-size="18.00">LCRECIPE_ID</text>
+</g>
+
+<g id="n_2673_recipe-link" class="node" data-node="n_2673_recipe-link" role="button" tabindex="0" aria-label="製程程式群組對照">
+<title>n_2673_recipe-link</title>
+<polygon fill="#ffffff" stroke="#6a7d8e" stroke-width="2" points="458.33,-84.06 291.29,-42.03 458.33,0 625.37,-42.03 458.33,-84.06" />
+<text xml:space="preserve" text-anchor="middle" x="458.33" y="-37.3" font-family="Microsoft JhengHei" font-size="18.00">製程程式群組對照</text>
+</g>
+
+<g id="n_2673_wph-link" class="node" data-node="n_2673_wph-link" role="button" tabindex="0" aria-label="IE 的 WPH">
+<title>n_2673_wph-link</title>
+<polygon fill="#ffffff" stroke="#6a7d8e" stroke-width="2" points="1100.7,-303.06 993.66,-261.03 1100.7,-219 1207.74,-261.03 1100.7,-303.06" />
+<text xml:space="preserve" text-anchor="middle" x="1100.7" y="-256.3" font-family="Microsoft JhengHei" font-size="18.00">IE 的 WPH</text>
+</g>
+
+<g id="t_1c25059c913b" class="node" data-node="t_1c25059c913b" role="button" tabindex="0" aria-label="IE 的 WPH 定義 / F12DM.DM_TBL_IE_CTWPH">
+<title>t_1c25059c913b</title>
+<polygon fill="#f7f1ff" stroke="#7756af" stroke-width="2" points="1508.78,-294.42 1254.74,-294.42 1254.74,-227.64 1508.78,-227.64 1508.78,-294.42" />
+<text xml:space="preserve" text-anchor="middle" x="1381.76" y="-268.68" font-family="Microsoft JhengHei" font-size="18.00">IE 的 WPH 定義</text>
+<text xml:space="preserve" text-anchor="middle" x="1381.76" y="-243.93" font-family="Microsoft JhengHei" font-size="18.00">F12DM.DM_TBL_IE_CTWPH</text>
+</g>
+
+<g id="t_c2ca3a20806b" class="node" data-node="t_c2ca3a20806b" role="button" tabindex="0" aria-label="Recipe Group / Siview.CSFRRCPGRPST">
+<title>t_c2ca3a20806b</title>
+<polygon fill="#f7f1ff" stroke="#7756af" stroke-width="2" points="918.53,-75.42 706.5,-75.42 706.5,-8.64 918.53,-8.64 918.53,-75.42" />
+<text xml:space="preserve" text-anchor="middle" x="812.51" y="-49.68" font-family="Microsoft JhengHei" font-size="18.00">Recipe Group</text>
+<text xml:space="preserve" text-anchor="middle" x="812.51" y="-24.93" font-family="Microsoft JhengHei" font-size="18.00">Siview.CSFRRCPGRPST</text>
+</g>
+
+<g id="t_d4d030ed08a4" class="node" data-node="t_d4d030ed08a4" role="button" tabindex="0" aria-label="Flow / F12DM.DM_Flow_step_Bt">
+<title>t_d4d030ed08a4</title>
+<polygon fill="#f7f1ff" stroke="#7756af" stroke-width="4" points="238.29,-225.8 0,-225.8 0,-134.26 238.29,-134.26 238.29,-225.8" />
+<text xml:space="preserve" text-anchor="middle" x="119.14" y="-200.06" font-family="Microsoft JhengHei" font-size="18.00">本圖主詞</text>
+<text xml:space="preserve" text-anchor="middle" x="119.14" y="-175.31" font-family="Microsoft JhengHei" font-size="18.00">Flow</text>
+<text xml:space="preserve" text-anchor="middle" x="119.14" y="-150.56" font-family="Microsoft JhengHei" font-size="18.00">F12DM.DM_Flow_step_Bt</text>
+</g>
+
+<g id="t_e9c0addd1e0c" class="node" data-node="t_e9c0addd1e0c" role="button" tabindex="0" aria-label="LR 對映的機台 / F12DM.DM_Flow_LR_EQP_BT / LR 與機台對應關係">
+<title>t_e9c0addd1e0c</title>
+<polygon fill="#f7f1ff" stroke="#7756af" stroke-width="2" points="946.66,-306.79 678.37,-306.79 678.37,-215.26 946.66,-215.26 946.66,-306.79" />
+<text xml:space="preserve" text-anchor="middle" x="812.51" y="-281.05" font-family="Microsoft JhengHei" font-size="18.00">LR 對映的機台</text>
+<text xml:space="preserve" text-anchor="middle" x="812.51" y="-256.3" font-family="Microsoft JhengHei" font-size="18.00">F12DM.DM_Flow_LR_EQP_BT</text>
+<text xml:space="preserve" text-anchor="middle" x="812.51" y="-231.55" font-family="Microsoft JhengHei" font-size="18.00">LR 與機台對應關係</text>
+</g>
+</g>
+</svg>

@@ -1,0 +1,2119 @@
+{
+  "groups": [
+    {
+      "id": "part",
+      "title": "產品 Part",
+      "meaning": "定義產品與對應路徑",
+      "table": "FRPRODSPEC",
+      "col": 0,
+      "row": 0,
+      "refs": [
+        {
+          "source": "2673",
+          "node": "part",
+          "labels": [
+            "PART 定義",
+            "Siview.frprodspec"
+          ]
+        },
+        {
+          "source": "2673",
+          "node": "part-link",
+          "labels": [
+            "PART 對映",
+            "Mainpd_id"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "flow",
+      "title": "Flow／Stage",
+      "meaning": "路徑、站點及分段定義",
+      "table": "DM_Flow_step_Bt · Stage · SRTS",
+      "col": 1,
+      "row": 0,
+      "refs": [
+        {
+          "source": "2673",
+          "node": "flow-link",
+          "labels": [
+            "Flow 定義",
+            "Part",
+            "Mainpd_id"
+          ]
+        },
+        {
+          "source": "2673",
+          "node": "flow",
+          "labels": [
+            "Flow",
+            "F12DM.DM_Flow_step_Bt"
+          ]
+        },
+        {
+          "source": "2673",
+          "node": "stage-link",
+          "labels": [
+            "Stage 定義"
+          ]
+        },
+        {
+          "source": "2673",
+          "node": "srts-link",
+          "labels": [
+            "抽測跳站設定"
+          ]
+        },
+        {
+          "source": "2673",
+          "node": "stage",
+          "labels": [
+            "Stage 與 Module 定義",
+            "F12dm.dm_tbl_info_stage"
+          ]
+        },
+        {
+          "source": "2673",
+          "node": "srts",
+          "labels": [
+            "SRTS 設定",
+            "Siview.csfrsrts"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lr",
+      "title": "LR 與設備對應",
+      "meaning": "邏輯配方的配置線索",
+      "table": "DM_Flow_LR_EQP_BT · Recipe Group",
+      "col": 2,
+      "row": 0,
+      "refs": [
+        {
+          "source": "2673",
+          "node": "lr",
+          "labels": [
+            "LR 對映的機台",
+            "F12DM.DM_Flow_LR_EQP_BT"
+          ]
+        },
+        {
+          "source": "2673",
+          "node": "recipe",
+          "labels": [
+            "Recipe Group",
+            "Siview.CSFRRCPGRPST"
+          ]
+        },
+        {
+          "source": "2673",
+          "node": "lr-link",
+          "labels": [
+            "LR 與機台",
+            "LCRECIPE_ID"
+          ]
+        },
+        {
+          "source": "2673",
+          "node": "recipe-link",
+          "labels": [
+            "製程程式群組對照"
+          ]
+        },
+        {
+          "source": "2673",
+          "node": "lr-eqp-link",
+          "labels": [
+            "LR 與 EQP_ID 對應",
+            "LCRECIPE_ID"
+          ]
+        },
+        {
+          "source": "2673",
+          "node": "lr-eqp",
+          "labels": [
+            "LR 與機台對應關係",
+            "F12DM.DM_Flow_LR_EQP_BT"
+          ]
+        },
+        {
+          "source": "2677",
+          "node": "lr",
+          "labels": [
+            "DM_FLOW_LR_EQP_BT"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er",
+      "title": "ER 與設備對應",
+      "meaning": "設備配方配置；不是執行證據",
+      "table": "FRMRCP · FRMRCP_EQP",
+      "col": 3,
+      "row": 0,
+      "refs": [
+        {
+          "source": "2677",
+          "node": "recipe",
+          "labels": [
+            "FRMRCP"
+          ]
+        },
+        {
+          "source": "2677",
+          "node": "recipe-key",
+          "labels": [
+            "SYSTEMKEY"
+          ]
+        },
+        {
+          "source": "2677",
+          "node": "recipe-eqp",
+          "labels": [
+            "FRMRCP_EQP"
+          ]
+        },
+        {
+          "source": "2677",
+          "node": "er",
+          "labels": [
+            "ER"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pd",
+      "title": "PD 與設備對應",
+      "meaning": "製程定義關聯的候選設備",
+      "table": "FRPD · FRPD_EQP",
+      "col": 4,
+      "row": 0,
+      "refs": [
+        {
+          "source": "2673",
+          "node": "pd-eqp",
+          "labels": [
+            "PD_ID 與機台",
+            "Siview.frpd_eqp"
+          ]
+        },
+        {
+          "source": "2673",
+          "node": "pd-eqp-link",
+          "labels": [
+            "PD_ID 對映的機台"
+          ]
+        },
+        {
+          "source": "2673",
+          "node": "pd",
+          "labels": [
+            "Flow PD",
+            "Siview.frpd"
+          ]
+        },
+        {
+          "source": "2673",
+          "node": "pd-link",
+          "labels": [
+            "站點的 PD_ID"
+          ]
+        },
+        {
+          "source": "2677",
+          "node": "pd",
+          "labels": [
+            "FRPD"
+          ]
+        },
+        {
+          "source": "2677",
+          "node": "pd-key",
+          "labels": [
+            "systemkey"
+          ]
+        },
+        {
+          "source": "2677",
+          "node": "pd-eqp",
+          "labels": [
+            "MODULEPD_ID",
+            "FRPD_EQP"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hold",
+      "title": "Hold／Qtime",
+      "meaning": "管制安排與時間限制的資料",
+      "table": "Future Hold · Product Hold · Qtime",
+      "col": 0,
+      "row": 1,
+      "refs": [
+        {
+          "source": "2672",
+          "node": "qtime-link",
+          "labels": [
+            "Qtime 站點",
+            "Lot_ID",
+            "Ope_no"
+          ]
+        },
+        {
+          "source": "2672",
+          "node": "qtime",
+          "labels": [
+            "Qtime 歷史",
+            "F12DM.DM_Qrest_Hist_BTH"
+          ]
+        },
+        {
+          "source": "2673",
+          "node": "future",
+          "labels": [
+            "未來的 Future Hold",
+            "Siview.frlot_futurehold"
+          ]
+        },
+        {
+          "source": "2673",
+          "node": "future-link",
+          "labels": [
+            "Future Hold",
+            "Lot_ID"
+          ]
+        },
+        {
+          "source": "2673",
+          "node": "product-hold",
+          "labels": [
+            "Product Hold",
+            "Siview.CSFRPRHold"
+          ]
+        },
+        {
+          "source": "2673",
+          "node": "hold-link",
+          "labels": [
+            "有 Prod Hold",
+            "Lot_ID"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lot",
+      "title": "Lot 生產批次",
+      "meaning": "哪一批？製程狀態與歸屬",
+      "table": "FRLOT · LOT Process Status",
+      "col": 1,
+      "row": 1,
+      "refs": [
+        {
+          "source": "2671",
+          "node": "lot",
+          "labels": [
+            "LOT",
+            "Siview.Frlot"
+          ]
+        },
+        {
+          "source": "2672",
+          "node": "lot",
+          "labels": [
+            "LOT",
+            "Siview.Frlot"
+          ]
+        },
+        {
+          "source": "2673",
+          "node": "lot",
+          "labels": [
+            "LOT",
+            "Siview.frlot"
+          ]
+        },
+        {
+          "source": "2676",
+          "node": "lot",
+          "labels": [
+            "FRLOT"
+          ]
+        },
+        {
+          "source": "2676",
+          "node": "status",
+          "labels": [
+            "LOT Process",
+            "Status"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cast",
+      "title": "FOUP／Slot／裝載",
+      "meaning": "哪個盒子、哪個槽位、裝哪批",
+      "table": "FRCAST · FRCAST_LOT · fhwlths",
+      "col": 2,
+      "row": 1,
+      "refs": [
+        {
+          "source": "2671",
+          "node": "material",
+          "labels": [
+            "Foup",
+            "Siview.FRLot_MtrlContnrs"
+          ]
+        },
+        {
+          "source": "2671",
+          "node": "material-link",
+          "labels": [
+            "放在",
+            "Siview.FrlotMtrl"
+          ]
+        },
+        {
+          "source": "2671",
+          "node": "slot",
+          "labels": [
+            "在 Slot",
+            "Siview.fhwlths"
+          ]
+        },
+        {
+          "source": "2671",
+          "node": "cast-link",
+          "labels": [
+            "放在",
+            "Siview.Frcast_lot"
+          ]
+        },
+        {
+          "source": "2671",
+          "node": "cast",
+          "labels": [
+            "Foup",
+            "Siview.Frcast"
+          ]
+        },
+        {
+          "source": "2672",
+          "node": "cast",
+          "labels": [
+            "Foup",
+            "Siview.frcast"
+          ]
+        },
+        {
+          "source": "2672",
+          "node": "cast-link",
+          "labels": [
+            "Lot 在 Foup 內",
+            "Siview.frcast"
+          ]
+        },
+        {
+          "source": "2676",
+          "node": "cast",
+          "labels": [
+            "CAST_ID",
+            "FRCAST"
+          ]
+        },
+        {
+          "source": "2676",
+          "node": "cast-lot",
+          "labels": [
+            "FRCAST_LOT"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "port",
+      "title": "Port 交接位置",
+      "meaning": "設備與載具交接的介面",
+      "table": "FRPORT · FRPORT_UDATA · Port",
+      "col": 3,
+      "row": 1,
+      "refs": [
+        {
+          "source": "2671",
+          "node": "port-link",
+          "labels": [
+            "EI 在",
+            "Siview.Freqp_Lot"
+          ]
+        },
+        {
+          "source": "2671",
+          "node": "port",
+          "labels": [
+            "Port",
+            "Siview.Port"
+          ]
+        },
+        {
+          "source": "2674",
+          "node": "udata",
+          "labels": [
+            "細部資料",
+            "SIVIEW.FRPORT_UDATA"
+          ]
+        },
+        {
+          "source": "2674",
+          "node": "udata-link",
+          "labels": [
+            "有 L/P",
+            "D_THESYSTEMKEY"
+          ]
+        },
+        {
+          "source": "2674",
+          "node": "port",
+          "labels": [
+            "機台 L/P",
+            "SIVIEW.FRPORT"
+          ]
+        },
+        {
+          "source": "2674",
+          "node": "mode",
+          "labels": [
+            "機台模式",
+            "SIVIEW.CSFRPORT_SUBMODE",
+            "SIVIEW.FHEMCHS"
+          ]
+        },
+        {
+          "source": "2674",
+          "node": "mode-link",
+          "labels": [
+            "機台模式",
+            "EQP_ID",
+            "PORT_ID"
+          ]
+        },
+        {
+          "source": "2674",
+          "node": "port-link",
+          "labels": [
+            "有 L/P",
+            "EQP_ID"
+          ]
+        },
+        {
+          "source": "2676",
+          "node": "port",
+          "labels": [
+            "PORT_ID",
+            "FRPORT"
+          ]
+        },
+        {
+          "source": "2676",
+          "node": "port-id",
+          "labels": [
+            "EQP_ID"
+          ]
+        },
+        {
+          "source": "2676",
+          "node": "udata",
+          "labels": [
+            "FRPORT_UDATA"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "eqp",
+      "title": "EQP 設備",
+      "meaning": "加工資源的主機身分",
+      "table": "FREQP · EQP_ID",
+      "col": 4,
+      "row": 1,
+      "refs": [
+        {
+          "source": "2671",
+          "node": "has",
+          "labels": [
+            "有",
+            "eqp_id"
+          ]
+        },
+        {
+          "source": "2671",
+          "node": "eqp",
+          "labels": [
+            "機台",
+            "Siview.freqp"
+          ]
+        },
+        {
+          "source": "2674",
+          "node": "eqp",
+          "labels": [
+            "EQP",
+            "Siview.Freqp"
+          ]
+        },
+        {
+          "source": "2676",
+          "node": "eqp",
+          "labels": [
+            "EQP",
+            "FREQP"
+          ]
+        },
+        {
+          "source": "2676",
+          "node": "eqp-id",
+          "labels": [
+            "EQP_ID"
+          ]
+        },
+        {
+          "source": "2677",
+          "node": "eqp-id",
+          "labels": [
+            "EQP_ID"
+          ]
+        },
+        {
+          "source": "2677",
+          "node": "eqp",
+          "labels": [
+            "FREQP"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "forecast",
+      "title": "預派／預到／預估",
+      "meaning": "計畫要去哪、預估何時到",
+      "table": "Predispatch · Lot forecast · Stream",
+      "col": 0,
+      "row": 2,
+      "refs": [
+        {
+          "source": "2671",
+          "node": "lot-eqp",
+          "labels": [
+            "預到",
+            "Siview.Frlot_EQP"
+          ]
+        },
+        {
+          "source": "2671",
+          "node": "predispatch",
+          "labels": [
+            "預派機台",
+            "eqp_id",
+            "SIVIEW.CSFRPREDISPATCH"
+          ]
+        },
+        {
+          "source": "2672",
+          "node": "predispatch",
+          "labels": [
+            "預派記錄",
+            "Siview.CSFHPREDISP"
+          ]
+        },
+        {
+          "source": "2672",
+          "node": "pre-link",
+          "labels": [
+            "預派機台",
+            "Lot_ID"
+          ]
+        },
+        {
+          "source": "2673",
+          "node": "forecast-link",
+          "labels": [
+            "未來的 Flow",
+            "Lot_ID",
+            "OPE_NO"
+          ]
+        },
+        {
+          "source": "2673",
+          "node": "stream-link",
+          "labels": [
+            "未來的各站",
+            "Lot_ID",
+            "OPE_NO"
+          ]
+        },
+        {
+          "source": "2673",
+          "node": "forecast",
+          "labels": [
+            "未來的 Flow",
+            "F12dm.dm_tbl_lot_forecast"
+          ]
+        },
+        {
+          "source": "2673",
+          "node": "stream",
+          "labels": [
+            "Stream 到站時間",
+            "Stream_fcst_lot_st"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "move",
+      "title": "Move／全部動作",
+      "meaning": "發生過什麼？重工另算過站",
+      "table": "DM_Move_Step_bth · FHOPEHS_S",
+      "col": 1,
+      "row": 2,
+      "refs": [
+        {
+          "source": "2672",
+          "node": "move",
+          "labels": [
+            "MOVE 歷史",
+            "F12DM.DM_Move_Step_bth"
+          ]
+        },
+        {
+          "source": "2672",
+          "node": "move-link",
+          "labels": [
+            "機台 MOVE",
+            "Lot_id"
+          ]
+        },
+        {
+          "source": "2672",
+          "node": "summary",
+          "labels": [
+            "站點 Summary",
+            "Lot_id"
+          ]
+        },
+        {
+          "source": "2672",
+          "node": "step",
+          "labels": [
+            "Step 歷史",
+            "F12DM.DM_Lot_step_st"
+          ]
+        },
+        {
+          "source": "2672",
+          "node": "all-actions",
+          "labels": [
+            "Lot 所有動作",
+            "Lot_ID"
+          ]
+        },
+        {
+          "source": "2672",
+          "node": "history",
+          "labels": [
+            "批貨歷史",
+            "Siview.FHOPEHS_S"
+          ]
+        },
+        {
+          "source": "2675",
+          "node": "move",
+          "labels": [
+            "MOVE 歷史",
+            "F12DM.DM_Move_Step_bth"
+          ]
+        },
+        {
+          "source": "2675",
+          "node": "move-link",
+          "labels": [
+            "機台 MOVE",
+            "Lot_id"
+          ]
+        },
+        {
+          "source": "2675",
+          "node": "all-actions",
+          "labels": [
+            "Lot 所有動作",
+            "Lot_ID"
+          ]
+        },
+        {
+          "source": "2675",
+          "node": "history",
+          "labels": [
+            "批貨歷史",
+            "Siview.FHOPEHS_S"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "transfer",
+      "title": "搬送歷史",
+      "meaning": "載具如何被運送",
+      "table": "MES／MCS Carrier history",
+      "col": 2,
+      "row": 2,
+      "refs": [
+        {
+          "source": "2672",
+          "node": "mes-transfer",
+          "labels": [
+            "MES 傳送歷史",
+            "Carrier_id"
+          ]
+        },
+        {
+          "source": "2672",
+          "node": "transfer",
+          "labels": [
+            "傳送歷史",
+            "Mfg_Carrier_te_ut"
+          ]
+        },
+        {
+          "source": "2672",
+          "node": "mcs-transfer",
+          "labels": [
+            "MCS 傳送歷史",
+            "Carrier_id",
+            "transfer_job_id"
+          ]
+        },
+        {
+          "source": "2672",
+          "node": "mcs-history",
+          "labels": [
+            "MCS 傳送歷史",
+            "carrier_job_history@mcsdb",
+            "transfer_job_history@mcsdb"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "chamber",
+      "title": "Chamber 加工資源",
+      "meaning": "設備內哪個資源、狀況如何",
+      "table": "FRPRCRSC · FHCSCHS",
+      "col": 3,
+      "row": 2,
+      "refs": [
+        {
+          "source": "2674",
+          "node": "chamber-link",
+          "labels": [
+            "有 Chamber",
+            "eqp_id"
+          ]
+        },
+        {
+          "source": "2674",
+          "node": "chamber",
+          "labels": [
+            "Chamber 狀況",
+            "Siview.csfrprcrsc",
+            "SIVIEW.FHCSCHS"
+          ]
+        },
+        {
+          "source": "2674",
+          "node": "detail-link",
+          "labels": [
+            "細部狀況",
+            "eqp_id",
+            "procrsc_id"
+          ]
+        },
+        {
+          "source": "2674",
+          "node": "chamber-detail",
+          "labels": [
+            "Chamber 細部",
+            "Siview.frprcrsc"
+          ]
+        },
+        {
+          "source": "2676",
+          "node": "chamber",
+          "labels": [
+            "CHAMBER ID",
+            "FRPRCRSC"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "state",
+      "title": "設備現況／歷史",
+      "meaning": "某時刻狀態；不等於期間比率",
+      "table": "FREQP · FHESCHS · KER_EQP_STATUS",
+      "col": 4,
+      "row": 2,
+      "refs": [
+        {
+          "source": "2674",
+          "node": "eqp-history",
+          "labels": [
+            "機況歷史",
+            "SIVIEW.FHESCHS"
+          ]
+        },
+        {
+          "source": "2674",
+          "node": "history-link",
+          "labels": [
+            "機況歷史",
+            "EQP_ID"
+          ]
+        },
+        {
+          "source": "2675",
+          "node": "status-link",
+          "labels": [
+            "目前機況",
+            "EQP_ID"
+          ]
+        },
+        {
+          "source": "2675",
+          "node": "status",
+          "labels": [
+            "機台機況",
+            "KER_EQP_STATUS_BT"
+          ]
+        },
+        {
+          "source": "2677",
+          "node": "status",
+          "labels": [
+            "EQP",
+            "STATUS"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "capacity",
+      "title": "IE 產能定義",
+      "meaning": "定義 WPH 的工程資料",
+      "table": "DM_TBL_IE_CTWPH",
+      "col": 0,
+      "row": 3,
+      "refs": [
+        {
+          "source": "2673",
+          "node": "wph",
+          "labels": [
+            "IE 的 WPH 定義",
+            "F12DM.DM_TBL_IE_CTWPH"
+          ]
+        },
+        {
+          "source": "2673",
+          "node": "wph-link",
+          "labels": [
+            "IE 的 WPH"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "wip",
+      "title": "WIP／歷史快照",
+      "meaning": "某時間點有哪些在製批次",
+      "table": "KER_WIP_BT · KER_WIP_Y_BTH",
+      "col": 1,
+      "row": 3,
+      "refs": [
+        {
+          "source": "2675",
+          "node": "wip-history",
+          "labels": [
+            "星期一的七點二十分的 WIP",
+            "KER_WIP_Y_BTH"
+          ]
+        },
+        {
+          "source": "2675",
+          "node": "wip-link",
+          "labels": [
+            "歷史 WIP",
+            "Lot_ID"
+          ]
+        },
+        {
+          "source": "2675",
+          "node": "lot",
+          "labels": [
+            "LOT",
+            "KER_WIP_BT"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "groups",
+      "title": "機群／虛擬群組",
+      "meaning": "統計包含哪些設備與 Chamber",
+      "table": "EQP_GRP · DYNAMIC_SQL",
+      "col": 2,
+      "row": 3,
+      "refs": [
+        {
+          "source": "2675",
+          "node": "chamber-link",
+          "labels": [
+            "機群與機台 Ch",
+            "EQP_GRP"
+          ]
+        },
+        {
+          "source": "2675",
+          "node": "chamber",
+          "labels": [
+            "Chamber",
+            "ker_dm_sub_ch_eqp_grp_bt"
+          ]
+        },
+        {
+          "source": "2675",
+          "node": "group-link",
+          "labels": [
+            "機群與機台",
+            "EQP_GRP"
+          ]
+        },
+        {
+          "source": "2675",
+          "node": "eqp",
+          "labels": [
+            "機台",
+            "KER_EMP_EQP_GRP_CAP_UT"
+          ]
+        },
+        {
+          "source": "2675",
+          "node": "virtual-link",
+          "labels": [
+            "屬於哪個虛擬群組",
+            "DYNAMIC_SQL"
+          ]
+        },
+        {
+          "source": "2675",
+          "node": "virtual",
+          "labels": [
+            "虛擬 Group (*ALL)",
+            "KER_VR_EQP_GRP_DETAIL_BT"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "oee",
+      "title": "機台／機群統計",
+      "meaning": "一段期間的設備表現",
+      "table": "OEE current／history",
+      "col": 3,
+      "row": 3,
+      "refs": [
+        {
+          "source": "2675",
+          "node": "eqp-oee-link",
+          "labels": [
+            "機台歷史 OEE",
+            "EQP_ID"
+          ]
+        },
+        {
+          "source": "2675",
+          "node": "eqp-oee",
+          "labels": [
+            "機台 OEE 歷史",
+            "Ker_Eqp_Aaa_Oee_Ut"
+          ]
+        },
+        {
+          "source": "2675",
+          "node": "group-oee-link",
+          "labels": [
+            "機群目前 OEE",
+            "EQP_GRP"
+          ]
+        },
+        {
+          "source": "2675",
+          "node": "group-oee",
+          "labels": [
+            "機群目前 OEE",
+            "ker_dm_bt"
+          ]
+        },
+        {
+          "source": "2675",
+          "node": "group-history-link",
+          "labels": [
+            "機群歷史 OEE",
+            "EQP_ID"
+          ]
+        },
+        {
+          "source": "2675",
+          "node": "group-history",
+          "labels": [
+            "機群 OEE 歷史",
+            "Ker_Dm_Hourly_Bth"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "location",
+      "title": "設備位置／儲位配置",
+      "meaning": "Bay、Owner、STK、OHB 的線索",
+      "table": "MFG_EQP_BAY_BT · OHB · BMIR",
+      "col": 4,
+      "row": 3,
+      "refs": [
+        {
+          "source": "2671",
+          "node": "location",
+          "labels": [
+            "位於",
+            "eqp_id",
+            "Siview.CSFHDOPHS"
+          ]
+        },
+        {
+          "source": "2674",
+          "node": "default",
+          "labels": [
+            "機台的 Default STK",
+            "Siview.csfreqp_stk"
+          ]
+        },
+        {
+          "source": "2674",
+          "node": "default-link",
+          "labels": [
+            "Default STK",
+            "eqp_id"
+          ]
+        },
+        {
+          "source": "2674",
+          "node": "bay",
+          "labels": [
+            "機台位置",
+            "MFG_EQP_BAY_BT"
+          ]
+        },
+        {
+          "source": "2674",
+          "node": "bay-link",
+          "labels": [
+            "機台位置",
+            "EQP_ID"
+          ]
+        },
+        {
+          "source": "2674",
+          "node": "owner-link",
+          "labels": [
+            "機群與課別",
+            "EQP_ID"
+          ]
+        },
+        {
+          "source": "2674",
+          "node": "ohb-link",
+          "labels": [
+            "設定 OHB",
+            "EQPSTKID"
+          ]
+        },
+        {
+          "source": "2674",
+          "node": "owner",
+          "labels": [
+            "機群與課別",
+            "MFG_EQP_OWNER_BT"
+          ]
+        },
+        {
+          "source": "2674",
+          "node": "ohb-eqp",
+          "labels": [
+            "機群 OHB",
+            "Siview.csfrohb_eqp"
+          ]
+        },
+        {
+          "source": "2674",
+          "node": "ohb-status-link",
+          "labels": [
+            "OHB 狀況",
+            "OHB_ID"
+          ]
+        },
+        {
+          "source": "2674",
+          "node": "ohb-status",
+          "labels": [
+            "OHB 狀況",
+            "Siview.csfrohb"
+          ]
+        },
+        {
+          "source": "2674",
+          "node": "bmir-link",
+          "labels": [
+            "設定 BMIR",
+            "OHB_ID"
+          ]
+        },
+        {
+          "source": "2674",
+          "node": "bmir",
+          "labels": [
+            "BMIR",
+            "SIVIEW.CSFROHB_CFG"
+          ]
+        },
+        {
+          "source": "2677",
+          "node": "bay",
+          "labels": [
+            "MFG_EQP_BAY_BT"
+          ]
+        },
+        {
+          "source": "2677",
+          "node": "location",
+          "labels": [
+            "EQP",
+            "LOCATION",
+            "PHASE"
+          ]
+        }
+      ]
+    }
+  ],
+  "sourceEdges": [
+    {
+      "source": "2671",
+      "a": "material",
+      "b": "material-link",
+      "groupA": "cast",
+      "groupB": "cast"
+    },
+    {
+      "source": "2671",
+      "a": "material-link",
+      "b": "lot",
+      "groupA": "cast",
+      "groupB": "lot"
+    },
+    {
+      "source": "2671",
+      "a": "lot",
+      "b": "port-link",
+      "groupA": "lot",
+      "groupB": "port"
+    },
+    {
+      "source": "2671",
+      "a": "port-link",
+      "b": "port",
+      "groupA": "port",
+      "groupB": "port"
+    },
+    {
+      "source": "2671",
+      "a": "lot",
+      "b": "slot",
+      "groupA": "lot",
+      "groupB": "cast"
+    },
+    {
+      "source": "2671",
+      "a": "slot",
+      "b": "cast",
+      "groupA": "cast",
+      "groupB": "cast"
+    },
+    {
+      "source": "2671",
+      "a": "lot",
+      "b": "cast-link",
+      "groupA": "lot",
+      "groupB": "cast"
+    },
+    {
+      "source": "2671",
+      "a": "cast-link",
+      "b": "cast",
+      "groupA": "cast",
+      "groupB": "cast"
+    },
+    {
+      "source": "2671",
+      "a": "lot",
+      "b": "lot-eqp",
+      "groupA": "lot",
+      "groupB": "forecast"
+    },
+    {
+      "source": "2671",
+      "a": "port",
+      "b": "has",
+      "groupA": "port",
+      "groupB": "eqp"
+    },
+    {
+      "source": "2671",
+      "a": "has",
+      "b": "eqp",
+      "groupA": "eqp",
+      "groupB": "eqp"
+    },
+    {
+      "source": "2671",
+      "a": "lot-eqp",
+      "b": "eqp",
+      "groupA": "forecast",
+      "groupB": "eqp"
+    },
+    {
+      "source": "2671",
+      "a": "cast",
+      "b": "location",
+      "groupA": "cast",
+      "groupB": "location"
+    },
+    {
+      "source": "2671",
+      "a": "location",
+      "b": "eqp",
+      "groupA": "location",
+      "groupB": "eqp"
+    },
+    {
+      "source": "2671",
+      "a": "cast",
+      "b": "predispatch",
+      "groupA": "cast",
+      "groupB": "forecast"
+    },
+    {
+      "source": "2671",
+      "a": "predispatch",
+      "b": "eqp",
+      "groupA": "forecast",
+      "groupB": "eqp"
+    },
+    {
+      "source": "2672",
+      "a": "predispatch",
+      "b": "pre-link",
+      "groupA": "forecast",
+      "groupB": "forecast"
+    },
+    {
+      "source": "2672",
+      "a": "pre-link",
+      "b": "lot",
+      "groupA": "forecast",
+      "groupB": "lot"
+    },
+    {
+      "source": "2672",
+      "a": "lot",
+      "b": "all-actions",
+      "groupA": "lot",
+      "groupB": "move"
+    },
+    {
+      "source": "2672",
+      "a": "all-actions",
+      "b": "history",
+      "groupA": "move",
+      "groupB": "move"
+    },
+    {
+      "source": "2672",
+      "a": "cast",
+      "b": "cast-link",
+      "groupA": "cast",
+      "groupB": "cast"
+    },
+    {
+      "source": "2672",
+      "a": "cast-link",
+      "b": "step",
+      "groupA": "cast",
+      "groupB": "move"
+    },
+    {
+      "source": "2672",
+      "a": "step",
+      "b": "qtime-link",
+      "groupA": "move",
+      "groupB": "hold"
+    },
+    {
+      "source": "2672",
+      "a": "qtime-link",
+      "b": "qtime",
+      "groupA": "hold",
+      "groupB": "hold"
+    },
+    {
+      "source": "2672",
+      "a": "move",
+      "b": "move-link",
+      "groupA": "move",
+      "groupB": "move"
+    },
+    {
+      "source": "2672",
+      "a": "move-link",
+      "b": "lot",
+      "groupA": "move",
+      "groupB": "lot"
+    },
+    {
+      "source": "2672",
+      "a": "lot",
+      "b": "summary",
+      "groupA": "lot",
+      "groupB": "move"
+    },
+    {
+      "source": "2672",
+      "a": "summary",
+      "b": "step",
+      "groupA": "move",
+      "groupB": "move"
+    },
+    {
+      "source": "2672",
+      "a": "cast",
+      "b": "mes-transfer",
+      "groupA": "cast",
+      "groupB": "transfer"
+    },
+    {
+      "source": "2672",
+      "a": "mes-transfer",
+      "b": "transfer",
+      "groupA": "transfer",
+      "groupB": "transfer"
+    },
+    {
+      "source": "2672",
+      "a": "mcs-transfer",
+      "b": "mcs-history",
+      "groupA": "transfer",
+      "groupB": "transfer"
+    },
+    {
+      "source": "2672",
+      "a": "move-link",
+      "b": "history",
+      "groupA": "move",
+      "groupB": "move"
+    },
+    {
+      "source": "2672",
+      "a": "cast",
+      "b": "mcs-transfer",
+      "groupA": "cast",
+      "groupB": "transfer"
+    },
+    {
+      "source": "2673",
+      "a": "wph",
+      "b": "wph-link",
+      "groupA": "capacity",
+      "groupB": "capacity"
+    },
+    {
+      "source": "2673",
+      "a": "wph-link",
+      "b": "lr",
+      "groupA": "capacity",
+      "groupB": "lr"
+    },
+    {
+      "source": "2673",
+      "a": "pd-eqp",
+      "b": "pd-eqp-link",
+      "groupA": "pd",
+      "groupB": "pd"
+    },
+    {
+      "source": "2673",
+      "a": "pd-eqp-link",
+      "b": "pd",
+      "groupA": "pd",
+      "groupB": "pd"
+    },
+    {
+      "source": "2673",
+      "a": "lr",
+      "b": "lr-link",
+      "groupA": "lr",
+      "groupB": "lr"
+    },
+    {
+      "source": "2673",
+      "a": "pd",
+      "b": "pd-link",
+      "groupA": "pd",
+      "groupB": "pd"
+    },
+    {
+      "source": "2673",
+      "a": "part",
+      "b": "part-link",
+      "groupA": "part",
+      "groupB": "part"
+    },
+    {
+      "source": "2673",
+      "a": "recipe",
+      "b": "recipe-link",
+      "groupA": "lr",
+      "groupB": "lr"
+    },
+    {
+      "source": "2673",
+      "a": "forecast-link",
+      "b": "forecast",
+      "groupA": "forecast",
+      "groupB": "forecast"
+    },
+    {
+      "source": "2673",
+      "a": "stream-link",
+      "b": "stream",
+      "groupA": "forecast",
+      "groupB": "forecast"
+    },
+    {
+      "source": "2673",
+      "a": "stage-link",
+      "b": "stage",
+      "groupA": "flow",
+      "groupB": "flow"
+    },
+    {
+      "source": "2673",
+      "a": "srts-link",
+      "b": "srts",
+      "groupA": "flow",
+      "groupB": "flow"
+    },
+    {
+      "source": "2673",
+      "a": "future",
+      "b": "future-link",
+      "groupA": "hold",
+      "groupB": "hold"
+    },
+    {
+      "source": "2673",
+      "a": "product-hold",
+      "b": "hold-link",
+      "groupA": "hold",
+      "groupB": "hold"
+    },
+    {
+      "source": "2673",
+      "a": "hold-link",
+      "b": "lot",
+      "groupA": "hold",
+      "groupB": "lot"
+    },
+    {
+      "source": "2673",
+      "a": "lot",
+      "b": "flow-link",
+      "groupA": "lot",
+      "groupB": "flow"
+    },
+    {
+      "source": "2673",
+      "a": "flow-link",
+      "b": "flow",
+      "groupA": "flow",
+      "groupB": "flow"
+    },
+    {
+      "source": "2673",
+      "a": "flow",
+      "b": "lr-eqp-link",
+      "groupA": "flow",
+      "groupB": "lr"
+    },
+    {
+      "source": "2673",
+      "a": "lr-eqp-link",
+      "b": "lr-eqp",
+      "groupA": "lr",
+      "groupB": "lr"
+    },
+    {
+      "source": "2673",
+      "a": "future-link",
+      "b": "lot",
+      "groupA": "hold",
+      "groupB": "lot"
+    },
+    {
+      "source": "2673",
+      "a": "lr-link",
+      "b": "flow",
+      "groupA": "lr",
+      "groupB": "flow"
+    },
+    {
+      "source": "2673",
+      "a": "pd-link",
+      "b": "flow",
+      "groupA": "pd",
+      "groupB": "flow"
+    },
+    {
+      "source": "2673",
+      "a": "part-link",
+      "b": "flow",
+      "groupA": "part",
+      "groupB": "flow"
+    },
+    {
+      "source": "2673",
+      "a": "recipe-link",
+      "b": "flow",
+      "groupA": "lr",
+      "groupB": "flow"
+    },
+    {
+      "source": "2673",
+      "a": "lot",
+      "b": "stream-link",
+      "groupA": "lot",
+      "groupB": "forecast"
+    },
+    {
+      "source": "2673",
+      "a": "lot",
+      "b": "forecast-link",
+      "groupA": "lot",
+      "groupB": "forecast"
+    },
+    {
+      "source": "2673",
+      "a": "flow",
+      "b": "stage-link",
+      "groupA": "flow",
+      "groupB": "flow"
+    },
+    {
+      "source": "2673",
+      "a": "flow",
+      "b": "srts-link",
+      "groupA": "flow",
+      "groupB": "flow"
+    },
+    {
+      "source": "2674",
+      "a": "udata",
+      "b": "udata-link",
+      "groupA": "port",
+      "groupB": "port"
+    },
+    {
+      "source": "2674",
+      "a": "udata-link",
+      "b": "port",
+      "groupA": "port",
+      "groupB": "port"
+    },
+    {
+      "source": "2674",
+      "a": "port",
+      "b": "port-link",
+      "groupA": "port",
+      "groupB": "port"
+    },
+    {
+      "source": "2674",
+      "a": "port-link",
+      "b": "eqp",
+      "groupA": "port",
+      "groupB": "eqp"
+    },
+    {
+      "source": "2674",
+      "a": "default",
+      "b": "default-link",
+      "groupA": "location",
+      "groupB": "location"
+    },
+    {
+      "source": "2674",
+      "a": "eqp",
+      "b": "owner-link",
+      "groupA": "eqp",
+      "groupB": "location"
+    },
+    {
+      "source": "2674",
+      "a": "owner-link",
+      "b": "owner",
+      "groupA": "location",
+      "groupB": "location"
+    },
+    {
+      "source": "2674",
+      "a": "ohb-link",
+      "b": "ohb-eqp",
+      "groupA": "location",
+      "groupB": "location"
+    },
+    {
+      "source": "2674",
+      "a": "chamber",
+      "b": "detail-link",
+      "groupA": "chamber",
+      "groupB": "chamber"
+    },
+    {
+      "source": "2674",
+      "a": "detail-link",
+      "b": "chamber-detail",
+      "groupA": "chamber",
+      "groupB": "chamber"
+    },
+    {
+      "source": "2674",
+      "a": "ohb-eqp",
+      "b": "ohb-status-link",
+      "groupA": "location",
+      "groupB": "location"
+    },
+    {
+      "source": "2674",
+      "a": "ohb-status-link",
+      "b": "ohb-status",
+      "groupA": "location",
+      "groupB": "location"
+    },
+    {
+      "source": "2674",
+      "a": "mode",
+      "b": "mode-link",
+      "groupA": "port",
+      "groupB": "port"
+    },
+    {
+      "source": "2674",
+      "a": "mode-link",
+      "b": "port",
+      "groupA": "port",
+      "groupB": "port"
+    },
+    {
+      "source": "2674",
+      "a": "eqp-history",
+      "b": "history-link",
+      "groupA": "state",
+      "groupB": "state"
+    },
+    {
+      "source": "2674",
+      "a": "bay",
+      "b": "bay-link",
+      "groupA": "location",
+      "groupB": "location"
+    },
+    {
+      "source": "2674",
+      "a": "bay-link",
+      "b": "eqp",
+      "groupA": "location",
+      "groupB": "eqp"
+    },
+    {
+      "source": "2674",
+      "a": "eqp",
+      "b": "chamber-link",
+      "groupA": "eqp",
+      "groupB": "chamber"
+    },
+    {
+      "source": "2674",
+      "a": "chamber-link",
+      "b": "chamber",
+      "groupA": "chamber",
+      "groupB": "chamber"
+    },
+    {
+      "source": "2674",
+      "a": "ohb-status",
+      "b": "bmir-link",
+      "groupA": "location",
+      "groupB": "location"
+    },
+    {
+      "source": "2674",
+      "a": "bmir-link",
+      "b": "bmir",
+      "groupA": "location",
+      "groupB": "location"
+    },
+    {
+      "source": "2674",
+      "a": "history-link",
+      "b": "eqp",
+      "groupA": "state",
+      "groupB": "eqp"
+    },
+    {
+      "source": "2674",
+      "a": "default-link",
+      "b": "eqp",
+      "groupA": "location",
+      "groupB": "eqp"
+    },
+    {
+      "source": "2674",
+      "a": "eqp",
+      "b": "ohb-link",
+      "groupA": "eqp",
+      "groupB": "location"
+    },
+    {
+      "source": "2674",
+      "a": "bay-link",
+      "b": "owner",
+      "groupA": "location",
+      "groupB": "location"
+    },
+    {
+      "source": "2675",
+      "a": "wip-history",
+      "b": "wip-link",
+      "groupA": "wip",
+      "groupB": "wip"
+    },
+    {
+      "source": "2675",
+      "a": "wip-link",
+      "b": "lot",
+      "groupA": "wip",
+      "groupB": "wip"
+    },
+    {
+      "source": "2675",
+      "a": "lot",
+      "b": "all-actions",
+      "groupA": "wip",
+      "groupB": "move"
+    },
+    {
+      "source": "2675",
+      "a": "all-actions",
+      "b": "history",
+      "groupA": "move",
+      "groupB": "move"
+    },
+    {
+      "source": "2675",
+      "a": "status-link",
+      "b": "status",
+      "groupA": "state",
+      "groupB": "state"
+    },
+    {
+      "source": "2675",
+      "a": "eqp-oee-link",
+      "b": "eqp-oee",
+      "groupA": "oee",
+      "groupB": "oee"
+    },
+    {
+      "source": "2675",
+      "a": "group-oee-link",
+      "b": "group-oee",
+      "groupA": "oee",
+      "groupB": "oee"
+    },
+    {
+      "source": "2675",
+      "a": "group-history-link",
+      "b": "group-history",
+      "groupA": "oee",
+      "groupB": "oee"
+    },
+    {
+      "source": "2675",
+      "a": "move",
+      "b": "move-link",
+      "groupA": "move",
+      "groupB": "move"
+    },
+    {
+      "source": "2675",
+      "a": "move-link",
+      "b": "lot",
+      "groupA": "move",
+      "groupB": "wip"
+    },
+    {
+      "source": "2675",
+      "a": "lot",
+      "b": "group-link",
+      "groupA": "wip",
+      "groupB": "groups"
+    },
+    {
+      "source": "2675",
+      "a": "group-link",
+      "b": "eqp",
+      "groupA": "groups",
+      "groupB": "groups"
+    },
+    {
+      "source": "2675",
+      "a": "chamber-link",
+      "b": "chamber",
+      "groupA": "groups",
+      "groupB": "groups"
+    },
+    {
+      "source": "2675",
+      "a": "eqp",
+      "b": "virtual-link",
+      "groupA": "groups",
+      "groupB": "groups"
+    },
+    {
+      "source": "2675",
+      "a": "virtual-link",
+      "b": "virtual",
+      "groupA": "groups",
+      "groupB": "groups"
+    },
+    {
+      "source": "2675",
+      "a": "lot",
+      "b": "chamber-link",
+      "groupA": "wip",
+      "groupB": "groups"
+    },
+    {
+      "source": "2675",
+      "a": "move-link",
+      "b": "history",
+      "groupA": "move",
+      "groupB": "move"
+    },
+    {
+      "source": "2675",
+      "a": "eqp",
+      "b": "status-link",
+      "groupA": "groups",
+      "groupB": "state"
+    },
+    {
+      "source": "2675",
+      "a": "eqp",
+      "b": "eqp-oee-link",
+      "groupA": "groups",
+      "groupB": "oee"
+    },
+    {
+      "source": "2675",
+      "a": "eqp",
+      "b": "group-oee-link",
+      "groupA": "groups",
+      "groupB": "oee"
+    },
+    {
+      "source": "2675",
+      "a": "eqp",
+      "b": "group-history-link",
+      "groupA": "groups",
+      "groupB": "oee"
+    },
+    {
+      "source": "2676",
+      "a": "eqp",
+      "b": "eqp-id",
+      "groupA": "eqp",
+      "groupB": "eqp"
+    },
+    {
+      "source": "2676",
+      "a": "eqp-id",
+      "b": "port",
+      "groupA": "eqp",
+      "groupB": "port"
+    },
+    {
+      "source": "2676",
+      "a": "eqp-id",
+      "b": "cast",
+      "groupA": "eqp",
+      "groupB": "cast"
+    },
+    {
+      "source": "2676",
+      "a": "eqp-id",
+      "b": "chamber",
+      "groupA": "eqp",
+      "groupB": "chamber"
+    },
+    {
+      "source": "2676",
+      "a": "port",
+      "b": "port-id",
+      "groupA": "port",
+      "groupB": "port"
+    },
+    {
+      "source": "2676",
+      "a": "port-id",
+      "b": "udata",
+      "groupA": "port",
+      "groupB": "port"
+    },
+    {
+      "source": "2676",
+      "a": "cast",
+      "b": "cast-lot",
+      "groupA": "cast",
+      "groupB": "cast"
+    },
+    {
+      "source": "2676",
+      "a": "cast-lot",
+      "b": "lot",
+      "groupA": "cast",
+      "groupB": "lot"
+    },
+    {
+      "source": "2676",
+      "a": "lot",
+      "b": "status",
+      "groupA": "lot",
+      "groupB": "lot"
+    },
+    {
+      "source": "2677",
+      "a": "pd",
+      "b": "pd-key",
+      "groupA": "pd",
+      "groupB": "pd"
+    },
+    {
+      "source": "2677",
+      "a": "pd-key",
+      "b": "pd-eqp",
+      "groupA": "pd",
+      "groupB": "pd"
+    },
+    {
+      "source": "2677",
+      "a": "recipe",
+      "b": "recipe-key",
+      "groupA": "er",
+      "groupB": "er"
+    },
+    {
+      "source": "2677",
+      "a": "recipe-key",
+      "b": "recipe-eqp",
+      "groupA": "er",
+      "groupB": "er"
+    },
+    {
+      "source": "2677",
+      "a": "bay",
+      "b": "location",
+      "groupA": "location",
+      "groupB": "location"
+    },
+    {
+      "source": "2677",
+      "a": "eqp",
+      "b": "status",
+      "groupA": "eqp",
+      "groupB": "state"
+    },
+    {
+      "source": "2677",
+      "a": "pd-eqp",
+      "b": "eqp-id",
+      "groupA": "pd",
+      "groupB": "eqp"
+    },
+    {
+      "source": "2677",
+      "a": "eqp-id",
+      "b": "recipe-eqp",
+      "groupA": "eqp",
+      "groupB": "er"
+    },
+    {
+      "source": "2677",
+      "a": "recipe",
+      "b": "er",
+      "groupA": "er",
+      "groupB": "er"
+    },
+    {
+      "source": "2677",
+      "a": "er",
+      "b": "lr",
+      "groupA": "er",
+      "groupB": "lr"
+    },
+    {
+      "source": "2677",
+      "a": "eqp-id",
+      "b": "bay",
+      "groupA": "eqp",
+      "groupB": "location"
+    },
+    {
+      "source": "2677",
+      "a": "eqp-id",
+      "b": "eqp",
+      "groupA": "eqp",
+      "groupB": "eqp"
+    }
+  ],
+  "notice": "群組表示共同物理／業務主題，不等於同一張表；線為語意關係，不是 SQL Join。"
+}

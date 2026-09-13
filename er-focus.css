@@ -1,0 +1,27 @@
+/* MES-017 focused ER is laid out at actual container width. */
+#focus-panel{margin:0 0 18px;border:1px solid #c5d9e8;border-radius:10px;background:#f8fbff;padding:14px;overflow:hidden}
+#focus-title{margin:2px 0 8px;font-size:23px;line-height:1.4}
+#focus-note{font-size:14px;color:#456278;margin:8px 0}
+#focus-graph,#focus-large{width:100%;min-width:0;background:#fff;border-radius:8px}
+#focus-graph svg,#focus-large svg{display:block;max-width:100%;font-family:'Microsoft JhengHei',system-ui,sans-serif}
+[data-focus-node]{cursor:pointer;outline:none}
+[data-focus-node]:hover>rect,[data-focus-node]:hover>polygon,[data-focus-node]:hover>ellipse{fill:#fff2ca}
+[data-focus-node]:focus-visible>rect,[data-focus-node]:focus-visible>polygon,[data-focus-node]:focus-visible>ellipse{stroke:#b77912;stroke-width:4}
+#focus-more{display:flex;flex-wrap:wrap;gap:6px;margin:8px 0}
+#focus-more:empty{display:none}
+#focus-more button{font-size:13px;padding:7px 10px}
+#focus-expand{margin:8px 0 0}
+.inspector-toolbar{display:flex;align-items:center;justify-content:space-between;gap:12px;position:sticky;top:0;z-index:4;background:white;padding:10px 0;margin-bottom:12px;border-bottom:1px solid #cbdce9}
+#inspector-expand{font-weight:700;background:#eaf3ff;border-color:#176ac2;white-space:nowrap}
+#inspector-dialog{width:min(1500px,96vw);max-width:96vw;max-height:94vh;padding:0;border:1px solid #b4cadd;border-radius:12px;overflow:auto;overscroll-behavior:contain}
+#inspector-dialog::backdrop{background:#102b42bb}
+#inspector-dialog #inspector{border:0;border-radius:0;overflow:visible}
+#inspector-dialog .teaching-figure{max-width:1100px;margin-inline:auto}
+#focus-dialog{width:min(1040px,96vw);max-height:94vh;border:1px solid #b4cadd;border-radius:12px;padding:18px;overflow:auto}
+#focus-dialog::backdrop{background:#102b42bb}
+#focus-dialog form{text-align:right;position:sticky;top:0;background:#fff;z-index:1;padding:6px}
+.workspace{grid-template-columns:minmax(0,1fr) minmax(0,1fr)}
+.focus-takeaway{background:#FFF4CC;border:1px solid #e5bd59;border-radius:7px;padding:10px;font-size:14px}
+#selection-details{margin:12px 0}
+@media(max-width:950px){.workspace{display:flex;flex-direction:column}.workspace> *{width:100%}#inspector{order:-1}}
+@media(max-width:600px){#inspector{padding:10px}#focus-panel{padding:8px}#focus-title{font-size:21px}#focus-dialog{padding:8px}}

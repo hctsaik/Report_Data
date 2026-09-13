@@ -1,0 +1,16 @@
+[
+  {
+    "width": 1440,
+    "lot_eqp_primary_carrier_auxiliary": true,
+    "business_edge_distinct": true,
+    "image_dialog_pointer_regressions": "pass",
+    "errors": []
+  },
+  {
+    "width": 390,
+    "lot_eqp_primary_carrier_auxiliary": true,
+    "business_edge_distinct": true,
+    "image_dialog_pointer_regressions": "pass",
+    "errors": []
+  }
+]

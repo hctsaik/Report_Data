@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1480" height="1520" viewBox="0 0 1480 1520" role="img" aria-labelledby="title desc">
+<title id="title">EQP、Port、Cast 與 LOT Process Status</title>
+<desc id="desc">依照片 2676.jpg 重畫；矩形、菱形、圓形及無向連線保留。原先不清楚的文字已由使用者確認。</desc>
+<style>text{font-family:"Microsoft JhengHei","Noto Sans TC",Arial,sans-serif;fill:#182635}.label{font-size:21px;font-weight:600}.detail{font-size:19px}.issue{fill:#a34c00;font-size:16px;font-weight:700}.edge{fill:none;stroke:#34485c;stroke-width:3;stroke-linejoin:round;stroke-linecap:round}.shape{stroke:#63798d;stroke-width:2;fill:white}</style>
+<rect width="1480" height="1520" fill="white"/>
+<text x="48" y="48" font-size="28" font-weight="700">2676 · EQP、Port、Cast 與 LOT Process Status</text>
+<text x="48" y="82" font-size="17" fill="#52657a">原圖結構重繪 · 文字與線條均可編輯 · 原圖疑義文字已確認</text>
+<g id="connections">
+<polyline id="edge-1" class="edge" data-from="eqp" data-to="eqp-id" points="740,266.0 740,365.0"/>
+<polyline id="edge-2" class="edge" data-from="eqp-id" data-to="port" points="740,535.0 740,590 260,590 260,644.0"/>
+<polyline id="edge-3" class="edge" data-from="eqp-id" data-to="cast" points="740,535.0 740,590 740,590 740,644.0"/>
+<polyline id="edge-4" class="edge" data-from="eqp-id" data-to="chamber" points="740,535.0 740,590 1220,590 1220,644.0"/>
+<polyline id="edge-5" class="edge" data-from="port" data-to="port-id" points="260,756.0 260,875.0"/>
+<polyline id="edge-6" class="edge" data-from="port-id" data-to="udata" points="260,1045.0 260,1154.0"/>
+<polyline id="edge-7" class="edge" data-from="cast" data-to="cast-lot" points="740,756.0 740,875.0"/>
+<polyline id="edge-8" class="edge" data-from="cast-lot" data-to="lot" points="740,1045.0 740,1154.0"/>
+<polyline id="edge-9" class="edge" data-from="lot" data-to="status" points="740,1266.0 740,1335.0"/>
+</g><g id="nodes">
+<g id="eqp" data-kind="rect" data-x="740" data-y="210" data-w="300" data-h="112">
+<rect class="shape" x="590.0" y="154.0" width="300" height="112"/>
+<text class="label" x="740" y="196" text-anchor="middle" dominant-baseline="central">EQP</text>
+<text class="detail" x="740" y="224" text-anchor="middle" dominant-baseline="central">FREQP</text>
+</g>
+<g id="eqp-id" data-kind="diamond" data-x="740" data-y="450" data-w="300" data-h="170">
+<polygon class="shape" points="740,365.0 890.0,450 740,535.0 590.0,450"/>
+<text class="label" x="740" y="450" text-anchor="middle" dominant-baseline="central">EQP_ID</text>
+</g>
+<g id="port" data-kind="rect" data-x="260" data-y="700" data-w="300" data-h="112">
+<rect class="shape" x="110.0" y="644.0" width="300" height="112"/>
+<text class="label" x="260" y="686" text-anchor="middle" dominant-baseline="central">PORT_ID</text>
+<text class="detail" x="260" y="714" text-anchor="middle" dominant-baseline="central">FRPORT</text>
+</g>
+<g id="cast" data-kind="rect" data-x="740" data-y="700" data-w="300" data-h="112">
+<rect class="shape" x="590.0" y="644.0" width="300" height="112"/>
+<text class="label" x="740" y="686" text-anchor="middle" dominant-baseline="central">CAST_ID</text>
+<text class="detail" x="740" y="714" text-anchor="middle" dominant-baseline="central">FRCAST</text>
+</g>
+<g id="chamber" data-kind="rect" data-x="1220" data-y="700" data-w="330" data-h="112">
+<rect class="shape" x="1055.0" y="644.0" width="330" height="112"/>
+<text class="label" x="1220" y="686" text-anchor="middle" dominant-baseline="central">CHAMBER ID</text>
+<text class="detail" x="1220" y="714" text-anchor="middle" dominant-baseline="central">FRPRCRSC</text>
+</g>
+<g id="port-id" data-kind="diamond" data-x="260" data-y="960" data-w="300" data-h="170">
+<polygon class="shape" points="260,875.0 410.0,960 260,1045.0 110.0,960"/>
+<text class="label" x="260" y="960" text-anchor="middle" dominant-baseline="central">EQP_ID</text>
+</g>
+<g id="cast-lot" data-kind="diamond" data-x="740" data-y="960" data-w="300" data-h="170">
+<polygon class="shape" points="740,875.0 890.0,960 740,1045.0 590.0,960"/>
+<text class="label" x="740" y="960" text-anchor="middle" dominant-baseline="central">FRCAST_LOT</text>
+</g>
+<g id="udata" data-kind="rect" data-x="260" data-y="1210" data-w="330" data-h="112">
+<rect class="shape" x="95.0" y="1154.0" width="330" height="112"/>
+<text class="label" x="260" y="1210" text-anchor="middle" dominant-baseline="central">FRPORT_UDATA</text>
+</g>
+<g id="lot" data-kind="rect" data-x="740" data-y="1210" data-w="300" data-h="112">
+<rect class="shape" x="590.0" y="1154.0" width="300" height="112"/>
+<text class="label" x="740" y="1210" text-anchor="middle" dominant-baseline="central">FRLOT</text>
+</g>
+<g id="status" data-kind="circle" data-x="740" data-y="1410" data-w="210" data-h="150">
+<ellipse class="shape" cx="740" cy="1410" rx="105.0" ry="75.0"/>
+<text class="label" x="740" y="1396" text-anchor="middle" dominant-baseline="central">LOT Process</text>
+<text class="detail" x="740" y="1424" text-anchor="middle" dominant-baseline="central">Status</text>
+</g>
+</g>
+</svg>

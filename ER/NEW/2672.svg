@@ -1,0 +1,116 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2800" height="1420" viewBox="0 0 2800 1420" role="img" aria-labelledby="title desc">
+<title id="title">LOT 歷史、Qtime 與搬送記錄</title>
+<desc id="desc">依照片 2672.jpg 重畫；矩形、菱形、圓形及無向連線保留。原先不清楚的文字已由使用者確認。</desc>
+<style>text{font-family:"Microsoft JhengHei","Noto Sans TC",Arial,sans-serif;fill:#182635}.label{font-size:21px;font-weight:600}.detail{font-size:19px}.issue{fill:#a34c00;font-size:16px;font-weight:700}.edge{fill:none;stroke:#34485c;stroke-width:3;stroke-linejoin:round;stroke-linecap:round}.shape{stroke:#63798d;stroke-width:2;fill:white}</style>
+<rect width="2800" height="1420" fill="white"/>
+<text x="48" y="48" font-size="28" font-weight="700">2672 · LOT 歷史、Qtime 與搬送記錄</text>
+<text x="48" y="82" font-size="17" fill="#52657a">原圖結構重繪 · 文字與線條均可編輯 · 原圖疑義文字已確認</text>
+<g id="connections">
+<polyline id="edge-1" class="edge" data-from="predispatch" data-to="pre-link" points="1000,256.0 1000,355.0"/>
+<polyline id="edge-2" class="edge" data-from="pre-link" data-to="lot" points="1000,525.0 1000,664.0"/>
+<polyline id="edge-3" class="edge" data-from="lot" data-to="all-actions" points="1000,776.0 1000,915.0"/>
+<polyline id="edge-4" class="edge" data-from="all-actions" data-to="history" points="1000,1085.0 1000,1204.0"/>
+<polyline id="edge-5" class="edge" data-from="cast" data-to="cast-link" points="1780,256.0 1780,355.0"/>
+<polyline id="edge-6" class="edge" data-from="cast-link" data-to="step" points="1780,525.0 1780,664.0"/>
+<polyline id="edge-7" class="edge" data-from="step" data-to="qtime-link" points="1780,776.0 1780,905.0"/>
+<polyline id="edge-8" class="edge" data-from="qtime-link" data-to="qtime" points="1780,1095.0 1780,1204.0"/>
+<polyline id="edge-9" class="edge" data-from="move" data-to="move-link" points="400.0,720 460.0,720"/>
+<polyline id="edge-10" class="edge" data-from="move-link" data-to="lot" points="760.0,720 850.0,720"/>
+<polyline id="edge-11" class="edge" data-from="lot" data-to="summary" points="1150.0,720 1240.0,720"/>
+<polyline id="edge-12" class="edge" data-from="summary" data-to="step" points="1540.0,720 1605.0,720"/>
+<polyline id="edge-13" class="edge" data-from="cast" data-to="mes-transfer" points="1930.0,200 2010.0,200"/>
+<polyline id="edge-14" class="edge" data-from="mes-transfer" data-to="transfer" points="2350.0,200 2410.0,200"/>
+<polyline id="edge-15" class="edge" data-from="mcs-transfer" data-to="mcs-history" points="2360.0,460 2385.0,460"/>
+<polyline id="edge-16" class="edge" data-from="move-link" data-to="history" points="610,805.0 610,1260 825.0,1260"/>
+<polyline id="edge-17" class="edge" data-from="cast" data-to="mcs-transfer" points="1930.0,200 1980,200 1980,335 2180,335 2180,365.0"/>
+</g><g id="nodes">
+<g id="predispatch" data-kind="rect" data-x="1000" data-y="200" data-w="350" data-h="112">
+<rect class="shape" x="825.0" y="144.0" width="350" height="112"/>
+<text class="label" x="1000" y="186" text-anchor="middle" dominant-baseline="central">預派記錄</text>
+<text class="detail" x="1000" y="214" text-anchor="middle" dominant-baseline="central">Siview.CSFHPREDISP</text>
+</g>
+<g id="pre-link" data-kind="diamond" data-x="1000" data-y="440" data-w="300" data-h="170">
+<polygon class="shape" points="1000,355.0 1150.0,440 1000,525.0 850.0,440"/>
+<text class="label" x="1000" y="426" text-anchor="middle" dominant-baseline="central">預派機台</text>
+<text class="detail" x="1000" y="454" text-anchor="middle" dominant-baseline="central">Lot_ID</text>
+</g>
+<g id="lot" data-kind="rect" data-x="1000" data-y="720" data-w="300" data-h="112">
+<rect class="shape" x="850.0" y="664.0" width="300" height="112" style="fill:#d4ebff;stroke:#2585c6;stroke-width:3"/>
+<text class="label" x="1000" y="706" text-anchor="middle" dominant-baseline="central">LOT</text>
+<text class="detail" x="1000" y="734" text-anchor="middle" dominant-baseline="central">Siview.Frlot</text>
+</g>
+<g id="move" data-kind="rect" data-x="220" data-y="720" data-w="360" data-h="112">
+<rect class="shape" x="40.0" y="664.0" width="360" height="112"/>
+<text class="label" x="220" y="706" text-anchor="middle" dominant-baseline="central">MOVE 歷史</text>
+<text class="detail" x="220" y="734" text-anchor="middle" dominant-baseline="central">F12DM.DM_Move_Step_bth</text>
+</g>
+<g id="move-link" data-kind="diamond" data-x="610" data-y="720" data-w="300" data-h="170">
+<polygon class="shape" points="610,635.0 760.0,720 610,805.0 460.0,720"/>
+<text class="label" x="610" y="706" text-anchor="middle" dominant-baseline="central">機台 MOVE</text>
+<text class="detail" x="610" y="734" text-anchor="middle" dominant-baseline="central">Lot_id</text>
+</g>
+<g id="summary" data-kind="diamond" data-x="1390" data-y="720" data-w="300" data-h="170">
+<polygon class="shape" points="1390,635.0 1540.0,720 1390,805.0 1240.0,720"/>
+<text class="label" x="1390" y="706" text-anchor="middle" dominant-baseline="central">站點 Summary</text>
+<text class="detail" x="1390" y="734" text-anchor="middle" dominant-baseline="central">Lot_id</text>
+</g>
+<g id="step" data-kind="rect" data-x="1780" data-y="720" data-w="350" data-h="112">
+<rect class="shape" x="1605.0" y="664.0" width="350" height="112"/>
+<text class="label" x="1780" y="706" text-anchor="middle" dominant-baseline="central">Step 歷史</text>
+<text class="detail" x="1780" y="734" text-anchor="middle" dominant-baseline="central">F12DM.DM_Lot_step_st</text>
+</g>
+<g id="all-actions" data-kind="diamond" data-x="1000" data-y="1000" data-w="350" data-h="170">
+<polygon class="shape" points="1000,915.0 1175.0,1000 1000,1085.0 825.0,1000"/>
+<text class="label" x="1000" y="986" text-anchor="middle" dominant-baseline="central">Lot 所有動作</text>
+<text class="detail" x="1000" y="1014" text-anchor="middle" dominant-baseline="central">Lot_ID</text>
+</g>
+<g id="history" data-kind="rect" data-x="1000" data-y="1260" data-w="350" data-h="112">
+<rect class="shape" x="825.0" y="1204.0" width="350" height="112"/>
+<text class="label" x="1000" y="1246" text-anchor="middle" dominant-baseline="central">批貨歷史</text>
+<text class="detail" x="1000" y="1274" text-anchor="middle" dominant-baseline="central">Siview.FHOPEHS_S</text>
+</g>
+<g id="cast" data-kind="rect" data-x="1780" data-y="200" data-w="300" data-h="112">
+<rect class="shape" x="1630.0" y="144.0" width="300" height="112"/>
+<text class="label" x="1780" y="186" text-anchor="middle" dominant-baseline="central">Foup</text>
+<text class="detail" x="1780" y="214" text-anchor="middle" dominant-baseline="central">Siview.frcast</text>
+</g>
+<g id="cast-link" data-kind="diamond" data-x="1780" data-y="440" data-w="350" data-h="170">
+<polygon class="shape" points="1780,355.0 1955.0,440 1780,525.0 1605.0,440"/>
+<text class="label" x="1780" y="426" text-anchor="middle" dominant-baseline="central">Lot 在 Foup 內</text>
+<text class="detail" x="1780" y="454" text-anchor="middle" dominant-baseline="central">Siview.frcast</text>
+</g>
+<g id="mes-transfer" data-kind="diamond" data-x="2180" data-y="200" data-w="340" data-h="170">
+<polygon class="shape" points="2180,115.0 2350.0,200 2180,285.0 2010.0,200"/>
+<text class="label" x="2180" y="186" text-anchor="middle" dominant-baseline="central">MES 傳送歷史</text>
+<text class="detail" x="2180" y="214" text-anchor="middle" dominant-baseline="central">Carrier_id</text>
+</g>
+<g id="transfer" data-kind="rect" data-x="2580" data-y="200" data-w="340" data-h="112">
+<rect class="shape" x="2410.0" y="144.0" width="340" height="112"/>
+<text class="label" x="2580" y="186" text-anchor="middle" dominant-baseline="central">傳送歷史</text>
+<text class="detail" x="2580" y="214" text-anchor="middle" dominant-baseline="central">Mfg_Carrier_te_ut</text>
+</g>
+<g id="mcs-transfer" data-kind="diamond" data-x="2180" data-y="460" data-w="360" data-h="190">
+<polygon class="shape" points="2180,365.0 2360.0,460 2180,555.0 2000.0,460"/>
+<text class="label" x="2180" y="432" text-anchor="middle" dominant-baseline="central">MCS 傳送歷史</text>
+<text class="detail" x="2180" y="460" text-anchor="middle" dominant-baseline="central">Carrier_id</text>
+<text class="detail" x="2180" y="488" text-anchor="middle" dominant-baseline="central">transfer_job_id</text>
+</g>
+<g id="mcs-history" data-kind="rect" data-x="2580" data-y="460" data-w="390" data-h="140">
+<rect class="shape" x="2385.0" y="390.0" width="390" height="140"/>
+<text class="label" x="2580" y="432" text-anchor="middle" dominant-baseline="central">MCS 傳送歷史</text>
+<text class="detail" x="2580" y="460" text-anchor="middle" dominant-baseline="central">carrier_job_history@mcsdb</text>
+<text class="detail" x="2580" y="488" text-anchor="middle" dominant-baseline="central">transfer_job_history@mcsdb</text>
+</g>
+<g id="qtime-link" data-kind="diamond" data-x="1780" data-y="1000" data-w="300" data-h="190">
+<polygon class="shape" points="1780,905.0 1930.0,1000 1780,1095.0 1630.0,1000"/>
+<text class="label" x="1780" y="972" text-anchor="middle" dominant-baseline="central">Qtime 站點</text>
+<text class="detail" x="1780" y="1000" text-anchor="middle" dominant-baseline="central">Lot_ID</text>
+<text class="detail" x="1780" y="1028" text-anchor="middle" dominant-baseline="central">Ope_no</text>
+</g>
+<g id="qtime" data-kind="rect" data-x="1780" data-y="1260" data-w="390" data-h="112">
+<rect class="shape" x="1585.0" y="1204.0" width="390" height="112"/>
+<text class="label" x="1780" y="1246" text-anchor="middle" dominant-baseline="central">Qtime 歷史</text>
+<text class="detail" x="1780" y="1274" text-anchor="middle" dominant-baseline="central">F12DM.DM_Qrest_Hist_BTH</text>
+</g>
+</g>
+</svg>

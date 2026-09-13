@@ -1,0 +1,3054 @@
+[
+  {
+    "name": "load:1440:learning.html",
+    "pass": true,
+    "detail": {
+      "status": 200,
+      "title": "課程總覽｜MES 製造資料學習",
+      "h1": "從工廠裡的一批貨，學會找到可信的資料答案。",
+      "overflow": 0,
+      "broken": [],
+      "errors": [],
+      "http": []
+    }
+  },
+  {
+    "name": "load:1440:learning.html?unit=0",
+    "pass": true,
+    "detail": {
+      "status": 200,
+      "title": "開始：選擇你的學習路線｜MES 課程",
+      "h1": "開始：選擇你的學習路線",
+      "overflow": 0,
+      "broken": [],
+      "errors": [],
+      "http": []
+    }
+  },
+  {
+    "name": "load:1440:learning.html?unit=1",
+    "pass": true,
+    "detail": {
+      "status": 200,
+      "title": "物件、身分與位置｜MES 課程",
+      "h1": "物件、身分與位置",
+      "overflow": 0,
+      "broken": [],
+      "errors": [],
+      "http": []
+    }
+  },
+  {
+    "name": "load:1440:learning.html?unit=2",
+    "pass": true,
+    "detail": {
+      "status": 200,
+      "title": "產品與加工路線｜MES 課程",
+      "h1": "產品與加工路線",
+      "overflow": 0,
+      "broken": [],
+      "errors": [],
+      "http": []
+    }
+  },
+  {
+    "name": "load:1440:learning.html?unit=3",
+    "pass": true,
+    "detail": {
+      "status": 200,
+      "title": "一站如何加工｜MES 課程",
+      "h1": "一站如何加工",
+      "overflow": 0,
+      "broken": [],
+      "errors": [],
+      "http": []
+    }
+  },
+  {
+    "name": "load:1440:learning.html?unit=4",
+    "pass": true,
+    "detail": {
+      "status": 200,
+      "title": "預派、搬送與暫存｜MES 課程",
+      "h1": "預派、搬送與暫存",
+      "overflow": 0,
+      "broken": [],
+      "errors": [],
+      "http": []
+    }
+  },
+  {
+    "name": "load:1440:learning.html?unit=5",
+    "pass": true,
+    "detail": {
+      "status": 200,
+      "title": "管制與例外｜MES 課程",
+      "h1": "管制與例外",
+      "overflow": 0,
+      "broken": [],
+      "errors": [],
+      "http": []
+    }
+  },
+  {
+    "name": "load:1440:learning.html?unit=6",
+    "pass": true,
+    "detail": {
+      "status": 200,
+      "title": "重建批貨歷程｜MES 課程",
+      "h1": "重建批貨歷程",
+      "overflow": 0,
+      "broken": [],
+      "errors": [],
+      "http": []
+    }
+  },
+  {
+    "name": "load:1440:learning.html?unit=7",
+    "pass": true,
+    "detail": {
+      "status": 200,
+      "title": "未來站點何時到｜MES 課程",
+      "h1": "未來站點何時到",
+      "overflow": 0,
+      "broken": [],
+      "errors": [],
+      "http": []
+    }
+  },
+  {
+    "name": "load:1440:learning.html?unit=8",
+    "pass": true,
+    "detail": {
+      "status": 200,
+      "title": "機群、時間與資料分析｜MES 課程",
+      "h1": "機群、時間與資料分析",
+      "overflow": 0,
+      "broken": [],
+      "errors": [],
+      "http": []
+    }
+  },
+  {
+    "name": "load:1440:learning.html?unit=9",
+    "pass": true,
+    "detail": {
+      "status": 200,
+      "title": "完成一個工作任務｜MES 課程",
+      "h1": "完成一個工作任務",
+      "overflow": 0,
+      "broken": [],
+      "errors": [],
+      "http": []
+    }
+  },
+  {
+    "name": "load:1440:tasks.html",
+    "pass": true,
+    "detail": {
+      "status": 200,
+      "title": "Lot 為什麼尚未進機？｜MES 現場問題",
+      "h1": "現場問題練習",
+      "overflow": 0,
+      "broken": [],
+      "errors": [],
+      "http": []
+    }
+  },
+  {
+    "name": "load:1440:topic.html",
+    "pass": true,
+    "detail": {
+      "status": 200,
+      "title": "Lot 與 Wafer：同一批中的不同晶圓｜MES 主題教學",
+      "h1": "Lot 與 Wafer：同一批中的不同晶圓",
+      "overflow": 0,
+      "broken": [],
+      "errors": [],
+      "http": []
+    }
+  },
+  {
+    "name": "load:1440:topic.html?topic=actions",
+    "pass": true,
+    "detail": {
+      "status": 200,
+      "title": "批貨歷史：記錄每個 Lot 的各種動作｜MES 主題教學",
+      "h1": "批貨歷史：記錄每個 Lot 的各種動作",
+      "overflow": 0,
+      "broken": [],
+      "errors": [],
+      "http": []
+    }
+  },
+  {
+    "name": "load:1440:topic.html?topic=available",
+    "pass": true,
+    "detail": {
+      "status": 200,
+      "title": "帶到：Lot 在這個站點有可用機台｜MES 主題教學",
+      "h1": "帶到：Lot 在這個站點有可用機台",
+      "overflow": 0,
+      "broken": [],
+      "errors": [],
+      "http": []
+    }
+  },
+  {
+    "name": "load:1440:topic.html?topic=bay",
+    "pass": true,
+    "detail": {
+      "status": 200,
+      "title": "EQP Bay：機台所在的 Fab 走道與管理單位｜MES 主題教學",
+      "h1": "EQP Bay：機台所在的 Fab 走道與管理單位",
+      "overflow": 0,
+      "broken": [],
+      "errors": [],
+      "http": []
+    }
+  },
+  {
+    "name": "load:1440:topic.html?topic=bmir",
+    "pass": true,
+    "detail": {
+      "status": 200,
+      "title": "BMIR：OHB 空位時，呼叫 RTD 計算下一批貨｜MES 主題教學",
+      "h1": "BMIR：OHB 空位時，呼叫 RTD 計算下一批貨",
+      "overflow": 0,
+      "broken": [],
+      "errors": [],
+      "http": []
+    }
+  },
+  {
+    "name": "load:1440:topic.html?topic=carrier",
+    "pass": true,
+    "detail": {
+      "status": 200,
+      "title": "FOUP 內容物：Lot、Wafer 與 Slot｜MES 主題教學",
+      "h1": "FOUP 內容物：Lot、Wafer 與 Slot",
+      "overflow": 0,
+      "broken": [],
+      "errors": [],
+      "http": []
+    }
+  },
+  {
+    "name": "load:1440:topic.html?topic=chamber",
+    "pass": true,
+    "detail": {
+      "status": 200,
+      "title": "Chamber：機台內的加工腔體｜MES 主題教學",
+      "h1": "Chamber：機台內的加工腔體",
+      "overflow": 0,
+      "broken": [],
+      "errors": [],
+      "http": []
+    }
+  },
+  {
+    "name": "load:1440:topic.html?topic=contents",
+    "pass": true,
+    "detail": {
+      "status": 200,
+      "title": "FOUP 內容物歷史：那個時間裝了哪些 Wafer｜MES 主題教學",
+      "h1": "FOUP 內容物歷史：那個時間裝了哪些 Wafer",
+      "overflow": 0,
+      "broken": [],
+      "errors": [],
+      "http": []
+    }
+  },
+  {
+    "name": "load:1440:topic.html?topic=eqpkey",
+    "pass": true,
+    "detail": {
+      "status": 200,
+      "title": "EQP_ID：在這条資料路徑中識別機台｜MES 主題教學",
+      "h1": "EQP_ID：在這条資料路徑中識別機台",
+      "overflow": 0,
+      "broken": [],
+      "errors": [],
+      "http": []
+    }
+  },
+  {
+    "name": "load:1440:topic.html?topic=eqpstatus",
+    "pass": true,
+    "detail": {
+      "status": 200,
+      "title": "設備狀態：讀取機台與狀態時間｜MES 主題教學",
+      "h1": "設備狀態：讀取機台與狀態時間",
+      "overflow": 0,
+      "broken": [],
+      "errors": [],
+      "http": []
+    }
+  },
+  {
+    "name": "load:1440:topic.html?topic=equipment",
+    "pass": true,
+    "detail": {
+      "status": 200,
+      "title": "EQP：執行作業的設備｜MES 主題教學",
+      "h1": "EQP：執行作業的設備",
+      "overflow": 0,
+      "broken": [],
+      "errors": [],
+      "http": []
+    }
+  },
+  {
+    "name": "load:1440:topic.html?topic=flow",
+    "pass": true,
+    "detail": {
+      "status": 200,
+      "title": "Flow：批次遵循的製程路徑｜MES 主題教學",
+      "h1": "Flow：批次遵循的製程路徑",
+      "overflow": 0,
+      "broken": [],
+      "errors": [],
+      "http": []
+    }
+  },
+  {
+    "name": "load:1440:topic.html?topic=flowkey",
+    "pass": true,
+    "detail": {
+      "status": 200,
+      "title": "Lot 與 Flow：沿 Part／Mainpd_id 找流程｜MES 主題教學",
+      "h1": "Lot 與 Flow：沿 Part／Mainpd_id 找流程",
+      "overflow": 0,
+      "broken": [],
+      "errors": [],
+      "http": []
+    }
+  },
+  {
+    "name": "load:1440:topic.html?topic=forecast",
+    "pass": true,
+    "detail": {
+      "status": 200,
+      "title": "未來的 Flow：用 Flow 與 IE WPH 預估各站到站時間｜MES 主題教學",
+      "h1": "未來的 Flow：用 Flow 與 IE WPH 預估各站到站時間",
+      "overflow": 0,
+      "broken": [],
+      "errors": [],
+      "http": []
+    }
+  },
+  {
+    "name": "load:1440:topic.html?topic=future",
+    "pass": true,
+    "detail": {
+      "status": 200,
+      "title": "Future Hold：先登記，到指定事件才攔截｜MES 主題教學",
+      "h1": "Future Hold：先登記，到指定事件才攔截",
+      "overflow": 0,
+      "broken": [],
+      "errors": [],
+      "http": []
+    }
+  },
+  {
+    "name": "load:1440:topic.html?topic=group",
+    "pass": true,
+    "detail": {
+      "status": 200,
+      "title": "KER：機台與 Chamber 的分群對應｜MES 主題教學",
+      "h1": "KER：機台與 Chamber 的分群對應",
+      "overflow": 0,
+      "broken": [],
+      "errors": [],
+      "http": []
+    }
+  },
+  {
+    "name": "load:1440:topic.html?topic=load",
+    "pass": true,
+    "detail": {
+      "status": 200,
+      "title": "裝載關係：Lot、Wafer 與 FOUP｜MES 主題教學",
+      "h1": "裝載關係：Lot、Wafer 與 FOUP",
+      "overflow": 0,
+      "broken": [],
+      "errors": [],
+      "http": []
+    }
+  },
+  {
+    "name": "load:1440:topic.html?topic=location",
+    "pass": true,
+    "detail": {
+      "status": 200,
+      "title": "載具與機台的位置關係｜MES 主題教學",
+      "h1": "載具與機台的位置關係",
+      "overflow": 0,
+      "broken": [],
+      "errors": [],
+      "http": []
+    }
+  },
+  {
+    "name": "load:1440:topic.html?topic=lot",
+    "pass": true,
+    "detail": {
+      "status": 200,
+      "title": "Lot 與 Wafer：同一批中的不同晶圓｜MES 主題教學",
+      "h1": "Lot 與 Wafer：同一批中的不同晶圓",
+      "overflow": 0,
+      "broken": [],
+      "errors": [],
+      "http": []
+    }
+  },
+  {
+    "name": "load:1440:topic.html?topic=lotstatus",
+    "pass": true,
+    "detail": {
+      "status": 200,
+      "title": "Lot Process／Status：RQHBE 五種狀態｜MES 主題教學",
+      "h1": "Lot Process／Status：RQHBE 五種狀態",
+      "overflow": 0,
+      "broken": [],
+      "errors": [],
+      "http": []
+    }
+  },
+  {
+    "name": "load:1440:topic.html?topic=lotstep",
+    "pass": true,
+    "detail": {
+      "status": 200,
+      "title": "Lot Step：查這一批的站點歷史｜MES 主題教學",
+      "h1": "Lot Step：查這一批的站點歷史",
+      "overflow": 0,
+      "broken": [],
+      "errors": [],
+      "http": []
+    }
+  },
+  {
+    "name": "load:1440:topic.html?topic=material",
+    "pass": true,
+    "detail": {
+      "status": 200,
+      "title": "以 FOUP 為主詞：查詢裝載的 Lot｜MES 主題教學",
+      "h1": "以 FOUP 為主詞：查詢裝載的 Lot",
+      "overflow": 0,
+      "broken": [],
+      "errors": [],
+      "http": []
+    }
+  },
+  {
+    "name": "load:1440:topic.html?topic=mcs",
+    "pass": true,
+    "detail": {
+      "status": 200,
+      "title": "MCS 傳送歷史：Macro 與 Micro command｜MES 主題教學",
+      "h1": "MCS 傳送歷史：Macro 與 Micro command",
+      "overflow": 0,
+      "broken": [],
+      "errors": [],
+      "http": []
+    }
+  },
+  {
+    "name": "load:1440:topic.html?topic=move",
+    "pass": true,
+    "detail": {
+      "status": 200,
+      "title": "Move：每次進機一筆，按日看表現、按 Lot 查站點｜MES 主題教學",
+      "h1": "Move：每次進機一筆，按日看表現、按 Lot 查站點",
+      "overflow": 0,
+      "broken": [],
+      "errors": [],
+      "http": []
+    }
+  },
+  {
+    "name": "load:1440:topic.html?topic=oee",
+    "pass": true,
+    "detail": {
+      "status": 200,
+      "title": "KER：最近一次更新與每小時歷史指標｜MES 主題教學",
+      "h1": "KER：最近一次更新與每小時歷史指標",
+      "overflow": 0,
+      "broken": [],
+      "errors": [],
+      "http": []
+    }
+  },
+  {
+    "name": "load:1440:topic.html?topic=ohb",
+    "pass": true,
+    "detail": {
+      "status": 200,
+      "title": "OHB：機台附近的 FOUP 暫置架｜MES 主題教學",
+      "h1": "OHB：機台附近的 FOUP 暫置架",
+      "overflow": 0,
+      "broken": [],
+      "errors": [],
+      "http": []
+    }
+  },
+  {
+    "name": "load:1440:topic.html?topic=owner",
+    "pass": true,
+    "detail": {
+      "status": 200,
+      "title": "機群與課別：由機台查管理歸屬｜MES 主題教學",
+      "h1": "機群與課別：由機台查管理歸屬",
+      "overflow": 0,
+      "broken": [],
+      "errors": [],
+      "http": []
+    }
+  },
+  {
+    "name": "load:1440:topic.html?topic=part",
+    "pass": true,
+    "detail": {
+      "status": 200,
+      "title": "PART：產品對應 Flow，進版同步記錄｜MES 主題教學",
+      "h1": "PART：產品對應 Flow，進版同步記錄",
+      "overflow": 0,
+      "broken": [],
+      "errors": [],
+      "http": []
+    }
+  },
+  {
+    "name": "load:1440:topic.html?topic=pd",
+    "pass": true,
+    "detail": {
+      "status": 200,
+      "title": "PD：Process Definition，站點的細部加工定義｜MES 主題教學",
+      "h1": "PD：Process Definition，站點的細部加工定義",
+      "overflow": 0,
+      "broken": [],
+      "errors": [],
+      "http": []
+    }
+  },
+  {
+    "name": "load:1440:topic.html?topic=port",
+    "pass": true,
+    "detail": {
+      "status": 200,
+      "title": "Load Port：等待加工與完成後的暫置位置｜MES 主題教學",
+      "h1": "Load Port：等待加工與完成後的暫置位置",
+      "overflow": 0,
+      "broken": [],
+      "errors": [],
+      "http": []
+    }
+  },
+  {
+    "name": "load:1440:topic.html?topic=portdata",
+    "pass": true,
+    "detail": {
+      "status": 200,
+      "title": "Port 衍生設定（已撤下教學）｜MES 主題教學",
+      "h1": "Port 衍生設定（已撤下教學）",
+      "overflow": 0,
+      "broken": [],
+      "errors": [],
+      "http": []
+    }
+  },
+  {
+    "name": "load:1440:topic.html?topic=portmode",
+    "pass": true,
+    "detail": {
+      "status": 200,
+      "title": "Port 模式：UP 有貨，LOST 沒有貨｜MES 主題教學",
+      "h1": "Port 模式：UP 有貨，LOST 沒有貨",
+      "overflow": 0,
+      "broken": [],
+      "errors": [],
+      "http": []
+    }
+  },
+  {
+    "name": "load:1440:topic.html?topic=predispatch",
+    "pass": true,
+    "detail": {
+      "status": 200,
+      "title": "Lot 預派：派工系統預先安排目標機台｜MES 主題教學",
+      "h1": "Lot 預派：派工系統預先安排目標機台",
+      "overflow": 0,
+      "broken": [],
+      "errors": [],
+      "http": []
+    }
+  },
+  {
+    "name": "load:1440:topic.html?topic=prehistory",
+    "pass": true,
+    "detail": {
+      "status": 200,
+      "title": "預派歷史：讓機台預先知道接下來的 Lot｜MES 主題教學",
+      "h1": "預派歷史：讓機台預先知道接下來的 Lot",
+      "overflow": 0,
+      "broken": [],
+      "errors": [],
+      "http": []
+    }
+  },
+  {
+    "name": "load:1440:topic.html?topic=producthold",
+    "pass": true,
+    "detail": {
+      "status": 200,
+      "title": "Product Hold：同產品的 Lot，到指定站點暫置｜MES 主題教學",
+      "h1": "Product Hold：同產品的 Lot，到指定站點暫置",
+      "overflow": 0,
+      "broken": [],
+      "errors": [],
+      "http": []
+    }
+  },
+  {
+    "name": "load:1440:topic.html?topic=qtime",
+    "pass": true,
+    "detail": {
+      "status": 200,
+      "title": "QTime：Lot 的製程時間限制｜MES 主題教學",
+      "h1": "QTime：Lot 的製程時間限制",
+      "overflow": 0,
+      "broken": [],
+      "errors": [],
+      "http": []
+    }
+  },
+  {
+    "name": "load:1440:topic.html?topic=recipe",
+    "pass": true,
+    "detail": {
+      "status": 200,
+      "title": "Recipe：從邏輯要求到設備配置｜MES 主題教學",
+      "h1": "Recipe：從邏輯要求到設備配置",
+      "overflow": 0,
+      "broken": [],
+      "errors": [],
+      "http": []
+    }
+  },
+  {
+    "name": "load:1440:topic.html?topic=recipegroup",
+    "pass": true,
+    "detail": {
+      "status": 200,
+      "title": "Recipe Group：彈性控制多台或單台機台的加工許可｜MES 主題教學",
+      "h1": "Recipe Group：彈性控制多台或單台機台的加工許可",
+      "overflow": 0,
+      "broken": [],
+      "errors": [],
+      "http": []
+    }
+  },
+  {
+    "name": "load:1440:topic.html?topic=retired",
+    "pass": true,
+    "detail": {
+      "status": 200,
+      "title": "原圖待校正關係：Lot 裝載與 Step 歷史須分清｜MES 主題教學",
+      "h1": "原圖待校正關係：Lot 裝載與 Step 歷史須分清",
+      "overflow": 0,
+      "broken": [],
+      "errors": [],
+      "http": []
+    }
+  },
+  {
+    "name": "load:1440:topic.html?topic=srts",
+    "pass": true,
+    "detail": {
+      "status": 200,
+      "title": "SRTS：Flow 站點的 Sampling rule 與抽測比例｜MES 主題教學",
+      "h1": "SRTS：Flow 站點的 Sampling rule 與抽測比例",
+      "overflow": 0,
+      "broken": [],
+      "errors": [],
+      "http": []
+    }
+  },
+  {
+    "name": "load:1440:topic.html?topic=stage",
+    "pass": true,
+    "detail": {
+      "status": 200,
+      "title": "Module → Stage → Step：從加工模組看到細部步驟｜MES 主題教學",
+      "h1": "Module → Stage → Step：從加工模組看到細部步驟",
+      "overflow": 0,
+      "broken": [],
+      "errors": [],
+      "http": []
+    }
+  },
+  {
+    "name": "load:1440:topic.html?topic=stock",
+    "pass": true,
+    "detail": {
+      "status": 200,
+      "title": "Default STK：機台的預設 FOUP 倉儲｜MES 主題教學",
+      "h1": "Default STK：機台的預設 FOUP 倉儲",
+      "overflow": 0,
+      "broken": [],
+      "errors": [],
+      "http": []
+    }
+  },
+  {
+    "name": "load:1440:topic.html?topic=stream",
+    "pass": true,
+    "detail": {
+      "status": 200,
+      "title": "Stream：Flow × IE WPH 預估到站｜MES 主題教學",
+      "h1": "Stream：Flow × IE WPH 預估到站",
+      "overflow": 0,
+      "broken": [],
+      "errors": [],
+      "http": []
+    }
+  },
+  {
+    "name": "load:1440:topic.html?topic=transfer",
+    "pass": true,
+    "detail": {
+      "status": 200,
+      "title": "傳送歷史：presum 後的 FOUP 搬運資料｜MES 主題教學",
+      "h1": "傳送歷史：presum 後的 FOUP 搬運資料",
+      "overflow": 0,
+      "broken": [],
+      "errors": [],
+      "http": []
+    }
+  },
+  {
+    "name": "load:1440:topic.html?topic=virtual",
+    "pass": true,
+    "detail": {
+      "status": 200,
+      "title": "KER：User 用 SQL 自訂虛擬 Tool Group｜MES 主題教學",
+      "h1": "KER：User 用 SQL 自訂虛擬 Tool Group",
+      "overflow": 0,
+      "broken": [],
+      "errors": [],
+      "http": []
+    }
+  },
+  {
+    "name": "load:1440:topic.html?topic=wip",
+    "pass": true,
+    "detail": {
+      "status": 200,
+      "title": "WIP 快照：每天早上 07:20 的機群與 KPI｜MES 主題教學",
+      "h1": "WIP 快照：每天早上 07:20 的機群與 KPI",
+      "overflow": 0,
+      "broken": [],
+      "errors": [],
+      "http": []
+    }
+  },
+  {
+    "name": "load:1440:topic.html?topic=wph",
+    "pass": true,
+    "detail": {
+      "status": 200,
+      "title": "機群 WPH：生管訂定的預期產出｜MES 主題教學",
+      "h1": "機群 WPH：生管訂定的預期產出",
+      "overflow": 0,
+      "broken": [],
+      "errors": [],
+      "http": []
+    }
+  },
+  {
+    "name": "load:1440:index.html#fab",
+    "pass": true,
+    "detail": {
+      "status": 200,
+      "title": "先走進 Fab｜Fab 的四個基本角色",
+      "h1": "先走進 Fab：這裡在製造晶片。",
+      "overflow": 0,
+      "broken": [],
+      "errors": [],
+      "http": []
+    }
+  },
+  {
+    "name": "load:1440:operations.html#tool",
+    "pass": true,
+    "detail": {
+      "status": 200,
+      "title": "從載具到腔體｜第二部分 MES 教學",
+      "h1": "同一片晶圓，怎麼進入設備？",
+      "overflow": 0,
+      "broken": [],
+      "errors": [],
+      "http": []
+    }
+  },
+  {
+    "name": "load:1440:operations.html#lab",
+    "pass": true,
+    "detail": {
+      "status": "same-document",
+      "title": "六個現場情境｜第二部分 MES 教學",
+      "h1": "把設備現場的判斷，實際做一次",
+      "overflow": 0,
+      "broken": [],
+      "errors": [],
+      "http": []
+    }
+  },
+  {
+    "name": "load:1440:flow.html#lab",
+    "pass": true,
+    "detail": {
+      "status": 200,
+      "title": "十個 Flow 情境｜第三部分 MES 教學",
+      "h1": "讓 Lot 真正沿著 Flow 走一次",
+      "overflow": 0,
+      "broken": [],
+      "errors": [],
+      "http": []
+    }
+  },
+  {
+    "name": "load:1440:freshness.html",
+    "pass": true,
+    "detail": {
+      "status": 200,
+      "title": "同一個 Giga，不同的新鮮度｜資料新鮮度",
+      "h1": "同一個 Giga，也有不同的新鮮度。",
+      "overflow": 0,
+      "broken": [],
+      "errors": [],
+      "http": []
+    }
+  },
+  {
+    "name": "load:1440:advanced.html",
+    "pass": true,
+    "detail": {
+      "status": 200,
+      "title": "QTime｜時間限制｜MES 教學",
+      "h1": "QTime：這段時間，最多能等多久？",
+      "overflow": 0,
+      "broken": [],
+      "errors": [],
+      "http": []
+    }
+  },
+  {
+    "name": "load:1440:support.html",
+    "pass": true,
+    "detail": {
+      "status": 200,
+      "title": "CW｜三種晶圓用途｜MES 教學",
+      "h1": "CW：同屬控制晶圓，用途不一樣",
+      "overflow": 0,
+      "broken": [],
+      "errors": [],
+      "http": []
+    }
+  },
+  {
+    "name": "load:1440:data-map.html",
+    "pass": true,
+    "detail": {
+      "status": 200,
+      "title": "MES｜從現場讀懂資料關係",
+      "h1": "Lot 在哪裡？先分清批次、盒子與設備",
+      "overflow": 0,
+      "broken": [],
+      "errors": [],
+      "http": []
+    }
+  },
+  {
+    "name": "load:1440:subject-er.html",
+    "pass": true,
+    "detail": {
+      "status": 200,
+      "title": "主詞 ER｜MES 資料與現場",
+      "h1": "以 Lot 看裝載、設備安排與流程",
+      "overflow": 0,
+      "broken": [],
+      "errors": [],
+      "http": []
+    }
+  },
+  {
+    "name": "load:1440:er-atlas.html",
+    "pass": true,
+    "detail": {
+      "status": 200,
+      "title": "Fab 整合 ER｜實體與關係",
+      "h1": "從同一個 Lot，沿著關係找資料",
+      "overflow": 0,
+      "broken": [],
+      "errors": [],
+      "http": []
+    }
+  },
+  {
+    "name": "load:1440:index.html#wafer",
+    "pass": true,
+    "detail": {
+      "status": 200,
+      "title": "Wafer｜Fab 的四個基本角色",
+      "h1": "先走進 Fab：這裡在製造晶片。",
+      "overflow": 0,
+      "broken": [],
+      "errors": [],
+      "http": []
+    }
+  },
+  {
+    "name": "load:1440:index.html#foup",
+    "pass": true,
+    "detail": {
+      "status": "same-document",
+      "title": "FOUP｜Fab 的四個基本角色",
+      "h1": "先走進 Fab：這裡在製造晶片。",
+      "overflow": 0,
+      "broken": [],
+      "errors": [],
+      "http": []
+    }
+  },
+  {
+    "name": "load:1440:index.html#slot",
+    "pass": true,
+    "detail": {
+      "status": "same-document",
+      "title": "Slot｜Fab 的四個基本角色",
+      "h1": "先走進 Fab：這裡在製造晶片。",
+      "overflow": 0,
+      "broken": [],
+      "errors": [],
+      "http": []
+    }
+  },
+  {
+    "name": "load:1440:index.html#lot",
+    "pass": true,
+    "detail": {
+      "status": "same-document",
+      "title": "Lot｜Fab 的四個基本角色",
+      "h1": "先走進 Fab：這裡在製造晶片。",
+      "overflow": 0,
+      "broken": [],
+      "errors": [],
+      "http": []
+    }
+  },
+  {
+    "name": "load:1440:index.html#explore",
+    "pass": true,
+    "detail": {
+      "status": "same-document",
+      "title": "動手對照｜Fab 的四個基本角色",
+      "h1": "先走進 Fab：這裡在製造晶片。",
+      "overflow": 0,
+      "broken": [],
+      "errors": [],
+      "http": []
+    }
+  },
+  {
+    "name": "load:1440:index.html#check",
+    "pass": true,
+    "detail": {
+      "status": "same-document",
+      "title": "自測｜Fab 的四個基本角色",
+      "h1": "先走進 Fab：這裡在製造晶片。",
+      "overflow": 0,
+      "broken": [],
+      "errors": [],
+      "http": []
+    }
+  },
+  {
+    "name": "load:1440:flow.html#flow",
+    "pass": true,
+    "detail": {
+      "status": 200,
+      "title": "Flow：整條製造路徑｜第三部分 MES 教學",
+      "h1": "Flow 是一份有規則的製造路徑",
+      "overflow": 0,
+      "broken": [],
+      "errors": [],
+      "http": []
+    }
+  },
+  {
+    "name": "load:1440:flow.html#step",
+    "pass": true,
+    "detail": {
+      "status": "same-document",
+      "title": "Step：精確的流程位置｜第三部分 MES 教學",
+      "h1": "Step 是「這條路上的這一次作業」",
+      "overflow": 0,
+      "broken": [],
+      "errors": [],
+      "http": []
+    }
+  },
+  {
+    "name": "load:1440:flow.html#lot-flow",
+    "pass": true,
+    "detail": {
+      "status": "same-document",
+      "title": "Lot 如何套用 Flow｜第三部分 MES 教學",
+      "h1": "套用 Flow，是替 Lot 建立一條可追蹤的旅程",
+      "overflow": 0,
+      "broken": [],
+      "errors": [],
+      "http": []
+    }
+  },
+  {
+    "name": "load:1440:flow.html#versions",
+    "pass": true,
+    "detail": {
+      "status": "same-document",
+      "title": "版本、跳站與等待時間｜第三部分 MES 教學",
+      "h1": "發布新版，不代表所有在製 Lot 立刻換路線",
+      "overflow": 0,
+      "broken": [],
+      "errors": [],
+      "http": []
+    }
+  },
+  {
+    "name": "load:1440:operations.html#port",
+    "pass": true,
+    "detail": {
+      "status": 200,
+      "title": "到站與身分核對｜第二部分 MES 教學",
+      "h1": "眼前這個 FOUP，真的是這批料嗎？",
+      "overflow": 0,
+      "broken": [],
+      "errors": [],
+      "http": []
+    }
+  },
+  {
+    "name": "load:1440:operations.html#recipe",
+    "pass": true,
+    "detail": {
+      "status": "same-document",
+      "title": "設備與配方資格｜第二部分 MES 教學",
+      "h1": "Step 決定要做什麼，Recipe 決定怎麼做",
+      "overflow": 0,
+      "broken": [],
+      "errors": [],
+      "http": []
+    }
+  },
+  {
+    "name": "load:1440:operations.html#chamber",
+    "pass": true,
+    "detail": {
+      "status": "same-document",
+      "title": "逐片加工與整批完成｜第二部分 MES 教學",
+      "h1": "W06 做完時，L023 還沒做完",
+      "overflow": 0,
+      "broken": [],
+      "errors": [],
+      "http": []
+    }
+  },
+  {
+    "name": "load:1440:operations.html#handoff",
+    "pass": true,
+    "detail": {
+      "status": "same-document",
+      "title": "從機台完成到 MES 過站｜第二部分 MES 教學",
+      "h1": "機台報 Done，MES 為什麼還不往下走？",
+      "overflow": 0,
+      "broken": [],
+      "errors": [],
+      "http": []
+    }
+  },
+  {
+    "name": "load:1440:support.html#cw",
+    "pass": true,
+    "detail": {
+      "status": 200,
+      "title": "CW｜三種晶圓用途｜MES 教學",
+      "h1": "CW：同屬控制晶圓，用途不一樣",
+      "overflow": 0,
+      "broken": [],
+      "errors": [],
+      "http": []
+    }
+  },
+  {
+    "name": "load:1440:operations.html#transport",
+    "pass": true,
+    "detail": {
+      "status": 200,
+      "title": "搬送與暫存｜第二部分 MES 教學",
+      "h1": "FOUP 到站，Lot 就完成過站了嗎？",
+      "overflow": 0,
+      "broken": [],
+      "errors": [],
+      "http": []
+    }
+  },
+  {
+    "name": "load:1440:operations.html#state",
+    "pass": true,
+    "detail": {
+      "status": "same-document",
+      "title": "加工狀態與 Hold｜第二部分 MES 教學",
+      "h1": "設備可用，Lot 仍可能不能開工",
+      "overflow": 0,
+      "broken": [],
+      "errors": [],
+      "http": []
+    }
+  },
+  {
+    "name": "load:1440:flow.html#branching",
+    "pass": true,
+    "detail": {
+      "status": 200,
+      "title": "條件分流與 Hold｜第三部分 MES 教學",
+      "h1": "Flow 可以有分支，但要有明確判斷依據",
+      "overflow": 0,
+      "broken": [],
+      "errors": [],
+      "http": []
+    }
+  },
+  {
+    "name": "load:1440:flow.html#rework",
+    "pass": true,
+    "detail": {
+      "status": "same-document",
+      "title": "Rework：核准的返回路徑｜第三部分 MES 教學",
+      "h1": "重工不是把 Current Step 隨便往回改",
+      "overflow": 0,
+      "broken": [],
+      "errors": [],
+      "http": []
+    }
+  },
+  {
+    "name": "load:1440:support.html#subroute",
+    "pass": true,
+    "detail": {
+      "status": 200,
+      "title": "Sub Route｜加量與返回｜MES 教學",
+      "h1": "Sub Route：出去加量，回原站接續",
+      "overflow": 0,
+      "broken": [],
+      "errors": [],
+      "http": []
+    }
+  },
+  {
+    "name": "load:1440:support.html#monitor",
+    "pass": true,
+    "detail": {
+      "status": "same-document",
+      "title": "MON、PM 與 EMS｜MES 教學",
+      "h1": "Daily MON 逾期，會卡 EMS",
+      "overflow": 0,
+      "broken": [],
+      "errors": [],
+      "http": []
+    }
+  },
+  {
+    "name": "load:1440:support.html#move",
+    "pass": true,
+    "detail": {
+      "status": "same-document",
+      "title": "Move｜Lot 過站事件｜MES 教學",
+      "h1": "Move：計的是 Lot 過站事件",
+      "overflow": 0,
+      "broken": [],
+      "errors": [],
+      "http": []
+    }
+  },
+  {
+    "name": "load:1440:flow.html#execution",
+    "pass": true,
+    "detail": {
+      "status": 200,
+      "title": "過站與歷程｜第三部分 MES 教學",
+      "h1": "從 S40 到 S50，中間不是只改一個欄位",
+      "overflow": 0,
+      "broken": [],
+      "errors": [],
+      "http": []
+    }
+  },
+  {
+    "name": "load:1440:flow.html#split-merge",
+    "pass": true,
+    "detail": {
+      "status": "same-document",
+      "title": "拆批與合批｜第三部分 MES 教學",
+      "h1": "只有 W08 需要處理，整批一定要一起走嗎？",
+      "overflow": 0,
+      "broken": [],
+      "errors": [],
+      "http": []
+    }
+  },
+  {
+    "name": "load:1440:freshness.html#architecture",
+    "pass": true,
+    "detail": {
+      "status": 200,
+      "title": "同一個 Giga，不同的新鮮度｜資料新鮮度",
+      "h1": "同一個 Giga，也有不同的新鮮度。",
+      "overflow": 0,
+      "broken": [],
+      "errors": [],
+      "http": []
+    }
+  },
+  {
+    "name": "load:1440:freshness.html#decision",
+    "pass": true,
+    "detail": {
+      "status": "same-document",
+      "title": "晚十分鐘，會做錯事嗎？｜資料新鮮度",
+      "h1": "晚十分鐘，會不會做錯事？",
+      "overflow": 0,
+      "broken": [],
+      "errors": [],
+      "http": []
+    }
+  },
+  {
+    "name": "load:1440:freshness.html#ai",
+    "pass": true,
+    "detail": {
+      "status": "same-document",
+      "title": "案例一：AI 發現異常之後｜資料新鮮度",
+      "h1": "AI 發現異常，這批還在 DEV 嗎？",
+      "overflow": 0,
+      "broken": [],
+      "errors": [],
+      "http": []
+    }
+  },
+  {
+    "name": "load:1440:freshness.html#history",
+    "pass": true,
+    "detail": {
+      "status": "same-document",
+      "title": "案例二：經過，不等於現在｜資料新鮮度",
+      "h1": "經過 DEV，不等於現在還在 DEV。",
+      "overflow": 0,
+      "broken": [],
+      "errors": [],
+      "http": []
+    }
+  },
+  {
+    "name": "load:1440:freshness.html#join",
+    "pass": true,
+    "detail": {
+      "status": "same-document",
+      "title": "案例三：表剛刷新，欄位仍舊｜資料新鮮度",
+      "h1": "表剛刷新，Hold 也變新了嗎？",
+      "overflow": 0,
+      "broken": [],
+      "errors": [],
+      "http": []
+    }
+  },
+  {
+    "name": "load:1440:freshness.html#contract",
+    "pass": true,
+    "detail": {
+      "status": "same-document",
+      "title": "把判斷寫進 Data Contract｜資料新鮮度",
+      "h1": "不只交付欄位，也交付來源與時間。",
+      "overflow": 0,
+      "broken": [],
+      "errors": [],
+      "http": []
+    }
+  },
+  {
+    "name": "load:1440:er-atlas.html?view=questions",
+    "pass": true,
+    "detail": {
+      "status": 200,
+      "title": "Fab 整合 ER｜實體與關係",
+      "h1": "從同一個 Lot，沿著關係找資料",
+      "overflow": 0,
+      "broken": [],
+      "errors": [],
+      "http": []
+    }
+  },
+  {
+    "name": "load:1440:tasks.html#group-report",
+    "pass": true,
+    "detail": {
+      "status": 200,
+      "title": "KER 報表代表哪個機群、哪個時點？｜MES 現場問題",
+      "h1": "現場問題練習",
+      "overflow": 0,
+      "broken": [],
+      "errors": [],
+      "http": []
+    }
+  },
+  {
+    "name": "load:1440:tasks.html#not-running",
+    "pass": true,
+    "detail": {
+      "status": "same-document",
+      "title": "Lot 為什麼尚未進機？｜MES 現場問題",
+      "h1": "現場問題練習",
+      "overflow": 0,
+      "broken": [],
+      "errors": [],
+      "http": []
+    }
+  },
+  {
+    "name": "load:1440:tasks.html#find-carrier",
+    "pass": true,
+    "detail": {
+      "status": "same-document",
+      "title": "FOUP 在那個時間到底在哪裡？｜MES 現場問題",
+      "h1": "現場問題練習",
+      "overflow": 0,
+      "broken": [],
+      "errors": [],
+      "http": []
+    }
+  },
+  {
+    "name": "load:1440:tasks.html#lot-history",
+    "pass": true,
+    "detail": {
+      "status": "same-document",
+      "title": "Lot 做過什麼？哪些算 Move？｜MES 現場問題",
+      "h1": "現場問題練習",
+      "overflow": 0,
+      "broken": [],
+      "errors": [],
+      "http": []
+    }
+  },
+  {
+    "name": "load:1440:tasks.html#product-hold",
+    "pass": true,
+    "detail": {
+      "status": "same-document",
+      "title": "為什麼同產品的 Lot 到站被攔住？｜MES 現場問題",
+      "h1": "現場問題練習",
+      "overflow": 0,
+      "broken": [],
+      "errors": [],
+      "http": []
+    }
+  },
+  {
+    "name": "load:1440:learning.html?view=instructor",
+    "pass": true,
+    "detail": {
+      "status": 200,
+      "title": "MES 製造資料學習｜課程總覽",
+      "h1": "用同一批貨，教會可追溯的判斷。",
+      "overflow": 0,
+      "broken": [],
+      "errors": [],
+      "http": []
+    }
+  },
+  {
+    "name": "load:1440:learning.html?view=reference",
+    "pass": true,
+    "detail": {
+      "status": 200,
+      "title": "課程總覽｜MES 製造資料學習",
+      "h1": "從工廠裡的一批貨，學會找到可信的資料答案。",
+      "overflow": 0,
+      "broken": [],
+      "errors": [],
+      "http": []
+    }
+  },
+  {
+    "name": "load:1440:learning.html?route=field",
+    "pass": true,
+    "detail": {
+      "status": 200,
+      "title": "課程總覽｜MES 製造資料學習",
+      "h1": "從工廠裡的一批貨，學會找到可信的資料答案。",
+      "overflow": 0,
+      "broken": [],
+      "errors": [],
+      "http": []
+    }
+  },
+  {
+    "name": "load:1440:learning.html?route=data",
+    "pass": true,
+    "detail": {
+      "status": 200,
+      "title": "課程總覽｜MES 製造資料學習",
+      "h1": "從工廠裡的一批貨，學會找到可信的資料答案。",
+      "overflow": 0,
+      "broken": [],
+      "errors": [],
+      "http": []
+    }
+  },
+  {
+    "name": "load:1440:tasks.html#find-carrier",
+    "pass": true,
+    "detail": {
+      "status": 200,
+      "title": "FOUP 在那個時間到底在哪裡？｜MES 現場問題",
+      "h1": "現場問題練習",
+      "overflow": 0,
+      "broken": [],
+      "errors": [],
+      "http": []
+    }
+  },
+  {
+    "name": "load:1440:tasks.html#group-report",
+    "pass": true,
+    "detail": {
+      "status": "same-document",
+      "title": "KER 報表代表哪個機群、哪個時點？｜MES 現場問題",
+      "h1": "現場問題練習",
+      "overflow": 0,
+      "broken": [],
+      "errors": [],
+      "http": []
+    }
+  },
+  {
+    "name": "load:1440:tasks.html#lot-history",
+    "pass": true,
+    "detail": {
+      "status": "same-document",
+      "title": "Lot 做過什麼？哪些算 Move？｜MES 現場問題",
+      "h1": "現場問題練習",
+      "overflow": 0,
+      "broken": [],
+      "errors": [],
+      "http": []
+    }
+  },
+  {
+    "name": "load:1440:tasks.html#not-running",
+    "pass": true,
+    "detail": {
+      "status": "same-document",
+      "title": "Lot 為什麼尚未進機？｜MES 現場問題",
+      "h1": "現場問題練習",
+      "overflow": 0,
+      "broken": [],
+      "errors": [],
+      "http": []
+    }
+  },
+  {
+    "name": "load:1440:tasks.html#product-hold",
+    "pass": true,
+    "detail": {
+      "status": "same-document",
+      "title": "為什麼同產品的 Lot 到站被攔住？｜MES 現場問題",
+      "h1": "現場問題練習",
+      "overflow": 0,
+      "broken": [],
+      "errors": [],
+      "http": []
+    }
+  },
+  {
+    "name": "home-redirect:1440",
+    "pass": true,
+    "detail": "http://127.0.0.1:4175/learning.html"
+  },
+  {
+    "name": "er-pointer:1440:Lot",
+    "pass": true,
+    "detail": "lot"
+  },
+  {
+    "name": "er-pointer:1440:FOUP",
+    "pass": true,
+    "detail": "carrier"
+  },
+  {
+    "name": "er-pointer:1440:EQP",
+    "pass": true,
+    "detail": "equipment"
+  },
+  {
+    "name": "er-pointer:1440:Flow",
+    "pass": true,
+    "detail": "flow"
+  },
+  {
+    "name": "er-pointer:1440:Recipe",
+    "pass": true,
+    "detail": "recipe"
+  },
+  {
+    "name": "keyboard-focus:1440",
+    "pass": true,
+    "detail": {
+      "tag": "A",
+      "text": "MES · 製造資料學習",
+      "href": "http://127.0.0.1:4175/learning.html"
+    }
+  },
+  {
+    "name": "keyboard-activation:1440",
+    "pass": true,
+    "detail": "http://127.0.0.1:4175/learning.html"
+  },
+  {
+    "name": "load:390:learning.html",
+    "pass": true,
+    "detail": {
+      "status": 200,
+      "title": "課程總覽｜MES 製造資料學習",
+      "h1": "從工廠裡的一批貨，學會找到可信的資料答案。",
+      "overflow": 0,
+      "broken": [],
+      "errors": [],
+      "http": []
+    }
+  },
+  {
+    "name": "load:390:learning.html?unit=0",
+    "pass": true,
+    "detail": {
+      "status": 200,
+      "title": "開始：選擇你的學習路線｜MES 課程",
+      "h1": "開始：選擇你的學習路線",
+      "overflow": 0,
+      "broken": [],
+      "errors": [],
+      "http": []
+    }
+  },
+  {
+    "name": "load:390:learning.html?unit=1",
+    "pass": true,
+    "detail": {
+      "status": 200,
+      "title": "物件、身分與位置｜MES 課程",
+      "h1": "物件、身分與位置",
+      "overflow": 0,
+      "broken": [],
+      "errors": [],
+      "http": []
+    }
+  },
+  {
+    "name": "load:390:learning.html?unit=2",
+    "pass": true,
+    "detail": {
+      "status": 200,
+      "title": "產品與加工路線｜MES 課程",
+      "h1": "產品與加工路線",
+      "overflow": 0,
+      "broken": [],
+      "errors": [],
+      "http": []
+    }
+  },
+  {
+    "name": "load:390:learning.html?unit=3",
+    "pass": true,
+    "detail": {
+      "status": 200,
+      "title": "一站如何加工｜MES 課程",
+      "h1": "一站如何加工",
+      "overflow": 0,
+      "broken": [],
+      "errors": [],
+      "http": []
+    }
+  },
+  {
+    "name": "load:390:learning.html?unit=4",
+    "pass": true,
+    "detail": {
+      "status": 200,
+      "title": "預派、搬送與暫存｜MES 課程",
+      "h1": "預派、搬送與暫存",
+      "overflow": 0,
+      "broken": [],
+      "errors": [],
+      "http": []
+    }
+  },
+  {
+    "name": "load:390:learning.html?unit=5",
+    "pass": true,
+    "detail": {
+      "status": 200,
+      "title": "管制與例外｜MES 課程",
+      "h1": "管制與例外",
+      "overflow": 0,
+      "broken": [],
+      "errors": [],
+      "http": []
+    }
+  },
+  {
+    "name": "load:390:learning.html?unit=6",
+    "pass": true,
+    "detail": {
+      "status": 200,
+      "title": "重建批貨歷程｜MES 課程",
+      "h1": "重建批貨歷程",
+      "overflow": 0,
+      "broken": [],
+      "errors": [],
+      "http": []
+    }
+  },
+  {
+    "name": "load:390:learning.html?unit=7",
+    "pass": true,
+    "detail": {
+      "status": 200,
+      "title": "未來站點何時到｜MES 課程",
+      "h1": "未來站點何時到",
+      "overflow": 0,
+      "broken": [],
+      "errors": [],
+      "http": []
+    }
+  },
+  {
+    "name": "load:390:learning.html?unit=8",
+    "pass": true,
+    "detail": {
+      "status": 200,
+      "title": "機群、時間與資料分析｜MES 課程",
+      "h1": "機群、時間與資料分析",
+      "overflow": 0,
+      "broken": [],
+      "errors": [],
+      "http": []
+    }
+  },
+  {
+    "name": "load:390:learning.html?unit=9",
+    "pass": true,
+    "detail": {
+      "status": 200,
+      "title": "完成一個工作任務｜MES 課程",
+      "h1": "完成一個工作任務",
+      "overflow": 0,
+      "broken": [],
+      "errors": [],
+      "http": []
+    }
+  },
+  {
+    "name": "load:390:tasks.html",
+    "pass": true,
+    "detail": {
+      "status": 200,
+      "title": "Lot 為什麼尚未進機？｜MES 現場問題",
+      "h1": "現場問題練習",
+      "overflow": 0,
+      "broken": [],
+      "errors": [],
+      "http": []
+    }
+  },
+  {
+    "name": "load:390:topic.html",
+    "pass": true,
+    "detail": {
+      "status": 200,
+      "title": "Lot 與 Wafer：同一批中的不同晶圓｜MES 主題教學",
+      "h1": "Lot 與 Wafer：同一批中的不同晶圓",
+      "overflow": 0,
+      "broken": [],
+      "errors": [],
+      "http": []
+    }
+  },
+  {
+    "name": "load:390:topic.html?topic=actions",
+    "pass": true,
+    "detail": {
+      "status": 200,
+      "title": "批貨歷史：記錄每個 Lot 的各種動作｜MES 主題教學",
+      "h1": "批貨歷史：記錄每個 Lot 的各種動作",
+      "overflow": 0,
+      "broken": [],
+      "errors": [],
+      "http": []
+    }
+  },
+  {
+    "name": "load:390:topic.html?topic=available",
+    "pass": true,
+    "detail": {
+      "status": 200,
+      "title": "帶到：Lot 在這個站點有可用機台｜MES 主題教學",
+      "h1": "帶到：Lot 在這個站點有可用機台",
+      "overflow": 0,
+      "broken": [],
+      "errors": [],
+      "http": []
+    }
+  },
+  {
+    "name": "load:390:topic.html?topic=bay",
+    "pass": true,
+    "detail": {
+      "status": 200,
+      "title": "EQP Bay：機台所在的 Fab 走道與管理單位｜MES 主題教學",
+      "h1": "EQP Bay：機台所在的 Fab 走道與管理單位",
+      "overflow": 0,
+      "broken": [],
+      "errors": [],
+      "http": []
+    }
+  },
+  {
+    "name": "load:390:topic.html?topic=bmir",
+    "pass": true,
+    "detail": {
+      "status": 200,
+      "title": "BMIR：OHB 空位時，呼叫 RTD 計算下一批貨｜MES 主題教學",
+      "h1": "BMIR：OHB 空位時，呼叫 RTD 計算下一批貨",
+      "overflow": 0,
+      "broken": [],
+      "errors": [],
+      "http": []
+    }
+  },
+  {
+    "name": "load:390:topic.html?topic=carrier",
+    "pass": true,
+    "detail": {
+      "status": 200,
+      "title": "FOUP 內容物：Lot、Wafer 與 Slot｜MES 主題教學",
+      "h1": "FOUP 內容物：Lot、Wafer 與 Slot",
+      "overflow": 0,
+      "broken": [],
+      "errors": [],
+      "http": []
+    }
+  },
+  {
+    "name": "load:390:topic.html?topic=chamber",
+    "pass": true,
+    "detail": {
+      "status": 200,
+      "title": "Chamber：機台內的加工腔體｜MES 主題教學",
+      "h1": "Chamber：機台內的加工腔體",
+      "overflow": 0,
+      "broken": [],
+      "errors": [],
+      "http": []
+    }
+  },
+  {
+    "name": "load:390:topic.html?topic=contents",
+    "pass": true,
+    "detail": {
+      "status": 200,
+      "title": "FOUP 內容物歷史：那個時間裝了哪些 Wafer｜MES 主題教學",
+      "h1": "FOUP 內容物歷史：那個時間裝了哪些 Wafer",
+      "overflow": 0,
+      "broken": [],
+      "errors": [],
+      "http": []
+    }
+  },
+  {
+    "name": "load:390:topic.html?topic=eqpkey",
+    "pass": true,
+    "detail": {
+      "status": 200,
+      "title": "EQP_ID：在這条資料路徑中識別機台｜MES 主題教學",
+      "h1": "EQP_ID：在這条資料路徑中識別機台",
+      "overflow": 0,
+      "broken": [],
+      "errors": [],
+      "http": []
+    }
+  },
+  {
+    "name": "load:390:topic.html?topic=eqpstatus",
+    "pass": true,
+    "detail": {
+      "status": 200,
+      "title": "設備狀態：讀取機台與狀態時間｜MES 主題教學",
+      "h1": "設備狀態：讀取機台與狀態時間",
+      "overflow": 0,
+      "broken": [],
+      "errors": [],
+      "http": []
+    }
+  },
+  {
+    "name": "load:390:topic.html?topic=equipment",
+    "pass": true,
+    "detail": {
+      "status": 200,
+      "title": "EQP：執行作業的設備｜MES 主題教學",
+      "h1": "EQP：執行作業的設備",
+      "overflow": 0,
+      "broken": [],
+      "errors": [],
+      "http": []
+    }
+  },
+  {
+    "name": "load:390:topic.html?topic=flow",
+    "pass": true,
+    "detail": {
+      "status": 200,
+      "title": "Flow：批次遵循的製程路徑｜MES 主題教學",
+      "h1": "Flow：批次遵循的製程路徑",
+      "overflow": 0,
+      "broken": [],
+      "errors": [],
+      "http": []
+    }
+  },
+  {
+    "name": "load:390:topic.html?topic=flowkey",
+    "pass": true,
+    "detail": {
+      "status": 200,
+      "title": "Lot 與 Flow：沿 Part／Mainpd_id 找流程｜MES 主題教學",
+      "h1": "Lot 與 Flow：沿 Part／Mainpd_id 找流程",
+      "overflow": 0,
+      "broken": [],
+      "errors": [],
+      "http": []
+    }
+  },
+  {
+    "name": "load:390:topic.html?topic=forecast",
+    "pass": true,
+    "detail": {
+      "status": 200,
+      "title": "未來的 Flow：用 Flow 與 IE WPH 預估各站到站時間｜MES 主題教學",
+      "h1": "未來的 Flow：用 Flow 與 IE WPH 預估各站到站時間",
+      "overflow": 0,
+      "broken": [],
+      "errors": [],
+      "http": []
+    }
+  },
+  {
+    "name": "load:390:topic.html?topic=future",
+    "pass": true,
+    "detail": {
+      "status": 200,
+      "title": "Future Hold：先登記，到指定事件才攔截｜MES 主題教學",
+      "h1": "Future Hold：先登記，到指定事件才攔截",
+      "overflow": 0,
+      "broken": [],
+      "errors": [],
+      "http": []
+    }
+  },
+  {
+    "name": "load:390:topic.html?topic=group",
+    "pass": true,
+    "detail": {
+      "status": 200,
+      "title": "KER：機台與 Chamber 的分群對應｜MES 主題教學",
+      "h1": "KER：機台與 Chamber 的分群對應",
+      "overflow": 0,
+      "broken": [],
+      "errors": [],
+      "http": []
+    }
+  },
+  {
+    "name": "load:390:topic.html?topic=load",
+    "pass": true,
+    "detail": {
+      "status": 200,
+      "title": "裝載關係：Lot、Wafer 與 FOUP｜MES 主題教學",
+      "h1": "裝載關係：Lot、Wafer 與 FOUP",
+      "overflow": 0,
+      "broken": [],
+      "errors": [],
+      "http": []
+    }
+  },
+  {
+    "name": "load:390:topic.html?topic=location",
+    "pass": true,
+    "detail": {
+      "status": 200,
+      "title": "載具與機台的位置關係｜MES 主題教學",
+      "h1": "載具與機台的位置關係",
+      "overflow": 0,
+      "broken": [],
+      "errors": [],
+      "http": []
+    }
+  },
+  {
+    "name": "load:390:topic.html?topic=lot",
+    "pass": true,
+    "detail": {
+      "status": 200,
+      "title": "Lot 與 Wafer：同一批中的不同晶圓｜MES 主題教學",
+      "h1": "Lot 與 Wafer：同一批中的不同晶圓",
+      "overflow": 0,
+      "broken": [],
+      "errors": [],
+      "http": []
+    }
+  },
+  {
+    "name": "load:390:topic.html?topic=lotstatus",
+    "pass": true,
+    "detail": {
+      "status": 200,
+      "title": "Lot Process／Status：RQHBE 五種狀態｜MES 主題教學",
+      "h1": "Lot Process／Status：RQHBE 五種狀態",
+      "overflow": 0,
+      "broken": [],
+      "errors": [],
+      "http": []
+    }
+  },
+  {
+    "name": "load:390:topic.html?topic=lotstep",
+    "pass": true,
+    "detail": {
+      "status": 200,
+      "title": "Lot Step：查這一批的站點歷史｜MES 主題教學",
+      "h1": "Lot Step：查這一批的站點歷史",
+      "overflow": 0,
+      "broken": [],
+      "errors": [],
+      "http": []
+    }
+  },
+  {
+    "name": "load:390:topic.html?topic=material",
+    "pass": true,
+    "detail": {
+      "status": 200,
+      "title": "以 FOUP 為主詞：查詢裝載的 Lot｜MES 主題教學",
+      "h1": "以 FOUP 為主詞：查詢裝載的 Lot",
+      "overflow": 0,
+      "broken": [],
+      "errors": [],
+      "http": []
+    }
+  },
+  {
+    "name": "load:390:topic.html?topic=mcs",
+    "pass": true,
+    "detail": {
+      "status": 200,
+      "title": "MCS 傳送歷史：Macro 與 Micro command｜MES 主題教學",
+      "h1": "MCS 傳送歷史：Macro 與 Micro command",
+      "overflow": 0,
+      "broken": [],
+      "errors": [],
+      "http": []
+    }
+  },
+  {
+    "name": "load:390:topic.html?topic=move",
+    "pass": true,
+    "detail": {
+      "status": 200,
+      "title": "Move：每次進機一筆，按日看表現、按 Lot 查站點｜MES 主題教學",
+      "h1": "Move：每次進機一筆，按日看表現、按 Lot 查站點",
+      "overflow": 0,
+      "broken": [],
+      "errors": [],
+      "http": []
+    }
+  },
+  {
+    "name": "load:390:topic.html?topic=oee",
+    "pass": true,
+    "detail": {
+      "status": 200,
+      "title": "KER：最近一次更新與每小時歷史指標｜MES 主題教學",
+      "h1": "KER：最近一次更新與每小時歷史指標",
+      "overflow": 0,
+      "broken": [],
+      "errors": [],
+      "http": []
+    }
+  },
+  {
+    "name": "load:390:topic.html?topic=ohb",
+    "pass": true,
+    "detail": {
+      "status": 200,
+      "title": "OHB：機台附近的 FOUP 暫置架｜MES 主題教學",
+      "h1": "OHB：機台附近的 FOUP 暫置架",
+      "overflow": 0,
+      "broken": [],
+      "errors": [],
+      "http": []
+    }
+  },
+  {
+    "name": "load:390:topic.html?topic=owner",
+    "pass": true,
+    "detail": {
+      "status": 200,
+      "title": "機群與課別：由機台查管理歸屬｜MES 主題教學",
+      "h1": "機群與課別：由機台查管理歸屬",
+      "overflow": 0,
+      "broken": [],
+      "errors": [],
+      "http": []
+    }
+  },
+  {
+    "name": "load:390:topic.html?topic=part",
+    "pass": true,
+    "detail": {
+      "status": 200,
+      "title": "PART：產品對應 Flow，進版同步記錄｜MES 主題教學",
+      "h1": "PART：產品對應 Flow，進版同步記錄",
+      "overflow": 0,
+      "broken": [],
+      "errors": [],
+      "http": []
+    }
+  },
+  {
+    "name": "load:390:topic.html?topic=pd",
+    "pass": true,
+    "detail": {
+      "status": 200,
+      "title": "PD：Process Definition，站點的細部加工定義｜MES 主題教學",
+      "h1": "PD：Process Definition，站點的細部加工定義",
+      "overflow": 0,
+      "broken": [],
+      "errors": [],
+      "http": []
+    }
+  },
+  {
+    "name": "load:390:topic.html?topic=port",
+    "pass": true,
+    "detail": {
+      "status": 200,
+      "title": "Load Port：等待加工與完成後的暫置位置｜MES 主題教學",
+      "h1": "Load Port：等待加工與完成後的暫置位置",
+      "overflow": 0,
+      "broken": [],
+      "errors": [],
+      "http": []
+    }
+  },
+  {
+    "name": "load:390:topic.html?topic=portdata",
+    "pass": true,
+    "detail": {
+      "status": 200,
+      "title": "Port 衍生設定（已撤下教學）｜MES 主題教學",
+      "h1": "Port 衍生設定（已撤下教學）",
+      "overflow": 0,
+      "broken": [],
+      "errors": [],
+      "http": []
+    }
+  },
+  {
+    "name": "load:390:topic.html?topic=portmode",
+    "pass": true,
+    "detail": {
+      "status": 200,
+      "title": "Port 模式：UP 有貨，LOST 沒有貨｜MES 主題教學",
+      "h1": "Port 模式：UP 有貨，LOST 沒有貨",
+      "overflow": 0,
+      "broken": [],
+      "errors": [],
+      "http": []
+    }
+  },
+  {
+    "name": "load:390:topic.html?topic=predispatch",
+    "pass": true,
+    "detail": {
+      "status": 200,
+      "title": "Lot 預派：派工系統預先安排目標機台｜MES 主題教學",
+      "h1": "Lot 預派：派工系統預先安排目標機台",
+      "overflow": 0,
+      "broken": [],
+      "errors": [],
+      "http": []
+    }
+  },
+  {
+    "name": "load:390:topic.html?topic=prehistory",
+    "pass": true,
+    "detail": {
+      "status": 200,
+      "title": "預派歷史：讓機台預先知道接下來的 Lot｜MES 主題教學",
+      "h1": "預派歷史：讓機台預先知道接下來的 Lot",
+      "overflow": 0,
+      "broken": [],
+      "errors": [],
+      "http": []
+    }
+  },
+  {
+    "name": "load:390:topic.html?topic=producthold",
+    "pass": true,
+    "detail": {
+      "status": 200,
+      "title": "Product Hold：同產品的 Lot，到指定站點暫置｜MES 主題教學",
+      "h1": "Product Hold：同產品的 Lot，到指定站點暫置",
+      "overflow": 0,
+      "broken": [],
+      "errors": [],
+      "http": []
+    }
+  },
+  {
+    "name": "load:390:topic.html?topic=qtime",
+    "pass": true,
+    "detail": {
+      "status": 200,
+      "title": "QTime：Lot 的製程時間限制｜MES 主題教學",
+      "h1": "QTime：Lot 的製程時間限制",
+      "overflow": 0,
+      "broken": [],
+      "errors": [],
+      "http": []
+    }
+  },
+  {
+    "name": "load:390:topic.html?topic=recipe",
+    "pass": true,
+    "detail": {
+      "status": 200,
+      "title": "Recipe：從邏輯要求到設備配置｜MES 主題教學",
+      "h1": "Recipe：從邏輯要求到設備配置",
+      "overflow": 0,
+      "broken": [],
+      "errors": [],
+      "http": []
+    }
+  },
+  {
+    "name": "load:390:topic.html?topic=recipegroup",
+    "pass": true,
+    "detail": {
+      "status": 200,
+      "title": "Recipe Group：彈性控制多台或單台機台的加工許可｜MES 主題教學",
+      "h1": "Recipe Group：彈性控制多台或單台機台的加工許可",
+      "overflow": 0,
+      "broken": [],
+      "errors": [],
+      "http": []
+    }
+  },
+  {
+    "name": "load:390:topic.html?topic=retired",
+    "pass": true,
+    "detail": {
+      "status": 200,
+      "title": "原圖待校正關係：Lot 裝載與 Step 歷史須分清｜MES 主題教學",
+      "h1": "原圖待校正關係：Lot 裝載與 Step 歷史須分清",
+      "overflow": 0,
+      "broken": [],
+      "errors": [],
+      "http": []
+    }
+  },
+  {
+    "name": "load:390:topic.html?topic=srts",
+    "pass": true,
+    "detail": {
+      "status": 200,
+      "title": "SRTS：Flow 站點的 Sampling rule 與抽測比例｜MES 主題教學",
+      "h1": "SRTS：Flow 站點的 Sampling rule 與抽測比例",
+      "overflow": 0,
+      "broken": [],
+      "errors": [],
+      "http": []
+    }
+  },
+  {
+    "name": "load:390:topic.html?topic=stage",
+    "pass": true,
+    "detail": {
+      "status": 200,
+      "title": "Module → Stage → Step：從加工模組看到細部步驟｜MES 主題教學",
+      "h1": "Module → Stage → Step：從加工模組看到細部步驟",
+      "overflow": 0,
+      "broken": [],
+      "errors": [],
+      "http": []
+    }
+  },
+  {
+    "name": "load:390:topic.html?topic=stock",
+    "pass": true,
+    "detail": {
+      "status": 200,
+      "title": "Default STK：機台的預設 FOUP 倉儲｜MES 主題教學",
+      "h1": "Default STK：機台的預設 FOUP 倉儲",
+      "overflow": 0,
+      "broken": [],
+      "errors": [],
+      "http": []
+    }
+  },
+  {
+    "name": "load:390:topic.html?topic=stream",
+    "pass": true,
+    "detail": {
+      "status": 200,
+      "title": "Stream：Flow × IE WPH 預估到站｜MES 主題教學",
+      "h1": "Stream：Flow × IE WPH 預估到站",
+      "overflow": 0,
+      "broken": [],
+      "errors": [],
+      "http": []
+    }
+  },
+  {
+    "name": "load:390:topic.html?topic=transfer",
+    "pass": true,
+    "detail": {
+      "status": 200,
+      "title": "傳送歷史：presum 後的 FOUP 搬運資料｜MES 主題教學",
+      "h1": "傳送歷史：presum 後的 FOUP 搬運資料",
+      "overflow": 0,
+      "broken": [],
+      "errors": [],
+      "http": []
+    }
+  },
+  {
+    "name": "load:390:topic.html?topic=virtual",
+    "pass": true,
+    "detail": {
+      "status": 200,
+      "title": "KER：User 用 SQL 自訂虛擬 Tool Group｜MES 主題教學",
+      "h1": "KER：User 用 SQL 自訂虛擬 Tool Group",
+      "overflow": 0,
+      "broken": [],
+      "errors": [],
+      "http": []
+    }
+  },
+  {
+    "name": "load:390:topic.html?topic=wip",
+    "pass": true,
+    "detail": {
+      "status": 200,
+      "title": "WIP 快照：每天早上 07:20 的機群與 KPI｜MES 主題教學",
+      "h1": "WIP 快照：每天早上 07:20 的機群與 KPI",
+      "overflow": 0,
+      "broken": [],
+      "errors": [],
+      "http": []
+    }
+  },
+  {
+    "name": "load:390:topic.html?topic=wph",
+    "pass": true,
+    "detail": {
+      "status": 200,
+      "title": "機群 WPH：生管訂定的預期產出｜MES 主題教學",
+      "h1": "機群 WPH：生管訂定的預期產出",
+      "overflow": 0,
+      "broken": [],
+      "errors": [],
+      "http": []
+    }
+  },
+  {
+    "name": "load:390:index.html#fab",
+    "pass": true,
+    "detail": {
+      "status": 200,
+      "title": "先走進 Fab｜Fab 的四個基本角色",
+      "h1": "先走進 Fab：這裡在製造晶片。",
+      "overflow": 0,
+      "broken": [],
+      "errors": [],
+      "http": []
+    }
+  },
+  {
+    "name": "load:390:operations.html#tool",
+    "pass": true,
+    "detail": {
+      "status": 200,
+      "title": "從載具到腔體｜第二部分 MES 教學",
+      "h1": "同一片晶圓，怎麼進入設備？",
+      "overflow": 0,
+      "broken": [],
+      "errors": [],
+      "http": []
+    }
+  },
+  {
+    "name": "load:390:operations.html#lab",
+    "pass": true,
+    "detail": {
+      "status": "same-document",
+      "title": "六個現場情境｜第二部分 MES 教學",
+      "h1": "把設備現場的判斷，實際做一次",
+      "overflow": 0,
+      "broken": [],
+      "errors": [],
+      "http": []
+    }
+  },
+  {
+    "name": "load:390:flow.html#lab",
+    "pass": true,
+    "detail": {
+      "status": 200,
+      "title": "十個 Flow 情境｜第三部分 MES 教學",
+      "h1": "讓 Lot 真正沿著 Flow 走一次",
+      "overflow": 0,
+      "broken": [],
+      "errors": [],
+      "http": []
+    }
+  },
+  {
+    "name": "load:390:freshness.html",
+    "pass": true,
+    "detail": {
+      "status": 200,
+      "title": "同一個 Giga，不同的新鮮度｜資料新鮮度",
+      "h1": "同一個 Giga，也有不同的新鮮度。",
+      "overflow": 0,
+      "broken": [],
+      "errors": [],
+      "http": []
+    }
+  },
+  {
+    "name": "load:390:advanced.html",
+    "pass": true,
+    "detail": {
+      "status": 200,
+      "title": "QTime｜時間限制｜MES 教學",
+      "h1": "QTime：這段時間，最多能等多久？",
+      "overflow": 0,
+      "broken": [],
+      "errors": [],
+      "http": []
+    }
+  },
+  {
+    "name": "load:390:support.html",
+    "pass": true,
+    "detail": {
+      "status": 200,
+      "title": "CW｜三種晶圓用途｜MES 教學",
+      "h1": "CW：同屬控制晶圓，用途不一樣",
+      "overflow": 0,
+      "broken": [],
+      "errors": [],
+      "http": []
+    }
+  },
+  {
+    "name": "load:390:data-map.html",
+    "pass": true,
+    "detail": {
+      "status": 200,
+      "title": "MES｜從現場讀懂資料關係",
+      "h1": "Lot 在哪裡？先分清批次、盒子與設備",
+      "overflow": 0,
+      "broken": [],
+      "errors": [],
+      "http": []
+    }
+  },
+  {
+    "name": "load:390:subject-er.html",
+    "pass": true,
+    "detail": {
+      "status": 200,
+      "title": "主詞 ER｜MES 資料與現場",
+      "h1": "以 Lot 看裝載、設備安排與流程",
+      "overflow": 0,
+      "broken": [],
+      "errors": [],
+      "http": []
+    }
+  },
+  {
+    "name": "load:390:er-atlas.html",
+    "pass": true,
+    "detail": {
+      "status": 200,
+      "title": "Fab 整合 ER｜實體與關係",
+      "h1": "從同一個 Lot，沿著關係找資料",
+      "overflow": 0,
+      "broken": [],
+      "errors": [],
+      "http": []
+    }
+  },
+  {
+    "name": "load:390:index.html#wafer",
+    "pass": true,
+    "detail": {
+      "status": 200,
+      "title": "Wafer｜Fab 的四個基本角色",
+      "h1": "先走進 Fab：這裡在製造晶片。",
+      "overflow": 0,
+      "broken": [],
+      "errors": [],
+      "http": []
+    }
+  },
+  {
+    "name": "load:390:index.html#foup",
+    "pass": true,
+    "detail": {
+      "status": "same-document",
+      "title": "FOUP｜Fab 的四個基本角色",
+      "h1": "先走進 Fab：這裡在製造晶片。",
+      "overflow": 0,
+      "broken": [],
+      "errors": [],
+      "http": []
+    }
+  },
+  {
+    "name": "load:390:index.html#slot",
+    "pass": true,
+    "detail": {
+      "status": "same-document",
+      "title": "Slot｜Fab 的四個基本角色",
+      "h1": "先走進 Fab：這裡在製造晶片。",
+      "overflow": 0,
+      "broken": [],
+      "errors": [],
+      "http": []
+    }
+  },
+  {
+    "name": "load:390:index.html#lot",
+    "pass": true,
+    "detail": {
+      "status": "same-document",
+      "title": "Lot｜Fab 的四個基本角色",
+      "h1": "先走進 Fab：這裡在製造晶片。",
+      "overflow": 0,
+      "broken": [],
+      "errors": [],
+      "http": []
+    }
+  },
+  {
+    "name": "load:390:index.html#explore",
+    "pass": true,
+    "detail": {
+      "status": "same-document",
+      "title": "動手對照｜Fab 的四個基本角色",
+      "h1": "先走進 Fab：這裡在製造晶片。",
+      "overflow": 0,
+      "broken": [],
+      "errors": [],
+      "http": []
+    }
+  },
+  {
+    "name": "load:390:index.html#check",
+    "pass": true,
+    "detail": {
+      "status": "same-document",
+      "title": "自測｜Fab 的四個基本角色",
+      "h1": "先走進 Fab：這裡在製造晶片。",
+      "overflow": 0,
+      "broken": [],
+      "errors": [],
+      "http": []
+    }
+  },
+  {
+    "name": "load:390:flow.html#flow",
+    "pass": true,
+    "detail": {
+      "status": 200,
+      "title": "Flow：整條製造路徑｜第三部分 MES 教學",
+      "h1": "Flow 是一份有規則的製造路徑",
+      "overflow": 0,
+      "broken": [],
+      "errors": [],
+      "http": []
+    }
+  },
+  {
+    "name": "load:390:flow.html#step",
+    "pass": true,
+    "detail": {
+      "status": "same-document",
+      "title": "Step：精確的流程位置｜第三部分 MES 教學",
+      "h1": "Step 是「這條路上的這一次作業」",
+      "overflow": 0,
+      "broken": [],
+      "errors": [],
+      "http": []
+    }
+  },
+  {
+    "name": "load:390:flow.html#lot-flow",
+    "pass": true,
+    "detail": {
+      "status": "same-document",
+      "title": "Lot 如何套用 Flow｜第三部分 MES 教學",
+      "h1": "套用 Flow，是替 Lot 建立一條可追蹤的旅程",
+      "overflow": 0,
+      "broken": [],
+      "errors": [],
+      "http": []
+    }
+  },
+  {
+    "name": "load:390:flow.html#versions",
+    "pass": true,
+    "detail": {
+      "status": "same-document",
+      "title": "版本、跳站與等待時間｜第三部分 MES 教學",
+      "h1": "發布新版，不代表所有在製 Lot 立刻換路線",
+      "overflow": 0,
+      "broken": [],
+      "errors": [],
+      "http": []
+    }
+  },
+  {
+    "name": "load:390:operations.html#port",
+    "pass": true,
+    "detail": {
+      "status": 200,
+      "title": "到站與身分核對｜第二部分 MES 教學",
+      "h1": "眼前這個 FOUP，真的是這批料嗎？",
+      "overflow": 0,
+      "broken": [],
+      "errors": [],
+      "http": []
+    }
+  },
+  {
+    "name": "load:390:operations.html#recipe",
+    "pass": true,
+    "detail": {
+      "status": "same-document",
+      "title": "設備與配方資格｜第二部分 MES 教學",
+      "h1": "Step 決定要做什麼，Recipe 決定怎麼做",
+      "overflow": 0,
+      "broken": [],
+      "errors": [],
+      "http": []
+    }
+  },
+  {
+    "name": "load:390:operations.html#chamber",
+    "pass": true,
+    "detail": {
+      "status": "same-document",
+      "title": "逐片加工與整批完成｜第二部分 MES 教學",
+      "h1": "W06 做完時，L023 還沒做完",
+      "overflow": 0,
+      "broken": [],
+      "errors": [],
+      "http": []
+    }
+  },
+  {
+    "name": "load:390:operations.html#handoff",
+    "pass": true,
+    "detail": {
+      "status": "same-document",
+      "title": "從機台完成到 MES 過站｜第二部分 MES 教學",
+      "h1": "機台報 Done，MES 為什麼還不往下走？",
+      "overflow": 0,
+      "broken": [],
+      "errors": [],
+      "http": []
+    }
+  },
+  {
+    "name": "load:390:support.html#cw",
+    "pass": true,
+    "detail": {
+      "status": 200,
+      "title": "CW｜三種晶圓用途｜MES 教學",
+      "h1": "CW：同屬控制晶圓，用途不一樣",
+      "overflow": 0,
+      "broken": [],
+      "errors": [],
+      "http": []
+    }
+  },
+  {
+    "name": "load:390:operations.html#transport",
+    "pass": true,
+    "detail": {
+      "status": 200,
+      "title": "搬送與暫存｜第二部分 MES 教學",
+      "h1": "FOUP 到站，Lot 就完成過站了嗎？",
+      "overflow": 0,
+      "broken": [],
+      "errors": [],
+      "http": []
+    }
+  },
+  {
+    "name": "load:390:operations.html#state",
+    "pass": true,
+    "detail": {
+      "status": "same-document",
+      "title": "加工狀態與 Hold｜第二部分 MES 教學",
+      "h1": "設備可用，Lot 仍可能不能開工",
+      "overflow": 0,
+      "broken": [],
+      "errors": [],
+      "http": []
+    }
+  },
+  {
+    "name": "load:390:flow.html#branching",
+    "pass": true,
+    "detail": {
+      "status": 200,
+      "title": "條件分流與 Hold｜第三部分 MES 教學",
+      "h1": "Flow 可以有分支，但要有明確判斷依據",
+      "overflow": 0,
+      "broken": [],
+      "errors": [],
+      "http": []
+    }
+  },
+  {
+    "name": "load:390:flow.html#rework",
+    "pass": true,
+    "detail": {
+      "status": "same-document",
+      "title": "Rework：核准的返回路徑｜第三部分 MES 教學",
+      "h1": "重工不是把 Current Step 隨便往回改",
+      "overflow": 0,
+      "broken": [],
+      "errors": [],
+      "http": []
+    }
+  },
+  {
+    "name": "load:390:support.html#subroute",
+    "pass": true,
+    "detail": {
+      "status": 200,
+      "title": "Sub Route｜加量與返回｜MES 教學",
+      "h1": "Sub Route：出去加量，回原站接續",
+      "overflow": 0,
+      "broken": [],
+      "errors": [],
+      "http": []
+    }
+  },
+  {
+    "name": "load:390:support.html#monitor",
+    "pass": true,
+    "detail": {
+      "status": "same-document",
+      "title": "MON、PM 與 EMS｜MES 教學",
+      "h1": "Daily MON 逾期，會卡 EMS",
+      "overflow": 0,
+      "broken": [],
+      "errors": [],
+      "http": []
+    }
+  },
+  {
+    "name": "load:390:support.html#move",
+    "pass": true,
+    "detail": {
+      "status": "same-document",
+      "title": "Move｜Lot 過站事件｜MES 教學",
+      "h1": "Move：計的是 Lot 進機事件",
+      "overflow": 0,
+      "broken": [],
+      "errors": [],
+      "http": []
+    }
+  },
+  {
+    "name": "load:390:flow.html#execution",
+    "pass": true,
+    "detail": {
+      "status": 200,
+      "title": "過站與歷程｜第三部分 MES 教學",
+      "h1": "從 S40 到 S50，中間不是只改一個欄位",
+      "overflow": 0,
+      "broken": [],
+      "errors": [],
+      "http": []
+    }
+  },
+  {
+    "name": "load:390:flow.html#split-merge",
+    "pass": true,
+    "detail": {
+      "status": "same-document",
+      "title": "拆批與合批｜第三部分 MES 教學",
+      "h1": "只有 W08 需要處理，整批一定要一起走嗎？",
+      "overflow": 0,
+      "broken": [],
+      "errors": [],
+      "http": []
+    }
+  },
+  {
+    "name": "load:390:freshness.html#architecture",
+    "pass": true,
+    "detail": {
+      "status": 200,
+      "title": "同一個 Giga，不同的新鮮度｜資料新鮮度",
+      "h1": "同一個 Giga，也有不同的新鮮度。",
+      "overflow": 0,
+      "broken": [],
+      "errors": [],
+      "http": []
+    }
+  },
+  {
+    "name": "load:390:freshness.html#decision",
+    "pass": true,
+    "detail": {
+      "status": "same-document",
+      "title": "晚十分鐘，會做錯事嗎？｜資料新鮮度",
+      "h1": "晚十分鐘，會不會做錯事？",
+      "overflow": 0,
+      "broken": [],
+      "errors": [],
+      "http": []
+    }
+  },
+  {
+    "name": "load:390:freshness.html#ai",
+    "pass": true,
+    "detail": {
+      "status": "same-document",
+      "title": "案例一：AI 發現異常之後｜資料新鮮度",
+      "h1": "AI 發現異常，這批還在 DEV 嗎？",
+      "overflow": 0,
+      "broken": [],
+      "errors": [],
+      "http": []
+    }
+  },
+  {
+    "name": "load:390:freshness.html#history",
+    "pass": true,
+    "detail": {
+      "status": "same-document",
+      "title": "案例二：經過，不等於現在｜資料新鮮度",
+      "h1": "經過 DEV，不等於現在還在 DEV。",
+      "overflow": 0,
+      "broken": [],
+      "errors": [],
+      "http": []
+    }
+  },
+  {
+    "name": "load:390:freshness.html#join",
+    "pass": true,
+    "detail": {
+      "status": "same-document",
+      "title": "案例三：表剛刷新，欄位仍舊｜資料新鮮度",
+      "h1": "表剛刷新，Hold 也變新了嗎？",
+      "overflow": 0,
+      "broken": [],
+      "errors": [],
+      "http": []
+    }
+  },
+  {
+    "name": "load:390:freshness.html#contract",
+    "pass": true,
+    "detail": {
+      "status": "same-document",
+      "title": "把判斷寫進 Data Contract｜資料新鮮度",
+      "h1": "不只交付欄位，也交付來源與時間。",
+      "overflow": 0,
+      "broken": [],
+      "errors": [],
+      "http": []
+    }
+  },
+  {
+    "name": "load:390:er-atlas.html?view=questions",
+    "pass": true,
+    "detail": {
+      "status": 200,
+      "title": "Fab 整合 ER｜實體與關係",
+      "h1": "從同一個 Lot，沿著關係找資料",
+      "overflow": 0,
+      "broken": [],
+      "errors": [],
+      "http": []
+    }
+  },
+  {
+    "name": "load:390:tasks.html#group-report",
+    "pass": true,
+    "detail": {
+      "status": 200,
+      "title": "KER 報表代表哪個機群、哪個時點？｜MES 現場問題",
+      "h1": "現場問題練習",
+      "overflow": 0,
+      "broken": [],
+      "errors": [],
+      "http": []
+    }
+  },
+  {
+    "name": "load:390:tasks.html#not-running",
+    "pass": true,
+    "detail": {
+      "status": "same-document",
+      "title": "Lot 為什麼尚未進機？｜MES 現場問題",
+      "h1": "現場問題練習",
+      "overflow": 0,
+      "broken": [],
+      "errors": [],
+      "http": []
+    }
+  },
+  {
+    "name": "load:390:tasks.html#find-carrier",
+    "pass": true,
+    "detail": {
+      "status": "same-document",
+      "title": "FOUP 在那個時間到底在哪裡？｜MES 現場問題",
+      "h1": "現場問題練習",
+      "overflow": 0,
+      "broken": [],
+      "errors": [],
+      "http": []
+    }
+  },
+  {
+    "name": "load:390:tasks.html#lot-history",
+    "pass": true,
+    "detail": {
+      "status": "same-document",
+      "title": "Lot 做過什麼？哪些算 Move？｜MES 現場問題",
+      "h1": "現場問題練習",
+      "overflow": 0,
+      "broken": [],
+      "errors": [],
+      "http": []
+    }
+  },
+  {
+    "name": "load:390:tasks.html#product-hold",
+    "pass": true,
+    "detail": {
+      "status": "same-document",
+      "title": "為什麼同產品的 Lot 到站被攔住？｜MES 現場問題",
+      "h1": "現場問題練習",
+      "overflow": 0,
+      "broken": [],
+      "errors": [],
+      "http": []
+    }
+  },
+  {
+    "name": "load:390:learning.html?view=instructor",
+    "pass": true,
+    "detail": {
+      "status": 200,
+      "title": "MES 製造資料學習｜課程總覽",
+      "h1": "用同一批貨，教會可追溯的判斷。",
+      "overflow": 0,
+      "broken": [],
+      "errors": [],
+      "http": []
+    }
+  },
+  {
+    "name": "load:390:learning.html?view=reference",
+    "pass": true,
+    "detail": {
+      "status": 200,
+      "title": "課程總覽｜MES 製造資料學習",
+      "h1": "從工廠裡的一批貨，學會找到可信的資料答案。",
+      "overflow": 0,
+      "broken": [],
+      "errors": [],
+      "http": []
+    }
+  },
+  {
+    "name": "load:390:learning.html?route=field",
+    "pass": true,
+    "detail": {
+      "status": 200,
+      "title": "課程總覽｜MES 製造資料學習",
+      "h1": "從工廠裡的一批貨，學會找到可信的資料答案。",
+      "overflow": 0,
+      "broken": [],
+      "errors": [],
+      "http": []
+    }
+  },
+  {
+    "name": "load:390:learning.html?route=data",
+    "pass": true,
+    "detail": {
+      "status": 200,
+      "title": "課程總覽｜MES 製造資料學習",
+      "h1": "從工廠裡的一批貨，學會找到可信的資料答案。",
+      "overflow": 0,
+      "broken": [],
+      "errors": [],
+      "http": []
+    }
+  },
+  {
+    "name": "load:390:tasks.html#find-carrier",
+    "pass": true,
+    "detail": {
+      "status": 200,
+      "title": "FOUP 在那個時間到底在哪裡？｜MES 現場問題",
+      "h1": "現場問題練習",
+      "overflow": 0,
+      "broken": [],
+      "errors": [],
+      "http": []
+    }
+  },
+  {
+    "name": "load:390:tasks.html#group-report",
+    "pass": true,
+    "detail": {
+      "status": "same-document",
+      "title": "KER 報表代表哪個機群、哪個時點？｜MES 現場問題",
+      "h1": "現場問題練習",
+      "overflow": 0,
+      "broken": [],
+      "errors": [],
+      "http": []
+    }
+  },
+  {
+    "name": "load:390:tasks.html#lot-history",
+    "pass": true,
+    "detail": {
+      "status": "same-document",
+      "title": "Lot 做過什麼？哪些算 Move？｜MES 現場問題",
+      "h1": "現場問題練習",
+      "overflow": 0,
+      "broken": [],
+      "errors": [],
+      "http": []
+    }
+  },
+  {
+    "name": "load:390:tasks.html#not-running",
+    "pass": true,
+    "detail": {
+      "status": "same-document",
+      "title": "Lot 為什麼尚未進機？｜MES 現場問題",
+      "h1": "現場問題練習",
+      "overflow": 0,
+      "broken": [],
+      "errors": [],
+      "http": []
+    }
+  },
+  {
+    "name": "load:390:tasks.html#product-hold",
+    "pass": true,
+    "detail": {
+      "status": "same-document",
+      "title": "為什麼同產品的 Lot 到站被攔住？｜MES 現場問題",
+      "h1": "現場問題練習",
+      "overflow": 0,
+      "broken": [],
+      "errors": [],
+      "http": []
+    }
+  },
+  {
+    "name": "home-redirect:390",
+    "pass": true,
+    "detail": "http://127.0.0.1:4175/learning.html"
+  },
+  {
+    "name": "er-pointer:390:Lot",
+    "pass": true,
+    "detail": "lot"
+  },
+  {
+    "name": "er-pointer:390:FOUP",
+    "pass": true,
+    "detail": "carrier"
+  },
+  {
+    "name": "er-pointer:390:EQP",
+    "pass": true,
+    "detail": "equipment"
+  },
+  {
+    "name": "er-pointer:390:Flow",
+    "pass": true,
+    "detail": "flow"
+  },
+  {
+    "name": "er-pointer:390:Recipe",
+    "pass": true,
+    "detail": "recipe"
+  },
+  {
+    "name": "keyboard-focus:390",
+    "pass": true,
+    "detail": {
+      "tag": "A",
+      "text": "MES · 製造資料學習",
+      "href": "http://127.0.0.1:4175/learning.html"
+    }
+  },
+  {
+    "name": "keyboard-activation:390",
+    "pass": true,
+    "detail": "http://127.0.0.1:4175/learning.html"
+  }
+]

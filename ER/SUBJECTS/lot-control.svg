@@ -1,0 +1,63 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" width="729pt" height="340pt" viewBox="0.00 0.00 729.00 340.00" role="img" aria-label="以 Lot 看裝載、設備安排與流程 ER 主題圖">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(21.6 318.16)">
+<title>ER</title>
+<polygon fill="white" stroke="none" points="-21.6,21.6 -21.6,-318.16 707.26,-318.16 707.26,21.6 -21.6,21.6" />
+
+<g id="e_n_2673_future-link_t_604a111deb74" class="edge" data-edge="e_n_2673_future-link_t_604a111deb74">
+<title>n_2673_future-link--t_604a111deb74</title>
+<path fill="none" stroke="#70869a" stroke-width="1.8" d="M420.95,-229.78C438.05,-229.78 455.47,-229.78 472.2,-229.78" />
+</g>
+
+<g id="e_n_2673_hold-link_t_52a86ba40707" class="edge" data-edge="e_n_2673_hold-link_t_52a86ba40707">
+<title>n_2673_hold-link--t_52a86ba40707</title>
+<path fill="none" stroke="#70869a" stroke-width="1.8" d="M427.94,-66.78C447.59,-66.78 467.49,-66.78 486.09,-66.78" />
+</g>
+
+<g id="e_n_2673_future-link_t_cfc81de70314" class="edge" data-edge="e_n_2673_future-link_t_cfc81de70314">
+<title>t_cfc81de70314--n_2673_future-link</title>
+<path fill="none" stroke="#70869a" stroke-width="1.8" d="M120.21,-168.79C150.33,-179.32 187.11,-192.19 219.12,-203.38" />
+</g>
+
+<g id="e_n_2673_hold-link_t_cfc81de70314" class="edge" data-edge="e_n_2673_hold-link_t_cfc81de70314">
+<title>t_cfc81de70314--n_2673_hold-link</title>
+<path fill="none" stroke="#70869a" stroke-width="1.8" d="M120.21,-127.03C149.38,-116.95 184.8,-104.71 216.08,-93.9" />
+</g>
+
+<g id="n_2673_future-link" class="node" data-node="n_2673_future-link" role="button" tabindex="0" aria-label="Future Hold / Lot_ID">
+<title>n_2673_future-link</title>
+<polygon fill="#ffffff" stroke="#6a7d8e" stroke-width="2" points="295.58,-296.56 172.04,-229.78 295.58,-163 419.12,-229.78 295.58,-296.56" />
+<text xml:space="preserve" text-anchor="middle" x="295.58" y="-237.43" font-family="Microsoft JhengHei" font-size="18.00">Future Hold</text>
+<text xml:space="preserve" text-anchor="middle" x="295.58" y="-212.68" font-family="Microsoft JhengHei" font-size="18.00">Lot_ID</text>
+</g>
+
+<g id="n_2673_hold-link" class="node" data-node="n_2673_hold-link" role="button" tabindex="0" aria-label="有 Prod Hold / Lot_ID">
+<title>n_2673_hold-link</title>
+<polygon fill="#ffffff" stroke="#6a7d8e" stroke-width="2" points="295.58,-133.56 165.29,-66.78 295.58,0 425.87,-66.78 295.58,-133.56" />
+<text xml:space="preserve" text-anchor="middle" x="295.58" y="-74.43" font-family="Microsoft JhengHei" font-size="18.00">有 Prod Hold</text>
+<text xml:space="preserve" text-anchor="middle" x="295.58" y="-49.68" font-family="Microsoft JhengHei" font-size="18.00">Lot_ID</text>
+</g>
+
+<g id="t_52a86ba40707" class="node" data-node="t_52a86ba40707" role="button" tabindex="0" aria-label="Product Hold / Siview.CSFRPRHold">
+<title>t_52a86ba40707</title>
+<polygon fill="#f5f7fa" stroke="#61748b" stroke-width="2" points="671.78,-100.17 486.74,-100.17 486.74,-33.39 671.78,-33.39 671.78,-100.17" />
+<text xml:space="preserve" text-anchor="middle" x="579.26" y="-74.43" font-family="Microsoft JhengHei" font-size="18.00">Product Hold</text>
+<text xml:space="preserve" text-anchor="middle" x="579.26" y="-49.68" font-family="Microsoft JhengHei" font-size="18.00">Siview.CSFRPRHold</text>
+</g>
+
+<g id="t_604a111deb74" class="node" data-node="t_604a111deb74" role="button" tabindex="0" aria-label="未來的 Future Hold / Siview.frlot_futurehold">
+<title>t_604a111deb74</title>
+<polygon fill="#f5f7fa" stroke="#61748b" stroke-width="2" points="685.66,-263.17 472.87,-263.17 472.87,-196.39 685.66,-196.39 685.66,-263.17" />
+<text xml:space="preserve" text-anchor="middle" x="579.26" y="-237.43" font-family="Microsoft JhengHei" font-size="18.00">未來的 Future Hold</text>
+<text xml:space="preserve" text-anchor="middle" x="579.26" y="-212.68" font-family="Microsoft JhengHei" font-size="18.00">Siview.frlot_futurehold</text>
+</g>
+
+<g id="t_cfc81de70314" class="node" data-node="t_cfc81de70314" role="button" tabindex="0" aria-label="LOT / Siview.Frlot">
+<title>t_cfc81de70314</title>
+<polygon fill="#eef5ff" stroke="#176ac2" stroke-width="4" points="118.29,-193.55 0,-193.55 0,-102.02 118.29,-102.02 118.29,-193.55" />
+<text xml:space="preserve" text-anchor="middle" x="59.14" y="-167.81" font-family="Microsoft JhengHei" font-size="18.00">本圖主詞</text>
+<text xml:space="preserve" text-anchor="middle" x="59.14" y="-143.06" font-family="Microsoft JhengHei" font-size="18.00">LOT</text>
+<text xml:space="preserve" text-anchor="middle" x="59.14" y="-118.31" font-family="Microsoft JhengHei" font-size="18.00">Siview.Frlot</text>
+</g>
+</g>
+</svg>

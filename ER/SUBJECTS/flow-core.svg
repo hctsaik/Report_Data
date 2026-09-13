@@ -1,0 +1,88 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" width="990pt" height="502pt" viewBox="0.00 0.00 990.00 502.00" role="img" aria-label="以 Flow 看 Lot、Stage 與製程對應 ER 主題圖">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(21.6 480.16)">
+<title>ER</title>
+<polygon fill="white" stroke="none" points="-21.6,21.6 -21.6,-480.16 968.26,-480.16 968.26,21.6 -21.6,21.6" />
+
+<g id="e_n_2673_flow-link_t_cfc81de70314" class="edge" data-edge="e_n_2673_flow-link_t_cfc81de70314">
+<title>n_2673_flow-link--t_cfc81de70314</title>
+<path fill="none" stroke="#70869a" stroke-width="1.8" d="M571.73,-367.03C631.92,-367.03 703.59,-367.03 752.8,-367.03" />
+</g>
+
+<g id="e_n_2673_lr-eqp-link_t_e9c0addd1e0c" class="edge" data-edge="e_n_2673_lr-eqp-link_t_e9c0addd1e0c">
+<title>n_2673_lr-eqp-link--t_e9c0addd1e0c</title>
+<path fill="none" stroke="#70869a" stroke-width="1.8" d="M634.13,-180.03C648.73,-180.03 663.35,-180.03 677.57,-180.03" />
+</g>
+
+<g id="e_n_2673_stage-link_t_27f08dfbff23" class="edge" data-edge="e_n_2673_stage-link_t_27f08dfbff23">
+<title>n_2673_stage-link--t_27f08dfbff23</title>
+<path fill="none" stroke="#70869a" stroke-width="1.8" d="M571.73,-42.03C609.88,-42.03 652.64,-42.03 691.36,-42.03" />
+</g>
+
+<g id="e_n_2673_flow-link_t_d4d030ed08a4" class="edge" data-edge="e_n_2673_flow-link_t_d4d030ed08a4">
+<title>t_d4d030ed08a4--n_2673_flow-link</title>
+<path fill="none" stroke="#70869a" stroke-width="1.8" d="M206.1,-227.7C263.37,-259.46 337.54,-300.59 390.41,-329.92" />
+</g>
+
+<g id="e_n_2673_lr-eqp-link_t_d4d030ed08a4" class="edge" data-edge="e_n_2673_lr-eqp-link_t_d4d030ed08a4">
+<title>t_d4d030ed08a4--n_2673_lr-eqp-link</title>
+<path fill="none" stroke="#70869a" stroke-width="1.8" d="M239.97,-180.03C253.89,-180.03 268.28,-180.03 282.74,-180.03" />
+</g>
+
+<g id="e_n_2673_stage-link_t_d4d030ed08a4" class="edge" data-edge="e_n_2673_stage-link_t_d4d030ed08a4">
+<title>t_d4d030ed08a4--n_2673_stage-link</title>
+<path fill="none" stroke="#70869a" stroke-width="1.8" d="M217.17,-132.44C253.11,-114.81 285.29,-99.03 285.29,-99.03 285.29,-99.03 347.95,-78.27 397.64,-61.81" />
+</g>
+
+<g id="n_2673_flow-link" class="node" data-node="n_2673_flow-link" role="button" tabindex="0" aria-label="Flow 定義 / Part / Mainpd_id">
+<title>n_2673_flow-link</title>
+<polygon fill="#ffffff" stroke="#6a7d8e" stroke-width="2" points="458.33,-458.56 346.04,-367.03 458.33,-275.5 570.62,-367.03 458.33,-458.56" />
+<text xml:space="preserve" text-anchor="middle" x="458.33" y="-387.05" font-family="Microsoft JhengHei" font-size="18.00">Flow 定義</text>
+<text xml:space="preserve" text-anchor="middle" x="458.33" y="-362.3" font-family="Microsoft JhengHei" font-size="18.00">Part</text>
+<text xml:space="preserve" text-anchor="middle" x="458.33" y="-337.55" font-family="Microsoft JhengHei" font-size="18.00">Mainpd_id</text>
+</g>
+
+<g id="n_2673_lr-eqp-link" class="node" data-node="n_2673_lr-eqp-link" role="button" tabindex="0" aria-label="LR 與 EQP_ID 對應 / LCRECIPE_ID">
+<title>n_2673_lr-eqp-link</title>
+<polygon fill="#ffffff" stroke="#6a7d8e" stroke-width="2" points="458.33,-246.81 285.29,-180.03 458.33,-113.25 631.37,-180.03 458.33,-246.81" />
+<text xml:space="preserve" text-anchor="middle" x="458.33" y="-187.68" font-family="Microsoft JhengHei" font-size="18.00">LR 與 EQP_ID 對應</text>
+<text xml:space="preserve" text-anchor="middle" x="458.33" y="-162.93" font-family="Microsoft JhengHei" font-size="18.00">LCRECIPE_ID</text>
+</g>
+
+<g id="n_2673_stage-link" class="node" data-node="n_2673_stage-link" role="button" tabindex="0" aria-label="Stage 定義">
+<title>n_2673_stage-link</title>
+<polygon fill="#ffffff" stroke="#6a7d8e" stroke-width="2" points="458.33,-84.06 347.54,-42.03 458.33,0 569.12,-42.03 458.33,-84.06" />
+<text xml:space="preserve" text-anchor="middle" x="458.33" y="-37.3" font-family="Microsoft JhengHei" font-size="18.00">Stage 定義</text>
+</g>
+
+<g id="t_27f08dfbff23" class="node" data-node="t_27f08dfbff23" role="button" tabindex="0" aria-label="Stage 與 Module 定義 / F12dm.dm_tbl_info_stage">
+<title>t_27f08dfbff23</title>
+<polygon fill="#f7f1ff" stroke="#7756af" stroke-width="2" points="932.79,-75.42 692.25,-75.42 692.25,-8.64 932.79,-8.64 932.79,-75.42" />
+<text xml:space="preserve" text-anchor="middle" x="812.52" y="-49.68" font-family="Microsoft JhengHei" font-size="18.00">Stage 與 Module 定義</text>
+<text xml:space="preserve" text-anchor="middle" x="812.52" y="-24.93" font-family="Microsoft JhengHei" font-size="18.00">F12dm.dm_tbl_info_stage</text>
+</g>
+
+<g id="t_cfc81de70314" class="node" data-node="t_cfc81de70314" role="button" tabindex="0" aria-label="LOT / Siview.Frlot">
+<title>t_cfc81de70314</title>
+<polygon fill="#eef5ff" stroke="#176ac2" stroke-width="2" points="871.66,-400.42 753.37,-400.42 753.37,-333.64 871.66,-333.64 871.66,-400.42" />
+<text xml:space="preserve" text-anchor="middle" x="812.52" y="-374.68" font-family="Microsoft JhengHei" font-size="18.00">LOT</text>
+<text xml:space="preserve" text-anchor="middle" x="812.52" y="-349.93" font-family="Microsoft JhengHei" font-size="18.00">Siview.Frlot</text>
+</g>
+
+<g id="t_d4d030ed08a4" class="node" data-node="t_d4d030ed08a4" role="button" tabindex="0" aria-label="Flow / F12DM.DM_Flow_step_Bt">
+<title>t_d4d030ed08a4</title>
+<polygon fill="#f7f1ff" stroke="#7756af" stroke-width="4" points="238.29,-225.8 0,-225.8 0,-134.26 238.29,-134.26 238.29,-225.8" />
+<text xml:space="preserve" text-anchor="middle" x="119.14" y="-200.06" font-family="Microsoft JhengHei" font-size="18.00">本圖主詞</text>
+<text xml:space="preserve" text-anchor="middle" x="119.14" y="-175.31" font-family="Microsoft JhengHei" font-size="18.00">Flow</text>
+<text xml:space="preserve" text-anchor="middle" x="119.14" y="-150.56" font-family="Microsoft JhengHei" font-size="18.00">F12DM.DM_Flow_step_Bt</text>
+</g>
+
+<g id="t_e9c0addd1e0c" class="node" data-node="t_e9c0addd1e0c" role="button" tabindex="0" aria-label="LR 對映的機台 / F12DM.DM_Flow_LR_EQP_BT / LR 與機台對應關係">
+<title>t_e9c0addd1e0c</title>
+<polygon fill="#f7f1ff" stroke="#7756af" stroke-width="2" points="946.66,-225.8 678.37,-225.8 678.37,-134.26 946.66,-134.26 946.66,-225.8" />
+<text xml:space="preserve" text-anchor="middle" x="812.52" y="-200.06" font-family="Microsoft JhengHei" font-size="18.00">LR 對映的機台</text>
+<text xml:space="preserve" text-anchor="middle" x="812.52" y="-175.31" font-family="Microsoft JhengHei" font-size="18.00">F12DM.DM_Flow_LR_EQP_BT</text>
+<text xml:space="preserve" text-anchor="middle" x="812.52" y="-150.56" font-family="Microsoft JhengHei" font-size="18.00">LR 與機台對應關係</text>
+</g>
+</g>
+</svg>

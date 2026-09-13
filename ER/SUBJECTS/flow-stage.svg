@@ -1,0 +1,61 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" width="878pt" height="240pt" viewBox="0.00 0.00 878.00 240.00" role="img" aria-label="以 Flow 看 Lot、Stage 與製程對應 ER 主題圖">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(21.6 218.66)">
+<title>ER</title>
+<polygon fill="white" stroke="none" points="-21.6,21.6 -21.6,-218.66 856.51,-218.66 856.51,21.6 -21.6,21.6" />
+
+<g id="e_n_2673_srts-link_t_7aff1af02bfd" class="edge" data-edge="e_n_2673_srts-link_t_7aff1af02bfd">
+<title>n_2673_srts-link--t_7aff1af02bfd</title>
+<path fill="none" stroke="#70869a" stroke-width="1.8" d="M550.32,-155.03C582.78,-155.03 616.22,-155.03 644.33,-155.03" />
+</g>
+
+<g id="e_n_2673_stage-link_t_27f08dfbff23" class="edge" data-edge="e_n_2673_stage-link_t_27f08dfbff23">
+<title>n_2673_stage-link--t_27f08dfbff23</title>
+<path fill="none" stroke="#70869a" stroke-width="1.8" d="M529.77,-42.03C550.57,-42.03 572.36,-42.03 593.37,-42.03" />
+</g>
+
+<g id="e_n_2673_srts-link_t_d4d030ed08a4" class="edge" data-edge="e_n_2673_srts-link_t_d4d030ed08a4">
+<title>t_d4d030ed08a4--n_2673_srts-link</title>
+<path fill="none" stroke="#70869a" stroke-width="1.8" d="M240.21,-121.21C271.17,-127.19 303.82,-133.5 332.42,-139.02" />
+</g>
+
+<g id="e_n_2673_stage-link_t_d4d030ed08a4" class="edge" data-edge="e_n_2673_stage-link_t_d4d030ed08a4">
+<title>t_d4d030ed08a4--n_2673_stage-link</title>
+<path fill="none" stroke="#70869a" stroke-width="1.8" d="M240.21,-75.25C274.05,-68.83 309.89,-62.03 340.27,-56.27" />
+</g>
+
+<g id="n_2673_srts-link" class="node" data-node="n_2673_srts-link" role="button" tabindex="0" aria-label="抽測跳站設定">
+<title>n_2673_srts-link</title>
+<polygon fill="#ffffff" stroke="#6a7d8e" stroke-width="2" points="416.33,-197.06 285.29,-155.03 416.33,-113 547.37,-155.03 416.33,-197.06" />
+<text xml:space="preserve" text-anchor="middle" x="416.33" y="-150.31" font-family="Microsoft JhengHei" font-size="18.00">抽測跳站設定</text>
+</g>
+
+<g id="n_2673_stage-link" class="node" data-node="n_2673_stage-link" role="button" tabindex="0" aria-label="Stage 定義">
+<title>n_2673_stage-link</title>
+<polygon fill="#ffffff" stroke="#6a7d8e" stroke-width="2" points="416.33,-84.06 305.54,-42.03 416.33,0 527.12,-42.03 416.33,-84.06" />
+<text xml:space="preserve" text-anchor="middle" x="416.33" y="-37.3" font-family="Microsoft JhengHei" font-size="18.00">Stage 定義</text>
+</g>
+
+<g id="t_27f08dfbff23" class="node" data-node="t_27f08dfbff23" role="button" tabindex="0" aria-label="Stage 與 Module 定義 / F12dm.dm_tbl_info_stage">
+<title>t_27f08dfbff23</title>
+<polygon fill="#f7f1ff" stroke="#7756af" stroke-width="2" points="834.91,-75.42 594.37,-75.42 594.37,-8.64 834.91,-8.64 834.91,-75.42" />
+<text xml:space="preserve" text-anchor="middle" x="714.64" y="-49.68" font-family="Microsoft JhengHei" font-size="18.00">Stage 與 Module 定義</text>
+<text xml:space="preserve" text-anchor="middle" x="714.64" y="-24.93" font-family="Microsoft JhengHei" font-size="18.00">F12dm.dm_tbl_info_stage</text>
+</g>
+
+<g id="t_7aff1af02bfd" class="node" data-node="t_7aff1af02bfd" role="button" tabindex="0" aria-label="SRTS 設定 / Siview.csfrsrts">
+<title>t_7aff1af02bfd</title>
+<polygon fill="#f7f1ff" stroke="#7756af" stroke-width="2" points="784.28,-188.42 645,-188.42 645,-121.64 784.28,-121.64 784.28,-188.42" />
+<text xml:space="preserve" text-anchor="middle" x="714.64" y="-162.68" font-family="Microsoft JhengHei" font-size="18.00">SRTS 設定</text>
+<text xml:space="preserve" text-anchor="middle" x="714.64" y="-137.93" font-family="Microsoft JhengHei" font-size="18.00">Siview.csfrsrts</text>
+</g>
+
+<g id="t_d4d030ed08a4" class="node" data-node="t_d4d030ed08a4" role="button" tabindex="0" aria-label="Flow / F12DM.DM_Flow_step_Bt">
+<title>t_d4d030ed08a4</title>
+<polygon fill="#f7f1ff" stroke="#7756af" stroke-width="4" points="238.29,-143.8 0,-143.8 0,-52.27 238.29,-52.27 238.29,-143.8" />
+<text xml:space="preserve" text-anchor="middle" x="119.14" y="-118.06" font-family="Microsoft JhengHei" font-size="18.00">本圖主詞</text>
+<text xml:space="preserve" text-anchor="middle" x="119.14" y="-93.31" font-family="Microsoft JhengHei" font-size="18.00">Flow</text>
+<text xml:space="preserve" text-anchor="middle" x="119.14" y="-68.56" font-family="Microsoft JhengHei" font-size="18.00">F12DM.DM_Flow_step_Bt</text>
+</g>
+</g>
+</svg>

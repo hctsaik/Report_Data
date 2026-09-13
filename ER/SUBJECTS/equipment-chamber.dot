@@ -1,0 +1,14 @@
+graph ER {
+graph [rankdir=LR, nodesep=.4, ranksep=.65, splines=polyline, outputorder=edgesfirst, pad=.3, bgcolor="white"];
+node [fontname="Microsoft JhengHei",fontsize=18,margin=".16,.12"];
+edge [color="#70869a",penwidth=1.8];
+"n_2674_chamber" [id="n_2674_chamber",label="Chamber 狀況\nSiview.csfrprcrsc\nSIVIEW.FHCSCHS",shape=box,color="#b26018",fillcolor="#fff6eb",style=filled,penwidth=2];
+"n_2674_chamber-link" [id="n_2674_chamber-link",label="有 Chamber\neqp_id",shape=diamond,color="#6a7d8e",fillcolor="#ffffff",style=filled,penwidth=2];
+"n_2674_detail-link" [id="n_2674_detail-link",label="細部狀況\neqp_id\nprocrsc_id",shape=diamond,color="#6a7d8e",fillcolor="#ffffff",style=filled,penwidth=2];
+"t_215407951b90" [id="t_215407951b90",label="Chamber 細部\nSiview.frprcrsc",shape=box,color="#b26018",fillcolor="#fff6eb",style=filled,penwidth=2];
+"t_7f282520afb8" [id="t_7f282520afb8",label="本圖主詞\n機台\nSiview.freqp\nEQP",shape=box,color="#b26018",fillcolor="#fff6eb",style=filled,penwidth=4];
+"t_7f282520afb8" -- "n_2674_chamber-link" [id="e_n_2674_chamber-link_t_7f282520afb8"];
+"n_2674_chamber-link" -- "n_2674_chamber" [id="e_n_2674_chamber_n_2674_chamber-link"];
+"n_2674_chamber" -- "n_2674_detail-link" [id="e_n_2674_chamber_n_2674_detail-link"];
+"n_2674_detail-link" -- "t_215407951b90" [id="e_n_2674_detail-link_t_215407951b90"];
+}

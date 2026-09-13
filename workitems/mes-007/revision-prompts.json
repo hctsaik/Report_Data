@@ -1,0 +1,59 @@
+{
+  "mobile_initial": "Create a brand-new mobile portrait teaching poster (1024x1536) by REDESIGNING the attached landscape teaching illustration into THREE full-width vertically stacked story regions (four for execution). Preserve the depicted facts, identities, exact current positions, all process meanings, sequence and constraints from the reference. Keep premium photorealistic semiconductor equipment / FOUP and actual records as visual core, white background, navy text, blue connectors, pale yellow takeaway. This will be displayed only 300 CSS pixels wide: use HUGE essential labels (60–80px), omit microtext, tiny tables, redundant paragraphs and long captions. Main title no more than 16 Chinese characters, footer short. Whole concrete objects remain recognizable. No horizontal panel split. All causal arrows BETWEEN regions must be vertical downward AND fully contained, never run across an edge. For alternative comparison use clear region captions, not false chronology. Do not invent parameters, stage names, extra identities or successful results. Simplify dense tables to only 2 or 3 giant relevant facts. No paragraphs explaining '重點說明'. Add small provenance AI教學示意. CRITICAL physical invariants: horizontal wafers in FOUP; repeated object across time is same object, not duplicate; Lot L023 W06/W07/W08 in F012, Lot L024 W21/W22 in F020. Canonical F-DEMO v1 steps S10清洗 S20成膜 S30微影 S40蝕刻 S50量測 S60結案; S45 ONLY version v2. For LOT-FLOW show one common master route atop (six IDs can be in two rows connected as a serpentine unambiguously), then F012/L023 current S40 and F020/L024 current S10, no duplicated tiny routes in traveler cards. For rework keep Visit1 Fail historical and Visit2待判, no asserted improvement. For split-merge exactly 3 wafers becomes active 2+1 with parent historical, labels S50 and R10 block merge. For recipe v2 is only candidate pending qualification, not approval. For state E02 still active blocks MES start after Q01 cleared, not a physical interlock.",
+  "mobile_clean": "Re-layout ONLY the attached semiconductor teaching illustration into a clean portrait 1024x1536 poster for mobile. Preserve its EXACT subject, technical meaning, identities and current values. Do NOT add any other lessons or examples. Exactly three vertically stacked full-width story regions (four if reference has four). Photorealistic equipment and records, same restrained white, pale blue, navy, yellow takeaway style. Objects and essential labels LARGE, 60px+; omit redundant tiny tables or paragraphs. All connecting arrows between regions go vertically down, fully contained; alternatives must not become causal events. One short footer takeaway copied from source. F012 is a FOUP ID, ETCH03 is equipment. An illustration of a snapshot does NOT imply actual control approval or completed processing. No fake success. Output only image, marked AI教學示意.",
+  "mobile_corrections": [
+    [
+      "handoff",
+      1,
+      "The first region label must be FOUP F012, NEVER 機台 F012. Physical Done and W06/W07/W08 returned. Second result W08待收 while W06 W07 Pass. Third MES Current S40 STILL WAITING for W08. Conditional arrow labelled 補齊結果→完成交易→S50 only. Footer MUST say 機台完成、資料齊全、過站成功是三件事, without green success mark. Do not suggest current MES success."
+    ],
+    [
+      "stage",
+      2,
+      "ONLY explain Stage vs Step grouping. Exactly 3 stacked groups, each has two stations plus corresponding wafer change crosssection: 準備 = S10清洗 → S20成膜; 圖形 = S30微影 → S40蝕刻; 確認 = S50量測 → S60結案. S10 starts bare silicon, S20film, S30patterned resist, S40etchedfilm. S50等待 noactivebeam, S60notdone. Header F-DEMO v1. No Lot comparison, rework, split, hold or recipe stories."
+    ],
+    [
+      "execution",
+      2,
+      "EXACTLY FOUR numbered panels, all required: 1 S40等待 with physical F012/ETCH03/LP1, 2 S40加工中 wafer inside chamber, 3 S40待交接 equipmentcompleted but MES still S40, 4 交易成功 makes S50等待. DO NOT combine panel3 with4. Four equal rows. Large state labels in each."
+    ],
+    [
+      "lot-flow",
+      3,
+      "Master F-DEMO v1 is SHARED definition, then TWO PARALLEL LOT snapshots. No arrow L023→L024, they NEVER become each other. Use common left bracket from master to BOTH traveler sections OR no connectors and label 共同引用 under master. Six master StepIDs only, no tiny stationnames needed. Underneath F012 with traveler Lot L023, Current S40; then F020 with traveler Lot L024, Current S10. Each traveler only HUGE LotID and CurrentStep, no mini six-step routes. There are no arrows between lower two panels."
+    ],
+    [
+      "step",
+      1,
+      "Top physical CLEAN machine and wafer operation. Second row clear record Lot L023 / S10 / Visit1 / Pass. Third row record SAME Lot L023 / R10 / Visit1 / 待收. Very large Pass vs 待收 to distinguish prior completion vs missing new evidence; do not omit results. Do not imply R10 Visit2; each node firstvisit. Footer 作業可以重用，完成證據不能借用."
+    ]
+  ],
+  "handoff_final": "Edit this exact portrait poster with ONLY TWO localized text corrections, preserve every object and all physical wafers exactly as shown. 1) Top right blue information box currently says 機台 F012. Replace ONLY 機台 with FOUP, because F012 is a carrier, not machine. 2) Bottom yellow footer: remove the green/blue check mark icon and use this exact takeaway text「機台完成、資料齊全、過站成功是三件事」. The MES is still waiting, so no success icon. Preserve all other text, identities, W08 waiting result, S40 current, the three physical horizontal stacked wafers W06 W07 W08 in one vertical stack, and layout. Do NOT redraw the physical equipment or carrier.",
+  "lot_flow_final": "Edit exactly this portrait illustration, preserving every object, identity, position, physical FOUP, CurrentStep, route ID and footer unchanged. ONLY fix the blue connectors below the master route: DELETE BOTH blue downward arrows and the short blue horizontal connecting strokes; replace the existing words 共同引用 with the centered navy label「以下兩批，共用此路線」. No arrows connecting the master to just the first lot, no arrows between Lot L023 and L024. Both lots are parallel independent instances of the same master. Preserve EVERYTHING ELSE, especially L023=S40, L024=S10, F012 and F020.",
+  "desktop_corrections": [
+    [
+      "port",
+      "Remove the phrase「主機配方／站台預期」from expected panel header; replace with「批次預期成員」. Expected wafer identity comes from expected Lot membership, not machine recipe. Preserve W07 vs W99 and 3=3, all objects and geometry."
+    ],
+    [
+      "lot-flow",
+      "CRITICAL correct EVERY step-name mapping on master route AND both traveler miniature routes: S10 清洗, S20 成膜, S30 微影, S40 蝕刻, S50 量測, S60 結案. Current highlights remain L023 S40 and L024 S10. Remove all incorrect 氧化/光阻塗佈/曝光/顯影/金屬化. Change master smallnote 所有批次共用 to「本例兩批共用」. No other layout change."
+    ],
+    [
+      "execution",
+      "Correct all bottom captions「機台：LP1」to「機台：ETCH03」; LP1 is a port, never machine. In first machine render retain label LP1 on port, add ETCH03 on machinebody. In third region FOUP wafers must all be horizontal in slots, remove implausible tiltedwafer sticking out. Preserve four step states S40等待/S40加工中/S40待交接/S50等待 and successfultransaction."
+    ],
+    [
+      "state",
+      "Remove physical closed gate illustration from bottomright and wording 製程進站閘門. Replace thatarea with simple MES response screen「Lot L023」「E02 仍有效」「開工請求不通過」. This is software restriction, not claim of mechanicalgate. Keep Q01解除 and E02hold separate, ETCH03 ready."
+    ],
+    [
+      "branching",
+      "Replace center region entirely with a large clean digital inspection result screen containing only three example records「有效值 100 nm：在 98–102 nm 內」「有效值 105 nm：超出上限」「缺值：不能判定」. DELETE inaccurate ruler and two fake SEM feature comparisons. Keep left measured feature local zoom labelled「特徵位置示意」instead of 100nm, no fake SEM texture: clean schematic crosssection enlarged from actualfeature. Keep rightthree alternative routes and footer. Show missing result as empty data cell. Allnumbers hypothetical. No ruler tickmarks."
+    ],
+    [
+      "rework",
+      "Remove bottom large loop arrow from right finalsecondinspection returning back to firstinspection; it wrongly implies automatic repeat. Replace bottomline with only「R10 完成 → 返回 S50，建立 Visit 2；最多重工 1 次」. Add clear bluearrow from middle R10 region to rightsecondinspection. Keep firstFailrecord retained. Remove colored result map from right inspection monitor and show neutralgray wafer map with「結果待判」, not apparently improved result. Preserve originalFailrecord."
+    ]
+  ]
+}

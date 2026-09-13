@@ -1,0 +1,23 @@
+{
+  "table": "LOT_PROCESS_SUMMARY",
+  "example": true,
+  "source": "SiView Native + Hold Mart",
+  "refresh": "約10分鐘；依實際契約與來源時間",
+  "recommended_usage": "Historical analytics; not a current-control snapshot",
+  "columns": {
+    "current_step": {
+      "example_value": "ETCH",
+      "source": "SiView Native",
+      "source_data_time": "10:00"
+    },
+    "hold": {
+      "example_value": "N",
+      "source": "Hold Mart",
+      "source_data_time": "09:51"
+    }
+  },
+  "loaded_at": "10:01",
+  "queried_at": "10:01",
+  "completeness": "填寫完整涵蓋截止、成功批次、晚到資料處理",
+  "auto_control": "No; use approved TX/control transaction and revalidate at execution"
+}

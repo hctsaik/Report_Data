@@ -1,0 +1,15 @@
+from pathlib import Path
+root=Path(__file__).resolve().parents[2]
+p=root/'data-map.js';s=p.read_text(encoding='utf-8')
+s=s.replace('function focusMap(all=false){','function focusMap(all=false,nodeId=null){')
+s=s.replace("ids=active.cases[caseIndex].nodes;","ids=nodeId?[nodeId]:active.cases[caseIndex].nodes;")
+s=s.replace("svg.setAttribute('viewBox',box.join(' '));","svg.setAttribute('width','100%');svg.setAttribute('height','100%');svg.setAttribute('viewBox',box.join(' '));")
+s=s.replace("$('map-caption').textContent=all?","$('map-caption').textContent=nodeId?'逐點讀圖：'+svgDoc.getElementById(nodeId).querySelector('text').textContent+'。這是局部節點；點「聚焦這個問題」查看整段關係。':all?")
+s=s.replace("function renderCase(){","function nodeButtons(){if(!svgDoc)return;const c=active.cases[caseIndex];$('node-buttons').innerHTML=c.nodes.map(id=>{const n=svgDoc.getElementById(id);return n?`<button data-node=\"${id}\">${esc(n.querySelector('text').textContent)}</button>`:''}).join('');document.querySelectorAll('[data-node]').forEach(b=>b.onclick=()=>focusMap(false,b.dataset.node));}\nfunction renderCase(){")
+s=s.replace('focusMap();}\nfunction render()',"nodeButtons();focusMap(false,innerWidth<800?c.nodes[0]:null);}\nfunction render()")
+s=s.replace('<div class="map-scroll"><object','<div class="node-row"><strong>逐點讀圖</strong><div id="node-buttons"></div></div><div class="map-scroll"><object')
+s=s.replace(".split(/\\s+/).map(Number);focusMap();}",".split(/\\s+/).map(Number);nodeButtons();focusMap(false,innerWidth<800?active.cases[caseIndex].nodes[0]:null);}")
+for a,b in {'业务':'業務','它们':'它們','装載':'裝載','层级':'層級','對齐':'對齊','分别':'分別','另一个':'另一個','实际':'實際'}.items():s=s.replace(a,b)
+p.write_text(s,encoding='utf-8')
+p=root/'data-map.css';p.write_text(p.read_text(encoding='utf-8')+'\n.node-row{padding:12px 22px;border-top:1px solid #e1eaf2}.node-row>strong{font-size:14px;color:#536e89}.node-row>div{display:flex;flex-wrap:wrap;gap:8px;margin-top:8px}.node-row button{font-size:14px;background:white;border:1px solid #c9d9e8;border-radius:5px;padding:6px 10px;color:#175a91}\n',encoding='utf-8')
+print('Responsive SVG viewport and per-node reading controls added.')

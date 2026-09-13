@@ -1,0 +1,406 @@
+{
+  "version": "MES-008",
+  "rubric": "v1.0",
+  "user_acceptance": "pending",
+  "learner_study": "none",
+  "images": [
+    {
+      "id": "architecture/desktop-v3",
+      "asset": "assets/freshness-v2/architecture-desktop-v3.png",
+      "scores": [
+        23,
+        23,
+        19,
+        18,
+        9
+      ],
+      "total": 92,
+      "completion": [
+        8,
+        9,
+        9,
+        8,
+        9
+      ],
+      "evidence": "MMDB工作記錄→Reporting分流→同一Giga兩快照；Native直接承接、Mart多來源整理的工作差異可追蹤。",
+      "deduction": "圖面仍有較多角色；Inline/TX刻意用帶起點的短標籤，細節留在對應架構節，而非塞進額外設備圖。",
+      "screenshot": "tests/evidence/mes-008/architecture-1440-art.png",
+      "author_status": "reviewed",
+      "user_acceptance": "pending"
+    },
+    {
+      "id": "architecture/mobile-v3",
+      "asset": "assets/freshness-v2/architecture-mobile-v3.png",
+      "scores": [
+        23,
+        23,
+        19,
+        18,
+        9
+      ],
+      "total": 92,
+      "completion": [
+        8,
+        9,
+        9,
+        9,
+        9
+      ],
+      "evidence": "刪除三張重複欄位表，來源名稱占滿一行；單張與多張來源紙張、整理齒輪、兩種輸出時間形成比較。",
+      "deduction": "Reporting到兩種來源使用共同上層分區；沒有逐欄處理細節，讀者需要依來源名稱追蹤而非一條連到底的線。",
+      "screenshot": "tests/evidence/mes-008/architecture-360-art.png",
+      "author_status": "reviewed",
+      "user_acceptance": "pending"
+    },
+    {
+      "id": "decision/desktop-v2",
+      "asset": "assets/freshness-v2/decision-desktop-v2.png",
+      "scores": [
+        24,
+        23,
+        19,
+        18,
+        9
+      ],
+      "total": 93,
+      "completion": [
+        9,
+        9,
+        9,
+        8,
+        9
+      ],
+      "evidence": "昨日事件彙總為產量、ETCH快照與一分鐘差、Auto Hold交易重驗，三種工作責任可並排比較。",
+      "deduction": "左側示意事件時間和中央年齡尺字較小；不屬判斷三路選擇的必要明細，但減少了閱讀餘裕。",
+      "screenshot": "tests/evidence/mes-008/decision-1440-art.png",
+      "author_status": "reviewed",
+      "user_acceptance": "pending"
+    },
+    {
+      "id": "decision/mobile-v2",
+      "asset": "assets/freshness-v2/decision-mobile-v2.png",
+      "scores": [
+        24,
+        23,
+        19,
+        19,
+        9
+      ],
+      "total": 94,
+      "completion": [
+        9,
+        9,
+        9,
+        9,
+        9
+      ],
+      "evidence": "三種來源名改全寬，實際326px畫面可直接讀RT2／RT1／RT0；取代之前擠在右側的名稱。",
+      "deduction": "控制的再次驗證用交易循環表示；不展示特定MES交易實作，亦不宣稱已執行控制。",
+      "screenshot": "tests/evidence/mes-008/decision-360-art.png",
+      "author_status": "reviewed",
+      "user_acceptance": "pending"
+    },
+    {
+      "id": "ai/desktop-v2",
+      "asset": "assets/freshness-v2/ai-desktop-v2.png",
+      "scores": [
+        24,
+        23,
+        19,
+        18,
+        9
+      ],
+      "total": 93,
+      "completion": [
+        9,
+        9,
+        9,
+        8,
+        9
+      ],
+      "evidence": "同A123工作單與ETCH實景；Native ETCH@10:00、Mart DEV@09:51及相同0–10年齡尺直接對照。",
+      "deduction": "沿用已檢查原型93分；左側時間線較小。本圖講快照差異，完整取數路徑不在其責任中。",
+      "screenshot": "tests/evidence/mes-008/ai-1440-art.png",
+      "author_status": "reviewed",
+      "user_acceptance": "pending"
+    },
+    {
+      "id": "ai/mobile-v2",
+      "asset": "assets/freshness-v2/ai-mobile-v2.png",
+      "scores": [
+        24,
+        24,
+        19,
+        19,
+        9
+      ],
+      "total": 95,
+      "completion": [
+        9,
+        9,
+        9,
+        9,
+        9
+      ],
+      "evidence": "兩快照各全寬；來源、Step、時間與1/10分鐘差均直接讀，工作單與實體載具分開。",
+      "deduction": "保留照片使圖较高；是帶假設時間的對照，不證明真實AI檢出效果。",
+      "screenshot": "tests/evidence/mes-008/ai-360-art.png",
+      "author_status": "reviewed",
+      "user_acceptance": "pending"
+    },
+    {
+      "id": "history/desktop-v3",
+      "asset": "assets/freshness-v2/history-desktop-v3.png",
+      "scores": [
+        24,
+        23,
+        19,
+        17,
+        9
+      ],
+      "total": 92,
+      "completion": [
+        8,
+        9,
+        9,
+        8,
+        9
+      ],
+      "evidence": "昨日事件圈選、Lot路徑、今日TX快照，加上14:00截止外的14:20事件；事件保留與位置前進均可見。",
+      "deduction": "一張圖同時含歷史／現在與收齊條件，閱讀路徑比其他圖多一步；事件簿的小欄標不是必要主要線索。",
+      "screenshot": "tests/evidence/mes-008/history-1440-art.png",
+      "author_status": "reviewed",
+      "user_acceptance": "pending"
+    },
+    {
+      "id": "history/mobile-v1",
+      "asset": "assets/freshness-v2/history-mobile-v1.png",
+      "scores": [
+        24,
+        23,
+        19,
+        18,
+        9
+      ],
+      "total": 93,
+      "completion": [
+        8,
+        9,
+        9,
+        9,
+        9
+      ],
+      "evidence": "事件→前後位置→當下TX直向閱讀，昨日／今日明示；涵蓋藍帶外有14:20紅點，無資料不能判未發生。",
+      "deduction": "旅程以DEV與ETCH的前後載具場景表示；屬同批旅程示意，不是同一瞬間兩處有同一載具的實測。",
+      "screenshot": "tests/evidence/mes-008/history-360-art.png",
+      "author_status": "reviewed",
+      "user_acceptance": "pending"
+    },
+    {
+      "id": "join/desktop-v2",
+      "asset": "assets/freshness-v2/join-desktop-v2.png",
+      "scores": [
+        24,
+        24,
+        19,
+        19,
+        9
+      ],
+      "total": 95,
+      "completion": [
+        9,
+        9,
+        9,
+        9,
+        9
+      ],
+      "evidence": "兩條來源線分別連到Step/Hold；重新載入章10:00→10:01，右圖09:51不變且被圈選，核心變與不變可直接看。",
+      "deduction": "載入章與紙張為示意表達；不代表實際資料庫畫面或某個固定Mart實作。",
+      "screenshot": "tests/evidence/mes-008/join-1440-art.png",
+      "author_status": "reviewed",
+      "user_acceptance": "pending"
+    },
+    {
+      "id": "join/mobile-v1",
+      "asset": "assets/freshness-v2/join-mobile-v1.png",
+      "scores": [
+        24,
+        24,
+        19,
+        18,
+        9
+      ],
+      "total": 94,
+      "completion": [
+        9,
+        9,
+        9,
+        8,
+        9
+      ],
+      "evidence": "兩筆來源到同列映射保持藍／橘；上下兩份記錄比較載入章與不變的Hold來源時間。",
+      "deduction": "來源短標籤比數值小，能直接辨識主要數值；圖較長，需要往下看到刷新後記錄。",
+      "screenshot": "tests/evidence/mes-008/join-360-art.png",
+      "author_status": "reviewed",
+      "user_acceptance": "pending"
+    },
+    {
+      "id": "contract/desktop-v1",
+      "asset": "assets/freshness-v2/contract-desktop-v1.png",
+      "scores": [
+        23,
+        23,
+        19,
+        18,
+        9
+      ],
+      "total": 92,
+      "completion": [
+        8,
+        9,
+        9,
+        8,
+        9
+      ],
+      "evidence": "圈出來源未知Hold，藍橘線追到契約的Step/Hold時間，再分到分析與控制交易的接手文件。",
+      "deduction": "較多文字是契約本身的內容，閱讀節奏比現場照片圖慢；以逐欄放大與交接文件維持可見關係。",
+      "screenshot": "tests/evidence/mes-008/contract-1440-art.png",
+      "author_status": "reviewed",
+      "user_acceptance": "pending"
+    },
+    {
+      "id": "contract/mobile-v1",
+      "asset": "assets/freshness-v2/contract-mobile-v1.png",
+      "scores": [
+        23,
+        23,
+        19,
+        18,
+        9
+      ],
+      "total": 92,
+      "completion": [
+        8,
+        9,
+        9,
+        9,
+        9
+      ],
+      "evidence": "查詢記錄→契約四行→依用途接手，Step10:00/Hold09:51/loaded_at10:01可在326px圖寬辨讀。",
+      "deduction": "下方分析／控制並排區的文字較小，主要處置仍可讀；不把完整契約欄位全塞進主圖。",
+      "screenshot": "tests/evidence/mes-008/contract-360-art.png",
+      "author_status": "reviewed",
+      "user_acceptance": "pending"
+    }
+  ],
+  "pages": [
+    {
+      "id": "architecture",
+      "scores": [
+        19,
+        19,
+        19,
+        18,
+        9,
+        9
+      ],
+      "total": 93,
+      "evidence": "圖中的同入口差異→三條互動來源路徑→另一張CURRENT_STEP表的來源查核題。",
+      "deduction": "取數契約仍是概念與示例，未連接實廠資料目錄；來源選擇不等於實際權限測試。",
+      "desktop": "tests/evidence/mes-008/architecture-1440.png",
+      "mobile": "tests/evidence/mes-008/architecture-360.png",
+      "author_status": "reviewed",
+      "user_acceptance": "pending"
+    },
+    {
+      "id": "decision",
+      "scores": [
+        19,
+        19,
+        19,
+        19,
+        9,
+        9
+      ],
+      "total": 94,
+      "evidence": "三種工作物件與用途切換對應RT2/RT1/RT0；自測改成本次Native落後5分鐘，不能信分類標籤。",
+      "deduction": "分析的衍生邏輯用報表示意，沒有重新演算完整產量／Yield指標。",
+      "desktop": "tests/evidence/mes-008/decision-1440.png",
+      "mobile": "tests/evidence/mes-008/decision-360.png",
+      "author_status": "reviewed",
+      "user_acceptance": "pending"
+    },
+    {
+      "id": "ai",
+      "scores": [
+        20,
+        19,
+        19,
+        19,
+        9,
+        9
+      ],
+      "total": 95,
+      "evidence": "同一A123與10:01，來源切換確實改Step、time、age與控制回饋；兩秒後執行的題目檢查快照限制。",
+      "deduction": "是假設資料；沒有真實AI影像、MES交易或學員理解實測。",
+      "desktop": "tests/evidence/mes-008/ai-1440.png",
+      "mobile": "tests/evidence/mes-008/ai-360.png",
+      "author_status": "reviewed",
+      "user_acceptance": "pending"
+    },
+    {
+      "id": "history",
+      "scores": [
+        19,
+        19,
+        19,
+        18,
+        9,
+        9
+      ],
+      "total": 93,
+      "evidence": "已收齊/14:00截止改變可回答內容，不能把查無當未發生；B204的15:02新情境檢查遷移理解。",
+      "deduction": "事件簿案例只演示一筆；實際晚到資料、統計口徑須回到各表契約。",
+      "desktop": "tests/evidence/mes-008/history-1440.png",
+      "mobile": "tests/evidence/mes-008/history-360.png",
+      "author_status": "reviewed",
+      "user_acceptance": "pending"
+    },
+    {
+      "id": "join",
+      "scores": [
+        20,
+        19,
+        19,
+        19,
+        9,
+        9
+      ],
+      "total": 95,
+      "evidence": "刷新實際只改loaded_at，Step/Hold來源時間保持；三時間參考和現在可否開工自測連接工作用途。",
+      "deduction": "示意兩欄合併；跨更多上游的快照一致性未擴展成實作教學。",
+      "desktop": "tests/evidence/mes-008/join-1440.png",
+      "mobile": "tests/evidence/mes-008/join-360.png",
+      "author_status": "reviewed",
+      "user_acceptance": "pending"
+    },
+    {
+      "id": "contract",
+      "scores": [
+        19,
+        19,
+        19,
+        18,
+        9,
+        9
+      ],
+      "total": 93,
+      "evidence": "逐欄檢視與下載JSON交付可用的範例；WAFER_HISTORY收齊條件自測、表目錄與四句話可查。",
+      "deduction": "下載契約是教學起稿，完整涵蓋截止與晚到策略仍留給真實系統填寫。",
+      "desktop": "tests/evidence/mes-008/contract-1440.png",
+      "mobile": "tests/evidence/mes-008/contract-360.png",
+      "author_status": "reviewed",
+      "user_acceptance": "pending"
+    }
+  ]
+}

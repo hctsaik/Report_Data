@@ -1,0 +1,2350 @@
+{
+  "round": "MES-004",
+  "date": "2026-09-12",
+  "rubric": "v1.0-fab-mapping-MES004",
+  "mapping": "workitems/mes-004/PLAN.md",
+  "status": "self_review_passed",
+  "reviewer": "Codex implementation owner; not independent or human review",
+  "user_acceptance": "pending",
+  "human_learning_evidence": "none",
+  "scope_note": "15 URLs. Scene scores cover the declared logical interactive diagram including its captured frames, not only the initial static screenshot. Lab review includes all 16 cases; 66 states have rendering/data checks, representative and key states were visually inspected. No claim of 132 independently scored image assets.",
+  "unreviewed": [
+    "第一部分，本輪未更動",
+    "tool/transport/flow 三個未列入本轮的既有插畫頁",
+    "真實 Fab 規則與真人學習效果"
+  ],
+  "pages": [
+    {
+      "360": {
+        "page": {
+          "scores": [
+            19,
+            19,
+            19,
+            18,
+            9,
+            9
+          ],
+          "evidence": [
+            "F012 的 Slot 07 左側 W07、右側 W99，另外兩槽相符，片數同為三片。",
+            "逐槽成對與橘色差異列，把總數一致與身分一致分成兩個條件。",
+            "黃色結論要求保留預期，重讀或核對 Slot 07 後再判定放行。",
+            "正文比較重讀与實物追查：讀取不穩先重讀、實物不同追查移片，說明時間與錯放代價。",
+            "桌面一列一配對，手機仍保留同槽兩欄，ID 不靠放大才可讀。 本次以 360px 頁面與原生主圖審查，完整頁面另核對章節與自測。",
+            "新題改成有片但 ID 未讀到，解答區分缺讀值與錯片，並要求保存原始證據。"
+          ],
+          "strengths": "正文比較重讀与實物追查：讀取不穩先重讀、實物不同追查移片，說明時間與錯放代價。",
+          "deductions": "身分圖為抽象槽位對照，沒有示範真實讀取器的操作；文字提示仍是判讀的重要部分。 未取得真人理解與公司實際規則驗證，不當作學習成效證明。",
+          "vetoes": [],
+          "open_defects": [],
+          "reviewed_hash": "5d5f59707effcd65c246754983718bdf9e82eb0c74535cde8888bc0530afc478",
+          "screenshot": "tests/evidence/mes-004/operations-port-360-page.png"
+        },
+        "scene": {
+          "scores": [
+            24,
+            24,
+            19,
+            18,
+            9
+          ],
+          "evidence": [
+            "F012 的 Slot 07 左側 W07、右側 W99，另外兩槽相符，片數同為三片。",
+            "逐槽成對與橘色差異列，把總數一致與身分一致分成兩個條件。",
+            "黃色結論要求保留預期，重讀或核對 Slot 07 後再判定放行。",
+            "桌面一列一配對，手機仍保留同槽兩欄，ID 不靠放大才可讀。 本次以 360px 頁面與原生主圖審查，完整頁面另核對章節與自測。",
+            "W06、W08 使用相符色，W99 風險色；未把讀值當成預期成員。"
+          ],
+          "strengths": "成對欄位與單一橘色焦點，避免兩份資料分散閱讀。",
+          "deductions": "身分圖為抽象槽位對照，沒有示範真實讀取器的操作；文字提示仍是判讀的重要部分。",
+          "vetoes": [],
+          "open_defects": [],
+          "reviewed_hash": "5669e817a96cc30288ccb3ccdb5a4304e4168ae80df55fa666963b61ec482b0b",
+          "screenshot": "tests/evidence/mes-004/operations-port-360-scene.png",
+          "completion": [
+            {
+              "score": 8,
+              "reason": "成對欄位與單一橘色焦點，避免兩份資料分散閱讀。"
+            },
+            {
+              "score": 9,
+              "reason": "黃色結論要求保留預期，重讀或核對 Slot 07 後再判定放行。"
+            },
+            {
+              "score": 8,
+              "reason": "W06、W08 使用相符色，W99 風險色；未把讀值當成預期成員。"
+            },
+            {
+              "score": 9,
+              "reason": "F012 的 Slot 07 左側 W07、右側 W99，另外兩槽相符，片數同為三片。"
+            },
+            {
+              "score": 9,
+              "reason": "桌面一列一配對，手機仍保留同槽兩欄，ID 不靠放大才可讀。"
+            }
+          ],
+          "additional_frames": []
+        }
+      },
+      "1440": {
+        "page": {
+          "scores": [
+            19,
+            19,
+            19,
+            18,
+            9,
+            9
+          ],
+          "evidence": [
+            "F012 的 Slot 07 左側 W07、右側 W99，另外兩槽相符，片數同為三片。",
+            "逐槽成對與橘色差異列，把總數一致與身分一致分成兩個條件。",
+            "黃色結論要求保留預期，重讀或核對 Slot 07 後再判定放行。",
+            "正文比較重讀与實物追查：讀取不穩先重讀、實物不同追查移片，說明時間與錯放代價。",
+            "桌面一列一配對，手機仍保留同槽兩欄，ID 不靠放大才可讀。 本次以 1440px 頁面內尺寸審查，標題、正文與自測另核對。",
+            "新題改成有片但 ID 未讀到，解答區分缺讀值與錯片，並要求保存原始證據。"
+          ],
+          "strengths": "正文比較重讀与實物追查：讀取不穩先重讀、實物不同追查移片，說明時間與錯放代價。",
+          "deductions": "身分圖為抽象槽位對照，沒有示範真實讀取器的操作；文字提示仍是判讀的重要部分。 未取得真人理解與公司實際規則驗證，不當作學習成效證明。",
+          "vetoes": [],
+          "open_defects": [],
+          "reviewed_hash": "dea58d820ccca303a3679a36e774bcd690e4fa55e4f372d9d0a6dea9139fe0da",
+          "screenshot": "tests/evidence/mes-004/operations-port-1440-page.png"
+        },
+        "scene": {
+          "scores": [
+            24,
+            24,
+            19,
+            18,
+            9
+          ],
+          "evidence": [
+            "F012 的 Slot 07 左側 W07、右側 W99，另外兩槽相符，片數同為三片。",
+            "逐槽成對與橘色差異列，把總數一致與身分一致分成兩個條件。",
+            "黃色結論要求保留預期，重讀或核對 Slot 07 後再判定放行。",
+            "桌面一列一配對，手機仍保留同槽兩欄，ID 不靠放大才可讀。 本次以 1440px 頁面內尺寸審查，標題、正文與自測另核對。",
+            "W06、W08 使用相符色，W99 風險色；未把讀值當成預期成員。"
+          ],
+          "strengths": "成對欄位與單一橘色焦點，避免兩份資料分散閱讀。",
+          "deductions": "身分圖為抽象槽位對照，沒有示範真實讀取器的操作；文字提示仍是判讀的重要部分。",
+          "vetoes": [],
+          "open_defects": [],
+          "reviewed_hash": "a7489588fbcd7c06b9b64abddb1051a3740ca8a756b61c078b5a7ca47c3edf1a",
+          "screenshot": "tests/evidence/mes-004/operations-port-1440-scene.png",
+          "completion": [
+            {
+              "score": 8,
+              "reason": "成對欄位與單一橘色焦點，避免兩份資料分散閱讀。"
+            },
+            {
+              "score": 9,
+              "reason": "黃色結論要求保留預期，重讀或核對 Slot 07 後再判定放行。"
+            },
+            {
+              "score": 8,
+              "reason": "W06、W08 使用相符色，W99 風險色；未把讀值當成預期成員。"
+            },
+            {
+              "score": 9,
+              "reason": "F012 的 Slot 07 左側 W07、右側 W99，另外兩槽相符，片數同為三片。"
+            },
+            {
+              "score": 9,
+              "reason": "桌面一列一配對，手機仍保留同槽兩欄，ID 不靠放大才可讀。"
+            }
+          ],
+          "additional_frames": []
+        }
+      },
+      "id": "operations/port",
+      "url": "http://127.0.0.1:4175/operations.html#port",
+      "brief": "workitems/mes-004/BRIEFS.md",
+      "authoring_source": "course-remake.js"
+    },
+    {
+      "360": {
+        "page": {
+          "scores": [
+            19,
+            19,
+            19,
+            18,
+            9,
+            9
+          ],
+          "evidence": [
+            "S40 的 ETCH/v2 需求和 ETCH03+v1、CVD02+v2、ETCH03+v2 三候選同時可見。",
+            "三候選分別暴露版本不符、設備不符與全部吻合；替代候選沒有串接成時間線。",
+            "候選 C 可進入開工程序，黃色結論要求核對 Lot 本站需求與配方版本。",
+            "改用 ETCH04 或等待原設備都可有條件成立，需比較資格證據與交期等待。",
+            "需求護照在上、候選差異逐列在下；手機需求重排，紅橘標籤保持語意。 本次以 360px 頁面與原生主圖審查，完整頁面另核對章節與自測。",
+            "新題換設備但同名配方，兩個解答都說出準備的資格資料與等待代價。"
+          ],
+          "strengths": "改用 ETCH04 或等待原設備都可有條件成立，需比較資格證據與交期等待。",
+          "deductions": "主要證據是版本與資格資料，不呈現配方內部加工物理；候選文字閱讀量比其他圖高。 未取得真人理解與公司實際規則驗證，不當作學習成效證明。",
+          "vetoes": [],
+          "open_defects": [],
+          "reviewed_hash": "bceabc4b9953ec60de80588dac792b09dbe5421490fcf8d13176db78a7ca0018",
+          "screenshot": "tests/evidence/mes-004/operations-recipe-360-page.png"
+        },
+        "scene": {
+          "scores": [
+            23,
+            24,
+            19,
+            17,
+            9
+          ],
+          "evidence": [
+            "S40 的 ETCH/v2 需求和 ETCH03+v1、CVD02+v2、ETCH03+v2 三候選同時可見。",
+            "三候選分別暴露版本不符、設備不符與全部吻合；替代候選沒有串接成時間線。",
+            "候選 C 可進入開工程序，黃色結論要求核對 Lot 本站需求與配方版本。",
+            "需求護照在上、候選差異逐列在下；手機需求重排，紅橘標籤保持語意。 本次以 360px 頁面與原生主圖審查，完整頁面另核對章節與自測。",
+            "相同配方字串不足的標記是橘色；設備資格與 Recipe 版本不混成一個 Pass。"
+          ],
+          "strengths": "上方圓形作業護照建立焦點，候選逐列對齊，不用三張裝飾機台填空。",
+          "deductions": "主要證據是版本與資格資料，不呈現配方內部加工物理；候選文字閱讀量比其他圖高。",
+          "vetoes": [],
+          "open_defects": [],
+          "reviewed_hash": "fd15be10c9b9cba77b2e0109b47201203e84a5b3118561d551fe628bac12d673",
+          "screenshot": "tests/evidence/mes-004/operations-recipe-360-scene.png",
+          "completion": [
+            {
+              "score": 8,
+              "reason": "上方圓形作業護照建立焦點，候選逐列對齊，不用三張裝飾機台填空。"
+            },
+            {
+              "score": 9,
+              "reason": "候選 C 可進入開工程序，黃色結論要求核對 Lot 本站需求與配方版本。"
+            },
+            {
+              "score": 8,
+              "reason": "相同配方字串不足的標記是橘色；設備資格與 Recipe 版本不混成一個 Pass。"
+            },
+            {
+              "score": 8,
+              "reason": "S40 的 ETCH/v2 需求和 ETCH03+v1、CVD02+v2、ETCH03+v2 三候選同時可見。"
+            },
+            {
+              "score": 9,
+              "reason": "需求護照在上、候選差異逐列在下；手機需求重排，紅橘標籤保持語意。"
+            }
+          ],
+          "additional_frames": []
+        }
+      },
+      "1440": {
+        "page": {
+          "scores": [
+            19,
+            19,
+            19,
+            18,
+            9,
+            9
+          ],
+          "evidence": [
+            "S40 的 ETCH/v2 需求和 ETCH03+v1、CVD02+v2、ETCH03+v2 三候選同時可見。",
+            "三候選分別暴露版本不符、設備不符與全部吻合；替代候選沒有串接成時間線。",
+            "候選 C 可進入開工程序，黃色結論要求核對 Lot 本站需求與配方版本。",
+            "改用 ETCH04 或等待原設備都可有條件成立，需比較資格證據與交期等待。",
+            "需求護照在上、候選差異逐列在下；手機需求重排，紅橘標籤保持語意。 本次以 1440px 頁面內尺寸審查，標題、正文與自測另核對。",
+            "新題換設備但同名配方，兩個解答都說出準備的資格資料與等待代價。"
+          ],
+          "strengths": "改用 ETCH04 或等待原設備都可有條件成立，需比較資格證據與交期等待。",
+          "deductions": "主要證據是版本與資格資料，不呈現配方內部加工物理；候選文字閱讀量比其他圖高。 未取得真人理解與公司實際規則驗證，不當作學習成效證明。",
+          "vetoes": [],
+          "open_defects": [],
+          "reviewed_hash": "bc688cce1bcb55d1617718348bcef9f7869563a36cfa553e1a5e4ed637c237f5",
+          "screenshot": "tests/evidence/mes-004/operations-recipe-1440-page.png"
+        },
+        "scene": {
+          "scores": [
+            23,
+            24,
+            19,
+            17,
+            9
+          ],
+          "evidence": [
+            "S40 的 ETCH/v2 需求和 ETCH03+v1、CVD02+v2、ETCH03+v2 三候選同時可見。",
+            "三候選分別暴露版本不符、設備不符與全部吻合；替代候選沒有串接成時間線。",
+            "候選 C 可進入開工程序，黃色結論要求核對 Lot 本站需求與配方版本。",
+            "需求護照在上、候選差異逐列在下；手機需求重排，紅橘標籤保持語意。 本次以 1440px 頁面內尺寸審查，標題、正文與自測另核對。",
+            "相同配方字串不足的標記是橘色；設備資格與 Recipe 版本不混成一個 Pass。"
+          ],
+          "strengths": "上方圓形作業護照建立焦點，候選逐列對齊，不用三張裝飾機台填空。",
+          "deductions": "主要證據是版本與資格資料，不呈現配方內部加工物理；候選文字閱讀量比其他圖高。",
+          "vetoes": [],
+          "open_defects": [],
+          "reviewed_hash": "fe5cda90e14f4cec401f0b7eb33e76d2055c2648986ddd04fe1fe2d7f059d4da",
+          "screenshot": "tests/evidence/mes-004/operations-recipe-1440-scene.png",
+          "completion": [
+            {
+              "score": 8,
+              "reason": "上方圓形作業護照建立焦點，候選逐列對齊，不用三張裝飾機台填空。"
+            },
+            {
+              "score": 9,
+              "reason": "候選 C 可進入開工程序，黃色結論要求核對 Lot 本站需求與配方版本。"
+            },
+            {
+              "score": 8,
+              "reason": "相同配方字串不足的標記是橘色；設備資格與 Recipe 版本不混成一個 Pass。"
+            },
+            {
+              "score": 8,
+              "reason": "S40 的 ETCH/v2 需求和 ETCH03+v1、CVD02+v2、ETCH03+v2 三候選同時可見。"
+            },
+            {
+              "score": 9,
+              "reason": "需求護照在上、候選差異逐列在下；手機需求重排，紅橘標籤保持語意。"
+            }
+          ],
+          "additional_frames": []
+        }
+      },
+      "id": "operations/recipe",
+      "url": "http://127.0.0.1:4175/operations.html#recipe",
+      "brief": "workitems/mes-004/BRIEFS.md",
+      "authoring_source": "course-remake.js"
+    },
+    {
+      "360": {
+        "page": {
+          "scores": [
+            19,
+            19,
+            19,
+            18,
+            9,
+            9
+          ],
+          "evidence": [
+            "同一 W06/W07/W08 出現在槽位或 CH-A；快照中取出哪片，原槽就變空。",
+            "四個快照呈现加工、片間等待、下一片、全片返回，完成數與 Lot 狀態不同步。",
+            "全片返回仍標待資料確認；不能因 Chamber 空或一片完成就完成整批。",
+            "新故障題比較保存逐片結果後處置與直接整批重做，解釋多加工一次的風險。",
+            "桌面兩物件間往返，手機上下排列且每片 ID/Slot 可見；控制按鈕可直接切時刻。 本次以 360px 頁面與原生主圖審查，完整頁面另核對章節與自測。",
+            "條件換成第三片 W08 在腔體時警報，解答要求保留前兩片成功與本片待判。"
+          ],
+          "strengths": "新故障題比較保存逐片結果後處置與直接整批重做，解釋多加工一次的風險。",
+          "deductions": "機構是槽位／腔體位置示意，省略真空與搬送互鎖；手機需要捲動比較物件與完成數。 未取得真人理解與公司實際規則驗證，不當作學習成效證明。",
+          "vetoes": [],
+          "open_defects": [],
+          "reviewed_hash": "0a5483054a853346ec2692c22c83d9e987019e0650981ff062bf56ed1a010bc4",
+          "screenshot": "tests/evidence/mes-004/operations-chamber-360-page.png"
+        },
+        "scene": {
+          "scores": [
+            24,
+            24,
+            19,
+            18,
+            9
+          ],
+          "evidence": [
+            "同一 W06/W07/W08 出現在槽位或 CH-A；快照中取出哪片，原槽就變空。",
+            "四個快照呈现加工、片間等待、下一片、全片返回，完成數與 Lot 狀態不同步。",
+            "全片返回仍標待資料確認；不能因 Chamber 空或一片完成就完成整批。",
+            "桌面兩物件間往返，手機上下排列且每片 ID/Slot 可見；控制按鈕可直接切時刻。 本次以 360px 頁面與原生主圖審查，完整頁面另核對章節與自測。",
+            "每張快照保持三片唯一位置，完成框只屬於已成功返回的片；槽位展開明示為示意。"
+          ],
+          "strengths": "相同晶圓紋理與空槽虛線，讓占用變化比周圍標籤更突出。",
+          "deductions": "機構是槽位／腔體位置示意，省略真空與搬送互鎖；手機需要捲動比較物件與完成數。",
+          "vetoes": [],
+          "open_defects": [],
+          "reviewed_hash": "bbe55fcdcb5e37189e08757d9befdc0d3d1baad268aca69b0d7d5f50a0594ae8",
+          "screenshot": "tests/evidence/mes-004/operations-chamber-360-scene.png",
+          "completion": [
+            {
+              "score": 8,
+              "reason": "相同晶圓紋理與空槽虛線，讓占用變化比周圍標籤更突出。"
+            },
+            {
+              "score": 9,
+              "reason": "全片返回仍標待資料確認；不能因 Chamber 空或一片完成就完成整批。"
+            },
+            {
+              "score": 8,
+              "reason": "每張快照保持三片唯一位置，完成框只屬於已成功返回的片；槽位展開明示為示意。"
+            },
+            {
+              "score": 9,
+              "reason": "同一 W06/W07/W08 出現在槽位或 CH-A；快照中取出哪片，原槽就變空。"
+            },
+            {
+              "score": 9,
+              "reason": "桌面兩物件間往返，手機上下排列且每片 ID/Slot 可見；控制按鈕可直接切時刻。"
+            }
+          ],
+          "additional_frames": [
+            {
+              "path": "tests/evidence/mes-004/operations-chamber-frame0-360.png",
+              "sha256": "bbe55fcdcb5e37189e08757d9befdc0d3d1baad268aca69b0d7d5f50a0594ae8"
+            },
+            {
+              "path": "tests/evidence/mes-004/operations-chamber-frame1-360.png",
+              "sha256": "aab8a682fd6090bb79b25c6ea7f1cfdf02b6d78fc26f403b8413c025f7d821a8"
+            },
+            {
+              "path": "tests/evidence/mes-004/operations-chamber-frame2-360.png",
+              "sha256": "fa85e1f741e2186cefaad4321d0330c9a6108cf96440d409873e82e4cb8fddef"
+            },
+            {
+              "path": "tests/evidence/mes-004/operations-chamber-frame3-360.png",
+              "sha256": "0e36a4d9a54af2229a6e0ba05e5b07003e847c362b9de8eda6a7d81b04d9f97d"
+            }
+          ]
+        }
+      },
+      "1440": {
+        "page": {
+          "scores": [
+            19,
+            19,
+            19,
+            18,
+            9,
+            9
+          ],
+          "evidence": [
+            "同一 W06/W07/W08 出現在槽位或 CH-A；快照中取出哪片，原槽就變空。",
+            "四個快照呈现加工、片間等待、下一片、全片返回，完成數與 Lot 狀態不同步。",
+            "全片返回仍標待資料確認；不能因 Chamber 空或一片完成就完成整批。",
+            "新故障題比較保存逐片結果後處置與直接整批重做，解釋多加工一次的風險。",
+            "桌面兩物件間往返，手機上下排列且每片 ID/Slot 可見；控制按鈕可直接切時刻。 本次以 1440px 頁面內尺寸審查，標題、正文與自測另核對。",
+            "條件換成第三片 W08 在腔體時警報，解答要求保留前兩片成功與本片待判。"
+          ],
+          "strengths": "新故障題比較保存逐片結果後處置與直接整批重做，解釋多加工一次的風險。",
+          "deductions": "機構是槽位／腔體位置示意，省略真空與搬送互鎖；手機需要捲動比較物件與完成數。 未取得真人理解與公司實際規則驗證，不當作學習成效證明。",
+          "vetoes": [],
+          "open_defects": [],
+          "reviewed_hash": "1cc6c8f63db81f2514cf179ac6bd066292af27eafbde51532a36d55ea35fd08d",
+          "screenshot": "tests/evidence/mes-004/operations-chamber-1440-page.png"
+        },
+        "scene": {
+          "scores": [
+            24,
+            24,
+            19,
+            19,
+            9
+          ],
+          "evidence": [
+            "同一 W06/W07/W08 出現在槽位或 CH-A；快照中取出哪片，原槽就變空。",
+            "四個快照呈现加工、片間等待、下一片、全片返回，完成數與 Lot 狀態不同步。",
+            "全片返回仍標待資料確認；不能因 Chamber 空或一片完成就完成整批。",
+            "桌面兩物件間往返，手機上下排列且每片 ID/Slot 可見；控制按鈕可直接切時刻。 本次以 1440px 頁面內尺寸審查，標題、正文與自測另核對。",
+            "每張快照保持三片唯一位置，完成框只屬於已成功返回的片；槽位展開明示為示意。"
+          ],
+          "strengths": "相同晶圓紋理與空槽虛線，讓占用變化比周圍標籤更突出。",
+          "deductions": "機構是槽位／腔體位置示意，省略真空與搬送互鎖；手機需要捲動比較物件與完成數。",
+          "vetoes": [],
+          "open_defects": [],
+          "reviewed_hash": "7f3ec11868cf6dd5076956a2129a458c5837e9ac9ef90c465692cd0e50f99da1",
+          "screenshot": "tests/evidence/mes-004/operations-chamber-1440-scene.png",
+          "completion": [
+            {
+              "score": 8,
+              "reason": "相同晶圓紋理與空槽虛線，讓占用變化比周圍標籤更突出。"
+            },
+            {
+              "score": 9,
+              "reason": "全片返回仍標待資料確認；不能因 Chamber 空或一片完成就完成整批。"
+            },
+            {
+              "score": 8,
+              "reason": "每張快照保持三片唯一位置，完成框只屬於已成功返回的片；槽位展開明示為示意。"
+            },
+            {
+              "score": 9,
+              "reason": "同一 W06/W07/W08 出現在槽位或 CH-A；快照中取出哪片，原槽就變空。"
+            },
+            {
+              "score": 9,
+              "reason": "桌面兩物件間往返，手機上下排列且每片 ID/Slot 可見；控制按鈕可直接切時刻。"
+            }
+          ],
+          "additional_frames": [
+            {
+              "path": "tests/evidence/mes-004/operations-chamber-frame0-1440.png",
+              "sha256": "7f3ec11868cf6dd5076956a2129a458c5837e9ac9ef90c465692cd0e50f99da1"
+            },
+            {
+              "path": "tests/evidence/mes-004/operations-chamber-frame1-1440.png",
+              "sha256": "4a98ac9b3396ec47919e09b742ffa98321e958df3baa538b29fd3f32303c30af"
+            },
+            {
+              "path": "tests/evidence/mes-004/operations-chamber-frame2-1440.png",
+              "sha256": "d439a779b3d49f414c99e67efdc97d9136f8ce254f741b7e8343eb78a1b47cc7"
+            },
+            {
+              "path": "tests/evidence/mes-004/operations-chamber-frame3-1440.png",
+              "sha256": "ece82cb5c74fa57b336f35308418aa532086f51a94b58dab5535646b8bf8f1ff"
+            }
+          ]
+        }
+      },
+      "id": "operations/chamber",
+      "url": "http://127.0.0.1:4175/operations.html#chamber",
+      "brief": "workitems/mes-004/BRIEFS.md",
+      "authoring_source": "course-remake.js"
+    },
+    {
+      "360": {
+        "page": {
+          "scores": [
+            19,
+            19,
+            19,
+            18,
+            9,
+            9
+          ],
+          "evidence": [
+            "ETCH03 Ready 與 L023 Hold 同畫面；Q01、E02 是兩條獨立原因。",
+            "切換品質解除只清 Q01；再解除工程才變 Queued，Current 始終 S40。",
+            "黃色結論指出解除限制不會自動開工；剩下的 Hold 指向對應人員處置。",
+            "等待有效 Hold 審查與請主管加急處理都可行；加速人的確認，不豁免限制。",
+            "設備對象與 Lot 對象分組；手機不再重播無關搬送，限制區有足夠文字寬度。 本次以 360px 頁面與原生主圖審查，完整頁面另核對章節與自測。",
+            "品質已過、工程未過的急件題，兩條解答都保留工程批准責任。"
+          ],
+          "strengths": "等待有效 Hold 審查與請主管加急處理都可行；加速人的確認，不豁免限制。",
+          "deductions": "採用兩原因集合的簡化模型，未展開角色權限與完整異常狀態機；解除仍需讀文字標籤。 未取得真人理解與公司實際規則驗證，不當作學習成效證明。",
+          "vetoes": [],
+          "open_defects": [],
+          "reviewed_hash": "b3b8f116e56959c13e21a41a47364d20a2ab8e6630da0079f61431359bc89cbc",
+          "screenshot": "tests/evidence/mes-004/operations-state-360-page.png"
+        },
+        "scene": {
+          "scores": [
+            24,
+            24,
+            19,
+            18,
+            9
+          ],
+          "evidence": [
+            "ETCH03 Ready 與 L023 Hold 同畫面；Q01、E02 是兩條獨立原因。",
+            "切換品質解除只清 Q01；再解除工程才變 Queued，Current 始終 S40。",
+            "黃色結論指出解除限制不會自動開工；剩下的 Hold 指向對應人員處置。",
+            "設備對象與 Lot 對象分組；手機不再重播無關搬送，限制區有足夠文字寬度。 本次以 360px 頁面與原生主圖審查，完整頁面另核對章節與自測。",
+            "設備空與 Lot 成員保持不變，綠色解除只代表對應原因，不偽造加工成功。"
+          ],
+          "strengths": "機台與批次的對象區隔清楚，橘色限制線集中在 Lot 一側。",
+          "deductions": "採用兩原因集合的簡化模型，未展開角色權限與完整異常狀態機；解除仍需讀文字標籤。",
+          "vetoes": [],
+          "open_defects": [],
+          "reviewed_hash": "c8f3fb40c9b8cf3c1027d656fc1c3cd1bd049cbcbd981f8f29014780b5a60300",
+          "screenshot": "tests/evidence/mes-004/operations-state-360-scene.png",
+          "completion": [
+            {
+              "score": 8,
+              "reason": "機台與批次的對象區隔清楚，橘色限制線集中在 Lot 一側。"
+            },
+            {
+              "score": 9,
+              "reason": "黃色結論指出解除限制不會自動開工；剩下的 Hold 指向對應人員處置。"
+            },
+            {
+              "score": 8,
+              "reason": "設備空與 Lot 成員保持不變，綠色解除只代表對應原因，不偽造加工成功。"
+            },
+            {
+              "score": 9,
+              "reason": "ETCH03 Ready 與 L023 Hold 同畫面；Q01、E02 是兩條獨立原因。"
+            },
+            {
+              "score": 9,
+              "reason": "設備對象與 Lot 對象分組；手機不再重播無關搬送，限制區有足夠文字寬度。"
+            }
+          ],
+          "additional_frames": [
+            {
+              "path": "tests/evidence/mes-004/operations-state-frame0-360.png",
+              "sha256": "c8f3fb40c9b8cf3c1027d656fc1c3cd1bd049cbcbd981f8f29014780b5a60300"
+            },
+            {
+              "path": "tests/evidence/mes-004/operations-state-frame1-360.png",
+              "sha256": "d6ba3b6703d49c5508452a85a2dc46d7fa37d5967ace487d9563f6f5b9eb8413"
+            },
+            {
+              "path": "tests/evidence/mes-004/operations-state-frame2-360.png",
+              "sha256": "7db78f328f0d839013b278a5948ef74c89895c9948b03f0feb7afd89407b170b"
+            }
+          ]
+        }
+      },
+      "1440": {
+        "page": {
+          "scores": [
+            19,
+            19,
+            19,
+            18,
+            9,
+            9
+          ],
+          "evidence": [
+            "ETCH03 Ready 與 L023 Hold 同畫面；Q01、E02 是兩條獨立原因。",
+            "切換品質解除只清 Q01；再解除工程才變 Queued，Current 始終 S40。",
+            "黃色結論指出解除限制不會自動開工；剩下的 Hold 指向對應人員處置。",
+            "等待有效 Hold 審查與請主管加急處理都可行；加速人的確認，不豁免限制。",
+            "設備對象與 Lot 對象分組；手機不再重播無關搬送，限制區有足夠文字寬度。 本次以 1440px 頁面內尺寸審查，標題、正文與自測另核對。",
+            "品質已過、工程未過的急件題，兩條解答都保留工程批准責任。"
+          ],
+          "strengths": "等待有效 Hold 審查與請主管加急處理都可行；加速人的確認，不豁免限制。",
+          "deductions": "採用兩原因集合的簡化模型，未展開角色權限與完整異常狀態機；解除仍需讀文字標籤。 未取得真人理解與公司實際規則驗證，不當作學習成效證明。",
+          "vetoes": [],
+          "open_defects": [],
+          "reviewed_hash": "252ee9f686f6585f10fc219ac6f5231a2a1c3afb7a7f4ecbefd7f1f5101ed5d4",
+          "screenshot": "tests/evidence/mes-004/operations-state-1440-page.png"
+        },
+        "scene": {
+          "scores": [
+            24,
+            24,
+            19,
+            18,
+            9
+          ],
+          "evidence": [
+            "ETCH03 Ready 與 L023 Hold 同畫面；Q01、E02 是兩條獨立原因。",
+            "切換品質解除只清 Q01；再解除工程才變 Queued，Current 始終 S40。",
+            "黃色結論指出解除限制不會自動開工；剩下的 Hold 指向對應人員處置。",
+            "設備對象與 Lot 對象分組；手機不再重播無關搬送，限制區有足夠文字寬度。 本次以 1440px 頁面內尺寸審查，標題、正文與自測另核對。",
+            "設備空與 Lot 成員保持不變，綠色解除只代表對應原因，不偽造加工成功。"
+          ],
+          "strengths": "機台與批次的對象區隔清楚，橘色限制線集中在 Lot 一側。",
+          "deductions": "採用兩原因集合的簡化模型，未展開角色權限與完整異常狀態機；解除仍需讀文字標籤。",
+          "vetoes": [],
+          "open_defects": [],
+          "reviewed_hash": "1b8e544b15c92c1c518df8c93538ffd7dc37a7cdd2c4838728778b9d7ae30e5b",
+          "screenshot": "tests/evidence/mes-004/operations-state-1440-scene.png",
+          "completion": [
+            {
+              "score": 8,
+              "reason": "機台與批次的對象區隔清楚，橘色限制線集中在 Lot 一側。"
+            },
+            {
+              "score": 9,
+              "reason": "黃色結論指出解除限制不會自動開工；剩下的 Hold 指向對應人員處置。"
+            },
+            {
+              "score": 8,
+              "reason": "設備空與 Lot 成員保持不變，綠色解除只代表對應原因，不偽造加工成功。"
+            },
+            {
+              "score": 9,
+              "reason": "ETCH03 Ready 與 L023 Hold 同畫面；Q01、E02 是兩條獨立原因。"
+            },
+            {
+              "score": 9,
+              "reason": "設備對象與 Lot 對象分組；手機不再重播無關搬送，限制區有足夠文字寬度。"
+            }
+          ],
+          "additional_frames": [
+            {
+              "path": "tests/evidence/mes-004/operations-state-frame0-1440.png",
+              "sha256": "1b8e544b15c92c1c518df8c93538ffd7dc37a7cdd2c4838728778b9d7ae30e5b"
+            },
+            {
+              "path": "tests/evidence/mes-004/operations-state-frame1-1440.png",
+              "sha256": "9113bcfc5e3a2b4b2b74089f0b44d16cd7fa2c7bf9bf787723b0d7e8f1107fc2"
+            },
+            {
+              "path": "tests/evidence/mes-004/operations-state-frame2-1440.png",
+              "sha256": "f9280e59057289129db8f7d4b56be8ff1c20c55e809ebcc1af7860e74de2d020"
+            }
+          ]
+        }
+      },
+      "id": "operations/state",
+      "url": "http://127.0.0.1:4175/operations.html#state",
+      "brief": "workitems/mes-004/BRIEFS.md",
+      "authoring_source": "course-remake.js"
+    },
+    {
+      "360": {
+        "page": {
+          "scores": [
+            19,
+            19,
+            19,
+            18,
+            9,
+            9
+          ],
+          "evidence": [
+            "同一批三片返回的影像下方，W06/W07 有結果，W08 的結果券仍待收。",
+            "10:00 到 10:08 的事件線區分機台 Done、補結果、MES 交易與 S50 指標。",
+            "W08 補齊後仍需完成交易，最後 S40 綠勾、S50 藍標，下一步等待量測。",
+            "正文比較查原始紀錄／重送資料與重新加工，說明通信逾時不證明未加工。",
+            "時間線上下單向；手機逐片結果券與時間欄可讀，無需橫向表格對照。 本次以 360px 頁面與原生主圖審查，完整頁面另核對章節與自測。",
+            "新題重複 Done 而缺 W08，答案要求以 Run/Visit 去重及補原始結果。"
+          ],
+          "strengths": "正文比較查原始紀錄／重送資料與重新加工，說明通信逾時不證明未加工。",
+          "deductions": "時間線較長；僅示範 Track-out 成功時推進的交易語意，非完整重送協定。 未取得真人理解與公司實際規則驗證，不當作學習成效證明。",
+          "vetoes": [],
+          "open_defects": [],
+          "reviewed_hash": "cb1740722b9c81b8ff19dfa55c141561a96d4d22a7984bca9211ba84af9f7e94",
+          "screenshot": "tests/evidence/mes-004/operations-handoff-360-page.png"
+        },
+        "scene": {
+          "scores": [
+            23,
+            24,
+            19,
+            18,
+            9
+          ],
+          "evidence": [
+            "同一批三片返回的影像下方，W06/W07 有結果，W08 的結果券仍待收。",
+            "10:00 到 10:08 的事件線區分機台 Done、補結果、MES 交易與 S50 指標。",
+            "W08 補齊後仍需完成交易，最後 S40 綠勾、S50 藍標，下一步等待量測。",
+            "時間線上下單向；手機逐片結果券與時間欄可讀，無需橫向表格對照。 本次以 360px 頁面與原生主圖審查，完整頁面另核對章節與自測。",
+            "實體返回與資料待收分開，沒有把 Done 當作第三片结果，也沒有假造實廠時序。"
+          ],
+          "strengths": "單一垂直時間線把三種完成證據連成可追蹤故事。",
+          "deductions": "時間線較長；僅示範 Track-out 成功時推進的交易語意，非完整重送協定。",
+          "vetoes": [],
+          "open_defects": [],
+          "reviewed_hash": "976cd427ddca00d0586acd8723ad474395534bd5fe9a78b1d75d67684d8c226b",
+          "screenshot": "tests/evidence/mes-004/operations-handoff-360-scene.png",
+          "completion": [
+            {
+              "score": 8,
+              "reason": "單一垂直時間線把三種完成證據連成可追蹤故事。"
+            },
+            {
+              "score": 9,
+              "reason": "W08 補齊後仍需完成交易，最後 S40 綠勾、S50 藍標，下一步等待量測。"
+            },
+            {
+              "score": 8,
+              "reason": "實體返回與資料待收分開，沒有把 Done 當作第三片结果，也沒有假造實廠時序。"
+            },
+            {
+              "score": 9,
+              "reason": "同一批三片返回的影像下方，W06/W07 有結果，W08 的結果券仍待收。"
+            },
+            {
+              "score": 9,
+              "reason": "時間線上下單向；手機逐片結果券與時間欄可讀，無需橫向表格對照。"
+            }
+          ],
+          "additional_frames": []
+        }
+      },
+      "1440": {
+        "page": {
+          "scores": [
+            19,
+            19,
+            19,
+            18,
+            9,
+            9
+          ],
+          "evidence": [
+            "同一批三片返回的影像下方，W06/W07 有結果，W08 的結果券仍待收。",
+            "10:00 到 10:08 的事件線區分機台 Done、補結果、MES 交易與 S50 指標。",
+            "W08 補齊後仍需完成交易，最後 S40 綠勾、S50 藍標，下一步等待量測。",
+            "正文比較查原始紀錄／重送資料與重新加工，說明通信逾時不證明未加工。",
+            "時間線上下單向；手機逐片結果券與時間欄可讀，無需橫向表格對照。 本次以 1440px 頁面內尺寸審查，標題、正文與自測另核對。",
+            "新題重複 Done 而缺 W08，答案要求以 Run/Visit 去重及補原始結果。"
+          ],
+          "strengths": "正文比較查原始紀錄／重送資料與重新加工，說明通信逾時不證明未加工。",
+          "deductions": "時間線較長；僅示範 Track-out 成功時推進的交易語意，非完整重送協定。 未取得真人理解與公司實際規則驗證，不當作學習成效證明。",
+          "vetoes": [],
+          "open_defects": [],
+          "reviewed_hash": "ce5ae1ec85f77e3907e871c72b43151c0ae80a4fe468a2feb3f9c11a55b9dd81",
+          "screenshot": "tests/evidence/mes-004/operations-handoff-1440-page.png"
+        },
+        "scene": {
+          "scores": [
+            23,
+            24,
+            19,
+            18,
+            9
+          ],
+          "evidence": [
+            "同一批三片返回的影像下方，W06/W07 有結果，W08 的結果券仍待收。",
+            "10:00 到 10:08 的事件線區分機台 Done、補結果、MES 交易與 S50 指標。",
+            "W08 補齊後仍需完成交易，最後 S40 綠勾、S50 藍標，下一步等待量測。",
+            "時間線上下單向；手機逐片結果券與時間欄可讀，無需橫向表格對照。 本次以 1440px 頁面內尺寸審查，標題、正文與自測另核對。",
+            "實體返回與資料待收分開，沒有把 Done 當作第三片结果，也沒有假造實廠時序。"
+          ],
+          "strengths": "單一垂直時間線把三種完成證據連成可追蹤故事。",
+          "deductions": "時間線較長；僅示範 Track-out 成功時推進的交易語意，非完整重送協定。",
+          "vetoes": [],
+          "open_defects": [],
+          "reviewed_hash": "bfcdb65b1837f253b52b30eba8d34c50734263a6629a59d22096812863c3611e",
+          "screenshot": "tests/evidence/mes-004/operations-handoff-1440-scene.png",
+          "completion": [
+            {
+              "score": 8,
+              "reason": "單一垂直時間線把三種完成證據連成可追蹤故事。"
+            },
+            {
+              "score": 9,
+              "reason": "W08 補齊後仍需完成交易，最後 S40 綠勾、S50 藍標，下一步等待量測。"
+            },
+            {
+              "score": 8,
+              "reason": "實體返回與資料待收分開，沒有把 Done 當作第三片结果，也沒有假造實廠時序。"
+            },
+            {
+              "score": 9,
+              "reason": "同一批三片返回的影像下方，W06/W07 有結果，W08 的結果券仍待收。"
+            },
+            {
+              "score": 9,
+              "reason": "時間線上下單向；手機逐片結果券與時間欄可讀，無需橫向表格對照。"
+            }
+          ],
+          "additional_frames": []
+        }
+      },
+      "id": "operations/handoff",
+      "url": "http://127.0.0.1:4175/operations.html#handoff",
+      "brief": "workitems/mes-004/BRIEFS.md",
+      "authoring_source": "course-remake.js"
+    },
+    {
+      "360": {
+        "page": {
+          "scores": [
+            19,
+            19,
+            19,
+            18,
+            9,
+            9
+          ],
+          "evidence": [
+            "六情境各有實體／資料場景：載具位置、讀值配對、版本差異、腔體占用與 Hold。",
+            "操作後畫面直接讀 engine；run1 的 W07 在 CH-A 且 Slot 07 空，拒絕不改現場。",
+            "每張圖黃色區保留當前狀態與下一個判斷或結論，動作之後另有拒絕／接受原因。",
+            "情境包含等待、重讀、補資料與工程處置；額外新題容許兩種並行查詢順序，但放行条件不變。",
+            "主圖先於完整欄位，手機位置路徑改直向；所有選項同等視覺，不暗示第一項為建議。 本次以 360px 頁面與原生主圖審查，完整頁面另核對章節與自測。",
+            "把讀取不穩與設備等待組合，解答允許不同順序並說清必要證據不能互借。"
+          ],
+          "strengths": "情境包含等待、重讀、補資料與工程處置；額外新題容許兩種並行查詢順序，但放行条件不變。",
+          "deductions": "情境選單與事件紀錄增加手機捲動；物件是位置展開示意，並未重建設備真實外觀。 未取得真人理解與公司實際規則驗證，不當作學習成效證明。",
+          "vetoes": [],
+          "open_defects": [],
+          "reviewed_hash": "9ac62a1519bc234601fc506d02a8b2ff6dfc587e1c488f6bb2a807dd53b0534b",
+          "screenshot": "tests/evidence/mes-004/operations-lab-360-page.png"
+        },
+        "scene": {
+          "scores": [
+            24,
+            24,
+            19,
+            17,
+            9
+          ],
+          "evidence": [
+            "六情境各有實體／資料場景：載具位置、讀值配對、版本差異、腔體占用與 Hold。",
+            "操作後畫面直接讀 engine；run1 的 W07 在 CH-A 且 Slot 07 空，拒絕不改現場。",
+            "每張圖黃色區保留當前狀態與下一個判斷或結論，動作之後另有拒絕／接受原因。",
+            "主圖先於完整欄位，手機位置路徑改直向；所有選項同等視覺，不暗示第一項為建議。 本次以 360px 頁面與原生主圖審查，完整頁面另核對章節與自測。",
+            "25 狀態逐寬度渲染；身分未知與空槽區分、完成數守恆、故障不補成功。"
+          ],
+          "strengths": "各情境的證據形態不同，主畫面從欄位清單改成位置與身分的可見關係。",
+          "deductions": "情境選單與事件紀錄增加手機捲動；物件是位置展開示意，並未重建設備真實外觀。",
+          "vetoes": [],
+          "open_defects": [],
+          "reviewed_hash": "283a6539bd289eace3a469c4f8701eec6ca1be519763ea6e4b209b69cfc8dfcf",
+          "screenshot": "tests/evidence/mes-004/operations-lab-360-scene.png",
+          "completion": [
+            {
+              "score": 8,
+              "reason": "各情境的證據形態不同，主畫面從欄位清單改成位置與身分的可見關係。"
+            },
+            {
+              "score": 9,
+              "reason": "每張圖黃色區保留當前狀態與下一個判斷或結論，動作之後另有拒絕／接受原因。"
+            },
+            {
+              "score": 8,
+              "reason": "25 狀態逐寬度渲染；身分未知與空槽區分、完成數守恆、故障不補成功。"
+            },
+            {
+              "score": 9,
+              "reason": "六情境各有實體／資料場景：載具位置、讀值配對、版本差異、腔體占用與 Hold。"
+            },
+            {
+              "score": 9,
+              "reason": "主圖先於完整欄位，手機位置路徑改直向；所有選項同等視覺，不暗示第一項為建議。"
+            }
+          ],
+          "additional_frames": []
+        }
+      },
+      "1440": {
+        "page": {
+          "scores": [
+            19,
+            19,
+            19,
+            18,
+            9,
+            9
+          ],
+          "evidence": [
+            "六情境各有實體／資料場景：載具位置、讀值配對、版本差異、腔體占用與 Hold。",
+            "操作後畫面直接讀 engine；run1 的 W07 在 CH-A 且 Slot 07 空，拒絕不改現場。",
+            "每張圖黃色區保留當前狀態與下一個判斷或結論，動作之後另有拒絕／接受原因。",
+            "情境包含等待、重讀、補資料與工程處置；額外新題容許兩種並行查詢順序，但放行条件不變。",
+            "主圖先於完整欄位，手機位置路徑改直向；所有選項同等視覺，不暗示第一項為建議。 本次以 1440px 頁面內尺寸審查，標題、正文與自測另核對。",
+            "把讀取不穩與設備等待組合，解答允許不同順序並說清必要證據不能互借。"
+          ],
+          "strengths": "情境包含等待、重讀、補資料與工程處置；額外新題容許兩種並行查詢順序，但放行条件不變。",
+          "deductions": "情境選單與事件紀錄增加手機捲動；物件是位置展開示意，並未重建設備真實外觀。 未取得真人理解與公司實際規則驗證，不當作學習成效證明。",
+          "vetoes": [],
+          "open_defects": [],
+          "reviewed_hash": "884396c9e181ea125529defe43e7a49d3380631617fb24f288a697e3d2327dcd",
+          "screenshot": "tests/evidence/mes-004/operations-lab-1440-page.png"
+        },
+        "scene": {
+          "scores": [
+            24,
+            24,
+            19,
+            18,
+            9
+          ],
+          "evidence": [
+            "六情境各有實體／資料場景：載具位置、讀值配對、版本差異、腔體占用與 Hold。",
+            "操作後畫面直接讀 engine；run1 的 W07 在 CH-A 且 Slot 07 空，拒絕不改現場。",
+            "每張圖黃色區保留當前狀態與下一個判斷或結論，動作之後另有拒絕／接受原因。",
+            "主圖先於完整欄位，手機位置路徑改直向；所有選項同等視覺，不暗示第一項為建議。 本次以 1440px 頁面內尺寸審查，標題、正文與自測另核對。",
+            "25 狀態逐寬度渲染；身分未知與空槽區分、完成數守恆、故障不補成功。"
+          ],
+          "strengths": "各情境的證據形態不同，主畫面從欄位清單改成位置與身分的可見關係。",
+          "deductions": "情境選單與事件紀錄增加手機捲動；物件是位置展開示意，並未重建設備真實外觀。",
+          "vetoes": [],
+          "open_defects": [],
+          "reviewed_hash": "2ccd12822f00a635e96be475b842f55d6db447c29a30c305f5bba99b8883b097",
+          "screenshot": "tests/evidence/mes-004/operations-lab-1440-scene.png",
+          "completion": [
+            {
+              "score": 8,
+              "reason": "各情境的證據形態不同，主畫面從欄位清單改成位置與身分的可見關係。"
+            },
+            {
+              "score": 9,
+              "reason": "每張圖黃色區保留當前狀態與下一個判斷或結論，動作之後另有拒絕／接受原因。"
+            },
+            {
+              "score": 8,
+              "reason": "25 狀態逐寬度渲染；身分未知與空槽區分、完成數守恆、故障不補成功。"
+            },
+            {
+              "score": 9,
+              "reason": "六情境各有實體／資料場景：載具位置、讀值配對、版本差異、腔體占用與 Hold。"
+            },
+            {
+              "score": 9,
+              "reason": "主圖先於完整欄位，手機位置路徑改直向；所有選項同等視覺，不暗示第一項為建議。"
+            }
+          ],
+          "additional_frames": []
+        }
+      },
+      "id": "operations/lab",
+      "url": "http://127.0.0.1:4175/operations.html#lab",
+      "brief": "workitems/mes-004/BRIEFS.md",
+      "authoring_source": "course-remake.js"
+    },
+    {
+      "360": {
+        "page": {
+          "scores": [
+            19,
+            19,
+            19,
+            18,
+            9,
+            9
+          ],
+          "evidence": [
+            "三 Stage 各兩 Step，L023 在 S50；B 段 S30/S40 均為綠勾。",
+            "B 2/2 的完整進度與全流程 4/6 的未滿進度並列，分母範圍可直接核算。",
+            "圖中 S50/S60 未完成，結論要求區分 Step、Stage 與整條 Flow 的完成範圍。",
+            "正文比較用 Stage 回報整段與用 Step 追查卡點：前者省閱讀，後者保留細節。",
+            "段與段有方向箭頭，手機三段向下排列；每段兩站仍在同一語意區。 本次以 360px 頁面與原生主圖審查，完整頁面另核對章節與自測。",
+            "新題改成 B 只完成 S30，解答區分「已進入」與「已完成」。"
+          ],
+          "strengths": "正文比較用 Stage 回報整段與用 Step 追查卡點：前者省閱讀，後者保留細節。",
+          "deductions": "六站都是簡化必要站；沒有另列可選站的 Stage 完成政策，手機三段仍需捲動。 未取得真人理解與公司實際規則驗證，不當作學習成效證明。",
+          "vetoes": [],
+          "open_defects": [],
+          "reviewed_hash": "dcc6c9cf8c4de94d12d5dc50e95441501b673832e1534c11878fc263c3564882",
+          "screenshot": "tests/evidence/mes-004/flow-stage-360-page.png"
+        },
+        "scene": {
+          "scores": [
+            24,
+            24,
+            19,
+            18,
+            9
+          ],
+          "evidence": [
+            "三 Stage 各兩 Step，L023 在 S50；B 段 S30/S40 均為綠勾。",
+            "B 2/2 的完整進度與全流程 4/6 的未滿進度並列，分母範圍可直接核算。",
+            "圖中 S50/S60 未完成，結論要求區分 Step、Stage 與整條 Flow 的完成範圍。",
+            "段與段有方向箭頭，手機三段向下排列；每段兩站仍在同一語意區。 本次以 360px 頁面與原生主圖審查，完整頁面另核對章節與自測。",
+            "四個綠勾與 4/6 相符，2/2 僅指 B，正文說明這不是工時或良率百分比。"
+          ],
+          "strengths": "三條分組色帶和兩個不同分母的進度條形成清楚範圍對比。",
+          "deductions": "六站都是簡化必要站；沒有另列可選站的 Stage 完成政策，手機三段仍需捲動。",
+          "vetoes": [],
+          "open_defects": [],
+          "reviewed_hash": "2bf694a925d60046eb89f9aa523f82eb548b35432840db34b8bb675c2b2c9f4a",
+          "screenshot": "tests/evidence/mes-004/flow-stage-360-scene.png",
+          "completion": [
+            {
+              "score": 8,
+              "reason": "三條分組色帶和兩個不同分母的進度條形成清楚範圍對比。"
+            },
+            {
+              "score": 9,
+              "reason": "圖中 S50/S60 未完成，結論要求區分 Step、Stage 與整條 Flow 的完成範圍。"
+            },
+            {
+              "score": 9,
+              "reason": "四個綠勾與 4/6 相符，2/2 僅指 B，正文說明這不是工時或良率百分比。"
+            },
+            {
+              "score": 9,
+              "reason": "三 Stage 各兩 Step，L023 在 S50；B 段 S30/S40 均為綠勾。"
+            },
+            {
+              "score": 9,
+              "reason": "段與段有方向箭頭，手機三段向下排列；每段兩站仍在同一語意區。"
+            }
+          ],
+          "additional_frames": []
+        }
+      },
+      "1440": {
+        "page": {
+          "scores": [
+            19,
+            19,
+            19,
+            18,
+            9,
+            9
+          ],
+          "evidence": [
+            "三 Stage 各兩 Step，L023 在 S50；B 段 S30/S40 均為綠勾。",
+            "B 2/2 的完整進度與全流程 4/6 的未滿進度並列，分母範圍可直接核算。",
+            "圖中 S50/S60 未完成，結論要求區分 Step、Stage 與整條 Flow 的完成範圍。",
+            "正文比較用 Stage 回報整段與用 Step 追查卡點：前者省閱讀，後者保留細節。",
+            "段與段有方向箭頭，手機三段向下排列；每段兩站仍在同一語意區。 本次以 1440px 頁面內尺寸審查，標題、正文與自測另核對。",
+            "新題改成 B 只完成 S30，解答區分「已進入」與「已完成」。"
+          ],
+          "strengths": "正文比較用 Stage 回報整段與用 Step 追查卡點：前者省閱讀，後者保留細節。",
+          "deductions": "六站都是簡化必要站；沒有另列可選站的 Stage 完成政策，手機三段仍需捲動。 未取得真人理解與公司實際規則驗證，不當作學習成效證明。",
+          "vetoes": [],
+          "open_defects": [],
+          "reviewed_hash": "b45ce04e31beb31707c150c8940d4c4e3c226a3d36d42d071a8f9bd2149bd745",
+          "screenshot": "tests/evidence/mes-004/flow-stage-1440-page.png"
+        },
+        "scene": {
+          "scores": [
+            24,
+            24,
+            19,
+            19,
+            9
+          ],
+          "evidence": [
+            "三 Stage 各兩 Step，L023 在 S50；B 段 S30/S40 均為綠勾。",
+            "B 2/2 的完整進度與全流程 4/6 的未滿進度並列，分母範圍可直接核算。",
+            "圖中 S50/S60 未完成，結論要求區分 Step、Stage 與整條 Flow 的完成範圍。",
+            "段與段有方向箭頭，手機三段向下排列；每段兩站仍在同一語意區。 本次以 1440px 頁面內尺寸審查，標題、正文與自測另核對。",
+            "四個綠勾與 4/6 相符，2/2 僅指 B，正文說明這不是工時或良率百分比。"
+          ],
+          "strengths": "三條分組色帶和兩個不同分母的進度條形成清楚範圍對比。",
+          "deductions": "六站都是簡化必要站；沒有另列可選站的 Stage 完成政策，手機三段仍需捲動。",
+          "vetoes": [],
+          "open_defects": [],
+          "reviewed_hash": "50bf5f1dc9d53c825162c6d2b24dbc8e139028d0bd26ad962ca7c048a0a4aae3",
+          "screenshot": "tests/evidence/mes-004/flow-stage-1440-scene.png",
+          "completion": [
+            {
+              "score": 8,
+              "reason": "三條分組色帶和兩個不同分母的進度條形成清楚範圍對比。"
+            },
+            {
+              "score": 9,
+              "reason": "圖中 S50/S60 未完成，結論要求區分 Step、Stage 與整條 Flow 的完成範圍。"
+            },
+            {
+              "score": 9,
+              "reason": "四個綠勾與 4/6 相符，2/2 僅指 B，正文說明這不是工時或良率百分比。"
+            },
+            {
+              "score": 9,
+              "reason": "三 Stage 各兩 Step，L023 在 S50；B 段 S30/S40 均為綠勾。"
+            },
+            {
+              "score": 9,
+              "reason": "段與段有方向箭頭，手機三段向下排列；每段兩站仍在同一語意區。"
+            }
+          ],
+          "additional_frames": []
+        }
+      },
+      "id": "flow/stage",
+      "url": "http://127.0.0.1:4175/flow.html#stage",
+      "brief": "workitems/mes-004/BRIEFS.md",
+      "authoring_source": "course-remake.js"
+    },
+    {
+      "360": {
+        "page": {
+          "scores": [
+            19,
+            19,
+            19,
+            18,
+            9,
+            9
+          ],
+          "evidence": [
+            "共同 CLEAN 之下，較早的 S10 已完成與較晚的 R10 待執行有各自位置圖與結果券。",
+            "S10 已完成時 L023 標在 S20；後來在 R10 時需要新的 Visit，不把舊 Pass 當新證據。",
+            "底部明示 S10 #1 Pass 不等於 R10 #1 完成，結論要求流程版本、位置、Visit。",
+            "正文比較依 Operation 彙總工作量與依 Step/Visit 查特定歷程的用途和關聯成本。",
+            "手機兩時刻各自保留位置與結果，沒有無關 S40 印章打斷主線。 本次以 360px 頁面與原生主圖審查，完整頁面另核對章節與自測。",
+            "題目讓 Recipe 也相同，仍不能借用 Pass；解答容許正式申請免做但需新批准與替代證據。"
+          ],
+          "strengths": "正文比較依 Operation 彙總工作量與依 Step/Visit 查特定歷程的用途和關聯成本。",
+          "deductions": "位置／Visit 用短資料券表達，Recipe 的內部層級以正文接續，未在本图展開配方程序。 未取得真人理解與公司實際規則驗證，不當作學習成效證明。",
+          "vetoes": [],
+          "open_defects": [],
+          "reviewed_hash": "00ba7fcf49079f10e5ab3d7f0ffe32f4c523333deb10b7b41ce46ca19158c955",
+          "screenshot": "tests/evidence/mes-004/flow-step-360-page.png"
+        },
+        "scene": {
+          "scores": [
+            24,
+            24,
+            19,
+            18,
+            9
+          ],
+          "evidence": [
+            "共同 CLEAN 之下，較早的 S10 已完成與較晚的 R10 待執行有各自位置圖與結果券。",
+            "S10 已完成時 L023 標在 S20；後來在 R10 時需要新的 Visit，不把舊 Pass 當新證據。",
+            "底部明示 S10 #1 Pass 不等於 R10 #1 完成，結論要求流程版本、位置、Visit。",
+            "手機兩時刻各自保留位置與結果，沒有無關 S40 印章打斷主線。 本次以 360px 頁面與原生主圖審查，完整頁面另核對章節與自測。",
+            "同一 Lot 的兩時刻明示，不同 occurrence 的結果券沒有被畫成可覆寫關係。"
+          ],
+          "strengths": "同作業在上、不同時刻在下，去掉與 CLEAN 例子無關的大印章。",
+          "deductions": "位置／Visit 用短資料券表達，Recipe 的內部層級以正文接續，未在本图展開配方程序。",
+          "vetoes": [],
+          "open_defects": [],
+          "reviewed_hash": "2fc372a8c440827077a8b70e680358817590dd81cb28cbe1685cfe8c535320f8",
+          "screenshot": "tests/evidence/mes-004/flow-step-360-scene.png",
+          "completion": [
+            {
+              "score": 8,
+              "reason": "同作業在上、不同時刻在下，去掉與 CLEAN 例子無關的大印章。"
+            },
+            {
+              "score": 9,
+              "reason": "底部明示 S10 #1 Pass 不等於 R10 #1 完成，結論要求流程版本、位置、Visit。"
+            },
+            {
+              "score": 9,
+              "reason": "同一 Lot 的兩時刻明示，不同 occurrence 的結果券沒有被畫成可覆寫關係。"
+            },
+            {
+              "score": 9,
+              "reason": "共同 CLEAN 之下，較早的 S10 已完成與較晚的 R10 待執行有各自位置圖與結果券。"
+            },
+            {
+              "score": 9,
+              "reason": "手機兩時刻各自保留位置與結果，沒有無關 S40 印章打斷主線。"
+            }
+          ],
+          "additional_frames": []
+        }
+      },
+      "1440": {
+        "page": {
+          "scores": [
+            19,
+            19,
+            19,
+            18,
+            9,
+            9
+          ],
+          "evidence": [
+            "共同 CLEAN 之下，較早的 S10 已完成與較晚的 R10 待執行有各自位置圖與結果券。",
+            "S10 已完成時 L023 標在 S20；後來在 R10 時需要新的 Visit，不把舊 Pass 當新證據。",
+            "底部明示 S10 #1 Pass 不等於 R10 #1 完成，結論要求流程版本、位置、Visit。",
+            "正文比較依 Operation 彙總工作量與依 Step/Visit 查特定歷程的用途和關聯成本。",
+            "手機兩時刻各自保留位置與結果，沒有無關 S40 印章打斷主線。 本次以 1440px 頁面內尺寸審查，標題、正文與自測另核對。",
+            "題目讓 Recipe 也相同，仍不能借用 Pass；解答容許正式申請免做但需新批准與替代證據。"
+          ],
+          "strengths": "正文比較依 Operation 彙總工作量與依 Step/Visit 查特定歷程的用途和關聯成本。",
+          "deductions": "位置／Visit 用短資料券表達，Recipe 的內部層級以正文接續，未在本图展開配方程序。 未取得真人理解與公司實際規則驗證，不當作學習成效證明。",
+          "vetoes": [],
+          "open_defects": [],
+          "reviewed_hash": "e6862accb198ac1f7a01bac5af55e0d3d99b55009479c1d3ad4b47f4c16a0b08",
+          "screenshot": "tests/evidence/mes-004/flow-step-1440-page.png"
+        },
+        "scene": {
+          "scores": [
+            24,
+            24,
+            19,
+            18,
+            9
+          ],
+          "evidence": [
+            "共同 CLEAN 之下，較早的 S10 已完成與較晚的 R10 待執行有各自位置圖與結果券。",
+            "S10 已完成時 L023 標在 S20；後來在 R10 時需要新的 Visit，不把舊 Pass 當新證據。",
+            "底部明示 S10 #1 Pass 不等於 R10 #1 完成，結論要求流程版本、位置、Visit。",
+            "手機兩時刻各自保留位置與結果，沒有無關 S40 印章打斷主線。 本次以 1440px 頁面內尺寸審查，標題、正文與自測另核對。",
+            "同一 Lot 的兩時刻明示，不同 occurrence 的結果券沒有被畫成可覆寫關係。"
+          ],
+          "strengths": "同作業在上、不同時刻在下，去掉與 CLEAN 例子無關的大印章。",
+          "deductions": "位置／Visit 用短資料券表達，Recipe 的內部層級以正文接續，未在本图展開配方程序。",
+          "vetoes": [],
+          "open_defects": [],
+          "reviewed_hash": "d6ab9d733c210420a695db245223e3dd4647000d662d7d8ddcc9166a2f52d9c3",
+          "screenshot": "tests/evidence/mes-004/flow-step-1440-scene.png",
+          "completion": [
+            {
+              "score": 8,
+              "reason": "同作業在上、不同時刻在下，去掉與 CLEAN 例子無關的大印章。"
+            },
+            {
+              "score": 9,
+              "reason": "底部明示 S10 #1 Pass 不等於 R10 #1 完成，結論要求流程版本、位置、Visit。"
+            },
+            {
+              "score": 9,
+              "reason": "同一 Lot 的兩時刻明示，不同 occurrence 的結果券沒有被畫成可覆寫關係。"
+            },
+            {
+              "score": 9,
+              "reason": "共同 CLEAN 之下，較早的 S10 已完成與較晚的 R10 待執行有各自位置圖與結果券。"
+            },
+            {
+              "score": 9,
+              "reason": "手機兩時刻各自保留位置與結果，沒有無關 S40 印章打斷主線。"
+            }
+          ],
+          "additional_frames": []
+        }
+      },
+      "id": "flow/step",
+      "url": "http://127.0.0.1:4175/flow.html#step",
+      "brief": "workitems/mes-004/BRIEFS.md",
+      "authoring_source": "course-remake.js"
+    },
+    {
+      "360": {
+        "page": {
+          "scores": [
+            19,
+            19,
+            19,
+            18,
+            9,
+            9
+          ],
+          "evidence": [
+            "F-DEMO v1 共用定義之下，L023 三片在 S40、L024 兩片在 S10，載具也不同。",
+            "兩批各有 FlowRef 與獨立 Current，定義不存其中任一批的進度。",
+            "黄色結論列產品、版本、起點及後續各自的狀態與 Visit；可依圖建立批次旅程。",
+            "正文與新題比較只更新承載關係和重新選流程；若產品也改，另核對資格而非無條件沿用。",
+            "桌面兩實例並列，手機每個實例完整保留版本／成員／位置，不需交叉找欄位。 本次以 360px 頁面與原生主圖審查，完整頁面另核對章節與自測。",
+            "新題從 F012 換 F018，且另一批留 F020；答案保存自身 Flow 和另一批的獨立進度。"
+          ],
+          "strengths": "正文與新題比較只更新承載關係和重新選流程；若產品也改，另核對資格而非無條件沿用。",
+          "deductions": "手機兩實例為避免小字而上下排列，跨實例比較有少量記憶負擔；不含實際 schema。 未取得真人理解與公司實際規則驗證，不當作學習成效證明。",
+          "vetoes": [],
+          "open_defects": [],
+          "reviewed_hash": "3be0886cd524dc5bdb4bcea620d3cc85fa94a891823e0ba1fabfbdb9ef2f47be",
+          "screenshot": "tests/evidence/mes-004/flow-lot-flow-360-page.png"
+        },
+        "scene": {
+          "scores": [
+            24,
+            24,
+            19,
+            17,
+            9
+          ],
+          "evidence": [
+            "F-DEMO v1 共用定義之下，L023 三片在 S40、L024 兩片在 S10，載具也不同。",
+            "兩批各有 FlowRef 與獨立 Current，定義不存其中任一批的進度。",
+            "黄色結論列產品、版本、起點及後續各自的狀態與 Visit；可依圖建立批次旅程。",
+            "桌面兩實例並列，手機每個實例完整保留版本／成員／位置，不需交叉找欄位。 本次以 360px 頁面與原生主圖審查，完整頁面另核對章節與自測。",
+            "L023 W06/07/08 與 L024 W21/22 沒有混用；移載具與改流程是不同責任。"
+          ],
+          "strengths": "一個定義對兩份旅程，藍與青邊線區分批次而不當作警報。",
+          "deductions": "手機兩實例為避免小字而上下排列，跨實例比較有少量記憶負擔；不含實際 schema。",
+          "vetoes": [],
+          "open_defects": [],
+          "reviewed_hash": "b2dcbcab65e44f458beaa55c43302a2c0e356fc5a4367271867e697be1b805e3",
+          "screenshot": "tests/evidence/mes-004/flow-lot-flow-360-scene.png",
+          "completion": [
+            {
+              "score": 8,
+              "reason": "一個定義對兩份旅程，藍與青邊線區分批次而不當作警報。"
+            },
+            {
+              "score": 9,
+              "reason": "黄色結論列產品、版本、起點及後續各自的狀態與 Visit；可依圖建立批次旅程。"
+            },
+            {
+              "score": 9,
+              "reason": "L023 W06/07/08 與 L024 W21/22 沒有混用；移載具與改流程是不同責任。"
+            },
+            {
+              "score": 9,
+              "reason": "F-DEMO v1 共用定義之下，L023 三片在 S40、L024 兩片在 S10，載具也不同。"
+            },
+            {
+              "score": 9,
+              "reason": "桌面兩實例並列，手機每個實例完整保留版本／成員／位置，不需交叉找欄位。"
+            }
+          ],
+          "additional_frames": []
+        }
+      },
+      "1440": {
+        "page": {
+          "scores": [
+            19,
+            19,
+            19,
+            18,
+            9,
+            9
+          ],
+          "evidence": [
+            "F-DEMO v1 共用定義之下，L023 三片在 S40、L024 兩片在 S10，載具也不同。",
+            "兩批各有 FlowRef 與獨立 Current，定義不存其中任一批的進度。",
+            "黄色結論列產品、版本、起點及後續各自的狀態與 Visit；可依圖建立批次旅程。",
+            "正文與新題比較只更新承載關係和重新選流程；若產品也改，另核對資格而非無條件沿用。",
+            "桌面兩實例並列，手機每個實例完整保留版本／成員／位置，不需交叉找欄位。 本次以 1440px 頁面內尺寸審查，標題、正文與自測另核對。",
+            "新題從 F012 換 F018，且另一批留 F020；答案保存自身 Flow 和另一批的獨立進度。"
+          ],
+          "strengths": "正文與新題比較只更新承載關係和重新選流程；若產品也改，另核對資格而非無條件沿用。",
+          "deductions": "手機兩實例為避免小字而上下排列，跨實例比較有少量記憶負擔；不含實際 schema。 未取得真人理解與公司實際規則驗證，不當作學習成效證明。",
+          "vetoes": [],
+          "open_defects": [],
+          "reviewed_hash": "f35d581092c8bdae7274df28ce4afbe92797e33f93d86a677ef81f83a27762dd",
+          "screenshot": "tests/evidence/mes-004/flow-lot-flow-1440-page.png"
+        },
+        "scene": {
+          "scores": [
+            24,
+            24,
+            19,
+            18,
+            9
+          ],
+          "evidence": [
+            "F-DEMO v1 共用定義之下，L023 三片在 S40、L024 兩片在 S10，載具也不同。",
+            "兩批各有 FlowRef 與獨立 Current，定義不存其中任一批的進度。",
+            "黄色結論列產品、版本、起點及後續各自的狀態與 Visit；可依圖建立批次旅程。",
+            "桌面兩實例並列，手機每個實例完整保留版本／成員／位置，不需交叉找欄位。 本次以 1440px 頁面內尺寸審查，標題、正文與自測另核對。",
+            "L023 W06/07/08 與 L024 W21/22 沒有混用；移載具與改流程是不同責任。"
+          ],
+          "strengths": "一個定義對兩份旅程，藍與青邊線區分批次而不當作警報。",
+          "deductions": "手機兩實例為避免小字而上下排列，跨實例比較有少量記憶負擔；不含實際 schema。",
+          "vetoes": [],
+          "open_defects": [],
+          "reviewed_hash": "3be8a9a4d08ee80c58603873b2d75a1a21f7d04770a118494a2154e1b2246fa4",
+          "screenshot": "tests/evidence/mes-004/flow-lot-flow-1440-scene.png",
+          "completion": [
+            {
+              "score": 8,
+              "reason": "一個定義對兩份旅程，藍與青邊線區分批次而不當作警報。"
+            },
+            {
+              "score": 9,
+              "reason": "黄色結論列產品、版本、起點及後續各自的狀態與 Visit；可依圖建立批次旅程。"
+            },
+            {
+              "score": 9,
+              "reason": "L023 W06/07/08 與 L024 W21/22 沒有混用；移載具與改流程是不同責任。"
+            },
+            {
+              "score": 9,
+              "reason": "F-DEMO v1 共用定義之下，L023 三片在 S40、L024 兩片在 S10，載具也不同。"
+            },
+            {
+              "score": 9,
+              "reason": "桌面兩實例並列，手機每個實例完整保留版本／成員／位置，不需交叉找欄位。"
+            }
+          ],
+          "additional_frames": []
+        }
+      },
+      "id": "flow/lot-flow",
+      "url": "http://127.0.0.1:4175/flow.html#lot-flow",
+      "brief": "workitems/mes-004/BRIEFS.md",
+      "authoring_source": "course-remake.js"
+    },
+    {
+      "360": {
+        "page": {
+          "scores": [
+            19,
+            19,
+            19,
+            18,
+            9,
+            9
+          ],
+          "evidence": [
+            "四個快照保存同一 F-DEMO v1 路徑，L023 從 S40 等待／加工到資料缺漏，最後到 S50。",
+            "Current 在開工時不移動；只有 W08 結果齊全和完成券出現後才變為 S50。",
+            "圖中黃色結論區分狀態與位置，最後快照的三片券與 S40 Visit 結果支持推進。",
+            "正文／逾時題比較查同一 Visit 提交結果與重送製程，說明重複加工代價。",
+            "桌面短路段左右，手機沿垂直路徑逐站讀；四個時刻控制可鍵盤切換。 本次以 360px 頁面與原生主圖審查，完整頁面另核對章節與自測。",
+            "新題讓 MES 回覆逾時但機台已做，要求先查交易結果而非由畫面推斷未加工。"
+          ],
+          "strengths": "正文／逾時題比較查同一 Visit 提交結果與重送製程，說明重複加工代價。",
+          "deductions": "單一初始快照不包含全部變化，主圖評價含四個已實看／操作的快照；非靜態初圖獨立完成全部故事。 未取得真人理解與公司實際規則驗證，不當作學習成效證明。",
+          "vetoes": [],
+          "open_defects": [],
+          "reviewed_hash": "790438726e644fdc371a22e7c09e65f7aac8fc99dc862af38e0358523447848d",
+          "screenshot": "tests/evidence/mes-004/flow-execution-360-page.png"
+        },
+        "scene": {
+          "scores": [
+            24,
+            24,
+            19,
+            18,
+            9
+          ],
+          "evidence": [
+            "四個快照保存同一 F-DEMO v1 路徑，L023 從 S40 等待／加工到資料缺漏，最後到 S50。",
+            "Current 在開工時不移動；只有 W08 結果齊全和完成券出現後才變為 S50。",
+            "圖中黃色結論區分狀態與位置，最後快照的三片券與 S40 Visit 結果支持推進。",
+            "桌面短路段左右，手機沿垂直路徑逐站讀；四個時刻控制可鍵盤切換。 本次以 360px 頁面與原生主圖審查，完整頁面另核對章節與自測。",
+            "快照 0–3 分別保留同一批和同一站歷程，不以其他批的資料補足完成。"
+          ],
+          "strengths": "固定路徑對照可移動藍標，資料券與 Current 的變化有一致視線順序。",
+          "deductions": "單一初始快照不包含全部變化，主圖評價含四個已實看／操作的快照；非靜態初圖獨立完成全部故事。",
+          "vetoes": [],
+          "open_defects": [],
+          "reviewed_hash": "d0e40569b741fa82bbcbfd92810a3aa930e350fe8068caeb45ad4fa131dd5b02",
+          "screenshot": "tests/evidence/mes-004/flow-execution-360-scene.png",
+          "completion": [
+            {
+              "score": 8,
+              "reason": "固定路徑對照可移動藍標，資料券與 Current 的變化有一致視線順序。"
+            },
+            {
+              "score": 9,
+              "reason": "圖中黃色結論區分狀態與位置，最後快照的三片券與 S40 Visit 結果支持推進。"
+            },
+            {
+              "score": 9,
+              "reason": "快照 0–3 分別保留同一批和同一站歷程，不以其他批的資料補足完成。"
+            },
+            {
+              "score": 9,
+              "reason": "四個快照保存同一 F-DEMO v1 路徑，L023 從 S40 等待／加工到資料缺漏，最後到 S50。"
+            },
+            {
+              "score": 9,
+              "reason": "桌面短路段左右，手機沿垂直路徑逐站讀；四個時刻控制可鍵盤切換。"
+            }
+          ],
+          "additional_frames": [
+            {
+              "path": "tests/evidence/mes-004/flow-execution-frame0-360.png",
+              "sha256": "d0e40569b741fa82bbcbfd92810a3aa930e350fe8068caeb45ad4fa131dd5b02"
+            },
+            {
+              "path": "tests/evidence/mes-004/flow-execution-frame1-360.png",
+              "sha256": "b0f0ceba5525bfd6825c35176633574759be99ed792dcbf0626b3dead94a22e3"
+            },
+            {
+              "path": "tests/evidence/mes-004/flow-execution-frame2-360.png",
+              "sha256": "86359430332b5681f476fb0b00a4b97f1c10208af4025d05342aa776068d9d60"
+            },
+            {
+              "path": "tests/evidence/mes-004/flow-execution-frame3-360.png",
+              "sha256": "8b12238c0bbc92e9cff066f413331a97b88d4cc2ec5abf7cdac0c713a95995d1"
+            }
+          ]
+        }
+      },
+      "1440": {
+        "page": {
+          "scores": [
+            19,
+            19,
+            19,
+            18,
+            9,
+            9
+          ],
+          "evidence": [
+            "四個快照保存同一 F-DEMO v1 路徑，L023 從 S40 等待／加工到資料缺漏，最後到 S50。",
+            "Current 在開工時不移動；只有 W08 結果齊全和完成券出現後才變為 S50。",
+            "圖中黃色結論區分狀態與位置，最後快照的三片券與 S40 Visit 結果支持推進。",
+            "正文／逾時題比較查同一 Visit 提交結果與重送製程，說明重複加工代價。",
+            "桌面短路段左右，手機沿垂直路徑逐站讀；四個時刻控制可鍵盤切換。 本次以 1440px 頁面內尺寸審查，標題、正文與自測另核對。",
+            "新題讓 MES 回覆逾時但機台已做，要求先查交易結果而非由畫面推斷未加工。"
+          ],
+          "strengths": "正文／逾時題比較查同一 Visit 提交結果與重送製程，說明重複加工代價。",
+          "deductions": "單一初始快照不包含全部變化，主圖評價含四個已實看／操作的快照；非靜態初圖獨立完成全部故事。 未取得真人理解與公司實際規則驗證，不當作學習成效證明。",
+          "vetoes": [],
+          "open_defects": [],
+          "reviewed_hash": "c264017e6dd71518d3b1b25607cc809e0319b76ccb459e3747aec79fe151a17b",
+          "screenshot": "tests/evidence/mes-004/flow-execution-1440-page.png"
+        },
+        "scene": {
+          "scores": [
+            24,
+            24,
+            19,
+            18,
+            9
+          ],
+          "evidence": [
+            "四個快照保存同一 F-DEMO v1 路徑，L023 從 S40 等待／加工到資料缺漏，最後到 S50。",
+            "Current 在開工時不移動；只有 W08 結果齊全和完成券出現後才變為 S50。",
+            "圖中黃色結論區分狀態與位置，最後快照的三片券與 S40 Visit 結果支持推進。",
+            "桌面短路段左右，手機沿垂直路徑逐站讀；四個時刻控制可鍵盤切換。 本次以 1440px 頁面內尺寸審查，標題、正文與自測另核對。",
+            "快照 0–3 分別保留同一批和同一站歷程，不以其他批的資料補足完成。"
+          ],
+          "strengths": "固定路徑對照可移動藍標，資料券與 Current 的變化有一致視線順序。",
+          "deductions": "單一初始快照不包含全部變化，主圖評價含四個已實看／操作的快照；非靜態初圖獨立完成全部故事。",
+          "vetoes": [],
+          "open_defects": [],
+          "reviewed_hash": "18704c1395a3ca25cbcc2bae554b5740a932089552e798b48ec4b54a804c5a19",
+          "screenshot": "tests/evidence/mes-004/flow-execution-1440-scene.png",
+          "completion": [
+            {
+              "score": 8,
+              "reason": "固定路徑對照可移動藍標，資料券與 Current 的變化有一致視線順序。"
+            },
+            {
+              "score": 9,
+              "reason": "圖中黃色結論區分狀態與位置，最後快照的三片券與 S40 Visit 結果支持推進。"
+            },
+            {
+              "score": 9,
+              "reason": "快照 0–3 分別保留同一批和同一站歷程，不以其他批的資料補足完成。"
+            },
+            {
+              "score": 9,
+              "reason": "四個快照保存同一 F-DEMO v1 路徑，L023 從 S40 等待／加工到資料缺漏，最後到 S50。"
+            },
+            {
+              "score": 9,
+              "reason": "桌面短路段左右，手機沿垂直路徑逐站讀；四個時刻控制可鍵盤切換。"
+            }
+          ],
+          "additional_frames": [
+            {
+              "path": "tests/evidence/mes-004/flow-execution-frame0-1440.png",
+              "sha256": "18704c1395a3ca25cbcc2bae554b5740a932089552e798b48ec4b54a804c5a19"
+            },
+            {
+              "path": "tests/evidence/mes-004/flow-execution-frame1-1440.png",
+              "sha256": "be3eeb7ceb902d649b9028369502bebf7ffd2afa38f68c292564c5cda51bd66e"
+            },
+            {
+              "path": "tests/evidence/mes-004/flow-execution-frame2-1440.png",
+              "sha256": "bb5f6433f5bff51f3357165aaf123d3e1f503eda870e59f0ec60eb14ef6aa056"
+            },
+            {
+              "path": "tests/evidence/mes-004/flow-execution-frame3-1440.png",
+              "sha256": "44a422858dfb6c4d6fe88f050097638b1cb6df682a031439c7920da81bc9a609"
+            }
+          ]
+        }
+      },
+      "id": "flow/execution",
+      "url": "http://127.0.0.1:4175/flow.html#execution",
+      "brief": "workitems/mes-004/BRIEFS.md",
+      "authoring_source": "course-remake.js"
+    },
+    {
+      "360": {
+        "page": {
+          "scores": [
+            19,
+            19,
+            19,
+            18,
+            9,
+            9
+          ],
+          "evidence": [
+            "98–102 的允收帶內有 100，帶外有 105，另列沒有有效數值的情況。",
+            "三分支先檢查有效完整，再區分值內／值外；缺值不被當作第三種測量值。",
+            "合格指向 S60，不合格留 S50 Hold，缺值則留 S50 補查，處置責任不同。",
+            "正文區分查傳輸／重測與有效不合格工程評估；新題說明重測增加等待但取得有效證據。",
+            "桌面共用來源分出三支；手機每支重申條件來源，保持條件與去向成對。 本次以 360px 頁面與原生主圖審查，完整頁面另核對章節與自測。",
+            "值剛好102但校驗過期的題目，要求先查結果有效性，避免只背區間。"
+          ],
+          "strengths": "正文區分查傳輸／重測與有效不合格工程評估；新題說明重測增加等待但取得有效證據。",
+          "deductions": "刻度是抽象判斷值，未畫量測器物理；三種去向仍需要讀短句才能判斷處置責任。 未取得真人理解與公司實際規則驗證，不當作學習成效證明。",
+          "vetoes": [],
+          "open_defects": [],
+          "reviewed_hash": "3eedfad00a2d68e9a116219dfca08bcc4b900d47aa4386110da1d1e9942a5f54",
+          "screenshot": "tests/evidence/mes-004/flow-branching-360-page.png"
+        },
+        "scene": {
+          "scores": [
+            24,
+            24,
+            19,
+            18,
+            9
+          ],
+          "evidence": [
+            "98–102 的允收帶內有 100，帶外有 105，另列沒有有效數值的情況。",
+            "三分支先檢查有效完整，再區分值內／值外；缺值不被當作第三種測量值。",
+            "合格指向 S60，不合格留 S50 Hold，缺值則留 S50 補查，處置責任不同。",
+            "桌面共用來源分出三支；手機每支重申條件來源，保持條件與去向成對。 本次以 360px 頁面與原生主圖審查，完整頁面另核對章節與自測。",
+            "98、100、102、105 使用相同線性比例；圖明示純教學值，不宣稱實廠門檻。"
+          ],
+          "strengths": "同一允收帶配三條條件出口，沒有用幾乎相同的晶圓外觀假造測量品質差異。",
+          "deductions": "刻度是抽象判斷值，未畫量測器物理；三種去向仍需要讀短句才能判斷處置責任。",
+          "vetoes": [],
+          "open_defects": [],
+          "reviewed_hash": "61d962c8feb00a6381d7956ca2f6fa50d86560efecda81a52a83d28e340150bb",
+          "screenshot": "tests/evidence/mes-004/flow-branching-360-scene.png",
+          "completion": [
+            {
+              "score": 8,
+              "reason": "同一允收帶配三條條件出口，沒有用幾乎相同的晶圓外觀假造測量品質差異。"
+            },
+            {
+              "score": 9,
+              "reason": "合格指向 S60，不合格留 S50 Hold，缺值則留 S50 補查，處置責任不同。"
+            },
+            {
+              "score": 9,
+              "reason": "98、100、102、105 使用相同線性比例；圖明示純教學值，不宣稱實廠門檻。"
+            },
+            {
+              "score": 9,
+              "reason": "98–102 的允收帶內有 100，帶外有 105，另列沒有有效數值的情況。"
+            },
+            {
+              "score": 9,
+              "reason": "桌面共用來源分出三支；手機每支重申條件來源，保持條件與去向成對。"
+            }
+          ],
+          "additional_frames": []
+        }
+      },
+      "1440": {
+        "page": {
+          "scores": [
+            19,
+            19,
+            19,
+            18,
+            9,
+            9
+          ],
+          "evidence": [
+            "98–102 的允收帶內有 100，帶外有 105，另列沒有有效數值的情況。",
+            "三分支先檢查有效完整，再區分值內／值外；缺值不被當作第三種測量值。",
+            "合格指向 S60，不合格留 S50 Hold，缺值則留 S50 補查，處置責任不同。",
+            "正文區分查傳輸／重測與有效不合格工程評估；新題說明重測增加等待但取得有效證據。",
+            "桌面共用來源分出三支；手機每支重申條件來源，保持條件與去向成對。 本次以 1440px 頁面內尺寸審查，標題、正文與自測另核對。",
+            "值剛好102但校驗過期的題目，要求先查結果有效性，避免只背區間。"
+          ],
+          "strengths": "正文區分查傳輸／重測與有效不合格工程評估；新題說明重測增加等待但取得有效證據。",
+          "deductions": "刻度是抽象判斷值，未畫量測器物理；三種去向仍需要讀短句才能判斷處置責任。 未取得真人理解與公司實際規則驗證，不當作學習成效證明。",
+          "vetoes": [],
+          "open_defects": [],
+          "reviewed_hash": "190842d2fddfe391cd65bd187c57278bf62334610fa95e41ae0b186255b904c9",
+          "screenshot": "tests/evidence/mes-004/flow-branching-1440-page.png"
+        },
+        "scene": {
+          "scores": [
+            24,
+            24,
+            19,
+            18,
+            9
+          ],
+          "evidence": [
+            "98–102 的允收帶內有 100，帶外有 105，另列沒有有效數值的情況。",
+            "三分支先檢查有效完整，再區分值內／值外；缺值不被當作第三種測量值。",
+            "合格指向 S60，不合格留 S50 Hold，缺值則留 S50 補查，處置責任不同。",
+            "桌面共用來源分出三支；手機每支重申條件來源，保持條件與去向成對。 本次以 1440px 頁面內尺寸審查，標題、正文與自測另核對。",
+            "98、100、102、105 使用相同線性比例；圖明示純教學值，不宣稱實廠門檻。"
+          ],
+          "strengths": "同一允收帶配三條條件出口，沒有用幾乎相同的晶圓外觀假造測量品質差異。",
+          "deductions": "刻度是抽象判斷值，未畫量測器物理；三種去向仍需要讀短句才能判斷處置責任。",
+          "vetoes": [],
+          "open_defects": [],
+          "reviewed_hash": "41908c35edb1eb5984aa03ccdd1cdbec23ffebe42b1356883496af836a1dcb2d",
+          "screenshot": "tests/evidence/mes-004/flow-branching-1440-scene.png",
+          "completion": [
+            {
+              "score": 8,
+              "reason": "同一允收帶配三條條件出口，沒有用幾乎相同的晶圓外觀假造測量品質差異。"
+            },
+            {
+              "score": 9,
+              "reason": "合格指向 S60，不合格留 S50 Hold，缺值則留 S50 補查，處置責任不同。"
+            },
+            {
+              "score": 9,
+              "reason": "98、100、102、105 使用相同線性比例；圖明示純教學值，不宣稱實廠門檻。"
+            },
+            {
+              "score": 9,
+              "reason": "98–102 的允收帶內有 100，帶外有 105，另列沒有有效數值的情況。"
+            },
+            {
+              "score": 9,
+              "reason": "桌面共用來源分出三支；手機每支重申條件來源，保持條件與去向成對。"
+            }
+          ],
+          "additional_frames": []
+        }
+      },
+      "id": "flow/branching",
+      "url": "http://127.0.0.1:4175/flow.html#branching",
+      "brief": "workitems/mes-004/BRIEFS.md",
+      "authoring_source": "course-remake.js"
+    },
+    {
+      "360": {
+        "page": {
+          "scores": [
+            19,
+            19,
+            19,
+            18,
+            9,
+            9
+          ],
+          "evidence": [
+            "L023 的 S50 #1 Fail、核准 RW-001/R10、返回 S50 #2 與兩種結果同時可見。",
+            "返回線指定位置與一次限制；兩出口都保留 #1 Fail，新增 #2 Pass 或 Fail。",
+            "成功去 S60，再失敗則停止迴圈交工程處置；不會重設批准次數。",
+            "新題比較再跑同一重工與新工程處置，說明急件不能擴張批准範圍及多加工風險。",
+            "手機結果改為兩個完整區塊，較窄雙欄已撤換；返回點與 Visit 標籤不被裁切。 本次以 360px 頁面與原生主圖審查，完整頁面另核對章節與自測。",
+            "已用完一次重工且複測仍 Fail，需要新的處置依據，不能把次數歸零。"
+          ],
+          "strengths": "新題比較再跑同一重工與新工程處置，說明急件不能擴張批准範圍及多加工風險。",
+          "deductions": "手機返回關係以弧線與明示文字表達，沒有跨長頁回拉實線；設備加工物理不在本圖責任。 未取得真人理解與公司實際規則驗證，不當作學習成效證明。",
+          "vetoes": [],
+          "open_defects": [],
+          "reviewed_hash": "7871963f91e7dbb412d96419536e565f4a1570f94146fac85495fd9bbf1b497a",
+          "screenshot": "tests/evidence/mes-004/flow-rework-360-page.png"
+        },
+        "scene": {
+          "scores": [
+            24,
+            24,
+            19,
+            18,
+            9
+          ],
+          "evidence": [
+            "L023 的 S50 #1 Fail、核准 RW-001/R10、返回 S50 #2 與兩種結果同時可見。",
+            "返回線指定位置與一次限制；兩出口都保留 #1 Fail，新增 #2 Pass 或 Fail。",
+            "成功去 S60，再失敗則停止迴圈交工程處置；不會重設批准次數。",
+            "手機結果改為兩個完整區塊，較窄雙欄已撤換；返回點與 Visit 標籤不被裁切。 本次以 360px 頁面與原生主圖審查，完整頁面另核對章節與自測。",
+            "原失敗不消失、W08 保持同一 ID；本例只教重工路徑，不聲稱清洗修復任何缺陷。"
+          ],
+          "strengths": "返回弧線與兩份結果券突出新增歷程，失敗紅色沒有隨成功被抹去。",
+          "deductions": "手機返回關係以弧線與明示文字表達，沒有跨長頁回拉實線；設備加工物理不在本圖責任。",
+          "vetoes": [],
+          "open_defects": [],
+          "reviewed_hash": "88e4b3ee16988e969c419ba76d8e78a501d16f8e2e6e33264149bdc0b08b6bc4",
+          "screenshot": "tests/evidence/mes-004/flow-rework-360-scene.png",
+          "completion": [
+            {
+              "score": 8,
+              "reason": "返回弧線與兩份結果券突出新增歷程，失敗紅色沒有隨成功被抹去。"
+            },
+            {
+              "score": 9,
+              "reason": "成功去 S60，再失敗則停止迴圈交工程處置；不會重設批准次數。"
+            },
+            {
+              "score": 9,
+              "reason": "原失敗不消失、W08 保持同一 ID；本例只教重工路徑，不聲稱清洗修復任何缺陷。"
+            },
+            {
+              "score": 9,
+              "reason": "L023 的 S50 #1 Fail、核准 RW-001/R10、返回 S50 #2 與兩種結果同時可見。"
+            },
+            {
+              "score": 9,
+              "reason": "手機結果改為兩個完整區塊，較窄雙欄已撤換；返回點與 Visit 標籤不被裁切。"
+            }
+          ],
+          "additional_frames": []
+        }
+      },
+      "1440": {
+        "page": {
+          "scores": [
+            19,
+            19,
+            19,
+            18,
+            9,
+            9
+          ],
+          "evidence": [
+            "L023 的 S50 #1 Fail、核准 RW-001/R10、返回 S50 #2 與兩種結果同時可見。",
+            "返回線指定位置與一次限制；兩出口都保留 #1 Fail，新增 #2 Pass 或 Fail。",
+            "成功去 S60，再失敗則停止迴圈交工程處置；不會重設批准次數。",
+            "新題比較再跑同一重工與新工程處置，說明急件不能擴張批准範圍及多加工風險。",
+            "手機結果改為兩個完整區塊，較窄雙欄已撤換；返回點與 Visit 標籤不被裁切。 本次以 1440px 頁面內尺寸審查，標題、正文與自測另核對。",
+            "已用完一次重工且複測仍 Fail，需要新的處置依據，不能把次數歸零。"
+          ],
+          "strengths": "新題比較再跑同一重工與新工程處置，說明急件不能擴張批准範圍及多加工風險。",
+          "deductions": "手機返回關係以弧線與明示文字表達，沒有跨長頁回拉實線；設備加工物理不在本圖責任。 未取得真人理解與公司實際規則驗證，不當作學習成效證明。",
+          "vetoes": [],
+          "open_defects": [],
+          "reviewed_hash": "5ca372457f188e5303ffe820c6fd9112d14de1b084c3d9d2713633fd310a3b1d",
+          "screenshot": "tests/evidence/mes-004/flow-rework-1440-page.png"
+        },
+        "scene": {
+          "scores": [
+            24,
+            24,
+            19,
+            18,
+            9
+          ],
+          "evidence": [
+            "L023 的 S50 #1 Fail、核准 RW-001/R10、返回 S50 #2 與兩種結果同時可見。",
+            "返回線指定位置與一次限制；兩出口都保留 #1 Fail，新增 #2 Pass 或 Fail。",
+            "成功去 S60，再失敗則停止迴圈交工程處置；不會重設批准次數。",
+            "手機結果改為兩個完整區塊，較窄雙欄已撤換；返回點與 Visit 標籤不被裁切。 本次以 1440px 頁面內尺寸審查，標題、正文與自測另核對。",
+            "原失敗不消失、W08 保持同一 ID；本例只教重工路徑，不聲稱清洗修復任何缺陷。"
+          ],
+          "strengths": "返回弧線與兩份結果券突出新增歷程，失敗紅色沒有隨成功被抹去。",
+          "deductions": "手機返回關係以弧線與明示文字表達，沒有跨長頁回拉實線；設備加工物理不在本圖責任。",
+          "vetoes": [],
+          "open_defects": [],
+          "reviewed_hash": "fe0fbf575957299211fcc5ffe6a359a722abf7bfe72db9151837f5b369a9e9f9",
+          "screenshot": "tests/evidence/mes-004/flow-rework-1440-scene.png",
+          "completion": [
+            {
+              "score": 8,
+              "reason": "返回弧線與兩份結果券突出新增歷程，失敗紅色沒有隨成功被抹去。"
+            },
+            {
+              "score": 9,
+              "reason": "成功去 S60，再失敗則停止迴圈交工程處置；不會重設批准次數。"
+            },
+            {
+              "score": 9,
+              "reason": "原失敗不消失、W08 保持同一 ID；本例只教重工路徑，不聲稱清洗修復任何缺陷。"
+            },
+            {
+              "score": 9,
+              "reason": "L023 的 S50 #1 Fail、核准 RW-001/R10、返回 S50 #2 與兩種結果同時可見。"
+            },
+            {
+              "score": 9,
+              "reason": "手機結果改為兩個完整區塊，較窄雙欄已撤換；返回點與 Visit 標籤不被裁切。"
+            }
+          ],
+          "additional_frames": []
+        }
+      },
+      "id": "flow/rework",
+      "url": "http://127.0.0.1:4175/flow.html#rework",
+      "brief": "workitems/mes-004/BRIEFS.md",
+      "authoring_source": "course-remake.js"
+    },
+    {
+      "360": {
+        "page": {
+          "scores": [
+            19,
+            19,
+            19,
+            19,
+            9,
+            9
+          ],
+          "evidence": [
+            "父批三片與子批 A 兩片、B 一片逐一對應，父批標為歷史而非活躍成員。",
+            "B 在 R10 時合批門為拒絕；切換 B 回 S50 後才可以比較其他合批條件。",
+            "黄色結論要求成員、版本、位置、狀態與限制，正文解釋合後 L023-M 仍可追溯。",
+            "正文比較整批等待節省管理成本與異常片分流避免其他片等待，後者需譜系與合批資格。",
+            "手機保留 2+1 成員對照而不縮成不可讀表格，父子連線與批名在同一区。 本次以 360px 頁面與原生主圖審查，完整頁面另核對章節與自測。",
+            "位置相同但 B 還有 Hold 的新題，要求保留限制；替代合批規則必須正式核准並定義繼承。"
+          ],
+          "strengths": "正文比較整批等待節省管理成本與異常片分流避免其他片等待，後者需譜系與合批資格。",
+          "deductions": "合批後的完整載具位置變更未展開；本圖只涵蓋管理身分與資格，物理移片另有流程。 未取得真人理解與公司實際規則驗證，不當作學習成效證明。",
+          "vetoes": [],
+          "open_defects": [],
+          "reviewed_hash": "fea0be81e97ec2feac31d86ea12c4b8638e45562b73cbeaa062f320e0a2b18ae",
+          "screenshot": "tests/evidence/mes-004/flow-split-merge-360-page.png"
+        },
+        "scene": {
+          "scores": [
+            24,
+            24,
+            19,
+            18,
+            9
+          ],
+          "evidence": [
+            "父批三片與子批 A 兩片、B 一片逐一對應，父批標為歷史而非活躍成員。",
+            "B 在 R10 時合批門為拒絕；切換 B 回 S50 後才可以比較其他合批條件。",
+            "黄色結論要求成員、版本、位置、狀態與限制，正文解釋合後 L023-M 仍可追溯。",
+            "手機保留 2+1 成員對照而不縮成不可讀表格，父子連線與批名在同一区。 本次以 360px 頁面與原生主圖審查，完整頁面另核對章節與自測。",
+            "W06/W07/W08 無重複；2+1=3，父批的歷史不多計三片。"
+          ],
+          "strengths": "同一組晶圓沿父子關係分成 2+1，進度門由橘色轉綠色有實際條件依據。",
+          "deductions": "合批後的完整載具位置變更未展開；本圖只涵蓋管理身分與資格，物理移片另有流程。",
+          "vetoes": [],
+          "open_defects": [],
+          "reviewed_hash": "a40341357b6adf6d56a6771e0bbcf29e444cd15c4d3139e5adb424cd273d7ff2",
+          "screenshot": "tests/evidence/mes-004/flow-split-merge-360-scene.png",
+          "completion": [
+            {
+              "score": 8,
+              "reason": "同一組晶圓沿父子關係分成 2+1，進度門由橘色轉綠色有實際條件依據。"
+            },
+            {
+              "score": 9,
+              "reason": "黄色結論要求成員、版本、位置、狀態與限制，正文解釋合後 L023-M 仍可追溯。"
+            },
+            {
+              "score": 9,
+              "reason": "W06/W07/W08 無重複；2+1=3，父批的歷史不多計三片。"
+            },
+            {
+              "score": 9,
+              "reason": "父批三片與子批 A 兩片、B 一片逐一對應，父批標為歷史而非活躍成員。"
+            },
+            {
+              "score": 9,
+              "reason": "手機保留 2+1 成員對照而不縮成不可讀表格，父子連線與批名在同一区。"
+            }
+          ],
+          "additional_frames": [
+            {
+              "path": "tests/evidence/mes-004/flow-split-merge-frame0-360.png",
+              "sha256": "a40341357b6adf6d56a6771e0bbcf29e444cd15c4d3139e5adb424cd273d7ff2"
+            },
+            {
+              "path": "tests/evidence/mes-004/flow-split-merge-frame1-360.png",
+              "sha256": "e2e8e1ba78a7a3cb8e7b3abd99723ff1a49e591e2d8be19d8f03203d28ba04ff"
+            }
+          ]
+        }
+      },
+      "1440": {
+        "page": {
+          "scores": [
+            19,
+            19,
+            19,
+            19,
+            9,
+            9
+          ],
+          "evidence": [
+            "父批三片與子批 A 兩片、B 一片逐一對應，父批標為歷史而非活躍成員。",
+            "B 在 R10 時合批門為拒絕；切換 B 回 S50 後才可以比較其他合批條件。",
+            "黄色結論要求成員、版本、位置、狀態與限制，正文解釋合後 L023-M 仍可追溯。",
+            "正文比較整批等待節省管理成本與異常片分流避免其他片等待，後者需譜系與合批資格。",
+            "手機保留 2+1 成員對照而不縮成不可讀表格，父子連線與批名在同一区。 本次以 1440px 頁面內尺寸審查，標題、正文與自測另核對。",
+            "位置相同但 B 還有 Hold 的新題，要求保留限制；替代合批規則必須正式核准並定義繼承。"
+          ],
+          "strengths": "正文比較整批等待節省管理成本與異常片分流避免其他片等待，後者需譜系與合批資格。",
+          "deductions": "合批後的完整載具位置變更未展開；本圖只涵蓋管理身分與資格，物理移片另有流程。 未取得真人理解與公司實際規則驗證，不當作學習成效證明。",
+          "vetoes": [],
+          "open_defects": [],
+          "reviewed_hash": "a2cc9021b9d114d62b86c08f5e56acd1fe48e677ab6b00993bd2fc54a9bb19fc",
+          "screenshot": "tests/evidence/mes-004/flow-split-merge-1440-page.png"
+        },
+        "scene": {
+          "scores": [
+            24,
+            24,
+            19,
+            18,
+            9
+          ],
+          "evidence": [
+            "父批三片與子批 A 兩片、B 一片逐一對應，父批標為歷史而非活躍成員。",
+            "B 在 R10 時合批門為拒絕；切換 B 回 S50 後才可以比較其他合批條件。",
+            "黄色結論要求成員、版本、位置、狀態與限制，正文解釋合後 L023-M 仍可追溯。",
+            "手機保留 2+1 成員對照而不縮成不可讀表格，父子連線與批名在同一区。 本次以 1440px 頁面內尺寸審查，標題、正文與自測另核對。",
+            "W06/W07/W08 無重複；2+1=3，父批的歷史不多計三片。"
+          ],
+          "strengths": "同一組晶圓沿父子關係分成 2+1，進度門由橘色轉綠色有實際條件依據。",
+          "deductions": "合批後的完整載具位置變更未展開；本圖只涵蓋管理身分與資格，物理移片另有流程。",
+          "vetoes": [],
+          "open_defects": [],
+          "reviewed_hash": "9dc3917573e499d5251c39aeb64e350e6d2dee624e2dd459e835928f85b41d00",
+          "screenshot": "tests/evidence/mes-004/flow-split-merge-1440-scene.png",
+          "completion": [
+            {
+              "score": 8,
+              "reason": "同一組晶圓沿父子關係分成 2+1，進度門由橘色轉綠色有實際條件依據。"
+            },
+            {
+              "score": 9,
+              "reason": "黄色結論要求成員、版本、位置、狀態與限制，正文解釋合後 L023-M 仍可追溯。"
+            },
+            {
+              "score": 9,
+              "reason": "W06/W07/W08 無重複；2+1=3，父批的歷史不多計三片。"
+            },
+            {
+              "score": 9,
+              "reason": "父批三片與子批 A 兩片、B 一片逐一對應，父批標為歷史而非活躍成員。"
+            },
+            {
+              "score": 9,
+              "reason": "手機保留 2+1 成員對照而不縮成不可讀表格，父子連線與批名在同一区。"
+            }
+          ],
+          "additional_frames": [
+            {
+              "path": "tests/evidence/mes-004/flow-split-merge-frame0-1440.png",
+              "sha256": "9dc3917573e499d5251c39aeb64e350e6d2dee624e2dd459e835928f85b41d00"
+            },
+            {
+              "path": "tests/evidence/mes-004/flow-split-merge-frame1-1440.png",
+              "sha256": "deca88643645ff0b7e24a838dcf1564004630330331571c34cf8d7c907e85276"
+            }
+          ]
+        }
+      },
+      "id": "flow/split-merge",
+      "url": "http://127.0.0.1:4175/flow.html#split-merge",
+      "brief": "workitems/mes-004/BRIEFS.md",
+      "authoring_source": "course-remake.js"
+    },
+    {
+      "360": {
+        "page": {
+          "scores": [
+            19,
+            19,
+            19,
+            19,
+            9,
+            9
+          ],
+          "evidence": [
+            "v1 在 S40 後直接接 S50，v2 實際插入 S45；L023 的兩時刻位置分別標出。",
+            "明示批准 v1/S50→v2/S45 的映射，前提是 S40 已完且需補新檢查。",
+            "原版本歷程保留、v2 新參照與批准分列，結論要求特定 Lot 的遷移交易。",
+            "正文比較維持舊版避免突然變更與品質必要時主動盤點遷移；新增確認要處理等效性與補做成本。",
+            "桌面兩條路可直接比，手機各自直向展開，S45 插入點與批准說明完整。 本次以 360px 頁面與原生主圖審查，完整頁面另核對章節與自測。",
+            "新版新增必做品質項的題目，解答要求盤點受影響 WIP，再依各批位置處置。"
+          ],
+          "strengths": "正文比較維持舊版避免突然變更與品質必要時主動盤點遷移；新增確認要處理等效性與補做成本。",
+          "deductions": "手機兩路需上下比較，批准映射文字減少搜尋但仍有捲動負擔；沒有演示所有位置的遷移政策。 未取得真人理解與公司實際規則驗證，不當作學習成效證明。",
+          "vetoes": [],
+          "open_defects": [],
+          "reviewed_hash": "deb0336a36f1c5206eec62df32fa719f1a66dcf4dca4e97f420a3a96efc90d4b",
+          "screenshot": "tests/evidence/mes-004/flow-versions-360-page.png"
+        },
+        "scene": {
+          "scores": [
+            24,
+            24,
+            19,
+            17,
+            9
+          ],
+          "evidence": [
+            "v1 在 S40 後直接接 S50，v2 實際插入 S45；L023 的兩時刻位置分別標出。",
+            "明示批准 v1/S50→v2/S45 的映射，前提是 S40 已完且需補新檢查。",
+            "原版本歷程保留、v2 新參照與批准分列，結論要求特定 Lot 的遷移交易。",
+            "桌面兩條路可直接比，手機各自直向展開，S45 插入點與批准說明完整。 本次以 360px 頁面與原生主圖審查，完整頁面另核對章節與自測。",
+            "沒有把發布視為自動遷移，第二路清楚標另一時刻；新批 L024 仍從 S10 開始。"
+          ],
+          "strengths": "相同舊站保持同順序，只有 S45 插入造成可見差異，批准條帶指明跨版本位置。",
+          "deductions": "手機兩路需上下比較，批准映射文字減少搜尋但仍有捲動負擔；沒有演示所有位置的遷移政策。",
+          "vetoes": [],
+          "open_defects": [],
+          "reviewed_hash": "e9d1a31105a9261a4bacecb53028f6ebfb4ad47261b05672fc4d571967a5864e",
+          "screenshot": "tests/evidence/mes-004/flow-versions-360-scene.png",
+          "completion": [
+            {
+              "score": 8,
+              "reason": "相同舊站保持同順序，只有 S45 插入造成可見差異，批准條帶指明跨版本位置。"
+            },
+            {
+              "score": 9,
+              "reason": "原版本歷程保留、v2 新參照與批准分列，結論要求特定 Lot 的遷移交易。"
+            },
+            {
+              "score": 9,
+              "reason": "沒有把發布視為自動遷移，第二路清楚標另一時刻；新批 L024 仍從 S10 開始。"
+            },
+            {
+              "score": 9,
+              "reason": "v1 在 S40 後直接接 S50，v2 實際插入 S45；L023 的兩時刻位置分別標出。"
+            },
+            {
+              "score": 9,
+              "reason": "桌面兩條路可直接比，手機各自直向展開，S45 插入點與批准說明完整。"
+            }
+          ],
+          "additional_frames": []
+        }
+      },
+      "1440": {
+        "page": {
+          "scores": [
+            19,
+            19,
+            19,
+            19,
+            9,
+            9
+          ],
+          "evidence": [
+            "v1 在 S40 後直接接 S50，v2 實際插入 S45；L023 的兩時刻位置分別標出。",
+            "明示批准 v1/S50→v2/S45 的映射，前提是 S40 已完且需補新檢查。",
+            "原版本歷程保留、v2 新參照與批准分列，結論要求特定 Lot 的遷移交易。",
+            "正文比較維持舊版避免突然變更與品質必要時主動盤點遷移；新增確認要處理等效性與補做成本。",
+            "桌面兩條路可直接比，手機各自直向展開，S45 插入點與批准說明完整。 本次以 1440px 頁面內尺寸審查，標題、正文與自測另核對。",
+            "新版新增必做品質項的題目，解答要求盤點受影響 WIP，再依各批位置處置。"
+          ],
+          "strengths": "正文比較維持舊版避免突然變更與品質必要時主動盤點遷移；新增確認要處理等效性與補做成本。",
+          "deductions": "手機兩路需上下比較，批准映射文字減少搜尋但仍有捲動負擔；沒有演示所有位置的遷移政策。 未取得真人理解與公司實際規則驗證，不當作學習成效證明。",
+          "vetoes": [],
+          "open_defects": [],
+          "reviewed_hash": "ca633e596ce6eb7ddfe6de16e339ab7984a845d78a2c3ad5a00b0a9529055614",
+          "screenshot": "tests/evidence/mes-004/flow-versions-1440-page.png"
+        },
+        "scene": {
+          "scores": [
+            24,
+            24,
+            19,
+            18,
+            9
+          ],
+          "evidence": [
+            "v1 在 S40 後直接接 S50，v2 實際插入 S45；L023 的兩時刻位置分別標出。",
+            "明示批准 v1/S50→v2/S45 的映射，前提是 S40 已完且需補新檢查。",
+            "原版本歷程保留、v2 新參照與批准分列，結論要求特定 Lot 的遷移交易。",
+            "桌面兩條路可直接比，手機各自直向展開，S45 插入點與批准說明完整。 本次以 1440px 頁面內尺寸審查，標題、正文與自測另核對。",
+            "沒有把發布視為自動遷移，第二路清楚標另一時刻；新批 L024 仍從 S10 開始。"
+          ],
+          "strengths": "相同舊站保持同順序，只有 S45 插入造成可見差異，批准條帶指明跨版本位置。",
+          "deductions": "手機兩路需上下比較，批准映射文字減少搜尋但仍有捲動負擔；沒有演示所有位置的遷移政策。",
+          "vetoes": [],
+          "open_defects": [],
+          "reviewed_hash": "5236c89e4bd9b0b5e3e1617c6c0ba78fbf0caa3474fd679b00a9d3627e06ac26",
+          "screenshot": "tests/evidence/mes-004/flow-versions-1440-scene.png",
+          "completion": [
+            {
+              "score": 8,
+              "reason": "相同舊站保持同順序，只有 S45 插入造成可見差異，批准條帶指明跨版本位置。"
+            },
+            {
+              "score": 9,
+              "reason": "原版本歷程保留、v2 新參照與批准分列，結論要求特定 Lot 的遷移交易。"
+            },
+            {
+              "score": 9,
+              "reason": "沒有把發布視為自動遷移，第二路清楚標另一時刻；新批 L024 仍從 S10 開始。"
+            },
+            {
+              "score": 9,
+              "reason": "v1 在 S40 後直接接 S50，v2 實際插入 S45；L023 的兩時刻位置分別標出。"
+            },
+            {
+              "score": 9,
+              "reason": "桌面兩條路可直接比，手機各自直向展開，S45 插入點與批准說明完整。"
+            }
+          ],
+          "additional_frames": []
+        }
+      },
+      "id": "flow/versions",
+      "url": "http://127.0.0.1:4175/flow.html#versions",
+      "brief": "workitems/mes-004/BRIEFS.md",
+      "authoring_source": "course-remake.js"
+    },
+    {
+      "360": {
+        "page": {
+          "scores": [
+            19,
+            19,
+            19,
+            18,
+            9,
+            9
+          ],
+          "evidence": [
+            "十情境有套用、完整路徑、分支、重工、拆合批、改版、時間、跳站、重訪與派工。",
+            "目前位置、完成勾、子批成員、版本與時間線依各情境狀態改變；不是固定背景圖。",
+            "黃色區顯示當前狀態與待判斷動作，事件與拒絕原因保留，超時及重工限制不靠重設解除。",
+            "情境比較正常出口、工程處置及合格候選排序；綜合題允许加急資源或先盤點條件，但不假造豁免。",
+            "手機路徑直向與各情境專屬證據；完整欄位折疊，主要位置與下一步先可見。 本次以 360px 頁面與原生主圖審查，完整頁面另核對章節與自測。",
+            "急件且前段已超時的組合題，要求保留時間、位置與 Hold，再評估核准替代路徑。"
+          ],
+          "strengths": "情境比較正常出口、工程處置及合格候選排序；綜合題允许加急資源或先盤點條件，但不假造豁免。",
+          "deductions": "六至七站的手機路徑較長；所有情境的實際 Fab 規則需另對接，本輪沒有真人學習成效證據。 未取得真人理解與公司實際規則驗證，不當作學習成效證明。",
+          "vetoes": [],
+          "open_defects": [],
+          "reviewed_hash": "7cfb975bf9857bdf82fff29e762faabd0c17049b54edfbe74d720bc90864ca12",
+          "screenshot": "tests/evidence/mes-004/flow-lab-360-page.png"
+        },
+        "scene": {
+          "scores": [
+            24,
+            24,
+            19,
+            17,
+            9
+          ],
+          "evidence": [
+            "十情境有套用、完整路徑、分支、重工、拆合批、改版、時間、跳站、重訪與派工。",
+            "目前位置、完成勾、子批成員、版本與時間線依各情境狀態改變；不是固定背景圖。",
+            "黃色區顯示當前狀態與待判斷動作，事件與拒絕原因保留，超時及重工限制不靠重設解除。",
+            "手機路徑直向與各情境專屬證據；完整欄位折疊，主要位置與下一步先可見。 本次以 360px 頁面與原生主圖審查，完整頁面另核對章節與自測。",
+            "41 狀態逐寬度驗證；revisit 不捏造 S50 Fail，qtime 的超時刻度與橘色風險一致。"
+          ],
+          "strengths": "同一條路徑可追蹤多種例外，拆批改為成員分支、時間改為有上限刻度，不用相同文字卡包辦。",
+          "deductions": "六至七站的手機路徑較長；所有情境的實際 Fab 規則需另對接，本輪沒有真人學習成效證據。",
+          "vetoes": [],
+          "open_defects": [],
+          "reviewed_hash": "51507b3a00d3d6759bdb2756473d3af3443872bc5fd783bb654e4be240dd8bfc",
+          "screenshot": "tests/evidence/mes-004/flow-lab-360-scene.png",
+          "completion": [
+            {
+              "score": 8,
+              "reason": "同一條路徑可追蹤多種例外，拆批改為成員分支、時間改為有上限刻度，不用相同文字卡包辦。"
+            },
+            {
+              "score": 9,
+              "reason": "黃色區顯示當前狀態與待判斷動作，事件與拒絕原因保留，超時及重工限制不靠重設解除。"
+            },
+            {
+              "score": 9,
+              "reason": "41 狀態逐寬度驗證；revisit 不捏造 S50 Fail，qtime 的超時刻度與橘色風險一致。"
+            },
+            {
+              "score": 9,
+              "reason": "十情境有套用、完整路徑、分支、重工、拆合批、改版、時間、跳站、重訪與派工。"
+            },
+            {
+              "score": 9,
+              "reason": "手機路徑直向與各情境專屬證據；完整欄位折疊，主要位置與下一步先可見。"
+            }
+          ],
+          "additional_frames": []
+        }
+      },
+      "1440": {
+        "page": {
+          "scores": [
+            19,
+            19,
+            19,
+            18,
+            9,
+            9
+          ],
+          "evidence": [
+            "十情境有套用、完整路徑、分支、重工、拆合批、改版、時間、跳站、重訪與派工。",
+            "目前位置、完成勾、子批成員、版本與時間線依各情境狀態改變；不是固定背景圖。",
+            "黃色區顯示當前狀態與待判斷動作，事件與拒絕原因保留，超時及重工限制不靠重設解除。",
+            "情境比較正常出口、工程處置及合格候選排序；綜合題允许加急資源或先盤點條件，但不假造豁免。",
+            "手機路徑直向與各情境專屬證據；完整欄位折疊，主要位置與下一步先可見。 本次以 1440px 頁面內尺寸審查，標題、正文與自測另核對。",
+            "急件且前段已超時的組合題，要求保留時間、位置與 Hold，再評估核准替代路徑。"
+          ],
+          "strengths": "情境比較正常出口、工程處置及合格候選排序；綜合題允许加急資源或先盤點條件，但不假造豁免。",
+          "deductions": "六至七站的手機路徑較長；所有情境的實際 Fab 規則需另對接，本輪沒有真人學習成效證據。 未取得真人理解與公司實際規則驗證，不當作學習成效證明。",
+          "vetoes": [],
+          "open_defects": [],
+          "reviewed_hash": "b9fcf3a3289dbe6d354f296cfcd53bd01f399b14fded9bd5744c506a17935785",
+          "screenshot": "tests/evidence/mes-004/flow-lab-1440-page.png"
+        },
+        "scene": {
+          "scores": [
+            24,
+            24,
+            19,
+            18,
+            9
+          ],
+          "evidence": [
+            "十情境有套用、完整路徑、分支、重工、拆合批、改版、時間、跳站、重訪與派工。",
+            "目前位置、完成勾、子批成員、版本與時間線依各情境狀態改變；不是固定背景圖。",
+            "黃色區顯示當前狀態與待判斷動作，事件與拒絕原因保留，超時及重工限制不靠重設解除。",
+            "手機路徑直向與各情境專屬證據；完整欄位折疊，主要位置與下一步先可見。 本次以 1440px 頁面內尺寸審查，標題、正文與自測另核對。",
+            "41 狀態逐寬度驗證；revisit 不捏造 S50 Fail，qtime 的超時刻度與橘色風險一致。"
+          ],
+          "strengths": "同一條路徑可追蹤多種例外，拆批改為成員分支、時間改為有上限刻度，不用相同文字卡包辦。",
+          "deductions": "六至七站的手機路徑較長；所有情境的實際 Fab 規則需另對接，本輪沒有真人學習成效證據。",
+          "vetoes": [],
+          "open_defects": [],
+          "reviewed_hash": "20e1812c1c938f55052ae5f4b56bf13e27689101dd542b88ca972316f42679e4",
+          "screenshot": "tests/evidence/mes-004/flow-lab-1440-scene.png",
+          "completion": [
+            {
+              "score": 8,
+              "reason": "同一條路徑可追蹤多種例外，拆批改為成員分支、時間改為有上限刻度，不用相同文字卡包辦。"
+            },
+            {
+              "score": 9,
+              "reason": "黃色區顯示當前狀態與待判斷動作，事件與拒絕原因保留，超時及重工限制不靠重設解除。"
+            },
+            {
+              "score": 9,
+              "reason": "41 狀態逐寬度驗證；revisit 不捏造 S50 Fail，qtime 的超時刻度與橘色風險一致。"
+            },
+            {
+              "score": 9,
+              "reason": "十情境有套用、完整路徑、分支、重工、拆合批、改版、時間、跳站、重訪與派工。"
+            },
+            {
+              "score": 9,
+              "reason": "手機路徑直向與各情境專屬證據；完整欄位折疊，主要位置與下一步先可見。"
+            }
+          ],
+          "additional_frames": []
+        }
+      },
+      "id": "flow/lab",
+      "url": "http://127.0.0.1:4175/flow.html#lab",
+      "brief": "workitems/mes-004/BRIEFS.md",
+      "authoring_source": "course-remake.js"
+    }
+  ]
+}

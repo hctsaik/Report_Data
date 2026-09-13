@@ -1,0 +1,368 @@
+可以，而且你這個情境比「MES → Staging → Mart」更值得重新定義，因為你們真正的問題不是「哪個 DB 比較新」，而是：
+
+> **同一個 Giga Report 裡，資料新鮮度也不一樣。**
+
+這是最容易讓工程師誤用的地方。
+
+我會把教育內容設計成「**一張架構圖 + 一個選擇原則 + 三個案例**」。
+
+---
+
+## 一、先把真正架構講清楚
+
+我會畫成：
+
+```text
+                     ┌───────────────┐
+                     │   MES / MMDB   │
+                     │ Source of Truth│
+                     └───────┬───────┘
+                             │
+             ┌───────────────┼────────────────┐
+             │               │                │
+             ▼               ▼                ▼
+        Reporting DB      Inline DB          TX
+             │                              │
+             ▼                              ▼
+        Giga Report                    Real-time Query
+             │
+      ┌──────┴──────────┐
+      │                 │
+      ▼                 ▼
+SiView Native       Data Mart
+Delay < 3 min       Delay ~10 min
+                    ↑
+          整理 SiView + 依賴其他 Mart
+```
+
+然後告訴工程師：
+
+> **MMDB 才是線上 Source of Truth，但一般工程師不能直接 Query MMDB。**
+
+因此實務上有兩種拿資料的方法：
+
+**一般查詢 / 分析**
+→ Query **Giga Report**
+
+**真的需要 MMDB 即時狀態**
+→ 用 **TX**
+
+這句非常重要。
+
+---
+
+# 二、不要把 Giga Report 當成「一種資料」
+
+這應該是教育的核心。
+
+工程師最容易有這個誤解：
+
+> 「我是在 Giga Report 查的，所以資料 freshness 都一樣。」
+
+但其實不是。
+
+同樣是：
+
+```sql
+SELECT ...
+FROM GIGA_REPORT.xxx
+```
+
+背後可能是兩類資料：
+
+### A. SiView Native Data
+
+路徑：
+
+**MES/MMDB → Reporting DB → Giga Report**
+
+通常：
+
+**Delay < 3 min**
+
+比較接近線上狀態。
+
+---
+
+### B. Data Mart Data
+
+可能是：
+
+**MES/MMDB**
+→ Reporting DB
+→ SiView Data
+→ 再與其他 Data Mart / Derived Data 整理
+→ Data Mart
+→ Giga Report
+
+因為多了一層：
+
+* Join
+* Transform
+* Aggregate
+* Derived logic
+* dependency
+* batch / refresh
+
+所以可能：
+
+**Delay ≈ 10 min**
+
+因此：
+
+> **「資料在哪裡被 Query」不是判斷 Real-time 的方法。
+> 要看這個 Table / Column 的 Data Lineage。**
+
+我會把這句做成投影片的大字。
+
+---
+
+# 三、讓工程師只記一個判斷問題
+
+我會教他們查資料前先問：
+
+> ## 「這個答案如果晚 10 分鐘，會不會做錯事？」
+
+如果答案是：
+
+### 「不會」
+
+例如：
+
+* 昨天產量
+* Weekly Yield
+* Recipe usage trend
+* Tool performance
+* Cycle time analysis
+* Defect statistics
+* AI training data
+
+→ **Data Mart 完全合理**
+
+---
+
+如果答案是：
+
+### 「可能會」
+
+例如：
+
+* Lot 現在在哪個 Step？
+* Lot 現在是不是 Hold？
+* FOUP 現在在哪裡？
+* 這個 Lot 是否已經 Move Out？
+* Wafer 現在是否已經跑到下一站？
+* 我要不要現在 Auto Hold？
+
+→ 優先找 **SiView Native**
+
+如果 `<3 min` 還是不夠：
+
+→ **TX**
+
+這樣工程師其實很快就能自己選。
+
+---
+
+# 四、我會定義三個「資料新鮮度等級」
+
+讓大家有共同語言。
+
+| Level                          | Data Source                 |              Freshness | 用途                 |
+| ------------------------------ | --------------------------- | ---------------------: | ------------------ |
+| **L0 — Transaction Real-time** | TX → MMDB                   | 即時 / transaction level | 即時控制、關鍵 decision   |
+| **L1 — Near Real-time**        | Giga Report / SiView Native |                < 3 min | 線上 monitoring、工程查詢 |
+| **L2 — Analytical**            | Giga Report / Data Mart     |                ~10 min | 分析、統計、報表、AI        |
+
+甚至可以在文件、Table catalog 裡直接標：
+
+**RT0 / RT1 / RT2**
+
+例如：
+
+```text
+LOT_CURRENT_STATUS
+Source      : SiView Native
+Freshness   : RT1
+Expected Lag: < 3 min
+Usage       : Near real-time monitoring
+```
+
+另一張：
+
+```text
+LOT_PROCESS_SUMMARY
+Source      : Data Mart
+Freshness   : RT2
+Expected Lag: ~10 min
+Usage       : Analytics only
+```
+
+工程師看到就不用猜。
+
+---
+
+# 五、一定要講一個「會出事」的案例
+
+這最有效。
+
+例如 Vision AI Detect 到 defect：
+
+```text
+10:00
+Vision AI 發現 Wafer 異常
+
+        ↓
+
+10:01
+系統查詢 Lot Current Step
+```
+
+如果查的是 SiView Native：
+
+```text
+Giga Report / SiView
+Lot = A123
+Current Step = ETCH
+Data time = 10:00
+```
+
+OK。
+
+但如果查 Data Mart：
+
+```text
+Giga Report / Data Mart
+Lot = A123
+Current Step = DEV
+Data time = 09:51
+```
+
+工程師會以為：
+
+> Lot 還在 DEV
+
+但實際上：
+
+> 已經到 ETCH。
+
+這時候最關鍵的一句：
+
+> **Data Mart 沒錯，只是你問錯問題。**
+
+我很推薦用這句。
+
+因為這不是責怪 DB，也不是 Data Mart 品質不好，而是：
+
+**Data Mart 的設計目的本來就不是 current state decision。**
+
+---
+
+# 六、再講一個非常重要的觀念：Event vs Current State
+
+這個很多工程師會混淆。
+
+例如你問：
+
+> 「Lot A 有沒有經過 Step X？」
+
+這是一個 **History / Event** 問題。
+
+Data Mart 很適合。
+
+但你問：
+
+> 「Lot A 現在在哪？」
+
+這是 **Current State** 問題。
+
+這兩種問題應該分開。
+
+可以教工程師：
+
+```text
+「發生過什麼？」
+→ History / Mart
+
+「現在是什麼？」
+→ SiView Native / TX
+```
+
+這個非常容易記。
+
+---
+
+# 七、我會給工程師一張 Decision Tree
+
+```text
+我要查資料
+    │
+    ▼
+這個資訊會拿來做「現在」的決策嗎？
+    │
+ ┌──┴──┐
+ No    Yes
+ │      │
+ ▼      ▼
+Data    Delay 3 min 可接受嗎？
+Mart        │
+         ┌──┴──┐
+        Yes    No
+         │      │
+         ▼      ▼
+    SiView    TX
+    Native    MMDB
+```
+
+這張其實就夠用了。
+
+---
+
+# 八、我會要求每張 Table 都有 Data Contract
+
+不然教育完還是會忘。
+
+至少四個欄位：
+
+```text
+Table Name
+Source
+Refresh / Delay
+Recommended Usage
+```
+
+例如：
+
+| Table               | Source        |     Delay | Usage               |
+| ------------------- | ------------- | --------: | ------------------- |
+| lot_current         | SiView Native |    <3 min | Online monitoring   |
+| wafer_history       | Data Mart     |   ~10 min | Historical analysis |
+| lot_kpi_daily       | Data Mart     |     Batch | KPI                 |
+| current_hold        | SiView Native |    <3 min | Near real-time      |
+| true current status | MMDB via TX   | Real-time | Critical control    |
+
+甚至可以多一欄：
+
+**Can be used for Auto Control? YES / NO**
+
+這會非常有價值。
+
+---
+
+# 九、我會把整堂教育濃縮成 4 句話
+
+如果要讓工程師真的記住，我會只要求他們記這四句：
+
+> **1. MMDB 是 Source of Truth，但不能直接 Query。**
+
+> **2. Giga Report 不代表所有資料 freshness 相同。**
+
+> **3. SiView Native 通常 <3 min；Data Mart 約 10 min。**
+
+> **4. Current State / Control 看 SiView Native 或 TX；History / Analysis 才用 Data Mart。**
+
+最後再補一句：
+
+> **選 Data Source 前，不要只問「有沒有這個欄位」，要問「這個欄位多久以前的」。**
+
+這句我認為最適合當整頁投影片的 footer。

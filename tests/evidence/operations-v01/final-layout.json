@@ -1,0 +1,57 @@
+{
+  "result": "PASS",
+  "checks": [
+    [
+      1440,
+      "transport",
+      "PASS"
+    ],
+    [
+      1440,
+      "state",
+      "PASS"
+    ],
+    [
+      1440,
+      "run",
+      "PASS"
+    ],
+    [
+      390,
+      "transport",
+      "PASS"
+    ],
+    [
+      390,
+      "state",
+      "PASS"
+    ],
+    [
+      390,
+      "run",
+      "PASS"
+    ],
+    [
+      360,
+      "transport",
+      "PASS"
+    ],
+    [
+      360,
+      "state",
+      "PASS"
+    ],
+    [
+      360,
+      "run",
+      "PASS"
+    ]
+  ],
+  "verified_http_sha256": {
+    "operations.html": "5d33aca4d6c4caf7d502ed91b331394cab411b8308774881019894100e858a09",
+    "operations.js": "ba2595db1c045096e1c49a5661e810cdb9aa454ee03257bc37334fb800aa60a3",
+    "operations.css": "61aba011a84df176342849f3e22a3589308adbc712c2bf04e98f625f83ff479c",
+    "index.html": "bcb2f434ca1761f9e1e635a32faafa439a1ee039d242b005d3bcc9f960de69ab",
+    "styles.css": "bb67de926169672e79ed36e505be773d3481fe459498a2d2472c0af2b8579cf2"
+  }
+}

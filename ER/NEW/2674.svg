@@ -1,0 +1,165 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2400" height="2210" viewBox="0 0 2400 2210" role="img" aria-labelledby="title desc">
+<title id="title">EQP、Load Port、Chamber 與 OHB</title>
+<desc id="desc">依照片 2674.jpg 重畫；矩形、菱形、圓形及無向連線保留。原先不清楚的文字已由使用者確認。</desc>
+<style>text{font-family:"Microsoft JhengHei","Noto Sans TC",Arial,sans-serif;fill:#182635}.label{font-size:21px;font-weight:600}.detail{font-size:19px}.issue{fill:#a34c00;font-size:16px;font-weight:700}.edge{fill:none;stroke:#34485c;stroke-width:3;stroke-linejoin:round;stroke-linecap:round}.shape{stroke:#63798d;stroke-width:2;fill:white}</style>
+<rect width="2400" height="2210" fill="white"/>
+<text x="48" y="48" font-size="28" font-weight="700">2674 · EQP、Load Port、Chamber 與 OHB</text>
+<text x="48" y="82" font-size="17" fill="#52657a">原圖結構重繪 · 文字與線條均可編輯 · 原圖疑義文字已確認</text>
+<g id="connections">
+<polyline id="edge-1" class="edge" data-from="udata" data-to="udata-link" points="1050,246.0 1050,335.0"/>
+<polyline id="edge-2" class="edge" data-from="udata-link" data-to="port" points="1050,505.0 1050,594.0"/>
+<polyline id="edge-3" class="edge" data-from="port" data-to="port-link" points="1050,706.0 1050,805.0"/>
+<polyline id="edge-4" class="edge" data-from="port-link" data-to="eqp" points="1050,975.0 1050,1084.0"/>
+<polyline id="edge-5" class="edge" data-from="default" data-to="default-link" points="1470,706.0 1470,805.0"/>
+<polyline id="edge-6" class="edge" data-from="eqp" data-to="owner-link" points="1050,1196.0 1050,1275.0"/>
+<polyline id="edge-7" class="edge" data-from="owner-link" data-to="owner" points="1050,1445.0 1050,1524.0"/>
+<polyline id="edge-8" class="edge" data-from="ohb-link" data-to="ohb-eqp" points="1470,1445.0 1470,1524.0"/>
+<polyline id="edge-9" class="edge" data-from="chamber" data-to="detail-link" points="1890,1210.0 1890,1265.0"/>
+<polyline id="edge-10" class="edge" data-from="detail-link" data-to="chamber-detail" points="1890,1455.0 1890,1524.0"/>
+<polyline id="edge-11" class="edge" data-from="ohb-eqp" data-to="ohb-status-link" points="1470,1636.0 1470,1705.0"/>
+<polyline id="edge-12" class="edge" data-from="ohb-status-link" data-to="ohb-status" points="1470,1855.0 1470,2004.0"/>
+<polyline id="edge-13" class="edge" data-from="mode" data-to="mode-link" points="415.0,650 480.0,650"/>
+<polyline id="edge-14" class="edge" data-from="mode-link" data-to="port" points="820.0,650 900.0,650"/>
+<polyline id="edge-15" class="edge" data-from="eqp-history" data-to="history-link" points="395.0,890 500.0,890"/>
+<polyline id="edge-16" class="edge" data-from="bay" data-to="bay-link" points="395.0,1140 500.0,1140"/>
+<polyline id="edge-17" class="edge" data-from="bay-link" data-to="eqp" points="800.0,1140 900.0,1140"/>
+<polyline id="edge-18" class="edge" data-from="eqp" data-to="chamber-link" points="1200.0,1140 1300.0,1140"/>
+<polyline id="edge-19" class="edge" data-from="chamber-link" data-to="chamber" points="1640.0,1140 1710.0,1140"/>
+<polyline id="edge-20" class="edge" data-from="ohb-status" data-to="bmir-link" points="1630.0,2060 1710.0,2060"/>
+<polyline id="edge-21" class="edge" data-from="bmir-link" data-to="bmir" points="2030.0,2060 2095.0,2060"/>
+<polyline id="edge-22" class="edge" data-from="history-link" data-to="eqp" points="800.0,890 840,890 840,1030 1050,1030 1050,1084.0"/>
+<polyline id="edge-23" class="edge" data-from="default-link" data-to="eqp" points="1320.0,890 1280,890 1280,1030 1050,1030 1050,1084.0"/>
+<polyline id="edge-24" class="edge" data-from="eqp" data-to="ohb-link" points="1050,1196.0 1050,1240 1470,1240 1470,1275.0"/>
+<polyline id="edge-25" class="edge" data-from="bay-link" data-to="owner" points="650,1225.0 650,1580 875.0,1580"/>
+</g><g id="nodes">
+<g id="udata" data-kind="rect" data-x="1050" data-y="190" data-w="360" data-h="112">
+<rect class="shape" x="870.0" y="134.0" width="360" height="112"/>
+<text class="label" x="1050" y="176" text-anchor="middle" dominant-baseline="central">細部資料</text>
+<text class="detail" x="1050" y="204" text-anchor="middle" dominant-baseline="central">SIVIEW.FRPORT_UDATA</text>
+</g>
+<g id="udata-link" data-kind="diamond" data-x="1050" data-y="420" data-w="380" data-h="170">
+<polygon class="shape" points="1050,335.0 1240.0,420 1050,505.0 860.0,420"/>
+<text class="label" x="1050" y="406" text-anchor="middle" dominant-baseline="central">有 L/P</text>
+<text class="detail" x="1050" y="434" text-anchor="middle" dominant-baseline="central">D_THESYSTEMKEY</text>
+</g>
+<g id="port" data-kind="rect" data-x="1050" data-y="650" data-w="300" data-h="112">
+<rect class="shape" x="900.0" y="594.0" width="300" height="112"/>
+<text class="label" x="1050" y="636" text-anchor="middle" dominant-baseline="central">機台 L/P</text>
+<text class="detail" x="1050" y="664" text-anchor="middle" dominant-baseline="central">SIVIEW.FRPORT</text>
+</g>
+<g id="mode" data-kind="rect" data-x="220" data-y="650" data-w="390" data-h="140">
+<rect class="shape" x="25.0" y="580.0" width="390" height="140"/>
+<text class="label" x="220" y="622" text-anchor="middle" dominant-baseline="central">機台模式</text>
+<text class="detail" x="220" y="650" text-anchor="middle" dominant-baseline="central">SIVIEW.CSFRPORT_SUBMODE</text>
+<text class="detail" x="220" y="678" text-anchor="middle" dominant-baseline="central">SIVIEW.FHEMCHS</text>
+</g>
+<g id="mode-link" data-kind="diamond" data-x="650" data-y="650" data-w="340" data-h="190">
+<polygon class="shape" points="650,555.0 820.0,650 650,745.0 480.0,650"/>
+<text class="label" x="650" y="622" text-anchor="middle" dominant-baseline="central">機台模式</text>
+<text class="detail" x="650" y="650" text-anchor="middle" dominant-baseline="central">EQP_ID</text>
+<text class="detail" x="650" y="678" text-anchor="middle" dominant-baseline="central">PORT_ID</text>
+</g>
+<g id="default" data-kind="rect" data-x="1470" data-y="650" data-w="340" data-h="112">
+<rect class="shape" x="1300.0" y="594.0" width="340" height="112"/>
+<text class="label" x="1470" y="636" text-anchor="middle" dominant-baseline="central">機台的 Default STK</text>
+<text class="detail" x="1470" y="664" text-anchor="middle" dominant-baseline="central">Siview.csfreqp_stk</text>
+</g>
+<g id="eqp-history" data-kind="rect" data-x="220" data-y="890" data-w="350" data-h="112">
+<rect class="shape" x="45.0" y="834.0" width="350" height="112"/>
+<text class="label" x="220" y="876" text-anchor="middle" dominant-baseline="central">機況歷史</text>
+<text class="detail" x="220" y="904" text-anchor="middle" dominant-baseline="central">SIVIEW.FHESCHS</text>
+</g>
+<g id="history-link" data-kind="diamond" data-x="650" data-y="890" data-w="300" data-h="170">
+<polygon class="shape" points="650,805.0 800.0,890 650,975.0 500.0,890"/>
+<text class="label" x="650" y="876" text-anchor="middle" dominant-baseline="central">機況歷史</text>
+<text class="detail" x="650" y="904" text-anchor="middle" dominant-baseline="central">EQP_ID</text>
+</g>
+<g id="port-link" data-kind="diamond" data-x="1050" data-y="890" data-w="300" data-h="170">
+<polygon class="shape" points="1050,805.0 1200.0,890 1050,975.0 900.0,890"/>
+<text class="label" x="1050" y="876" text-anchor="middle" dominant-baseline="central">有 L/P</text>
+<text class="detail" x="1050" y="904" text-anchor="middle" dominant-baseline="central">EQP_ID</text>
+</g>
+<g id="default-link" data-kind="diamond" data-x="1470" data-y="890" data-w="300" data-h="170">
+<polygon class="shape" points="1470,805.0 1620.0,890 1470,975.0 1320.0,890"/>
+<text class="label" x="1470" y="876" text-anchor="middle" dominant-baseline="central">Default STK</text>
+<text class="detail" x="1470" y="904" text-anchor="middle" dominant-baseline="central">eqp_id</text>
+</g>
+<g id="bay" data-kind="rect" data-x="220" data-y="1140" data-w="350" data-h="112">
+<rect class="shape" x="45.0" y="1084.0" width="350" height="112"/>
+<text class="label" x="220" y="1126" text-anchor="middle" dominant-baseline="central">機台位置</text>
+<text class="detail" x="220" y="1154" text-anchor="middle" dominant-baseline="central">MFG_EQP_BAY_BT</text>
+</g>
+<g id="bay-link" data-kind="diamond" data-x="650" data-y="1140" data-w="300" data-h="170">
+<polygon class="shape" points="650,1055.0 800.0,1140 650,1225.0 500.0,1140"/>
+<text class="label" x="650" y="1126" text-anchor="middle" dominant-baseline="central">機台位置</text>
+<text class="detail" x="650" y="1154" text-anchor="middle" dominant-baseline="central">EQP_ID</text>
+</g>
+<g id="eqp" data-kind="rect" data-x="1050" data-y="1140" data-w="300" data-h="112">
+<rect class="shape" x="900.0" y="1084.0" width="300" height="112" style="fill:#d4ebff;stroke:#2585c6;stroke-width:3"/>
+<text class="label" x="1050" y="1126" text-anchor="middle" dominant-baseline="central">EQP</text>
+<text class="detail" x="1050" y="1154" text-anchor="middle" dominant-baseline="central">Siview.Freqp</text>
+</g>
+<g id="chamber-link" data-kind="diamond" data-x="1470" data-y="1140" data-w="340" data-h="170">
+<polygon class="shape" points="1470,1055.0 1640.0,1140 1470,1225.0 1300.0,1140"/>
+<text class="label" x="1470" y="1126" text-anchor="middle" dominant-baseline="central">有 Chamber</text>
+<text class="detail" x="1470" y="1154" text-anchor="middle" dominant-baseline="central">eqp_id</text>
+</g>
+<g id="chamber" data-kind="rect" data-x="1890" data-y="1140" data-w="360" data-h="140">
+<rect class="shape" x="1710.0" y="1070.0" width="360" height="140"/>
+<text class="label" x="1890" y="1112" text-anchor="middle" dominant-baseline="central">Chamber 狀況</text>
+<text class="detail" x="1890" y="1140" text-anchor="middle" dominant-baseline="central">Siview.csfrprcrsc</text>
+<text class="detail" x="1890" y="1168" text-anchor="middle" dominant-baseline="central">SIVIEW.FHCSCHS</text>
+</g>
+<g id="owner-link" data-kind="diamond" data-x="1050" data-y="1360" data-w="350" data-h="170">
+<polygon class="shape" points="1050,1275.0 1225.0,1360 1050,1445.0 875.0,1360"/>
+<text class="label" x="1050" y="1346" text-anchor="middle" dominant-baseline="central">機群與課別</text>
+<text class="detail" x="1050" y="1374" text-anchor="middle" dominant-baseline="central">EQP_ID</text>
+</g>
+<g id="ohb-link" data-kind="diamond" data-x="1470" data-y="1360" data-w="340" data-h="170">
+<polygon class="shape" points="1470,1275.0 1640.0,1360 1470,1445.0 1300.0,1360"/>
+<text class="label" x="1470" y="1346" text-anchor="middle" dominant-baseline="central">設定 OHB</text>
+<text class="detail" x="1470" y="1374" text-anchor="middle" dominant-baseline="central">EQPSTKID</text>
+</g>
+<g id="detail-link" data-kind="diamond" data-x="1890" data-y="1360" data-w="340" data-h="190">
+<polygon class="shape" points="1890,1265.0 2060.0,1360 1890,1455.0 1720.0,1360"/>
+<text class="label" x="1890" y="1332" text-anchor="middle" dominant-baseline="central">細部狀況</text>
+<text class="detail" x="1890" y="1360" text-anchor="middle" dominant-baseline="central">eqp_id</text>
+<text class="detail" x="1890" y="1388" text-anchor="middle" dominant-baseline="central">procrsc_id</text>
+</g>
+<g id="owner" data-kind="rect" data-x="1050" data-y="1580" data-w="350" data-h="112">
+<rect class="shape" x="875.0" y="1524.0" width="350" height="112"/>
+<text class="label" x="1050" y="1566" text-anchor="middle" dominant-baseline="central">機群與課別</text>
+<text class="detail" x="1050" y="1594" text-anchor="middle" dominant-baseline="central">MFG_EQP_OWNER_BT</text>
+</g>
+<g id="ohb-eqp" data-kind="rect" data-x="1470" data-y="1580" data-w="340" data-h="112">
+<rect class="shape" x="1300.0" y="1524.0" width="340" height="112"/>
+<text class="label" x="1470" y="1566" text-anchor="middle" dominant-baseline="central">機群 OHB</text>
+<text class="detail" x="1470" y="1594" text-anchor="middle" dominant-baseline="central">Siview.csfrohb_eqp</text>
+</g>
+<g id="chamber-detail" data-kind="rect" data-x="1890" data-y="1580" data-w="340" data-h="112">
+<rect class="shape" x="1720.0" y="1524.0" width="340" height="112"/>
+<text class="label" x="1890" y="1566" text-anchor="middle" dominant-baseline="central">Chamber 細部</text>
+<text class="detail" x="1890" y="1594" text-anchor="middle" dominant-baseline="central">Siview.frprcrsc</text>
+</g>
+<g id="ohb-status-link" data-kind="diamond" data-x="1470" data-y="1780" data-w="300" data-h="150">
+<polygon class="shape" points="1470,1705.0 1620.0,1780 1470,1855.0 1320.0,1780"/>
+<text class="label" x="1470" y="1766" text-anchor="middle" dominant-baseline="central">OHB 狀況</text>
+<text class="detail" x="1470" y="1794" text-anchor="middle" dominant-baseline="central">OHB_ID</text>
+</g>
+<g id="ohb-status" data-kind="rect" data-x="1470" data-y="2060" data-w="320" data-h="112">
+<rect class="shape" x="1310.0" y="2004.0" width="320" height="112"/>
+<text class="label" x="1470" y="2046" text-anchor="middle" dominant-baseline="central">OHB 狀況</text>
+<text class="detail" x="1470" y="2074" text-anchor="middle" dominant-baseline="central">Siview.csfrohb</text>
+</g>
+<g id="bmir-link" data-kind="diamond" data-x="1870" data-y="2060" data-w="320" data-h="160">
+<polygon class="shape" points="1870,1980.0 2030.0,2060 1870,2140.0 1710.0,2060"/>
+<text class="label" x="1870" y="2046" text-anchor="middle" dominant-baseline="central">設定 BMIR</text>
+<text class="detail" x="1870" y="2074" text-anchor="middle" dominant-baseline="central">OHB_ID</text>
+</g>
+<g id="bmir" data-kind="rect" data-x="2220" data-y="2060" data-w="250" data-h="112">
+<rect class="shape" x="2095.0" y="2004.0" width="250" height="112"/>
+<text class="label" x="2220" y="2046" text-anchor="middle" dominant-baseline="central">BMIR</text>
+<text class="detail" x="2220" y="2074" text-anchor="middle" dominant-baseline="central">SIVIEW.CSFROHB_CFG</text>
+</g>
+</g>
+</svg>

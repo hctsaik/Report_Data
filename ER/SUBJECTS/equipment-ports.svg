@@ -1,0 +1,90 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1311pt" height="389pt" viewBox="0.00 0.00 1311.00 389.00" role="img" aria-label="以 EQP 看交接位置與設備結構 ER 主題圖">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(21.6 366.91)">
+<title>ER</title>
+<polygon fill="white" stroke="none" points="-21.6,21.6 -21.6,-366.91 1289.63,-366.91 1289.63,21.6 -21.6,21.6" />
+
+<g id="e_n_2674_mode_n_2674_mode-link" class="edge" data-edge="e_n_2674_mode_n_2674_mode-link">
+<title>n_2674_mode-link--n_2674_mode</title>
+<path fill="none" stroke="#70869a" stroke-width="1.8" d="M865.29,-253.78C903.97,-253.78 949.26,-253.78 991.28,-253.78" />
+</g>
+
+<g id="e_n_2674_port-link_t_0ab0fee39360" class="edge" data-edge="e_n_2674_port-link_t_0ab0fee39360">
+<title>n_2674_port-link--t_0ab0fee39360</title>
+<path fill="none" stroke="#70869a" stroke-width="1.8" d="M343.45,-159.78C358.27,-159.78 373.6,-159.78 388.16,-159.78" />
+</g>
+
+<g id="e_n_2674_udata-link_t_44bf52fb10be" class="edge" data-edge="e_n_2674_udata-link_t_44bf52fb10be">
+<title>n_2674_udata-link--t_44bf52fb10be</title>
+<path fill="none" stroke="#70869a" stroke-width="1.8" d="M947.86,-66.78C971.89,-66.78 995.94,-66.78 1018.31,-66.78" />
+</g>
+
+<g id="e_n_2674_mode-link_t_0ab0fee39360" class="edge" data-edge="e_n_2674_mode-link_t_0ab0fee39360">
+<title>t_0ab0fee39360--n_2674_mode-link</title>
+<path fill="none" stroke="#70869a" stroke-width="1.8" d="M543.8,-183.87C590.02,-198.36 648.51,-216.71 693.98,-230.97" />
+</g>
+
+<g id="e_n_2674_udata-link_t_0ab0fee39360" class="edge" data-edge="e_n_2674_udata-link_t_0ab0fee39360">
+<title>t_0ab0fee39360--n_2674_udata-link</title>
+<path fill="none" stroke="#70869a" stroke-width="1.8" d="M543.8,-135.95C581.78,-124.16 628.05,-109.81 668.57,-97.23" />
+</g>
+
+<g id="e_n_2674_port-link_t_7f282520afb8" class="edge" data-edge="e_n_2674_port-link_t_7f282520afb8">
+<title>t_7f282520afb8--n_2674_port-link</title>
+<path fill="none" stroke="#70869a" stroke-width="1.8" d="M126.16,-159.78C140.08,-159.78 155.05,-159.78 169.71,-159.78" />
+</g>
+
+<g id="n_2674_mode" class="node" data-node="n_2674_mode" role="button" tabindex="0" aria-label="機台模式 / SIVIEW.CSFRPORT_SUBMODE / SIVIEW.FHEMCHS">
+<title>n_2674_mode</title>
+<polygon fill="#fff6eb" stroke="#b26018" stroke-width="2" points="1268.03,-299.55 992.24,-299.55 992.24,-208.01 1268.03,-208.01 1268.03,-299.55" />
+<text xml:space="preserve" text-anchor="middle" x="1130.13" y="-273.8" font-family="Microsoft JhengHei" font-size="18.00">機台模式</text>
+<text xml:space="preserve" text-anchor="middle" x="1130.13" y="-249.05" font-family="Microsoft JhengHei" font-size="18.00">SIVIEW.CSFRPORT_SUBMODE</text>
+<text xml:space="preserve" text-anchor="middle" x="1130.13" y="-224.3" font-family="Microsoft JhengHei" font-size="18.00">SIVIEW.FHEMCHS</text>
+</g>
+
+<g id="n_2674_mode-link" class="node" data-node="n_2674_mode-link" role="button" tabindex="0" aria-label="機台模式 / EQP_ID / PORT_ID">
+<title>n_2674_mode-link</title>
+<polygon fill="#ffffff" stroke="#6a7d8e" stroke-width="2" points="767.7,-345.31 671.16,-253.78 767.7,-162.25 864.24,-253.78 767.7,-345.31" />
+<text xml:space="preserve" text-anchor="middle" x="767.7" y="-273.8" font-family="Microsoft JhengHei" font-size="18.00">機台模式</text>
+<text xml:space="preserve" text-anchor="middle" x="767.7" y="-249.05" font-family="Microsoft JhengHei" font-size="18.00">EQP_ID</text>
+<text xml:space="preserve" text-anchor="middle" x="767.7" y="-224.3" font-family="Microsoft JhengHei" font-size="18.00">PORT_ID</text>
+</g>
+
+<g id="n_2674_port-link" class="node" data-node="n_2674_port-link" role="button" tabindex="0" aria-label="有 L/P / EQP_ID">
+<title>n_2674_port-link</title>
+<polygon fill="#ffffff" stroke="#6a7d8e" stroke-width="2" points="256.58,-226.56 171.29,-159.78 256.58,-93 341.87,-159.78 256.58,-226.56" />
+<text xml:space="preserve" text-anchor="middle" x="256.58" y="-167.43" font-family="Microsoft JhengHei" font-size="18.00">有 L/P</text>
+<text xml:space="preserve" text-anchor="middle" x="256.58" y="-142.68" font-family="Microsoft JhengHei" font-size="18.00">EQP_ID</text>
+</g>
+
+<g id="n_2674_udata-link" class="node" data-node="n_2674_udata-link" role="button" tabindex="0" aria-label="有 L/P / D_THESYSTEMKEY">
+<title>n_2674_udata-link</title>
+<polygon fill="#ffffff" stroke="#6a7d8e" stroke-width="2" points="767.7,-133.56 590.16,-66.78 767.7,0 945.24,-66.78 767.7,-133.56" />
+<text xml:space="preserve" text-anchor="middle" x="767.7" y="-74.43" font-family="Microsoft JhengHei" font-size="18.00">有 L/P</text>
+<text xml:space="preserve" text-anchor="middle" x="767.7" y="-49.68" font-family="Microsoft JhengHei" font-size="18.00">D_THESYSTEMKEY</text>
+</g>
+
+<g id="t_0ab0fee39360" class="node" data-node="t_0ab0fee39360" role="button" tabindex="0" aria-label="機台 L/P / SIVIEW.FRPORT">
+<title>t_0ab0fee39360</title>
+<polygon fill="#fff6eb" stroke="#b26018" stroke-width="2" points="543.16,-193.17 388.87,-193.17 388.87,-126.39 543.16,-126.39 543.16,-193.17" />
+<text xml:space="preserve" text-anchor="middle" x="466.01" y="-167.43" font-family="Microsoft JhengHei" font-size="18.00">機台 L/P</text>
+<text xml:space="preserve" text-anchor="middle" x="466.01" y="-142.68" font-family="Microsoft JhengHei" font-size="18.00">SIVIEW.FRPORT</text>
+</g>
+
+<g id="t_44bf52fb10be" class="node" data-node="t_44bf52fb10be" role="button" tabindex="0" aria-label="細部資料 / SIVIEW.FRPORT_UDATA">
+<title>t_44bf52fb10be</title>
+<polygon fill="#fff6eb" stroke="#b26018" stroke-width="2" points="1241.03,-100.17 1019.24,-100.17 1019.24,-33.39 1241.03,-33.39 1241.03,-100.17" />
+<text xml:space="preserve" text-anchor="middle" x="1130.13" y="-74.43" font-family="Microsoft JhengHei" font-size="18.00">細部資料</text>
+<text xml:space="preserve" text-anchor="middle" x="1130.13" y="-49.68" font-family="Microsoft JhengHei" font-size="18.00">SIVIEW.FRPORT_UDATA</text>
+</g>
+
+<g id="t_7f282520afb8" class="node" data-node="t_7f282520afb8" role="button" tabindex="0" aria-label="機台 / Siview.freqp / EQP">
+<title>t_7f282520afb8</title>
+<polygon fill="#fff6eb" stroke="#b26018" stroke-width="4" points="124.29,-217.92 0,-217.92 0,-101.64 124.29,-101.64 124.29,-217.92" />
+<text xml:space="preserve" text-anchor="middle" x="62.14" y="-192.18" font-family="Microsoft JhengHei" font-size="18.00">本圖主詞</text>
+<text xml:space="preserve" text-anchor="middle" x="62.14" y="-167.43" font-family="Microsoft JhengHei" font-size="18.00">機台</text>
+<text xml:space="preserve" text-anchor="middle" x="62.14" y="-142.68" font-family="Microsoft JhengHei" font-size="18.00">Siview.freqp</text>
+<text xml:space="preserve" text-anchor="middle" x="62.14" y="-117.93" font-family="Microsoft JhengHei" font-size="18.00">EQP</text>
+</g>
+</g>
+</svg>

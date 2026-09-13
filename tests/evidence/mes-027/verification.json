@@ -1,0 +1,14 @@
+[
+  {
+    "width": 1440,
+    "four_direction_no_predispatch_carrier_edge": true,
+    "lot_to_predispatch_to_eqp": true,
+    "errors": []
+  },
+  {
+    "width": 390,
+    "four_direction_no_predispatch_carrier_edge": true,
+    "lot_to_predispatch_to_eqp": true,
+    "errors": []
+  }
+]

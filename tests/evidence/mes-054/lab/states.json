@@ -1,0 +1,1058 @@
+[
+  {
+    "width": 1440,
+    "course": "operations",
+    "scenario": "arrival",
+    "node": "start",
+    "prompt": "先選這次搬送的目的地。",
+    "overflow": 0
+  },
+  {
+    "width": 1440,
+    "course": "operations",
+    "scenario": "arrival",
+    "node": "transit",
+    "prompt": "載具搬送中。這時能宣告 S40 完成嗎？",
+    "overflow": 0
+  },
+  {
+    "width": 1440,
+    "course": "operations",
+    "scenario": "arrival",
+    "node": "arrived",
+    "prompt": "載具已到位，但尚未加工。",
+    "overflow": 0
+  },
+  {
+    "width": 1440,
+    "course": "operations",
+    "scenario": "reconcile",
+    "node": "start",
+    "prompt": "總片數相同，是否足以放行？",
+    "overflow": 0
+  },
+  {
+    "width": 1440,
+    "course": "operations",
+    "scenario": "reconcile",
+    "node": "missing",
+    "prompt": "現在只讀到兩片；不可把「未讀到」直接當成報廢。",
+    "overflow": 0
+  },
+  {
+    "width": 1440,
+    "course": "operations",
+    "scenario": "reconcile",
+    "node": "matched",
+    "prompt": "新讀值相符，完成本次身分核對。",
+    "overflow": 0
+  },
+  {
+    "width": 1440,
+    "course": "operations",
+    "scenario": "reconcile",
+    "node": "finish",
+    "prompt": "身分核對完成。",
+    "overflow": 0
+  },
+  {
+    "width": 1440,
+    "course": "operations",
+    "scenario": "recipe",
+    "node": "start",
+    "prompt": "配方名稱相同，版本不一樣。",
+    "overflow": 0
+  },
+  {
+    "width": 1440,
+    "course": "operations",
+    "scenario": "recipe",
+    "node": "verified",
+    "prompt": "再選合格的設備。",
+    "overflow": 0
+  },
+  {
+    "width": 1440,
+    "course": "operations",
+    "scenario": "recipe",
+    "node": "finish",
+    "prompt": "現在可以進入開工程序。",
+    "overflow": 0
+  },
+  {
+    "width": 1440,
+    "course": "operations",
+    "scenario": "run",
+    "node": "start",
+    "prompt": "已完成 0／3；下一片是 W06。",
+    "overflow": 0
+  },
+  {
+    "width": 1440,
+    "course": "operations",
+    "scenario": "run",
+    "node": "run0",
+    "prompt": "W06 在 CH-A；確認本片結果後再返回。",
+    "overflow": 0
+  },
+  {
+    "width": 1440,
+    "course": "operations",
+    "scenario": "run",
+    "node": "ready1",
+    "prompt": "已完成 1／3；下一片是 W07。",
+    "overflow": 0
+  },
+  {
+    "width": 1440,
+    "course": "operations",
+    "scenario": "run",
+    "node": "run1",
+    "prompt": "W07 在 CH-A；確認本片結果後再返回。",
+    "overflow": 0
+  },
+  {
+    "width": 1440,
+    "course": "operations",
+    "scenario": "run",
+    "node": "ready2",
+    "prompt": "已完成 2／3；下一片是 W08。",
+    "overflow": 0
+  },
+  {
+    "width": 1440,
+    "course": "operations",
+    "scenario": "run",
+    "node": "run2",
+    "prompt": "W08 在 CH-A；確認本片結果後再返回。",
+    "overflow": 0
+  },
+  {
+    "width": 1440,
+    "course": "operations",
+    "scenario": "run",
+    "node": "data",
+    "prompt": "三片已返回，但必要的 W08 結果資料尚未收到。",
+    "overflow": 0
+  },
+  {
+    "width": 1440,
+    "course": "operations",
+    "scenario": "run",
+    "node": "verified",
+    "prompt": "完成本例的 Track-out，才推進下一站。",
+    "overflow": 0
+  },
+  {
+    "width": 1440,
+    "course": "operations",
+    "scenario": "run",
+    "node": "finish",
+    "prompt": "S40 已完成；Flow 還有 S50 和 S60。",
+    "overflow": 0
+  },
+  {
+    "width": 1440,
+    "course": "operations",
+    "scenario": "fault",
+    "node": "start",
+    "prompt": "故障訊息出現後，先保留現場與未完成結果。",
+    "overflow": 0
+  },
+  {
+    "width": 1440,
+    "course": "operations",
+    "scenario": "fault",
+    "node": "recovered",
+    "prompt": "晶圓已歸位，仍缺少合格的製程結果。",
+    "overflow": 0
+  },
+  {
+    "width": 1440,
+    "course": "operations",
+    "scenario": "fault",
+    "node": "finish",
+    "prompt": "保留目前位置，等待工程決定後續路徑。",
+    "overflow": 0
+  },
+  {
+    "width": 1440,
+    "course": "operations",
+    "scenario": "hold",
+    "node": "start",
+    "prompt": "先完成品質複核。",
+    "overflow": 0
+  },
+  {
+    "width": 1440,
+    "course": "operations",
+    "scenario": "hold",
+    "node": "one",
+    "prompt": "剩下一個工程 Hold。",
+    "overflow": 0
+  },
+  {
+    "width": 1440,
+    "course": "operations",
+    "scenario": "hold",
+    "node": "finish",
+    "prompt": "可以重新進行開工確認；位置與 Step 均未改變。",
+    "overflow": 0
+  },
+  {
+    "width": 1440,
+    "course": "flow",
+    "scenario": "bind",
+    "node": "start",
+    "prompt": "選擇這批使用的核准流程。",
+    "overflow": 0
+  },
+  {
+    "width": 1440,
+    "course": "flow",
+    "scenario": "bind",
+    "node": "finish",
+    "prompt": "L023 已有自己的流程位置。",
+    "overflow": 0
+  },
+  {
+    "width": 1440,
+    "course": "flow",
+    "scenario": "normal",
+    "node": "start",
+    "prompt": "目前 S10 清洗。",
+    "overflow": 0
+  },
+  {
+    "width": 1440,
+    "course": "flow",
+    "scenario": "normal",
+    "node": "work0",
+    "prompt": "S10 的必要作業與資料已可在本例確認。",
+    "overflow": 0
+  },
+  {
+    "width": 1440,
+    "course": "flow",
+    "scenario": "normal",
+    "node": "ready1",
+    "prompt": "目前 S20 成膜。",
+    "overflow": 0
+  },
+  {
+    "width": 1440,
+    "course": "flow",
+    "scenario": "normal",
+    "node": "work1",
+    "prompt": "S20 的必要作業與資料已可在本例確認。",
+    "overflow": 0
+  },
+  {
+    "width": 1440,
+    "course": "flow",
+    "scenario": "normal",
+    "node": "ready2",
+    "prompt": "目前 S30 微影。",
+    "overflow": 0
+  },
+  {
+    "width": 1440,
+    "course": "flow",
+    "scenario": "normal",
+    "node": "work2",
+    "prompt": "S30 的必要作業與資料已可在本例確認。",
+    "overflow": 0
+  },
+  {
+    "width": 1440,
+    "course": "flow",
+    "scenario": "normal",
+    "node": "ready3",
+    "prompt": "目前 S40 蝕刻。",
+    "overflow": 0
+  },
+  {
+    "width": 1440,
+    "course": "flow",
+    "scenario": "normal",
+    "node": "work3",
+    "prompt": "S40 的必要作業與資料已可在本例確認。",
+    "overflow": 0
+  },
+  {
+    "width": 1440,
+    "course": "flow",
+    "scenario": "normal",
+    "node": "ready4",
+    "prompt": "目前 S50 量測。Stage B 已完成，還要完成確認階段。",
+    "overflow": 0
+  },
+  {
+    "width": 1440,
+    "course": "flow",
+    "scenario": "normal",
+    "node": "work4",
+    "prompt": "S50 的必要作業與資料已可在本例確認。",
+    "overflow": 0
+  },
+  {
+    "width": 1440,
+    "course": "flow",
+    "scenario": "normal",
+    "node": "ready5",
+    "prompt": "目前 S60 結案。",
+    "overflow": 0
+  },
+  {
+    "width": 1440,
+    "course": "flow",
+    "scenario": "normal",
+    "node": "work5",
+    "prompt": "S60 的必要作業與資料已可在本例確認。",
+    "overflow": 0
+  },
+  {
+    "width": 1440,
+    "course": "flow",
+    "scenario": "normal",
+    "node": "finish",
+    "prompt": "L023 的六站旅程完成。",
+    "overflow": 0
+  },
+  {
+    "width": 1440,
+    "course": "flow",
+    "scenario": "branch",
+    "node": "start",
+    "prompt": "請選一組量測結果，觀察後續路徑。",
+    "overflow": 0
+  },
+  {
+    "width": 1440,
+    "course": "flow",
+    "scenario": "branch",
+    "node": "pass",
+    "prompt": "下一站是 S60 結案，還沒完成整條 Flow。",
+    "overflow": 0
+  },
+  {
+    "width": 1440,
+    "course": "flow",
+    "scenario": "branch",
+    "node": "fail",
+    "prompt": "目前仍在 S50，品質結果沒有被抹掉。",
+    "overflow": 0
+  },
+  {
+    "width": 1440,
+    "course": "flow",
+    "scenario": "rework",
+    "node": "start",
+    "prompt": "還沒有重工批准，不能自行倒退位置。",
+    "overflow": 0
+  },
+  {
+    "width": 1440,
+    "course": "flow",
+    "scenario": "rework",
+    "node": "clean",
+    "prompt": "現在執行的是重工 R10，不是把 S10 的舊紀錄重用。",
+    "overflow": 0
+  },
+  {
+    "width": 1440,
+    "course": "flow",
+    "scenario": "rework",
+    "node": "retest",
+    "prompt": "請記錄 S50 第2次 visit 的結果。",
+    "overflow": 0
+  },
+  {
+    "width": 1440,
+    "course": "flow",
+    "scenario": "rework",
+    "node": "finish",
+    "prompt": "完成重工複測，進入 S60。",
+    "overflow": 0
+  },
+  {
+    "width": 1440,
+    "course": "flow",
+    "scenario": "rework",
+    "node": "limit",
+    "prompt": "不能自動無限重工。",
+    "overflow": 0
+  },
+  {
+    "width": 1440,
+    "course": "flow",
+    "scenario": "split",
+    "node": "start",
+    "prompt": "依成員拆成兩個活躍子批，父批保留譜系。",
+    "overflow": 0
+  },
+  {
+    "width": 1440,
+    "course": "flow",
+    "scenario": "split",
+    "node": "separated",
+    "prompt": "A在 S50，B在 R10，目前進度不同。",
+    "overflow": 0
+  },
+  {
+    "width": 1440,
+    "course": "flow",
+    "scenario": "split",
+    "node": "aligned",
+    "prompt": "兩子批的產品、Flow v1、位置與可合批狀態都相同。",
+    "overflow": 0
+  },
+  {
+    "width": 1440,
+    "course": "flow",
+    "scenario": "split",
+    "node": "finish",
+    "prompt": "合併後仍在 S50 等待量測。",
+    "overflow": 0
+  },
+  {
+    "width": 1440,
+    "course": "flow",
+    "scenario": "version",
+    "node": "start",
+    "prompt": "先發布已核准的新定義。",
+    "overflow": 0
+  },
+  {
+    "width": 1440,
+    "course": "flow",
+    "scenario": "version",
+    "node": "published",
+    "prompt": "決定新批套用與既有批遷移。",
+    "overflow": 0
+  },
+  {
+    "width": 1440,
+    "course": "flow",
+    "scenario": "version",
+    "node": "newlot",
+    "prompt": "L023 是否遷移，需要明確的批准與位置對照。",
+    "overflow": 0
+  },
+  {
+    "width": 1440,
+    "course": "flow",
+    "scenario": "version",
+    "node": "finish",
+    "prompt": "L023 必須先做新增的 S45。",
+    "overflow": 0
+  },
+  {
+    "width": 1440,
+    "course": "flow",
+    "scenario": "qtime",
+    "node": "start",
+    "prompt": "可在期限內開工，或模擬延遲。",
+    "overflow": 0
+  },
+  {
+    "width": 1440,
+    "course": "flow",
+    "scenario": "qtime",
+    "node": "ontime",
+    "prompt": "已於期限內開始本次作業。",
+    "overflow": 0
+  },
+  {
+    "width": 1440,
+    "course": "flow",
+    "scenario": "qtime",
+    "node": "expired",
+    "prompt": "45分鐘已經發生，畫面重設不能消除歷史。",
+    "overflow": 0
+  },
+  {
+    "width": 1440,
+    "course": "flow",
+    "scenario": "qtime",
+    "node": "finish",
+    "prompt": "等待工程評估，不自行決定能否繼續。",
+    "overflow": 0
+  },
+  {
+    "width": 1440,
+    "course": "flow",
+    "scenario": "skip",
+    "node": "start",
+    "prompt": "交期很緊，能直接去 S60 嗎？",
+    "overflow": 0
+  },
+  {
+    "width": 1440,
+    "course": "flow",
+    "scenario": "skip",
+    "node": "finish",
+    "prompt": "保留必要證據後才到 S60。",
+    "overflow": 0
+  },
+  {
+    "width": 1440,
+    "course": "flow",
+    "scenario": "revisit",
+    "node": "start",
+    "prompt": "R10 能沿用 S10 的完成紀錄嗎？",
+    "overflow": 0
+  },
+  {
+    "width": 1440,
+    "course": "flow",
+    "scenario": "revisit",
+    "node": "finish",
+    "prompt": "兩個 CLEAN occurrence 各有自己的紀錄。",
+    "overflow": 0
+  },
+  {
+    "width": 1440,
+    "course": "flow",
+    "scenario": "dispatch",
+    "node": "start",
+    "prompt": "從可執行候選中選下一批。",
+    "overflow": 0
+  },
+  {
+    "width": 1440,
+    "course": "flow",
+    "scenario": "dispatch",
+    "node": "finish",
+    "prompt": "兩批位置相同，執行狀態仍各自獨立。",
+    "overflow": 0
+  },
+  {
+    "width": 390,
+    "course": "operations",
+    "scenario": "arrival",
+    "node": "start",
+    "prompt": "先選這次搬送的目的地。",
+    "overflow": 0
+  },
+  {
+    "width": 390,
+    "course": "operations",
+    "scenario": "arrival",
+    "node": "transit",
+    "prompt": "載具搬送中。這時能宣告 S40 完成嗎？",
+    "overflow": 0
+  },
+  {
+    "width": 390,
+    "course": "operations",
+    "scenario": "arrival",
+    "node": "arrived",
+    "prompt": "載具已到位，但尚未加工。",
+    "overflow": 0
+  },
+  {
+    "width": 390,
+    "course": "operations",
+    "scenario": "reconcile",
+    "node": "start",
+    "prompt": "總片數相同，是否足以放行？",
+    "overflow": 0
+  },
+  {
+    "width": 390,
+    "course": "operations",
+    "scenario": "reconcile",
+    "node": "missing",
+    "prompt": "現在只讀到兩片；不可把「未讀到」直接當成報廢。",
+    "overflow": 0
+  },
+  {
+    "width": 390,
+    "course": "operations",
+    "scenario": "reconcile",
+    "node": "matched",
+    "prompt": "新讀值相符，完成本次身分核對。",
+    "overflow": 0
+  },
+  {
+    "width": 390,
+    "course": "operations",
+    "scenario": "reconcile",
+    "node": "finish",
+    "prompt": "身分核對完成。",
+    "overflow": 0
+  },
+  {
+    "width": 390,
+    "course": "operations",
+    "scenario": "recipe",
+    "node": "start",
+    "prompt": "配方名稱相同，版本不一樣。",
+    "overflow": 0
+  },
+  {
+    "width": 390,
+    "course": "operations",
+    "scenario": "recipe",
+    "node": "verified",
+    "prompt": "再選合格的設備。",
+    "overflow": 0
+  },
+  {
+    "width": 390,
+    "course": "operations",
+    "scenario": "recipe",
+    "node": "finish",
+    "prompt": "現在可以進入開工程序。",
+    "overflow": 0
+  },
+  {
+    "width": 390,
+    "course": "operations",
+    "scenario": "run",
+    "node": "start",
+    "prompt": "已完成 0／3；下一片是 W06。",
+    "overflow": 0
+  },
+  {
+    "width": 390,
+    "course": "operations",
+    "scenario": "run",
+    "node": "run0",
+    "prompt": "W06 在 CH-A；確認本片結果後再返回。",
+    "overflow": 0
+  },
+  {
+    "width": 390,
+    "course": "operations",
+    "scenario": "run",
+    "node": "ready1",
+    "prompt": "已完成 1／3；下一片是 W07。",
+    "overflow": 0
+  },
+  {
+    "width": 390,
+    "course": "operations",
+    "scenario": "run",
+    "node": "run1",
+    "prompt": "W07 在 CH-A；確認本片結果後再返回。",
+    "overflow": 0
+  },
+  {
+    "width": 390,
+    "course": "operations",
+    "scenario": "run",
+    "node": "ready2",
+    "prompt": "已完成 2／3；下一片是 W08。",
+    "overflow": 0
+  },
+  {
+    "width": 390,
+    "course": "operations",
+    "scenario": "run",
+    "node": "run2",
+    "prompt": "W08 在 CH-A；確認本片結果後再返回。",
+    "overflow": 0
+  },
+  {
+    "width": 390,
+    "course": "operations",
+    "scenario": "run",
+    "node": "data",
+    "prompt": "三片已返回，但必要的 W08 結果資料尚未收到。",
+    "overflow": 0
+  },
+  {
+    "width": 390,
+    "course": "operations",
+    "scenario": "run",
+    "node": "verified",
+    "prompt": "完成本例的 Track-out，才推進下一站。",
+    "overflow": 0
+  },
+  {
+    "width": 390,
+    "course": "operations",
+    "scenario": "run",
+    "node": "finish",
+    "prompt": "S40 已完成；Flow 還有 S50 和 S60。",
+    "overflow": 0
+  },
+  {
+    "width": 390,
+    "course": "operations",
+    "scenario": "fault",
+    "node": "start",
+    "prompt": "故障訊息出現後，先保留現場與未完成結果。",
+    "overflow": 0
+  },
+  {
+    "width": 390,
+    "course": "operations",
+    "scenario": "fault",
+    "node": "recovered",
+    "prompt": "晶圓已歸位，仍缺少合格的製程結果。",
+    "overflow": 0
+  },
+  {
+    "width": 390,
+    "course": "operations",
+    "scenario": "fault",
+    "node": "finish",
+    "prompt": "保留目前位置，等待工程決定後續路徑。",
+    "overflow": 0
+  },
+  {
+    "width": 390,
+    "course": "operations",
+    "scenario": "hold",
+    "node": "start",
+    "prompt": "先完成品質複核。",
+    "overflow": 0
+  },
+  {
+    "width": 390,
+    "course": "operations",
+    "scenario": "hold",
+    "node": "one",
+    "prompt": "剩下一個工程 Hold。",
+    "overflow": 0
+  },
+  {
+    "width": 390,
+    "course": "operations",
+    "scenario": "hold",
+    "node": "finish",
+    "prompt": "可以重新進行開工確認；位置與 Step 均未改變。",
+    "overflow": 0
+  },
+  {
+    "width": 390,
+    "course": "flow",
+    "scenario": "bind",
+    "node": "start",
+    "prompt": "選擇這批使用的核准流程。",
+    "overflow": 0
+  },
+  {
+    "width": 390,
+    "course": "flow",
+    "scenario": "bind",
+    "node": "finish",
+    "prompt": "L023 已有自己的流程位置。",
+    "overflow": 0
+  },
+  {
+    "width": 390,
+    "course": "flow",
+    "scenario": "normal",
+    "node": "start",
+    "prompt": "目前 S10 清洗。",
+    "overflow": 0
+  },
+  {
+    "width": 390,
+    "course": "flow",
+    "scenario": "normal",
+    "node": "work0",
+    "prompt": "S10 的必要作業與資料已可在本例確認。",
+    "overflow": 0
+  },
+  {
+    "width": 390,
+    "course": "flow",
+    "scenario": "normal",
+    "node": "ready1",
+    "prompt": "目前 S20 成膜。",
+    "overflow": 0
+  },
+  {
+    "width": 390,
+    "course": "flow",
+    "scenario": "normal",
+    "node": "work1",
+    "prompt": "S20 的必要作業與資料已可在本例確認。",
+    "overflow": 0
+  },
+  {
+    "width": 390,
+    "course": "flow",
+    "scenario": "normal",
+    "node": "ready2",
+    "prompt": "目前 S30 微影。",
+    "overflow": 0
+  },
+  {
+    "width": 390,
+    "course": "flow",
+    "scenario": "normal",
+    "node": "work2",
+    "prompt": "S30 的必要作業與資料已可在本例確認。",
+    "overflow": 0
+  },
+  {
+    "width": 390,
+    "course": "flow",
+    "scenario": "normal",
+    "node": "ready3",
+    "prompt": "目前 S40 蝕刻。",
+    "overflow": 0
+  },
+  {
+    "width": 390,
+    "course": "flow",
+    "scenario": "normal",
+    "node": "work3",
+    "prompt": "S40 的必要作業與資料已可在本例確認。",
+    "overflow": 0
+  },
+  {
+    "width": 390,
+    "course": "flow",
+    "scenario": "normal",
+    "node": "ready4",
+    "prompt": "目前 S50 量測。Stage B 已完成，還要完成確認階段。",
+    "overflow": 0
+  },
+  {
+    "width": 390,
+    "course": "flow",
+    "scenario": "normal",
+    "node": "work4",
+    "prompt": "S50 的必要作業與資料已可在本例確認。",
+    "overflow": 0
+  },
+  {
+    "width": 390,
+    "course": "flow",
+    "scenario": "normal",
+    "node": "ready5",
+    "prompt": "目前 S60 結案。",
+    "overflow": 0
+  },
+  {
+    "width": 390,
+    "course": "flow",
+    "scenario": "normal",
+    "node": "work5",
+    "prompt": "S60 的必要作業與資料已可在本例確認。",
+    "overflow": 0
+  },
+  {
+    "width": 390,
+    "course": "flow",
+    "scenario": "normal",
+    "node": "finish",
+    "prompt": "L023 的六站旅程完成。",
+    "overflow": 0
+  },
+  {
+    "width": 390,
+    "course": "flow",
+    "scenario": "branch",
+    "node": "start",
+    "prompt": "請選一組量測結果，觀察後續路徑。",
+    "overflow": 0
+  },
+  {
+    "width": 390,
+    "course": "flow",
+    "scenario": "branch",
+    "node": "pass",
+    "prompt": "下一站是 S60 結案，還沒完成整條 Flow。",
+    "overflow": 0
+  },
+  {
+    "width": 390,
+    "course": "flow",
+    "scenario": "branch",
+    "node": "fail",
+    "prompt": "目前仍在 S50，品質結果沒有被抹掉。",
+    "overflow": 0
+  },
+  {
+    "width": 390,
+    "course": "flow",
+    "scenario": "rework",
+    "node": "start",
+    "prompt": "還沒有重工批准，不能自行倒退位置。",
+    "overflow": 0
+  },
+  {
+    "width": 390,
+    "course": "flow",
+    "scenario": "rework",
+    "node": "clean",
+    "prompt": "現在執行的是重工 R10，不是把 S10 的舊紀錄重用。",
+    "overflow": 0
+  },
+  {
+    "width": 390,
+    "course": "flow",
+    "scenario": "rework",
+    "node": "retest",
+    "prompt": "請記錄 S50 第2次 visit 的結果。",
+    "overflow": 0
+  },
+  {
+    "width": 390,
+    "course": "flow",
+    "scenario": "rework",
+    "node": "finish",
+    "prompt": "完成重工複測，進入 S60。",
+    "overflow": 0
+  },
+  {
+    "width": 390,
+    "course": "flow",
+    "scenario": "rework",
+    "node": "limit",
+    "prompt": "不能自動無限重工。",
+    "overflow": 0
+  },
+  {
+    "width": 390,
+    "course": "flow",
+    "scenario": "split",
+    "node": "start",
+    "prompt": "依成員拆成兩個活躍子批，父批保留譜系。",
+    "overflow": 0
+  },
+  {
+    "width": 390,
+    "course": "flow",
+    "scenario": "split",
+    "node": "separated",
+    "prompt": "A在 S50，B在 R10，目前進度不同。",
+    "overflow": 0
+  },
+  {
+    "width": 390,
+    "course": "flow",
+    "scenario": "split",
+    "node": "aligned",
+    "prompt": "兩子批的產品、Flow v1、位置與可合批狀態都相同。",
+    "overflow": 0
+  },
+  {
+    "width": 390,
+    "course": "flow",
+    "scenario": "split",
+    "node": "finish",
+    "prompt": "合併後仍在 S50 等待量測。",
+    "overflow": 0
+  },
+  {
+    "width": 390,
+    "course": "flow",
+    "scenario": "version",
+    "node": "start",
+    "prompt": "先發布已核准的新定義。",
+    "overflow": 0
+  },
+  {
+    "width": 390,
+    "course": "flow",
+    "scenario": "version",
+    "node": "published",
+    "prompt": "決定新批套用與既有批遷移。",
+    "overflow": 0
+  },
+  {
+    "width": 390,
+    "course": "flow",
+    "scenario": "version",
+    "node": "newlot",
+    "prompt": "L023 是否遷移，需要明確的批准與位置對照。",
+    "overflow": 0
+  },
+  {
+    "width": 390,
+    "course": "flow",
+    "scenario": "version",
+    "node": "finish",
+    "prompt": "L023 必須先做新增的 S45。",
+    "overflow": 0
+  },
+  {
+    "width": 390,
+    "course": "flow",
+    "scenario": "qtime",
+    "node": "start",
+    "prompt": "可在期限內開工，或模擬延遲。",
+    "overflow": 0
+  },
+  {
+    "width": 390,
+    "course": "flow",
+    "scenario": "qtime",
+    "node": "ontime",
+    "prompt": "已於期限內開始本次作業。",
+    "overflow": 0
+  },
+  {
+    "width": 390,
+    "course": "flow",
+    "scenario": "qtime",
+    "node": "expired",
+    "prompt": "45分鐘已經發生，畫面重設不能消除歷史。",
+    "overflow": 0
+  },
+  {
+    "width": 390,
+    "course": "flow",
+    "scenario": "qtime",
+    "node": "finish",
+    "prompt": "等待工程評估，不自行決定能否繼續。",
+    "overflow": 0
+  },
+  {
+    "width": 390,
+    "course": "flow",
+    "scenario": "skip",
+    "node": "start",
+    "prompt": "交期很緊，能直接去 S60 嗎？",
+    "overflow": 0
+  },
+  {
+    "width": 390,
+    "course": "flow",
+    "scenario": "skip",
+    "node": "finish",
+    "prompt": "保留必要證據後才到 S60。",
+    "overflow": 0
+  },
+  {
+    "width": 390,
+    "course": "flow",
+    "scenario": "revisit",
+    "node": "start",
+    "prompt": "R10 能沿用 S10 的完成紀錄嗎？",
+    "overflow": 0
+  },
+  {
+    "width": 390,
+    "course": "flow",
+    "scenario": "revisit",
+    "node": "finish",
+    "prompt": "兩個 CLEAN occurrence 各有自己的紀錄。",
+    "overflow": 0
+  },
+  {
+    "width": 390,
+    "course": "flow",
+    "scenario": "dispatch",
+    "node": "start",
+    "prompt": "從可執行候選中選下一批。",
+    "overflow": 0
+  },
+  {
+    "width": 390,
+    "course": "flow",
+    "scenario": "dispatch",
+    "node": "finish",
+    "prompt": "兩批位置相同，執行狀態仍各自獨立。",
+    "overflow": 0
+  }
+]

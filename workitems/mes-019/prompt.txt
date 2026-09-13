@@ -1,0 +1,10 @@
+Create a polished Traditional Chinese semiconductor teaching illustration, landscape 16:9, high resolution. White/light blue background, realistic detailed 3D semiconductor equipment, crisp large black Chinese title, three connected teaching scenes with pale-blue framed panels and blue headers, a single pale-yellow #FFF4CC takeaway banner at bottom with lightbulb. Match the clarity of an engineering physical-object-to-data teaching illustration.
+Title exactly: 「機群 WPH：生管訂定的預期產出」
+Subtitle exactly: 「WPH = wafer per hour｜每小時晶圓產出量」
+Three visual scenes from left to right:
+1. Header 「生產管理部門」. A close view of a production planning desk with a professional hand setting a clear paper standard; paper reads 「機群 WPH 標準」 and 「定義預期產出」. No people faces needed, no fake numbers or charts.
+2. Header 「指定機群」. A clearly bounded group of three realistic semiconductor processing tools in one shared light-blue enclosure. One group plaque says 「同一機群」. Arrow from the planning standard TO the whole group, labeled 「訂定 WPH」. Machines must be grouped clearly; no individual WPH labels or machine production counts. Three machines are illustration only and never multiplied into capacity.
+3. Header 「預期每小時產出」. A large clean clock with text 「1 小時」 beside a neatly arranged realistic stack of silicon wafers with text 「預期晶圓片數」. This is a standard/expectation illustration, not actual production. Show label 「預期標準」 prominently. Connecting blue arrow from the whole machine group to this output standard, not an actual conveyor process.
+Bottom single yellow banner exactly: 「機群 WPH 是生管訂定的預期產出標準」
+Small secondary sentence above banner exactly: 「實際產出需另查生產紀錄」
+No percent figures, no WPH example values, no branded equipment, no IE label, no LR/Recipe mapping, no location/FOUP/Slot story, no arbitrary effective date, no fabricated database fields, no per-tool summation, no page number, no logo or watermark. All text legible Traditional Chinese. Technical meaning is authorized by user: production management defines expected wafers per hour for each equipment group. Do not invent performance claims.

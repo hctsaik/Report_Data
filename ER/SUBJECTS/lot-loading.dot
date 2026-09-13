@@ -1,0 +1,17 @@
+graph ER {
+graph [rankdir=LR, nodesep=.4, ranksep=.65, splines=polyline, outputorder=edgesfirst, pad=.3, bgcolor="white"];
+node [fontname="Microsoft JhengHei",fontsize=18,margin=".16,.12"];
+edge [color="#70869a",penwidth=1.8];
+"n_2671_cast-link" [id="n_2671_cast-link",label="放在\nSiview.Frcast_lot",shape=diamond,color="#6a7d8e",fillcolor="#ffffff",style=filled,penwidth=2];
+"n_2671_material-link" [id="n_2671_material-link",label="放在\nSiview.FrlotMtrl",shape=diamond,color="#6a7d8e",fillcolor="#ffffff",style=filled,penwidth=2];
+"n_2671_slot" [id="n_2671_slot",label="內容物歷史\nSiview.fhwlths",shape=diamond,color="#6a7d8e",fillcolor="#ffffff",style=filled,penwidth=2];
+"t_55072ef91a15" [id="t_55072ef91a15",label="Foup\nSiview.Frcast",shape=box,color="#008775",fillcolor="#edf9f5",style=filled,penwidth=2];
+"t_b293b57a5ae2" [id="t_b293b57a5ae2",label="Foup\nSiview.FRLot_MtrlContnrs",shape=box,color="#008775",fillcolor="#edf9f5",style=filled,penwidth=2];
+"t_cfc81de70314" [id="t_cfc81de70314",label="本圖主詞\nLOT\nSiview.Frlot",shape=box,color="#176ac2",fillcolor="#eef5ff",style=filled,penwidth=4];
+"n_2671_cast-link" -- "t_55072ef91a15" [id="e_n_2671_cast-link_t_55072ef91a15"];
+"t_cfc81de70314" -- "n_2671_cast-link" [id="e_n_2671_cast-link_t_cfc81de70314"];
+"n_2671_material-link" -- "t_b293b57a5ae2" [id="e_n_2671_material-link_t_b293b57a5ae2"];
+"t_cfc81de70314" -- "n_2671_material-link" [id="e_n_2671_material-link_t_cfc81de70314"];
+"n_2671_slot" -- "t_55072ef91a15" [id="e_n_2671_slot_t_55072ef91a15"];
+"t_cfc81de70314" -- "n_2671_slot" [id="e_n_2671_slot_t_cfc81de70314"];
+}

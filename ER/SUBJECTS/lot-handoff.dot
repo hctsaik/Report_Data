@@ -1,0 +1,17 @@
+graph ER {
+graph [rankdir=LR, nodesep=.4, ranksep=.65, splines=polyline, outputorder=edgesfirst, pad=.3, bgcolor="white"];
+node [fontname="Microsoft JhengHei",fontsize=18,margin=".16,.12"];
+edge [color="#70869a",penwidth=1.8];
+"n_2671_has" [id="n_2671_has",label="有\neqp_id",shape=diamond,color="#6a7d8e",fillcolor="#ffffff",style=filled,penwidth=2];
+"n_2671_lot-eqp" [id="n_2671_lot-eqp",label="預到\nSiview.Frlot_EQP",shape=diamond,color="#6a7d8e",fillcolor="#ffffff",style=filled,penwidth=2];
+"n_2671_port-link" [id="n_2671_port-link",label="EI 在\nSiview.Freqp_Lot",shape=diamond,color="#6a7d8e",fillcolor="#ffffff",style=filled,penwidth=2];
+"t_7f282520afb8" [id="t_7f282520afb8",label="機台\nSiview.freqp\nEQP",shape=box,color="#b26018",fillcolor="#fff6eb",style=filled,penwidth=2];
+"t_a43ff774d728" [id="t_a43ff774d728",label="Port\nSiview.Port",shape=box,color="#b26018",fillcolor="#fff6eb",style=filled,penwidth=2];
+"t_cfc81de70314" [id="t_cfc81de70314",label="本圖主詞\nLOT\nSiview.Frlot",shape=box,color="#176ac2",fillcolor="#eef5ff",style=filled,penwidth=4];
+"t_7f282520afb8" -- "n_2671_has" [id="e_n_2671_has_t_7f282520afb8"];
+"t_a43ff774d728" -- "n_2671_has" [id="e_n_2671_has_t_a43ff774d728"];
+"n_2671_lot-eqp" -- "t_7f282520afb8" [id="e_n_2671_lot-eqp_t_7f282520afb8"];
+"t_cfc81de70314" -- "n_2671_lot-eqp" [id="e_n_2671_lot-eqp_t_cfc81de70314"];
+"n_2671_port-link" -- "t_a43ff774d728" [id="e_n_2671_port-link_t_a43ff774d728"];
+"t_cfc81de70314" -- "n_2671_port-link" [id="e_n_2671_port-link_t_cfc81de70314"];
+}

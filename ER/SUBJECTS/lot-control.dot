@@ -1,0 +1,14 @@
+graph ER {
+graph [rankdir=LR, nodesep=.4, ranksep=.65, splines=polyline, outputorder=edgesfirst, pad=.3, bgcolor="white"];
+node [fontname="Microsoft JhengHei",fontsize=18,margin=".16,.12"];
+edge [color="#70869a",penwidth=1.8];
+"n_2673_future-link" [id="n_2673_future-link",label="Future Hold\nLot_ID",shape=diamond,color="#6a7d8e",fillcolor="#ffffff",style=filled,penwidth=2];
+"n_2673_hold-link" [id="n_2673_hold-link",label="有 Prod Hold\nLot_ID",shape=diamond,color="#6a7d8e",fillcolor="#ffffff",style=filled,penwidth=2];
+"t_52a86ba40707" [id="t_52a86ba40707",label="Product Hold\nSiview.CSFRPRHold",shape=box,color="#61748b",fillcolor="#f5f7fa",style=filled,penwidth=2];
+"t_604a111deb74" [id="t_604a111deb74",label="未來的 Future Hold\nSiview.frlot_futurehold",shape=box,color="#61748b",fillcolor="#f5f7fa",style=filled,penwidth=2];
+"t_cfc81de70314" [id="t_cfc81de70314",label="本圖主詞\nLOT\nSiview.Frlot",shape=box,color="#176ac2",fillcolor="#eef5ff",style=filled,penwidth=4];
+"n_2673_future-link" -- "t_604a111deb74" [id="e_n_2673_future-link_t_604a111deb74"];
+"t_cfc81de70314" -- "n_2673_future-link" [id="e_n_2673_future-link_t_cfc81de70314"];
+"n_2673_hold-link" -- "t_52a86ba40707" [id="e_n_2673_hold-link_t_52a86ba40707"];
+"t_cfc81de70314" -- "n_2673_hold-link" [id="e_n_2673_hold-link_t_cfc81de70314"];
+}

@@ -1,0 +1,570 @@
+{
+  "layouts": [
+    {
+      "course": "operations",
+      "chapter": "tool",
+      "width": 1440,
+      "overflow": false
+    },
+    {
+      "course": "operations",
+      "chapter": "transport",
+      "width": 1440,
+      "overflow": false
+    },
+    {
+      "course": "operations",
+      "chapter": "port",
+      "width": 1440,
+      "overflow": false
+    },
+    {
+      "course": "operations",
+      "chapter": "recipe",
+      "width": 1440,
+      "overflow": false
+    },
+    {
+      "course": "operations",
+      "chapter": "chamber",
+      "width": 1440,
+      "overflow": false
+    },
+    {
+      "course": "operations",
+      "chapter": "state",
+      "width": 1440,
+      "overflow": false
+    },
+    {
+      "course": "operations",
+      "chapter": "handoff",
+      "width": 1440,
+      "overflow": false
+    },
+    {
+      "course": "operations",
+      "chapter": "lab",
+      "width": 1440,
+      "overflow": false
+    },
+    {
+      "course": "flow",
+      "chapter": "flow",
+      "width": 1440,
+      "overflow": false
+    },
+    {
+      "course": "flow",
+      "chapter": "stage",
+      "width": 1440,
+      "overflow": false
+    },
+    {
+      "course": "flow",
+      "chapter": "step",
+      "width": 1440,
+      "overflow": false
+    },
+    {
+      "course": "flow",
+      "chapter": "lot-flow",
+      "width": 1440,
+      "overflow": false
+    },
+    {
+      "course": "flow",
+      "chapter": "execution",
+      "width": 1440,
+      "overflow": false
+    },
+    {
+      "course": "flow",
+      "chapter": "branching",
+      "width": 1440,
+      "overflow": false
+    },
+    {
+      "course": "flow",
+      "chapter": "rework",
+      "width": 1440,
+      "overflow": false
+    },
+    {
+      "course": "flow",
+      "chapter": "split-merge",
+      "width": 1440,
+      "overflow": false
+    },
+    {
+      "course": "flow",
+      "chapter": "versions",
+      "width": 1440,
+      "overflow": false
+    },
+    {
+      "course": "flow",
+      "chapter": "lab",
+      "width": 1440,
+      "overflow": false
+    },
+    {
+      "course": "operations",
+      "chapter": "tool",
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "course": "operations",
+      "chapter": "transport",
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "course": "operations",
+      "chapter": "port",
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "course": "operations",
+      "chapter": "recipe",
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "course": "operations",
+      "chapter": "chamber",
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "course": "operations",
+      "chapter": "state",
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "course": "operations",
+      "chapter": "handoff",
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "course": "operations",
+      "chapter": "lab",
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "course": "flow",
+      "chapter": "flow",
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "course": "flow",
+      "chapter": "stage",
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "course": "flow",
+      "chapter": "step",
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "course": "flow",
+      "chapter": "lot-flow",
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "course": "flow",
+      "chapter": "execution",
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "course": "flow",
+      "chapter": "branching",
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "course": "flow",
+      "chapter": "rework",
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "course": "flow",
+      "chapter": "split-merge",
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "course": "flow",
+      "chapter": "versions",
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "course": "flow",
+      "chapter": "lab",
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "course": "operations",
+      "chapter": "tool",
+      "width": 360,
+      "overflow": false
+    },
+    {
+      "course": "operations",
+      "chapter": "transport",
+      "width": 360,
+      "overflow": false
+    },
+    {
+      "course": "operations",
+      "chapter": "port",
+      "width": 360,
+      "overflow": false
+    },
+    {
+      "course": "operations",
+      "chapter": "recipe",
+      "width": 360,
+      "overflow": false
+    },
+    {
+      "course": "operations",
+      "chapter": "chamber",
+      "width": 360,
+      "overflow": false
+    },
+    {
+      "course": "operations",
+      "chapter": "state",
+      "width": 360,
+      "overflow": false
+    },
+    {
+      "course": "operations",
+      "chapter": "handoff",
+      "width": 360,
+      "overflow": false
+    },
+    {
+      "course": "operations",
+      "chapter": "lab",
+      "width": 360,
+      "overflow": false
+    },
+    {
+      "course": "flow",
+      "chapter": "flow",
+      "width": 360,
+      "overflow": false
+    },
+    {
+      "course": "flow",
+      "chapter": "stage",
+      "width": 360,
+      "overflow": false
+    },
+    {
+      "course": "flow",
+      "chapter": "step",
+      "width": 360,
+      "overflow": false
+    },
+    {
+      "course": "flow",
+      "chapter": "lot-flow",
+      "width": 360,
+      "overflow": false
+    },
+    {
+      "course": "flow",
+      "chapter": "execution",
+      "width": 360,
+      "overflow": false
+    },
+    {
+      "course": "flow",
+      "chapter": "branching",
+      "width": 360,
+      "overflow": false
+    },
+    {
+      "course": "flow",
+      "chapter": "rework",
+      "width": 360,
+      "overflow": false
+    },
+    {
+      "course": "flow",
+      "chapter": "split-merge",
+      "width": 360,
+      "overflow": false
+    },
+    {
+      "course": "flow",
+      "chapter": "versions",
+      "width": 360,
+      "overflow": false
+    },
+    {
+      "course": "flow",
+      "chapter": "lab",
+      "width": 360,
+      "overflow": false
+    }
+  ],
+  "journeys": [
+    {
+      "course": "operations",
+      "case": "arrival",
+      "width": 1440,
+      "acceptedActions": 2,
+      "lastNode": "arrived"
+    },
+    {
+      "course": "operations",
+      "case": "reconcile",
+      "width": 1440,
+      "acceptedActions": 3,
+      "lastNode": "finish"
+    },
+    {
+      "course": "operations",
+      "case": "recipe",
+      "width": 1440,
+      "acceptedActions": 2,
+      "lastNode": "finish"
+    },
+    {
+      "course": "operations",
+      "case": "run",
+      "width": 1440,
+      "acceptedActions": 8,
+      "lastNode": "finish"
+    },
+    {
+      "course": "operations",
+      "case": "fault",
+      "width": 1440,
+      "acceptedActions": 2,
+      "lastNode": "finish"
+    },
+    {
+      "course": "operations",
+      "case": "hold",
+      "width": 1440,
+      "acceptedActions": 2,
+      "lastNode": "finish"
+    },
+    {
+      "course": "flow",
+      "case": "bind",
+      "width": 1440,
+      "acceptedActions": 1,
+      "lastNode": "finish"
+    },
+    {
+      "course": "flow",
+      "case": "normal",
+      "width": 1440,
+      "acceptedActions": 12,
+      "lastNode": "finish"
+    },
+    {
+      "course": "flow",
+      "case": "branch",
+      "width": 1440,
+      "acceptedActions": 1,
+      "lastNode": "pass"
+    },
+    {
+      "course": "flow",
+      "case": "rework",
+      "width": 1440,
+      "acceptedActions": 3,
+      "lastNode": "finish"
+    },
+    {
+      "course": "flow",
+      "case": "split",
+      "width": 1440,
+      "acceptedActions": 3,
+      "lastNode": "finish"
+    },
+    {
+      "course": "flow",
+      "case": "version",
+      "width": 1440,
+      "acceptedActions": 3,
+      "lastNode": "finish"
+    },
+    {
+      "course": "flow",
+      "case": "qtime",
+      "width": 1440,
+      "acceptedActions": 1,
+      "lastNode": "ontime"
+    },
+    {
+      "course": "flow",
+      "case": "skip",
+      "width": 1440,
+      "acceptedActions": 1,
+      "lastNode": "finish"
+    },
+    {
+      "course": "flow",
+      "case": "revisit",
+      "width": 1440,
+      "acceptedActions": 1,
+      "lastNode": "finish"
+    },
+    {
+      "course": "flow",
+      "case": "dispatch",
+      "width": 1440,
+      "acceptedActions": 1,
+      "lastNode": "finish"
+    },
+    {
+      "course": "operations",
+      "case": "arrival",
+      "width": 360,
+      "acceptedActions": 2,
+      "lastNode": "arrived"
+    },
+    {
+      "course": "operations",
+      "case": "reconcile",
+      "width": 360,
+      "acceptedActions": 3,
+      "lastNode": "finish"
+    },
+    {
+      "course": "operations",
+      "case": "recipe",
+      "width": 360,
+      "acceptedActions": 2,
+      "lastNode": "finish"
+    },
+    {
+      "course": "operations",
+      "case": "run",
+      "width": 360,
+      "acceptedActions": 8,
+      "lastNode": "finish"
+    },
+    {
+      "course": "operations",
+      "case": "fault",
+      "width": 360,
+      "acceptedActions": 2,
+      "lastNode": "finish"
+    },
+    {
+      "course": "operations",
+      "case": "hold",
+      "width": 360,
+      "acceptedActions": 2,
+      "lastNode": "finish"
+    },
+    {
+      "course": "flow",
+      "case": "bind",
+      "width": 360,
+      "acceptedActions": 1,
+      "lastNode": "finish"
+    },
+    {
+      "course": "flow",
+      "case": "normal",
+      "width": 360,
+      "acceptedActions": 12,
+      "lastNode": "finish"
+    },
+    {
+      "course": "flow",
+      "case": "branch",
+      "width": 360,
+      "acceptedActions": 1,
+      "lastNode": "pass"
+    },
+    {
+      "course": "flow",
+      "case": "rework",
+      "width": 360,
+      "acceptedActions": 3,
+      "lastNode": "finish"
+    },
+    {
+      "course": "flow",
+      "case": "split",
+      "width": 360,
+      "acceptedActions": 3,
+      "lastNode": "finish"
+    },
+    {
+      "course": "flow",
+      "case": "version",
+      "width": 360,
+      "acceptedActions": 3,
+      "lastNode": "finish"
+    },
+    {
+      "course": "flow",
+      "case": "qtime",
+      "width": 360,
+      "acceptedActions": 1,
+      "lastNode": "ontime"
+    },
+    {
+      "course": "flow",
+      "case": "skip",
+      "width": 360,
+      "acceptedActions": 1,
+      "lastNode": "finish"
+    },
+    {
+      "course": "flow",
+      "case": "revisit",
+      "width": 360,
+      "acceptedActions": 1,
+      "lastNode": "finish"
+    },
+    {
+      "course": "flow",
+      "case": "dispatch",
+      "width": 360,
+      "acceptedActions": 1,
+      "lastNode": "finish"
+    }
+  ],
+  "errors": [],
+  "assets": {
+    "index.html": "59851ec4055c7fc6f05d2c4fc4ff499381b01b37cc8edc4ea25e3b71f16be0a1",
+    "operations.html": "76f2f20cbafdf155cd92dee65c7772e23419dfcb5129d2f3e797f622a3156137",
+    "flow.html": "70405a4199405acbad2f2eefd22c9ff42acf724fe0a861cf1b49177dcdfdac49",
+    "course.css": "98f7b7782225961b00b0eff1deb64c29d36fdac197c8399713d9c5d9019ac8c2",
+    "course.js": "c350f57882aaf7570ab373c23717ec261e77b2526d53010a224b39a406a8c518",
+    "course-content.js": "8bd7ebf305263f3cfae0fc22e2ce5dd4a5d44d97afecc5a7e3331e049a28c862",
+    "scenarios.js": "6e06819417dbc304dce62ffa8feb299fde1fab07a90221e0ffb9a8663f023706",
+    "assets/mes-v2/equipment-v2-mobile.png": "261d98eb8da5650eb069c1f04b17d1ab171699970c8d9d3ffa258cebdaaf7420",
+    "assets/mes-v2/equipment-v2.png": "ee4c2c29256da47ffc845cd367df192115f8ccabf3c1e2b150047a7769178999",
+    "assets/mes-v2/flow-v3.png": "f6e4cb79398e16d38d22579556f0e468279ab5e1491a45e031da754fb1ee82d8",
+    "assets/mes-v2/flow-v4-mobile.png": "4a6a90c41b913da3d71576f0502b6e00c24fe1d6ee7970a2b8f2733de9f69d54",
+    "assets/mes-v2/transport-v2-mobile.png": "747e81f6b2910ba059da73903b1648d34d3a91dd393be72fd2e88497de0b2237",
+    "assets/mes-v2/transport-v2.png": "cdd32ff0013f1d5a8453ded3211e373d05fdbe5d9dce1106d7cd675fc11765f7"
+  }
+}

@@ -1,0 +1,3035 @@
+[
+  {
+    "name": "2671",
+    "title": "LOT、FOUP、Port 與機台",
+    "width": 1800,
+    "height": 1530,
+    "nodes": [
+      {
+        "id": "material",
+        "x": 600,
+        "y": 180,
+        "lines": [
+          "Foup",
+          "Siview.FRLot_MtrlContnrs"
+        ],
+        "kind": "rect",
+        "blue": false,
+        "issue": null,
+        "w": 360,
+        "h": 112
+      },
+      {
+        "id": "material-link",
+        "x": 600,
+        "y": 390,
+        "lines": [
+          "放在",
+          "Siview.FrlotMtrl"
+        ],
+        "kind": "diamond",
+        "blue": false,
+        "issue": null,
+        "w": 360,
+        "h": 170
+      },
+      {
+        "id": "lot",
+        "x": 600,
+        "y": 610,
+        "lines": [
+          "LOT",
+          "Siview.Frlot"
+        ],
+        "kind": "rect",
+        "blue": true,
+        "issue": null,
+        "w": 300,
+        "h": 112
+      },
+      {
+        "id": "port-link",
+        "x": 1050,
+        "y": 610,
+        "lines": [
+          "EI 在",
+          "Siview.Freqp_Lot"
+        ],
+        "kind": "diamond",
+        "blue": false,
+        "issue": null,
+        "w": 350,
+        "h": 170
+      },
+      {
+        "id": "port",
+        "x": 1510,
+        "y": 610,
+        "lines": [
+          "Port",
+          "Siview.Port"
+        ],
+        "kind": "rect",
+        "blue": false,
+        "issue": null,
+        "w": 300,
+        "h": 112
+      },
+      {
+        "id": "slot",
+        "x": 220,
+        "y": 860,
+        "lines": [
+          "在 Slot",
+          "Siview.fhwlths"
+        ],
+        "kind": "diamond",
+        "blue": false,
+        "issue": null,
+        "w": 340,
+        "h": 170
+      },
+      {
+        "id": "cast-link",
+        "x": 600,
+        "y": 860,
+        "lines": [
+          "放在",
+          "Siview.Frcast_lot"
+        ],
+        "kind": "diamond",
+        "blue": false,
+        "issue": null,
+        "w": 340,
+        "h": 170
+      },
+      {
+        "id": "lot-eqp",
+        "x": 1050,
+        "y": 860,
+        "lines": [
+          "預到",
+          "Siview.Frlot_EQP"
+        ],
+        "kind": "diamond",
+        "blue": false,
+        "issue": null,
+        "w": 350,
+        "h": 170
+      },
+      {
+        "id": "has",
+        "x": 1510,
+        "y": 860,
+        "lines": [
+          "有",
+          "eqp_id"
+        ],
+        "kind": "diamond",
+        "blue": false,
+        "issue": null,
+        "w": 300,
+        "h": 170
+      },
+      {
+        "id": "cast",
+        "x": 600,
+        "y": 1120,
+        "lines": [
+          "Foup",
+          "Siview.Frcast"
+        ],
+        "kind": "rect",
+        "blue": false,
+        "issue": null,
+        "w": 300,
+        "h": 112
+      },
+      {
+        "id": "location",
+        "x": 1050,
+        "y": 1120,
+        "lines": [
+          "位於",
+          "eqp_id",
+          "Siview.CSFHDOPHS"
+        ],
+        "kind": "diamond",
+        "blue": false,
+        "issue": null,
+        "w": 390,
+        "h": 190
+      },
+      {
+        "id": "eqp",
+        "x": 1510,
+        "y": 1120,
+        "lines": [
+          "機台",
+          "Siview.freqp"
+        ],
+        "kind": "rect",
+        "blue": false,
+        "issue": null,
+        "w": 300,
+        "h": 112
+      },
+      {
+        "id": "predispatch",
+        "x": 1050,
+        "y": 1380,
+        "lines": [
+          "預派機台",
+          "eqp_id",
+          "SIVIEW.CSFRPREDISPATCH"
+        ],
+        "kind": "diamond",
+        "blue": false,
+        "issue": null,
+        "w": 500,
+        "h": 210
+      }
+    ],
+    "edges": [
+      {
+        "a": "material",
+        "sa": "B",
+        "b": "material-link",
+        "sb": "T",
+        "via": []
+      },
+      {
+        "a": "material-link",
+        "sa": "B",
+        "b": "lot",
+        "sb": "T",
+        "via": []
+      },
+      {
+        "a": "lot",
+        "sa": "R",
+        "b": "port-link",
+        "sb": "L",
+        "via": []
+      },
+      {
+        "a": "port-link",
+        "sa": "R",
+        "b": "port",
+        "sb": "L",
+        "via": []
+      },
+      {
+        "a": "lot",
+        "sa": "L",
+        "b": "slot",
+        "sb": "T",
+        "via": [
+          [
+            220,
+            610
+          ]
+        ]
+      },
+      {
+        "a": "slot",
+        "sa": "B",
+        "b": "cast",
+        "sb": "L",
+        "via": [
+          [
+            220,
+            1120
+          ]
+        ]
+      },
+      {
+        "a": "lot",
+        "sa": "B",
+        "b": "cast-link",
+        "sb": "T",
+        "via": []
+      },
+      {
+        "a": "cast-link",
+        "sa": "B",
+        "b": "cast",
+        "sb": "T",
+        "via": []
+      },
+      {
+        "a": "lot",
+        "sa": "B",
+        "b": "lot-eqp",
+        "sb": "T",
+        "via": [
+          [
+            600,
+            720
+          ],
+          [
+            1050,
+            720
+          ]
+        ]
+      },
+      {
+        "a": "port",
+        "sa": "B",
+        "b": "has",
+        "sb": "T",
+        "via": []
+      },
+      {
+        "a": "has",
+        "sa": "B",
+        "b": "eqp",
+        "sb": "T",
+        "via": []
+      },
+      {
+        "a": "lot-eqp",
+        "sa": "B",
+        "b": "eqp",
+        "sb": "T",
+        "via": [
+          [
+            1050,
+            1010
+          ],
+          [
+            1510,
+            1010
+          ]
+        ]
+      },
+      {
+        "a": "cast",
+        "sa": "R",
+        "b": "location",
+        "sb": "L",
+        "via": []
+      },
+      {
+        "a": "location",
+        "sa": "R",
+        "b": "eqp",
+        "sb": "L",
+        "via": []
+      },
+      {
+        "a": "cast",
+        "sa": "R",
+        "b": "predispatch",
+        "sb": "L",
+        "via": [
+          [
+            790,
+            1120
+          ],
+          [
+            790,
+            1380
+          ]
+        ]
+      },
+      {
+        "a": "predispatch",
+        "sa": "R",
+        "b": "eqp",
+        "sb": "L",
+        "via": [
+          [
+            1320,
+            1380
+          ],
+          [
+            1320,
+            1120
+          ]
+        ]
+      }
+    ],
+    "notes": [
+      [
+        60,
+        1500,
+        "原圖獨立小字：siview.fhwlths（未另接線）"
+      ]
+    ]
+  },
+  {
+    "name": "2672",
+    "title": "LOT 歷史、Qtime 與搬送記錄",
+    "width": 2800,
+    "height": 1420,
+    "nodes": [
+      {
+        "id": "predispatch",
+        "x": 1000,
+        "y": 200,
+        "lines": [
+          "預派記錄",
+          "Siview.CSFHPREDISP"
+        ],
+        "kind": "rect",
+        "blue": false,
+        "issue": null,
+        "w": 350,
+        "h": 112
+      },
+      {
+        "id": "pre-link",
+        "x": 1000,
+        "y": 440,
+        "lines": [
+          "預派機台",
+          "Lot_ID"
+        ],
+        "kind": "diamond",
+        "blue": false,
+        "issue": null,
+        "w": 300,
+        "h": 170
+      },
+      {
+        "id": "lot",
+        "x": 1000,
+        "y": 720,
+        "lines": [
+          "LOT",
+          "Siview.Frlot"
+        ],
+        "kind": "rect",
+        "blue": true,
+        "issue": null,
+        "w": 300,
+        "h": 112
+      },
+      {
+        "id": "move",
+        "x": 220,
+        "y": 720,
+        "lines": [
+          "MOVE 歷史",
+          "F12DM.DM_Move_Step_bth"
+        ],
+        "kind": "rect",
+        "blue": false,
+        "issue": null,
+        "w": 360,
+        "h": 112
+      },
+      {
+        "id": "move-link",
+        "x": 610,
+        "y": 720,
+        "lines": [
+          "機台 MOVE",
+          "Lot_id"
+        ],
+        "kind": "diamond",
+        "blue": false,
+        "issue": null,
+        "w": 300,
+        "h": 170
+      },
+      {
+        "id": "summary",
+        "x": 1390,
+        "y": 720,
+        "lines": [
+          "站點 Summary",
+          "Lot_id"
+        ],
+        "kind": "diamond",
+        "blue": false,
+        "issue": null,
+        "w": 300,
+        "h": 170
+      },
+      {
+        "id": "step",
+        "x": 1780,
+        "y": 720,
+        "lines": [
+          "Step 歷史",
+          "F12DM.DM_Lot_step_st"
+        ],
+        "kind": "rect",
+        "blue": false,
+        "issue": null,
+        "w": 350,
+        "h": 112
+      },
+      {
+        "id": "all-actions",
+        "x": 1000,
+        "y": 1000,
+        "lines": [
+          "Lot 所有動作",
+          "Lot_ID"
+        ],
+        "kind": "diamond",
+        "blue": false,
+        "issue": null,
+        "w": 350,
+        "h": 170
+      },
+      {
+        "id": "history",
+        "x": 1000,
+        "y": 1260,
+        "lines": [
+          "批貨歷史",
+          "Siview.FHOPEHS_S"
+        ],
+        "kind": "rect",
+        "blue": false,
+        "issue": null,
+        "w": 350,
+        "h": 112
+      },
+      {
+        "id": "cast",
+        "x": 1780,
+        "y": 200,
+        "lines": [
+          "Foup",
+          "Siview.frcast"
+        ],
+        "kind": "rect",
+        "blue": false,
+        "issue": null,
+        "w": 300,
+        "h": 112
+      },
+      {
+        "id": "cast-link",
+        "x": 1780,
+        "y": 440,
+        "lines": [
+          "Lot 在 Foup 內",
+          "Siview.frcast"
+        ],
+        "kind": "diamond",
+        "blue": false,
+        "issue": null,
+        "w": 350,
+        "h": 170
+      },
+      {
+        "id": "mes-transfer",
+        "x": 2180,
+        "y": 200,
+        "lines": [
+          "MES 傳送歷史",
+          "Carrier_id"
+        ],
+        "kind": "diamond",
+        "blue": false,
+        "issue": null,
+        "w": 340,
+        "h": 170
+      },
+      {
+        "id": "transfer",
+        "x": 2580,
+        "y": 200,
+        "lines": [
+          "傳送歷史",
+          "Mfg_Carrier_te_ut"
+        ],
+        "kind": "rect",
+        "blue": false,
+        "issue": null,
+        "w": 340,
+        "h": 112
+      },
+      {
+        "id": "mcs-transfer",
+        "x": 2180,
+        "y": 460,
+        "lines": [
+          "MCS 傳送歷史",
+          "Carrier_id",
+          "transfer_job_id"
+        ],
+        "kind": "diamond",
+        "blue": false,
+        "issue": null,
+        "w": 360,
+        "h": 190
+      },
+      {
+        "id": "mcs-history",
+        "x": 2580,
+        "y": 460,
+        "lines": [
+          "MCS 傳送歷史",
+          "carrier_job_history@mcsdb",
+          "transfer_job_history@mcsdb"
+        ],
+        "kind": "rect",
+        "blue": false,
+        "issue": null,
+        "w": 390,
+        "h": 140
+      },
+      {
+        "id": "qtime-link",
+        "x": 1780,
+        "y": 1000,
+        "lines": [
+          "Qtime 站點",
+          "Lot_ID",
+          "Ope_no"
+        ],
+        "kind": "diamond",
+        "blue": false,
+        "issue": null,
+        "w": 300,
+        "h": 190
+      },
+      {
+        "id": "qtime",
+        "x": 1780,
+        "y": 1260,
+        "lines": [
+          "Qtime 歷史",
+          "F12DM.DM_Qrest_Hist_BTH"
+        ],
+        "kind": "rect",
+        "blue": false,
+        "issue": null,
+        "w": 390,
+        "h": 112
+      }
+    ],
+    "edges": [
+      {
+        "a": "predispatch",
+        "sa": "B",
+        "b": "pre-link",
+        "sb": "T",
+        "via": []
+      },
+      {
+        "a": "pre-link",
+        "sa": "B",
+        "b": "lot",
+        "sb": "T",
+        "via": []
+      },
+      {
+        "a": "lot",
+        "sa": "B",
+        "b": "all-actions",
+        "sb": "T",
+        "via": []
+      },
+      {
+        "a": "all-actions",
+        "sa": "B",
+        "b": "history",
+        "sb": "T",
+        "via": []
+      },
+      {
+        "a": "cast",
+        "sa": "B",
+        "b": "cast-link",
+        "sb": "T",
+        "via": []
+      },
+      {
+        "a": "cast-link",
+        "sa": "B",
+        "b": "step",
+        "sb": "T",
+        "via": []
+      },
+      {
+        "a": "step",
+        "sa": "B",
+        "b": "qtime-link",
+        "sb": "T",
+        "via": []
+      },
+      {
+        "a": "qtime-link",
+        "sa": "B",
+        "b": "qtime",
+        "sb": "T",
+        "via": []
+      },
+      {
+        "a": "move",
+        "sa": "R",
+        "b": "move-link",
+        "sb": "L",
+        "via": []
+      },
+      {
+        "a": "move-link",
+        "sa": "R",
+        "b": "lot",
+        "sb": "L",
+        "via": []
+      },
+      {
+        "a": "lot",
+        "sa": "R",
+        "b": "summary",
+        "sb": "L",
+        "via": []
+      },
+      {
+        "a": "summary",
+        "sa": "R",
+        "b": "step",
+        "sb": "L",
+        "via": []
+      },
+      {
+        "a": "cast",
+        "sa": "R",
+        "b": "mes-transfer",
+        "sb": "L",
+        "via": []
+      },
+      {
+        "a": "mes-transfer",
+        "sa": "R",
+        "b": "transfer",
+        "sb": "L",
+        "via": []
+      },
+      {
+        "a": "mcs-transfer",
+        "sa": "R",
+        "b": "mcs-history",
+        "sb": "L",
+        "via": []
+      },
+      {
+        "a": "move-link",
+        "sa": "B",
+        "b": "history",
+        "sb": "L",
+        "via": [
+          [
+            610,
+            1260
+          ]
+        ]
+      },
+      {
+        "a": "cast",
+        "sa": "R",
+        "b": "mcs-transfer",
+        "sb": "T",
+        "via": [
+          [
+            1980,
+            200
+          ],
+          [
+            1980,
+            335
+          ],
+          [
+            2180,
+            335
+          ]
+        ]
+      }
+    ],
+    "notes": []
+  },
+  {
+    "name": "2673",
+    "title": "LOT、Flow、Part、LR 與站點定義",
+    "width": 2800,
+    "height": 1830,
+    "nodes": [
+      {
+        "id": "wph",
+        "x": 1010,
+        "y": 190,
+        "lines": [
+          "IE 的 WPH 定義",
+          "F12DM.DM_TBL_IE_CTWPH"
+        ],
+        "kind": "rect",
+        "blue": false,
+        "issue": null,
+        "w": 350,
+        "h": 112
+      },
+      {
+        "id": "wph-link",
+        "x": 1010,
+        "y": 420,
+        "lines": [
+          "IE 的 WPH"
+        ],
+        "kind": "diamond",
+        "blue": false,
+        "issue": null,
+        "w": 300,
+        "h": 170
+      },
+      {
+        "id": "lr",
+        "x": 1010,
+        "y": 650,
+        "lines": [
+          "LR 對映的機台",
+          "F12DM.DM_Flow_LR_EQP_BT"
+        ],
+        "kind": "rect",
+        "blue": false,
+        "issue": null,
+        "w": 360,
+        "h": 112
+      },
+      {
+        "id": "pd-eqp",
+        "x": 1430,
+        "y": 190,
+        "lines": [
+          "PD_ID 與機台",
+          "Siview.frpd_eqp"
+        ],
+        "kind": "rect",
+        "blue": false,
+        "issue": null,
+        "w": 300,
+        "h": 112
+      },
+      {
+        "id": "pd-eqp-link",
+        "x": 1430,
+        "y": 420,
+        "lines": [
+          "PD_ID 對映的機台"
+        ],
+        "kind": "diamond",
+        "blue": false,
+        "issue": null,
+        "w": 370,
+        "h": 170
+      },
+      {
+        "id": "pd",
+        "x": 1430,
+        "y": 650,
+        "lines": [
+          "Flow PD",
+          "Siview.frpd"
+        ],
+        "kind": "rect",
+        "blue": false,
+        "issue": null,
+        "w": 300,
+        "h": 112
+      },
+      {
+        "id": "part",
+        "x": 1850,
+        "y": 650,
+        "lines": [
+          "PART 定義",
+          "Siview.frprodspec"
+        ],
+        "kind": "rect",
+        "blue": false,
+        "issue": null,
+        "w": 300,
+        "h": 112
+      },
+      {
+        "id": "recipe",
+        "x": 2270,
+        "y": 650,
+        "lines": [
+          "Recipe Group",
+          "Siview.CSFRRCPGRPST"
+        ],
+        "kind": "rect",
+        "blue": false,
+        "issue": null,
+        "w": 360,
+        "h": 112
+      },
+      {
+        "id": "lr-link",
+        "x": 1010,
+        "y": 900,
+        "lines": [
+          "LR 與機台",
+          "LCRECIPE_ID"
+        ],
+        "kind": "diamond",
+        "blue": false,
+        "issue": null,
+        "w": 360,
+        "h": 170
+      },
+      {
+        "id": "pd-link",
+        "x": 1430,
+        "y": 900,
+        "lines": [
+          "站點的 PD_ID"
+        ],
+        "kind": "diamond",
+        "blue": false,
+        "issue": null,
+        "w": 340,
+        "h": 170
+      },
+      {
+        "id": "part-link",
+        "x": 1850,
+        "y": 900,
+        "lines": [
+          "PART 對映",
+          "Mainpd_id"
+        ],
+        "kind": "diamond",
+        "blue": false,
+        "issue": null,
+        "w": 340,
+        "h": 170
+      },
+      {
+        "id": "recipe-link",
+        "x": 2270,
+        "y": 900,
+        "lines": [
+          "製程程式群組對照"
+        ],
+        "kind": "diamond",
+        "blue": false,
+        "issue": null,
+        "w": 360,
+        "h": 170
+      },
+      {
+        "id": "future",
+        "x": 220,
+        "y": 900,
+        "lines": [
+          "未來的 Future Hold",
+          "Siview.frlot_futurehold"
+        ],
+        "kind": "rect",
+        "blue": false,
+        "issue": null,
+        "w": 340,
+        "h": 112
+      },
+      {
+        "id": "future-link",
+        "x": 620,
+        "y": 900,
+        "lines": [
+          "Future Hold",
+          "Lot_ID"
+        ],
+        "kind": "diamond",
+        "blue": false,
+        "issue": null,
+        "w": 300,
+        "h": 170
+      },
+      {
+        "id": "product-hold",
+        "x": 220,
+        "y": 1190,
+        "lines": [
+          "Product Hold",
+          "Siview.CSFRPRHold"
+        ],
+        "kind": "rect",
+        "blue": false,
+        "issue": null,
+        "w": 340,
+        "h": 112
+      },
+      {
+        "id": "hold-link",
+        "x": 620,
+        "y": 1190,
+        "lines": [
+          "有 Prod Hold",
+          "Lot_ID"
+        ],
+        "kind": "diamond",
+        "blue": false,
+        "issue": null,
+        "w": 300,
+        "h": 170
+      },
+      {
+        "id": "lot",
+        "x": 1020,
+        "y": 1190,
+        "lines": [
+          "LOT",
+          "Siview.frlot"
+        ],
+        "kind": "rect",
+        "blue": true,
+        "issue": null,
+        "w": 300,
+        "h": 112
+      },
+      {
+        "id": "flow-link",
+        "x": 1430,
+        "y": 1190,
+        "lines": [
+          "Flow 定義",
+          "Part",
+          "Mainpd_id"
+        ],
+        "kind": "diamond",
+        "blue": false,
+        "issue": null,
+        "w": 340,
+        "h": 190
+      },
+      {
+        "id": "flow",
+        "x": 1850,
+        "y": 1190,
+        "lines": [
+          "Flow",
+          "F12DM.DM_Flow_step_Bt"
+        ],
+        "kind": "rect",
+        "blue": false,
+        "issue": null,
+        "w": 350,
+        "h": 112
+      },
+      {
+        "id": "lr-eqp-link",
+        "x": 2270,
+        "y": 1190,
+        "lines": [
+          "LR 與 EQP_ID 對應",
+          "LCRECIPE_ID"
+        ],
+        "kind": "diamond",
+        "blue": false,
+        "issue": null,
+        "w": 370,
+        "h": 170
+      },
+      {
+        "id": "lr-eqp",
+        "x": 2640,
+        "y": 1190,
+        "lines": [
+          "LR 與機台對應關係",
+          "F12DM.DM_Flow_LR_EQP_BT"
+        ],
+        "kind": "rect",
+        "blue": false,
+        "issue": null,
+        "w": 310,
+        "h": 130
+      },
+      {
+        "id": "forecast-link",
+        "x": 620,
+        "y": 1460,
+        "lines": [
+          "未來的 Flow",
+          "Lot_ID",
+          "OPE_NO"
+        ],
+        "kind": "diamond",
+        "blue": false,
+        "issue": null,
+        "w": 300,
+        "h": 190
+      },
+      {
+        "id": "stream-link",
+        "x": 1020,
+        "y": 1460,
+        "lines": [
+          "未來的各站",
+          "Lot_ID",
+          "OPE_NO"
+        ],
+        "kind": "diamond",
+        "blue": false,
+        "issue": null,
+        "w": 300,
+        "h": 190
+      },
+      {
+        "id": "forecast",
+        "x": 620,
+        "y": 1720,
+        "lines": [
+          "未來的 Flow",
+          "F12dm.dm_tbl_lot_forecast"
+        ],
+        "kind": "rect",
+        "blue": false,
+        "issue": null,
+        "w": 350,
+        "h": 112
+      },
+      {
+        "id": "stream",
+        "x": 1020,
+        "y": 1720,
+        "lines": [
+          "Stream 到站時間",
+          "Stream_fcst_lot_st"
+        ],
+        "kind": "rect",
+        "blue": false,
+        "issue": null,
+        "w": 340,
+        "h": 112
+      },
+      {
+        "id": "stage-link",
+        "x": 1850,
+        "y": 1460,
+        "lines": [
+          "Stage 定義"
+        ],
+        "kind": "diamond",
+        "blue": false,
+        "issue": null,
+        "w": 300,
+        "h": 170
+      },
+      {
+        "id": "srts-link",
+        "x": 2270,
+        "y": 1460,
+        "lines": [
+          "抽測跳站設定"
+        ],
+        "kind": "diamond",
+        "blue": false,
+        "issue": null,
+        "w": 340,
+        "h": 170
+      },
+      {
+        "id": "stage",
+        "x": 1850,
+        "y": 1720,
+        "lines": [
+          "Stage 與 Module 定義",
+          "F12dm.dm_tbl_info_stage"
+        ],
+        "kind": "rect",
+        "blue": false,
+        "issue": null,
+        "w": 350,
+        "h": 112
+      },
+      {
+        "id": "srts",
+        "x": 2270,
+        "y": 1720,
+        "lines": [
+          "SRTS 設定",
+          "Siview.csfrsrts"
+        ],
+        "kind": "rect",
+        "blue": false,
+        "issue": null,
+        "w": 340,
+        "h": 112
+      }
+    ],
+    "edges": [
+      {
+        "a": "wph",
+        "sa": "B",
+        "b": "wph-link",
+        "sb": "T",
+        "via": []
+      },
+      {
+        "a": "wph-link",
+        "sa": "B",
+        "b": "lr",
+        "sb": "T",
+        "via": []
+      },
+      {
+        "a": "pd-eqp",
+        "sa": "B",
+        "b": "pd-eqp-link",
+        "sb": "T",
+        "via": []
+      },
+      {
+        "a": "pd-eqp-link",
+        "sa": "B",
+        "b": "pd",
+        "sb": "T",
+        "via": []
+      },
+      {
+        "a": "lr",
+        "sa": "B",
+        "b": "lr-link",
+        "sb": "T",
+        "via": []
+      },
+      {
+        "a": "pd",
+        "sa": "B",
+        "b": "pd-link",
+        "sb": "T",
+        "via": []
+      },
+      {
+        "a": "part",
+        "sa": "B",
+        "b": "part-link",
+        "sb": "T",
+        "via": []
+      },
+      {
+        "a": "recipe",
+        "sa": "B",
+        "b": "recipe-link",
+        "sb": "T",
+        "via": []
+      },
+      {
+        "a": "forecast-link",
+        "sa": "B",
+        "b": "forecast",
+        "sb": "T",
+        "via": []
+      },
+      {
+        "a": "stream-link",
+        "sa": "B",
+        "b": "stream",
+        "sb": "T",
+        "via": []
+      },
+      {
+        "a": "stage-link",
+        "sa": "B",
+        "b": "stage",
+        "sb": "T",
+        "via": []
+      },
+      {
+        "a": "srts-link",
+        "sa": "B",
+        "b": "srts",
+        "sb": "T",
+        "via": []
+      },
+      {
+        "a": "future",
+        "sa": "R",
+        "b": "future-link",
+        "sb": "L",
+        "via": []
+      },
+      {
+        "a": "product-hold",
+        "sa": "R",
+        "b": "hold-link",
+        "sb": "L",
+        "via": []
+      },
+      {
+        "a": "hold-link",
+        "sa": "R",
+        "b": "lot",
+        "sb": "L",
+        "via": []
+      },
+      {
+        "a": "lot",
+        "sa": "R",
+        "b": "flow-link",
+        "sb": "L",
+        "via": []
+      },
+      {
+        "a": "flow-link",
+        "sa": "R",
+        "b": "flow",
+        "sb": "L",
+        "via": []
+      },
+      {
+        "a": "flow",
+        "sa": "R",
+        "b": "lr-eqp-link",
+        "sb": "L",
+        "via": []
+      },
+      {
+        "a": "lr-eqp-link",
+        "sa": "R",
+        "b": "lr-eqp",
+        "sb": "L",
+        "via": []
+      },
+      {
+        "a": "future-link",
+        "sa": "R",
+        "b": "lot",
+        "sb": "T",
+        "via": [
+          [
+            805,
+            900
+          ],
+          [
+            805,
+            1080
+          ],
+          [
+            1020,
+            1080
+          ]
+        ]
+      },
+      {
+        "a": "lr-link",
+        "sa": "B",
+        "b": "flow",
+        "sb": "T",
+        "via": [
+          [
+            1010,
+            1050
+          ],
+          [
+            1850,
+            1050
+          ]
+        ]
+      },
+      {
+        "a": "pd-link",
+        "sa": "B",
+        "b": "flow",
+        "sb": "T",
+        "via": [
+          [
+            1430,
+            1050
+          ],
+          [
+            1850,
+            1050
+          ]
+        ]
+      },
+      {
+        "a": "part-link",
+        "sa": "B",
+        "b": "flow",
+        "sb": "T",
+        "via": [
+          [
+            1850,
+            1050
+          ],
+          [
+            1850,
+            1050
+          ]
+        ]
+      },
+      {
+        "a": "recipe-link",
+        "sa": "B",
+        "b": "flow",
+        "sb": "T",
+        "via": [
+          [
+            2270,
+            1050
+          ],
+          [
+            1850,
+            1050
+          ]
+        ]
+      },
+      {
+        "a": "lot",
+        "sa": "B",
+        "b": "stream-link",
+        "sb": "T",
+        "via": []
+      },
+      {
+        "a": "lot",
+        "sa": "B",
+        "b": "forecast-link",
+        "sb": "T",
+        "via": [
+          [
+            1020,
+            1320
+          ],
+          [
+            620,
+            1320
+          ]
+        ]
+      },
+      {
+        "a": "flow",
+        "sa": "B",
+        "b": "stage-link",
+        "sb": "T",
+        "via": []
+      },
+      {
+        "a": "flow",
+        "sa": "B",
+        "b": "srts-link",
+        "sb": "T",
+        "via": [
+          [
+            1850,
+            1320
+          ],
+          [
+            2270,
+            1320
+          ]
+        ]
+      }
+    ],
+    "notes": []
+  },
+  {
+    "name": "2674",
+    "title": "EQP、Load Port、Chamber 與 OHB",
+    "width": 2400,
+    "height": 2210,
+    "nodes": [
+      {
+        "id": "udata",
+        "x": 1050,
+        "y": 190,
+        "lines": [
+          "細部資料",
+          "SIVIEW.FRPORT_UDATA"
+        ],
+        "kind": "rect",
+        "blue": false,
+        "issue": null,
+        "w": 360,
+        "h": 112
+      },
+      {
+        "id": "udata-link",
+        "x": 1050,
+        "y": 420,
+        "lines": [
+          "有 L/P",
+          "D_THESYSTEMKEY"
+        ],
+        "kind": "diamond",
+        "blue": false,
+        "issue": null,
+        "w": 380,
+        "h": 170
+      },
+      {
+        "id": "port",
+        "x": 1050,
+        "y": 650,
+        "lines": [
+          "機台 L/P",
+          "SIVIEW.FRPORT"
+        ],
+        "kind": "rect",
+        "blue": false,
+        "issue": null,
+        "w": 300,
+        "h": 112
+      },
+      {
+        "id": "mode",
+        "x": 220,
+        "y": 650,
+        "lines": [
+          "機台模式",
+          "SIVIEW.CSFRPORT_SUBMODE",
+          "SIVIEW.FHEMCHS"
+        ],
+        "kind": "rect",
+        "blue": false,
+        "issue": null,
+        "w": 390,
+        "h": 140
+      },
+      {
+        "id": "mode-link",
+        "x": 650,
+        "y": 650,
+        "lines": [
+          "機台模式",
+          "EQP_ID",
+          "PORT_ID"
+        ],
+        "kind": "diamond",
+        "blue": false,
+        "issue": null,
+        "w": 340,
+        "h": 190
+      },
+      {
+        "id": "default",
+        "x": 1470,
+        "y": 650,
+        "lines": [
+          "機台的 Default STK",
+          "Siview.csfreqp_stk"
+        ],
+        "kind": "rect",
+        "blue": false,
+        "issue": null,
+        "w": 340,
+        "h": 112
+      },
+      {
+        "id": "eqp-history",
+        "x": 220,
+        "y": 890,
+        "lines": [
+          "機況歷史",
+          "SIVIEW.FHESCHS"
+        ],
+        "kind": "rect",
+        "blue": false,
+        "issue": null,
+        "w": 350,
+        "h": 112
+      },
+      {
+        "id": "history-link",
+        "x": 650,
+        "y": 890,
+        "lines": [
+          "機況歷史",
+          "EQP_ID"
+        ],
+        "kind": "diamond",
+        "blue": false,
+        "issue": null,
+        "w": 300,
+        "h": 170
+      },
+      {
+        "id": "port-link",
+        "x": 1050,
+        "y": 890,
+        "lines": [
+          "有 L/P",
+          "EQP_ID"
+        ],
+        "kind": "diamond",
+        "blue": false,
+        "issue": null,
+        "w": 300,
+        "h": 170
+      },
+      {
+        "id": "default-link",
+        "x": 1470,
+        "y": 890,
+        "lines": [
+          "Default STK",
+          "eqp_id"
+        ],
+        "kind": "diamond",
+        "blue": false,
+        "issue": null,
+        "w": 300,
+        "h": 170
+      },
+      {
+        "id": "bay",
+        "x": 220,
+        "y": 1140,
+        "lines": [
+          "機台位置",
+          "MFG_EQP_BAY_BT"
+        ],
+        "kind": "rect",
+        "blue": false,
+        "issue": null,
+        "w": 350,
+        "h": 112
+      },
+      {
+        "id": "bay-link",
+        "x": 650,
+        "y": 1140,
+        "lines": [
+          "機台位置",
+          "EQP_ID"
+        ],
+        "kind": "diamond",
+        "blue": false,
+        "issue": null,
+        "w": 300,
+        "h": 170
+      },
+      {
+        "id": "eqp",
+        "x": 1050,
+        "y": 1140,
+        "lines": [
+          "EQP",
+          "Siview.Freqp"
+        ],
+        "kind": "rect",
+        "blue": true,
+        "issue": null,
+        "w": 300,
+        "h": 112
+      },
+      {
+        "id": "chamber-link",
+        "x": 1470,
+        "y": 1140,
+        "lines": [
+          "有 Chamber",
+          "eqp_id"
+        ],
+        "kind": "diamond",
+        "blue": false,
+        "issue": null,
+        "w": 340,
+        "h": 170
+      },
+      {
+        "id": "chamber",
+        "x": 1890,
+        "y": 1140,
+        "lines": [
+          "Chamber 狀況",
+          "Siview.csfrprcrsc",
+          "SIVIEW.FHCSCHS"
+        ],
+        "kind": "rect",
+        "blue": false,
+        "issue": null,
+        "w": 360,
+        "h": 140
+      },
+      {
+        "id": "owner-link",
+        "x": 1050,
+        "y": 1360,
+        "lines": [
+          "機群與課別",
+          "EQP_ID"
+        ],
+        "kind": "diamond",
+        "blue": false,
+        "issue": null,
+        "w": 350,
+        "h": 170
+      },
+      {
+        "id": "ohb-link",
+        "x": 1470,
+        "y": 1360,
+        "lines": [
+          "設定 OHB",
+          "EQPSTKID"
+        ],
+        "kind": "diamond",
+        "blue": false,
+        "issue": null,
+        "w": 340,
+        "h": 170
+      },
+      {
+        "id": "detail-link",
+        "x": 1890,
+        "y": 1360,
+        "lines": [
+          "細部狀況",
+          "eqp_id",
+          "procrsc_id"
+        ],
+        "kind": "diamond",
+        "blue": false,
+        "issue": null,
+        "w": 340,
+        "h": 190
+      },
+      {
+        "id": "owner",
+        "x": 1050,
+        "y": 1580,
+        "lines": [
+          "機群與課別",
+          "MFG_EQP_OWNER_BT"
+        ],
+        "kind": "rect",
+        "blue": false,
+        "issue": null,
+        "w": 350,
+        "h": 112
+      },
+      {
+        "id": "ohb-eqp",
+        "x": 1470,
+        "y": 1580,
+        "lines": [
+          "機群 OHB",
+          "Siview.csfrohb_eqp"
+        ],
+        "kind": "rect",
+        "blue": false,
+        "issue": null,
+        "w": 340,
+        "h": 112
+      },
+      {
+        "id": "chamber-detail",
+        "x": 1890,
+        "y": 1580,
+        "lines": [
+          "Chamber 細部",
+          "Siview.frprcrsc"
+        ],
+        "kind": "rect",
+        "blue": false,
+        "issue": null,
+        "w": 340,
+        "h": 112
+      },
+      {
+        "id": "ohb-status-link",
+        "x": 1470,
+        "y": 1780,
+        "lines": [
+          "OHB 狀況",
+          "OHB_ID"
+        ],
+        "kind": "diamond",
+        "blue": false,
+        "issue": null,
+        "w": 300,
+        "h": 150
+      },
+      {
+        "id": "ohb-status",
+        "x": 1470,
+        "y": 2060,
+        "lines": [
+          "OHB 狀況",
+          "Siview.csfrohb"
+        ],
+        "kind": "rect",
+        "blue": false,
+        "issue": null,
+        "w": 320,
+        "h": 112
+      },
+      {
+        "id": "bmir-link",
+        "x": 1870,
+        "y": 2060,
+        "lines": [
+          "設定 BMIR",
+          "OHB_ID"
+        ],
+        "kind": "diamond",
+        "blue": false,
+        "issue": null,
+        "w": 320,
+        "h": 160
+      },
+      {
+        "id": "bmir",
+        "x": 2220,
+        "y": 2060,
+        "lines": [
+          "BMIR",
+          "SIVIEW.CSFROHB_CFG"
+        ],
+        "kind": "rect",
+        "blue": false,
+        "issue": null,
+        "w": 250,
+        "h": 112
+      }
+    ],
+    "edges": [
+      {
+        "a": "udata",
+        "sa": "B",
+        "b": "udata-link",
+        "sb": "T",
+        "via": []
+      },
+      {
+        "a": "udata-link",
+        "sa": "B",
+        "b": "port",
+        "sb": "T",
+        "via": []
+      },
+      {
+        "a": "port",
+        "sa": "B",
+        "b": "port-link",
+        "sb": "T",
+        "via": []
+      },
+      {
+        "a": "port-link",
+        "sa": "B",
+        "b": "eqp",
+        "sb": "T",
+        "via": []
+      },
+      {
+        "a": "default",
+        "sa": "B",
+        "b": "default-link",
+        "sb": "T",
+        "via": []
+      },
+      {
+        "a": "eqp",
+        "sa": "B",
+        "b": "owner-link",
+        "sb": "T",
+        "via": []
+      },
+      {
+        "a": "owner-link",
+        "sa": "B",
+        "b": "owner",
+        "sb": "T",
+        "via": []
+      },
+      {
+        "a": "ohb-link",
+        "sa": "B",
+        "b": "ohb-eqp",
+        "sb": "T",
+        "via": []
+      },
+      {
+        "a": "chamber",
+        "sa": "B",
+        "b": "detail-link",
+        "sb": "T",
+        "via": []
+      },
+      {
+        "a": "detail-link",
+        "sa": "B",
+        "b": "chamber-detail",
+        "sb": "T",
+        "via": []
+      },
+      {
+        "a": "ohb-eqp",
+        "sa": "B",
+        "b": "ohb-status-link",
+        "sb": "T",
+        "via": []
+      },
+      {
+        "a": "ohb-status-link",
+        "sa": "B",
+        "b": "ohb-status",
+        "sb": "T",
+        "via": []
+      },
+      {
+        "a": "mode",
+        "sa": "R",
+        "b": "mode-link",
+        "sb": "L",
+        "via": []
+      },
+      {
+        "a": "mode-link",
+        "sa": "R",
+        "b": "port",
+        "sb": "L",
+        "via": []
+      },
+      {
+        "a": "eqp-history",
+        "sa": "R",
+        "b": "history-link",
+        "sb": "L",
+        "via": []
+      },
+      {
+        "a": "bay",
+        "sa": "R",
+        "b": "bay-link",
+        "sb": "L",
+        "via": []
+      },
+      {
+        "a": "bay-link",
+        "sa": "R",
+        "b": "eqp",
+        "sb": "L",
+        "via": []
+      },
+      {
+        "a": "eqp",
+        "sa": "R",
+        "b": "chamber-link",
+        "sb": "L",
+        "via": []
+      },
+      {
+        "a": "chamber-link",
+        "sa": "R",
+        "b": "chamber",
+        "sb": "L",
+        "via": []
+      },
+      {
+        "a": "ohb-status",
+        "sa": "R",
+        "b": "bmir-link",
+        "sb": "L",
+        "via": []
+      },
+      {
+        "a": "bmir-link",
+        "sa": "R",
+        "b": "bmir",
+        "sb": "L",
+        "via": []
+      },
+      {
+        "a": "history-link",
+        "sa": "R",
+        "b": "eqp",
+        "sb": "T",
+        "via": [
+          [
+            840,
+            890
+          ],
+          [
+            840,
+            1030
+          ],
+          [
+            1050,
+            1030
+          ]
+        ]
+      },
+      {
+        "a": "default-link",
+        "sa": "L",
+        "b": "eqp",
+        "sb": "T",
+        "via": [
+          [
+            1280,
+            890
+          ],
+          [
+            1280,
+            1030
+          ],
+          [
+            1050,
+            1030
+          ]
+        ]
+      },
+      {
+        "a": "eqp",
+        "sa": "B",
+        "b": "ohb-link",
+        "sb": "T",
+        "via": [
+          [
+            1050,
+            1240
+          ],
+          [
+            1470,
+            1240
+          ]
+        ]
+      },
+      {
+        "a": "bay-link",
+        "sa": "B",
+        "b": "owner",
+        "sb": "L",
+        "via": [
+          [
+            650,
+            1580
+          ]
+        ]
+      }
+    ],
+    "notes": []
+  },
+  {
+    "name": "2675",
+    "title": "WIP、機群、機況與 OEE",
+    "width": 2900,
+    "height": 1570,
+    "nodes": [
+      {
+        "id": "wip-history",
+        "x": 1000,
+        "y": 220,
+        "lines": [
+          "星期一的七點二十分的 WIP",
+          "KER_WIP_Y_BTH"
+        ],
+        "kind": "rect",
+        "blue": false,
+        "issue": null,
+        "w": 390,
+        "h": 112
+      },
+      {
+        "id": "wip-link",
+        "x": 1000,
+        "y": 450,
+        "lines": [
+          "歷史 WIP",
+          "Lot_ID"
+        ],
+        "kind": "diamond",
+        "blue": false,
+        "issue": null,
+        "w": 300,
+        "h": 170
+      },
+      {
+        "id": "move",
+        "x": 220,
+        "y": 750,
+        "lines": [
+          "MOVE 歷史",
+          "F12DM.DM_Move_Step_bth"
+        ],
+        "kind": "rect",
+        "blue": false,
+        "issue": null,
+        "w": 360,
+        "h": 112
+      },
+      {
+        "id": "move-link",
+        "x": 610,
+        "y": 750,
+        "lines": [
+          "機台 MOVE",
+          "Lot_id"
+        ],
+        "kind": "diamond",
+        "blue": false,
+        "issue": null,
+        "w": 300,
+        "h": 170
+      },
+      {
+        "id": "lot",
+        "x": 1000,
+        "y": 750,
+        "lines": [
+          "LOT",
+          "KER_WIP_BT"
+        ],
+        "kind": "rect",
+        "blue": true,
+        "issue": null,
+        "w": 300,
+        "h": 112
+      },
+      {
+        "id": "chamber-link",
+        "x": 1440,
+        "y": 450,
+        "lines": [
+          "機群與機台 Ch",
+          "EQP_GRP"
+        ],
+        "kind": "diamond",
+        "blue": false,
+        "issue": null,
+        "w": 350,
+        "h": 170
+      },
+      {
+        "id": "chamber",
+        "x": 1870,
+        "y": 450,
+        "lines": [
+          "Chamber",
+          "ker_dm_sub_ch_eqp_grp_bt"
+        ],
+        "kind": "rect",
+        "blue": false,
+        "issue": null,
+        "w": 360,
+        "h": 112
+      },
+      {
+        "id": "group-link",
+        "x": 1440,
+        "y": 750,
+        "lines": [
+          "機群與機台",
+          "EQP_GRP"
+        ],
+        "kind": "diamond",
+        "blue": false,
+        "issue": null,
+        "w": 350,
+        "h": 170
+      },
+      {
+        "id": "eqp",
+        "x": 1870,
+        "y": 750,
+        "lines": [
+          "機台",
+          "KER_EMP_EQP_GRP_CAP_UT"
+        ],
+        "kind": "rect",
+        "blue": false,
+        "issue": null,
+        "w": 360,
+        "h": 112
+      },
+      {
+        "id": "virtual-link",
+        "x": 2300,
+        "y": 750,
+        "lines": [
+          "屬於哪個虛擬群組",
+          "DYNAMIC_SQL"
+        ],
+        "kind": "diamond",
+        "blue": false,
+        "issue": null,
+        "w": 370,
+        "h": 170
+      },
+      {
+        "id": "virtual",
+        "x": 2700,
+        "y": 750,
+        "lines": [
+          "虛擬 Group (*ALL)",
+          "KER_VR_EQP_GRP_DETAIL_BT"
+        ],
+        "kind": "rect",
+        "blue": false,
+        "issue": null,
+        "w": 370,
+        "h": 112
+      },
+      {
+        "id": "all-actions",
+        "x": 1000,
+        "y": 1110,
+        "lines": [
+          "Lot 所有動作",
+          "Lot_ID"
+        ],
+        "kind": "diamond",
+        "blue": false,
+        "issue": null,
+        "w": 340,
+        "h": 170
+      },
+      {
+        "id": "history",
+        "x": 1000,
+        "y": 1420,
+        "lines": [
+          "批貨歷史",
+          "Siview.FHOPEHS_S"
+        ],
+        "kind": "rect",
+        "blue": false,
+        "issue": null,
+        "w": 340,
+        "h": 112
+      },
+      {
+        "id": "status-link",
+        "x": 1420,
+        "y": 1110,
+        "lines": [
+          "目前機況",
+          "EQP_ID"
+        ],
+        "kind": "diamond",
+        "blue": false,
+        "issue": null,
+        "w": 300,
+        "h": 170
+      },
+      {
+        "id": "status",
+        "x": 1420,
+        "y": 1420,
+        "lines": [
+          "機台機況",
+          "KER_EQP_STATUS_BT"
+        ],
+        "kind": "rect",
+        "blue": false,
+        "issue": null,
+        "w": 340,
+        "h": 112
+      },
+      {
+        "id": "eqp-oee-link",
+        "x": 1840,
+        "y": 1110,
+        "lines": [
+          "機台歷史 OEE",
+          "EQP_ID"
+        ],
+        "kind": "diamond",
+        "blue": false,
+        "issue": null,
+        "w": 300,
+        "h": 170
+      },
+      {
+        "id": "eqp-oee",
+        "x": 1840,
+        "y": 1420,
+        "lines": [
+          "機台 OEE 歷史",
+          "Ker_Eqp_Aaa_Oee_Ut"
+        ],
+        "kind": "rect",
+        "blue": false,
+        "issue": null,
+        "w": 340,
+        "h": 112
+      },
+      {
+        "id": "group-oee-link",
+        "x": 2260,
+        "y": 1110,
+        "lines": [
+          "機群目前 OEE",
+          "EQP_GRP"
+        ],
+        "kind": "diamond",
+        "blue": false,
+        "issue": null,
+        "w": 350,
+        "h": 170
+      },
+      {
+        "id": "group-oee",
+        "x": 2260,
+        "y": 1420,
+        "lines": [
+          "機群目前 OEE",
+          "ker_dm_bt"
+        ],
+        "kind": "rect",
+        "blue": false,
+        "issue": null,
+        "w": 340,
+        "h": 112
+      },
+      {
+        "id": "group-history-link",
+        "x": 2680,
+        "y": 1110,
+        "lines": [
+          "機群歷史 OEE",
+          "EQP_ID"
+        ],
+        "kind": "diamond",
+        "blue": false,
+        "issue": null,
+        "w": 350,
+        "h": 170
+      },
+      {
+        "id": "group-history",
+        "x": 2680,
+        "y": 1420,
+        "lines": [
+          "機群 OEE 歷史",
+          "Ker_Dm_Hourly_Bth"
+        ],
+        "kind": "rect",
+        "blue": false,
+        "issue": null,
+        "w": 340,
+        "h": 112
+      }
+    ],
+    "edges": [
+      {
+        "a": "wip-history",
+        "sa": "B",
+        "b": "wip-link",
+        "sb": "T",
+        "via": []
+      },
+      {
+        "a": "wip-link",
+        "sa": "B",
+        "b": "lot",
+        "sb": "T",
+        "via": []
+      },
+      {
+        "a": "lot",
+        "sa": "B",
+        "b": "all-actions",
+        "sb": "T",
+        "via": []
+      },
+      {
+        "a": "all-actions",
+        "sa": "B",
+        "b": "history",
+        "sb": "T",
+        "via": []
+      },
+      {
+        "a": "status-link",
+        "sa": "B",
+        "b": "status",
+        "sb": "T",
+        "via": []
+      },
+      {
+        "a": "eqp-oee-link",
+        "sa": "B",
+        "b": "eqp-oee",
+        "sb": "T",
+        "via": []
+      },
+      {
+        "a": "group-oee-link",
+        "sa": "B",
+        "b": "group-oee",
+        "sb": "T",
+        "via": []
+      },
+      {
+        "a": "group-history-link",
+        "sa": "B",
+        "b": "group-history",
+        "sb": "T",
+        "via": []
+      },
+      {
+        "a": "move",
+        "sa": "R",
+        "b": "move-link",
+        "sb": "L",
+        "via": []
+      },
+      {
+        "a": "move-link",
+        "sa": "R",
+        "b": "lot",
+        "sb": "L",
+        "via": []
+      },
+      {
+        "a": "lot",
+        "sa": "R",
+        "b": "group-link",
+        "sb": "L",
+        "via": []
+      },
+      {
+        "a": "group-link",
+        "sa": "R",
+        "b": "eqp",
+        "sb": "L",
+        "via": []
+      },
+      {
+        "a": "chamber-link",
+        "sa": "R",
+        "b": "chamber",
+        "sb": "L",
+        "via": []
+      },
+      {
+        "a": "eqp",
+        "sa": "R",
+        "b": "virtual-link",
+        "sb": "L",
+        "via": []
+      },
+      {
+        "a": "virtual-link",
+        "sa": "R",
+        "b": "virtual",
+        "sb": "L",
+        "via": []
+      },
+      {
+        "a": "lot",
+        "sa": "R",
+        "b": "chamber-link",
+        "sb": "B",
+        "via": [
+          [
+            1220,
+            750
+          ],
+          [
+            1220,
+            590
+          ],
+          [
+            1440,
+            590
+          ]
+        ]
+      },
+      {
+        "a": "move-link",
+        "sa": "B",
+        "b": "history",
+        "sb": "L",
+        "via": [
+          [
+            610,
+            1420
+          ]
+        ]
+      },
+      {
+        "a": "eqp",
+        "sa": "B",
+        "b": "status-link",
+        "sb": "T",
+        "via": [
+          [
+            1870,
+            930
+          ],
+          [
+            1420,
+            930
+          ]
+        ]
+      },
+      {
+        "a": "eqp",
+        "sa": "B",
+        "b": "eqp-oee-link",
+        "sb": "T",
+        "via": [
+          [
+            1870,
+            930
+          ],
+          [
+            1840,
+            930
+          ]
+        ]
+      },
+      {
+        "a": "eqp",
+        "sa": "B",
+        "b": "group-oee-link",
+        "sb": "T",
+        "via": [
+          [
+            1870,
+            930
+          ],
+          [
+            2260,
+            930
+          ]
+        ]
+      },
+      {
+        "a": "eqp",
+        "sa": "B",
+        "b": "group-history-link",
+        "sb": "T",
+        "via": [
+          [
+            1870,
+            930
+          ],
+          [
+            2680,
+            930
+          ]
+        ]
+      }
+    ],
+    "notes": []
+  },
+  {
+    "name": "2676",
+    "title": "EQP、Port、Cast 與 LOT Process Status",
+    "width": 1480,
+    "height": 1520,
+    "nodes": [
+      {
+        "id": "eqp",
+        "x": 740,
+        "y": 210,
+        "lines": [
+          "EQP",
+          "FREQP"
+        ],
+        "kind": "rect",
+        "blue": false,
+        "issue": null,
+        "w": 300,
+        "h": 112
+      },
+      {
+        "id": "eqp-id",
+        "x": 740,
+        "y": 450,
+        "lines": [
+          "EQP_ID"
+        ],
+        "kind": "diamond",
+        "blue": false,
+        "issue": null,
+        "w": 300,
+        "h": 170
+      },
+      {
+        "id": "port",
+        "x": 260,
+        "y": 700,
+        "lines": [
+          "PORT_ID",
+          "FRPORT"
+        ],
+        "kind": "rect",
+        "blue": false,
+        "issue": null,
+        "w": 300,
+        "h": 112
+      },
+      {
+        "id": "cast",
+        "x": 740,
+        "y": 700,
+        "lines": [
+          "CAST_ID",
+          "FRCAST"
+        ],
+        "kind": "rect",
+        "blue": false,
+        "issue": null,
+        "w": 300,
+        "h": 112
+      },
+      {
+        "id": "chamber",
+        "x": 1220,
+        "y": 700,
+        "lines": [
+          "CHAMBER ID",
+          "FRPRCRSC"
+        ],
+        "kind": "rect",
+        "blue": false,
+        "issue": null,
+        "w": 330,
+        "h": 112
+      },
+      {
+        "id": "port-id",
+        "x": 260,
+        "y": 960,
+        "lines": [
+          "EQP_ID"
+        ],
+        "kind": "diamond",
+        "blue": false,
+        "issue": null,
+        "w": 300,
+        "h": 170
+      },
+      {
+        "id": "cast-lot",
+        "x": 740,
+        "y": 960,
+        "lines": [
+          "FRCAST_LOT"
+        ],
+        "kind": "diamond",
+        "blue": false,
+        "issue": null,
+        "w": 300,
+        "h": 170
+      },
+      {
+        "id": "udata",
+        "x": 260,
+        "y": 1210,
+        "lines": [
+          "FRPORT_UDATA"
+        ],
+        "kind": "rect",
+        "blue": false,
+        "issue": null,
+        "w": 330,
+        "h": 112
+      },
+      {
+        "id": "lot",
+        "x": 740,
+        "y": 1210,
+        "lines": [
+          "FRLOT"
+        ],
+        "kind": "rect",
+        "blue": false,
+        "issue": null,
+        "w": 300,
+        "h": 112
+      },
+      {
+        "id": "status",
+        "x": 740,
+        "y": 1410,
+        "lines": [
+          "LOT Process",
+          "Status"
+        ],
+        "kind": "circle",
+        "blue": false,
+        "issue": null,
+        "w": 210,
+        "h": 150
+      }
+    ],
+    "edges": [
+      {
+        "a": "eqp",
+        "sa": "B",
+        "b": "eqp-id",
+        "sb": "T",
+        "via": []
+      },
+      {
+        "a": "eqp-id",
+        "sa": "B",
+        "b": "port",
+        "sb": "T",
+        "via": [
+          [
+            740,
+            590
+          ],
+          [
+            260,
+            590
+          ]
+        ]
+      },
+      {
+        "a": "eqp-id",
+        "sa": "B",
+        "b": "cast",
+        "sb": "T",
+        "via": [
+          [
+            740,
+            590
+          ],
+          [
+            740,
+            590
+          ]
+        ]
+      },
+      {
+        "a": "eqp-id",
+        "sa": "B",
+        "b": "chamber",
+        "sb": "T",
+        "via": [
+          [
+            740,
+            590
+          ],
+          [
+            1220,
+            590
+          ]
+        ]
+      },
+      {
+        "a": "port",
+        "sa": "B",
+        "b": "port-id",
+        "sb": "T",
+        "via": []
+      },
+      {
+        "a": "port-id",
+        "sa": "B",
+        "b": "udata",
+        "sb": "T",
+        "via": []
+      },
+      {
+        "a": "cast",
+        "sa": "B",
+        "b": "cast-lot",
+        "sb": "T",
+        "via": []
+      },
+      {
+        "a": "cast-lot",
+        "sa": "B",
+        "b": "lot",
+        "sb": "T",
+        "via": []
+      },
+      {
+        "a": "lot",
+        "sa": "B",
+        "b": "status",
+        "sb": "T",
+        "via": []
+      }
+    ],
+    "notes": []
+  },
+  {
+    "name": "2677",
+    "title": "PD、ER、機台位置與狀態",
+    "width": 2080,
+    "height": 1440,
+    "nodes": [
+      {
+        "id": "pd",
+        "x": 240,
+        "y": 220,
+        "lines": [
+          "FRPD"
+        ],
+        "kind": "rect",
+        "blue": false,
+        "issue": null,
+        "w": 300,
+        "h": 112
+      },
+      {
+        "id": "pd-key",
+        "x": 670,
+        "y": 220,
+        "lines": [
+          "systemkey"
+        ],
+        "kind": "diamond",
+        "blue": false,
+        "issue": null,
+        "w": 300,
+        "h": 170
+      },
+      {
+        "id": "pd-eqp",
+        "x": 1100,
+        "y": 220,
+        "lines": [
+          "MODULEPD_ID",
+          "FRPD_EQP"
+        ],
+        "kind": "rect",
+        "blue": false,
+        "issue": null,
+        "w": 330,
+        "h": 112
+      },
+      {
+        "id": "eqp-id",
+        "x": 1100,
+        "y": 610,
+        "lines": [
+          "EQP_ID"
+        ],
+        "kind": "diamond",
+        "blue": false,
+        "issue": null,
+        "w": 300,
+        "h": 170
+      },
+      {
+        "id": "bay",
+        "x": 1540,
+        "y": 460,
+        "lines": [
+          "MFG_EQP_BAY_BT"
+        ],
+        "kind": "rect",
+        "blue": false,
+        "issue": null,
+        "w": 330,
+        "h": 112
+      },
+      {
+        "id": "location",
+        "x": 1920,
+        "y": 460,
+        "lines": [
+          "EQP",
+          "LOCATION",
+          "PHASE"
+        ],
+        "kind": "circle",
+        "blue": false,
+        "issue": null,
+        "w": 240,
+        "h": 200
+      },
+      {
+        "id": "recipe",
+        "x": 240,
+        "y": 940,
+        "lines": [
+          "FRMRCP"
+        ],
+        "kind": "rect",
+        "blue": false,
+        "issue": null,
+        "w": 300,
+        "h": 112
+      },
+      {
+        "id": "recipe-key",
+        "x": 670,
+        "y": 940,
+        "lines": [
+          "SYSTEMKEY"
+        ],
+        "kind": "diamond",
+        "blue": false,
+        "issue": null,
+        "w": 300,
+        "h": 170
+      },
+      {
+        "id": "recipe-eqp",
+        "x": 1100,
+        "y": 940,
+        "lines": [
+          "FRMRCP_EQP"
+        ],
+        "kind": "rect",
+        "blue": false,
+        "issue": null,
+        "w": 330,
+        "h": 112
+      },
+      {
+        "id": "eqp",
+        "x": 1540,
+        "y": 810,
+        "lines": [
+          "FREQP"
+        ],
+        "kind": "rect",
+        "blue": false,
+        "issue": null,
+        "w": 330,
+        "h": 112
+      },
+      {
+        "id": "status",
+        "x": 1920,
+        "y": 810,
+        "lines": [
+          "EQP",
+          "STATUS"
+        ],
+        "kind": "circle",
+        "blue": false,
+        "issue": null,
+        "w": 210,
+        "h": 180
+      },
+      {
+        "id": "er",
+        "x": 240,
+        "y": 1140,
+        "lines": [
+          "ER"
+        ],
+        "kind": "circle",
+        "blue": false,
+        "issue": null,
+        "w": 150,
+        "h": 140
+      },
+      {
+        "id": "lr",
+        "x": 240,
+        "y": 1340,
+        "lines": [
+          "DM_FLOW_LR_EQP_BT"
+        ],
+        "kind": "rect",
+        "blue": false,
+        "issue": null,
+        "w": 370,
+        "h": 112
+      }
+    ],
+    "edges": [
+      {
+        "a": "pd",
+        "sa": "R",
+        "b": "pd-key",
+        "sb": "L",
+        "via": []
+      },
+      {
+        "a": "pd-key",
+        "sa": "R",
+        "b": "pd-eqp",
+        "sb": "L",
+        "via": []
+      },
+      {
+        "a": "recipe",
+        "sa": "R",
+        "b": "recipe-key",
+        "sb": "L",
+        "via": []
+      },
+      {
+        "a": "recipe-key",
+        "sa": "R",
+        "b": "recipe-eqp",
+        "sb": "L",
+        "via": []
+      },
+      {
+        "a": "bay",
+        "sa": "R",
+        "b": "location",
+        "sb": "L",
+        "via": []
+      },
+      {
+        "a": "eqp",
+        "sa": "R",
+        "b": "status",
+        "sb": "L",
+        "via": []
+      },
+      {
+        "a": "pd-eqp",
+        "sa": "B",
+        "b": "eqp-id",
+        "sb": "T",
+        "via": []
+      },
+      {
+        "a": "eqp-id",
+        "sa": "B",
+        "b": "recipe-eqp",
+        "sb": "T",
+        "via": []
+      },
+      {
+        "a": "recipe",
+        "sa": "B",
+        "b": "er",
+        "sb": "T",
+        "via": []
+      },
+      {
+        "a": "er",
+        "sa": "B",
+        "b": "lr",
+        "sb": "T",
+        "via": []
+      },
+      {
+        "a": "eqp-id",
+        "sa": "R",
+        "b": "bay",
+        "sb": "L",
+        "via": [
+          [
+            1320,
+            610
+          ],
+          [
+            1320,
+            460
+          ]
+        ]
+      },
+      {
+        "a": "eqp-id",
+        "sa": "R",
+        "b": "eqp",
+        "sb": "L",
+        "via": [
+          [
+            1320,
+            610
+          ],
+          [
+            1320,
+            810
+          ]
+        ]
+      }
+    ],
+    "notes": []
+  }
+]

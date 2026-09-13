@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Fab 新手第二課：認識設備、Load Port、Chamber、Recipe、Route、搬送與狀態，透過四個可重玩的情境理解 MES 資料。">
+  <title>設備、流程與現場情境｜MES 入門教學</title>
+  <link rel="stylesheet" href="styles.css"><link rel="stylesheet" href="operations.css">
+  <script src="operations.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#content">跳到教學內容</a>
+  <header class="topbar"><a class="brand" href="index.html"><span class="brand-mark" aria-hidden="true">M</span><span><small>MES LEARNING LAB</small><strong>從現場認識資料</strong></span></a><a class="top-note" href="index.html">← 第一課：Lot・FOUP・Slot・Wafer</a><button id="menu-toggle" class="button mobile-only" aria-expanded="false" aria-controls="sidebar">課程目錄</button></header>
+  <div class="layout">
+    <aside id="sidebar" class="sidebar">
+      <a class="course-back" href="index.html">← 回到第一課：基本物件</a>
+      <p class="eyebrow">第二課 · 設備、流程與情境</p><h2>晶圓接著去哪裡？<br>什麼時候能加工？</h2>
+      <nav aria-label="第二課章節">
+        <a href="#tool" data-step="tool"><span>01</span><div>Tool / Equipment<small>執行工作的設備</small></div></a>
+        <a href="#port" data-step="port"><span>02</span><div>Load Port<small>FOUP 的交接位置</small></div></a>
+        <a href="#chamber" data-step="chamber"><span>03</span><div>Chamber<small>設備內的加工空間</small></div></a>
+        <a href="#process" data-step="process"><span>04</span><div>Route・Step・Recipe<small>先做什麼、這一步怎麼做</small></div></a>
+        <a href="#transport" data-step="transport"><span>05</span><div>搬送與暫存<small>AMHS・OHT・Stocker</small></div></a>
+        <a href="#state" data-step="state"><span>06</span><div>加工與 Hold 狀態<small>能否加工，和在哪裡分開看</small></div></a>
+        <p class="nav-group">動手試試 · 四個獨立情境</p>
+        <a href="#arrival" data-step="arrival"><span>A</span><div>把載具送對位置<small>從暫存到搬送、停靠</small></div></a>
+        <a href="#run" data-step="run"><span>B</span><div>配方與逐片加工<small>一片完成，整批完成了嗎？</small></div></a>
+        <a href="#hold" data-step="hold"><span>C</span><div>設備空閒，仍不能加工？<small>先查這一批是否被 Hold</small></div></a>
+        <a href="#reconcile" data-step="reconcile"><span>D</span><div>資料說三片，卻只看到兩片<small>比對預期與實際讀取</small></div></a>
+      </nav>
+    </aside>
+    <main id="content" tabindex="-1">
+      <div class="breadcrumb">MES 入門 <span>/</span> 設備、流程與現場情境</div>
+      <div class="lesson-meta"><span class="chip">接續第一課</span><span>認角色 → 看變化 → 做判斷</span><span id="step-count" class="step-count">01 / 10</span></div>
+
+      <section id="tool" class="lesson" aria-labelledby="tool-title">
+        <h1 id="tool-title">Tool：接手晶圓工作的設備。</h1>
+        <p class="lead">Equipment 或 Tool 都可以指設備。不同設備負責不同工作，例如蝕刻、清洗或量測；設備也有自己的編號。</p>
+        <div class="teaching-panel equipment-story"><div class="machine" data-machine="tool"></div><div class="explanation"><span class="eyebrow">沿用第一課的 ETCH-03</span><h2>這是整台設備的名字。</h2><p>ETCH-03 是本課假設的一台蝕刻設備。蝕刻可以先理解成「依圖形需求移除部分材料」，這裡先認識它的角色。</p><div class="id-line"><span>哪台設備接手？</span><strong>tool_id = ETCH-03</strong></div><p class="caption">ETCH 是教學用的可讀編號；現場設備命名由工廠決定。</p></div></div>
+        <div class="plain-note"><strong>同一個 Lot 會依流程經過不同設備。</strong><p>W07 被送到新設備時，Wafer 身分仍是 W07；改變的是它的工作位置與正在執行的步驟。</p></div>
+        <div class="takeaway"><span aria-hidden="true">☀</span><p>Tool 回答「由哪台設備做這項工作」。</p></div>
+      </section>
+
+      <section id="port" class="lesson" aria-labelledby="port-title" hidden>
+        <h1 id="port-title">Load Port：FOUP 與設備的交接位置。</h1>
+        <p class="lead">FOUP 到設備前方停靠的位置，常稱 Load Port。本課沿用 LP1，表示 ETCH-03 的其中一個交接位置。</p>
+        <div class="teaching-panel equipment-story"><div class="machine" data-machine="port"></div><div class="explanation"><span class="eyebrow">先看盒子，再看盒子裡的晶圓</span><h2>LP1 放載具；<br>Slot 07 放晶圓。</h2><div class="nested-location"><div>Tool <strong>ETCH-03</strong><div>Load Port <strong>LP1</strong><div>FOUP <strong>F012</strong><div>Slot <strong>07</strong> 裡的 <strong>W07</strong></div></div></div></div></div><p>要說清載具停在哪裡，需要一起說設備與 Port。別台設備也可以有一個叫 LP1 的位置。</p></div></div>
+        <details><summary>「已到達 Port」就代表已開始加工嗎？</summary><p>還不能直接這樣判斷。載具停靠、確認晶圓與配方、開始加工，是不同事件。設備還會有實際的載具交接與檢查流程；本課情境 A 先練習分清搬送與加工。</p></details>
+        <div class="takeaway"><span aria-hidden="true">☀</span><p>Load Port 是載具交接的位置；Slot 是載具內晶圓的位置。</p></div>
+      </section>
+
+      <section id="chamber" class="lesson" aria-labelledby="chamber-title" hidden>
+        <h1 id="chamber-title">Chamber：設備裡執行製程的空間。</h1>
+        <p class="lead">有些設備會把晶圓送進 Chamber（製程腔體）加工。一台設備可能有多個腔體，分別需要追蹤；設備結構不一定都相同。</p>
+        <div class="teaching-panel equipment-story"><div class="machine" data-machine="chamber"></div><div class="explanation"><span class="eyebrow">本課的單片加工示意</span><h2>盒子停在 LP1；<br>W07 進入 CH-A。</h2><p>加工時，FOUP F012 可以仍停在設備前方，而 W07 已經離開原本的 Slot 07，進入設備的 CH-A。</p><div class="location-line"><strong>F012／07</strong><span>移入 →</span><strong>CH-A</strong></div><p>這時若只看「原本在 F012／07」，就可能找錯位置。要查的是目前位置，並保留原先位置作為歷程。</p></div></div>
+        <p class="caption">剖面示意省略機械手臂與中間交接空間；連線表示晶圓移動方向，不是完整機構設計。</p>
+        <div class="takeaway"><span aria-hidden="true">☀</span><p>追蹤加工位置時，要分清整台 Tool 與其中的 Chamber。</p></div>
+      </section>
+
+      <section id="process" class="lesson" aria-labelledby="process-title" hidden>
+        <h1 id="process-title">Route 看順序，Recipe 看做法。</h1>
+        <p class="lead">Route 是安排好的製程路線；Step 是路線上的一步。Recipe（配方）則指定某一步在設備上如何執行。</p>
+        <div class="teaching-panel">
+          <div class="route-caption"><span class="panel-label">Route R-DEMO · 為教學摘出的三個連續步驟</span><span class="chip">L023 目前在 S20</span></div>
+          <ol class="route-path"><li><span class="route-dot">S10</span><strong>前段清洗</strong><small>已完成</small></li><li class="current"><span class="route-dot">S20</span><strong>蝕刻</strong><small>目前待加工</small></li><li><span class="route-dot">S30</span><strong>後段量測</strong><small>下一步</small></li></ol>
+          <div class="recipe-detail"><div><span class="eyebrow">放大目前這一步</span><h2>S20 蝕刻</h2><p>由 ETCH-03 的 CH-A 執行；使用本課允許的配方版本。</p></div><div class="recipe-sheet"><span>Recipe · 設備執行指示</span><strong>ETCH-DEMO / v2</strong><dl><div><dt>目的</dt><dd>這一步的蝕刻作業</dd></div><div><dt>內容</dt><dd>時間、壓力、氣體等設定</dd></div><div><dt>版本</dt><dd>v2（本課指定）</dd></div></dl></div></div>
+        </div>
+        <div class="plain-note"><strong>Step 名稱相同，不代表所有設備都用同一份配方。</strong><p>配方要依產品、步驟、設備與版本等條件匹配。本課用配方 ID 與版本做簡化核對，不提供實際製程參數。</p></div>
+        <details><summary>Track-in / Track-out 又是什麼？</summary><p>通常用來記錄一批或一次作業進入／離開某站點的事件。實際定義由工廠決定；不要把它們一律當成 FOUP 實體到達／離開 Port，或 Chamber 的開始／結束訊號。</p></details>
+        <div class="takeaway"><span aria-hidden="true">☀</span><p>Route／Step 指出目前要做哪一步；Recipe 指出這一步的加工設定。</p></div>
+      </section>
+
+      <section id="transport" class="lesson" aria-labelledby="transport-title" hidden>
+        <h1 id="transport-title">設備之間，誰在搬 FOUP？</h1>
+        <p class="lead">AMHS 是自動化物料搬運系統。常見的組成包括在上方軌道行走、升降載具的 OHT，以及暫存載具的 Stocker。</p>
+        <div class="teaching-panel"><div class="transport-map"><div class="station"><span class="panel-label">Stocker · 暫存設備</span><div class="stocker"><span>STK-01</span><div class="small-foup">F012</div><div class="shelf-line"></div></div><p>先把載具放好，等待搬送。</p></div><div class="path-arrow" aria-label="載具搬送方向">搬送 →</div><div class="station"><span class="panel-label">OHT · 高架搬運車</span><div class="oht"><span>OHT-01</span><div class="hoist"></div><div class="small-foup">F012</div></div><p>載具隨搬運車移往目的地。</p></div><div class="path-arrow" aria-label="載具停靠方向">停靠 →</div><div class="station"><span class="panel-label">設備的 Load Port</span><div class="dock-object"><span>ETCH-03</span><div class="small-foup">F012</div><strong>LP1</strong></div><p>交接完成後，才確認已到達。</p></div></div><p class="caption">這是同一個 F012 在三個時間點的位置，圖中重現不代表三個載具。實際搬運方式依工廠配置。</p></div>
+        <div class="plain-note"><strong>Slot 是盒內位置；Stocker 是存放盒子的設備。</strong><p>整個 FOUP 搬動時，裡面的晶圓可以仍在原本的 Slot；改變的是 FOUP 在廠內的位置。</p></div>
+        <div class="takeaway"><span aria-hidden="true">☀</span><p>目的地已指定、正在搬送、已到達，要用不同狀態記錄。</p></div>
+      </section>
+
+      <section id="state" class="lesson" aria-labelledby="state-title" hidden>
+        <h1 id="state-title">在哪裡，和能不能加工，是兩件事。</h1>
+        <p class="lead">晶圓的位置說明「去哪裡找它」。狀態說明「現在進行到哪裡、是否允許下一步」，而且要先說清楚在描述誰。</p>
+        <div class="teaching-panel status-story"><div class="status-physical"><div class="dock-object"><span>ETCH-03</span><div class="small-foup">F012</div><strong>LP1</strong></div><p>三片仍在原槽位 06／07／08</p><strong>W07 屬於 L023</strong></div><div><h2>同一時刻，可以同時成立：</h2><dl class="status-lines"><div><dt>位置</dt><dd>F012 停靠 ETCH-03／LP1</dd></div><div><dt>設備狀態</dt><dd>Idle · 設備目前空閒</dd></div><div><dt>Lot 狀態</dt><dd class="amber">Hold · 這一批暫停，等待複核</dd></div></dl><p>設備有空，不代表這個 Lot 就能開工。Hold 也不表示晶圓被移走，或直接判定整批報廢。</p></div></div>
+        <table class="concept-table"><caption>本課示例狀態；現場命名與規則可能不同</caption><thead><tr><th>描述誰</th><th>狀態</th><th>先怎麼理解</th></tr></thead><tbody><tr><th>Lot</th><td>Ready</td><td>本例可準備開工，仍需核對配方等條件</td></tr><tr><th>Lot</th><td>Processing</td><td>本例已開始本站作業，尚未全部完成</td></tr><tr><th>Lot</th><td>Hold</td><td>暫停後續作業，等待指定複核</td></tr><tr><th>本站作業</th><td>Step complete</td><td>本站完成，整條 Route 尚未必完成</td></tr></tbody></table>
+        <div class="takeaway"><span aria-hidden="true">☀</span><p>先確認是誰的狀態，再判斷這批晶圓下一步能做什麼。</p></div>
+      </section>
+
+      <section id="arrival" class="lesson" aria-labelledby="arrival-title" hidden>
+        <h1 id="arrival-title">情境 A：把 F012 送對位置。</h1>
+        <p class="lead">L023 的三片晶圓在 F012 裡，正暫存在 STK-01。任務要求送到 <strong>ETCH-03／LP1</strong>。選擇目的地，再逐步觀察。</p>
+        <div class="scenario-label">獨立教學情境 · 重設後回到自己的起點 · 無真實設備連線</div>
+        <div class="teaching-panel"><div id="arrival-scene" class="arrival-scene"></div><div class="live-line" id="arrival-location" aria-live="polite"></div><div class="controls"><label for="destination">你要送到哪裡？</label><select id="destination"><option value="ETCH-03/LP1">ETCH-03／LP1</option><option value="ETCH-03/LP2">ETCH-03／LP2</option><option value="ETCH-04/LP1">ETCH-04／LP1</option></select><button id="arrival-next" class="button primary">核對目的地並派送</button><button id="arrival-reset" class="button">重設情境 A</button></div><p id="arrival-feedback" class="scenario-feedback" role="status">先試另一台設備的 LP1，看看只認 Port 名稱會發生什麼事。</p></div>
+        <div class="takeaway"><span aria-hidden="true">☀</span><p>確認是哪台 Tool 的哪個 Port；抵達只代表搬送完成，加工尚未開始。</p></div>
+      </section>
+
+      <section id="run" class="lesson" aria-labelledby="run-title" hidden>
+        <h1 id="run-title">情境 B：選對配方，再逐片加工。</h1>
+        <p class="lead">F012 已在 ETCH-03／LP1。L023 的 S20 要用 <strong>ETCH-DEMO／v2</strong>。先試另一個版本，再觀察三片晶圓如何完成本站。</p>
+        <div class="scenario-label">獨立教學情境 · 本例 CH-A 每次處理一片，省略中間傳送與設備檢查</div>
+        <div class="teaching-panel"><div class="run-scene"><div><span class="panel-label">F012 · 停在 ETCH-03／LP1</span><div id="run-slots" class="run-slots"></div></div><div class="transfer-direction">晶圓交接 ⇄</div><div class="process-chamber"><span>ETCH-03／CH-A</span><div id="chamber-wafer" class="chamber-space"></div><strong id="chamber-state">待機</strong></div></div><div class="run-status" aria-live="polite"><strong id="run-progress">本站完成 0 / 3 片</strong><span id="run-lot-state">Lot L023 · Ready</span></div><label class="field-label" for="recipe-choice">指定配方與版本</label><div class="controls"><select id="recipe-choice"><option value="ETCH-DEMO/v2">ETCH-DEMO／v2 · 本課指定</option><option value="ETCH-DEMO/v1">ETCH-DEMO／v1 · 另一版本</option><option value="CLEAN-DEMO/v2">CLEAN-DEMO／v2 · 清洗用途</option></select><button id="run-next" class="button primary">核對並開始 W06</button><button id="run-reset" class="button">重設情境 B</button></div><p id="run-feedback" class="scenario-feedback" role="status">開始後會看到晶圓離開原槽位、進入 CH-A；完成後才回到原槽位。</p><ol id="run-history" class="event-list" aria-label="本情境加工歷程"></ol></div>
+        <div class="takeaway"><span aria-hidden="true">☀</span><p>配方要核對版本；一片完成不等於整批完成，本站完成也不等於全部製程完成。</p></div>
+      </section>
+
+      <section id="hold" class="lesson" aria-labelledby="hold-title" hidden>
+        <h1 id="hold-title">情境 C：設備有空，為什麼不能開工？</h1>
+        <p class="lead">L023 被標為 Hold，原因是「上一站量測結果待複核」。F012 仍在 LP1，設備也空閒。先試著開工，再看看缺少了什麼。</p>
+        <div class="scenario-label">獨立教學情境 · 複核結果由模擬操作帶入；不代表現場人員可以自行解除 Hold</div>
+        <div class="teaching-panel"><div class="hold-scene"><div class="status-physical"><div class="dock-object"><span>ETCH-03 · Idle</span><div class="small-foup">F012</div><strong>LP1</strong></div><p>W07 一直在 F012／07</p></div><div class="review-sheet"><span class="panel-label">Lot L023 · 作業管制</span><strong id="hold-status" class="state-badge amber">Hold · 暫停</strong><dl class="status-lines"><div><dt>原因</dt><dd>上一站量測結果待複核</dd></div><div><dt>複核</dt><dd id="hold-review">尚未確認</dd></div><div><dt>允許</dt><dd id="hold-permission">不可開始下一站</dd></div></dl></div></div><div class="controls"><button id="hold-start" class="button primary">檢查能否開工</button><label for="review-choice">模擬複核結果</label><select id="review-choice"><option value="pending">尚未完成</option><option value="more">需要更多資料</option><option value="approved">已確認符合條件，允許解除</option></select><button id="hold-apply" class="button">套用複核結果</button><button id="hold-reset" class="button">重設情境 C</button></div><p id="hold-feedback" class="scenario-feedback" role="status">觀察：在本例解除 Hold 前後，Wafer、FOUP、Slot、Lot 的身分與位置都不改變。</p></div>
+        <div class="takeaway"><span aria-hidden="true">☀</span><p>設備空閒只描述設備；Lot 能否開工，還要看自己的管制與複核結果。</p></div>
+      </section>
+
+      <section id="reconcile" class="lesson" aria-labelledby="reconcile-title" hidden>
+        <h1 id="reconcile-title">情境 D：資料說三片，卻只讀到兩片。</h1>
+        <p class="lead">交接時，系統預期 F012 有 W06、W07、W08。本次模擬讀取卻在 Slot 07 顯示空槽。先比對差異，再決定能不能放行。</p>
+        <div class="scenario-label">獨立教學情境 · 右欄為假設的讀取結果，不代表晶圓真的遺失</div>
+        <div class="teaching-panel"><div class="reconcile-head"><h2>同一 FOUP F012，逐槽核對</h2><strong id="map-count" class="state-badge amber">預期 3 片／讀取 2 片</strong></div><div class="map-table" role="table" aria-label="預期與讀取槽位比對"><div class="map-row map-header" role="row"><span role="columnheader">槽位</span><span role="columnheader">系統預期</span><span role="columnheader">本次讀取</span><span role="columnheader">比對</span></div><div id="map-rows" role="rowgroup"></div></div><div class="controls"><label for="scan-choice">模擬另一筆核對結果</label><select id="scan-choice"><option value="missing">Slot 07 讀為空槽</option><option value="wrong">Slot 07 讀到另一片 W99</option><option value="matched">複核後三片身分與槽位相符</option></select><button id="scan-apply" class="button">更新讀取結果</button><button id="map-validate" class="button primary">核對並決定能否放行</button><button id="map-reset" class="button">重設情境 D</button></div><p id="map-feedback" class="scenario-feedback" role="status">先找 Slot 07。差異可能來自實物或資料，需要查明；不能直接推論晶圓損壞或遺失。</p><div class="live-line" id="map-decision" aria-live="polite">核對狀態：待確認，尚未放行</div></div>
+        <div class="takeaway"><span aria-hidden="true">☀</span><p>片數相同還不夠；身分與槽位也要一致，異常先核對，不直接改寫預期資料。</p></div>
+      </section>
+
+      <details class="sources"><summary>本課名詞對照與來源</summary><p>這一課從晶圓與載具，延伸到設備、流程與現場操作。所有 ID、Route、配方版本、狀態、核對與放行規則都是教學假設。</p><dl class="glossary"><div><dt>Tool / Equipment</dt><dd>設備；ETCH-03</dd></div><div><dt>Load Port</dt><dd>載具交接位置；ETCH-03／LP1</dd></div><div><dt>Chamber</dt><dd>設備內的製程腔體；ETCH-03／CH-A</dd></div><div><dt>Route / Step</dt><dd>製程路線／其中一步；R-DEMO／S20</dd></div><div><dt>Recipe</dt><dd>設備執行的配方；ETCH-DEMO／v2</dd></div><div><dt>AMHS / OHT / Stocker</dt><dd>自動搬運系統／高架搬運車／暫存設備</dd></div><div><dt>Hold</dt><dd>依管制原因暫停後續作業的狀態</dd></div></dl><ul><li><a href="https://www.brooks.com/solutions/" target="_blank" rel="noopener">Brooks：設備自動化、EFEM 與 Load Port</a></li><li><a href="https://www.appliedmaterials.com/us/en/semiconductor/products.html" target="_blank" rel="noopener">Applied Materials：各類半導體製程設備</a></li><li><a href="https://ir.appliedmaterials.com/news-releases/news-release-details/applied-materials-introduces-nitride550-cvd-process-enable-next" target="_blank" rel="noopener">Applied Materials：單片製程腔體與多腔體平台實例</a></li><li><a href="https://www.siemens.com/en-gb/products/opcenter/execution/semiconductor/" target="_blank" rel="noopener">Siemens：半導體製造執行與配方管理</a></li><li><a href="https://www.daifuku.com/pro/cr/" target="_blank" rel="noopener">Daifuku：無塵室搬運、OHT 與暫存系統</a></li><li><a href="https://www.ibm.com/products/siview" target="_blank" rel="noopener">IBM SiView：生產物件、製程與即時追蹤</a></li></ul></details>
+      <footer class="lesson-footer"><button id="previous" class="button">← 上一段</button><span id="footer-label">Tool / Equipment</span><button id="next" class="button primary">下一段 →</button></footer>
+      <div class="course-jump"><a href="index.html">← 回顧第一課的四個物件</a><a href="#arrival">進入四個操作情境 →</a></div>
+      <p class="page-footnote">MES LEARNING LAB · 第二課 v01 · 所有操作為教學模擬</p>
+      <noscript><p>請啟用 JavaScript 使用互動情境；基本教材仍可閱讀。</p><style>.lesson[hidden]{display:block!important}.controls,.lesson-footer{display:none}</style></noscript>
+    </main>
+  </div>
+</body>
+</html>

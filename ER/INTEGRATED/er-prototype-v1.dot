@@ -1,0 +1,30 @@
+graph ER {
+graph [layout=dot, nodesep=0.5, ranksep=0.65, splines=true, outputorder=edgesfirst, bgcolor="#ffffff", pad="0.6", fontname="Microsoft JhengHei"];
+node [fontname="Microsoft JhengHei",fontsize=20,margin="0.24,0.18",penwidth=2.5];
+edge [color="#7c8c9c",penwidth=1.7];
+"t_cfc81de70314" [id="t_cfc81de70314",label="LOT\nSiview.Frlot",shape=box,style="filled",fillcolor="#eef5ff",color="#176ac2"];
+"n_2671_port-link" [id="n_2671_port-link",label="EI 在\nSiview.Freqp_Lot",shape=diamond,style="filled",fillcolor="#ffffff",color="#6a7d8e"];
+"t_a43ff774d728" [id="t_a43ff774d728",label="Port\nSiview.Port",shape=box,style="filled",fillcolor="#fff6eb",color="#b26018"];
+"n_2671_slot" [id="n_2671_slot",label="在 Slot\nSiview.fhwlths",shape=diamond,style="filled",fillcolor="#ffffff",color="#6a7d8e"];
+"n_2671_cast-link" [id="n_2671_cast-link",label="放在\nSiview.Frcast_lot",shape=diamond,style="filled",fillcolor="#ffffff",color="#6a7d8e"];
+"n_2671_lot-eqp" [id="n_2671_lot-eqp",label="預到\nSiview.Frlot_EQP",shape=diamond,style="filled",fillcolor="#ffffff",color="#6a7d8e"];
+"n_2671_has" [id="n_2671_has",label="有\neqp_id",shape=diamond,style="filled",fillcolor="#ffffff",color="#6a7d8e"];
+"t_55072ef91a15" [id="t_55072ef91a15",label="Foup\nSiview.Frcast",shape=box,style="filled",fillcolor="#edf9f5",color="#008775"];
+"n_2671_location" [id="n_2671_location",label="位於\neqp_id\nSiview.CSFHDOPHS",shape=diamond,style="filled",fillcolor="#ffffff",color="#6a7d8e"];
+"t_7f282520afb8" [id="t_7f282520afb8",label="機台\nSiview.freqp\nEQP",shape=box,style="filled",fillcolor="#fff6eb",color="#b26018"];
+"n_2671_predispatch" [id="n_2671_predispatch",label="預派機台\neqp_id\nSIVIEW.CSFRPREDISPATCH",shape=diamond,style="filled",fillcolor="#ffffff",color="#6a7d8e"];
+"t_cfc81de70314" -- "n_2671_port-link" [id="e_n_2671_port-link_t_cfc81de70314"];
+"n_2671_port-link" -- "t_a43ff774d728" [id="e_n_2671_port-link_t_a43ff774d728"];
+"t_cfc81de70314" -- "n_2671_slot" [id="e_n_2671_slot_t_cfc81de70314"];
+"n_2671_slot" -- "t_55072ef91a15" [id="e_n_2671_slot_t_55072ef91a15"];
+"t_cfc81de70314" -- "n_2671_cast-link" [id="e_n_2671_cast-link_t_cfc81de70314"];
+"n_2671_cast-link" -- "t_55072ef91a15" [id="e_n_2671_cast-link_t_55072ef91a15"];
+"t_cfc81de70314" -- "n_2671_lot-eqp" [id="e_n_2671_lot-eqp_t_cfc81de70314"];
+"t_a43ff774d728" -- "n_2671_has" [id="e_n_2671_has_t_a43ff774d728"];
+"n_2671_has" -- "t_7f282520afb8" [id="e_n_2671_has_t_7f282520afb8"];
+"n_2671_lot-eqp" -- "t_7f282520afb8" [id="e_n_2671_lot-eqp_t_7f282520afb8"];
+"t_55072ef91a15" -- "n_2671_location" [id="e_n_2671_location_t_55072ef91a15"];
+"n_2671_location" -- "t_7f282520afb8" [id="e_n_2671_location_t_7f282520afb8"];
+"t_55072ef91a15" -- "n_2671_predispatch" [id="e_n_2671_predispatch_t_55072ef91a15"];
+"n_2671_predispatch" -- "t_7f282520afb8" [id="e_n_2671_predispatch_t_7f282520afb8"];
+}

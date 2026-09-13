@@ -1,0 +1,53 @@
+{
+  "checks": [
+    "All ten chapters, previous/next, browser history, single visible section",
+    "Desktop/mobile A: invalid tool or port blocked, transit differs from arrival, identities stable, reset",
+    "Desktop/mobile B: wrong recipe/version blocked, occupancy conserved, three completions required, history, mid-run reset",
+    "Desktop/mobile C: pending/more reviews remain held, permitted release, no material move or implicit start",
+    "Desktop/mobile D: missing versus wrong identity, count alone cannot pass, update invalidates previous decision, reset",
+    "50 viewport/chapter layouts, 30 clean-state screenshots, mobile menu, expanded sources",
+    "Bidirectional course links",
+    "Live HTTP assets match disk and processing interaction works"
+  ],
+  "screens": [
+    "1440-tool.png",
+    "1440-port.png",
+    "1440-chamber.png",
+    "1440-process.png",
+    "1440-transport.png",
+    "1440-state.png",
+    "1440-arrival.png",
+    "1440-run.png",
+    "1440-hold.png",
+    "1440-reconcile.png",
+    "390-tool.png",
+    "390-port.png",
+    "390-chamber.png",
+    "390-process.png",
+    "390-transport.png",
+    "390-state.png",
+    "390-arrival.png",
+    "390-run.png",
+    "390-hold.png",
+    "390-reconcile.png",
+    "360-tool.png",
+    "360-port.png",
+    "360-chamber.png",
+    "360-process.png",
+    "360-transport.png",
+    "360-state.png",
+    "360-arrival.png",
+    "360-run.png",
+    "360-hold.png",
+    "360-reconcile.png"
+  ],
+  "errors": [],
+  "http_assets": {
+    "operations.html": true,
+    "operations.js": true,
+    "operations.css": true,
+    "index.html": true,
+    "styles.css": true
+  },
+  "result": "PASS"
+}

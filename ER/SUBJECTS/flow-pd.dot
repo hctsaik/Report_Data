@@ -1,0 +1,14 @@
+graph ER {
+graph [rankdir=LR, nodesep=.4, ranksep=.65, splines=polyline, outputorder=edgesfirst, pad=.3, bgcolor="white"];
+node [fontname="Microsoft JhengHei",fontsize=18,margin=".16,.12"];
+edge [color="#70869a",penwidth=1.8];
+"n_2673_pd-eqp-link" [id="n_2673_pd-eqp-link",label="PD_ID 對映的機台",shape=diamond,color="#6a7d8e",fillcolor="#ffffff",style=filled,penwidth=2];
+"n_2673_pd-link" [id="n_2673_pd-link",label="站點的 PD_ID",shape=diamond,color="#6a7d8e",fillcolor="#ffffff",style=filled,penwidth=2];
+"t_1bc56644c54f" [id="t_1bc56644c54f",label="Flow PD\nSiview.frpd",shape=box,color="#7756af",fillcolor="#f7f1ff",style=filled,penwidth=2];
+"t_755ca3b22919" [id="t_755ca3b22919",label="PD_ID 與機台\nSiview.frpd_eqp",shape=box,color="#7756af",fillcolor="#f7f1ff",style=filled,penwidth=2];
+"t_d4d030ed08a4" [id="t_d4d030ed08a4",label="本圖主詞\nFlow\nF12DM.DM_Flow_step_Bt",shape=box,color="#7756af",fillcolor="#f7f1ff",style=filled,penwidth=4];
+"t_1bc56644c54f" -- "n_2673_pd-eqp-link" [id="e_n_2673_pd-eqp-link_t_1bc56644c54f"];
+"n_2673_pd-eqp-link" -- "t_755ca3b22919" [id="e_n_2673_pd-eqp-link_t_755ca3b22919"];
+"n_2673_pd-link" -- "t_1bc56644c54f" [id="e_n_2673_pd-link_t_1bc56644c54f"];
+"t_d4d030ed08a4" -- "n_2673_pd-link" [id="e_n_2673_pd-link_t_d4d030ed08a4"];
+}

@@ -1,0 +1,1517 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" width="8566pt" height="2627pt" viewBox="0.00 0.00 8566.00 2627.00" role="img" aria-label="Fab 整合 ER 圖：實體、關係與鍵">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(43.2 2583.6)">
+<title>ER</title>
+<polygon fill="#ffffff" stroke="none" points="-43.2,43.2 -43.2,-2583.6 8523.04,-2583.6 8523.04,43.2 -43.2,43.2" />
+
+<g id="e_n_2671_material-link_t_b293b57a5ae2" class="edge" data-edge="e_n_2671_material-link_t_b293b57a5ae2" data-a="t_b293b57a5ae2" data-b="n_2671_material-link">
+<title>t_b293b57a5ae2--n_2671_material-link</title>
+<path fill="none" stroke="#7c8c9c" stroke-width="1.7" d="M3486.81,-2432.42C3486.81,-2418.36 3486.81,-2402.89 3486.81,-2387.76" />
+</g>
+
+<g id="e_n_2671_material-link_t_cfc81de70314" class="edge" data-edge="e_n_2671_material-link_t_cfc81de70314" data-a="n_2671_material-link" data-b="t_cfc81de70314">
+<title>n_2671_material-link--t_cfc81de70314</title>
+<path fill="none" stroke="#7c8c9c" stroke-width="1.7" d="M3539.33,-2249.12C3564.12,-2222.48 3593.13,-2191.31 3615.61,-2167.16" />
+</g>
+
+<g id="e_n_2671_port-link_t_cfc81de70314" class="edge" data-edge="e_n_2671_port-link_t_cfc81de70314" data-a="t_cfc81de70314" data-b="n_2671_port-link">
+<title>t_cfc81de70314--n_2671_port-link</title>
+<path fill="none" stroke="#7c8c9c" stroke-width="1.7" d="M3724,-2124.23C3863.37,-2120.61 4180.72,-2103.69 4433.81,-2025.72 4479.12,-2011.76 4526.46,-1988.44 4564.51,-1967.22" />
+</g>
+
+<g id="e_n_2671_slot_t_cfc81de70314" class="edge" data-edge="e_n_2671_slot_t_cfc81de70314" data-a="t_cfc81de70314" data-b="n_2671_slot">
+<title>t_cfc81de70314--n_2671_slot</title>
+<path fill="none" stroke="#7c8c9c" stroke-width="1.7" d="M3631.34,-2085.09C3615.83,-2056.14 3594.58,-2016.46 3576.78,-1983.23" />
+</g>
+
+<g id="e_n_2671_cast-link_t_cfc81de70314" class="edge" data-edge="e_n_2671_cast-link_t_cfc81de70314" data-a="t_cfc81de70314" data-b="n_2671_cast-link">
+<title>t_cfc81de70314--n_2671_cast-link</title>
+<path fill="none" stroke="#7c8c9c" stroke-width="1.7" d="M3581.55,-2104.27C3521.52,-2085.88 3433.84,-2057.2 3359.81,-2025.72 3317.97,-2007.93 3272.93,-1985.09 3235.76,-1965.18" />
+</g>
+
+<g id="e_n_2671_lot-eqp_t_cfc81de70314" class="edge" data-edge="e_n_2671_lot-eqp_t_cfc81de70314" data-a="t_cfc81de70314" data-b="n_2671_lot-eqp">
+<title>t_cfc81de70314--n_2671_lot-eqp</title>
+<path fill="none" stroke="#7c8c9c" stroke-width="1.7" d="M3689.11,-2085.4C3702.8,-2068.22 3717.15,-2047.17 3725.81,-2025.72 3759.86,-1941.41 3769.65,-1836.75 3772.01,-1766.04" />
+</g>
+
+<g id="e_n_2672_summary_t_cfc81de70314" class="edge" data-edge="e_n_2672_summary_t_cfc81de70314" data-a="t_cfc81de70314" data-b="n_2672_summary">
+<title>t_cfc81de70314--n_2672_summary</title>
+<path fill="none" stroke="#7c8c9c" stroke-width="1.7" d="M3581.67,-2121.76C3425.23,-2113.19 3056.72,-2086.92 2949.81,-2025.72 2919.53,-2008.38 2791.69,-1838.22 2723.34,-1745.5" />
+</g>
+
+<g id="e_n_2672_all-actions_t_cfc81de70314" class="edge" data-edge="e_n_2672_all-actions_t_cfc81de70314" data-a="t_cfc81de70314" data-b="n_2672_all-actions">
+<title>t_cfc81de70314--n_2672_all-actions</title>
+<path fill="none" stroke="#7c8c9c" stroke-width="1.7" d="M3581.57,-2122.96C3439.63,-2117.11 3112.42,-2096.43 2847.81,-2025.72 2787.61,-2009.63 2722.89,-1982.05 2674.25,-1959.06" />
+</g>
+
+<g id="e_n_2673_flow-link_t_cfc81de70314" class="edge" data-edge="e_n_2673_flow-link_t_cfc81de70314" data-a="t_cfc81de70314" data-b="n_2673_flow-link">
+<title>t_cfc81de70314--n_2673_flow-link</title>
+<path fill="none" stroke="#7c8c9c" stroke-width="1.7" d="M3723.87,-2122.59C3999.36,-2112.22 4988.2,-2072.12 5120.81,-2025.72 5152.37,-2014.68 5183.42,-1995.25 5209.21,-1976.02" />
+</g>
+
+<g id="e_n_2673_forecast-link_t_cfc81de70314" class="edge" data-edge="e_n_2673_forecast-link_t_cfc81de70314" data-a="t_cfc81de70314" data-b="n_2673_forecast-link">
+<title>t_cfc81de70314--n_2673_forecast-link</title>
+<path fill="none" stroke="#7c8c9c" stroke-width="1.7" d="M3713.32,-2085.09C3762.74,-2052.35 3832.89,-2005.87 3886.23,-1970.54" />
+</g>
+
+<g id="e_n_2673_stream-link_t_cfc81de70314" class="edge" data-edge="e_n_2673_stream-link_t_cfc81de70314" data-a="t_cfc81de70314" data-b="n_2673_stream-link">
+<title>t_cfc81de70314--n_2673_stream-link</title>
+<path fill="none" stroke="#7c8c9c" stroke-width="1.7" d="M3723.96,-2119.03C3818.87,-2108.87 3990.64,-2083.65 4125.81,-2025.72 4156.38,-2012.62 4187.16,-1993.03 4213.08,-1974.25" />
+</g>
+
+<g id="e_n_2671_port-link_t_a43ff774d728" class="edge" data-edge="e_n_2671_port-link_t_a43ff774d728" data-a="n_2671_port-link" data-b="t_a43ff774d728">
+<title>n_2671_port-link--t_a43ff774d728</title>
+<path fill="none" stroke="#7c8c9c" stroke-width="1.7" d="M4725.48,-1872.82C4763.31,-1853.15 4808.85,-1830.4 4850.81,-1811.88 4904.73,-1788.08 4924.73,-1795.95 4974.81,-1764.88 4992.09,-1754.16 5008.97,-1739.61 5023.07,-1725.93" />
+</g>
+
+<g id="e_n_2671_has_t_a43ff774d728" class="edge" data-edge="e_n_2671_has_t_a43ff774d728" data-a="t_a43ff774d728" data-b="n_2671_has">
+<title>t_a43ff774d728--n_2671_has</title>
+<path fill="none" stroke="#7c8c9c" stroke-width="1.7" d="M5059.81,-1643.84C5059.81,-1613.26 5059.81,-1570.13 5059.81,-1532.53" />
+</g>
+
+<g id="e_n_2671_slot_t_55072ef91a15" class="edge" data-edge="e_n_2671_slot_t_55072ef91a15" data-a="n_2671_slot" data-b="t_55072ef91a15">
+<title>n_2671_slot--t_55072ef91a15</title>
+<path fill="none" stroke="#7c8c9c" stroke-width="1.7" d="M3468.92,-1873.65C3397.68,-1831.08 3290.82,-1767.23 3221.94,-1726.07" />
+</g>
+
+<g id="e_n_2671_cast-link_t_55072ef91a15" class="edge" data-edge="e_n_2671_cast-link_t_55072ef91a15" data-a="n_2671_cast-link" data-b="t_55072ef91a15">
+<title>n_2671_cast-link--t_55072ef91a15</title>
+<path fill="none" stroke="#7c8c9c" stroke-width="1.7" d="M3154.81,-1837.69C3154.81,-1799.99 3154.81,-1756.7 3154.81,-1726.03" />
+</g>
+
+<g id="e_n_2671_lot-eqp_t_7f282520afb8" class="edge" data-edge="e_n_2671_lot-eqp_t_7f282520afb8" data-a="n_2671_lot-eqp" data-b="t_7f282520afb8">
+<title>n_2671_lot-eqp--t_7f282520afb8</title>
+<path fill="none" stroke="#7c8c9c" stroke-width="1.7" d="M3865.51,-1643.49C3900.54,-1629.63 3940.99,-1615.1 3978.81,-1605.04 4108.81,-1570.45 4174.64,-1644.37 4277.81,-1558.04 4354.94,-1493.5 4297.22,-1428.67 4351.81,-1344.2 4369.26,-1317.2 4393.66,-1291.91 4416.86,-1271.15" />
+</g>
+
+<g id="e_n_2671_has_t_7f282520afb8" class="edge" data-edge="e_n_2671_has_t_7f282520afb8" data-a="n_2671_has" data-b="t_7f282520afb8">
+<title>n_2671_has--t_7f282520afb8</title>
+<path fill="none" stroke="#7c8c9c" stroke-width="1.7" d="M5018.52,-1403.46C4997.91,-1382.68 4971.5,-1359.5 4943.81,-1344.2 4819.44,-1275.49 4655.08,-1241.99 4560.86,-1227.43" />
+</g>
+
+<g id="e_n_2671_location_t_55072ef91a15" class="edge" data-edge="e_n_2671_location_t_55072ef91a15" data-a="t_55072ef91a15" data-b="n_2671_location">
+<title>t_55072ef91a15--n_2671_location</title>
+<path fill="none" stroke="#7c8c9c" stroke-width="1.7" d="M3158.1,-1643.84C3160.12,-1619.22 3162.8,-1586.47 3165.38,-1555.01" />
+</g>
+
+<g id="e_n_2671_predispatch_t_55072ef91a15" class="edge" data-edge="e_n_2671_predispatch_t_55072ef91a15" data-a="t_55072ef91a15" data-b="n_2671_predispatch">
+<title>t_55072ef91a15--n_2671_predispatch</title>
+<path fill="none" stroke="#7c8c9c" stroke-width="1.7" d="M3231.83,-1647.08C3260.82,-1633.5 3294.17,-1618.22 3324.81,-1605.04 3404.91,-1570.57 3495.5,-1534.45 3568.68,-1505.97" />
+</g>
+
+<g id="e_n_2672_cast-link_t_55072ef91a15" class="edge" data-edge="e_n_2672_cast-link_t_55072ef91a15" data-a="t_55072ef91a15" data-b="n_2672_cast-link">
+<title>t_55072ef91a15--n_2672_cast-link</title>
+<path fill="none" stroke="#7c8c9c" stroke-width="1.7" d="M3077.46,-1658.09C3020.45,-1640.14 2940.65,-1617.32 2868.81,-1605.04 2571.95,-1554.29 2481.2,-1644.85 2192.81,-1558.04 2150.65,-1545.35 2107.63,-1521.85 2073.49,-1500.21" />
+</g>
+
+<g id="e_n_2672_mes-transfer_t_55072ef91a15" class="edge" data-edge="e_n_2672_mes-transfer_t_55072ef91a15" data-a="t_55072ef91a15" data-b="n_2672_mes-transfer">
+<title>t_55072ef91a15--n_2672_mes-transfer</title>
+<path fill="none" stroke="#7c8c9c" stroke-width="1.7" d="M3077.44,-1659.88C3020.25,-1642.75 2940.24,-1620.18 2868.81,-1605.04 2730.77,-1575.77 2687.89,-1604.97 2554.81,-1558.04 2514.64,-1543.87 2473.38,-1520.53 2440.42,-1499.36" />
+</g>
+
+<g id="e_n_2672_mcs-transfer_t_55072ef91a15" class="edge" data-edge="e_n_2672_mcs-transfer_t_55072ef91a15" data-a="t_55072ef91a15" data-b="n_2672_mcs-transfer">
+<title>t_55072ef91a15--n_2672_mcs-transfer</title>
+<path fill="none" stroke="#7c8c9c" stroke-width="1.7" d="M3084.21,-1643.84C3015.78,-1604.96 2911.71,-1545.82 2837.25,-1503.51" />
+</g>
+
+<g id="e_n_2671_location_t_7f282520afb8" class="edge" data-edge="e_n_2671_location_t_7f282520afb8" data-a="n_2671_location" data-b="t_7f282520afb8">
+<title>n_2671_location--t_7f282520afb8</title>
+<path fill="none" stroke="#7c8c9c" stroke-width="1.7" d="M3278.57,-1394.61C3318.35,-1375.77 3364.71,-1356.41 3408.81,-1344.2 3775.08,-1242.76 4233.42,-1222.67 4410.86,-1218.71" />
+</g>
+
+<g id="e_n_2674_chamber-link_t_7f282520afb8" class="edge" data-edge="e_n_2674_chamber-link_t_7f282520afb8" data-a="t_7f282520afb8" data-b="n_2674_chamber-link">
+<title>t_7f282520afb8--n_2674_chamber-link</title>
+<path fill="none" stroke="#7c8c9c" stroke-width="1.7" d="M4505.19,-1162.14C4517.2,-1128.89 4532.74,-1085.91 4545.57,-1050.42" />
+</g>
+
+<g id="e_n_2674_owner-link_t_7f282520afb8" class="edge" data-edge="e_n_2674_owner-link_t_7f282520afb8" data-a="t_7f282520afb8" data-b="n_2674_owner-link">
+<title>t_7f282520afb8--n_2674_owner-link</title>
+<path fill="none" stroke="#7c8c9c" stroke-width="1.7" d="M4431.6,-1162.14C4392.43,-1123.4 4339.88,-1071.43 4301.53,-1033.51" />
+</g>
+
+<g id="e_n_2674_ohb-link_t_7f282520afb8" class="edge" data-edge="e_n_2674_ohb-link_t_7f282520afb8" data-a="t_7f282520afb8" data-b="n_2674_ohb-link">
+<title>t_7f282520afb8--n_2674_ohb-link</title>
+<path fill="none" stroke="#7c8c9c" stroke-width="1.7" d="M4560.91,-1181.19C4611.15,-1157.21 4678.18,-1123.53 4734.81,-1089.28 4765.63,-1070.64 4798.41,-1047.71 4825.36,-1027.95" />
+</g>
+
+<g id="e_n_2671_predispatch_t_7f282520afb8" class="edge" data-edge="e_n_2671_predispatch_t_7f282520afb8" data-a="n_2671_predispatch" data-b="t_7f282520afb8">
+<title>n_2671_predispatch--t_7f282520afb8</title>
+<path fill="none" stroke="#7c8c9c" stroke-width="1.7" d="M3852.86,-1397C3902.29,-1379.34 3958.22,-1360.13 4009.81,-1344.2 4150.13,-1300.87 4316.42,-1258.76 4410.67,-1235.73" />
+</g>
+
+<g id="e_n_2672_pre-link_t_d7f7aa94ad34" class="edge" data-edge="e_n_2672_pre-link_t_d7f7aa94ad34" data-a="t_d7f7aa94ad34" data-b="n_2672_pre-link">
+<title>t_d7f7aa94ad34--n_2672_pre-link</title>
+<path fill="none" stroke="#7c8c9c" stroke-width="1.7" d="M3818.81,-2445.91C3818.81,-2428.75 3818.81,-2408.07 3818.81,-2387.99" />
+</g>
+
+<g id="e_n_2672_pre-link_t_cfc81de70314" class="edge" data-edge="e_n_2672_pre-link_t_cfc81de70314" data-a="n_2672_pre-link" data-b="t_cfc81de70314">
+<title>n_2672_pre-link--t_cfc81de70314</title>
+<path fill="none" stroke="#7c8c9c" stroke-width="1.7" d="M3773.45,-2256.82C3747.24,-2228.66 3714.68,-2193.67 3690,-2167.14" />
+</g>
+
+<g id="e_n_2672_move-link_t_178593e830a1" class="edge" data-edge="e_n_2672_move-link_t_178593e830a1" data-a="t_178593e830a1" data-b="n_2672_move-link">
+<title>t_178593e830a1--n_2672_move-link</title>
+<path fill="none" stroke="#7c8c9c" stroke-width="1.7" d="M2487.35,-2445.91C2507.39,-2421.26 2533.35,-2389.32 2555.28,-2362.34" />
+</g>
+
+<g id="e_n_2675_move-link_t_178593e830a1" class="edge" data-edge="e_n_2675_move-link_t_178593e830a1" data-a="t_178593e830a1" data-b="n_2675_move-link">
+<title>t_178593e830a1--n_2675_move-link</title>
+<path fill="none" stroke="#7c8c9c" stroke-width="1.7" d="M2415.99,-2445.91C2391.18,-2420.33 2358.77,-2386.91 2332.01,-2359.32" />
+</g>
+
+<g id="e_n_2672_move-link_t_cfc81de70314" class="edge" data-edge="e_n_2672_move-link_t_cfc81de70314" data-a="n_2672_move-link" data-b="t_cfc81de70314">
+<title>n_2672_move-link--t_cfc81de70314</title>
+<path fill="none" stroke="#7c8c9c" stroke-width="1.7" d="M2697.45,-2280.54C2765.37,-2263.73 2858.21,-2241.94 2940.81,-2226.64 3173.83,-2183.49 3452.87,-2149.63 3581.48,-2135.02" />
+</g>
+
+<g id="e_n_2672_move-link_t_a24726d7a0b3" class="edge" data-edge="e_n_2672_move-link_t_a24726d7a0b3" data-a="n_2672_move-link" data-b="t_a24726d7a0b3">
+<title>n_2672_move-link--t_a24726d7a0b3</title>
+<path fill="none" stroke="#7c8c9c" stroke-width="1.7" d="M2558.13,-2249.06C2519.52,-2194.38 2462.92,-2107.93 2427.81,-2025.72 2383.5,-1921.98 2356.75,-1790.74 2345.33,-1725.93" />
+</g>
+
+<g id="e_n_2672_summary_t_b474e516b8d5" class="edge" data-edge="e_n_2672_summary_t_b474e516b8d5" data-a="n_2672_summary" data-b="t_b474e516b8d5">
+<title>n_2672_summary--t_b474e516b8d5</title>
+<path fill="none" stroke="#7c8c9c" stroke-width="1.7" d="M2590.59,-1645.56C2551.48,-1630.37 2504.59,-1614.35 2460.81,-1605.04 2390.85,-1590.17 1867.5,-1610.43 1818.81,-1558.04 1754.11,-1488.43 1788.05,-1434.12 1818.81,-1344.2 1829.96,-1311.61 1853.3,-1280.92 1874.41,-1257.94" />
+</g>
+
+<g id="e_n_2672_qtime-link_t_b474e516b8d5" class="edge" data-edge="e_n_2672_qtime-link_t_b474e516b8d5" data-a="t_b474e516b8d5" data-b="n_2672_qtime-link">
+<title>t_b474e516b8d5--n_2672_qtime-link</title>
+<path fill="none" stroke="#7c8c9c" stroke-width="1.7" d="M1916.81,-1175.79C1916.81,-1152.17 1916.81,-1121.03 1916.81,-1090.7" />
+</g>
+
+<g id="e_n_2672_all-actions_t_a24726d7a0b3" class="edge" data-edge="e_n_2672_all-actions_t_a24726d7a0b3" data-a="n_2672_all-actions" data-b="t_a24726d7a0b3">
+<title>n_2672_all-actions--t_a24726d7a0b3</title>
+<path fill="none" stroke="#7c8c9c" stroke-width="1.7" d="M2540.83,-1867.49C2493.7,-1825.14 2427.18,-1765.37 2383.54,-1726.16" />
+</g>
+
+<g id="e_n_2672_cast-link_t_b474e516b8d5" class="edge" data-edge="e_n_2672_cast-link_t_b474e516b8d5" data-a="n_2672_cast-link" data-b="t_b474e516b8d5">
+<title>n_2672_cast-link--t_b474e516b8d5</title>
+<path fill="none" stroke="#7c8c9c" stroke-width="1.7" d="M1979.83,-1382.28C1964.33,-1341.82 1945.19,-1291.85 1932.1,-1257.66" />
+</g>
+
+<g id="e_n_2672_mes-transfer_n_2672_transfer" class="edge" data-edge="e_n_2672_mes-transfer_n_2672_transfer" data-a="n_2672_mes-transfer" data-b="n_2672_transfer">
+<title>n_2672_mes-transfer--n_2672_transfer</title>
+<path fill="none" stroke="#7c8c9c" stroke-width="1.7" d="M2373.81,-1369.82C2373.81,-1332.04 2373.81,-1288.64 2373.81,-1257.9" />
+</g>
+
+<g id="e_n_2672_mcs-history_n_2672_mcs-transfer" class="edge" data-edge="e_n_2672_mcs-history_n_2672_mcs-transfer" data-a="n_2672_mcs-transfer" data-b="n_2672_mcs-history">
+<title>n_2672_mcs-transfer--n_2672_mcs-history</title>
+<path fill="none" stroke="#7c8c9c" stroke-width="1.7" d="M2746.81,-1342.77C2746.81,-1327.79 2746.81,-1312.61 2746.81,-1298.23" />
+</g>
+
+<g id="e_n_2672_qtime-link_t_f1dc5d6bcd1f" class="edge" data-edge="e_n_2672_qtime-link_t_f1dc5d6bcd1f" data-a="n_2672_qtime-link" data-b="t_f1dc5d6bcd1f">
+<title>n_2672_qtime-link--t_f1dc5d6bcd1f</title>
+<path fill="none" stroke="#7c8c9c" stroke-width="1.7" d="M1916.81,-874.16C1916.81,-853.34 1916.81,-832.78 1916.81,-815.89" />
+</g>
+
+<g id="e_n_2673_wph-link_t_1c25059c913b" class="edge" data-edge="e_n_2673_wph-link_t_1c25059c913b" data-a="t_1c25059c913b" data-b="n_2673_wph-link">
+<title>t_1c25059c913b--n_2673_wph-link</title>
+<path fill="none" stroke="#7c8c9c" stroke-width="1.7" d="M5582.81,-1643.84C5582.81,-1605.48 5582.81,-1547.39 5582.81,-1505.21" />
+</g>
+
+<g id="e_n_2673_wph-link_t_e9c0addd1e0c" class="edge" data-edge="e_n_2673_wph-link_t_e9c0addd1e0c" data-a="n_2673_wph-link" data-b="t_e9c0addd1e0c">
+<title>n_2673_wph-link--t_e9c0addd1e0c</title>
+<path fill="none" stroke="#7c8c9c" stroke-width="1.7" d="M5628.31,-1415.74C5657.16,-1394.39 5695.57,-1366.81 5730.81,-1344.2 5770.06,-1319.02 5814.5,-1293.11 5853.17,-1271.36" />
+</g>
+
+<g id="e_n_2673_lr-link_t_e9c0addd1e0c" class="edge" data-edge="e_n_2673_lr-link_t_e9c0addd1e0c" data-a="t_e9c0addd1e0c" data-b="n_2673_lr-link">
+<title>t_e9c0addd1e0c--n_2673_lr-link</title>
+<path fill="none" stroke="#7c8c9c" stroke-width="1.7" d="M5981.57,-1162.14C6000.91,-1127.29 6026.2,-1081.73 6046.41,-1045.33" />
+</g>
+
+<g id="e_n_2673_pd-eqp-link_t_755ca3b22919" class="edge" data-edge="e_n_2673_pd-eqp-link_t_755ca3b22919" data-a="t_755ca3b22919" data-b="n_2673_pd-eqp-link">
+<title>t_755ca3b22919--n_2673_pd-eqp-link</title>
+<path fill="none" stroke="#7c8c9c" stroke-width="1.7" d="M6791.81,-2445.91C6791.81,-2420.74 6791.81,-2387.98 6791.81,-2360.66" />
+</g>
+
+<g id="e_n_2673_pd-eqp-link_t_1bc56644c54f" class="edge" data-edge="e_n_2673_pd-eqp-link_t_1bc56644c54f" data-a="n_2673_pd-eqp-link" data-b="t_1bc56644c54f">
+<title>n_2673_pd-eqp-link--t_1bc56644c54f</title>
+<path fill="none" stroke="#7c8c9c" stroke-width="1.7" d="M6791.81,-2252.52C6791.81,-2225.21 6791.81,-2192.44 6791.81,-2167.26" />
+</g>
+
+<g id="e_n_2673_pd-link_t_1bc56644c54f" class="edge" data-edge="e_n_2673_pd-link_t_1bc56644c54f" data-a="t_1bc56644c54f" data-b="n_2673_pd-link">
+<title>t_1bc56644c54f--n_2673_pd-link</title>
+<path fill="none" stroke="#7c8c9c" stroke-width="1.7" d="M6791.81,-2085.09C6791.81,-2053.11 6791.81,-2008.02 6791.81,-1973.01" />
+</g>
+
+<g id="e_n_2673_part-link_t_1dff83e775cf" class="edge" data-edge="e_n_2673_part-link_t_1dff83e775cf" data-a="t_1dff83e775cf" data-b="n_2673_part-link">
+<title>t_1dff83e775cf--n_2673_part-link</title>
+<path fill="none" stroke="#7c8c9c" stroke-width="1.7" d="M6033.81,-2085.09C6033.81,-2060.93 6033.81,-2029.29 6033.81,-2000.16" />
+</g>
+
+<g id="e_n_2673_recipe-link_t_c2ca3a20806b" class="edge" data-edge="e_n_2673_recipe-link_t_c2ca3a20806b" data-a="t_c2ca3a20806b" data-b="n_2673_recipe-link">
+<title>t_c2ca3a20806b--n_2673_recipe-link</title>
+<path fill="none" stroke="#7c8c9c" stroke-width="1.7" d="M6401.81,-2085.09C6401.81,-2053.11 6401.81,-2008.02 6401.81,-1973.01" />
+</g>
+
+<g id="e_n_2673_lr-link_t_d4d030ed08a4" class="edge" data-edge="e_n_2673_lr-link_t_d4d030ed08a4" data-a="n_2673_lr-link" data-b="t_d4d030ed08a4">
+<title>n_2673_lr-link--t_d4d030ed08a4</title>
+<path fill="none" stroke="#7c8c9c" stroke-width="1.7" d="M6100.47,-1053.39C6142.89,-1204.24 6239.77,-1547.17 6246.81,-1558.04 6268.92,-1592.14 6303.04,-1621.94 6333.05,-1643.98" />
+</g>
+
+<g id="e_n_2673_pd-link_t_d4d030ed08a4" class="edge" data-edge="e_n_2673_pd-link_t_d4d030ed08a4" data-a="n_2673_pd-link" data-b="t_d4d030ed08a4">
+<title>n_2673_pd-link--t_d4d030ed08a4</title>
+<path fill="none" stroke="#7c8c9c" stroke-width="1.7" d="M6736.08,-1883.55C6701.81,-1862.63 6656.92,-1835.44 6616.81,-1811.88 6567.12,-1782.69 6510.66,-1750.54 6467.25,-1726.03" />
+</g>
+
+<g id="e_n_2673_part-link_t_d4d030ed08a4" class="edge" data-edge="e_n_2673_part-link_t_d4d030ed08a4" data-a="n_2673_part-link" data-b="t_d4d030ed08a4">
+<title>n_2673_part-link--t_d4d030ed08a4</title>
+<path fill="none" stroke="#7c8c9c" stroke-width="1.7" d="M6095.37,-1873.87C6123.04,-1854.46 6156.29,-1831.61 6186.81,-1811.88 6232.88,-1782.1 6285.82,-1750.22 6326.89,-1726" />
+</g>
+
+<g id="e_n_2673_recipe-link_t_d4d030ed08a4" class="edge" data-edge="e_n_2673_recipe-link_t_d4d030ed08a4" data-a="n_2673_recipe-link" data-b="t_d4d030ed08a4">
+<title>n_2673_recipe-link--t_d4d030ed08a4</title>
+<path fill="none" stroke="#7c8c9c" stroke-width="1.7" d="M6400.45,-1865.19C6399.36,-1822.97 6397.85,-1764.6 6396.85,-1726.09" />
+</g>
+
+<g id="e_n_2673_future-link_t_604a111deb74" class="edge" data-edge="e_n_2673_future-link_t_604a111deb74" data-a="t_604a111deb74" data-b="n_2673_future-link">
+<title>t_604a111deb74--n_2673_future-link</title>
+<path fill="none" stroke="#7c8c9c" stroke-width="1.7" d="M4116.81,-2445.91C4116.81,-2428.65 4116.81,-2407.82 4116.81,-2387.63" />
+</g>
+
+<g id="e_n_2673_future-link_t_cfc81de70314" class="edge" data-edge="e_n_2673_future-link_t_cfc81de70314" data-a="n_2673_future-link" data-b="t_cfc81de70314">
+<title>n_2673_future-link--t_cfc81de70314</title>
+<path fill="none" stroke="#7c8c9c" stroke-width="1.7" d="M4041.38,-2266.76C4013.85,-2253.27 3982.25,-2238.55 3952.81,-2226.64 3876,-2195.58 3785.43,-2166.55 3724.05,-2147.97" />
+</g>
+
+<g id="e_n_2673_hold-link_t_52a86ba40707" class="edge" data-edge="e_n_2673_hold-link_t_52a86ba40707" data-a="t_52a86ba40707" data-b="n_2673_hold-link">
+<title>t_52a86ba40707--n_2673_hold-link</title>
+<path fill="none" stroke="#7c8c9c" stroke-width="1.7" d="M3114.81,-2445.91C3114.81,-2428.65 3114.81,-2407.82 3114.81,-2387.63" />
+</g>
+
+<g id="e_n_2673_hold-link_t_cfc81de70314" class="edge" data-edge="e_n_2673_hold-link_t_cfc81de70314" data-a="n_2673_hold-link" data-b="t_cfc81de70314">
+<title>n_2673_hold-link--t_cfc81de70314</title>
+<path fill="none" stroke="#7c8c9c" stroke-width="1.7" d="M3194.27,-2266.3C3223.57,-2252.69 3257.3,-2238.01 3288.81,-2226.64 3388.48,-2190.68 3507.52,-2160.45 3581.66,-2143.07" />
+</g>
+
+<g id="e_n_2673_flow-link_t_d4d030ed08a4" class="edge" data-edge="e_n_2673_flow-link_t_d4d030ed08a4" data-a="n_2673_flow-link" data-b="t_d4d030ed08a4">
+<title>n_2673_flow-link--t_d4d030ed08a4</title>
+<path fill="none" stroke="#7c8c9c" stroke-width="1.7" d="M5339.16,-1862.33C5364.92,-1843.31 5395.75,-1823.83 5426.81,-1811.88 5446.06,-1804.47 5995.76,-1735.59 6258.49,-1702.96" />
+</g>
+
+<g id="e_n_2673_lr-eqp-link_t_d4d030ed08a4" class="edge" data-edge="e_n_2673_lr-eqp-link_t_d4d030ed08a4" data-a="t_d4d030ed08a4" data-b="n_2673_lr-eqp-link">
+<title>t_d4d030ed08a4--n_2673_lr-eqp-link</title>
+<path fill="none" stroke="#7c8c9c" stroke-width="1.7" d="M6318.98,-1643.84C6241.17,-1603.21 6120.99,-1540.46 6039.5,-1497.91" />
+</g>
+
+<g id="e_n_2673_stage-link_t_d4d030ed08a4" class="edge" data-edge="e_n_2673_stage-link_t_d4d030ed08a4" data-a="t_d4d030ed08a4" data-b="n_2673_stage-link">
+<title>t_d4d030ed08a4--n_2673_stage-link</title>
+<path fill="none" stroke="#7c8c9c" stroke-width="1.7" d="M6396.33,-1643.84C6396.83,-1605.35 6397.58,-1547 6398.13,-1504.79" />
+</g>
+
+<g id="e_n_2673_srts-link_t_d4d030ed08a4" class="edge" data-edge="e_n_2673_srts-link_t_d4d030ed08a4" data-a="t_d4d030ed08a4" data-b="n_2673_srts-link">
+<title>t_d4d030ed08a4--n_2673_srts-link</title>
+<path fill="none" stroke="#7c8c9c" stroke-width="1.7" d="M6452.74,-1643.84C6515.09,-1599.91 6614.15,-1530.1 6673.97,-1487.95" />
+</g>
+
+<g id="e_n_2673_lr-eqp-link_t_e9c0addd1e0c" class="edge" data-edge="e_n_2673_lr-eqp-link_t_e9c0addd1e0c" data-a="n_2673_lr-eqp-link" data-b="t_e9c0addd1e0c">
+<title>n_2673_lr-eqp-link--t_e9c0addd1e0c</title>
+<path fill="none" stroke="#7c8c9c" stroke-width="1.7" d="M5951.81,-1370.15C5951.81,-1337.46 5951.81,-1300.52 5951.81,-1271.19" />
+</g>
+
+<g id="e_n_2673_forecast-link_t_2a2c1cb80c6c" class="edge" data-edge="e_n_2673_forecast-link_t_2a2c1cb80c6c" data-a="n_2673_forecast-link" data-b="t_2a2c1cb80c6c">
+<title>n_2673_forecast-link--t_2a2c1cb80c6c</title>
+<path fill="none" stroke="#7c8c9c" stroke-width="1.7" d="M4008.57,-1844.13C4029.65,-1810.18 4054.21,-1770.64 4073.5,-1739.59" />
+</g>
+
+<g id="e_n_2673_stream_n_2673_stream-link" class="edge" data-edge="e_n_2673_stream_n_2673_stream-link" data-a="n_2673_stream-link" data-b="n_2673_stream">
+<title>n_2673_stream-link--n_2673_stream</title>
+<path fill="none" stroke="#7c8c9c" stroke-width="1.7" d="M4345.7,-1862.47C4371.4,-1843.59 4402.06,-1824.16 4432.81,-1811.88 4558.96,-1761.5 4608.07,-1813.76 4734.81,-1764.88 4759.24,-1755.46 4783.82,-1740.49 4804.31,-1726.11" />
+</g>
+
+<g id="e_n_2673_stage-link_t_27f08dfbff23" class="edge" data-edge="e_n_2673_stage-link_t_27f08dfbff23" data-a="n_2673_stage-link" data-b="t_27f08dfbff23">
+<title>n_2673_stage-link--t_27f08dfbff23</title>
+<path fill="none" stroke="#7c8c9c" stroke-width="1.7" d="M6399.72,-1397.39C6400.45,-1354.94 6401.46,-1296.19 6402.12,-1257.59" />
+</g>
+
+<g id="e_n_2673_srts-link_t_7aff1af02bfd" class="edge" data-edge="e_n_2673_srts-link_t_7aff1af02bfd" data-a="n_2673_srts-link" data-b="t_7aff1af02bfd">
+<title>n_2673_srts-link--t_7aff1af02bfd</title>
+<path fill="none" stroke="#7c8c9c" stroke-width="1.7" d="M6724.81,-1397.1C6724.81,-1354.77 6724.81,-1296.37 6724.81,-1257.86" />
+</g>
+
+<g id="e_n_2674_udata-link_t_44bf52fb10be" class="edge" data-edge="e_n_2674_udata-link_t_44bf52fb10be" data-a="t_44bf52fb10be" data-b="n_2674_udata-link">
+<title>t_44bf52fb10be--n_2674_udata-link</title>
+<path fill="none" stroke="#7c8c9c" stroke-width="1.7" d="M5653.81,-2085.09C5653.81,-2060.81 5653.81,-2028.98 5653.81,-1999.74" />
+</g>
+
+<g id="e_n_2674_udata-link_t_0ab0fee39360" class="edge" data-edge="e_n_2674_udata-link_t_0ab0fee39360" data-a="n_2674_udata-link" data-b="t_0ab0fee39360">
+<title>n_2674_udata-link--t_0ab0fee39360</title>
+<path fill="none" stroke="#7c8c9c" stroke-width="1.7" d="M5576.78,-1867.49C5511.93,-1825.14 5420.41,-1765.37 5360.36,-1726.16" />
+</g>
+
+<g id="e_n_2674_port-link_t_0ab0fee39360" class="edge" data-edge="e_n_2674_port-link_t_0ab0fee39360" data-a="t_0ab0fee39360" data-b="n_2674_port-link">
+<title>t_0ab0fee39360--n_2674_port-link</title>
+<path fill="none" stroke="#7c8c9c" stroke-width="1.7" d="M5298.81,-1643.84C5298.81,-1613.26 5298.81,-1570.13 5298.81,-1532.53" />
+</g>
+
+<g id="e_n_2674_mode_n_2674_mode-link" class="edge" data-edge="e_n_2674_mode_n_2674_mode-link" data-a="n_2674_mode" data-b="n_2674_mode-link">
+<title>n_2674_mode--n_2674_mode-link</title>
+<path fill="none" stroke="#7c8c9c" stroke-width="1.7" d="M4985.81,-2071.49C4985.81,-2057.82 4985.81,-2042.64 4985.81,-2027.31" />
+</g>
+
+<g id="e_n_2674_mode-link_t_0ab0fee39360" class="edge" data-edge="e_n_2674_mode-link_t_0ab0fee39360" data-a="n_2674_mode-link" data-b="t_0ab0fee39360">
+<title>n_2674_mode-link--t_0ab0fee39360</title>
+<path fill="none" stroke="#7c8c9c" stroke-width="1.7" d="M5048.5,-1867.57C5071.1,-1849.74 5096.92,-1829.68 5120.81,-1811.88 5160.27,-1782.47 5205.55,-1750.46 5240.57,-1726.07" />
+</g>
+
+<g id="e_n_2674_default-link_t_2544d0d5063d" class="edge" data-edge="e_n_2674_default-link_t_2544d0d5063d" data-a="t_2544d0d5063d" data-b="n_2674_default-link">
+<title>t_2544d0d5063d--n_2674_default-link</title>
+<path fill="none" stroke="#7c8c9c" stroke-width="1.7" d="M4641.23,-1643.84C4668.5,-1606.65 4709.37,-1550.91 4740.03,-1509.1" />
+</g>
+
+<g id="e_n_2674_history-link_t_aad27c7244d2" class="edge" data-edge="e_n_2674_history-link_t_aad27c7244d2" data-a="t_aad27c7244d2" data-b="n_2674_history-link">
+<title>t_aad27c7244d2--n_2674_history-link</title>
+<path fill="none" stroke="#7c8c9c" stroke-width="1.7" d="M4393.19,-1643.84C4410.72,-1607.55 4436.78,-1553.62 4456.79,-1512.19" />
+</g>
+
+<g id="e_n_2674_history-link_t_7f282520afb8" class="edge" data-edge="e_n_2674_history-link_t_7f282520afb8" data-a="n_2674_history-link" data-b="t_7f282520afb8">
+<title>n_2674_history-link--t_7f282520afb8</title>
+<path fill="none" stroke="#7c8c9c" stroke-width="1.7" d="M4485.81,-1369.82C4485.81,-1337.29 4485.81,-1300.59 4485.81,-1271.39" />
+</g>
+
+<g id="e_n_2674_port-link_t_7f282520afb8" class="edge" data-edge="e_n_2674_port-link_t_7f282520afb8" data-a="n_2674_port-link" data-b="t_7f282520afb8">
+<title>n_2674_port-link--t_7f282520afb8</title>
+<path fill="none" stroke="#7c8c9c" stroke-width="1.7" d="M5255.71,-1402.93C5233.8,-1381.77 5205.55,-1358.43 5175.81,-1344.2 4968.43,-1245.02 4691.76,-1223.35 4560.71,-1218.8" />
+</g>
+
+<g id="e_n_2674_default-link_t_7f282520afb8" class="edge" data-edge="e_n_2674_default-link_t_7f282520afb8" data-a="n_2674_default-link" data-b="t_7f282520afb8">
+<title>n_2674_default-link--t_7f282520afb8</title>
+<path fill="none" stroke="#7c8c9c" stroke-width="1.7" d="M4721.91,-1403.09C4673.34,-1364.97 4604.87,-1311.21 4554.17,-1271.41" />
+</g>
+
+<g id="e_n_2674_bay_n_2674_bay-link" class="edge" data-edge="e_n_2674_bay_n_2674_bay-link" data-a="n_2674_bay" data-b="n_2674_bay-link">
+<title>n_2674_bay--n_2674_bay-link</title>
+<path fill="none" stroke="#7c8c9c" stroke-width="1.7" d="M3514.18,-1630.43C3530.08,-1620.47 3547.44,-1611.25 3564.81,-1605.04 3752.49,-1537.94 3826.36,-1633.59 4010.81,-1558.04 4042.91,-1544.89 4073.56,-1521.5 4097.33,-1500.04" />
+</g>
+
+<g id="e_n_2674_bay-link_t_7f282520afb8" class="edge" data-edge="e_n_2674_bay-link_t_7f282520afb8" data-a="n_2674_bay-link" data-b="t_7f282520afb8">
+<title>n_2674_bay-link--t_7f282520afb8</title>
+<path fill="none" stroke="#7c8c9c" stroke-width="1.7" d="M4198.83,-1407.94C4225.14,-1388.14 4257.27,-1364.49 4286.81,-1344.2 4327.13,-1316.51 4373.17,-1287.11 4410.81,-1263.64" />
+</g>
+
+<g id="e_n_2674_bay-link_n_2674_owner" class="edge" data-edge="e_n_2674_bay-link_n_2674_owner" data-a="n_2674_bay-link" data-b="n_2674_owner">
+<title>n_2674_bay-link--n_2674_owner</title>
+<path fill="none" stroke="#7c8c9c" stroke-width="1.7" d="M4123.79,-1383.68C4094.31,-1275.22 4047.76,-1054.28 4096.81,-875.44 4102.6,-854.34 4114.15,-833.17 4125.52,-815.83" />
+</g>
+
+<g id="e_n_2674_chamber_n_2674_chamber-link" class="edge" data-edge="e_n_2674_chamber_n_2674_chamber-link" data-a="n_2674_chamber-link" data-b="n_2674_chamber">
+<title>n_2674_chamber-link--n_2674_chamber</title>
+<path fill="none" stroke="#7c8c9c" stroke-width="1.7" d="M4569.81,-901.07C4569.81,-877.11 4569.81,-851.43 4569.81,-829.62" />
+</g>
+
+<g id="e_n_2674_chamber_n_2674_detail-link" class="edge" data-edge="e_n_2674_chamber_n_2674_detail-link" data-a="n_2674_chamber" data-b="n_2674_detail-link">
+<title>n_2674_chamber--n_2674_detail-link</title>
+<path fill="none" stroke="#7c8c9c" stroke-width="1.7" d="M4569.81,-720.29C4569.81,-706.62 4569.81,-691.44 4569.81,-676.11" />
+</g>
+
+<g id="e_n_2674_owner_n_2674_owner-link" class="edge" data-edge="e_n_2674_owner_n_2674_owner-link" data-a="n_2674_owner-link" data-b="n_2674_owner">
+<title>n_2674_owner-link--n_2674_owner</title>
+<path fill="none" stroke="#7c8c9c" stroke-width="1.7" d="M4221.66,-918.34C4206.23,-884.97 4187.74,-845 4174.28,-815.92" />
+</g>
+
+<g id="e_n_2674_ohb-link_t_0445f3f5ca10" class="edge" data-edge="e_n_2674_ohb-link_t_0445f3f5ca10" data-a="n_2674_ohb-link" data-b="t_0445f3f5ca10">
+<title>n_2674_ohb-link--t_0445f3f5ca10</title>
+<path fill="none" stroke="#7c8c9c" stroke-width="1.7" d="M4883.81,-901.07C4883.81,-871.93 4883.81,-840.26 4883.81,-816.08" />
+</g>
+
+<g id="e_n_2674_detail-link_t_215407951b90" class="edge" data-edge="e_n_2674_detail-link_t_215407951b90" data-a="n_2674_detail-link" data-b="t_215407951b90">
+<title>n_2674_detail-link--t_215407951b90</title>
+<path fill="none" stroke="#7c8c9c" stroke-width="1.7" d="M4569.81,-459.16C4569.81,-443.4 4569.81,-428.07 4569.81,-414.88" />
+</g>
+
+<g id="e_n_2674_ohb-status-link_t_0445f3f5ca10" class="edge" data-edge="e_n_2674_ohb-status-link_t_0445f3f5ca10" data-a="t_0445f3f5ca10" data-b="n_2674_ohb-status-link">
+<title>t_0445f3f5ca10--n_2674_ohb-status-link</title>
+<path fill="none" stroke="#7c8c9c" stroke-width="1.7" d="M4883.81,-733.89C4883.81,-709.73 4883.81,-678.09 4883.81,-648.96" />
+</g>
+
+<g id="e_n_2674_ohb-status-link_t_19992c01e42e" class="edge" data-edge="e_n_2674_ohb-status-link_t_19992c01e42e" data-a="n_2674_ohb-status-link" data-b="t_19992c01e42e">
+<title>n_2674_ohb-status-link--t_19992c01e42e</title>
+<path fill="none" stroke="#7c8c9c" stroke-width="1.7" d="M4883.81,-486.34C4883.81,-461.69 4883.81,-435.62 4883.81,-414.89" />
+</g>
+
+<g id="e_n_2674_bmir-link_t_19992c01e42e" class="edge" data-edge="e_n_2674_bmir-link_t_19992c01e42e" data-a="t_19992c01e42e" data-b="n_2674_bmir-link">
+<title>t_19992c01e42e--n_2674_bmir-link</title>
+<path fill="none" stroke="#7c8c9c" stroke-width="1.7" d="M4883.81,-332.81C4883.81,-319.27 4883.81,-303.63 4883.81,-288.1" />
+</g>
+
+<g id="e_n_2674_bmir-link_t_99f36f7325f2" class="edge" data-edge="e_n_2674_bmir-link_t_99f36f7325f2" data-a="n_2674_bmir-link" data-b="t_99f36f7325f2">
+<title>n_2674_bmir-link--t_99f36f7325f2</title>
+<path fill="none" stroke="#7c8c9c" stroke-width="1.7" d="M4883.81,-125.81C4883.81,-110.23 4883.81,-94.52 4883.81,-80.93" />
+</g>
+
+<g id="e_n_2675_wip-history_n_2675_wip-link" class="edge" data-edge="e_n_2675_wip-history_n_2675_wip-link" data-a="n_2675_wip-history" data-b="n_2675_wip-link">
+<title>n_2675_wip-history--n_2675_wip-link</title>
+<path fill="none" stroke="#7c8c9c" stroke-width="1.7" d="M1944.81,-2432.42C1944.81,-2418.36 1944.81,-2402.89 1944.81,-2387.76" />
+</g>
+
+<g id="e_n_2675_lot_n_2675_wip-link" class="edge" data-edge="e_n_2675_lot_n_2675_wip-link" data-a="n_2675_wip-link" data-b="n_2675_lot">
+<title>n_2675_wip-link--n_2675_lot</title>
+<path fill="none" stroke="#7c8c9c" stroke-width="1.7" d="M1944.81,-2225.24C1944.81,-2210.17 1944.81,-2194.75 1944.81,-2180.74" />
+</g>
+
+<g id="e_n_2675_move-link_t_a24726d7a0b3" class="edge" data-edge="e_n_2675_move-link_t_a24726d7a0b3" data-a="n_2675_move-link" data-b="t_a24726d7a0b3">
+<title>n_2675_move-link--t_a24726d7a0b3</title>
+<path fill="none" stroke="#7c8c9c" stroke-width="1.7" d="M2288.83,-2229.27C2301.04,-2096.49 2325.8,-1827.38 2335.14,-1725.9" />
+</g>
+
+<g id="e_n_2675_lot_n_2675_move-link" class="edge" data-edge="e_n_2675_lot_n_2675_move-link" data-a="n_2675_move-link" data-b="n_2675_lot">
+<title>n_2675_move-link--n_2675_lot</title>
+<path fill="none" stroke="#7c8c9c" stroke-width="1.7" d="M2208.69,-2266.85C2160,-2241.08 2095.47,-2206.93 2042.42,-2178.85" />
+</g>
+
+<g id="e_n_2675_chamber-link_n_2675_lot" class="edge" data-edge="e_n_2675_chamber-link_n_2675_lot" data-a="n_2675_lot" data-b="n_2675_chamber-link">
+<title>n_2675_lot--n_2675_chamber-link</title>
+<path fill="none" stroke="#7c8c9c" stroke-width="1.7" d="M1847.22,-2109.9C1731.92,-2091.49 1534.43,-2058.9 1365.81,-2025.72 1240.34,-2001.03 1097.23,-1968.69 1000.77,-1946.27" />
+</g>
+
+<g id="e_n_2675_group-link_n_2675_lot" class="edge" data-edge="e_n_2675_group-link_n_2675_lot" data-a="n_2675_lot" data-b="n_2675_group-link">
+<title>n_2675_lot--n_2675_group-link</title>
+<path fill="none" stroke="#7c8c9c" stroke-width="1.7" d="M1847.31,-2078.06C1770.48,-2040.93 1664.95,-1989.94 1594.67,-1955.98" />
+</g>
+
+<g id="e_n_2675_all-actions_n_2675_lot" class="edge" data-edge="e_n_2675_all-actions_n_2675_lot" data-a="n_2675_lot" data-b="n_2675_all-actions">
+<title>n_2675_lot--n_2675_all-actions</title>
+<path fill="none" stroke="#7c8c9c" stroke-width="1.7" d="M1956.57,-2071.49C1961.91,-2047.12 1968.3,-2017.95 1974.05,-1991.73" />
+</g>
+
+<g id="e_n_2675_chamber_n_2675_chamber-link" class="edge" data-edge="e_n_2675_chamber_n_2675_chamber-link" data-a="n_2675_chamber-link" data-b="n_2675_chamber">
+<title>n_2675_chamber-link--n_2675_chamber</title>
+<path fill="none" stroke="#7c8c9c" stroke-width="1.7" d="M887.78,-1838.01C887.42,-1810.25 887.02,-1779.4 886.67,-1752.79" />
+</g>
+
+<g id="e_n_2675_eqp_n_2675_group-link" class="edge" data-edge="e_n_2675_eqp_n_2675_group-link" data-a="n_2675_group-link" data-b="n_2675_eqp">
+<title>n_2675_group-link--n_2675_eqp</title>
+<path fill="none" stroke="#7c8c9c" stroke-width="1.7" d="M1459.87,-1872.82C1409.06,-1834.7 1336.08,-1779.95 1282.25,-1739.56" />
+</g>
+
+<g id="e_n_2675_eqp_n_2675_virtual-link" class="edge" data-edge="e_n_2675_eqp_n_2675_virtual-link" data-a="n_2675_eqp" data-b="n_2675_virtual-link">
+<title>n_2675_eqp--n_2675_virtual-link</title>
+<path fill="none" stroke="#7c8c9c" stroke-width="1.7" d="M1106.89,-1630.45C1085.44,-1620.91 1062.71,-1611.86 1040.81,-1605.04 922.43,-1568.17 883.73,-1596.39 765.81,-1558.04 720.18,-1543.2 672.06,-1520.13 633.04,-1499.3" />
+</g>
+
+<g id="e_n_2675_eqp_n_2675_status-link" class="edge" data-edge="e_n_2675_eqp_n_2675_status-link" data-a="n_2675_eqp" data-b="n_2675_status-link">
+<title>n_2675_eqp--n_2675_status-link</title>
+<path fill="none" stroke="#7c8c9c" stroke-width="1.7" d="M1133.02,-1630.36C1101.61,-1608.35 1065.2,-1582.36 1032.81,-1558.04 1006.14,-1538.01 977.1,-1515.03 952.98,-1495.6" />
+</g>
+
+<g id="e_n_2675_eqp_n_2675_eqp-oee-link" class="edge" data-edge="e_n_2675_eqp_n_2675_eqp-oee-link" data-a="n_2675_eqp" data-b="n_2675_eqp-oee-link">
+<title>n_2675_eqp--n_2675_eqp-oee-link</title>
+<path fill="none" stroke="#7c8c9c" stroke-width="1.7" d="M1210.81,-1630.48C1210.81,-1601.33 1210.81,-1564.67 1210.81,-1532.17" />
+</g>
+
+<g id="e_n_2675_eqp_n_2675_group-oee-link" class="edge" data-edge="e_n_2675_eqp_n_2675_group-oee-link" data-a="n_2675_eqp" data-b="n_2675_group-oee-link">
+<title>n_2675_eqp--n_2675_group-oee-link</title>
+<path fill="none" stroke="#7c8c9c" stroke-width="1.7" d="M1292.93,-1630.48C1354.74,-1590.23 1438.53,-1535.66 1497.1,-1497.52" />
+</g>
+
+<g id="e_n_2675_eqp_n_2675_group-history-link" class="edge" data-edge="e_n_2675_eqp_n_2675_group-history-link" data-a="n_2675_eqp" data-b="n_2675_group-history-link">
+<title>n_2675_eqp--n_2675_group-history-link</title>
+<path fill="none" stroke="#7c8c9c" stroke-width="1.7" d="M1111.04,-1630.27C1088.51,-1620.25 1064.29,-1611.05 1040.81,-1605.04 737.02,-1527.26 636.11,-1651.6 336.81,-1558.04 296.48,-1545.43 255.72,-1521.94 223.5,-1500.28" />
+</g>
+
+<g id="e_n_2675_virtual_n_2675_virtual-link" class="edge" data-edge="e_n_2675_virtual_n_2675_virtual-link" data-a="n_2675_virtual-link" data-b="n_2675_virtual">
+<title>n_2675_virtual-link--n_2675_virtual</title>
+<path fill="none" stroke="#7c8c9c" stroke-width="1.7" d="M551.81,-1370.15C551.81,-1342.32 551.81,-1311.4 551.81,-1284.73" />
+</g>
+
+<g id="e_n_2675_all-actions_t_a24726d7a0b3" class="edge" data-edge="e_n_2675_all-actions_t_a24726d7a0b3" data-a="n_2675_all-actions" data-b="t_a24726d7a0b3">
+<title>n_2675_all-actions--t_a24726d7a0b3</title>
+<path fill="none" stroke="#7c8c9c" stroke-width="1.7" d="M2056.69,-1873.37C2120.72,-1830.84 2216.46,-1767.24 2278.28,-1726.17" />
+</g>
+
+<g id="e_n_2675_status_n_2675_status-link" class="edge" data-edge="e_n_2675_status_n_2675_status-link" data-a="n_2675_status-link" data-b="n_2675_status">
+<title>n_2675_status-link--n_2675_status</title>
+<path fill="none" stroke="#7c8c9c" stroke-width="1.7" d="M899.81,-1369.82C899.81,-1337.29 899.81,-1300.59 899.81,-1271.39" />
+</g>
+
+<g id="e_n_2675_eqp-oee_n_2675_eqp-oee-link" class="edge" data-edge="e_n_2675_eqp-oee_n_2675_eqp-oee-link" data-a="n_2675_eqp-oee-link" data-b="n_2675_eqp-oee">
+<title>n_2675_eqp-oee-link--n_2675_eqp-oee</title>
+<path fill="none" stroke="#7c8c9c" stroke-width="1.7" d="M1210.81,-1369.82C1210.81,-1337.29 1210.81,-1300.59 1210.81,-1271.39" />
+</g>
+
+<g id="e_n_2675_group-oee_n_2675_group-oee-link" class="edge" data-edge="e_n_2675_group-oee_n_2675_group-oee-link" data-a="n_2675_group-oee-link" data-b="n_2675_group-oee">
+<title>n_2675_group-oee-link--n_2675_group-oee</title>
+<path fill="none" stroke="#7c8c9c" stroke-width="1.7" d="M1566.81,-1369.82C1566.81,-1337.29 1566.81,-1300.59 1566.81,-1271.39" />
+</g>
+
+<g id="e_n_2675_group-history_n_2675_group-history-link" class="edge" data-edge="e_n_2675_group-history_n_2675_group-history-link" data-a="n_2675_group-history-link" data-b="n_2675_group-history">
+<title>n_2675_group-history-link--n_2675_group-history</title>
+<path fill="none" stroke="#7c8c9c" stroke-width="1.7" d="M159.81,-1369.82C159.81,-1337.29 159.81,-1300.59 159.81,-1271.39" />
+</g>
+
+<g id="e_n_2676_eqp_n_2676_eqp-id" class="edge" data-edge="e_n_2676_eqp_n_2676_eqp-id" data-a="n_2676_eqp" data-b="n_2676_eqp-id">
+<title>n_2676_eqp--n_2676_eqp-id</title>
+<path fill="none" stroke="#7c8c9c" stroke-width="1.7" d="M7366.81,-2432.42C7366.81,-2409.74 7366.81,-2383.38 7366.81,-2360.73" />
+</g>
+
+<g id="e_n_2676_eqp-id_n_2676_port" class="edge" data-edge="e_n_2676_eqp-id_n_2676_port" data-a="n_2676_eqp-id" data-b="n_2676_port">
+<title>n_2676_eqp-id--n_2676_port</title>
+<path fill="none" stroke="#7c8c9c" stroke-width="1.7" d="M7322.24,-2275.1C7284.46,-2249.28 7229.38,-2211.63 7184.24,-2180.78" />
+</g>
+
+<g id="e_n_2676_cast_n_2676_eqp-id" class="edge" data-edge="e_n_2676_cast_n_2676_eqp-id" data-a="n_2676_eqp-id" data-b="n_2676_cast">
+<title>n_2676_eqp-id--n_2676_cast</title>
+<path fill="none" stroke="#7c8c9c" stroke-width="1.7" d="M7366.81,-2252.52C7366.81,-2229.83 7366.81,-2203.37 7366.81,-2180.63" />
+</g>
+
+<g id="e_n_2676_chamber_n_2676_eqp-id" class="edge" data-edge="e_n_2676_chamber_n_2676_eqp-id" data-a="n_2676_eqp-id" data-b="n_2676_chamber">
+<title>n_2676_eqp-id--n_2676_chamber</title>
+<path fill="none" stroke="#7c8c9c" stroke-width="1.7" d="M7408.02,-2273.46C7441.11,-2247.68 7488.3,-2210.93 7527.09,-2180.71" />
+</g>
+
+<g id="e_n_2676_port_n_2676_port-id" class="edge" data-edge="e_n_2676_port_n_2676_port-id" data-a="n_2676_port" data-b="n_2676_port-id">
+<title>n_2676_port--n_2676_port-id</title>
+<path fill="none" stroke="#7c8c9c" stroke-width="1.7" d="M7101.63,-2071.49C7099.21,-2040.47 7096.19,-2001.66 7093.8,-1971.06" />
+</g>
+
+<g id="e_n_2676_cast_n_2676_cast-lot" class="edge" data-edge="e_n_2676_cast_n_2676_cast-lot" data-a="n_2676_cast" data-b="n_2676_cast-lot">
+<title>n_2676_cast--n_2676_cast-lot</title>
+<path fill="none" stroke="#7c8c9c" stroke-width="1.7" d="M7370.99,-2071.49C7373.4,-2040.59 7376.41,-2001.95 7378.79,-1971.41" />
+</g>
+
+<g id="e_n_2676_port-id_n_2676_udata" class="edge" data-edge="e_n_2676_port-id_n_2676_udata" data-a="n_2676_port-id" data-b="n_2676_udata">
+<title>n_2676_port-id--n_2676_udata</title>
+<path fill="none" stroke="#7c8c9c" stroke-width="1.7" d="M7089.81,-1864.61C7089.81,-1822.37 7089.81,-1764.22 7089.81,-1725.88" />
+</g>
+
+<g id="e_n_2676_cast-lot_n_2676_lot" class="edge" data-edge="e_n_2676_cast-lot_n_2676_lot" data-a="n_2676_cast-lot" data-b="n_2676_lot">
+<title>n_2676_cast-lot--n_2676_lot</title>
+<path fill="none" stroke="#7c8c9c" stroke-width="1.7" d="M7382.81,-1864.61C7382.81,-1822.37 7382.81,-1764.22 7382.81,-1725.88" />
+</g>
+
+<g id="e_n_2676_lot_n_2676_status" class="edge" data-edge="e_n_2676_lot_n_2676_status" data-a="n_2676_lot" data-b="n_2676_status">
+<title>n_2676_lot--n_2676_status</title>
+<path fill="none" stroke="#7c8c9c" stroke-width="1.7" d="M7382.81,-1643.84C7382.81,-1606.52 7382.81,-1550.52 7382.81,-1508.67" />
+</g>
+
+<g id="e_n_2677_pd_n_2677_pd-key" class="edge" data-edge="e_n_2677_pd_n_2677_pd-key" data-a="n_2677_pd" data-b="n_2677_pd-key">
+<title>n_2677_pd--n_2677_pd-key</title>
+<path fill="none" stroke="#7c8c9c" stroke-width="1.7" d="M7845.81,-2445.91C7845.81,-2420.74 7845.81,-2387.98 7845.81,-2360.66" />
+</g>
+
+<g id="e_n_2677_pd-eqp_n_2677_pd-key" class="edge" data-edge="e_n_2677_pd-eqp_n_2677_pd-key" data-a="n_2677_pd-key" data-b="n_2677_pd-eqp">
+<title>n_2677_pd-key--n_2677_pd-eqp</title>
+<path fill="none" stroke="#7c8c9c" stroke-width="1.7" d="M7845.81,-2252.52C7845.81,-2229.83 7845.81,-2203.37 7845.81,-2180.63" />
+</g>
+
+<g id="e_n_2677_eqp-id_n_2677_pd-eqp" class="edge" data-edge="e_n_2677_eqp-id_n_2677_pd-eqp" data-a="n_2677_pd-eqp" data-b="n_2677_eqp-id">
+<title>n_2677_pd-eqp--n_2677_eqp-id</title>
+<path fill="none" stroke="#7c8c9c" stroke-width="1.7" d="M7845.81,-2071.49C7845.81,-2041.06 7845.81,-2003.14 7845.81,-1972.82" />
+</g>
+
+<g id="e_n_2677_bay_n_2677_eqp-id" class="edge" data-edge="e_n_2677_bay_n_2677_eqp-id" data-a="n_2677_eqp-id" data-b="n_2677_bay">
+<title>n_2677_eqp-id--n_2677_bay</title>
+<path fill="none" stroke="#7c8c9c" stroke-width="1.7" d="M7810.93,-1882.34C7769.52,-1840.22 7700.61,-1770.15 7657.28,-1726.09" />
+</g>
+
+<g id="e_n_2677_eqp-id_n_2677_recipe-eqp" class="edge" data-edge="e_n_2677_eqp-id_n_2677_recipe-eqp" data-a="n_2677_eqp-id" data-b="n_2677_recipe-eqp">
+<title>n_2677_eqp-id--n_2677_recipe-eqp</title>
+<path fill="none" stroke="#7c8c9c" stroke-width="1.7" d="M7882.82,-1883.34C7927.93,-1841.34 8004.04,-1770.48 8051.74,-1726.06" />
+</g>
+
+<g id="e_n_2677_eqp_n_2677_eqp-id" class="edge" data-edge="e_n_2677_eqp_n_2677_eqp-id" data-a="n_2677_eqp-id" data-b="n_2677_eqp">
+<title>n_2677_eqp-id--n_2677_eqp</title>
+<path fill="none" stroke="#7c8c9c" stroke-width="1.7" d="M7847.39,-1865.48C7848.67,-1823.15 7850.44,-1764.42 7851.61,-1725.82" />
+</g>
+
+<g id="e_n_2677_bay_n_2677_location" class="edge" data-edge="e_n_2677_bay_n_2677_location" data-a="n_2677_bay" data-b="n_2677_location">
+<title>n_2677_bay--n_2677_location</title>
+<path fill="none" stroke="#7c8c9c" stroke-width="1.7" d="M7617.81,-1643.84C7617.81,-1611.96 7617.81,-1566.46 7617.81,-1527.78" />
+</g>
+
+<g id="e_n_2677_recipe_n_2677_recipe-key" class="edge" data-edge="e_n_2677_recipe_n_2677_recipe-key" data-a="n_2677_recipe" data-b="n_2677_recipe-key">
+<title>n_2677_recipe--n_2677_recipe-key</title>
+<path fill="none" stroke="#7c8c9c" stroke-width="1.7" d="M8222.95,-2085.09C8203.98,-2050.31 8176.56,-2000.02 8156.95,-1964.06" />
+</g>
+
+<g id="e_n_2677_er_n_2677_recipe" class="edge" data-edge="e_n_2677_er_n_2677_recipe" data-a="n_2677_recipe" data-b="n_2677_er">
+<title>n_2677_recipe--n_2677_er</title>
+<path fill="none" stroke="#7c8c9c" stroke-width="1.7" d="M8266.67,-2085.09C8287.61,-2046.69 8318.86,-1989.39 8338.52,-1953.33" />
+</g>
+
+<g id="e_n_2677_recipe-eqp_n_2677_recipe-key" class="edge" data-edge="e_n_2677_recipe-eqp_n_2677_recipe-key" data-a="n_2677_recipe-key" data-b="n_2677_recipe-eqp">
+<title>n_2677_recipe-key--n_2677_recipe-eqp</title>
+<path fill="none" stroke="#7c8c9c" stroke-width="1.7" d="M8124.61,-1867.78C8117.65,-1825.32 8107.8,-1765.19 8101.35,-1725.89" />
+</g>
+
+<g id="e_n_2677_eqp_n_2677_status" class="edge" data-edge="e_n_2677_eqp_n_2677_status" data-a="n_2677_eqp" data-b="n_2677_status">
+<title>n_2677_eqp--n_2677_status</title>
+<path fill="none" stroke="#7c8c9c" stroke-width="1.7" d="M7852.81,-1643.84C7852.81,-1606.52 7852.81,-1550.52 7852.81,-1508.67" />
+</g>
+
+<g id="e_n_2677_er_n_2677_lr" class="edge" data-edge="e_n_2677_er_n_2677_lr" data-a="n_2677_er" data-b="n_2677_lr">
+<title>n_2677_er--n_2677_lr</title>
+<path fill="none" stroke="#7c8c9c" stroke-width="1.7" d="M8356.81,-1880.29C8356.81,-1838 8356.81,-1769.5 8356.81,-1726.14" />
+</g>
+
+<g id="t_b293b57a5ae2" class="node" data-node="t_b293b57a5ae2" data-category="carrier" tabindex="0" role="button" aria-label="Foup / Siview.FRLot_MtrlContnrs" style="cursor:pointer">
+<title>t_b293b57a5ae2</title>
+<polygon fill="#edf9f5" stroke="#008775" stroke-width="2.5" points="3592.22,-2540.4 3381.4,-2540.4 3381.4,-2433.48 3592.22,-2433.48 3592.22,-2540.4" />
+<text xml:space="preserve" text-anchor="middle" x="3486.81" y="-2508.44" font-family="Microsoft JhengHei" font-size="20.00">Foup</text>
+<text xml:space="preserve" text-anchor="middle" x="3486.81" y="-2481.44" font-family="Microsoft JhengHei" font-size="20.00">Siview.</text>
+<text xml:space="preserve" text-anchor="middle" x="3486.81" y="-2454.44" font-family="Microsoft JhengHei" font-size="20.00">FRLot_MtrlContnrs</text>
+</g>
+
+<g id="n_2671_material-link" class="node" data-node="n_2671_material-link" data-category="relation" tabindex="0" role="button" aria-label="放在 / Siview.FrlotMtrl" style="cursor:pointer">
+<title>n_2671_material-link</title>
+<polygon fill="#ffffff" stroke="#6a7d8e" stroke-width="2.5" points="3486.81,-2386.48 3306.75,-2306.56 3486.81,-2226.64 3666.87,-2306.56 3486.81,-2386.48" />
+<text xml:space="preserve" text-anchor="middle" x="3486.81" y="-2314.56" font-family="Microsoft JhengHei" font-size="20.00">放在</text>
+<text xml:space="preserve" text-anchor="middle" x="3486.81" y="-2287.56" font-family="Microsoft JhengHei" font-size="20.00">Siview.FrlotMtrl</text>
+</g>
+
+<g id="t_cfc81de70314" class="node" data-node="t_cfc81de70314" data-category="lot" tabindex="0" role="button" aria-label="LOT / Siview.Frlot" style="cursor:pointer">
+<title>t_cfc81de70314</title>
+<polygon fill="#eef5ff" stroke="#176ac2" stroke-width="2.5" points="3722.97,-2166.14 3582.65,-2166.14 3582.65,-2086.22 3722.97,-2086.22 3722.97,-2166.14" />
+<text xml:space="preserve" text-anchor="middle" x="3652.81" y="-2134.18" font-family="Microsoft JhengHei" font-size="20.00">LOT</text>
+<text xml:space="preserve" text-anchor="middle" x="3652.81" y="-2107.18" font-family="Microsoft JhengHei" font-size="20.00">Siview.Frlot</text>
+</g>
+
+<g id="n_2671_port-link" class="node" data-node="n_2671_port-link" data-category="relation" tabindex="0" role="button" aria-label="EI 在 / Siview.Freqp_Lot" style="cursor:pointer">
+<title>n_2671_port-link</title>
+<polygon fill="#ffffff" stroke="#6a7d8e" stroke-width="2.5" points="4641.81,-1998.72 4451.25,-1918.8 4641.81,-1838.88 4832.37,-1918.8 4641.81,-1998.72" />
+<text xml:space="preserve" text-anchor="middle" x="4641.81" y="-1926.8" font-family="Microsoft JhengHei" font-size="20.00">EI 在</text>
+<text xml:space="preserve" text-anchor="middle" x="4641.81" y="-1899.8" font-family="Microsoft JhengHei" font-size="20.00">Siview.Freqp_Lot</text>
+</g>
+
+<g id="t_a43ff774d728" class="node" data-node="t_a43ff774d728" data-category="equipment" tabindex="0" role="button" aria-label="Port / Siview.Port" style="cursor:pointer">
+<title>t_a43ff774d728</title>
+<polygon fill="#fff6eb" stroke="#b26018" stroke-width="2.5" points="5127.34,-1724.92 4992.28,-1724.92 4992.28,-1645 5127.34,-1645 5127.34,-1724.92" />
+<text xml:space="preserve" text-anchor="middle" x="5059.81" y="-1692.96" font-family="Microsoft JhengHei" font-size="20.00">Port</text>
+<text xml:space="preserve" text-anchor="middle" x="5059.81" y="-1665.96" font-family="Microsoft JhengHei" font-size="20.00">Siview.Port</text>
+</g>
+
+<g id="n_2671_slot" class="node" data-node="n_2671_slot" data-category="relation" tabindex="0" role="button" aria-label="在 Slot / Siview.fhwlths" style="cursor:pointer">
+<title>n_2671_slot</title>
+<polygon fill="#ffffff" stroke="#6a7d8e" stroke-width="2.5" points="3542.81,-1998.72 3377.75,-1918.8 3542.81,-1838.88 3707.87,-1918.8 3542.81,-1998.72" />
+<text xml:space="preserve" text-anchor="middle" x="3542.81" y="-1926.8" font-family="Microsoft JhengHei" font-size="20.00">在 Slot</text>
+<text xml:space="preserve" text-anchor="middle" x="3542.81" y="-1899.8" font-family="Microsoft JhengHei" font-size="20.00">Siview.fhwlths</text>
+</g>
+
+<g id="n_2671_cast-link" class="node" data-node="n_2671_cast-link" data-category="relation" tabindex="0" role="button" aria-label="放在 / Siview.Frcast_lot" style="cursor:pointer">
+<title>n_2671_cast-link</title>
+<polygon fill="#ffffff" stroke="#6a7d8e" stroke-width="2.5" points="3154.81,-1998.72 2968,-1918.8 3154.81,-1838.88 3341.62,-1918.8 3154.81,-1998.72" />
+<text xml:space="preserve" text-anchor="middle" x="3154.81" y="-1926.8" font-family="Microsoft JhengHei" font-size="20.00">放在</text>
+<text xml:space="preserve" text-anchor="middle" x="3154.81" y="-1899.8" font-family="Microsoft JhengHei" font-size="20.00">Siview.Frcast_lot</text>
+</g>
+
+<g id="n_2671_lot-eqp" class="node" data-node="n_2671_lot-eqp" data-category="relation" tabindex="0" role="button" aria-label="預到 / Siview.Frlot_EQP" style="cursor:pointer">
+<title>n_2671_lot-eqp</title>
+<polygon fill="#ffffff" stroke="#6a7d8e" stroke-width="2.5" points="3771.81,-1764.88 3582.75,-1684.96 3771.81,-1605.04 3960.87,-1684.96 3771.81,-1764.88" />
+<text xml:space="preserve" text-anchor="middle" x="3771.81" y="-1692.96" font-family="Microsoft JhengHei" font-size="20.00">預到</text>
+<text xml:space="preserve" text-anchor="middle" x="3771.81" y="-1665.96" font-family="Microsoft JhengHei" font-size="20.00">Siview.Frlot_EQP</text>
+</g>
+
+<g id="n_2671_has" class="node" data-node="n_2671_has" data-category="relation" tabindex="0" role="button" aria-label="有 / eqp_id" style="cursor:pointer">
+<title>n_2671_has</title>
+<polygon fill="#ffffff" stroke="#6a7d8e" stroke-width="2.5" points="5059.81,-1531.04 4961.5,-1451.12 5059.81,-1371.2 5158.12,-1451.12 5059.81,-1531.04" />
+<text xml:space="preserve" text-anchor="middle" x="5059.81" y="-1459.12" font-family="Microsoft JhengHei" font-size="20.00">有</text>
+<text xml:space="preserve" text-anchor="middle" x="5059.81" y="-1432.12" font-family="Microsoft JhengHei" font-size="20.00">eqp_id</text>
+</g>
+
+<g id="t_55072ef91a15" class="node" data-node="t_55072ef91a15" data-category="carrier" tabindex="0" role="button" aria-label="Foup / Siview.Frcast" style="cursor:pointer">
+<title>t_55072ef91a15</title>
+<polygon fill="#edf9f5" stroke="#008775" stroke-width="2.5" points="3230.97,-1724.92 3078.65,-1724.92 3078.65,-1645 3230.97,-1645 3230.97,-1724.92" />
+<text xml:space="preserve" text-anchor="middle" x="3154.81" y="-1692.96" font-family="Microsoft JhengHei" font-size="20.00">Foup</text>
+<text xml:space="preserve" text-anchor="middle" x="3154.81" y="-1665.96" font-family="Microsoft JhengHei" font-size="20.00">Siview.Frcast</text>
+</g>
+
+<g id="n_2671_location" class="node" data-node="n_2671_location" data-category="relation" tabindex="0" role="button" aria-label="位於 / eqp_id / Siview.CSFHDOPHS" style="cursor:pointer">
+<title>n_2671_location</title>
+<polygon fill="#ffffff" stroke="#6a7d8e" stroke-width="2.5" points="3173.81,-1558.04 2957,-1451.12 3173.81,-1344.2 3390.62,-1451.12 3173.81,-1558.04" />
+<text xml:space="preserve" text-anchor="middle" x="3173.81" y="-1472.62" font-family="Microsoft JhengHei" font-size="20.00">位於</text>
+<text xml:space="preserve" text-anchor="middle" x="3173.81" y="-1445.62" font-family="Microsoft JhengHei" font-size="20.00">eqp_id</text>
+<text xml:space="preserve" text-anchor="middle" x="3173.81" y="-1418.62" font-family="Microsoft JhengHei" font-size="20.00">Siview.CSFHDOPHS</text>
+</g>
+
+<g id="t_7f282520afb8" class="node" data-node="t_7f282520afb8" data-category="equipment" tabindex="0" role="button" aria-label="機台 / Siview.freqp / EQP" style="cursor:pointer">
+<title>t_7f282520afb8</title>
+<polygon fill="#fff6eb" stroke="#b26018" stroke-width="2.5" points="4559.71,-1270.2 4411.9,-1270.2 4411.9,-1163.28 4559.71,-1163.28 4559.71,-1270.2" />
+<text xml:space="preserve" text-anchor="middle" x="4485.81" y="-1238.24" font-family="Microsoft JhengHei" font-size="20.00">機台</text>
+<text xml:space="preserve" text-anchor="middle" x="4485.81" y="-1211.24" font-family="Microsoft JhengHei" font-size="20.00">Siview.freqp</text>
+<text xml:space="preserve" text-anchor="middle" x="4485.81" y="-1184.24" font-family="Microsoft JhengHei" font-size="20.00">EQP</text>
+</g>
+
+<g id="n_2671_predispatch" class="node" data-node="n_2671_predispatch" data-category="relation" tabindex="0" role="button" aria-label="預派機台 / eqp_id / SIVIEW.CSFRPREDISPATCH" style="cursor:pointer">
+<title>n_2671_predispatch</title>
+<polygon fill="#ffffff" stroke="#6a7d8e" stroke-width="2.5" points="3709.81,-1558.04 3427,-1451.12 3709.81,-1344.2 3992.62,-1451.12 3709.81,-1558.04" />
+<text xml:space="preserve" text-anchor="middle" x="3709.81" y="-1472.62" font-family="Microsoft JhengHei" font-size="20.00">預派機台</text>
+<text xml:space="preserve" text-anchor="middle" x="3709.81" y="-1445.62" font-family="Microsoft JhengHei" font-size="20.00">eqp_id</text>
+<text xml:space="preserve" text-anchor="middle" x="3709.81" y="-1418.62" font-family="Microsoft JhengHei" font-size="20.00">SIVIEW.CSFRPREDISPATCH</text>
+</g>
+
+<g id="t_d7f7aa94ad34" class="node" data-node="t_d7f7aa94ad34" data-category="record" tabindex="0" role="button" aria-label="預派記錄 / Siview.CSFHPREDISP" style="cursor:pointer">
+<title>t_d7f7aa94ad34</title>
+<polygon fill="#f5f7fa" stroke="#61748b" stroke-width="2.5" points="3932.47,-2526.9 3705.15,-2526.9 3705.15,-2446.98 3932.47,-2446.98 3932.47,-2526.9" />
+<text xml:space="preserve" text-anchor="middle" x="3818.81" y="-2494.94" font-family="Microsoft JhengHei" font-size="20.00">預派記錄</text>
+<text xml:space="preserve" text-anchor="middle" x="3818.81" y="-2467.94" font-family="Microsoft JhengHei" font-size="20.00">Siview.CSFHPREDISP</text>
+</g>
+
+<g id="n_2672_pre-link" class="node" data-node="n_2672_pre-link" data-category="relation" tabindex="0" role="button" aria-label="預派機台 / Lot_ID" style="cursor:pointer">
+<title>n_2672_pre-link</title>
+<polygon fill="#ffffff" stroke="#6a7d8e" stroke-width="2.5" points="3818.81,-2386.48 3703.25,-2306.56 3818.81,-2226.64 3934.37,-2306.56 3818.81,-2386.48" />
+<text xml:space="preserve" text-anchor="middle" x="3818.81" y="-2314.56" font-family="Microsoft JhengHei" font-size="20.00">預派機台</text>
+<text xml:space="preserve" text-anchor="middle" x="3818.81" y="-2287.56" font-family="Microsoft JhengHei" font-size="20.00">Lot_ID</text>
+</g>
+
+<g id="t_178593e830a1" class="node" data-node="t_178593e830a1" data-category="record" tabindex="0" role="button" aria-label="MOVE 歷史 / F12DM.DM_Move_Step_bth" style="cursor:pointer">
+<title>t_178593e830a1</title>
+<polygon fill="#f5f7fa" stroke="#61748b" stroke-width="2.5" points="2602.97,-2526.9 2306.65,-2526.9 2306.65,-2446.98 2602.97,-2446.98 2602.97,-2526.9" />
+<text xml:space="preserve" text-anchor="middle" x="2454.81" y="-2494.94" font-family="Microsoft JhengHei" font-size="20.00">MOVE 歷史</text>
+<text xml:space="preserve" text-anchor="middle" x="2454.81" y="-2467.94" font-family="Microsoft JhengHei" font-size="20.00">F12DM.DM_Move_Step_bth</text>
+</g>
+
+<g id="n_2672_move-link" class="node" data-node="n_2672_move-link" data-category="relation" tabindex="0" role="button" aria-label="機台 MOVE / Lot_id" style="cursor:pointer">
+<title>n_2672_move-link</title>
+<polygon fill="#ffffff" stroke="#6a7d8e" stroke-width="2.5" points="2599.81,-2386.48 2458.75,-2306.56 2599.81,-2226.64 2740.87,-2306.56 2599.81,-2386.48" />
+<text xml:space="preserve" text-anchor="middle" x="2599.81" y="-2314.56" font-family="Microsoft JhengHei" font-size="20.00">機台 MOVE</text>
+<text xml:space="preserve" text-anchor="middle" x="2599.81" y="-2287.56" font-family="Microsoft JhengHei" font-size="20.00">Lot_id</text>
+</g>
+
+<g id="n_2672_summary" class="node" data-node="n_2672_summary" data-category="relation" tabindex="0" role="button" aria-label="站點 Summary / Lot_id" style="cursor:pointer">
+<title>n_2672_summary</title>
+<polygon fill="#ffffff" stroke="#6a7d8e" stroke-width="2.5" points="2679.81,-1764.88 2508.75,-1684.96 2679.81,-1605.04 2850.87,-1684.96 2679.81,-1764.88" />
+<text xml:space="preserve" text-anchor="middle" x="2679.81" y="-1692.96" font-family="Microsoft JhengHei" font-size="20.00">站點 Summary</text>
+<text xml:space="preserve" text-anchor="middle" x="2679.81" y="-1665.96" font-family="Microsoft JhengHei" font-size="20.00">Lot_id</text>
+</g>
+
+<g id="t_b474e516b8d5" class="node" data-node="t_b474e516b8d5" data-category="record" tabindex="0" role="button" aria-label="Step 歷史 / F12DM.DM_Lot_step_st" style="cursor:pointer">
+<title>t_b474e516b8d5</title>
+<polygon fill="#f5f7fa" stroke="#61748b" stroke-width="2.5" points="2044.34,-1256.7 1789.28,-1256.7 1789.28,-1176.78 2044.34,-1176.78 2044.34,-1256.7" />
+<text xml:space="preserve" text-anchor="middle" x="1916.81" y="-1224.74" font-family="Microsoft JhengHei" font-size="20.00">Step 歷史</text>
+<text xml:space="preserve" text-anchor="middle" x="1916.81" y="-1197.74" font-family="Microsoft JhengHei" font-size="20.00">F12DM.DM_Lot_step_st</text>
+</g>
+
+<g id="n_2672_all-actions" class="node" data-node="n_2672_all-actions" data-category="relation" tabindex="0" role="button" aria-label="Lot 所有動作 / Lot_ID" style="cursor:pointer">
+<title>n_2672_all-actions</title>
+<polygon fill="#ffffff" stroke="#6a7d8e" stroke-width="2.5" points="2596.81,-1998.72 2446,-1918.8 2596.81,-1838.88 2747.62,-1918.8 2596.81,-1998.72" />
+<text xml:space="preserve" text-anchor="middle" x="2596.81" y="-1926.8" font-family="Microsoft JhengHei" font-size="20.00">Lot 所有動作</text>
+<text xml:space="preserve" text-anchor="middle" x="2596.81" y="-1899.8" font-family="Microsoft JhengHei" font-size="20.00">Lot_ID</text>
+</g>
+
+<g id="t_a24726d7a0b3" class="node" data-node="t_a24726d7a0b3" data-category="record" tabindex="0" role="button" aria-label="批貨歷史 / Siview.FHOPEHS_S" style="cursor:pointer">
+<title>t_a24726d7a0b3</title>
+<polygon fill="#f5f7fa" stroke="#61748b" stroke-width="2.5" points="2443.09,-1724.92 2234.53,-1724.92 2234.53,-1645 2443.09,-1645 2443.09,-1724.92" />
+<text xml:space="preserve" text-anchor="middle" x="2338.81" y="-1692.96" font-family="Microsoft JhengHei" font-size="20.00">批貨歷史</text>
+<text xml:space="preserve" text-anchor="middle" x="2338.81" y="-1665.96" font-family="Microsoft JhengHei" font-size="20.00">Siview.FHOPEHS_S</text>
+</g>
+
+<g id="n_2672_cast-link" class="node" data-node="n_2672_cast-link" data-category="relation" tabindex="0" role="button" aria-label="Lot 在 Foup 內 / Siview.frcast" style="cursor:pointer">
+<title>n_2672_cast-link</title>
+<polygon fill="#ffffff" stroke="#6a7d8e" stroke-width="2.5" points="2005.81,-1531.04 1837,-1451.12 2005.81,-1371.2 2174.62,-1451.12 2005.81,-1531.04" />
+<text xml:space="preserve" text-anchor="middle" x="2005.81" y="-1459.12" font-family="Microsoft JhengHei" font-size="20.00">Lot 在 Foup 內</text>
+<text xml:space="preserve" text-anchor="middle" x="2005.81" y="-1432.12" font-family="Microsoft JhengHei" font-size="20.00">Siview.frcast</text>
+</g>
+
+<g id="n_2672_mes-transfer" class="node" data-node="n_2672_mes-transfer" data-category="relation" tabindex="0" role="button" aria-label="MES 傳送歷史 / Carrier_id" style="cursor:pointer">
+<title>n_2672_mes-transfer</title>
+<polygon fill="#ffffff" stroke="#6a7d8e" stroke-width="2.5" points="2373.81,-1531.04 2211,-1451.12 2373.81,-1371.2 2536.62,-1451.12 2373.81,-1531.04" />
+<text xml:space="preserve" text-anchor="middle" x="2373.81" y="-1459.12" font-family="Microsoft JhengHei" font-size="20.00">MES 傳送歷史</text>
+<text xml:space="preserve" text-anchor="middle" x="2373.81" y="-1432.12" font-family="Microsoft JhengHei" font-size="20.00">Carrier_id</text>
+</g>
+
+<g id="n_2672_transfer" class="node" data-node="n_2672_transfer" data-category="record" tabindex="0" role="button" aria-label="傳送歷史 / Mfg_Carrier_te_ut" style="cursor:pointer">
+<title>n_2672_transfer</title>
+<polygon fill="#f5f7fa" stroke="#61748b" stroke-width="2.5" points="2475.09,-1256.7 2272.53,-1256.7 2272.53,-1176.78 2475.09,-1176.78 2475.09,-1256.7" />
+<text xml:space="preserve" text-anchor="middle" x="2373.81" y="-1224.74" font-family="Microsoft JhengHei" font-size="20.00">傳送歷史</text>
+<text xml:space="preserve" text-anchor="middle" x="2373.81" y="-1197.74" font-family="Microsoft JhengHei" font-size="20.00">Mfg_Carrier_te_ut</text>
+</g>
+
+<g id="n_2672_mcs-transfer" class="node" data-node="n_2672_mcs-transfer" data-category="relation" tabindex="0" role="button" aria-label="MCS 傳送歷史 / Carrier_id / transfer_job_id" style="cursor:pointer">
+<title>n_2672_mcs-transfer</title>
+<polygon fill="#ffffff" stroke="#6a7d8e" stroke-width="2.5" points="2746.81,-1558.04 2572.75,-1451.12 2746.81,-1344.2 2920.87,-1451.12 2746.81,-1558.04" />
+<text xml:space="preserve" text-anchor="middle" x="2746.81" y="-1472.62" font-family="Microsoft JhengHei" font-size="20.00">MCS 傳送歷史</text>
+<text xml:space="preserve" text-anchor="middle" x="2746.81" y="-1445.62" font-family="Microsoft JhengHei" font-size="20.00">Carrier_id</text>
+<text xml:space="preserve" text-anchor="middle" x="2746.81" y="-1418.62" font-family="Microsoft JhengHei" font-size="20.00">transfer_job_id</text>
+</g>
+
+<g id="n_2672_mcs-history" class="node" data-node="n_2672_mcs-history" data-category="record" tabindex="0" role="button" aria-label="MCS 傳送歷史 / carrier_job_history@mcsdb / transfer_job_history@mcsdb" style="cursor:pointer">
+<title>n_2672_mcs-history</title>
+<polygon fill="#f5f7fa" stroke="#61748b" stroke-width="2.5" points="2838.34,-1297.2 2655.28,-1297.2 2655.28,-1136.28 2838.34,-1136.28 2838.34,-1297.2" />
+<text xml:space="preserve" text-anchor="middle" x="2746.81" y="-1265.24" font-family="Microsoft JhengHei" font-size="20.00">MCS 傳送歷史</text>
+<text xml:space="preserve" text-anchor="middle" x="2746.81" y="-1238.24" font-family="Microsoft JhengHei" font-size="20.00">carrier_job_</text>
+<text xml:space="preserve" text-anchor="middle" x="2746.81" y="-1211.24" font-family="Microsoft JhengHei" font-size="20.00">history@mcsdb</text>
+<text xml:space="preserve" text-anchor="middle" x="2746.81" y="-1184.24" font-family="Microsoft JhengHei" font-size="20.00">transfer_job_</text>
+<text xml:space="preserve" text-anchor="middle" x="2746.81" y="-1157.24" font-family="Microsoft JhengHei" font-size="20.00">history@mcsdb</text>
+</g>
+
+<g id="n_2672_qtime-link" class="node" data-node="n_2672_qtime-link" data-category="relation" tabindex="0" role="button" aria-label="Qtime 站點 / Lot_ID / Ope_no" style="cursor:pointer">
+<title>n_2672_qtime-link</title>
+<polygon fill="#ffffff" stroke="#6a7d8e" stroke-width="2.5" points="1916.81,-1089.28 1777.25,-982.36 1916.81,-875.44 2056.37,-982.36 1916.81,-1089.28" />
+<text xml:space="preserve" text-anchor="middle" x="1916.81" y="-1003.86" font-family="Microsoft JhengHei" font-size="20.00">Qtime 站點</text>
+<text xml:space="preserve" text-anchor="middle" x="1916.81" y="-976.86" font-family="Microsoft JhengHei" font-size="20.00">Lot_ID</text>
+<text xml:space="preserve" text-anchor="middle" x="1916.81" y="-949.86" font-family="Microsoft JhengHei" font-size="20.00">Ope_no</text>
+</g>
+
+<g id="t_f1dc5d6bcd1f" class="node" data-node="t_f1dc5d6bcd1f" data-category="record" tabindex="0" role="button" aria-label="Qtime 歷史 / F12DM.DM_Qrest_Hist_BTH" style="cursor:pointer">
+<title>t_f1dc5d6bcd1f</title>
+<polygon fill="#f5f7fa" stroke="#61748b" stroke-width="2.5" points="2063.84,-814.94 1769.78,-814.94 1769.78,-735.02 2063.84,-735.02 2063.84,-814.94" />
+<text xml:space="preserve" text-anchor="middle" x="1916.81" y="-782.98" font-family="Microsoft JhengHei" font-size="20.00">Qtime 歷史</text>
+<text xml:space="preserve" text-anchor="middle" x="1916.81" y="-755.98" font-family="Microsoft JhengHei" font-size="20.00">F12DM.DM_Qrest_Hist_BTH</text>
+</g>
+
+<g id="t_1c25059c913b" class="node" data-node="t_1c25059c913b" data-category="flow" tabindex="0" role="button" aria-label="IE 的 WPH 定義 / F12DM.DM_TBL_IE_CTWPH" style="cursor:pointer">
+<title>t_1c25059c913b</title>
+<polygon fill="#f7f1ff" stroke="#7756af" stroke-width="2.5" points="5727.96,-1724.92 5437.65,-1724.92 5437.65,-1645 5727.96,-1645 5727.96,-1724.92" />
+<text xml:space="preserve" text-anchor="middle" x="5582.81" y="-1692.96" font-family="Microsoft JhengHei" font-size="20.00">IE 的 WPH 定義</text>
+<text xml:space="preserve" text-anchor="middle" x="5582.81" y="-1665.96" font-family="Microsoft JhengHei" font-size="20.00">F12DM.DM_TBL_IE_CTWPH</text>
+</g>
+
+<g id="n_2673_wph-link" class="node" data-node="n_2673_wph-link" data-category="relation" tabindex="0" role="button" aria-label="IE 的 WPH" style="cursor:pointer">
+<title>n_2673_wph-link</title>
+<polygon fill="#ffffff" stroke="#6a7d8e" stroke-width="2.5" points="5582.81,-1504.04 5453,-1451.12 5582.81,-1398.2 5712.62,-1451.12 5582.81,-1504.04" />
+<text xml:space="preserve" text-anchor="middle" x="5582.81" y="-1445.62" font-family="Microsoft JhengHei" font-size="20.00">IE 的 WPH</text>
+</g>
+
+<g id="t_e9c0addd1e0c" class="node" data-node="t_e9c0addd1e0c" data-category="flow" tabindex="0" role="button" aria-label="LR 對映的機台 / F12DM.DM_Flow_LR_EQP_BT / LR 與機台對應關係" style="cursor:pointer">
+<title>t_e9c0addd1e0c</title>
+<polygon fill="#f7f1ff" stroke="#7756af" stroke-width="2.5" points="6104.84,-1270.2 5798.78,-1270.2 5798.78,-1163.28 6104.84,-1163.28 6104.84,-1270.2" />
+<text xml:space="preserve" text-anchor="middle" x="5951.81" y="-1238.24" font-family="Microsoft JhengHei" font-size="20.00">LR 對映的機台</text>
+<text xml:space="preserve" text-anchor="middle" x="5951.81" y="-1211.24" font-family="Microsoft JhengHei" font-size="20.00">F12DM.DM_Flow_LR_EQP_BT</text>
+<text xml:space="preserve" text-anchor="middle" x="5951.81" y="-1184.24" font-family="Microsoft JhengHei" font-size="20.00">LR 與機台對應關係</text>
+</g>
+
+<g id="t_755ca3b22919" class="node" data-node="t_755ca3b22919" data-category="flow" tabindex="0" role="button" aria-label="PD_ID 與機台 / Siview.frpd_eqp" style="cursor:pointer">
+<title>t_755ca3b22919</title>
+<polygon fill="#f7f1ff" stroke="#7756af" stroke-width="2.5" points="6882.96,-2526.9 6700.65,-2526.9 6700.65,-2446.98 6882.96,-2446.98 6882.96,-2526.9" />
+<text xml:space="preserve" text-anchor="middle" x="6791.81" y="-2494.94" font-family="Microsoft JhengHei" font-size="20.00">PD_ID 與機台</text>
+<text xml:space="preserve" text-anchor="middle" x="6791.81" y="-2467.94" font-family="Microsoft JhengHei" font-size="20.00">Siview.frpd_eqp</text>
+</g>
+
+<g id="n_2673_pd-eqp-link" class="node" data-node="n_2673_pd-eqp-link" data-category="relation" tabindex="0" role="button" aria-label="PD_ID 對映的機台" style="cursor:pointer">
+<title>n_2673_pd-eqp-link</title>
+<polygon fill="#ffffff" stroke="#6a7d8e" stroke-width="2.5" points="6791.81,-2359.48 6593.75,-2306.56 6791.81,-2253.64 6989.87,-2306.56 6791.81,-2359.48" />
+<text xml:space="preserve" text-anchor="middle" x="6791.81" y="-2301.06" font-family="Microsoft JhengHei" font-size="20.00">PD_ID 對映的機台</text>
+</g>
+
+<g id="t_1bc56644c54f" class="node" data-node="t_1bc56644c54f" data-category="flow" tabindex="0" role="button" aria-label="Flow PD / Siview.frpd" style="cursor:pointer">
+<title>t_1bc56644c54f</title>
+<polygon fill="#f7f1ff" stroke="#7756af" stroke-width="2.5" points="6860.09,-2166.14 6723.53,-2166.14 6723.53,-2086.22 6860.09,-2086.22 6860.09,-2166.14" />
+<text xml:space="preserve" text-anchor="middle" x="6791.81" y="-2134.18" font-family="Microsoft JhengHei" font-size="20.00">Flow PD</text>
+<text xml:space="preserve" text-anchor="middle" x="6791.81" y="-2107.18" font-family="Microsoft JhengHei" font-size="20.00">Siview.frpd</text>
+</g>
+
+<g id="t_1dff83e775cf" class="node" data-node="t_1dff83e775cf" data-category="flow" tabindex="0" role="button" aria-label="PART 定義 / Siview.frprodspec" style="cursor:pointer">
+<title>t_1dff83e775cf</title>
+<polygon fill="#f7f1ff" stroke="#7756af" stroke-width="2.5" points="6133.59,-2166.14 5934.03,-2166.14 5934.03,-2086.22 6133.59,-2086.22 6133.59,-2166.14" />
+<text xml:space="preserve" text-anchor="middle" x="6033.81" y="-2134.18" font-family="Microsoft JhengHei" font-size="20.00">PART 定義</text>
+<text xml:space="preserve" text-anchor="middle" x="6033.81" y="-2107.18" font-family="Microsoft JhengHei" font-size="20.00">Siview.frprodspec</text>
+</g>
+
+<g id="t_c2ca3a20806b" class="node" data-node="t_c2ca3a20806b" data-category="flow" tabindex="0" role="button" aria-label="Recipe Group / Siview.CSFRRCPGRPST" style="cursor:pointer">
+<title>t_c2ca3a20806b</title>
+<polygon fill="#f7f1ff" stroke="#7756af" stroke-width="2.5" points="6524.46,-2166.14 6279.15,-2166.14 6279.15,-2086.22 6524.46,-2086.22 6524.46,-2166.14" />
+<text xml:space="preserve" text-anchor="middle" x="6401.81" y="-2134.18" font-family="Microsoft JhengHei" font-size="20.00">Recipe Group</text>
+<text xml:space="preserve" text-anchor="middle" x="6401.81" y="-2107.18" font-family="Microsoft JhengHei" font-size="20.00">Siview.CSFRRCPGRPST</text>
+</g>
+
+<g id="n_2673_lr-link" class="node" data-node="n_2673_lr-link" data-category="relation" tabindex="0" role="button" aria-label="LR 與機台 / LCRECIPE_ID" style="cursor:pointer">
+<title>n_2673_lr-link</title>
+<polygon fill="#ffffff" stroke="#6a7d8e" stroke-width="2.5" points="6080.81,-1062.28 5927,-982.36 6080.81,-902.44 6234.62,-982.36 6080.81,-1062.28" />
+<text xml:space="preserve" text-anchor="middle" x="6080.81" y="-990.36" font-family="Microsoft JhengHei" font-size="20.00">LR 與機台</text>
+<text xml:space="preserve" text-anchor="middle" x="6080.81" y="-963.36" font-family="Microsoft JhengHei" font-size="20.00">LCRECIPE_ID</text>
+</g>
+
+<g id="n_2673_pd-link" class="node" data-node="n_2673_pd-link" data-category="relation" tabindex="0" role="button" aria-label="站點的 PD_ID" style="cursor:pointer">
+<title>n_2673_pd-link</title>
+<polygon fill="#ffffff" stroke="#6a7d8e" stroke-width="2.5" points="6791.81,-1971.72 6634.25,-1918.8 6791.81,-1865.88 6949.37,-1918.8 6791.81,-1971.72" />
+<text xml:space="preserve" text-anchor="middle" x="6791.81" y="-1913.3" font-family="Microsoft JhengHei" font-size="20.00">站點的 PD_ID</text>
+</g>
+
+<g id="n_2673_part-link" class="node" data-node="n_2673_part-link" data-category="relation" tabindex="0" role="button" aria-label="PART 對映 / Mainpd_id" style="cursor:pointer">
+<title>n_2673_part-link</title>
+<polygon fill="#ffffff" stroke="#6a7d8e" stroke-width="2.5" points="6033.81,-1998.72 5898.75,-1918.8 6033.81,-1838.88 6168.87,-1918.8 6033.81,-1998.72" />
+<text xml:space="preserve" text-anchor="middle" x="6033.81" y="-1926.8" font-family="Microsoft JhengHei" font-size="20.00">PART 對映</text>
+<text xml:space="preserve" text-anchor="middle" x="6033.81" y="-1899.8" font-family="Microsoft JhengHei" font-size="20.00">Mainpd_id</text>
+</g>
+
+<g id="n_2673_recipe-link" class="node" data-node="n_2673_recipe-link" data-category="relation" tabindex="0" role="button" aria-label="製程程式群組對照" style="cursor:pointer">
+<title>n_2673_recipe-link</title>
+<polygon fill="#ffffff" stroke="#6a7d8e" stroke-width="2.5" points="6401.81,-1971.72 6205.25,-1918.8 6401.81,-1865.88 6598.37,-1918.8 6401.81,-1971.72" />
+<text xml:space="preserve" text-anchor="middle" x="6401.81" y="-1913.3" font-family="Microsoft JhengHei" font-size="20.00">製程程式群組對照</text>
+</g>
+
+<g id="t_604a111deb74" class="node" data-node="t_604a111deb74" data-category="record" tabindex="0" role="button" aria-label="未來的 Future Hold / Siview.frlot_futurehold" style="cursor:pointer">
+<title>t_604a111deb74</title>
+<polygon fill="#f5f7fa" stroke="#61748b" stroke-width="2.5" points="4239.46,-2526.9 3994.15,-2526.9 3994.15,-2446.98 4239.46,-2446.98 4239.46,-2526.9" />
+<text xml:space="preserve" text-anchor="middle" x="4116.81" y="-2494.94" font-family="Microsoft JhengHei" font-size="20.00">未來的 Future Hold</text>
+<text xml:space="preserve" text-anchor="middle" x="4116.81" y="-2467.94" font-family="Microsoft JhengHei" font-size="20.00">Siview.frlot_futurehold</text>
+</g>
+
+<g id="n_2673_future-link" class="node" data-node="n_2673_future-link" data-category="relation" tabindex="0" role="button" aria-label="Future Hold / Lot_ID" style="cursor:pointer">
+<title>n_2673_future-link</title>
+<polygon fill="#ffffff" stroke="#6a7d8e" stroke-width="2.5" points="4116.81,-2386.48 3970.5,-2306.56 4116.81,-2226.64 4263.12,-2306.56 4116.81,-2386.48" />
+<text xml:space="preserve" text-anchor="middle" x="4116.81" y="-2314.56" font-family="Microsoft JhengHei" font-size="20.00">Future Hold</text>
+<text xml:space="preserve" text-anchor="middle" x="4116.81" y="-2287.56" font-family="Microsoft JhengHei" font-size="20.00">Lot_ID</text>
+</g>
+
+<g id="t_52a86ba40707" class="node" data-node="t_52a86ba40707" data-category="record" tabindex="0" role="button" aria-label="Product Hold / Siview.CSFRPRHold" style="cursor:pointer">
+<title>t_52a86ba40707</title>
+<polygon fill="#f5f7fa" stroke="#61748b" stroke-width="2.5" points="3222.47,-2526.9 3007.15,-2526.9 3007.15,-2446.98 3222.47,-2446.98 3222.47,-2526.9" />
+<text xml:space="preserve" text-anchor="middle" x="3114.81" y="-2494.94" font-family="Microsoft JhengHei" font-size="20.00">Product Hold</text>
+<text xml:space="preserve" text-anchor="middle" x="3114.81" y="-2467.94" font-family="Microsoft JhengHei" font-size="20.00">Siview.CSFRPRHold</text>
+</g>
+
+<g id="n_2673_hold-link" class="node" data-node="n_2673_hold-link" data-category="relation" tabindex="0" role="button" aria-label="有 Prod Hold / Lot_ID" style="cursor:pointer">
+<title>n_2673_hold-link</title>
+<polygon fill="#ffffff" stroke="#6a7d8e" stroke-width="2.5" points="3114.81,-2386.48 2958.75,-2306.56 3114.81,-2226.64 3270.87,-2306.56 3114.81,-2386.48" />
+<text xml:space="preserve" text-anchor="middle" x="3114.81" y="-2314.56" font-family="Microsoft JhengHei" font-size="20.00">有 Prod Hold</text>
+<text xml:space="preserve" text-anchor="middle" x="3114.81" y="-2287.56" font-family="Microsoft JhengHei" font-size="20.00">Lot_ID</text>
+</g>
+
+<g id="n_2673_flow-link" class="node" data-node="n_2673_flow-link" data-category="relation" tabindex="0" role="button" aria-label="Flow 定義 / Part / Mainpd_id" style="cursor:pointer">
+<title>n_2673_flow-link</title>
+<polygon fill="#ffffff" stroke="#6a7d8e" stroke-width="2.5" points="5273.81,-2025.72 5138.75,-1918.8 5273.81,-1811.88 5408.87,-1918.8 5273.81,-2025.72" />
+<text xml:space="preserve" text-anchor="middle" x="5273.81" y="-1940.3" font-family="Microsoft JhengHei" font-size="20.00">Flow 定義</text>
+<text xml:space="preserve" text-anchor="middle" x="5273.81" y="-1913.3" font-family="Microsoft JhengHei" font-size="20.00">Part</text>
+<text xml:space="preserve" text-anchor="middle" x="5273.81" y="-1886.3" font-family="Microsoft JhengHei" font-size="20.00">Mainpd_id</text>
+</g>
+
+<g id="t_d4d030ed08a4" class="node" data-node="t_d4d030ed08a4" data-category="flow" tabindex="0" role="button" aria-label="Flow / F12DM.DM_Flow_step_Bt" style="cursor:pointer">
+<title>t_d4d030ed08a4</title>
+<polygon fill="#f7f1ff" stroke="#7756af" stroke-width="2.5" points="6531.96,-1724.92 6259.65,-1724.92 6259.65,-1645 6531.96,-1645 6531.96,-1724.92" />
+<text xml:space="preserve" text-anchor="middle" x="6395.81" y="-1692.96" font-family="Microsoft JhengHei" font-size="20.00">Flow</text>
+<text xml:space="preserve" text-anchor="middle" x="6395.81" y="-1665.96" font-family="Microsoft JhengHei" font-size="20.00">F12DM.DM_Flow_step_Bt</text>
+</g>
+
+<g id="n_2673_lr-eqp-link" class="node" data-node="n_2673_lr-eqp-link" data-category="relation" tabindex="0" role="button" aria-label="LR 與 EQP_ID 對應 / LCRECIPE_ID" style="cursor:pointer">
+<title>n_2673_lr-eqp-link</title>
+<polygon fill="#ffffff" stroke="#6a7d8e" stroke-width="2.5" points="5951.81,-1531.04 5748.5,-1451.12 5951.81,-1371.2 6155.12,-1451.12 5951.81,-1531.04" />
+<text xml:space="preserve" text-anchor="middle" x="5951.81" y="-1459.12" font-family="Microsoft JhengHei" font-size="20.00">LR 與 EQP_ID 對應</text>
+<text xml:space="preserve" text-anchor="middle" x="5951.81" y="-1432.12" font-family="Microsoft JhengHei" font-size="20.00">LCRECIPE_ID</text>
+</g>
+
+<g id="n_2673_forecast-link" class="node" data-node="n_2673_forecast-link" data-category="relation" tabindex="0" role="button" aria-label="未來的 Flow / Lot_ID / OPE_NO" style="cursor:pointer">
+<title>n_2673_forecast-link</title>
+<polygon fill="#ffffff" stroke="#6a7d8e" stroke-width="2.5" points="3962.81,-2025.72 3818,-1918.8 3962.81,-1811.88 4107.62,-1918.8 3962.81,-2025.72" />
+<text xml:space="preserve" text-anchor="middle" x="3962.81" y="-1940.3" font-family="Microsoft JhengHei" font-size="20.00">未來的 Flow</text>
+<text xml:space="preserve" text-anchor="middle" x="3962.81" y="-1913.3" font-family="Microsoft JhengHei" font-size="20.00">Lot_ID</text>
+<text xml:space="preserve" text-anchor="middle" x="3962.81" y="-1886.3" font-family="Microsoft JhengHei" font-size="20.00">OPE_NO</text>
+</g>
+
+<g id="n_2673_stream-link" class="node" data-node="n_2673_stream-link" data-category="relation" tabindex="0" role="button" aria-label="未來的各站 / Lot_ID / OPE_NO" style="cursor:pointer">
+<title>n_2673_stream-link</title>
+<polygon fill="#ffffff" stroke="#6a7d8e" stroke-width="2.5" points="4279.81,-2025.72 4144,-1918.8 4279.81,-1811.88 4415.62,-1918.8 4279.81,-2025.72" />
+<text xml:space="preserve" text-anchor="middle" x="4279.81" y="-1940.3" font-family="Microsoft JhengHei" font-size="20.00">未來的各站</text>
+<text xml:space="preserve" text-anchor="middle" x="4279.81" y="-1913.3" font-family="Microsoft JhengHei" font-size="20.00">Lot_ID</text>
+<text xml:space="preserve" text-anchor="middle" x="4279.81" y="-1886.3" font-family="Microsoft JhengHei" font-size="20.00">OPE_NO</text>
+</g>
+
+<g id="t_2a2c1cb80c6c" class="node" data-node="t_2a2c1cb80c6c" data-category="record" tabindex="0" role="button" aria-label="未來的 Flow / F12dm.dm_tbl_lot_forecast" style="cursor:pointer">
+<title>t_2a2c1cb80c6c</title>
+<polygon fill="#f5f7fa" stroke="#61748b" stroke-width="2.5" points="4216.71,-1738.42 3996.9,-1738.42 3996.9,-1631.5 4216.71,-1631.5 4216.71,-1738.42" />
+<text xml:space="preserve" text-anchor="middle" x="4106.81" y="-1706.46" font-family="Microsoft JhengHei" font-size="20.00">未來的 Flow</text>
+<text xml:space="preserve" text-anchor="middle" x="4106.81" y="-1679.46" font-family="Microsoft JhengHei" font-size="20.00">F12dm.</text>
+<text xml:space="preserve" text-anchor="middle" x="4106.81" y="-1652.46" font-family="Microsoft JhengHei" font-size="20.00">dm_tbl_lot_forecast</text>
+</g>
+
+<g id="n_2673_stream" class="node" data-node="n_2673_stream" data-category="record" tabindex="0" role="button" aria-label="Stream 到站時間 / Stream_fcst_lot_st" style="cursor:pointer">
+<title>n_2673_stream</title>
+<polygon fill="#f5f7fa" stroke="#61748b" stroke-width="2.5" points="4956.46,-1724.92 4753.15,-1724.92 4753.15,-1645 4956.46,-1645 4956.46,-1724.92" />
+<text xml:space="preserve" text-anchor="middle" x="4854.81" y="-1692.96" font-family="Microsoft JhengHei" font-size="20.00">Stream 到站時間</text>
+<text xml:space="preserve" text-anchor="middle" x="4854.81" y="-1665.96" font-family="Microsoft JhengHei" font-size="20.00">Stream_fcst_lot_st</text>
+</g>
+
+<g id="n_2673_stage-link" class="node" data-node="n_2673_stage-link" data-category="relation" tabindex="0" role="button" aria-label="Stage 定義" style="cursor:pointer">
+<title>n_2673_stage-link</title>
+<polygon fill="#ffffff" stroke="#6a7d8e" stroke-width="2.5" points="6398.81,-1504.04 6265.25,-1451.12 6398.81,-1398.2 6532.37,-1451.12 6398.81,-1504.04" />
+<text xml:space="preserve" text-anchor="middle" x="6398.81" y="-1445.62" font-family="Microsoft JhengHei" font-size="20.00">Stage 定義</text>
+</g>
+
+<g id="n_2673_srts-link" class="node" data-node="n_2673_srts-link" data-category="relation" tabindex="0" role="button" aria-label="抽測跳站設定" style="cursor:pointer">
+<title>n_2673_srts-link</title>
+<polygon fill="#ffffff" stroke="#6a7d8e" stroke-width="2.5" points="6724.81,-1504.04 6568.75,-1451.12 6724.81,-1398.2 6880.87,-1451.12 6724.81,-1504.04" />
+<text xml:space="preserve" text-anchor="middle" x="6724.81" y="-1445.62" font-family="Microsoft JhengHei" font-size="20.00">抽測跳站設定</text>
+</g>
+
+<g id="t_27f08dfbff23" class="node" data-node="t_27f08dfbff23" data-category="flow" tabindex="0" role="button" aria-label="Stage 與 Module 定義 / F12dm.dm_tbl_info_stage" style="cursor:pointer">
+<title>t_27f08dfbff23</title>
+<polygon fill="#f7f1ff" stroke="#7756af" stroke-width="2.5" points="6540.84,-1256.7 6264.78,-1256.7 6264.78,-1176.78 6540.84,-1176.78 6540.84,-1256.7" />
+<text xml:space="preserve" text-anchor="middle" x="6402.81" y="-1224.74" font-family="Microsoft JhengHei" font-size="20.00">Stage 與 Module 定義</text>
+<text xml:space="preserve" text-anchor="middle" x="6402.81" y="-1197.74" font-family="Microsoft JhengHei" font-size="20.00">F12dm.dm_tbl_info_stage</text>
+</g>
+
+<g id="t_7aff1af02bfd" class="node" data-node="t_7aff1af02bfd" data-category="flow" tabindex="0" role="button" aria-label="SRTS 設定 / Siview.csfrsrts" style="cursor:pointer">
+<title>t_7aff1af02bfd</title>
+<polygon fill="#f7f1ff" stroke="#7756af" stroke-width="2.5" points="6806.21,-1256.7 6643.4,-1256.7 6643.4,-1176.78 6806.21,-1176.78 6806.21,-1256.7" />
+<text xml:space="preserve" text-anchor="middle" x="6724.81" y="-1224.74" font-family="Microsoft JhengHei" font-size="20.00">SRTS 設定</text>
+<text xml:space="preserve" text-anchor="middle" x="6724.81" y="-1197.74" font-family="Microsoft JhengHei" font-size="20.00">Siview.csfrsrts</text>
+</g>
+
+<g id="t_44bf52fb10be" class="node" data-node="t_44bf52fb10be" data-category="equipment" tabindex="0" role="button" aria-label="細部資料 / SIVIEW.FRPORT_UDATA" style="cursor:pointer">
+<title>t_44bf52fb10be</title>
+<polygon fill="#fff6eb" stroke="#b26018" stroke-width="2.5" points="5781.71,-2166.14 5525.9,-2166.14 5525.9,-2086.22 5781.71,-2086.22 5781.71,-2166.14" />
+<text xml:space="preserve" text-anchor="middle" x="5653.81" y="-2134.18" font-family="Microsoft JhengHei" font-size="20.00">細部資料</text>
+<text xml:space="preserve" text-anchor="middle" x="5653.81" y="-2107.18" font-family="Microsoft JhengHei" font-size="20.00">SIVIEW.FRPORT_UDATA</text>
+</g>
+
+<g id="n_2674_udata-link" class="node" data-node="n_2674_udata-link" data-category="relation" tabindex="0" role="button" aria-label="有 L/P / D_THESYSTEMKEY" style="cursor:pointer">
+<title>n_2674_udata-link</title>
+<polygon fill="#ffffff" stroke="#6a7d8e" stroke-width="2.5" points="5653.81,-1998.72 5445.25,-1918.8 5653.81,-1838.88 5862.37,-1918.8 5653.81,-1998.72" />
+<text xml:space="preserve" text-anchor="middle" x="5653.81" y="-1926.8" font-family="Microsoft JhengHei" font-size="20.00">有 L/P</text>
+<text xml:space="preserve" text-anchor="middle" x="5653.81" y="-1899.8" font-family="Microsoft JhengHei" font-size="20.00">D_THESYSTEMKEY</text>
+</g>
+
+<g id="t_0ab0fee39360" class="node" data-node="t_0ab0fee39360" data-category="equipment" tabindex="0" role="button" aria-label="機台 L/P / SIVIEW.FRPORT" style="cursor:pointer">
+<title>t_0ab0fee39360</title>
+<polygon fill="#fff6eb" stroke="#b26018" stroke-width="2.5" points="5389.59,-1724.92 5208.03,-1724.92 5208.03,-1645 5389.59,-1645 5389.59,-1724.92" />
+<text xml:space="preserve" text-anchor="middle" x="5298.81" y="-1692.96" font-family="Microsoft JhengHei" font-size="20.00">機台 L/P</text>
+<text xml:space="preserve" text-anchor="middle" x="5298.81" y="-1665.96" font-family="Microsoft JhengHei" font-size="20.00">SIVIEW.FRPORT</text>
+</g>
+
+<g id="n_2674_mode" class="node" data-node="n_2674_mode" data-category="equipment" tabindex="0" role="button" aria-label="機台模式 / SIVIEW.CSFRPORT_SUBMODE / SIVIEW.FHEMCHS" style="cursor:pointer">
+<title>n_2674_mode</title>
+<polygon fill="#fff6eb" stroke="#b26018" stroke-width="2.5" points="5143.71,-2179.64 4827.9,-2179.64 4827.9,-2072.72 5143.71,-2072.72 5143.71,-2179.64" />
+<text xml:space="preserve" text-anchor="middle" x="4985.81" y="-2147.68" font-family="Microsoft JhengHei" font-size="20.00">機台模式</text>
+<text xml:space="preserve" text-anchor="middle" x="4985.81" y="-2120.68" font-family="Microsoft JhengHei" font-size="20.00">SIVIEW.CSFRPORT_SUBMODE</text>
+<text xml:space="preserve" text-anchor="middle" x="4985.81" y="-2093.68" font-family="Microsoft JhengHei" font-size="20.00">SIVIEW.FHEMCHS</text>
+</g>
+
+<g id="n_2674_mode-link" class="node" data-node="n_2674_mode-link" data-category="relation" tabindex="0" role="button" aria-label="機台模式 / EQP_ID / PORT_ID" style="cursor:pointer">
+<title>n_2674_mode-link</title>
+<polygon fill="#ffffff" stroke="#6a7d8e" stroke-width="2.5" points="4985.81,-2025.72 4868.75,-1918.8 4985.81,-1811.88 5102.87,-1918.8 4985.81,-2025.72" />
+<text xml:space="preserve" text-anchor="middle" x="4985.81" y="-1940.3" font-family="Microsoft JhengHei" font-size="20.00">機台模式</text>
+<text xml:space="preserve" text-anchor="middle" x="4985.81" y="-1913.3" font-family="Microsoft JhengHei" font-size="20.00">EQP_ID</text>
+<text xml:space="preserve" text-anchor="middle" x="4985.81" y="-1886.3" font-family="Microsoft JhengHei" font-size="20.00">PORT_ID</text>
+</g>
+
+<g id="t_2544d0d5063d" class="node" data-node="t_2544d0d5063d" data-category="equipment" tabindex="0" role="button" aria-label="機台的 Default STK / Siview.csfreqp_stk" style="cursor:pointer">
+<title>t_2544d0d5063d</title>
+<polygon fill="#fff6eb" stroke="#b26018" stroke-width="2.5" points="4716.84,-1724.92 4506.78,-1724.92 4506.78,-1645 4716.84,-1645 4716.84,-1724.92" />
+<text xml:space="preserve" text-anchor="middle" x="4611.81" y="-1692.96" font-family="Microsoft JhengHei" font-size="20.00">機台的 Default STK</text>
+<text xml:space="preserve" text-anchor="middle" x="4611.81" y="-1665.96" font-family="Microsoft JhengHei" font-size="20.00">Siview.csfreqp_stk</text>
+</g>
+
+<g id="t_aad27c7244d2" class="node" data-node="t_aad27c7244d2" data-category="record" tabindex="0" role="button" aria-label="機況歷史 / SIVIEW.FHESCHS" style="cursor:pointer">
+<title>t_aad27c7244d2</title>
+<polygon fill="#f5f7fa" stroke="#61748b" stroke-width="2.5" points="4470.59,-1724.92 4277.03,-1724.92 4277.03,-1645 4470.59,-1645 4470.59,-1724.92" />
+<text xml:space="preserve" text-anchor="middle" x="4373.81" y="-1692.96" font-family="Microsoft JhengHei" font-size="20.00">機況歷史</text>
+<text xml:space="preserve" text-anchor="middle" x="4373.81" y="-1665.96" font-family="Microsoft JhengHei" font-size="20.00">SIVIEW.FHESCHS</text>
+</g>
+
+<g id="n_2674_history-link" class="node" data-node="n_2674_history-link" data-category="relation" tabindex="0" role="button" aria-label="機況歷史 / EQP_ID" style="cursor:pointer">
+<title>n_2674_history-link</title>
+<polygon fill="#ffffff" stroke="#6a7d8e" stroke-width="2.5" points="4485.81,-1531.04 4370.25,-1451.12 4485.81,-1371.2 4601.37,-1451.12 4485.81,-1531.04" />
+<text xml:space="preserve" text-anchor="middle" x="4485.81" y="-1459.12" font-family="Microsoft JhengHei" font-size="20.00">機況歷史</text>
+<text xml:space="preserve" text-anchor="middle" x="4485.81" y="-1432.12" font-family="Microsoft JhengHei" font-size="20.00">EQP_ID</text>
+</g>
+
+<g id="n_2674_port-link" class="node" data-node="n_2674_port-link" data-category="relation" tabindex="0" role="button" aria-label="有 L/P / EQP_ID" style="cursor:pointer">
+<title>n_2674_port-link</title>
+<polygon fill="#ffffff" stroke="#6a7d8e" stroke-width="2.5" points="5298.81,-1531.04 5194.5,-1451.12 5298.81,-1371.2 5403.12,-1451.12 5298.81,-1531.04" />
+<text xml:space="preserve" text-anchor="middle" x="5298.81" y="-1459.12" font-family="Microsoft JhengHei" font-size="20.00">有 L/P</text>
+<text xml:space="preserve" text-anchor="middle" x="5298.81" y="-1432.12" font-family="Microsoft JhengHei" font-size="20.00">EQP_ID</text>
+</g>
+
+<g id="n_2674_default-link" class="node" data-node="n_2674_default-link" data-category="relation" tabindex="0" role="button" aria-label="Default STK / eqp_id" style="cursor:pointer">
+<title>n_2674_default-link</title>
+<polygon fill="#ffffff" stroke="#6a7d8e" stroke-width="2.5" points="4781.81,-1531.04 4637.75,-1451.12 4781.81,-1371.2 4925.87,-1451.12 4781.81,-1531.04" />
+<text xml:space="preserve" text-anchor="middle" x="4781.81" y="-1459.12" font-family="Microsoft JhengHei" font-size="20.00">Default STK</text>
+<text xml:space="preserve" text-anchor="middle" x="4781.81" y="-1432.12" font-family="Microsoft JhengHei" font-size="20.00">eqp_id</text>
+</g>
+
+<g id="n_2674_bay" class="node" data-node="n_2674_bay" data-category="record" tabindex="0" role="button" aria-label="機台位置 / MFG_EQP_BAY_BT" style="cursor:pointer">
+<title>n_2674_bay</title>
+<polygon fill="#f5f7fa" stroke="#61748b" stroke-width="2.5" points="3547.22,-1738.42 3342.4,-1738.42 3342.4,-1631.5 3547.22,-1631.5 3547.22,-1738.42" />
+<text xml:space="preserve" text-anchor="middle" x="3444.81" y="-1706.46" font-family="Microsoft JhengHei" font-size="20.00">機台位置</text>
+<text xml:space="preserve" text-anchor="middle" x="3444.81" y="-1679.46" font-family="Microsoft JhengHei" font-size="20.00">MFG_EQP_BAY_BT</text>
+<text xml:space="preserve" text-anchor="middle" x="3444.81" y="-1652.46" font-family="Microsoft JhengHei" font-size="20.00">（未列 schema）</text>
+</g>
+
+<g id="n_2674_bay-link" class="node" data-node="n_2674_bay-link" data-category="relation" tabindex="0" role="button" aria-label="機台位置 / EQP_ID" style="cursor:pointer">
+<title>n_2674_bay-link</title>
+<polygon fill="#ffffff" stroke="#6a7d8e" stroke-width="2.5" points="4143.81,-1531.04 4028.25,-1451.12 4143.81,-1371.2 4259.37,-1451.12 4143.81,-1531.04" />
+<text xml:space="preserve" text-anchor="middle" x="4143.81" y="-1459.12" font-family="Microsoft JhengHei" font-size="20.00">機台位置</text>
+<text xml:space="preserve" text-anchor="middle" x="4143.81" y="-1432.12" font-family="Microsoft JhengHei" font-size="20.00">EQP_ID</text>
+</g>
+
+<g id="n_2674_chamber-link" class="node" data-node="n_2674_chamber-link" data-category="relation" tabindex="0" role="button" aria-label="有 Chamber / eqp_id" style="cursor:pointer">
+<title>n_2674_chamber-link</title>
+<polygon fill="#ffffff" stroke="#6a7d8e" stroke-width="2.5" points="4569.81,-1062.28 4422.75,-982.36 4569.81,-902.44 4716.87,-982.36 4569.81,-1062.28" />
+<text xml:space="preserve" text-anchor="middle" x="4569.81" y="-990.36" font-family="Microsoft JhengHei" font-size="20.00">有 Chamber</text>
+<text xml:space="preserve" text-anchor="middle" x="4569.81" y="-963.36" font-family="Microsoft JhengHei" font-size="20.00">eqp_id</text>
+</g>
+
+<g id="n_2674_chamber" class="node" data-node="n_2674_chamber" data-category="equipment" tabindex="0" role="button" aria-label="Chamber 狀況 / Siview.csfrprcrsc / SIVIEW.FHCSCHS" style="cursor:pointer">
+<title>n_2674_chamber</title>
+<polygon fill="#fff6eb" stroke="#b26018" stroke-width="2.5" points="4667.71,-828.44 4471.9,-828.44 4471.9,-721.52 4667.71,-721.52 4667.71,-828.44" />
+<text xml:space="preserve" text-anchor="middle" x="4569.81" y="-796.48" font-family="Microsoft JhengHei" font-size="20.00">Chamber 狀況</text>
+<text xml:space="preserve" text-anchor="middle" x="4569.81" y="-769.48" font-family="Microsoft JhengHei" font-size="20.00">Siview.csfrprcrsc</text>
+<text xml:space="preserve" text-anchor="middle" x="4569.81" y="-742.48" font-family="Microsoft JhengHei" font-size="20.00">SIVIEW.FHCSCHS</text>
+</g>
+
+<g id="n_2674_owner-link" class="node" data-node="n_2674_owner-link" data-category="relation" tabindex="0" role="button" aria-label="機群與課別 / EQP_ID" style="cursor:pointer">
+<title>n_2674_owner-link</title>
+<polygon fill="#ffffff" stroke="#6a7d8e" stroke-width="2.5" points="4250.81,-1062.28 4115,-982.36 4250.81,-902.44 4386.62,-982.36 4250.81,-1062.28" />
+<text xml:space="preserve" text-anchor="middle" x="4250.81" y="-990.36" font-family="Microsoft JhengHei" font-size="20.00">機群與課別</text>
+<text xml:space="preserve" text-anchor="middle" x="4250.81" y="-963.36" font-family="Microsoft JhengHei" font-size="20.00">EQP_ID</text>
+</g>
+
+<g id="n_2674_ohb-link" class="node" data-node="n_2674_ohb-link" data-category="relation" tabindex="0" role="button" aria-label="設定 OHB / EQPSTKID" style="cursor:pointer">
+<title>n_2674_ohb-link</title>
+<polygon fill="#ffffff" stroke="#6a7d8e" stroke-width="2.5" points="4883.81,-1062.28 4753.25,-982.36 4883.81,-902.44 5014.37,-982.36 4883.81,-1062.28" />
+<text xml:space="preserve" text-anchor="middle" x="4883.81" y="-990.36" font-family="Microsoft JhengHei" font-size="20.00">設定 OHB</text>
+<text xml:space="preserve" text-anchor="middle" x="4883.81" y="-963.36" font-family="Microsoft JhengHei" font-size="20.00">EQPSTKID</text>
+</g>
+
+<g id="n_2674_detail-link" class="node" data-node="n_2674_detail-link" data-category="relation" tabindex="0" role="button" aria-label="細部狀況 / eqp_id / procrsc_id" style="cursor:pointer">
+<title>n_2674_detail-link</title>
+<polygon fill="#ffffff" stroke="#6a7d8e" stroke-width="2.5" points="4569.81,-674.52 4439.25,-567.6 4569.81,-460.68 4700.37,-567.6 4569.81,-674.52" />
+<text xml:space="preserve" text-anchor="middle" x="4569.81" y="-589.1" font-family="Microsoft JhengHei" font-size="20.00">細部狀況</text>
+<text xml:space="preserve" text-anchor="middle" x="4569.81" y="-562.1" font-family="Microsoft JhengHei" font-size="20.00">eqp_id</text>
+<text xml:space="preserve" text-anchor="middle" x="4569.81" y="-535.1" font-family="Microsoft JhengHei" font-size="20.00">procrsc_id</text>
+</g>
+
+<g id="n_2674_owner" class="node" data-node="n_2674_owner" data-category="record" tabindex="0" role="button" aria-label="機群與課別 / MFG_EQP_OWNER_BT" style="cursor:pointer">
+<title>n_2674_owner</title>
+<polygon fill="#f5f7fa" stroke="#61748b" stroke-width="2.5" points="4278.46,-814.94 4033.15,-814.94 4033.15,-735.02 4278.46,-735.02 4278.46,-814.94" />
+<text xml:space="preserve" text-anchor="middle" x="4155.81" y="-782.98" font-family="Microsoft JhengHei" font-size="20.00">機群與課別</text>
+<text xml:space="preserve" text-anchor="middle" x="4155.81" y="-755.98" font-family="Microsoft JhengHei" font-size="20.00">MFG_EQP_OWNER_BT</text>
+</g>
+
+<g id="t_0445f3f5ca10" class="node" data-node="t_0445f3f5ca10" data-category="equipment" tabindex="0" role="button" aria-label="機群 OHB / Siview.csfrohb_eqp" style="cursor:pointer">
+<title>t_0445f3f5ca10</title>
+<polygon fill="#fff6eb" stroke="#b26018" stroke-width="2.5" points="4990.34,-814.94 4777.28,-814.94 4777.28,-735.02 4990.34,-735.02 4990.34,-814.94" />
+<text xml:space="preserve" text-anchor="middle" x="4883.81" y="-782.98" font-family="Microsoft JhengHei" font-size="20.00">機群 OHB</text>
+<text xml:space="preserve" text-anchor="middle" x="4883.81" y="-755.98" font-family="Microsoft JhengHei" font-size="20.00">Siview.csfrohb_eqp</text>
+</g>
+
+<g id="t_215407951b90" class="node" data-node="t_215407951b90" data-category="equipment" tabindex="0" role="button" aria-label="Chamber 細部 / Siview.frprcrsc" style="cursor:pointer">
+<title>t_215407951b90</title>
+<polygon fill="#fff6eb" stroke="#b26018" stroke-width="2.5" points="4653.46,-413.68 4486.15,-413.68 4486.15,-333.76 4653.46,-333.76 4653.46,-413.68" />
+<text xml:space="preserve" text-anchor="middle" x="4569.81" y="-381.72" font-family="Microsoft JhengHei" font-size="20.00">Chamber 細部</text>
+<text xml:space="preserve" text-anchor="middle" x="4569.81" y="-354.72" font-family="Microsoft JhengHei" font-size="20.00">Siview.frprcrsc</text>
+</g>
+
+<g id="n_2674_ohb-status-link" class="node" data-node="n_2674_ohb-status-link" data-category="relation" tabindex="0" role="button" aria-label="OHB 狀況 / OHB_ID" style="cursor:pointer">
+<title>n_2674_ohb-status-link</title>
+<polygon fill="#ffffff" stroke="#6a7d8e" stroke-width="2.5" points="4883.81,-647.52 4760,-567.6 4883.81,-487.68 5007.62,-567.6 4883.81,-647.52" />
+<text xml:space="preserve" text-anchor="middle" x="4883.81" y="-575.6" font-family="Microsoft JhengHei" font-size="20.00">OHB 狀況</text>
+<text xml:space="preserve" text-anchor="middle" x="4883.81" y="-548.6" font-family="Microsoft JhengHei" font-size="20.00">OHB_ID</text>
+</g>
+
+<g id="t_19992c01e42e" class="node" data-node="t_19992c01e42e" data-category="equipment" tabindex="0" role="button" aria-label="OHB 狀況 / Siview.csfrohb" style="cursor:pointer">
+<title>t_19992c01e42e</title>
+<polygon fill="#fff6eb" stroke="#b26018" stroke-width="2.5" points="4967.46,-413.68 4800.15,-413.68 4800.15,-333.76 4967.46,-333.76 4967.46,-413.68" />
+<text xml:space="preserve" text-anchor="middle" x="4883.81" y="-381.72" font-family="Microsoft JhengHei" font-size="20.00">OHB 狀況</text>
+<text xml:space="preserve" text-anchor="middle" x="4883.81" y="-354.72" font-family="Microsoft JhengHei" font-size="20.00">Siview.csfrohb</text>
+</g>
+
+<g id="n_2674_bmir-link" class="node" data-node="n_2674_bmir-link" data-category="relation" tabindex="0" role="button" aria-label="設定 BMIR / OHB_ID" style="cursor:pointer">
+<title>n_2674_bmir-link</title>
+<polygon fill="#ffffff" stroke="#6a7d8e" stroke-width="2.5" points="4883.81,-286.76 4753.25,-206.84 4883.81,-126.92 5014.37,-206.84 4883.81,-286.76" />
+<text xml:space="preserve" text-anchor="middle" x="4883.81" y="-214.84" font-family="Microsoft JhengHei" font-size="20.00">設定 BMIR</text>
+<text xml:space="preserve" text-anchor="middle" x="4883.81" y="-187.84" font-family="Microsoft JhengHei" font-size="20.00">OHB_ID</text>
+</g>
+
+<g id="t_99f36f7325f2" class="node" data-node="t_99f36f7325f2" data-category="equipment" tabindex="0" role="button" aria-label="BMIR / SIVIEW.CSFROHB_CFG" style="cursor:pointer">
+<title>t_99f36f7325f2</title>
+<polygon fill="#fff6eb" stroke="#b26018" stroke-width="2.5" points="5006.46,-79.92 4761.15,-79.92 4761.15,0 5006.46,0 5006.46,-79.92" />
+<text xml:space="preserve" text-anchor="middle" x="4883.81" y="-47.96" font-family="Microsoft JhengHei" font-size="20.00">BMIR</text>
+<text xml:space="preserve" text-anchor="middle" x="4883.81" y="-20.96" font-family="Microsoft JhengHei" font-size="20.00">SIVIEW.CSFROHB_CFG</text>
+</g>
+
+<g id="n_2675_wip-history" class="node" data-node="n_2675_wip-history" data-category="record" tabindex="0" role="button" aria-label="星期一的七點二十分的 WIP / KER_WIP_Y_BTH" style="cursor:pointer">
+<title>n_2675_wip-history</title>
+<polygon fill="#f5f7fa" stroke="#61748b" stroke-width="2.5" points="2085.09,-2540.4 1804.53,-2540.4 1804.53,-2433.48 2085.09,-2433.48 2085.09,-2540.4" />
+<text xml:space="preserve" text-anchor="middle" x="1944.81" y="-2508.44" font-family="Microsoft JhengHei" font-size="20.00">星期一的七點二十分的 WIP</text>
+<text xml:space="preserve" text-anchor="middle" x="1944.81" y="-2481.44" font-family="Microsoft JhengHei" font-size="20.00">KER_WIP_Y_BTH</text>
+<text xml:space="preserve" text-anchor="middle" x="1944.81" y="-2454.44" font-family="Microsoft JhengHei" font-size="20.00">（未列 schema）</text>
+</g>
+
+<g id="n_2675_wip-link" class="node" data-node="n_2675_wip-link" data-category="relation" tabindex="0" role="button" aria-label="歷史 WIP / Lot_ID" style="cursor:pointer">
+<title>n_2675_wip-link</title>
+<polygon fill="#ffffff" stroke="#6a7d8e" stroke-width="2.5" points="1944.81,-2386.48 1826.25,-2306.56 1944.81,-2226.64 2063.37,-2306.56 1944.81,-2386.48" />
+<text xml:space="preserve" text-anchor="middle" x="1944.81" y="-2314.56" font-family="Microsoft JhengHei" font-size="20.00">歷史 WIP</text>
+<text xml:space="preserve" text-anchor="middle" x="1944.81" y="-2287.56" font-family="Microsoft JhengHei" font-size="20.00">Lot_ID</text>
+</g>
+
+<g id="n_2675_move-link" class="node" data-node="n_2675_move-link" data-category="relation" tabindex="0" role="button" aria-label="機台 MOVE / Lot_id" style="cursor:pointer">
+<title>n_2675_move-link</title>
+<polygon fill="#ffffff" stroke="#6a7d8e" stroke-width="2.5" points="2281.81,-2386.48 2140.75,-2306.56 2281.81,-2226.64 2422.87,-2306.56 2281.81,-2386.48" />
+<text xml:space="preserve" text-anchor="middle" x="2281.81" y="-2314.56" font-family="Microsoft JhengHei" font-size="20.00">機台 MOVE</text>
+<text xml:space="preserve" text-anchor="middle" x="2281.81" y="-2287.56" font-family="Microsoft JhengHei" font-size="20.00">Lot_id</text>
+</g>
+
+<g id="n_2675_lot" class="node" data-node="n_2675_lot" data-category="record" tabindex="0" role="button" aria-label="LOT / KER_WIP_BT" style="cursor:pointer">
+<title>n_2675_lot</title>
+<polygon fill="#f5f7fa" stroke="#61748b" stroke-width="2.5" points="2041.21,-2179.64 1848.4,-2179.64 1848.4,-2072.72 2041.21,-2072.72 2041.21,-2179.64" />
+<text xml:space="preserve" text-anchor="middle" x="1944.81" y="-2147.68" font-family="Microsoft JhengHei" font-size="20.00">LOT</text>
+<text xml:space="preserve" text-anchor="middle" x="1944.81" y="-2120.68" font-family="Microsoft JhengHei" font-size="20.00">KER_WIP_BT</text>
+<text xml:space="preserve" text-anchor="middle" x="1944.81" y="-2093.68" font-family="Microsoft JhengHei" font-size="20.00">（未列 schema）</text>
+</g>
+
+<g id="n_2675_chamber-link" class="node" data-node="n_2675_chamber-link" data-category="relation" tabindex="0" role="button" aria-label="機群與機台 Ch / EQP_GRP" style="cursor:pointer">
+<title>n_2675_chamber-link</title>
+<polygon fill="#ffffff" stroke="#6a7d8e" stroke-width="2.5" points="888.81,-1998.72 722.25,-1918.8 888.81,-1838.88 1055.37,-1918.8 888.81,-1998.72" />
+<text xml:space="preserve" text-anchor="middle" x="888.81" y="-1926.8" font-family="Microsoft JhengHei" font-size="20.00">機群與機台 Ch</text>
+<text xml:space="preserve" text-anchor="middle" x="888.81" y="-1899.8" font-family="Microsoft JhengHei" font-size="20.00">EQP_GRP</text>
+</g>
+
+<g id="n_2675_chamber" class="node" data-node="n_2675_chamber" data-category="record" tabindex="0" role="button" aria-label="Chamber / ker_dm_sub_ch_eqp_grp_bt" style="cursor:pointer">
+<title>n_2675_chamber</title>
+<polygon fill="#f5f7fa" stroke="#61748b" stroke-width="2.5" points="1023.09,-1751.92 748.53,-1751.92 748.53,-1618 1023.09,-1618 1023.09,-1751.92" />
+<text xml:space="preserve" text-anchor="middle" x="885.81" y="-1719.96" font-family="Microsoft JhengHei" font-size="20.00">Chamber</text>
+<text xml:space="preserve" text-anchor="middle" x="885.81" y="-1692.96" font-family="Microsoft JhengHei" font-size="20.00">ker_dm_sub_ch_eqp_grp_</text>
+<text xml:space="preserve" text-anchor="middle" x="885.81" y="-1665.96" font-family="Microsoft JhengHei" font-size="20.00">bt</text>
+<text xml:space="preserve" text-anchor="middle" x="885.81" y="-1638.96" font-family="Microsoft JhengHei" font-size="20.00">（未列 schema）</text>
+</g>
+
+<g id="n_2675_group-link" class="node" data-node="n_2675_group-link" data-category="relation" tabindex="0" role="button" aria-label="機群與機台 / EQP_GRP" style="cursor:pointer">
+<title>n_2675_group-link</title>
+<polygon fill="#ffffff" stroke="#6a7d8e" stroke-width="2.5" points="1519.81,-1998.72 1384,-1918.8 1519.81,-1838.88 1655.62,-1918.8 1519.81,-1998.72" />
+<text xml:space="preserve" text-anchor="middle" x="1519.81" y="-1926.8" font-family="Microsoft JhengHei" font-size="20.00">機群與機台</text>
+<text xml:space="preserve" text-anchor="middle" x="1519.81" y="-1899.8" font-family="Microsoft JhengHei" font-size="20.00">EQP_GRP</text>
+</g>
+
+<g id="n_2675_eqp" class="node" data-node="n_2675_eqp" data-category="record" tabindex="0" role="button" aria-label="機台 / KER_EMP_EQP_GRP_CAP_UT" style="cursor:pointer">
+<title>n_2675_eqp</title>
+<polygon fill="#f5f7fa" stroke="#61748b" stroke-width="2.5" points="1362.71,-1738.42 1058.9,-1738.42 1058.9,-1631.5 1362.71,-1631.5 1362.71,-1738.42" />
+<text xml:space="preserve" text-anchor="middle" x="1210.81" y="-1706.46" font-family="Microsoft JhengHei" font-size="20.00">機台</text>
+<text xml:space="preserve" text-anchor="middle" x="1210.81" y="-1679.46" font-family="Microsoft JhengHei" font-size="20.00">KER_EMP_EQP_GRP_CAP_UT</text>
+<text xml:space="preserve" text-anchor="middle" x="1210.81" y="-1652.46" font-family="Microsoft JhengHei" font-size="20.00">（未列 schema）</text>
+</g>
+
+<g id="n_2675_virtual-link" class="node" data-node="n_2675_virtual-link" data-category="relation" tabindex="0" role="button" aria-label="屬於哪個虛擬群組 / DYNAMIC_SQL" style="cursor:pointer">
+<title>n_2675_virtual-link</title>
+<polygon fill="#ffffff" stroke="#6a7d8e" stroke-width="2.5" points="551.81,-1531.04 355.25,-1451.12 551.81,-1371.2 748.37,-1451.12 551.81,-1531.04" />
+<text xml:space="preserve" text-anchor="middle" x="551.81" y="-1459.12" font-family="Microsoft JhengHei" font-size="20.00">屬於哪個虛擬群組</text>
+<text xml:space="preserve" text-anchor="middle" x="551.81" y="-1432.12" font-family="Microsoft JhengHei" font-size="20.00">DYNAMIC_SQL</text>
+</g>
+
+<g id="n_2675_virtual" class="node" data-node="n_2675_virtual" data-category="record" tabindex="0" role="button" aria-label="虛擬 Group (*ALL) / KER_VR_EQP_GRP_DETAIL_BT" style="cursor:pointer">
+<title>n_2675_virtual</title>
+<polygon fill="#f5f7fa" stroke="#61748b" stroke-width="2.5" points="695.46,-1283.7 408.15,-1283.7 408.15,-1149.78 695.46,-1149.78 695.46,-1283.7" />
+<text xml:space="preserve" text-anchor="middle" x="551.81" y="-1251.74" font-family="Microsoft JhengHei" font-size="20.00">虛擬 Group (*ALL)</text>
+<text xml:space="preserve" text-anchor="middle" x="551.81" y="-1224.74" font-family="Microsoft JhengHei" font-size="20.00">KER_VR_EQP_GRP_DETAIL_</text>
+<text xml:space="preserve" text-anchor="middle" x="551.81" y="-1197.74" font-family="Microsoft JhengHei" font-size="20.00">BT</text>
+<text xml:space="preserve" text-anchor="middle" x="551.81" y="-1170.74" font-family="Microsoft JhengHei" font-size="20.00">（未列 schema）</text>
+</g>
+
+<g id="n_2675_all-actions" class="node" data-node="n_2675_all-actions" data-category="relation" tabindex="0" role="button" aria-label="Lot 所有動作 / Lot_ID" style="cursor:pointer">
+<title>n_2675_all-actions</title>
+<polygon fill="#ffffff" stroke="#6a7d8e" stroke-width="2.5" points="1989.81,-1998.72 1839,-1918.8 1989.81,-1838.88 2140.62,-1918.8 1989.81,-1998.72" />
+<text xml:space="preserve" text-anchor="middle" x="1989.81" y="-1926.8" font-family="Microsoft JhengHei" font-size="20.00">Lot 所有動作</text>
+<text xml:space="preserve" text-anchor="middle" x="1989.81" y="-1899.8" font-family="Microsoft JhengHei" font-size="20.00">Lot_ID</text>
+</g>
+
+<g id="n_2675_status-link" class="node" data-node="n_2675_status-link" data-category="relation" tabindex="0" role="button" aria-label="目前機況 / EQP_ID" style="cursor:pointer">
+<title>n_2675_status-link</title>
+<polygon fill="#ffffff" stroke="#6a7d8e" stroke-width="2.5" points="899.81,-1531.04 784.25,-1451.12 899.81,-1371.2 1015.37,-1451.12 899.81,-1531.04" />
+<text xml:space="preserve" text-anchor="middle" x="899.81" y="-1459.12" font-family="Microsoft JhengHei" font-size="20.00">目前機況</text>
+<text xml:space="preserve" text-anchor="middle" x="899.81" y="-1432.12" font-family="Microsoft JhengHei" font-size="20.00">EQP_ID</text>
+</g>
+
+<g id="n_2675_status" class="node" data-node="n_2675_status" data-category="record" tabindex="0" role="button" aria-label="機台機況 / KER_EQP_STATUS_BT" style="cursor:pointer">
+<title>n_2675_status</title>
+<polygon fill="#f5f7fa" stroke="#61748b" stroke-width="2.5" points="1015.34,-1270.2 784.28,-1270.2 784.28,-1163.28 1015.34,-1163.28 1015.34,-1270.2" />
+<text xml:space="preserve" text-anchor="middle" x="899.81" y="-1238.24" font-family="Microsoft JhengHei" font-size="20.00">機台機況</text>
+<text xml:space="preserve" text-anchor="middle" x="899.81" y="-1211.24" font-family="Microsoft JhengHei" font-size="20.00">KER_EQP_STATUS_BT</text>
+<text xml:space="preserve" text-anchor="middle" x="899.81" y="-1184.24" font-family="Microsoft JhengHei" font-size="20.00">（未列 schema）</text>
+</g>
+
+<g id="n_2675_eqp-oee-link" class="node" data-node="n_2675_eqp-oee-link" data-category="relation" tabindex="0" role="button" aria-label="機台歷史 OEE / EQP_ID" style="cursor:pointer">
+<title>n_2675_eqp-oee-link</title>
+<polygon fill="#ffffff" stroke="#6a7d8e" stroke-width="2.5" points="1210.81,-1531.04 1051,-1451.12 1210.81,-1371.2 1370.62,-1451.12 1210.81,-1531.04" />
+<text xml:space="preserve" text-anchor="middle" x="1210.81" y="-1459.12" font-family="Microsoft JhengHei" font-size="20.00">機台歷史 OEE</text>
+<text xml:space="preserve" text-anchor="middle" x="1210.81" y="-1432.12" font-family="Microsoft JhengHei" font-size="20.00">EQP_ID</text>
+</g>
+
+<g id="n_2675_eqp-oee" class="node" data-node="n_2675_eqp-oee" data-category="record" tabindex="0" role="button" aria-label="機台 OEE 歷史 / Ker_Eqp_Aaa_Oee_Ut" style="cursor:pointer">
+<title>n_2675_eqp-oee</title>
+<polygon fill="#f5f7fa" stroke="#61748b" stroke-width="2.5" points="1328.59,-1270.2 1093.03,-1270.2 1093.03,-1163.28 1328.59,-1163.28 1328.59,-1270.2" />
+<text xml:space="preserve" text-anchor="middle" x="1210.81" y="-1238.24" font-family="Microsoft JhengHei" font-size="20.00">機台 OEE 歷史</text>
+<text xml:space="preserve" text-anchor="middle" x="1210.81" y="-1211.24" font-family="Microsoft JhengHei" font-size="20.00">Ker_Eqp_Aaa_Oee_Ut</text>
+<text xml:space="preserve" text-anchor="middle" x="1210.81" y="-1184.24" font-family="Microsoft JhengHei" font-size="20.00">（未列 schema）</text>
+</g>
+
+<g id="n_2675_group-oee-link" class="node" data-node="n_2675_group-oee-link" data-category="relation" tabindex="0" role="button" aria-label="機群目前 OEE / EQP_GRP" style="cursor:pointer">
+<title>n_2675_group-oee-link</title>
+<polygon fill="#ffffff" stroke="#6a7d8e" stroke-width="2.5" points="1566.81,-1531.04 1407,-1451.12 1566.81,-1371.2 1726.62,-1451.12 1566.81,-1531.04" />
+<text xml:space="preserve" text-anchor="middle" x="1566.81" y="-1459.12" font-family="Microsoft JhengHei" font-size="20.00">機群目前 OEE</text>
+<text xml:space="preserve" text-anchor="middle" x="1566.81" y="-1432.12" font-family="Microsoft JhengHei" font-size="20.00">EQP_GRP</text>
+</g>
+
+<g id="n_2675_group-oee" class="node" data-node="n_2675_group-oee" data-category="record" tabindex="0" role="button" aria-label="機群目前 OEE / ker_dm_bt" style="cursor:pointer">
+<title>n_2675_group-oee</title>
+<polygon fill="#f5f7fa" stroke="#61748b" stroke-width="2.5" points="1663.21,-1270.2 1470.4,-1270.2 1470.4,-1163.28 1663.21,-1163.28 1663.21,-1270.2" />
+<text xml:space="preserve" text-anchor="middle" x="1566.81" y="-1238.24" font-family="Microsoft JhengHei" font-size="20.00">機群目前 OEE</text>
+<text xml:space="preserve" text-anchor="middle" x="1566.81" y="-1211.24" font-family="Microsoft JhengHei" font-size="20.00">ker_dm_bt</text>
+<text xml:space="preserve" text-anchor="middle" x="1566.81" y="-1184.24" font-family="Microsoft JhengHei" font-size="20.00">（未列 schema）</text>
+</g>
+
+<g id="n_2675_group-history-link" class="node" data-node="n_2675_group-history-link" data-category="relation" tabindex="0" role="button" aria-label="機群歷史 OEE / EQP_ID" style="cursor:pointer">
+<title>n_2675_group-history-link</title>
+<polygon fill="#ffffff" stroke="#6a7d8e" stroke-width="2.5" points="159.81,-1531.04 0,-1451.12 159.81,-1371.2 319.62,-1451.12 159.81,-1531.04" />
+<text xml:space="preserve" text-anchor="middle" x="159.81" y="-1459.12" font-family="Microsoft JhengHei" font-size="20.00">機群歷史 OEE</text>
+<text xml:space="preserve" text-anchor="middle" x="159.81" y="-1432.12" font-family="Microsoft JhengHei" font-size="20.00">EQP_ID</text>
+</g>
+
+<g id="n_2675_group-history" class="node" data-node="n_2675_group-history" data-category="record" tabindex="0" role="button" aria-label="機群 OEE 歷史 / Ker_Dm_Hourly_Bth" style="cursor:pointer">
+<title>n_2675_group-history</title>
+<polygon fill="#f5f7fa" stroke="#61748b" stroke-width="2.5" points="270.09,-1270.2 49.53,-1270.2 49.53,-1163.28 270.09,-1163.28 270.09,-1270.2" />
+<text xml:space="preserve" text-anchor="middle" x="159.81" y="-1238.24" font-family="Microsoft JhengHei" font-size="20.00">機群 OEE 歷史</text>
+<text xml:space="preserve" text-anchor="middle" x="159.81" y="-1211.24" font-family="Microsoft JhengHei" font-size="20.00">Ker_Dm_Hourly_Bth</text>
+<text xml:space="preserve" text-anchor="middle" x="159.81" y="-1184.24" font-family="Microsoft JhengHei" font-size="20.00">（未列 schema）</text>
+</g>
+
+<g id="n_2676_eqp" class="node" data-node="n_2676_eqp" data-category="equipment" tabindex="0" role="button" aria-label="EQP / FREQP" style="cursor:pointer">
+<title>n_2676_eqp</title>
+<polygon fill="#fff6eb" stroke="#b26018" stroke-width="2.5" points="7463.21,-2540.4 7270.4,-2540.4 7270.4,-2433.48 7463.21,-2433.48 7463.21,-2540.4" />
+<text xml:space="preserve" text-anchor="middle" x="7366.81" y="-2508.44" font-family="Microsoft JhengHei" font-size="20.00">EQP</text>
+<text xml:space="preserve" text-anchor="middle" x="7366.81" y="-2481.44" font-family="Microsoft JhengHei" font-size="20.00">FREQP</text>
+<text xml:space="preserve" text-anchor="middle" x="7366.81" y="-2454.44" font-family="Microsoft JhengHei" font-size="20.00">（未列 schema）</text>
+</g>
+
+<g id="n_2676_eqp-id" class="node" data-node="n_2676_eqp-id" data-category="relation" tabindex="0" role="button" aria-label="EQP_ID" style="cursor:pointer">
+<title>n_2676_eqp-id</title>
+<polygon fill="#ffffff" stroke="#6a7d8e" stroke-width="2.5" points="7366.81,-2359.48 7262.5,-2306.56 7366.81,-2253.64 7471.12,-2306.56 7366.81,-2359.48" />
+<text xml:space="preserve" text-anchor="middle" x="7366.81" y="-2301.06" font-family="Microsoft JhengHei" font-size="20.00">EQP_ID</text>
+</g>
+
+<g id="n_2676_port" class="node" data-node="n_2676_port" data-category="equipment" tabindex="0" role="button" aria-label="PORT_ID / FRPORT" style="cursor:pointer">
+<title>n_2676_port</title>
+<polygon fill="#fff6eb" stroke="#b26018" stroke-width="2.5" points="7202.21,-2179.64 7009.4,-2179.64 7009.4,-2072.72 7202.21,-2072.72 7202.21,-2179.64" />
+<text xml:space="preserve" text-anchor="middle" x="7105.81" y="-2147.68" font-family="Microsoft JhengHei" font-size="20.00">PORT_ID</text>
+<text xml:space="preserve" text-anchor="middle" x="7105.81" y="-2120.68" font-family="Microsoft JhengHei" font-size="20.00">FRPORT</text>
+<text xml:space="preserve" text-anchor="middle" x="7105.81" y="-2093.68" font-family="Microsoft JhengHei" font-size="20.00">（未列 schema）</text>
+</g>
+
+<g id="n_2676_cast" class="node" data-node="n_2676_cast" data-category="carrier" tabindex="0" role="button" aria-label="CAST_ID / FRCAST" style="cursor:pointer">
+<title>n_2676_cast</title>
+<polygon fill="#edf9f5" stroke="#008775" stroke-width="2.5" points="7463.21,-2179.64 7270.4,-2179.64 7270.4,-2072.72 7463.21,-2072.72 7463.21,-2179.64" />
+<text xml:space="preserve" text-anchor="middle" x="7366.81" y="-2147.68" font-family="Microsoft JhengHei" font-size="20.00">CAST_ID</text>
+<text xml:space="preserve" text-anchor="middle" x="7366.81" y="-2120.68" font-family="Microsoft JhengHei" font-size="20.00">FRCAST</text>
+<text xml:space="preserve" text-anchor="middle" x="7366.81" y="-2093.68" font-family="Microsoft JhengHei" font-size="20.00">（未列 schema）</text>
+</g>
+
+<g id="n_2676_chamber" class="node" data-node="n_2676_chamber" data-category="equipment" tabindex="0" role="button" aria-label="CHAMBER ID / FRPRCRSC" style="cursor:pointer">
+<title>n_2676_chamber</title>
+<polygon fill="#fff6eb" stroke="#b26018" stroke-width="2.5" points="7692.21,-2179.64 7499.4,-2179.64 7499.4,-2072.72 7692.21,-2072.72 7692.21,-2179.64" />
+<text xml:space="preserve" text-anchor="middle" x="7595.81" y="-2147.68" font-family="Microsoft JhengHei" font-size="20.00">CHAMBER ID</text>
+<text xml:space="preserve" text-anchor="middle" x="7595.81" y="-2120.68" font-family="Microsoft JhengHei" font-size="20.00">FRPRCRSC</text>
+<text xml:space="preserve" text-anchor="middle" x="7595.81" y="-2093.68" font-family="Microsoft JhengHei" font-size="20.00">（未列 schema）</text>
+</g>
+
+<g id="n_2676_port-id" class="node" data-node="n_2676_port-id" data-category="relation" tabindex="0" role="button" aria-label="EQP_ID" style="cursor:pointer">
+<title>n_2676_port-id</title>
+<polygon fill="#ffffff" stroke="#6a7d8e" stroke-width="2.5" points="7089.81,-1971.72 6985.5,-1918.8 7089.81,-1865.88 7194.12,-1918.8 7089.81,-1971.72" />
+<text xml:space="preserve" text-anchor="middle" x="7089.81" y="-1913.3" font-family="Microsoft JhengHei" font-size="20.00">EQP_ID</text>
+</g>
+
+<g id="n_2676_cast-lot" class="node" data-node="n_2676_cast-lot" data-category="relation" tabindex="0" role="button" aria-label="FRCAST_LOT" style="cursor:pointer">
+<title>n_2676_cast-lot</title>
+<polygon fill="#ffffff" stroke="#6a7d8e" stroke-width="2.5" points="7382.81,-1971.72 7230.5,-1918.8 7382.81,-1865.88 7535.12,-1918.8 7382.81,-1971.72" />
+<text xml:space="preserve" text-anchor="middle" x="7382.81" y="-1913.3" font-family="Microsoft JhengHei" font-size="20.00">FRCAST_LOT</text>
+</g>
+
+<g id="n_2676_udata" class="node" data-node="n_2676_udata" data-category="equipment" tabindex="0" role="button" aria-label="FRPORT_UDATA" style="cursor:pointer">
+<title>n_2676_udata</title>
+<polygon fill="#fff6eb" stroke="#b26018" stroke-width="2.5" points="7186.21,-1724.92 6993.4,-1724.92 6993.4,-1645 7186.21,-1645 7186.21,-1724.92" />
+<text xml:space="preserve" text-anchor="middle" x="7089.81" y="-1692.96" font-family="Microsoft JhengHei" font-size="20.00">FRPORT_UDATA</text>
+<text xml:space="preserve" text-anchor="middle" x="7089.81" y="-1665.96" font-family="Microsoft JhengHei" font-size="20.00">（未列 schema）</text>
+</g>
+
+<g id="n_2676_lot" class="node" data-node="n_2676_lot" data-category="lot" tabindex="0" role="button" aria-label="FRLOT" style="cursor:pointer">
+<title>n_2676_lot</title>
+<polygon fill="#eef5ff" stroke="#176ac2" stroke-width="2.5" points="7479.21,-1724.92 7286.4,-1724.92 7286.4,-1645 7479.21,-1645 7479.21,-1724.92" />
+<text xml:space="preserve" text-anchor="middle" x="7382.81" y="-1692.96" font-family="Microsoft JhengHei" font-size="20.00">FRLOT</text>
+<text xml:space="preserve" text-anchor="middle" x="7382.81" y="-1665.96" font-family="Microsoft JhengHei" font-size="20.00">（未列 schema）</text>
+</g>
+
+<g id="n_2676_status" class="node" data-node="n_2676_status" data-category="relation" tabindex="0" role="button" aria-label="LOT Process / Status" style="cursor:pointer">
+<title>n_2676_status</title>
+<ellipse fill="#ffffff" stroke="#6a7d8e" stroke-width="2.5" cx="7382.81" cy="-1451.12" rx="103.99" ry="56.51" />
+<text xml:space="preserve" text-anchor="middle" x="7382.81" y="-1459.12" font-family="Microsoft JhengHei" font-size="20.00">LOT Process</text>
+<text xml:space="preserve" text-anchor="middle" x="7382.81" y="-1432.12" font-family="Microsoft JhengHei" font-size="20.00">Status</text>
+</g>
+
+<g id="n_2677_pd" class="node" data-node="n_2677_pd" data-category="flow" tabindex="0" role="button" aria-label="FRPD" style="cursor:pointer">
+<title>n_2677_pd</title>
+<polygon fill="#f7f1ff" stroke="#7756af" stroke-width="2.5" points="7942.21,-2526.9 7749.4,-2526.9 7749.4,-2446.98 7942.21,-2446.98 7942.21,-2526.9" />
+<text xml:space="preserve" text-anchor="middle" x="7845.81" y="-2494.94" font-family="Microsoft JhengHei" font-size="20.00">FRPD</text>
+<text xml:space="preserve" text-anchor="middle" x="7845.81" y="-2467.94" font-family="Microsoft JhengHei" font-size="20.00">（未列 schema）</text>
+</g>
+
+<g id="n_2677_pd-key" class="node" data-node="n_2677_pd-key" data-category="relation" tabindex="0" role="button" aria-label="systemkey" style="cursor:pointer">
+<title>n_2677_pd-key</title>
+<polygon fill="#ffffff" stroke="#6a7d8e" stroke-width="2.5" points="7845.81,-2359.48 7713,-2306.56 7845.81,-2253.64 7978.62,-2306.56 7845.81,-2359.48" />
+<text xml:space="preserve" text-anchor="middle" x="7845.81" y="-2301.06" font-family="Microsoft JhengHei" font-size="20.00">systemkey</text>
+</g>
+
+<g id="n_2677_pd-eqp" class="node" data-node="n_2677_pd-eqp" data-category="flow" tabindex="0" role="button" aria-label="MODULEPD_ID / FRPD_EQP" style="cursor:pointer">
+<title>n_2677_pd-eqp</title>
+<polygon fill="#f7f1ff" stroke="#7756af" stroke-width="2.5" points="7942.21,-2179.64 7749.4,-2179.64 7749.4,-2072.72 7942.21,-2072.72 7942.21,-2179.64" />
+<text xml:space="preserve" text-anchor="middle" x="7845.81" y="-2147.68" font-family="Microsoft JhengHei" font-size="20.00">MODULEPD_ID</text>
+<text xml:space="preserve" text-anchor="middle" x="7845.81" y="-2120.68" font-family="Microsoft JhengHei" font-size="20.00">FRPD_EQP</text>
+<text xml:space="preserve" text-anchor="middle" x="7845.81" y="-2093.68" font-family="Microsoft JhengHei" font-size="20.00">（未列 schema）</text>
+</g>
+
+<g id="n_2677_eqp-id" class="node" data-node="n_2677_eqp-id" data-category="relation" tabindex="0" role="button" aria-label="EQP_ID" style="cursor:pointer">
+<title>n_2677_eqp-id</title>
+<polygon fill="#ffffff" stroke="#6a7d8e" stroke-width="2.5" points="7845.81,-1971.72 7741.5,-1918.8 7845.81,-1865.88 7950.12,-1918.8 7845.81,-1971.72" />
+<text xml:space="preserve" text-anchor="middle" x="7845.81" y="-1913.3" font-family="Microsoft JhengHei" font-size="20.00">EQP_ID</text>
+</g>
+
+<g id="n_2677_bay" class="node" data-node="n_2677_bay" data-category="record" tabindex="0" role="button" aria-label="MFG_EQP_BAY_BT" style="cursor:pointer">
+<title>n_2677_bay</title>
+<polygon fill="#f5f7fa" stroke="#61748b" stroke-width="2.5" points="7720.21,-1724.92 7515.4,-1724.92 7515.4,-1645 7720.21,-1645 7720.21,-1724.92" />
+<text xml:space="preserve" text-anchor="middle" x="7617.81" y="-1692.96" font-family="Microsoft JhengHei" font-size="20.00">MFG_EQP_BAY_BT</text>
+<text xml:space="preserve" text-anchor="middle" x="7617.81" y="-1665.96" font-family="Microsoft JhengHei" font-size="20.00">（未列 schema）</text>
+</g>
+
+<g id="n_2677_location" class="node" data-node="n_2677_location" data-category="relation" tabindex="0" role="button" aria-label="EQP / LOCATION / PHASE" style="cursor:pointer">
+<title>n_2677_location</title>
+<ellipse fill="#ffffff" stroke="#6a7d8e" stroke-width="2.5" cx="7617.81" cy="-1451.12" rx="95.5" ry="75.6" />
+<text xml:space="preserve" text-anchor="middle" x="7617.81" y="-1472.62" font-family="Microsoft JhengHei" font-size="20.00">EQP</text>
+<text xml:space="preserve" text-anchor="middle" x="7617.81" y="-1445.62" font-family="Microsoft JhengHei" font-size="20.00">LOCATION</text>
+<text xml:space="preserve" text-anchor="middle" x="7617.81" y="-1418.62" font-family="Microsoft JhengHei" font-size="20.00">PHASE</text>
+</g>
+
+<g id="n_2677_recipe" class="node" data-node="n_2677_recipe" data-category="flow" tabindex="0" role="button" aria-label="FRMRCP" style="cursor:pointer">
+<title>n_2677_recipe</title>
+<polygon fill="#f7f1ff" stroke="#7756af" stroke-width="2.5" points="8341.22,-2166.14 8148.4,-2166.14 8148.4,-2086.22 8341.22,-2086.22 8341.22,-2166.14" />
+<text xml:space="preserve" text-anchor="middle" x="8244.81" y="-2134.18" font-family="Microsoft JhengHei" font-size="20.00">FRMRCP</text>
+<text xml:space="preserve" text-anchor="middle" x="8244.81" y="-2107.18" font-family="Microsoft JhengHei" font-size="20.00">（未列 schema）</text>
+</g>
+
+<g id="n_2677_recipe-key" class="node" data-node="n_2677_recipe-key" data-category="relation" tabindex="0" role="button" aria-label="SYSTEMKEY" style="cursor:pointer">
+<title>n_2677_recipe-key</title>
+<polygon fill="#ffffff" stroke="#6a7d8e" stroke-width="2.5" points="8132.81,-1971.72 7985.75,-1918.8 8132.81,-1865.88 8279.87,-1918.8 8132.81,-1971.72" />
+<text xml:space="preserve" text-anchor="middle" x="8132.81" y="-1913.3" font-family="Microsoft JhengHei" font-size="20.00">SYSTEMKEY</text>
+</g>
+
+<g id="n_2677_recipe-eqp" class="node" data-node="n_2677_recipe-eqp" data-category="flow" tabindex="0" role="button" aria-label="FRMRCP_EQP" style="cursor:pointer">
+<title>n_2677_recipe-eqp</title>
+<polygon fill="#f7f1ff" stroke="#7756af" stroke-width="2.5" points="8191.21,-1724.92 7998.4,-1724.92 7998.4,-1645 8191.21,-1645 8191.21,-1724.92" />
+<text xml:space="preserve" text-anchor="middle" x="8094.81" y="-1692.96" font-family="Microsoft JhengHei" font-size="20.00">FRMRCP_EQP</text>
+<text xml:space="preserve" text-anchor="middle" x="8094.81" y="-1665.96" font-family="Microsoft JhengHei" font-size="20.00">（未列 schema）</text>
+</g>
+
+<g id="n_2677_eqp" class="node" data-node="n_2677_eqp" data-category="equipment" tabindex="0" role="button" aria-label="FREQP" style="cursor:pointer">
+<title>n_2677_eqp</title>
+<polygon fill="#fff6eb" stroke="#b26018" stroke-width="2.5" points="7949.21,-1724.92 7756.4,-1724.92 7756.4,-1645 7949.21,-1645 7949.21,-1724.92" />
+<text xml:space="preserve" text-anchor="middle" x="7852.81" y="-1692.96" font-family="Microsoft JhengHei" font-size="20.00">FREQP</text>
+<text xml:space="preserve" text-anchor="middle" x="7852.81" y="-1665.96" font-family="Microsoft JhengHei" font-size="20.00">（未列 schema）</text>
+</g>
+
+<g id="n_2677_status" class="node" data-node="n_2677_status" data-category="relation" tabindex="0" role="button" aria-label="EQP / STATUS" style="cursor:pointer">
+<title>n_2677_status</title>
+<ellipse fill="#ffffff" stroke="#6a7d8e" stroke-width="2.5" cx="7852.81" cy="-1451.12" rx="74.29" ry="56.51" />
+<text xml:space="preserve" text-anchor="middle" x="7852.81" y="-1459.12" font-family="Microsoft JhengHei" font-size="20.00">EQP</text>
+<text xml:space="preserve" text-anchor="middle" x="7852.81" y="-1432.12" font-family="Microsoft JhengHei" font-size="20.00">STATUS</text>
+</g>
+
+<g id="n_2677_er" class="node" data-node="n_2677_er" data-category="relation" tabindex="0" role="button" aria-label="ER" style="cursor:pointer">
+<title>n_2677_er</title>
+<ellipse fill="#ffffff" stroke="#6a7d8e" stroke-width="2.5" cx="8356.81" cy="-1918.8" rx="41.41" ry="37.42" />
+<text xml:space="preserve" text-anchor="middle" x="8356.81" y="-1913.3" font-family="Microsoft JhengHei" font-size="20.00">ER</text>
+</g>
+
+<g id="n_2677_lr" class="node" data-node="n_2677_lr" data-category="flow" tabindex="0" role="button" aria-label="DM_FLOW_LR_EQP_BT" style="cursor:pointer">
+<title>n_2677_lr</title>
+<polygon fill="#f7f1ff" stroke="#7756af" stroke-width="2.5" points="8479.84,-1724.92 8233.78,-1724.92 8233.78,-1645 8479.84,-1645 8479.84,-1724.92" />
+<text xml:space="preserve" text-anchor="middle" x="8356.81" y="-1692.96" font-family="Microsoft JhengHei" font-size="20.00">DM_FLOW_LR_EQP_BT</text>
+<text xml:space="preserve" text-anchor="middle" x="8356.81" y="-1665.96" font-family="Microsoft JhengHei" font-size="20.00">（未列 schema）</text>
+</g>
+</g>
+</svg>

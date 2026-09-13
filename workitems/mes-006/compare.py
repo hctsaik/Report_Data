@@ -1,0 +1,82 @@
+"""Record the user's reference comparison; no numerical score generation."""
+from pathlib import Path
+import json, shutil, html
+ROOT=Path(__file__).resolve().parents[2]
+OUT=Path(__file__).resolve().parent
+rows=[
+('operations/port','槽位配對有用，但沒有實際 FOUP、Slot 局部與讀取位置；六個小圓符號主要在裝飾資料表。','保留逐槽配對；用同一 FOUP 的 Slot 07 局部，連到 W07／W99 讀值差異。'),
+('operations/recipe','三把鑰匙只出現在標題；主體實際是欄位與 Pass／Fail 清單，看不到設備、配方與批次的關係。','同一批要求對照機台及已載入配方的具體交接畫面，突出不符的版本或能力。'),
+('operations/chamber','FOUP 變成橫向長盒，腔體是扁橢圓；身分守恆成立，空間及設備辨識度很低。','建立載具槽架→搬送位置→腔體的設備示意，切換時在相同位置追蹤 W06。'),
+('operations/state','設備 Ready 與 Lot Hold 有分開，但橢圓與卡片仍須先讀文字才能知道角色。','用可辨識機台與批次工作單對照，兩個 Hold 各有具名標籤及解除後可見的限制變化。'),
+('operations/handoff','時間線有順序，但主體是逐行文字；W08 缺結果與機台 Done 的交接機制沒有具體接收方。','機台完成畫面→三筆結果交接→MES 過站回覆，突出 W08 空缺及補齊前後。'),
+('operations/lab','搬送被壓成三個節點，FOUP 是大空盒；可操作不代表看得見搬送現場。','保留引擎，讓 F012 在 Stocker、OHT、Load Port 的具體空間位置移動，原始欄位放次層。'),
+('flow/stage','分組與 2/2、4/6 可讀，但準備／圖形／確認只有站名；新手仍不知道各段在做什麼。','先用晶圓的準備、圖形加工、量測示意建立三段工作，再於各段展開 Step。'),
+('flow/step','重用 CLEAN 與 Visit 的區別成立，但 S10／R10 是兩张記錄卡；抽象術語先於工作情境。','保留不同執行位置的證據，補同一清洗作業被兩個路徑位置呼叫的具體對照。'),
+('flow/lot-flow','兩批獨立進度正確，但模板與實例靠 FlowRef 文字說明；小晶圓與路徑重複填充版面。','固定上方完整路線作定義，兩批各自的旅程單及位置從同一版本連出，不混成實際搬送。'),
+('flow/execution','Current 和 RunState 有變化，但初始主圖大片空白，只有站點、代碼和狀態字。','把同一站的待加工、加工、結果交接與過站排成可見過程，指標與實際證據同步。'),
+('flow/branching','量尺確實顯示 100／105 的差異，值得保留；但量測值沒有工作含義，W08 圖示不提供量測證據。','使用明確標為假設的可視量測特徵及單位，接上同一尺度的判定與三種去向。'),
+('flow/rework','回圈和兩次 Visit 的保留可見；相同 W08 符號沒有展示清洗前後，圖仍主要靠標籤講故事。','保留歷程與核准返回點，使用可解釋的加工前後示意；不能虛構重工必然改善。'),
+('flow/split-merge','這頁的 3→2+1 與進度不符已有可見資料關係，比其他頁完整；但符號質感與合批結果仍不足。','保留譜系圖，明示批次管理分組與物理載具不同，補合批前後成員與歷程的對照。'),
+('flow/versions','v2 插入 S45 是可见差異；但版本定義、遷移批准與兩個時點擠在同一長圖，閱讀靠註解。','用對齊的版本差異圖突出插站，再局部展開 L023 遷移前後位置與批准紀錄。'),
+('flow/lab','初始圖是產品文字框、Lot 卡與三個小圓；已有的情境狀態機被當成教學主視覺。','保留操作規則，改成帶具體任務、變化證據與結果的旅程場景，資料記錄作第二層。')
+]
+report='''# MES-006：第一課與 MES-004 十五頁互比
+
+使用者再次退回品質，指定 index.html#fab 為較精緻的參考。這次已實看第一課本機圖、15 頁目前主圖，以及 port／stage 整頁；舊截圖經來源 hash 檢查仍對應目前版本。本次為桌面視覺比較，沒有重做全部手機審查或情境操作，不把它當作新一輪整批完成。
+
+## 對「有沒有用 Markdown 與 skill」的回答
+
+有讀取、有 brief、有逐頁分項與截圖紀錄，但評分執行失準。MES-004 把資料正確、關係可追蹤及程式驗證，過度延伸成「具體案例」「方法意義」「圖像閱讀」高分。量表已明說文字框不能取代機制證據；G2 允許 HTML 不等於 HTML 圖自然達標。先前 90 分以上與 self_review_passed 結論撤回，原始紀錄完整保存，不改成好像從未給過高分。
+
+## 為什麼第一課較精緻
+
+1. 主體有可辨識的設備外殼、FOUP 材質、水平槽架與晶圓；圖像本身提供名詞含義。
+2. 設備上的 F012 經局部放大仍是同一載具；Slot 07/W07 再以定位線連到資料欄位，空間位置與資料關係同時可見。
+3. 大主體承擔主要說明，標籤只做指認；後作常是小符號加大留白，必要說明放在框內文字。
+4. 三個不同尺度的區域形成閱讀節奏，黃色結論有明確收束；後作常重複「標題→資料框→正文框→練習框」。
+
+第一課也只是 AI 生成教學示意，不能用其材質精緻度證明實機比例正確；本次不替第一課臨時補滿分，也不要求抽象 Flow 硬畫成設備照片。應沿用的是具體主體、局部證據、因果線索和視覺層級。
+
+## 逐頁差異及處置
+
+| 頁面 | 與第一課的可見落差 | 重製應保留／改變 |
+|---|---|---|
+'''
+report+='\n'.join(f'| {i} | {problem} | {fix} |' for i,problem,fix in rows)
+report+='''
+
+## 校準後的狀態
+
+15 頁全部重開設計審查。這次沒有用一組臨時低分代替具體證據；原數值是已撤回的歷史自評，不再作完成依據。功能測試的既有結果仍有效，但不能提升視覺評分。
+
+新增資料新鮮度的要求保留。使用者目前要求先互比，因此先交付本比較；尚未製作新鮮度頁面，也未宣稱十五頁又已重製完成。後續先做 Chamber 與 Stage 代表原型，分別驗證實體現場與抽象流程的畫法，再擴展；不能繼續複製現有符號版型。
+
+視覺入口：[互比頁](comparison.html)。左側是本輪實際截取的第一課圖，右側切換十五頁；全部原圖可開啟，避免縮圖充當逐圖審查。使用者接受度：本版本品質 rejected。
+'''
+(OUT/'COMPARISON.md').write_text(report,encoding='utf-8')
+data=[{'id':i,'problem':p,'fix':f,'src':'../../tests/evidence/mes-004/'+i.replace('/','-')+'-1440-scene.png'} for i,p,f in rows]
+page='''<!doctype html><html lang="zh-Hant"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>第一課與十五頁互比</title><style>body{margin:0;background:#f3f6fa;color:#142a42;font:17px/1.65 system-ui,sans-serif}main{max-width:1600px;margin:auto;padding:28px}h1{font-size:30px}select{max-width:100%;padding:12px;font:inherit}section{display:grid;grid-template-columns:1fr 1fr;gap:24px;align-items:start}figure{margin:0}img{width:100%;background:white;border:1px solid #cad9e5;border-radius:12px}article{background:white;border-left:4px solid #b06020;padding:18px;margin:24px 0}a{color:#155bb0}small{display:block}button{font:inherit;padding:8px 14px;margin:12px 8px 12px 0}@media(max-width:800px){section{grid-template-columns:1fr}main{padding:16px}}</style><main><a href="../../index.html#fab">回第一課</a><h1>有畫面，不等於有同等的教學品質</h1><p>第一課用實物、局部放大與定位線解釋資料；MES-004 多頁退回符號、欄位與文字。先前的「自評達標」已撤回。</p><label for="pick">比較頁面 </label><select id="pick"></select><div><button id="prev">上一頁</button><button id="next">下一頁</button><span id="count"></span></div><section><figure><h2>第一課：使用者指定參考</h2><a href="fab-scene.png" target="_blank"><img src="fab-scene.png" alt="設備上的 FOUP 經局部放大到 Slot 07，再連到 W07 資料欄位"></a><small>點圖開啟完整截圖。AI 生成教學示意。</small></figure><figure><h2 id="title"></h2><a id="link" target="_blank"><img id="candidate" alt="待比較的 MES-004 教學主圖"></a><small>目前啟用版本的桌面主圖，並非新重製成果。</small></figure></section><article><strong>具體落差</strong><p id="problem"></p><strong>應保留與改變</strong><p id="fix"></p></article><p>本頁是桌面視覺比較，非整批重驗；沒有用新分數掩蓋舊評分失準。<a href="COMPARISON.md">完整逐頁紀錄</a></p></main><script>const rows=DATA;const pick=document.querySelector('#pick');rows.forEach((r,i)=>pick.add(new Option(r.id,i)));function show(){const r=rows[Number(pick.value)];document.querySelector('#title').textContent=r.id;document.querySelector('#candidate').src=r.src;document.querySelector('#link').href=r.src;document.querySelector('#problem').textContent=r.problem;document.querySelector('#fix').textContent=r.fix;document.querySelector('#count').textContent=(Number(pick.value)+1)+' / 15';document.querySelector('#prev').disabled=pick.value==='0';document.querySelector('#next').disabled=pick.value==='14';}pick.onchange=show;document.querySelector('#prev').onclick=()=>{pick.value=Number(pick.value)-1;show()};document.querySelector('#next').onclick=()=>{pick.value=Number(pick.value)+1;show()};show();</script></html>'''
+(OUT/'comparison.html').write_text(page.replace('DATA',json.dumps(data,ensure_ascii=False)),encoding='utf-8')
+reviewpath=ROOT/'workitems/mes-004/review.json'
+shutil.copy2(reviewpath,OUT/'MES004-review-before-retraction.json')
+review=json.loads(reviewpath.read_text(encoding='utf-8'))
+review['status']='reopened_quality_rejected'
+review['user_acceptance']='rejected'
+review['retraction']='MES-006: inflated visual/teaching scores withdrawn after comparison to user-selected index.html#fab; historical numbers retained, not completion evidence.'
+for row in review['pages']:
+    problem=next(p for i,p,f in rows if i==row['id'])
+    for width in ['1440','360']:
+        for kind in ['page','scene']:
+            row[width][kind]['open_defects']=['MES-006 design review reopened: '+problem]
+reviewpath.write_text(json.dumps(review,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+log=ROOT/'TEACHING_REVIEW_LOG.md'
+text=log.read_text(encoding='utf-8');head,rest=text.split('\n',1)
+entry='''\n\n## MES-006｜第一課對照後撤回 MES-004 品質通過結論
+
+使用者再次否定精緻度，指定 index.html#fab 為參考。已實看該圖與全部 15 頁主圖；逐頁落差見 [COMPARISON](workitems/mes-006/COMPARISON.md)，可操作 [互比頁](workitems/mes-006/comparison.html)。MES-004 原數值保留為已撤回歷史，其 review.json 狀態改 reopened_quality_rejected，使用者 rejected，15 頁有未解設計缺口，不再可通過完成檢查。
+
+原因：把有 ID、有箭頭、有測試當成圖像已能解釋工作；對既有量表「文字框不是機制證據」執行過寬。G2 工具允許不是品質豁免。第一課有實物→同件放大→欄位定位；重製版多為小符號、資料卡及大片空白。保留有用的配對、譜系、版本差異與情境引擎，重做主視覺。
+
+下一輪使用本次明示參考，以 Chamber／Stage 兩種代表原型檢查具體主體與抽象關係；遮住正文後仍須看得出工作、變化與處置。資料新鮮度需求保留，尚未製作。此次完成互比，沒有把寫紀錄當成新一輪十五頁重製。\n\n'''
+log.write_text(head+entry+rest.lstrip(),encoding='utf-8')
+print('Recorded 15 comparisons and withdrew MES-004 pass status; old scores preserved.')

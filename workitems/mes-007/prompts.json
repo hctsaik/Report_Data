@@ -1,0 +1,87 @@
+{
+  "base": "Create a premium semiconductor training illustration with technically plausible photorealistic materials and precise large Traditional Chinese labels. Bright white/lightgray, navy headline, pale blue framing, thick blue causal arrows only where appropriate. Main concrete objects occupy most area. Exactly three major story regions (four only if specified). No decorative people, icons, logos, page badges, illegible microtext or dense dashboard grid. Not a photograph; provenance「AI 教學示意」. One pale yellow #FFF4CC bottom takeaway. NEVER invent extra process values, identities, versions or completedstates. ",
+  "entries": [
+    [
+      "port",
+      "同樣三片，為什麼不能放行？",
+      "Three zones: realistic amber FOUP F012 docked on ETCH03 Load Port LP1; zoom of its horizontal Slot 07 and wafer identity; two clearly different digital record strips「預期 W07」「實讀 W99」connected to SAME slot. Do not write W99 on physical wafer as known truth, the uncertain scanned identity belongs on reader display. Show wafer count「3 = 3」but identity「W07 ≠ W99」with orange local focus. Other slots not individually labeled to avoid clutter.",
+      "片數相同，身分仍要逐槽核對"
+    ],
+    [
+      "recipe",
+      "配方名稱相同，就能開工嗎？",
+      "Three zones: physical FOUP F012 with clipped Lot L023 traveler request「S40 · ETCH-DEMO v2」; realistic etch tool ETCH03 with control screen「ETCH-DEMO v1」and orange mismatch highlight; same screen after approved matching selection「ETCH-DEMO v2」green outline plus tiny「仍需核對設備資格」. The three zones are requirement, mismatching candidate, matching candidate; draw comparison connectors from requirement to BOTH screens, not implying auto approval. No real recipe parameters.",
+      "名稱相同，不代表版本與資格相同"
+    ],
+    [
+      "state",
+      "設備 Ready，這批仍可能不能做",
+      "Three zones: realistic cleanroom etch machine ETCH03 status lamp green READY; beside physical FOUP F012, Lot L023 traveler with two separate removable orange hold tags「Q01 品質」「E02 工程」; same traveler later with Q01 visibly stamped「已解除」and E02 still attached orange, process entry barrier remains closed. Link first two as separate machine vs lot facts; chronological arrow only between traveler states. No fake physical lock on wafers.",
+      "設備可用，不代表這批可以開工"
+    ],
+    [
+      "handoff",
+      "三片回來了，資料也都到了嗎？",
+      "Three sequential zones with tangible machine and large electronic workrecords: FOUP F012 holding three wafers W06 W07 W08 after etch machine reports「Done」; results received sheet with exactly three rows「W06 Pass」「W07 Pass」「W08 待收」orange missing cell; MES screen shows「Current S40」with connector blocked at missing W08 and separate short condition label「補齊結果 → 完成交易 → S50」. Do NOT show S50 already current. Physical wafers returned does not equal data available. Show local orange highlight tied W08 identity.",
+      "機台完成、資料齊全、過站成功是三件事"
+    ],
+    [
+      "operations-lab",
+      "跟著 F012，走一次現場搬送",
+      "Three successive large realistic cleanroom views: tall stocker rack STK01 holding amber FOUP F012; overhead rail vehicle OHT01 carrying same FOUP F012 beneath on hoist, chronological later; machine ETCH03 Load Port LP1 docked with same F012, last time. Connect scenes with strong blue causal motion arrows. Title says sequence example, show time labels「暫存」「搬送中」「已到站」. Physical samecarrier continuity, no multiple simultaneous F012. Small identity strip Lot L023 with W06/W07/W08 unchanged.",
+      "搬的是載具，追蹤的是批次與晶圓"
+    ],
+    [
+      "step",
+      "同樣清洗，為什麼要記兩次？",
+      "Three regions: large physically recognizable wafer wet clean work module with nozzle, label「CLEAN 清洗作業」; traveler for Lot L023 with earlier flow position S10, completion receipt「S10 · Visit 1 · Pass」; later traveler for same L023 at R10 with empty pending receipt「R10 · Visit 1 · 待收」. Two branch connectors from SAME reusable CLEAN work module to different temporal contexts, not sequential movement of one wafer into two machines. Show used receipt retained vs unfilled new receipt with clearly different evidence.",
+      "作業可以重用，完成證據不能借用"
+    ],
+    [
+      "lot-flow",
+      "一份路線，兩批不同的旅程",
+      "Three zones: large approved master route sheet F-DEMO v1 with exactly S10→S20→S30→S40→S50→S60; branch references downward to two separate realistic amber FOUPs and traveler sheets. Left FOUP F012 traveler Lot L023 with blue current marker at S40 and W06/W07/W08 members; right FOUP F020 traveler Lot L024 with current at S10 and W21/W22 members. Reference arrows not physical transport. Master definition same, localprogress different. Make route diagram large rather than tiny repeated station dots.",
+      "共用流程定義，各批保有自己的進度"
+    ],
+    [
+      "execution",
+      "加工完成，還要完成一次交接",
+      "Four chronological zones tracking Lot L023: FOUP F012 waiting on machine LP1 with「S40 等待」; single wafer physically processing inside etch chamber with「S40 加工中」; physical process done and result report with「S40 待交接」; MES successful completion response on monitor and traveler pointer now「S50 等待」. Blue arrows chronological. Labels concise. No implied S50 processing and do not change current beforetransaction. Show actual process/result/record transformation not four identical boxes.",
+      "加工改狀態，完成交易才推進位置"
+    ],
+    [
+      "branching",
+      "先確認量測有效，再選下一步",
+      "Three major regions: optical measurement head over patterned wafer W08, enlarged feature width bracket; measurement ruler with allowed green band from98to102 and marked measurements100 inside,105outside. label「線寬 nm・假設規格」. Then three alternative routes:100→S60,105→Hold,missing result「缺值 → 補查」. Depict 100nm and105nm actual feature widths to scale, not defectphotographs. Same feature and same unit, dimensions illustrative not realFab. Green pass, orange review, gray unknown.",
+      "先看證據有效，再判斷下一步"
+    ],
+    [
+      "rework",
+      "重工回到原站，紀錄不倒帶",
+      "Three successive large concrete zones: inspection of wafer W08 with receipt「S50 · Visit 1 · Fail」orange and retained original report; approved workorder「RW-001 → R10」beside real wetclean module processing same wafer; secondinspection with two physically separated paper or screen records「Visit 1 Fail 保留」「Visit 2 待判」. Route arrow from inspection through R10 and back to S50 displayed as returnloop, not erasing firstreceipt. No show wafer magically improved, second result deliberately pending. Label max「最多重工 1 次」.",
+      "回到原站重測，保留第一次失敗"
+    ],
+    [
+      "split-merge",
+      "拆成兩批，晶圓沒有變多",
+      "Three major regions in a genealogy story: parent batch management bracket L023 enclosing exactly three realistic separate siliconwafer members W06 W07 W08; branching down to L023-A with W06 W07 and L023-B with W08, management grouping outlines NOT physical carriers. Parent faded marked「歷史」and children solid「活躍」. Third region merge decision with two traveler positions「A：S50」「B：R10」and orange stop on merge arrow「位置不同，先不合批」. Do not draw additional active wafers in mergedtarget. Count visible「2 + 1 = 3」. No duplicate membership.",
+      "分的是批次身分，晶圓沒有複製"
+    ],
+    [
+      "versions",
+      "新版上線，舊批會自動換路嗎？",
+      "Three regions: large aligned route sheet v1 with S40→S50→S60; version v2 route sheet S40→S45→S50→S60 with inserted S45 inspection drawn as physical measurement checkpoint highlightedgold; physical FOUP F012 with Lot L023 traveler showing currently v1/S50, approved migration workorder mapping「v1 / S50 → v2 / S45」then later newtraveler. Mark「核准後」on transition arrow. v2 publication not auto movement. Retain old history sheet underneath. Don't imply bothtimepositionssimultaneous.",
+      "發布新版本，不會自動搬動在製批次"
+    ],
+    [
+      "flow-lab",
+      "拿著這批的工作單，走一次流程",
+      "Three large causal regions: physical FOUP F012 with Lot L023 blank initial traveler; approved route document F-DEMO v1 and productionstations clean,etch,measurement in background with route; future execution records held in ledger with headings「位置」「本次結果」「歷程」 and selectionpointer「先套用核准 Flow」. This is an introductory overview, no actual completedstep or Pass on initialCreatedlot. Show how a workorder references route and collects evidence, not repeatedwafericons.",
+      "看同一批的旅程，依證據決定下一步"
+    ]
+  ],
+  "prototype": {
+    "chamber": "Create a polished semiconductor teaching illustration, 1536x1024 landscape. Traditional Chinese, exact title「晶圓怎麼從 FOUP 進入腔體？」. Match high-end engineering educational illustration, bright white background, navy bold Chinese, very large realistic equipment objects, restrained light blue panel edges. Three major connected views: LEFT translucent amber FOUP F012 with many physically horizontal wafer slots, one highlighted wafer at Slot 06; CENTER close-up clean robot transfer arm holding ONE horizontal wafer W06, blue directional arrow from slot to arm; RIGHT cutaway stainless process chamber CH-A with wafer W06 on chuck, shown as later time, not simultaneous duplicate. Make chronological snapshots very explicit with short labels「取片前」「搬送中」「進入腔體」. Labels also「FOUP F012」「Slot 06」「Wafer W06」「CH-A」. High quality material realism, plausible machine geometry, readable local zoom linking slot and wafer. No fake broad box carrier, no flat oval as chamber, no decorative robots/people, no tiny cards, no logos. Large objects fill visual space. Bottom single pale yellow #FFF4CC takeaway with bold exact text「一片加工完成，不等於整批完成」. Tiny provenance「AI 教學示意・三個連續時點」. Design text legible at 1000px page width. This is a new technical educational image, not a photograph.",
+    "stage": "Create one premium semiconductor training illustration 1536x1024 landscape. Large realistic wafer cross-section illustrations and equipment details, very light background, navy Traditional Chinese text, blue connectors, 3 major grouped zones. Title exact「先看一段工作，再看每一站」. Explain ONE route F-DEMO v1 grouped into three stages. Zone1 header「Stage A 準備」: wet cleaning nozzle over wafer and thin deposited film cross-section; two connected steps「S10 清洗」「S20 成膜」. Zone2 header「Stage B 圖形」: wafer lithography stencil followed by etched trenches in film; two connected steps「S30 微影」「S40 蝕刻」. Zone3 header「Stage C 確認」: optical measurement head looking at same patterned wafer, then completed travel record, steps「S50 量測」「S60 結案」. Connect S10→S20→S30→S40→S50→S60 in correct order; stage grouping large blue bracket. S60 is administrative completion, not a physical process. Same material continuity: film added then patterned then measured, no unexplained different objects. Above S50 a small but clear Lot L023 marker with text「目前在 S50」; show first 4 steps completed, S50 waiting, S60 not completed. Pale yellow bottom single footer exact「Step 是一站，Stage 是一段，Flow 是整條路徑」. Mark「AI 教學示意・非製程配方」. Emphasize large cutaway working material, tangible process change, not a generic flowchart of identical circles and text boxes. Use restrained photorealistic 3D textbook illustration, no decorative people, no logos, no title badges. Keep text short large and legible."
+  }
+}

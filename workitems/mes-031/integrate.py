@@ -1,0 +1,3 @@
+from pathlib import Path
+p=Path('er-atlas.js');s=p.read_text(encoding='utf-8').replace('window.ER_LOT_WAFER.mount();','window.ER_LOT_WAFER.mount();window.ER_MCS.mount();').replace("r.id==='load'?teaching.load.meaning:r.meaning", "r.id==='load'?teaching.load.meaning:r.id==='transfer'?teaching.mcs.meaning:r.meaning");p.write_text(s,encoding='utf-8')
+p=Path('er-atlas.html');s=p.read_text(encoding='utf-8').replace('er-topic-content.js?v=29','er-topic-content.js?v=31').replace('<script defer src="er-atlas.js?v=30">','<link rel="stylesheet" href="er-mcs.css?v=31"><script defer src="er-mcs.js?v=31"></script><script defer src="er-atlas.js?v=31">');p.write_text(s,encoding='utf-8')

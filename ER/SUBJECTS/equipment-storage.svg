@@ -1,0 +1,112 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1656pt" height="340pt" viewBox="0.00 0.00 1656.00 340.00" role="img" aria-label="以 EQP 看交接位置與設備結構 ER 主題圖">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(21.6 318.16)">
+<title>ER</title>
+<polygon fill="white" stroke="none" points="-21.6,21.6 -21.6,-318.16 1634.25,-318.16 1634.25,21.6 -21.6,21.6" />
+
+<g id="e_n_2674_bmir-link_t_99f36f7325f2" class="edge" data-edge="e_n_2674_bmir-link_t_99f36f7325f2">
+<title>n_2674_bmir-link--t_99f36f7325f2</title>
+<path fill="none" stroke="#70869a" stroke-width="1.8" d="M1354.43,-66.78C1369.15,-66.78 1384.25,-66.78 1398.92,-66.78" />
+</g>
+
+<g id="e_n_2674_default-link_t_2544d0d5063d" class="edge" data-edge="e_n_2674_default-link_t_2544d0d5063d">
+<title>n_2674_default-link--t_2544d0d5063d</title>
+<path fill="none" stroke="#70869a" stroke-width="1.8" d="M415.61,-229.78C431.29,-229.78 447.12,-229.78 462.15,-229.78" />
+</g>
+
+<g id="e_n_2674_ohb-link_t_0445f3f5ca10" class="edge" data-edge="e_n_2674_ohb-link_t_0445f3f5ca10">
+<title>n_2674_ohb-link--t_0445f3f5ca10</title>
+<path fill="none" stroke="#70869a" stroke-width="1.8" d="M402.81,-66.78C421.82,-66.78 441.42,-66.78 459.91,-66.78" />
+</g>
+
+<g id="e_n_2674_ohb-status-link_t_19992c01e42e" class="edge" data-edge="e_n_2674_ohb-status-link_t_19992c01e42e">
+<title>n_2674_ohb-status-link--t_19992c01e42e</title>
+<path fill="none" stroke="#70869a" stroke-width="1.8" d="M900.56,-66.78C915.54,-66.78 930.67,-66.78 944.82,-66.78" />
+</g>
+
+<g id="e_n_2674_ohb-status-link_t_0445f3f5ca10" class="edge" data-edge="e_n_2674_ohb-status-link_t_0445f3f5ca10">
+<title>t_0445f3f5ca10--n_2674_ohb-status-link</title>
+<path fill="none" stroke="#70869a" stroke-width="1.8" d="M645.94,-66.78C660.53,-66.78 675.7,-66.78 690.53,-66.78" />
+</g>
+
+<g id="e_n_2674_bmir-link_t_19992c01e42e" class="edge" data-edge="e_n_2674_bmir-link_t_19992c01e42e">
+<title>t_19992c01e42e--n_2674_bmir-link</title>
+<path fill="none" stroke="#70869a" stroke-width="1.8" d="M1089.78,-66.78C1103.94,-66.78 1119.1,-66.78 1134.18,-66.78" />
+</g>
+
+<g id="e_n_2674_default-link_t_7f282520afb8" class="edge" data-edge="e_n_2674_default-link_t_7f282520afb8">
+<title>t_7f282520afb8--n_2674_default-link</title>
+<path fill="none" stroke="#70869a" stroke-width="1.8" d="M126.17,-170.4C154.56,-180.6 188.28,-192.7 217.84,-203.31" />
+</g>
+
+<g id="e_n_2674_ohb-link_t_7f282520afb8" class="edge" data-edge="e_n_2674_ohb-link_t_7f282520afb8">
+<title>t_7f282520afb8--n_2674_ohb-link</title>
+<path fill="none" stroke="#70869a" stroke-width="1.8" d="M126.17,-125.43C156.02,-114.85 191.74,-102.18 222.34,-91.33" />
+</g>
+
+<g id="n_2674_bmir-link" class="node" data-node="n_2674_bmir-link" role="button" tabindex="0" aria-label="設定 BMIR / OHB_ID">
+<title>n_2674_bmir-link</title>
+<polygon fill="#ffffff" stroke="#6a7d8e" stroke-width="2" points="1244.32,-133.56 1135.78,-66.78 1244.32,0 1352.86,-66.78 1244.32,-133.56" />
+<text xml:space="preserve" text-anchor="middle" x="1244.32" y="-74.43" font-family="Microsoft JhengHei" font-size="18.00">設定 BMIR</text>
+<text xml:space="preserve" text-anchor="middle" x="1244.32" y="-49.68" font-family="Microsoft JhengHei" font-size="18.00">OHB_ID</text>
+</g>
+
+<g id="n_2674_default-link" class="node" data-node="n_2674_default-link" role="button" tabindex="0" aria-label="Default STK / eqp_id">
+<title>n_2674_default-link</title>
+<polygon fill="#ffffff" stroke="#6a7d8e" stroke-width="2" points="292.58,-296.56 171.29,-229.78 292.58,-163 413.87,-229.78 292.58,-296.56" />
+<text xml:space="preserve" text-anchor="middle" x="292.58" y="-237.43" font-family="Microsoft JhengHei" font-size="18.00">Default STK</text>
+<text xml:space="preserve" text-anchor="middle" x="292.58" y="-212.68" font-family="Microsoft JhengHei" font-size="18.00">eqp_id</text>
+</g>
+
+<g id="n_2674_ohb-link" class="node" data-node="n_2674_ohb-link" role="button" tabindex="0" aria-label="設定 OHB / EQPSTKID">
+<title>n_2674_ohb-link</title>
+<polygon fill="#ffffff" stroke="#6a7d8e" stroke-width="2" points="292.58,-133.56 184.04,-66.78 292.58,0 401.12,-66.78 292.58,-133.56" />
+<text xml:space="preserve" text-anchor="middle" x="292.58" y="-74.43" font-family="Microsoft JhengHei" font-size="18.00">設定 OHB</text>
+<text xml:space="preserve" text-anchor="middle" x="292.58" y="-49.68" font-family="Microsoft JhengHei" font-size="18.00">EQPSTKID</text>
+</g>
+
+<g id="n_2674_ohb-status-link" class="node" data-node="n_2674_ohb-status-link" role="button" tabindex="0" aria-label="OHB 狀況 / OHB_ID">
+<title>n_2674_ohb-status-link</title>
+<polygon fill="#ffffff" stroke="#6a7d8e" stroke-width="2" points="795.45,-133.56 692.16,-66.78 795.45,0 898.74,-66.78 795.45,-133.56" />
+<text xml:space="preserve" text-anchor="middle" x="795.45" y="-74.43" font-family="Microsoft JhengHei" font-size="18.00">OHB 狀況</text>
+<text xml:space="preserve" text-anchor="middle" x="795.45" y="-49.68" font-family="Microsoft JhengHei" font-size="18.00">OHB_ID</text>
+</g>
+
+<g id="t_0445f3f5ca10" class="node" data-node="t_0445f3f5ca10" role="button" tabindex="0" aria-label="機群 OHB / Siview.csfrohb_eqp">
+<title>t_0445f3f5ca10</title>
+<polygon fill="#fff6eb" stroke="#b26018" stroke-width="2" points="645.16,-100.17 460.87,-100.17 460.87,-33.39 645.16,-33.39 645.16,-100.17" />
+<text xml:space="preserve" text-anchor="middle" x="553.01" y="-74.43" font-family="Microsoft JhengHei" font-size="18.00">機群 OHB</text>
+<text xml:space="preserve" text-anchor="middle" x="553.01" y="-49.68" font-family="Microsoft JhengHei" font-size="18.00">Siview.csfrohb_eqp</text>
+</g>
+
+<g id="t_19992c01e42e" class="node" data-node="t_19992c01e42e" role="button" tabindex="0" aria-label="OHB 狀況 / Siview.csfrohb">
+<title>t_19992c01e42e</title>
+<polygon fill="#fff6eb" stroke="#b26018" stroke-width="2" points="1088.78,-100.17 945.74,-100.17 945.74,-33.39 1088.78,-33.39 1088.78,-100.17" />
+<text xml:space="preserve" text-anchor="middle" x="1017.26" y="-74.43" font-family="Microsoft JhengHei" font-size="18.00">OHB 狀況</text>
+<text xml:space="preserve" text-anchor="middle" x="1017.26" y="-49.68" font-family="Microsoft JhengHei" font-size="18.00">Siview.csfrohb</text>
+</g>
+
+<g id="t_2544d0d5063d" class="node" data-node="t_2544d0d5063d" role="button" tabindex="0" aria-label="機台的 Default STK / Siview.csfreqp_stk">
+<title>t_2544d0d5063d</title>
+<polygon fill="#fff6eb" stroke="#b26018" stroke-width="2" points="642.91,-263.17 463.12,-263.17 463.12,-196.39 642.91,-196.39 642.91,-263.17" />
+<text xml:space="preserve" text-anchor="middle" x="553.01" y="-237.43" font-family="Microsoft JhengHei" font-size="18.00">機台的 Default STK</text>
+<text xml:space="preserve" text-anchor="middle" x="553.01" y="-212.68" font-family="Microsoft JhengHei" font-size="18.00">Siview.csfreqp_stk</text>
+</g>
+
+<g id="t_7f282520afb8" class="node" data-node="t_7f282520afb8" role="button" tabindex="0" aria-label="機台 / Siview.freqp / EQP">
+<title>t_7f282520afb8</title>
+<polygon fill="#fff6eb" stroke="#b26018" stroke-width="4" points="124.29,-205.92 0,-205.92 0,-89.64 124.29,-89.64 124.29,-205.92" />
+<text xml:space="preserve" text-anchor="middle" x="62.14" y="-180.18" font-family="Microsoft JhengHei" font-size="18.00">本圖主詞</text>
+<text xml:space="preserve" text-anchor="middle" x="62.14" y="-155.43" font-family="Microsoft JhengHei" font-size="18.00">機台</text>
+<text xml:space="preserve" text-anchor="middle" x="62.14" y="-130.68" font-family="Microsoft JhengHei" font-size="18.00">Siview.freqp</text>
+<text xml:space="preserve" text-anchor="middle" x="62.14" y="-105.93" font-family="Microsoft JhengHei" font-size="18.00">EQP</text>
+</g>
+
+<g id="t_99f36f7325f2" class="node" data-node="t_99f36f7325f2" role="button" tabindex="0" aria-label="BMIR / SIVIEW.CSFROHB_CFG">
+<title>t_99f36f7325f2</title>
+<polygon fill="#fff6eb" stroke="#b26018" stroke-width="2" points="1612.65,-100.17 1399.86,-100.17 1399.86,-33.39 1612.65,-33.39 1612.65,-100.17" />
+<text xml:space="preserve" text-anchor="middle" x="1506.25" y="-74.43" font-family="Microsoft JhengHei" font-size="18.00">BMIR</text>
+<text xml:space="preserve" text-anchor="middle" x="1506.25" y="-49.68" font-family="Microsoft JhengHei" font-size="18.00">SIVIEW.CSFROHB_CFG</text>
+</g>
+</g>
+</svg>

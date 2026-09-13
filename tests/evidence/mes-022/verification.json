@@ -1,0 +1,14 @@
+[
+  {
+    "width": 1440,
+    "history_label_time_wafer_split_merge": "pass",
+    "route_and_prior_correction": "pass",
+    "errors": []
+  },
+  {
+    "width": 390,
+    "history_label_time_wafer_split_merge": "pass",
+    "route_and_prior_correction": "pass",
+    "errors": []
+  }
+]

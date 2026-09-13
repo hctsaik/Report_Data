@@ -1,0 +1,137 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2900" height="1570" viewBox="0 0 2900 1570" role="img" aria-labelledby="title desc">
+<title id="title">WIP、機群、機況與 OEE</title>
+<desc id="desc">依照片 2675.jpg 重畫；矩形、菱形、圓形及無向連線保留。原先不清楚的文字已由使用者確認。</desc>
+<style>text{font-family:"Microsoft JhengHei","Noto Sans TC",Arial,sans-serif;fill:#182635}.label{font-size:21px;font-weight:600}.detail{font-size:19px}.issue{fill:#a34c00;font-size:16px;font-weight:700}.edge{fill:none;stroke:#34485c;stroke-width:3;stroke-linejoin:round;stroke-linecap:round}.shape{stroke:#63798d;stroke-width:2;fill:white}</style>
+<rect width="2900" height="1570" fill="white"/>
+<text x="48" y="48" font-size="28" font-weight="700">2675 · WIP、機群、機況與 OEE</text>
+<text x="48" y="82" font-size="17" fill="#52657a">原圖結構重繪 · 文字與線條均可編輯 · 原圖疑義文字已確認</text>
+<g id="connections">
+<polyline id="edge-1" class="edge" data-from="wip-history" data-to="wip-link" points="1000,276.0 1000,365.0"/>
+<polyline id="edge-2" class="edge" data-from="wip-link" data-to="lot" points="1000,535.0 1000,694.0"/>
+<polyline id="edge-3" class="edge" data-from="lot" data-to="all-actions" points="1000,806.0 1000,1025.0"/>
+<polyline id="edge-4" class="edge" data-from="all-actions" data-to="history" points="1000,1195.0 1000,1364.0"/>
+<polyline id="edge-5" class="edge" data-from="status-link" data-to="status" points="1420,1195.0 1420,1364.0"/>
+<polyline id="edge-6" class="edge" data-from="eqp-oee-link" data-to="eqp-oee" points="1840,1195.0 1840,1364.0"/>
+<polyline id="edge-7" class="edge" data-from="group-oee-link" data-to="group-oee" points="2260,1195.0 2260,1364.0"/>
+<polyline id="edge-8" class="edge" data-from="group-history-link" data-to="group-history" points="2680,1195.0 2680,1364.0"/>
+<polyline id="edge-9" class="edge" data-from="move" data-to="move-link" points="400.0,750 460.0,750"/>
+<polyline id="edge-10" class="edge" data-from="move-link" data-to="lot" points="760.0,750 850.0,750"/>
+<polyline id="edge-11" class="edge" data-from="lot" data-to="group-link" points="1150.0,750 1265.0,750"/>
+<polyline id="edge-12" class="edge" data-from="group-link" data-to="eqp" points="1615.0,750 1690.0,750"/>
+<polyline id="edge-13" class="edge" data-from="chamber-link" data-to="chamber" points="1615.0,450 1690.0,450"/>
+<polyline id="edge-14" class="edge" data-from="eqp" data-to="virtual-link" points="2050.0,750 2115.0,750"/>
+<polyline id="edge-15" class="edge" data-from="virtual-link" data-to="virtual" points="2485.0,750 2515.0,750"/>
+<polyline id="edge-16" class="edge" data-from="lot" data-to="chamber-link" points="1150.0,750 1220,750 1220,590 1440,590 1440,535.0"/>
+<polyline id="edge-17" class="edge" data-from="move-link" data-to="history" points="610,835.0 610,1420 830.0,1420"/>
+<polyline id="edge-18" class="edge" data-from="eqp" data-to="status-link" points="1870,806.0 1870,930 1420,930 1420,1025.0"/>
+<polyline id="edge-19" class="edge" data-from="eqp" data-to="eqp-oee-link" points="1870,806.0 1870,930 1840,930 1840,1025.0"/>
+<polyline id="edge-20" class="edge" data-from="eqp" data-to="group-oee-link" points="1870,806.0 1870,930 2260,930 2260,1025.0"/>
+<polyline id="edge-21" class="edge" data-from="eqp" data-to="group-history-link" points="1870,806.0 1870,930 2680,930 2680,1025.0"/>
+</g><g id="nodes">
+<g id="wip-history" data-kind="rect" data-x="1000" data-y="220" data-w="390" data-h="112">
+<rect class="shape" x="805.0" y="164.0" width="390" height="112"/>
+<text class="label" x="1000" y="206" text-anchor="middle" dominant-baseline="central">星期一的七點二十分的 WIP</text>
+<text class="detail" x="1000" y="234" text-anchor="middle" dominant-baseline="central">KER_WIP_Y_BTH</text>
+</g>
+<g id="wip-link" data-kind="diamond" data-x="1000" data-y="450" data-w="300" data-h="170">
+<polygon class="shape" points="1000,365.0 1150.0,450 1000,535.0 850.0,450"/>
+<text class="label" x="1000" y="436" text-anchor="middle" dominant-baseline="central">歷史 WIP</text>
+<text class="detail" x="1000" y="464" text-anchor="middle" dominant-baseline="central">Lot_ID</text>
+</g>
+<g id="move" data-kind="rect" data-x="220" data-y="750" data-w="360" data-h="112">
+<rect class="shape" x="40.0" y="694.0" width="360" height="112"/>
+<text class="label" x="220" y="736" text-anchor="middle" dominant-baseline="central">MOVE 歷史</text>
+<text class="detail" x="220" y="764" text-anchor="middle" dominant-baseline="central">F12DM.DM_Move_Step_bth</text>
+</g>
+<g id="move-link" data-kind="diamond" data-x="610" data-y="750" data-w="300" data-h="170">
+<polygon class="shape" points="610,665.0 760.0,750 610,835.0 460.0,750"/>
+<text class="label" x="610" y="736" text-anchor="middle" dominant-baseline="central">機台 MOVE</text>
+<text class="detail" x="610" y="764" text-anchor="middle" dominant-baseline="central">Lot_id</text>
+</g>
+<g id="lot" data-kind="rect" data-x="1000" data-y="750" data-w="300" data-h="112">
+<rect class="shape" x="850.0" y="694.0" width="300" height="112" style="fill:#d4ebff;stroke:#2585c6;stroke-width:3"/>
+<text class="label" x="1000" y="736" text-anchor="middle" dominant-baseline="central">LOT</text>
+<text class="detail" x="1000" y="764" text-anchor="middle" dominant-baseline="central">KER_WIP_BT</text>
+</g>
+<g id="chamber-link" data-kind="diamond" data-x="1440" data-y="450" data-w="350" data-h="170">
+<polygon class="shape" points="1440,365.0 1615.0,450 1440,535.0 1265.0,450"/>
+<text class="label" x="1440" y="436" text-anchor="middle" dominant-baseline="central">機群與機台 Ch</text>
+<text class="detail" x="1440" y="464" text-anchor="middle" dominant-baseline="central">EQP_GRP</text>
+</g>
+<g id="chamber" data-kind="rect" data-x="1870" data-y="450" data-w="360" data-h="112">
+<rect class="shape" x="1690.0" y="394.0" width="360" height="112"/>
+<text class="label" x="1870" y="436" text-anchor="middle" dominant-baseline="central">Chamber</text>
+<text class="detail" x="1870" y="464" text-anchor="middle" dominant-baseline="central">ker_dm_sub_ch_eqp_grp_bt</text>
+</g>
+<g id="group-link" data-kind="diamond" data-x="1440" data-y="750" data-w="350" data-h="170">
+<polygon class="shape" points="1440,665.0 1615.0,750 1440,835.0 1265.0,750"/>
+<text class="label" x="1440" y="736" text-anchor="middle" dominant-baseline="central">機群與機台</text>
+<text class="detail" x="1440" y="764" text-anchor="middle" dominant-baseline="central">EQP_GRP</text>
+</g>
+<g id="eqp" data-kind="rect" data-x="1870" data-y="750" data-w="360" data-h="112">
+<rect class="shape" x="1690.0" y="694.0" width="360" height="112"/>
+<text class="label" x="1870" y="736" text-anchor="middle" dominant-baseline="central">機台</text>
+<text class="detail" x="1870" y="764" text-anchor="middle" dominant-baseline="central">KER_EMP_EQP_GRP_CAP_UT</text>
+</g>
+<g id="virtual-link" data-kind="diamond" data-x="2300" data-y="750" data-w="370" data-h="170">
+<polygon class="shape" points="2300,665.0 2485.0,750 2300,835.0 2115.0,750"/>
+<text class="label" x="2300" y="736" text-anchor="middle" dominant-baseline="central">屬於哪個虛擬群組</text>
+<text class="detail" x="2300" y="764" text-anchor="middle" dominant-baseline="central">DYNAMIC_SQL</text>
+</g>
+<g id="virtual" data-kind="rect" data-x="2700" data-y="750" data-w="370" data-h="112">
+<rect class="shape" x="2515.0" y="694.0" width="370" height="112"/>
+<text class="label" x="2700" y="736" text-anchor="middle" dominant-baseline="central">虛擬 Group (*ALL)</text>
+<text class="detail" x="2700" y="764" text-anchor="middle" dominant-baseline="central">KER_VR_EQP_GRP_DETAIL_BT</text>
+</g>
+<g id="all-actions" data-kind="diamond" data-x="1000" data-y="1110" data-w="340" data-h="170">
+<polygon class="shape" points="1000,1025.0 1170.0,1110 1000,1195.0 830.0,1110"/>
+<text class="label" x="1000" y="1096" text-anchor="middle" dominant-baseline="central">Lot 所有動作</text>
+<text class="detail" x="1000" y="1124" text-anchor="middle" dominant-baseline="central">Lot_ID</text>
+</g>
+<g id="history" data-kind="rect" data-x="1000" data-y="1420" data-w="340" data-h="112">
+<rect class="shape" x="830.0" y="1364.0" width="340" height="112"/>
+<text class="label" x="1000" y="1406" text-anchor="middle" dominant-baseline="central">批貨歷史</text>
+<text class="detail" x="1000" y="1434" text-anchor="middle" dominant-baseline="central">Siview.FHOPEHS_S</text>
+</g>
+<g id="status-link" data-kind="diamond" data-x="1420" data-y="1110" data-w="300" data-h="170">
+<polygon class="shape" points="1420,1025.0 1570.0,1110 1420,1195.0 1270.0,1110"/>
+<text class="label" x="1420" y="1096" text-anchor="middle" dominant-baseline="central">目前機況</text>
+<text class="detail" x="1420" y="1124" text-anchor="middle" dominant-baseline="central">EQP_ID</text>
+</g>
+<g id="status" data-kind="rect" data-x="1420" data-y="1420" data-w="340" data-h="112">
+<rect class="shape" x="1250.0" y="1364.0" width="340" height="112"/>
+<text class="label" x="1420" y="1406" text-anchor="middle" dominant-baseline="central">機台機況</text>
+<text class="detail" x="1420" y="1434" text-anchor="middle" dominant-baseline="central">KER_EQP_STATUS_BT</text>
+</g>
+<g id="eqp-oee-link" data-kind="diamond" data-x="1840" data-y="1110" data-w="300" data-h="170">
+<polygon class="shape" points="1840,1025.0 1990.0,1110 1840,1195.0 1690.0,1110"/>
+<text class="label" x="1840" y="1096" text-anchor="middle" dominant-baseline="central">機台歷史 OEE</text>
+<text class="detail" x="1840" y="1124" text-anchor="middle" dominant-baseline="central">EQP_ID</text>
+</g>
+<g id="eqp-oee" data-kind="rect" data-x="1840" data-y="1420" data-w="340" data-h="112">
+<rect class="shape" x="1670.0" y="1364.0" width="340" height="112"/>
+<text class="label" x="1840" y="1406" text-anchor="middle" dominant-baseline="central">機台 OEE 歷史</text>
+<text class="detail" x="1840" y="1434" text-anchor="middle" dominant-baseline="central">Ker_Eqp_Aaa_Oee_Ut</text>
+</g>
+<g id="group-oee-link" data-kind="diamond" data-x="2260" data-y="1110" data-w="350" data-h="170">
+<polygon class="shape" points="2260,1025.0 2435.0,1110 2260,1195.0 2085.0,1110"/>
+<text class="label" x="2260" y="1096" text-anchor="middle" dominant-baseline="central">機群目前 OEE</text>
+<text class="detail" x="2260" y="1124" text-anchor="middle" dominant-baseline="central">EQP_GRP</text>
+</g>
+<g id="group-oee" data-kind="rect" data-x="2260" data-y="1420" data-w="340" data-h="112">
+<rect class="shape" x="2090.0" y="1364.0" width="340" height="112"/>
+<text class="label" x="2260" y="1406" text-anchor="middle" dominant-baseline="central">機群目前 OEE</text>
+<text class="detail" x="2260" y="1434" text-anchor="middle" dominant-baseline="central">ker_dm_bt</text>
+</g>
+<g id="group-history-link" data-kind="diamond" data-x="2680" data-y="1110" data-w="350" data-h="170">
+<polygon class="shape" points="2680,1025.0 2855.0,1110 2680,1195.0 2505.0,1110"/>
+<text class="label" x="2680" y="1096" text-anchor="middle" dominant-baseline="central">機群歷史 OEE</text>
+<text class="detail" x="2680" y="1124" text-anchor="middle" dominant-baseline="central">EQP_ID</text>
+</g>
+<g id="group-history" data-kind="rect" data-x="2680" data-y="1420" data-w="340" data-h="112">
+<rect class="shape" x="2510.0" y="1364.0" width="340" height="112"/>
+<text class="label" x="2680" y="1406" text-anchor="middle" dominant-baseline="central">機群 OEE 歷史</text>
+<text class="detail" x="2680" y="1434" text-anchor="middle" dominant-baseline="central">Ker_Dm_Hourly_Bth</text>
+</g>
+</g>
+</svg>
