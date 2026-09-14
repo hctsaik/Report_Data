@@ -1,8 +1,12 @@
+# MES Learning Lab
+
+**線上教學網站：[https://hctsaik.github.io/Report_Data/](https://hctsaik.github.io/Report_Data/)**
+
+點上方網址即可開啟 GitHub Pages 教學網站。
+
 最新：整合 ER 支援選主詞後重新展開關聯小圖（Lot／FOUP／EQP／Flow／Recipe），可點小圖改換主詞。入口 http://127.0.0.1:4175/er-atlas.html?view=original 。[MES-017 紀錄](workitems/mes-017/REVIEW.md)。
 
 本輪新增：[CW](support.html#cw) · [Sub Route／追加量測](support.html#subroute) · [Move](support.html#move) · [MON／PM／EMS](support.html#monitor)。檢查紀錄：[MES-010 REVIEW](workitems/mes-010/REVIEW.md)。
-
-﻿# MES Learning Lab
 
 給 Fab 新手的四部分互動教材，加上時間、路徑與配方延伸章。純 HTML/CSS/JavaScript，情境只在瀏覽器內模擬。
 
