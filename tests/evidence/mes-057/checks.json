@@ -1,0 +1,38 @@
+{
+  "checks": [
+    "1440 exact deep link",
+    "1440 no incorrect course unit",
+    "1440 question unit preserved",
+    "1440 Lot topic unit preserved",
+    "1440 diagram visible in first screen",
+    "1440 jump to explanation",
+    "1440 original download available",
+    "1440 legend available",
+    "1440 text encoding",
+    "1440 no overflow",
+    "390 exact deep link",
+    "390 no incorrect course unit",
+    "390 question unit preserved",
+    "390 Lot topic unit preserved",
+    "390 diagram visible in first screen",
+    "390 jump to explanation",
+    "390 original download available",
+    "390 legend available",
+    "390 text encoding",
+    "390 no overflow",
+    "ER/INTEGRATED/fab-er-v2.svg unchanged (Git newline normalization)",
+    "ER/INTEGRATED/er-model-v2.json unchanged (Git newline normalization)",
+    "No JavaScript errors"
+  ],
+  "metrics": {
+    "1440": {
+      "canvas_top": 554.9375,
+      "visible_height": 445.0625
+    },
+    "390": {
+      "canvas_top": 746.953125,
+      "visible_height": 253.046875
+    }
+  },
+  "errors": []
+}

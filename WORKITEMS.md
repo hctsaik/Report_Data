@@ -1,3 +1,7 @@
+# MES-057 ER 頁面重製
+
+主詞與搜尋集中、總圖提前顯示、圖例/來源說明收合、解說快速跳轉。一般ER不再誤歸單元8，questions仍保留。343回歸及23專項通過，證據tests/evidence/mes-057；讀workitems/mes-057/REVIEW.md。原SVG/JSON未變。使用者審閱pending，不宣稱品質分數。
+
 # MES-054 全站課程架構已實作
 
 入口learning.html；index無錨點轉總覽，旧教材錨點相容。共用catalog十單元/三路線、五現場任務、獨立topic與ER共用定義、統一site-shell導航/來源返回/前後教材/進度。讀workitems/mes-054/REVIEW.md及TEST-REPORT.md。檢查workitems/mes-054/check.py、check_lab.py、check_journeys.py、check_topics.py、check_persistence.py。原ER保留，FRPORT_UDATA不回課綱，Stream歷史註記。244頁面操作、132情境狀態、92主題視圖已驗證；真人學習效果與使用者審閱pending。一次性integrate/refine/extract/finish腳本不重跑。

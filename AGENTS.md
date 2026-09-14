@@ -1,3 +1,7 @@
+# MES-057 ER 頁面重製
+
+主詞與搜尋集中、總圖提前顯示、圖例/來源說明收合、解說快速跳轉。一般ER不再誤歸單元8，questions仍保留。343回歸及23專項通過，證據tests/evidence/mes-057；讀workitems/mes-057/REVIEW.md。原SVG/JSON未變。使用者審閱pending，不宣稱品質分數。
+
 # MES-056 ER上下版面
 
 所有ER介紹採上總圖／下關聯與教學，選主詞自動放大置中；全圖按鈕保留介紹，回目前主詞恢復聚焦。手機不倒序。沿線點選也同步下圖。觸控pointerup時不可立即捲頁，避免相容click誤觸工具列。讀workitems/mes-056/REVIEW.md；check.py共343項通過，證據tests/evidence/mes-056。原SVG/JSON不變；implement.py與sync_walk.py為一次性工具，不重跑。使用者審閱pending。
